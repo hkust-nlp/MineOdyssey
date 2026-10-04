@@ -1,0 +1,32 @@
+services:
+  main:
+    networks: [agent-public]
+    volumes:
+      - navigation-api:/run/navigation:ro
+    depends_on:
+      world:
+        condition: service_healthy
+  world:
+    build:
+      context: ${CONTEXT_DIR}/world
+    shm_size: 1gb
+    cap_add: [SYS_ADMIN, NET_ADMIN]
+    security_opt:
+      - seccomp:unconfined
+      - apparmor:unconfined
+      - label:disable
+    mem_limit: 12g
+    cpus: 4
+    volumes:
+      - navigation-api:/run/navigation
+    network_mode: none
+    healthcheck:
+      test: [CMD, python3, /opt/harbor-nav/gateway.py, --healthcheck]
+      interval: 3s
+      timeout: 5s
+      retries: 10
+    stop_grace_period: 30s
+volumes:
+  navigation-api:
+networks:
+  agent-public:

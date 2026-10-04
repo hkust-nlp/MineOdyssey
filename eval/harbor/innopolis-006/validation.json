@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "validated_on": "2026-10-03",
+  "task_id": "innopolis-006",
+  "harbor_version": "0.23.0",
+  "environment": "Linux x86_64 / rootless Podman / Mesa CPU",
+  "actual_formal_run_alignment": {
+    "status": "runtime_verified_glm_trials_finished",
+    "baseline": "Actual historical formal GLM 5.3 Flash max receipts and public journals",
+    "fixture": "tests/fixtures/navigation_formal_glm.json",
+    "system_prompt_sha256": "e46a9f5101652881fc270a29dc706fc5ae0fde1ea94d502dde0288fea00930ed",
+    "agent": {
+      "allow_model_observe_toggle": false,
+      "auto_summarize_token_threshold": 200000,
+      "auto_summarize_turn_threshold": 100,
+      "bash_timeout_sec": 300,
+      "default_periodic_observe": false,
+      "llm_max_retries": 0,
+      "llm_timeout_sec": 600,
+      "max_consecutive_llm_failures": 3,
+      "max_conversation_rounds": 0,
+      "max_images_in_context": 100,
+      "observation_mode": "event_only",
+      "observe_interval_sec": 5,
+      "six_view_enabled": false
+    },
+    "limits": {
+      "max_assistant_steps": 500,
+      "max_deaths": 1,
+      "watchdog_timeout_sec": 21600
+    },
+    "eval_setting": {
+      "coordinate_lock_enabled": true,
+      "guideline": false,
+      "hud_enabled": false,
+      "navigation_hints_enabled": false,
+      "player_scale": 1.0,
+      "resource_pack_and_shader": false,
+      "six_view_enabled": false,
+      "third_person": false,
+      "time": "noon",
+      "weather": "clear"
+    },
+    "model_parameters": {
+      "action_protocol": "tool_calls",
+      "api_protocol": "chat_completions",
+      "max_tokens": 32000,
+      "model_id": "glm-5.3-flash",
+      "reasoning_effort": "max",
+      "thinking": {
+        "type": "enabled"
+      }
+    },
+    "coordinate_lock_policy_version": "xaero-coordinate-filter-v2",
+    "generic_agents_have_independent_policies": true
+  },
+  "tests": {
+    "python_passed": 176,
+    "java_passed": 6,
+    "shell_syntax": "passed",
+    "instruction_generation": "passed",
+    "watchdog_boundary": "5400 and 21599.9 seconds continue; 21600 seconds is unscored wall_clock_watchdog",
+    "step_limit": "scored navigation end"
+  },
+  "native_live_smoke": {
+    "task_id": "innopolis-008",
+    "provider": "scripted_local_not_a_navigation_model",
+    "requests": 12,
+    "injected_http_500": 1,
+    "successful_responses": 11,
+    "native_tool_schema_verified": true,
+    "actual_prompt_hash_verified": true,
+    "blocked_waypoint_screen_attempts": 2,
+    "map_screenshot_xyz_hidden": true,
+    "screenshot_size": [
+      800,
+      600
+    ],
+    "persistent_action_file_read": "preserved",
+    "async_interruption_verified": true,
+    "terminal_reason": "claim_attempts_exhausted",
+    "infrastructure_error": false,
+    "harbor_exceptions": 0,
+    "expected_reward": 0,
+    "actual_reward": 0,
+    "active_transport_errors": 0,
+    "post_terminal_cleanup_transport_errors": 8,
+    "model_metadata": "actual scripted model recorded in both trusted run.json copies",
+    "agent_location": "historical_host_agent_before_container_migration"
+  },
+  "glm_rerun": {
+    "status": "finished",
+    "whole_trial_retries": 0,
+    "tasks": [
+      "hofburg-003",
+      "innopolis-008",
+      "wurzburg-007"
+    ],
+    "all_effective_policy_and_model_parameters_match": true,
+    "actual_journal_prompt_hashes_match": true,
+    "all_game_coordinate_guards_enabled": true,
+    "final_navigation_outcomes": [
+      {
+        "task_id": "hofburg-003",
+        "terminal_reason": "out_of_bounds",
+        "reward": 0,
+        "infrastructure_error": false
+      },
+      {
+        "task_id": "innopolis-008",
+        "terminal_reason": "death",
+        "reward": 0,
+        "infrastructure_error": false
+      },
+      {
+        "task_id": "wurzburg-007",
+        "terminal_reason": "wall_clock_watchdog",
+        "reward": null,
+        "infrastructure_error": true
+      }
+    ],
+    "agent_location": "historical_host_agent_before_container_migration"
+  },
+  "anonymity": {
+    "scan_findings": 0,
+    "waypoint_corrections_retained": 9,
+    "git_history_included": false,
+    "credentials_and_raw_runs_included": false
+  },
+  "historical_evidence": {
+    "prior_isolation_test": "2026-09-29: 19 command checks including agent-side score tampering; trusted reward 0",
+    "prior_xml_trials": "Preserved privately as diagnostics; not relabeled as formal native runs",
+    "old_profile_maintenance_stops": "Innopolis and Wurzburg old-profile trials interrupted unscored for this migration"
+  },
+  "limits": [
+    "No completed successful GLM navigation is claimed",
+    "Docker backend and uncached Harbor build not validated here",
+    "Generic agents do not automatically inherit the original Agent policy",
+    "Transport latency can change trajectories despite matched policies"
+  ],
+  "artifact_sha256": "41eeed349570876cd554a7b5c46ec787c815d8dcafb9cca1e942a0e74fcbc184",
+  "file_sha256": {
+    "README.md": "b1cec8b82722ac94f3058f0683eb832a7f71da243803dbc296c54bda97683a74",
+    "environment/Dockerfile": "6297a4b36d6ef35b7048047b7ad70e4d76f00ac25ec818b6315e749a23ac5993",
+    "environment/docker-compose.yaml": "95273eb42b77af50b0b2d5a358c8454b2f9ada63ccbd8391c571aeaa2077d6d9",
+    "environment/nav.py": "0fe7cbe34cd87bec90db67767116b275af0af65643ffc7c892cdc03bac3d0a54",
+    "environment/world/.gitignore": "4e2d61baa2cdce7c2dc8dd45ed76a8dae63936691c319d56760d7ff8adf239c2",
+    "environment/world/Dockerfile": "868044fbc6fdbaa3019785c50d287e3006b9eb40f65a7b5f37263c0792525ee1",
+    "environment/world/assets/.gitignore": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d",
+    "environment/world/gateway.py": "a34a0dddde3b103c66996c4b85c32c4802c5215526ecbc91006e7885cea57afa",
+    "environment/world/task-spec.json": "7f2e722badd958f7350b0f38e5a73bbb230ed9bafd8bc1f21649ddd0f53a4055",
+    "instruction.md": "30762b961f7db5c5f8c08162b6f57f6e240219e079f03e7112522d859bedbae5",
+    "task.toml": "672aef4629d714884b641425336e6342eebd6a0a66068de3ad83b583a56d475f",
+    "tests/Dockerfile": "971e1dbf8f857ab83094d8ad80e1807852c58b1e0fd97c47c86bfe9c99c74169",
+    "tests/task-spec.json": "7f2e722badd958f7350b0f38e5a73bbb230ed9bafd8bc1f21649ddd0f53a4055",
+    "tests/test.sh": "7f33217366dd04893aed26b1cb6cd526ad1fc4b64d0e0c8ac283da39fb61dc32",
+    "tests/verify.py": "47fa91a2005f480b24716b0e0645107fa4eb5a9b32d24e03daedbf65b42b3721"
+  },
+  "harbor_boundary_fixes": {
+    "status": "unit_completion_replay_and_live_smoke_passed",
+    "python_regressions_passed": 68,
+    "unchanged_core_files": 181,
+    "sync_cli_timeout_sec": {
+      "default": 30,
+      "maximum": 120,
+      "larger_values": "rejected_before_action"
+    },
+    "original_async_exec_timeout_sec": 300,
+    "verifier_import_path": "eval.harbor_agents.verifier:NavigationVerifier",
+    "launcher_selects_navigation_verifier": true,
+    "completion_replay": {
+      "source": "three completed formal GLM runs",
+      "container_execution": "mocked",
+      "actual_harbor_reward_parser": true,
+      "scored_rewards_unchanged": true,
+      "watchdog_exception": "NavigationInfrastructureError",
+      "watchdog_reward": null
+    },
+    "live_smoke": {
+      "task_id": "innopolis-008",
+      "provider": "scripted_local_not_a_navigation_model",
+      "reject_300_before_action": true,
+      "accept_120": true,
+      "real_remote_bash_timeout": true,
+      "requests": 3,
+      "terminal_reason": "llm_failure_limit",
+      "infrastructure_error": true,
+      "exception_type": "NavigationInfrastructureError",
+      "reward": null,
+      "result_sha256": "85ad33095087e7016875662525e73d006d1cdf195790cdb0fb473844b4abf475"
+    },
+    "qualification": "New adapter checks do not constitute another GLM navigation run. Existing raw GLM results are unchanged."
+  },
+  "branch_separation": {
+    "validated_on": "2026-10-03",
+    "base_branch": "main",
+    "harbor_branch": "harbor",
+    "base_unit_tests_passed": 253,
+    "base_test_environment_has_harbor": false,
+    "harbor_regressions_passed": 52,
+    "identical_core_files": 181,
+    "runtime_and_evaluator_changes": false
+  },
+  "container_agent_migration": {
+    "validated_on": "2026-10-03",
+    "status": "regressions_and_three_real_minecraft_scripted_trials_passed",
+    "agent_location": "main_container",
+    "python": "/opt/mcbots-venv/bin/python",
+    "action_transport": "container_local_unix_socket",
+    "model_loop": "unchanged_agent.main",
+    "python_regressions_passed": 59,
+    "identical_shared_files": 376,
+    "changed_shared_files": [
+      "AGENTS.md",
+      "README.md",
+      "docs/README.md",
+      "docs/anonymous-release.md"
+    ],
+    "original_agent_and_evaluator_changes": false,
+    "host_agent_process": false,
+    "host_agent_virtualenv_required": false,
+    "main_source_excludes_evaluator_maps_and_answers": true,
+    "credential_delivery": "private_0600_file_read_and_deleted_in_main_not_in_image_or_argv_or_world",
+    "live_smokes": {
+      "native_async_retry_isolation": {
+        "task_id": "innopolis-008",
+        "provider": "scripted_local_not_a_navigation_model",
+        "provider_calls": 12,
+        "agent_location": "main_container",
+        "agent_namespaces_match_container": true,
+        "host_marker_inaccessible": true,
+        "credential_file_deleted": true,
+        "terminal_reason": "claim_attempts_exhausted",
+        "infrastructure_error": false,
+        "reward": 0.0,
+        "exception_type": null,
+        "result_sha256": "35a9d7c108301cb7934eaf7869712d6acc48242d3658dbb7a912503ace9beb8f",
+        "async_interruption_verified": true,
+        "persistent_action_file_verified": true,
+        "screenshots_recorded": true
+      },
+      "provider_failure_and_cli_boundaries": {
+        "task_id": "innopolis-008",
+        "provider": "scripted_local_not_a_navigation_model",
+        "provider_calls": 3,
+        "agent_location": "main_container",
+        "agent_namespaces_match_container": true,
+        "host_marker_inaccessible": true,
+        "credential_file_deleted": true,
+        "terminal_reason": "llm_failure_limit",
+        "infrastructure_error": true,
+        "reward": null,
+        "exception_type": "NavigationInfrastructureError",
+        "result_sha256": "0011774655a6effdde075f56a32ead0a57e2920d032705fddb9161d47b6e97c4",
+        "cli_boundaries": {
+          "reject_300_before_action": true,
+          "accept_120": true,
+          "real_remote_bash_timeout": true
+        }
+      },
+      "undelivered_action_transport_failure": {
+        "task_id": "innopolis-008",
+        "provider": "scripted_local_not_a_navigation_model",
+        "provider_calls": 2,
+        "agent_location": "main_container",
+        "agent_namespaces_match_container": true,
+        "host_marker_inaccessible": true,
+        "credential_file_deleted": true,
+        "terminal_reason": "agent_crash",
+        "infrastructure_error": true,
+        "reward": null,
+        "exception_type": "NavigationInfrastructureError",
+        "result_sha256": "27a650710c69fc2bf686e0193b41ea98efd8d8a9025c5bebb1f8b9294e00f970"
+      }
+    },
+    "fresh_glm_navigation_run": false,
+    "qualification": "The three historical GLM trials used the previous host-Agent layout. These three new trials use a scripted provider and validate container execution, not model navigation success."
+  }
+}

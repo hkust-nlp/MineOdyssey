@@ -7,8 +7,11 @@
 - [Task catalog](task-catalog.md): All 30 selected maps, 194 tasks, locale tags, source manifests, and external asset requirements.
 - [Release notes](anonymous-release.md): Selected runtime fixes, nine waypoint corrections, formal settings, anonymization, and validation limits.
 
-Harbor documentation and adapters are on the
-[`harbor` branch](https://github.com/mine-odyssey/MineOdyssey/tree/harbor).
+## Harbor
+
+- [Harbor setup and runtime](harbor-pilot.md): Task export, Podman setup, container-local original Agent, credentials, isolated verification, and version-specific live checks.
+- [Parity audit](harbor-parity-audit.md): Historical differences and the evidence used to align Harbor with the original runner.
+- [Task template](../eval/harbor/innopolis-006/README.md): Concrete task layout and required external inputs.
 
 ## Development and retained operational notes
 
