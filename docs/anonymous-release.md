@@ -13,8 +13,8 @@
   after stopping the process run `python scripts/analysis/finalize_agent_messages.py
   --record-dir PATH` to generate the legacy JSON file.
 - Native `minecraft_action` calls, Gemini signature transport, opaque provider state
-  replay, and Responses stateless fallback. The navigation launcher defaults
-  to native tools, matching historical formal GLM runs. XML remains an
+  replay, and Responses stateless fallback. Harbor and the navigation launcher now
+  default to native tools, matching historical formal GLM runs. XML remains an
   explicit legacy option.
 - Optional shared request gates and bounded 429 retries are available through the
   agent's `MCBOTS_LLM_GATE_*` and `MCBOTS_LLM_429_*` environment variables. They remain
@@ -66,9 +66,8 @@ scans do not prove that public code or content hashes cannot be correlated with 
 previously published repository.
 
 Verification: 183 selected-fix regression tests and 10 Linux launcher tests passed.
-The separated base passes all 253 shared unit tests in the original Agent
-environment with Harbor uninstalled. Adapter-specific validation is maintained
-on `harbor`.
+The current Harbor formal-profile validation has 176 Python and six Java tests,
+plus a native-tool real-world smoke; see [Harbor guide](harbor-pilot.md).
 The historical September 29 privacy scan checked 387
 source-package files and 63 embedded JAR entries with no remaining matches for
 the known author identifiers, original credential values, or common secret formats.
@@ -87,12 +86,31 @@ credentials early, and disables inherited Podman host proxy settings. Build-cont
 ignore files exclude credentials and generated data. See the Linux guide for the
 separate map-archive prerequisite and runtime validation status.
 
+## Harbor pilot
+
+`eval/harbor/innopolis-006` supplies one Harbor task, with a separate game/evaluator
+service and the unchanged task completion monitor. Export it with
+`scripts/eval/export-harbor-navigation.py`. See [Harbor pilot](harbor-pilot.md) for
+the required map asset, validation and external-agent comparability limitations.
+
 ## Branch scope
 
-This `main` branch contains the shared updates and original
-Linux runner. Harbor tasks, adapters and their checks are maintained separately
-on `harbor`; that branch uses the same runtime and evaluation
-code. See the root README for the branch update workflow.
+`main` contains the shared finalpool-v2 updates and original
+Linux runner. This `harbor` branch adds the Harbor adapter and
+uses the same Agent, evaluator, task data and runtime code. Shared changes land
+on the updated branch first and are merged here. See the root README.
+
+## Harbor container-local Agent
+
+The Harbor entry point now starts the unchanged `agent.main` in the `main`
+container. Its locked Python environment and minimal Agent source are baked into
+the image; the host only manages lifecycle and trusted result collection. Model
+configuration is delivered in a private temporary file and deleted after reading.
+Routine actions/screenshots use the local Unix socket to the isolated world.
+This deployment does not change the Agent, evaluator, task catalog, waypoints or
+runtime controls shared with `main`. Earlier GLM results used
+the host-Agent deployment and remain labeled accordingly. Current container checks
+are recorded separately in the Harbor task's validation.json.
 
 ## Publication audit (2026-10-04)
 

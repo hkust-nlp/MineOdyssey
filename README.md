@@ -32,7 +32,7 @@ vertical navigation, and interaction with doors, stairs, and other world feature
 
 ## Choose a branch
 
-**You are on `main`: the original Linux runner, without a Harbor dependency.**
+**You are on `harbor`: the updated base plus the container-local Harbor integration.**
 
 | Branch | Contents | Start here |
 | --- | --- | --- |

@@ -1,0 +1,53 @@
+schema_version = "1.3"
+
+[task]
+name = "anonymous/innopolis-006"
+description = "Minecraft navigation through four destinations in Innopolis"
+
+[metadata]
+category = "visual-navigation"
+source_task_id = "innopolis-006"
+harness = "Harbor external agent; original navigation completion monitor"
+
+[agent]
+timeout_sec = 22800
+
+[[artifacts]]
+source = "/trusted/completion.json"
+destination = "trusted-world/completion.json"
+service = "world"
+
+[[artifacts]]
+source = "/trusted/navigation"
+destination = "trusted-world/navigation"
+service = "world"
+
+[[artifacts]]
+source = "/trusted/evaluator-events.jsonl"
+destination = "trusted-world/evaluator-events.jsonl"
+service = "world"
+
+[[artifacts]]
+source = "/trusted/run.json"
+destination = "trusted-world/run.json"
+service = "world"
+
+[verifier]
+timeout_sec = 90
+environment_mode = "separate"
+
+[verifier.environment]
+cpus = 1
+memory_mb = 512
+storage_mb = 1024
+
+[[verifier.collect]]
+service = "world"
+command = "python3 /opt/harbor-nav/gateway.py --collect"
+timeout_sec = 60
+
+[environment]
+build_timeout_sec = 3600
+cpus = 2
+memory_mb = 2048
+storage_mb = 4096
