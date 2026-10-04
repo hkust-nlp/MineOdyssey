@@ -1,0 +1,75 @@
+{
+  "purpose": "Development-phase evaluation subsets (5 runtime task types)",
+  "source": {
+    "available_tasks": "openagents/assets/task_list_full.json::all_available_tasks",
+    "runtime_task_types": [
+      "mine_block",
+      "kill_entity",
+      "smelt_item",
+      "craft_item",
+      "interact_block"
+    ],
+    "runtime_entry": "openagents/envs/tasks/task_manager.py:get_available_tasks"
+  },
+  "notes": {
+    "quick10": "2 tasks per type for fast regression.",
+    "stage30": "6 tasks per type for milestone evaluation; balanced 6/6/6/6/6.",
+    "smelt_item_curation": "Selected smelt keys that do not overlap with craft_item keys to reduce routing ambiguity."
+  },
+  "quick10": [
+    "mine_block:dirt",
+    "mine_block:obsidian",
+    "kill_entity:sheep",
+    "kill_entity:cow",
+    "smelt_item:green_dye",
+    "smelt_item:charcoal",
+    "craft_item:torch",
+    "craft_item:comparator",
+    "custom:interact_with_furnace",
+    "custom:interact_with_crafting_table"
+  ],
+  "stage30": [
+    "mine_block:dirt",
+    "mine_block:coal_ore",
+    "mine_block:iron_ore",
+    "mine_block:gold_ore",
+    "mine_block:diamond_ore",
+    "mine_block:obsidian",
+    "kill_entity:sheep",
+    "kill_entity:chicken",
+    "kill_entity:zombie",
+    "kill_entity:creeper",
+    "kill_entity:cow",
+    "kill_entity:iron_golem",
+    "smelt_item:charcoal",
+    "smelt_item:cooked_chicken",
+    "smelt_item:cooked_beef",
+    "smelt_item:baked_potato",
+    "smelt_item:brick",
+    "smelt_item:green_dye",
+    "craft_item:stick",
+    "craft_item:torch",
+    "craft_item:bread",
+    "craft_item:chest",
+    "craft_item:shield",
+    "craft_item:comparator",
+    "custom:interact_with_anvil",
+    "custom:interact_with_brewingstand",
+    "custom:interact_with_crafting_table",
+    "custom:interact_with_furnace",
+    "custom:interact_with_smoker",
+    "custom:interact_with_stonecutter"
+  ],
+  "counts": {
+    "quick10_total": 10,
+    "stage30_total": 30,
+    "stage30_by_type": {
+      "mine_block": 6,
+      "kill_entity": 6,
+      "smelt_item": 6,
+      "craft_item": 6,
+      "interact_block": 6
+    },
+    "smelt_item_overlap_with_craft_item": 10
+  }
+}

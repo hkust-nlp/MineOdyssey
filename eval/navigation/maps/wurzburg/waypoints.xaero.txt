@@ -1,0 +1,81 @@
+#
+#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
+#
+waypoint:Berliner Pl. 5A:BP:-10:-13:203:0:false:0:gui.xaero_default:false:0:0:false
+waypoint:Ludwigstraße 10:L1:-207:-4:463:3:false:0:gui.xaero_default:false:0:0:false
+waypoint:Kapuzinerstraße 23:K2:-113:-13:490:7:false:0:gui.xaero_default:false:0:0:false
+waypoint:Etinger & Cazan Rechtsanwälte:EC:-46:0:144:6:false:0:gui.xaero_default:false:0:0:false
+waypoint:Domino's Pizza Würzburg Nord:DP:32:6:177:0:false:0:gui.xaero_default:false:0:0:false
+waypoint:HypoVereinsbank:HB:32:-13:172:20:false:0:gui.xaero_default:false:0:0:false
+waypoint:AkSi Barber Shop:AB:-53:-14:246:4:false:0:gui.xaero_default:false:0:0:false
+waypoint:Altglascontainer 1:A1:-78:-14:157:11:false:0:gui.xaero_default:false:0:0:false
+waypoint:Neutorstraße 8:N8:-129:-14:194:3:false:0:gui.xaero_default:false:0:0:false
+waypoint:Carent GmbH Autovermietung:CA:-135:-15:239:6:false:0:gui.xaero_default:false:0:0:false
+waypoint:Tipico:T:-8:-13:253:2:false:0:gui.xaero_default:false:0:0:false
+waypoint:WAX Studio:WS:-13:-14:265:14:false:0:gui.xaero_default:false:0:0:false
+waypoint:Kopie Team Würzburg:KT:-63:-14:275:20:false:0:gui.xaero_default:false:0:0:false
+waypoint:Staatliches Bauamt Würzburg:SB:-103:-15:267:1:false:0:gui.xaero_default:false:0:0:false
+waypoint:Finanzamt Würzburg:FW:-113:-12:362:5:false:0:gui.xaero_default:false:0:0:false
+waypoint:Conzept Bad GmbH:CB:-218:-3:519:18:false:0:gui.xaero_default:false:0:0:false
+waypoint:Glascontainer:G:-29:-12:479:20:false:0:gui.xaero_default:false:0:0:false
+waypoint:Dorint Hotel Würzburg:D:-45:-12:424:7:false:0:gui.xaero_default:false:0:0:false
+waypoint:Riemenschneider-Gymnasium:RG:39:-9:442:15:false:0:gui.xaero_default:false:0:0:false
+waypoint:Siebold-Gymnasium:SG:-5:-11:491:9:false:0:gui.xaero_default:false:0:0:false
+waypoint:Sozialgericht Würzburg:SW:22:-12:313:15:false:0:gui.xaero_default:false:0:0:false
+waypoint:Fahrschule Meyer:FM:32:-12:335:1:false:0:gui.xaero_default:false:0:0:false
+waypoint:Haltestelle Sozialgericht:BS:-6:-12:343:7:false:0:gui.xaero_default:false:0:0:false
+waypoint:PSD Bank:PS:-31:-12:359:9:false:0:gui.xaero_default:false:0:0:false
+waypoint:KKH:KK:-43:-12:363:5:false:0:gui.xaero_default:false:0:0:false
+waypoint:Dr. Klein Baufinanzierung:KB:-123:-13:392:20:false:0:gui.xaero_default:false:0:0:false
+waypoint:Yogahimmel:YG:-175:-12:411:6:false:0:gui.xaero_default:false:0:0:false
+waypoint:PRITZL:PR:-219:-12:426:4:false:0:gui.xaero_default:false:0:0:false
+waypoint:Auktionshaus Mars:AM:-270:-12:447:6:false:0:gui.xaero_default:false:0:0:false
+waypoint:Sunart GmbH Sun Studio:SS:-297:-12:457:7:false:0:gui.xaero_default:false:0:0:false
+waypoint:Rüdigerstraße 4:R4:-288:-13:521:13:false:0:gui.xaero_default:false:0:0:false
+waypoint:St. Johannis:SJ:-94:-6:672:15:false:0:gui.xaero_default:false:0:0:false
+waypoint:Ev. Kindergarten St. Johannis:EK:-7:-2:651:16:false:0:gui.xaero_default:false:0:0:false
+waypoint:Haltestelle - Rennweg:BR:-103:-3:894:12:false:0:gui.xaero_default:false:0:0:false
+waypoint:Haltestelle - Handwerkskammer 2:H2:32:-8:589:12:false:0:gui.xaero_default:false:0:0:false
+waypoint:Haltestelle Handwerkskammer 1:H1:69:-10:452:14:false:0:gui.xaero_default:false:0:0:false
+waypoint:Parkplatz  4:P4:38:-14:37:18:false:0:gui.xaero_default:false:0:0:false
+waypoint:Haltestelle Neutorstraße 1:N1:-24:-13:103:9:false:0:gui.xaero_default:false:0:0:false
+waypoint:Haltestelle Neutorstraße 2:N2:-14:-13:87:2:false:0:gui.xaero_default:false:0:0:false
+waypoint:522 Apartunities:52:71:-11:-8:15:false:0:gui.xaero_default:false:0:0:false
+waypoint:Haltestelle Berliner Platz:B6:69:-14:138:5:false:0:gui.xaero_default:false:0:0:false
+waypoint:Berliner Pl. 11:11:235:-12:228:18:false:0:gui.xaero_default:false:0:0:false
+waypoint:Berliner Pl. 9:B9:155:-12:134:1:false:0:gui.xaero_default:false:0:0:false
+waypoint:Unique Studios:US:237:-7:423:11:false:0:gui.xaero_default:false:0:0:false
+waypoint:Garmin Würzburg:GW:285:-6:437:15:false:0:gui.xaero_default:false:0:0:false
+waypoint:Diskothek Labyrinth:DL:331:-5:454:16:false:0:gui.xaero_default:false:0:0:false
+waypoint:Noxum GmbH:NG:483:2:492:20:false:0:gui.xaero_default:false:0:0:false
+waypoint:Parken am Hauptfriedhof:P5:357:-4:464:0:false:0:gui.xaero_default:false:0:0:false
+waypoint:Parkhaus Ringparkcenter:P4:264:-7:366:12:false:0:gui.xaero_default:false:0:0:false
+waypoint:Parkplatz "Schweinfurter Straße":P3:353:-11:163:6:false:0:gui.xaero_default:false:0:0:false
+waypoint:NOVUM Conference & Events:NO:472:-12:273:16:false:0:gui.xaero_default:false:0:0:false
+waypoint:Shell Recharge-Ladestation:SR:387:-12:270:2:false:0:gui.xaero_default:false:0:0:false
+waypoint:Premier Inn Würzburg Hotel:GH:318:-12:256:10:false:0:gui.xaero_default:false:0:0:false
+waypoint:SiemensAG Niederlassung Würzburg:SM:292:-12:253:14:false:0:gui.xaero_default:false:0:0:false
+waypoint:Haltestelle 3:B3:262:-12:263:0:false:0:gui.xaero_default:false:0:0:false
+waypoint:HAAS - Das Sanitätshaus:HA:233:-12:248:0:false:0:gui.xaero_default:false:0:0:false
+waypoint:Oberbank:OB:314:-12:291:9:false:0:gui.xaero_default:false:0:0:false
+waypoint:Lidl:LD:400:-11:326:2:false:0:gui.xaero_default:false:0:0:false
+waypoint:Moxy Wuerzburg:MW:481:-12:330:7:false:0:gui.xaero_default:false:0:0:false
+waypoint:Haltestelle 2:B2:486:-10:324:3:false:0:gui.xaero_default:false:0:0:false
+waypoint:AC Hotel:AC:528:-12:344:8:false:0:gui.xaero_default:false:0:0:false
+waypoint:Fahrradprofis Würzburg:FW:692:6:487:3:false:0:gui.xaero_default:false:0:0:false
+waypoint:Spielothek 4Play:S4:671:-8:427:11:false:0:gui.xaero_default:false:0:0:false
+waypoint:BIEBL+KNAPP:BK:667:-10:423:3:false:0:gui.xaero_default:false:0:0:false
+waypoint:Häuschen 0:H0:693:-4:684:19:false:0:gui.xaero_default:false:0:0:false
+waypoint:Grabstein 3:G3:553:-1:794:3:false:0:gui.xaero_default:false:0:0:false
+waypoint:Grabstein 2:G2:260:-5:676:6:false:0:gui.xaero_default:false:0:0:false
+waypoint:Grabstein 1:G1:614:-2:609:6:false:0:gui.xaero_default:false:0:0:false
+waypoint:Aussegnungshalle:A:332:-5:539:9:false:0:gui.xaero_default:false:0:0:false
+waypoint:Städtischer Bestattungsdienst:SB:208:-9:604:10:false:0:gui.xaero_default:false:0:0:false
+waypoint:Gedenkkapelle im Ehrenfriedhof:GE:443:4:850:12:false:0:gui.xaero_default:false:0:0:false
+waypoint:Kapelle im Hauptfriedhof:KH:498:8:643:17:false:0:gui.xaero_default:false:0:0:false
+waypoint:Kriegerdenkmal 1870-71:K1:251:-8:475:7:false:0:gui.xaero_default:false:0:0:false
+waypoint:Park des Gedenkens:PG:266:-7:485:8:false:0:gui.xaero_default:false:0:0:false
+waypoint:Blumenhaus Böck:BB:268:-8:530:17:false:0:gui.xaero_default:false:0:0:false
+waypoint:Toiletten:T1:242:-9:570:16:false:0:gui.xaero_default:false:0:0:false
+waypoint:Haltestelle Hauptfriedhof:BH:215:-9:560:2:false:0:gui.xaero_default:false:0:0:false
+waypoint:Parkplatz 1:P1:244:-9:525:20:false:0:gui.xaero_default:false:0:0:false

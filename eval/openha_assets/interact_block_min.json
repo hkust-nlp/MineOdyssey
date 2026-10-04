@@ -1,0 +1,15 @@
+{
+  "custom:interact_with_anvil": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [28, 63, 47]
+      }
+    ],
+    "block": [
+      {
+        "anvil": [0, 0, 5]
+      }
+    ]
+  }
+}

@@ -1,0 +1,792 @@
+{
+  "schema_version": 1,
+  "map_id": "dublin-departments-district",
+  "quality_status": "verified_routes_current_user_waypoints",
+  "excluded_waypoints": [
+    {
+      "source_index": 13,
+      "source_name": "J.L. O Neill’s",
+      "name": "J.L. O Neill’s",
+      "initials": "J",
+      "mc": {
+        "x": 31,
+        "y": -7,
+        "z": 916
+      },
+      "color": 4,
+      "disabled": true,
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "source_index": 36,
+      "source_name": "National Library of Ireland Outer Gate",
+      "name": "National Library of Ireland Outer Gate",
+      "initials": "01",
+      "mc": {
+        "x": 69,
+        "y": -10,
+        "z": 568
+      },
+      "color": 10,
+      "disabled": true,
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "source_index": 37,
+      "source_name": "National Library of Ireland Portico Entrance",
+      "name": "National Library of Ireland Portico Entrance",
+      "initials": "02",
+      "mc": {
+        "x": 163,
+        "y": -13,
+        "z": 543
+      },
+      "color": 10,
+      "disabled": true,
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "source_index": 38,
+      "source_name": "National Museum of Ireland – Archaeology Outer Door",
+      "name": "National Museum of Ireland – Archaeology Outer Door",
+      "initials": "03",
+      "mc": {
+        "x": 34,
+        "y": -9,
+        "z": 611
+      },
+      "color": 14,
+      "disabled": true,
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "source_index": 40,
+      "source_name": "National Gallery of Ireland Entrance",
+      "name": "National Gallery of Ireland Entrance",
+      "initials": "05",
+      "mc": {
+        "x": 279,
+        "y": -13,
+        "z": 578
+      },
+      "color": 5,
+      "disabled": true,
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "source_index": 42,
+      "source_name": "National Museum of Ireland – Natural History Main Entrance",
+      "name": "National Museum of Ireland – Natural History Main Entrance",
+      "initials": "07",
+      "mc": {
+        "x": 159,
+        "y": -10,
+        "z": 775
+      },
+      "color": 4,
+      "disabled": true,
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "source_index": 44,
+      "source_name": "Kildare Street / South Leinster Street Corner",
+      "name": "Kildare Street / South Leinster Street Corner",
+      "initials": "13",
+      "mc": {
+        "x": 152,
+        "y": -13,
+        "z": 465
+      },
+      "color": 6,
+      "disabled": true,
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "source_index": 45,
+      "source_name": "Merrion Row / Upper Merrion Street Corner",
+      "name": "Merrion Row / Upper Merrion Street Corner",
+      "initials": "14",
+      "mc": {
+        "x": 32,
+        "y": -7,
+        "z": 917
+      },
+      "color": 6,
+      "disabled": true,
+      "reason": "disabled_in_xaero"
+    }
+  ],
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/dublin-current-15-routes.json",
+    "sha256": "a97968e671b72836420cc52181a9f86725536d649b4ddf3a93527ecc8f98e188"
+  },
+  "waypoint_count": 37,
+  "waypoints": [
+    {
+      "id": "DUB-LIVE-01",
+      "name": "Merrion Row Post Office",
+      "position": {
+        "x": -33,
+        "y": -8,
+        "z": 850
+      },
+      "route_ids": [
+        "dublin-live-route-09"
+      ],
+      "source_index": 4,
+      "source_name": "Merrion Row",
+      "initials": "M",
+      "color": 17,
+      "disabled": false,
+      "display_name_normalized": true,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-02",
+      "name": "The Saddle Room",
+      "position": {
+        "x": -106,
+        "y": -8,
+        "z": 749
+      },
+      "route_ids": [
+        "dublin-live-route-08"
+      ],
+      "source_index": 5,
+      "source_name": "The Saddle Room",
+      "initials": "T",
+      "color": 11,
+      "disabled": false,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-03",
+      "name": "The Shelbourne, Autograph Collection",
+      "position": {
+        "x": -102,
+        "y": -8,
+        "z": 776
+      },
+      "route_ids": [
+        "dublin-live-route-05"
+      ],
+      "source_index": 6,
+      "source_name": "The Shelbourne, Autograph Collec",
+      "initials": "T",
+      "color": 13,
+      "disabled": false,
+      "display_name_normalized": true,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-04",
+      "name": "The Horseshoe Bar",
+      "position": {
+        "x": -83,
+        "y": -8,
+        "z": 791
+      },
+      "route_ids": [],
+      "source_index": 7,
+      "source_name": "The Horseshoe Bar",
+      "initials": "T",
+      "color": 20,
+      "disabled": false,
+      "route_use_count": 0
+    },
+    {
+      "id": "DUB-LIVE-05",
+      "name": "Peaches Brasserie",
+      "position": {
+        "x": -54,
+        "y": -8,
+        "z": 827
+      },
+      "route_ids": [],
+      "source_index": 8,
+      "source_name": "Peaches Brasserie",
+      "initials": "P",
+      "color": 12,
+      "disabled": false,
+      "route_use_count": 0
+    },
+    {
+      "id": "DUB-LIVE-06",
+      "name": "Huguenot Cemetery",
+      "position": {
+        "x": -37,
+        "y": -8,
+        "z": 846
+      },
+      "route_ids": [
+        "dublin-live-route-05"
+      ],
+      "source_index": 9,
+      "source_name": "Huguenot Cemetery",
+      "initials": "H",
+      "color": 5,
+      "disabled": false,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-07",
+      "name": "Hugo's Restaurant",
+      "position": {
+        "x": -12,
+        "y": -7,
+        "z": 871
+      },
+      "route_ids": [
+        "dublin-live-route-09"
+      ],
+      "source_index": 10,
+      "source_name": "Hugo's Restaurant",
+      "initials": "H",
+      "color": 7,
+      "disabled": false,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-08",
+      "name": "SPAR",
+      "position": {
+        "x": 7,
+        "y": -7,
+        "z": 892
+      },
+      "route_ids": [
+        "dublin-live-route-09"
+      ],
+      "source_index": 11,
+      "source_name": "SPAR",
+      "initials": "S",
+      "color": 3,
+      "disabled": false,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-09",
+      "name": "J.L. O Neill’s",
+      "position": {
+        "x": 23,
+        "y": -7,
+        "z": 909
+      },
+      "route_ids": [
+        "dublin-live-route-06",
+        "dublin-live-route-09"
+      ],
+      "source_index": 12,
+      "source_name": "J.L. O Neill’s",
+      "initials": "J",
+      "color": 7,
+      "disabled": false,
+      "route_use_count": 2
+    },
+    {
+      "id": "DUB-LIVE-10",
+      "name": "O'Reilly's",
+      "position": {
+        "x": 41,
+        "y": -7,
+        "z": 911
+      },
+      "route_ids": [
+        "dublin-live-route-05",
+        "dublin-live-route-09"
+      ],
+      "source_index": 14,
+      "source_name": "O'Reilly's",
+      "initials": "O",
+      "color": 15,
+      "disabled": false,
+      "route_use_count": 2
+    },
+    {
+      "id": "DUB-LIVE-11",
+      "name": "Department of Finance",
+      "position": {
+        "x": 74,
+        "y": -7,
+        "z": 881
+      },
+      "route_ids": [
+        "dublin-live-route-09"
+      ],
+      "source_index": 15,
+      "source_name": "Department of Finance",
+      "initials": "D",
+      "color": 14,
+      "disabled": false,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-12",
+      "name": "Office of the Attorney General",
+      "position": {
+        "x": 155,
+        "y": -8,
+        "z": 816
+      },
+      "route_ids": [
+        "dublin-live-route-09"
+      ],
+      "source_index": 16,
+      "source_name": "Office of the Attorney General",
+      "initials": "O",
+      "color": 3,
+      "disabled": false,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-13",
+      "name": "Department of the Taoiseach",
+      "position": {
+        "x": 114,
+        "y": -8,
+        "z": 849
+      },
+      "route_ids": [
+        "dublin-live-route-09"
+      ],
+      "source_index": 17,
+      "source_name": "Department of the Taoiseach",
+      "initials": "D",
+      "color": 8,
+      "disabled": false,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-14",
+      "name": "Department of Agriculture, Food and the Marine",
+      "position": {
+        "x": -54,
+        "y": -8,
+        "z": 707
+      },
+      "route_ids": [
+        "dublin-live-route-08"
+      ],
+      "source_index": 18,
+      "source_name": "Department of Agriculture, Food ",
+      "initials": "D",
+      "color": 12,
+      "disabled": false,
+      "display_name_normalized": true,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-15",
+      "name": "National Museum of Ireland, Kildare Street",
+      "position": {
+        "x": 57,
+        "y": -8,
+        "z": 635
+      },
+      "route_ids": [
+        "dublin-live-route-06",
+        "dublin-live-route-08"
+      ],
+      "source_index": 19,
+      "source_name": "National Museum of Ireland, Kild",
+      "initials": "N",
+      "color": 11,
+      "disabled": false,
+      "display_name_normalized": true,
+      "route_use_count": 2
+    },
+    {
+      "id": "DUB-LIVE-16",
+      "name": "Spectrum Nutrition",
+      "position": {
+        "x": 344,
+        "y": -13,
+        "z": 668
+      },
+      "route_ids": [
+        "dublin-live-route-03"
+      ],
+      "source_index": 20,
+      "source_name": "Spectrum Nutrition",
+      "initials": "S",
+      "color": 18,
+      "disabled": false,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-17",
+      "name": "Howbert & Mays, Dublin 2",
+      "position": {
+        "x": 332,
+        "y": -13,
+        "z": 644
+      },
+      "route_ids": [
+        "dublin-live-route-02"
+      ],
+      "source_index": 21,
+      "source_name": "Howbert & Mays, Dublin 2",
+      "initials": "H",
+      "color": 16,
+      "disabled": false,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-18",
+      "name": "The Trinity Gallery",
+      "position": {
+        "x": 318,
+        "y": -13,
+        "z": 631
+      },
+      "route_ids": [],
+      "source_index": 22,
+      "source_name": "The Trinity Gallery",
+      "initials": "T",
+      "color": 12,
+      "disabled": false,
+      "route_use_count": 0
+    },
+    {
+      "id": "DUB-LIVE-19",
+      "name": "The Oriel Gallery",
+      "position": {
+        "x": 326,
+        "y": -13,
+        "z": 640
+      },
+      "route_ids": [
+        "dublin-live-route-03",
+        "dublin-live-route-05"
+      ],
+      "source_index": 23,
+      "source_name": "The Oriel Gallery",
+      "initials": "T",
+      "color": 12,
+      "disabled": false,
+      "route_use_count": 2
+    },
+    {
+      "id": "DUB-LIVE-20",
+      "name": "Hansel and Gretel Bakery & Patisserie",
+      "position": {
+        "x": 315,
+        "y": -13,
+        "z": 625
+      },
+      "route_ids": [],
+      "source_index": 24,
+      "source_name": "Hansel and Gretel Bakery & Patis",
+      "initials": "H",
+      "color": 19,
+      "disabled": false,
+      "display_name_normalized": true,
+      "route_use_count": 0
+    },
+    {
+      "id": "DUB-LIVE-21",
+      "name": "Price's Medical Hall Pharmacy",
+      "position": {
+        "x": 275,
+        "y": -13,
+        "z": 587
+      },
+      "route_ids": [
+        "dublin-live-route-02"
+      ],
+      "source_index": 25,
+      "source_name": "Price's Medical Hall Pharmacy",
+      "initials": "P",
+      "color": 16,
+      "disabled": false,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-22",
+      "name": "Mary Robinson Foundation – Climate Justice",
+      "position": {
+        "x": 260,
+        "y": -13,
+        "z": 555
+      },
+      "route_ids": [],
+      "source_index": 26,
+      "source_name": "Mary Robinson Foundation - Clima",
+      "initials": "M",
+      "color": 0,
+      "disabled": false,
+      "display_name_normalized": true,
+      "route_use_count": 0
+    },
+    {
+      "id": "DUB-LIVE-23",
+      "name": "Mama's Revenge",
+      "position": {
+        "x": 197,
+        "y": -13,
+        "z": 497
+      },
+      "route_ids": [
+        "dublin-live-route-02"
+      ],
+      "source_index": 27,
+      "source_name": "Mama's Revenge",
+      "initials": "M",
+      "color": 16,
+      "disabled": false,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-24",
+      "name": "Coffeeangel",
+      "position": {
+        "x": 183,
+        "y": -13,
+        "z": 486
+      },
+      "route_ids": [
+        "dublin-live-route-02"
+      ],
+      "source_index": 28,
+      "source_name": "Coffeeangel",
+      "initials": "C",
+      "color": 9,
+      "disabled": false,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-25",
+      "name": "Brewbaker Coffee",
+      "position": {
+        "x": 174,
+        "y": -13,
+        "z": 479
+      },
+      "route_ids": [],
+      "source_index": 29,
+      "source_name": "Brewbaker Coffee",
+      "initials": "B",
+      "color": 3,
+      "disabled": false,
+      "route_use_count": 0
+    },
+    {
+      "id": "DUB-LIVE-26",
+      "name": "Sculpture of Monkeys Playing Billiards",
+      "position": {
+        "x": 143,
+        "y": -12,
+        "z": 476
+      },
+      "route_ids": [
+        "dublin-live-route-06"
+      ],
+      "source_index": 30,
+      "source_name": "Sculpture of monkeys playing bil",
+      "initials": "S",
+      "color": 6,
+      "disabled": false,
+      "display_name_normalized": true,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-27",
+      "name": "Royal College of Physicians of Ireland",
+      "position": {
+        "x": 99,
+        "y": -11,
+        "z": 527
+      },
+      "route_ids": [
+        "dublin-live-route-06"
+      ],
+      "source_index": 31,
+      "source_name": "Royal College of Physicians of I",
+      "initials": "R",
+      "color": 0,
+      "disabled": false,
+      "display_name_normalized": true,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-28",
+      "name": "National Library of Ireland",
+      "position": {
+        "x": 69,
+        "y": -9,
+        "z": 571
+      },
+      "route_ids": [
+        "dublin-live-route-06"
+      ],
+      "source_index": 32,
+      "source_name": "National Library of Ireland",
+      "initials": "N",
+      "color": 17,
+      "disabled": false,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-29",
+      "name": "National Gallery of Ireland",
+      "position": {
+        "x": 254,
+        "y": -10,
+        "z": 688
+      },
+      "route_ids": [
+        "dublin-live-route-03",
+        "dublin-live-route-04"
+      ],
+      "source_index": 33,
+      "source_name": "National Gallery of Ireland",
+      "initials": "N",
+      "color": 10,
+      "disabled": false,
+      "route_use_count": 2
+    },
+    {
+      "id": "DUB-LIVE-30",
+      "name": "National Museum of Ireland, Merrion Street",
+      "position": {
+        "x": 155,
+        "y": -10,
+        "z": 772
+      },
+      "route_ids": [
+        "dublin-live-route-04"
+      ],
+      "source_index": 34,
+      "source_name": "National Museum of Ireland, Merr",
+      "initials": "N",
+      "color": 4,
+      "disabled": false,
+      "display_name_normalized": true,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-31",
+      "name": "Leinster House Public Entrance",
+      "position": {
+        "x": 103,
+        "y": -9,
+        "z": 634
+      },
+      "route_ids": [
+        "dublin-live-route-08"
+      ],
+      "source_index": 35,
+      "source_name": "Leinster House",
+      "initials": "L",
+      "color": 17,
+      "disabled": false,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-32",
+      "name": "Surgeon-Major Parke Statue",
+      "position": {
+        "x": 177,
+        "y": -9,
+        "z": 788
+      },
+      "route_ids": [
+        "dublin-live-route-04"
+      ],
+      "source_index": 39,
+      "source_name": "Surgeon-Major Parke Statue",
+      "initials": "04",
+      "color": 14,
+      "disabled": false,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-33",
+      "name": "William Dargan Memorial",
+      "position": {
+        "x": 272,
+        "y": -11,
+        "z": 713
+      },
+      "route_ids": [
+        "dublin-live-route-03",
+        "dublin-live-route-04"
+      ],
+      "source_index": 41,
+      "source_name": "William Dargan Memorial",
+      "initials": "06",
+      "color": 5,
+      "disabled": false,
+      "route_use_count": 2
+    },
+    {
+      "id": "DUB-LIVE-34",
+      "name": "Trinity College",
+      "position": {
+        "x": 240,
+        "y": -13,
+        "z": 538
+      },
+      "route_ids": [
+        "dublin-live-route-02"
+      ],
+      "source_index": 43,
+      "source_name": "Trinity College",
+      "initials": "08",
+      "color": 4,
+      "disabled": false,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-35",
+      "name": "William Conyngham Plunket (1901)",
+      "position": {
+        "x": -23,
+        "y": -8,
+        "z": 684
+      },
+      "route_ids": [
+        "dublin-live-route-08"
+      ],
+      "source_index": 46,
+      "source_name": "William Conyngham Plunket (1901)",
+      "initials": "A1",
+      "color": 14,
+      "disabled": false,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-LIVE-36",
+      "name": "Leinster Lawn Memorial",
+      "position": {
+        "x": 184,
+        "y": -10,
+        "z": 715
+      },
+      "route_ids": [
+        "dublin-live-route-04"
+      ],
+      "source_index": 47,
+      "source_name": "Leinster Lawn Memorial",
+      "initials": "B05",
+      "color": 14,
+      "disabled": false,
+      "route_use_count": 1
+    },
+    {
+      "id": "DUB-ROUTE05-MUSEUM-APPROACH",
+      "name": "National Museum of Ireland, Merrion Street",
+      "position": {
+        "x": 163,
+        "y": -9,
+        "z": 793
+      },
+      "source_name": "National Museum of Ireland, Merr",
+      "route_ids": [
+        "dublin-live-route-05"
+      ]
+    }
+  ]
+}

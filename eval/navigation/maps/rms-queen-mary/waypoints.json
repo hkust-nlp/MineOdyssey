@@ -1,0 +1,1042 @@
+{
+  "schema_version": 1,
+  "map_id": "rms-queen-mary",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "custom_maps/maps/inter_map/rms_queen_mary/waypoints.json",
+    "sha256": "18f435f0fd4360e90359614fce4bea60da6bc432c775d59705371a2c6ea82bd3"
+  },
+  "quality_status": "waypoints_labeled_routes_not_yet_planned",
+  "waypoint_count": 79,
+  "excluded_waypoints": [],
+  "waypoints": [
+    {
+      "id": "RMS-QM-WP-001",
+      "name": "Stairs to B Deck",
+      "position": {
+        "x": -43,
+        "y": 7,
+        "z": -363
+      },
+      "route_ids": [],
+      "category": "vertical_circulation",
+      "floor_index": 7,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-002",
+      "name": "B Deck",
+      "position": {
+        "x": -36,
+        "y": 2,
+        "z": -363
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 6,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-003",
+      "name": "G Deck",
+      "position": {
+        "x": -69,
+        "y": -30,
+        "z": -359
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 0,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-004",
+      "name": "D Deck",
+      "position": {
+        "x": -68,
+        "y": -14,
+        "z": -358
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-005",
+      "name": "Cabin Class Entrance",
+      "position": {
+        "x": -210,
+        "y": 21,
+        "z": -386
+      },
+      "route_ids": [],
+      "category": "entrance",
+      "floor_index": 9,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-006",
+      "name": "Verandah Grill",
+      "position": {
+        "x": -413,
+        "y": 24,
+        "z": -373
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 10,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-007",
+      "name": "1st Class Saloon Dispense Bar",
+      "position": {
+        "x": -303,
+        "y": -4,
+        "z": -344
+      },
+      "route_ids": [],
+      "category": "food_and_crew",
+      "floor_index": 5,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-008",
+      "name": "1st Class Swimming Pool",
+      "position": {
+        "x": -193,
+        "y": -9,
+        "z": -369
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 4,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-009",
+      "name": "Atlantic Telephone",
+      "position": {
+        "x": -201,
+        "y": 24,
+        "z": -376
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 10,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-010",
+      "name": "Austin Reed",
+      "position": {
+        "x": -167,
+        "y": 17,
+        "z": -366
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 9,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-011",
+      "name": "Bank",
+      "position": {
+        "x": -433,
+        "y": -9,
+        "z": -372
+      },
+      "route_ids": [],
+      "category": "office",
+      "floor_index": 4,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-012",
+      "name": "Calidarium",
+      "position": {
+        "x": -177,
+        "y": -3,
+        "z": -380
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 5,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-013",
+      "name": "Capstan",
+      "position": {
+        "x": -487,
+        "y": 2,
+        "z": -349
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 6,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-014",
+      "name": "Capstan Machinery",
+      "position": {
+        "x": -532,
+        "y": 2,
+        "z": -355
+      },
+      "route_ids": [],
+      "category": "machinery",
+      "floor_index": 6,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-015",
+      "name": "Captain",
+      "position": {
+        "x": -116,
+        "y": 29,
+        "z": -371
+      },
+      "route_ids": [],
+      "category": "crew_space",
+      "floor_index": 10,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-016",
+      "name": "Chief Engineer",
+      "position": {
+        "x": -355,
+        "y": 24,
+        "z": -348
+      },
+      "route_ids": [],
+      "category": "machinery",
+      "floor_index": 10,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-017",
+      "name": "Chief Officer",
+      "position": {
+        "x": -114,
+        "y": 29,
+        "z": -367
+      },
+      "route_ids": [],
+      "category": "crew_space",
+      "floor_index": 10,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-018",
+      "name": "Chief Purser",
+      "position": {
+        "x": -213,
+        "y": 7,
+        "z": -387
+      },
+      "route_ids": [],
+      "category": "crew_space",
+      "floor_index": 7,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-019",
+      "name": "Chief Steward's Day Room",
+      "position": {
+        "x": -194,
+        "y": -4,
+        "z": -336
+      },
+      "route_ids": [],
+      "category": "storage",
+      "floor_index": 5,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-020",
+      "name": "Children's Playroom 1",
+      "position": {
+        "x": -114,
+        "y": 2,
+        "z": -359
+      },
+      "route_ids": [],
+      "category": "storage",
+      "floor_index": 6,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-021",
+      "name": "Children´s Playroom 2",
+      "position": {
+        "x": -422,
+        "y": 12,
+        "z": -348
+      },
+      "route_ids": [],
+      "category": "storage",
+      "floor_index": 8,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-022",
+      "name": "Cinema",
+      "position": {
+        "x": -96,
+        "y": 2,
+        "z": -375
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 6,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-023",
+      "name": "Cocktail Bar",
+      "position": {
+        "x": -426,
+        "y": 12,
+        "z": -353
+      },
+      "route_ids": [],
+      "category": "food_and_crew",
+      "floor_index": 8,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-024",
+      "name": "Commander's Day Room",
+      "position": {
+        "x": -114,
+        "y": 29,
+        "z": -359
+      },
+      "route_ids": [],
+      "category": "storage",
+      "floor_index": 10,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-025",
+      "name": "Confectioners Shop",
+      "position": {
+        "x": -326,
+        "y": -4,
+        "z": -346
+      },
+      "route_ids": [],
+      "category": "office",
+      "floor_index": 5,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-026",
+      "name": "3rd Class Dining Saloon",
+      "position": {
+        "x": -141,
+        "y": -4,
+        "z": -377
+      },
+      "route_ids": [],
+      "category": "food_and_crew",
+      "floor_index": 5,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-027",
+      "name": "Chief Baker",
+      "position": {
+        "x": -499,
+        "y": -4,
+        "z": -375
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 5,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-028",
+      "name": "Dispenscary",
+      "position": {
+        "x": -277,
+        "y": -9,
+        "z": -389
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 4,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-029",
+      "name": "Doctor",
+      "position": {
+        "x": -212,
+        "y": 7,
+        "z": -339
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 7,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-030",
+      "name": "Drawing Room",
+      "position": {
+        "x": -183,
+        "y": 17,
+        "z": -350
+      },
+      "route_ids": [],
+      "category": "storage",
+      "floor_index": 9,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-031",
+      "name": "Emergency Dynamos",
+      "position": {
+        "x": -511,
+        "y": 2,
+        "z": -370
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 6,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-032",
+      "name": "Entrance To Turbo Generator",
+      "position": {
+        "x": -267,
+        "y": -9,
+        "z": -371
+      },
+      "route_ids": [],
+      "category": "entrance",
+      "floor_index": 4,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-033",
+      "name": "Femlae Infectious House",
+      "position": {
+        "x": -540,
+        "y": 2,
+        "z": -359
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 6,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-034",
+      "name": "Garden",
+      "position": {
+        "x": -110,
+        "y": 12,
+        "z": -360
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 8,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-035",
+      "name": "3rd Class Garden Lounge",
+      "position": {
+        "x": -117,
+        "y": 12,
+        "z": -352
+      },
+      "route_ids": [],
+      "category": "food_and_crew",
+      "floor_index": 8,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-036",
+      "name": "Gent´s Hairdresser",
+      "position": {
+        "x": -444,
+        "y": 2,
+        "z": -369
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 6,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-037",
+      "name": "Crew Hospital",
+      "position": {
+        "x": -273,
+        "y": -9,
+        "z": -379
+      },
+      "route_ids": [],
+      "category": "crew_cabin",
+      "floor_index": 4,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-038",
+      "name": "Kasher Pantry",
+      "position": {
+        "x": -162,
+        "y": -4,
+        "z": -379
+      },
+      "route_ids": [],
+      "category": "storage",
+      "floor_index": 5,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-039",
+      "name": "Kosher Pantry",
+      "position": {
+        "x": -336,
+        "y": -4,
+        "z": -357
+      },
+      "route_ids": [],
+      "category": "storage",
+      "floor_index": 5,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-040",
+      "name": "Ladies Hairdresser",
+      "position": {
+        "x": -444,
+        "y": 2,
+        "z": -357
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 6,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-041",
+      "name": "Library",
+      "position": {
+        "x": -181,
+        "y": 17,
+        "z": -376
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 9,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-042",
+      "name": "Low Pressure Generator Room",
+      "position": {
+        "x": -265,
+        "y": -14,
+        "z": -377
+      },
+      "route_ids": [],
+      "category": "storage",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-043",
+      "name": "Male Infectious Hospital",
+      "position": {
+        "x": -540,
+        "y": 2,
+        "z": -368
+      },
+      "route_ids": [],
+      "category": "crew_cabin",
+      "floor_index": 6,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-044",
+      "name": "Music Studio",
+      "position": {
+        "x": -132,
+        "y": 17,
+        "z": -377
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 9,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-045",
+      "name": "Observation Cocktail",
+      "position": {
+        "x": -117,
+        "y": 17,
+        "z": -370
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 9,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-046",
+      "name": "Officer's Chart Room",
+      "position": {
+        "x": -123,
+        "y": 34,
+        "z": -359
+      },
+      "route_ids": [],
+      "category": "storage",
+      "floor_index": 10,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-047",
+      "name": "Operating Theatre",
+      "position": {
+        "x": -278,
+        "y": -9,
+        "z": -382
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 4,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-048",
+      "name": "Press-Reception Room",
+      "position": {
+        "x": -117,
+        "y": 24,
+        "z": -363
+      },
+      "route_ids": [],
+      "category": "storage",
+      "floor_index": 10,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-049",
+      "name": "Smoke Room",
+      "position": {
+        "x": -89,
+        "y": 7,
+        "z": -375
+      },
+      "route_ids": [],
+      "category": "storage",
+      "floor_index": 7,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-050",
+      "name": "Squash Att.Facilities",
+      "position": {
+        "x": -205,
+        "y": 24,
+        "z": -370
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 10,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-051",
+      "name": "Surgery",
+      "position": {
+        "x": -208,
+        "y": 7,
+        "z": -338
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 7,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-052",
+      "name": "Swore Telephone",
+      "position": {
+        "x": -205,
+        "y": 8,
+        "z": -384
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 7,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-053",
+      "name": "Synagogue",
+      "position": {
+        "x": -111,
+        "y": 3,
+        "z": -367
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 6,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-054",
+      "name": "Telegraph Office",
+      "position": {
+        "x": -186,
+        "y": 24,
+        "z": -368
+      },
+      "route_ids": [],
+      "category": "office",
+      "floor_index": 10,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-055",
+      "name": "The Promenade Shop",
+      "position": {
+        "x": -191,
+        "y": 17,
+        "z": -373
+      },
+      "route_ids": [],
+      "category": "office",
+      "floor_index": 9,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-056",
+      "name": "3rd Class Bar",
+      "position": {
+        "x": -168,
+        "y": -9,
+        "z": -382
+      },
+      "route_ids": [],
+      "category": "food_and_crew",
+      "floor_index": 4,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-057",
+      "name": "3rd Class Synagogue",
+      "position": {
+        "x": -118,
+        "y": 2,
+        "z": -370
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 6,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-058",
+      "name": "Tourist Bar",
+      "position": {
+        "x": -378,
+        "y": -4,
+        "z": -381
+      },
+      "route_ids": [],
+      "category": "food_and_crew",
+      "floor_index": 5,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-059",
+      "name": "Tourist Gymnasium",
+      "position": {
+        "x": -432,
+        "y": -19,
+        "z": -350
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 2,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-060",
+      "name": "Tourist Swimming Bath",
+      "position": {
+        "x": -437,
+        "y": -19,
+        "z": -367
+      },
+      "route_ids": [],
+      "category": "bathroom",
+      "floor_index": 2,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-061",
+      "name": "Travel Bureau",
+      "position": {
+        "x": -440,
+        "y": -4,
+        "z": -376
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 5,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-062",
+      "name": "Turbo Generator Room",
+      "position": {
+        "x": -178,
+        "y": -9,
+        "z": -345
+      },
+      "route_ids": [],
+      "category": "storage",
+      "floor_index": 4,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-063",
+      "name": "W.H.Smith & Son",
+      "position": {
+        "x": -191,
+        "y": 17,
+        "z": -352
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 9,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-064",
+      "name": "W/T Operator",
+      "position": {
+        "x": -118,
+        "y": 24,
+        "z": -377
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 10,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-065",
+      "name": "Ward Room",
+      "position": {
+        "x": -130,
+        "y": 29,
+        "z": -364
+      },
+      "route_ids": [],
+      "category": "storage",
+      "floor_index": 10,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-066",
+      "name": "Wheelhouse",
+      "position": {
+        "x": -511,
+        "y": 12,
+        "z": -362
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 8,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-067",
+      "name": "Bath",
+      "position": {
+        "x": -243,
+        "y": -9,
+        "z": -353
+      },
+      "route_ids": [],
+      "category": "bathroom",
+      "floor_index": 4,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-068",
+      "name": "Stairs To D Deck",
+      "position": {
+        "x": -70,
+        "y": -9,
+        "z": -366
+      },
+      "route_ids": [],
+      "category": "vertical_circulation",
+      "floor_index": 4,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-069",
+      "name": "Gent´s Lavatory",
+      "position": {
+        "x": -251,
+        "y": -14,
+        "z": -384
+      },
+      "route_ids": [],
+      "category": "bathroom",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-070",
+      "name": "Lift Motor",
+      "position": {
+        "x": -417,
+        "y": -24,
+        "z": -370
+      },
+      "route_ids": [],
+      "category": "vertical_circulation",
+      "floor_index": 1,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-071",
+      "name": "Stairs To G Deck",
+      "position": {
+        "x": -69,
+        "y": -24,
+        "z": -361
+      },
+      "route_ids": [],
+      "category": "vertical_circulation",
+      "floor_index": 1,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-072",
+      "name": "Stewardesses",
+      "position": {
+        "x": -447,
+        "y": -14,
+        "z": -363
+      },
+      "route_ids": [],
+      "category": "crew_cabin",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-073",
+      "name": "Tourist Class Entrance",
+      "position": {
+        "x": -281,
+        "y": -9,
+        "z": -355
+      },
+      "route_ids": [],
+      "category": "entrance",
+      "floor_index": 4,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-074",
+      "name": "Leading Steward",
+      "position": {
+        "x": -177,
+        "y": -14,
+        "z": -374
+      },
+      "route_ids": [],
+      "category": "crew_cabin",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-075",
+      "name": "Linen Store",
+      "position": {
+        "x": -404,
+        "y": -24,
+        "z": -358
+      },
+      "route_ids": [],
+      "category": "storage",
+      "floor_index": 1,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-076",
+      "name": "Sewage Tank",
+      "position": {
+        "x": -441,
+        "y": -28,
+        "z": -366
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 0,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-077",
+      "name": "Electricians Workshop",
+      "position": {
+        "x": -361,
+        "y": -14,
+        "z": -334
+      },
+      "route_ids": [],
+      "category": "office",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-078",
+      "name": "Stairs To F Deck",
+      "position": {
+        "x": -68,
+        "y": -19,
+        "z": -361
+      },
+      "route_ids": [],
+      "category": "vertical_circulation",
+      "floor_index": 2,
+      "navigation_role": "destination"
+    },
+    {
+      "id": "RMS-QM-WP-079",
+      "name": "A Deck",
+      "position": {
+        "x": -98,
+        "y": 7,
+        "z": -363
+      },
+      "route_ids": [],
+      "category": "door_plate",
+      "floor_index": 7,
+      "navigation_role": "destination"
+    }
+  ]
+}

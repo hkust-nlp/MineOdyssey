@@ -1,0 +1,694 @@
+{
+  "schema_version": 1,
+  "map_id": "sviyazhsk",
+  "waypoint_count": 34,
+  "quality_status": "replanned_current_34_waypoints_six_routes_pending_baritone_validation",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/sviyazhsk-live-6-routes.json",
+    "sha256": "f81170bc2fe1a78a4ba1162a94eaf632d2dc270a4469ffe6c4d94781912b4e74"
+  },
+  "waypoints": [
+    {
+      "id": "SVY-LIVE-01",
+      "name": "Теплоход у Свияжска",
+      "position": {
+        "x": 6282044,
+        "y": 55,
+        "z": -5357201
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-03"
+      ],
+      "name_zh": "斯维亚日斯克附近的游船",
+      "name_ru": "Теплоход у Свияжска",
+      "source_name": "Теплоход у Свияжска",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "南侧水域",
+      "kind": "船舶",
+      "initials": "Т",
+      "color": 6
+    },
+    {
+      "id": "SVY-LIVE-02",
+      "name": "Монастырская трапеза",
+      "position": {
+        "x": 6282031,
+        "y": 79,
+        "z": -5357360
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-02"
+      ],
+      "name_zh": "修道院餐厅",
+      "name_ru": "Монастырская трапеза",
+      "source_name": "Монастырская трапеза",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "南部宗教建筑群",
+      "kind": "餐厅",
+      "initials": "М",
+      "color": 16
+    },
+    {
+      "id": "SVY-LIVE-03",
+      "name": "Государственный историко-архитек",
+      "position": {
+        "x": 6281704,
+        "y": 78,
+        "z": -5357411
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-06"
+      ],
+      "name_zh": "国家历史建筑博物馆",
+      "name_ru": "Государственный историко-архитек",
+      "source_name": "Государственный историко-архитек",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "西部历史区",
+      "kind": "博物馆",
+      "initials": "С",
+      "color": 16
+    },
+    {
+      "id": "SVY-LIVE-04",
+      "name": "Свияга",
+      "position": {
+        "x": 6282103,
+        "y": 79,
+        "z": -5357871
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-06"
+      ],
+      "name_zh": "斯维亚加",
+      "name_ru": "Свияга",
+      "source_name": "Свияга",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "北部历史区",
+      "kind": "地标",
+      "initials": "С",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-05",
+      "name": "Храм святых равноапостольных цар",
+      "position": {
+        "x": 6282182,
+        "y": 70,
+        "z": -5357924
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-06"
+      ],
+      "name_zh": "圣君士坦丁与圣海伦娜教堂",
+      "name_ru": "Храм святых равноапостольных цар",
+      "source_name": "Храм святых равноапостольных цар",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "东北宗教区",
+      "kind": "教堂",
+      "initials": "Х",
+      "color": 1
+    },
+    {
+      "id": "SVY-LIVE-06",
+      "name": "Дом Гончара",
+      "position": {
+        "x": 6282382,
+        "y": 57,
+        "z": -5357874
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-04"
+      ],
+      "name_zh": "陶工之家",
+      "name_ru": "Дом Гончара",
+      "source_name": "Дом Гончара",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "东部手工艺区",
+      "kind": "手工艺场所",
+      "initials": "Д",
+      "color": 8
+    },
+    {
+      "id": "SVY-LIVE-07",
+      "name": "Музей археологического дерева \"Т",
+      "position": {
+        "x": 6282465,
+        "y": 55,
+        "z": -5357885
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-03"
+      ],
+      "name_zh": "木制考古博物馆",
+      "name_ru": "Музей археологического дерева \"Т",
+      "source_name": "Музей археологического дерева \"Т",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "东部手工艺区",
+      "kind": "博物馆",
+      "initials": "М",
+      "color": 4
+    },
+    {
+      "id": "SVY-LIVE-08",
+      "name": "Особняк на Еленинской",
+      "position": {
+        "x": 6282359,
+        "y": 57,
+        "z": -5357766
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-01"
+      ],
+      "name_zh": "叶列宁斯卡娅街宅邸",
+      "name_ru": "Особняк на Еленинской",
+      "source_name": "Особняк на Еленинской",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "东部民居区",
+      "kind": "历史住宅",
+      "initials": "О",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-09",
+      "name": "Миниатюра Острова Свияжск",
+      "position": {
+        "x": 6282368,
+        "y": 56,
+        "z": -5357795
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-02"
+      ],
+      "name_zh": "斯维亚日斯克岛城微缩景观",
+      "name_ru": "Миниатюра Острова Свияжск",
+      "source_name": "Миниатюра Острова Свияжск",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "东部民居区",
+      "kind": "拍照打卡点",
+      "initials": "М",
+      "color": 20
+    },
+    {
+      "id": "SVY-LIVE-10",
+      "name": "Дом Тимофеева-Терентьева-Бровкин",
+      "position": {
+        "x": 6282253,
+        "y": 64,
+        "z": -5357822
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-06"
+      ],
+      "name_zh": "季莫费耶夫—捷连季耶夫—布罗夫金故居",
+      "name_ru": "Дом Тимофеева-Терентьева-Бровкин",
+      "source_name": "Дом Тимофеева-Терентьева-Бровкин",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "东北民居区",
+      "kind": "历史住宅",
+      "initials": "D",
+      "color": 11
+    },
+    {
+      "id": "SVY-LIVE-11",
+      "name": "Свияжская основная школа",
+      "position": {
+        "x": 6282157,
+        "y": 79,
+        "z": -5357843
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-05"
+      ],
+      "name_zh": "斯维亚日斯克基础学校",
+      "name_ru": "Свияжская основная школа",
+      "source_name": "Свияжская основная школа",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "北部公共区",
+      "kind": "学校",
+      "initials": "С",
+      "color": 14
+    },
+    {
+      "id": "SVY-LIVE-12",
+      "name": "Stena Kommunarov",
+      "position": {
+        "x": 6282166,
+        "y": 79,
+        "z": -5357762
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-02"
+      ],
+      "name_zh": "公社社员墙",
+      "name_ru": "Stena Kommunarov",
+      "source_name": "Stena Kommunarov",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "北部公共区",
+      "kind": "纪念地",
+      "initials": "S",
+      "color": 8
+    },
+    {
+      "id": "SVY-LIVE-13",
+      "name": "Музейный Сувенир магазин",
+      "position": {
+        "x": 6282060,
+        "y": 81,
+        "z": -5357515
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-01"
+      ],
+      "name_zh": "博物馆纪念品商店",
+      "name_ru": "Музейный Сувенир магазин",
+      "source_name": "Музейный Сувенир магазин",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "中南部",
+      "kind": "商店",
+      "initials": "М",
+      "color": 2
+    },
+    {
+      "id": "SVY-LIVE-14",
+      "name": "УЧАСТКОВЫЙ ПУНКТ ПОЛИЦИИ",
+      "position": {
+        "x": 6282066,
+        "y": 80,
+        "z": -5357424
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-02"
+      ],
+      "name_zh": "社区警务站",
+      "name_ru": "УЧАСТКОВЫЙ ПУНКТ ПОЛИЦИИ",
+      "source_name": "УЧАСТКОВЫЙ ПУНКТ ПОЛИЦИИ",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "南部公共区",
+      "kind": "公共服务",
+      "initials": "У",
+      "color": 9
+    },
+    {
+      "id": "SVY-LIVE-15",
+      "name": "Сад размышлений",
+      "position": {
+        "x": 6281706,
+        "y": 78,
+        "z": -5357489
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-05"
+      ],
+      "name_zh": "沉思花园",
+      "name_ru": "Сад размышлений",
+      "source_name": "Сад размышлений",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "西部历史区",
+      "kind": "花园",
+      "initials": "С",
+      "color": 19
+    },
+    {
+      "id": "SVY-LIVE-16",
+      "name": "Богородице-Успенский Свияжский м",
+      "position": {
+        "x": 6281526,
+        "y": 74,
+        "z": -5357294
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-02"
+      ],
+      "name_zh": "圣母安息斯维亚日斯克修道院",
+      "name_ru": "Богородице-Успенский Свияжский м",
+      "source_name": "Богородице-Успенский Свияжский м",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "西南修道院区",
+      "kind": "修道院",
+      "initials": "Б",
+      "color": 20
+    },
+    {
+      "id": "SVY-LIVE-17",
+      "name": "Собор Успения Пресвятой Богороди",
+      "position": {
+        "x": 6281481,
+        "y": 75,
+        "z": -5357377
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-05"
+      ],
+      "name_zh": "圣母安息主教座堂",
+      "name_ru": "Собор Успения Пресвятой Богороди",
+      "source_name": "Собор Успения Пресвятой Богороди",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "西南修道院区",
+      "kind": "教堂",
+      "initials": "P0",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-18",
+      "name": "Богородице-Успенский Свияжский м",
+      "position": {
+        "x": 6281470,
+        "y": 73,
+        "z": -5357323
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-04"
+      ],
+      "name_zh": "圣母安息修道院第二处游戏点",
+      "name_ru": "Богородице-Успенский Свияжский м",
+      "source_name": "Богородице-Успенский Свияжский м",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "西南修道院区",
+      "kind": "修道院点位",
+      "initials": "P0",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-19",
+      "name": "Конный двор",
+      "position": {
+        "x": 6281588,
+        "y": 74,
+        "z": -5357254
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-01"
+      ],
+      "name_zh": "马厩",
+      "name_ru": "Конный двор",
+      "source_name": "Конный двор",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "西南修道院区",
+      "kind": "历史设施",
+      "initials": "P0",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-20",
+      "name": "Комплекс зданий земской больницы",
+      "position": {
+        "x": 6281634,
+        "y": 77,
+        "z": -5357572
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-04"
+      ],
+      "name_zh": "地方医院建筑群",
+      "name_ru": "Комплекс зданий земской больницы",
+      "source_name": "Комплекс зданий земской больницы",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "西部社会史区",
+      "kind": "历史建筑群",
+      "initials": "P07",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-21",
+      "name": "Дом Крылова / уездное училище",
+      "position": {
+        "x": 6281996,
+        "y": 81,
+        "z": -5357525
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-03"
+      ],
+      "name_zh": "克雷洛夫宅／县立学校旧址",
+      "name_ru": "Дом Крылова / уездное училище",
+      "source_name": "Дом Крылова / уездное училище",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "中部历史区",
+      "kind": "历史住宅",
+      "initials": "P08",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-22",
+      "name": "Дом Агафонова с торговой лавкой",
+      "position": {
+        "x": 6282073,
+        "y": 79,
+        "z": -5357824
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-04"
+      ],
+      "name_zh": "阿加福诺夫宅与商铺",
+      "name_ru": "Дом Агафонова с торговой лавкой",
+      "source_name": "Дом Агафонова с торговой лавкой",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "北部民居区",
+      "kind": "历史住宅",
+      "initials": "P09",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-23",
+      "name": "Дом купца Ф. Т. Каменева",
+      "position": {
+        "x": 6282079,
+        "y": 81,
+        "z": -5357644
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-01"
+      ],
+      "name_zh": "商人卡梅涅夫故居",
+      "name_ru": "Дом купца Ф. Т. Каменева",
+      "source_name": "Дом купца Ф. Т. Каменева",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "中部历史区",
+      "kind": "历史住宅",
+      "initials": "P13",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-24",
+      "name": "Сельсовет",
+      "position": {
+        "x": 6282179,
+        "y": 78,
+        "z": -5357706
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-02"
+      ],
+      "name_zh": "村委会",
+      "name_ru": "Сельсовет",
+      "source_name": "Сельсовет",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "北部公共区",
+      "kind": "公共建筑",
+      "initials": "P1",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-25",
+      "name": "Старая водонапорная башня",
+      "position": {
+        "x": 6281950,
+        "y": 80,
+        "z": -5357835
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-04"
+      ],
+      "name_zh": "旧水塔",
+      "name_ru": "Старая водонапорная башня",
+      "source_name": "Старая водонапорная башня",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "西北部",
+      "kind": "基础设施",
+      "initials": "P1",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-26",
+      "name": "Ленивый торжок",
+      "position": {
+        "x": 6282010,
+        "y": 81,
+        "z": -5357683
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-03"
+      ],
+      "name_zh": "慢集市",
+      "name_ru": "Ленивый торжок",
+      "source_name": "Ленивый торжок",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "中部商业区",
+      "kind": "集市",
+      "initials": "P16",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-27",
+      "name": "Вход в Иоанно-Предтеченский монастырь",
+      "position": {
+        "x": 6281912,
+        "y": 81,
+        "z": -5357439
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-01"
+      ],
+      "name_zh": "施洗者圣约翰修道院入口",
+      "name_ru": "Вход в Иоанно-Предтеченский монастырь",
+      "source_name": "Вход в Иоанно-Предтеченский монастырь",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "南部宗教建筑群",
+      "kind": "入口",
+      "initials": "P20",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-28",
+      "name": "Троицкая церковь",
+      "position": {
+        "x": 6281951,
+        "y": 80,
+        "z": -5357392
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-01"
+      ],
+      "name_zh": "圣三一教堂",
+      "name_ru": "Троицкая церковь",
+      "source_name": "Троицкая церковь",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "南部宗教建筑群",
+      "kind": "教堂",
+      "initials": "P21",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-29",
+      "name": "Сергиевская церковь",
+      "position": {
+        "x": 6281985,
+        "y": 79,
+        "z": -5357384
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-06"
+      ],
+      "name_zh": "圣谢尔盖教堂",
+      "name_ru": "Сергиевская церковь",
+      "source_name": "Сергиевская церковь",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "南部宗教建筑群",
+      "kind": "教堂",
+      "initials": "P22",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-30",
+      "name": "Собор Богоматери «Всех скорбящих Радость»",
+      "position": {
+        "x": 6282003,
+        "y": 80,
+        "z": -5357405
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-03"
+      ],
+      "name_zh": "“众哀者之乐”圣母主教座堂",
+      "name_ru": "Собор Богоматери «Всех скорбящих Радость»",
+      "source_name": "Собор Богоматери «Всех скорбящих Радость»",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "南部宗教建筑群",
+      "kind": "教堂",
+      "initials": "P23",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-31",
+      "name": "Бывший Ольгинский приют",
+      "position": {
+        "x": 6281962,
+        "y": 81,
+        "z": -5357578
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-04"
+      ],
+      "name_zh": "原奥尔加孤儿院",
+      "name_ru": "Бывший Ольгинский приют",
+      "source_name": "Бывший Ольгинский приют",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "中部社会史区",
+      "kind": "历史建筑",
+      "initials": "P24",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-32",
+      "name": "Музей Гражданской войны",
+      "position": {
+        "x": 6282127,
+        "y": 78,
+        "z": -5357895
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-03"
+      ],
+      "name_zh": "内战博物馆",
+      "name_ru": "Музей Гражданской войны",
+      "source_name": "Музей Гражданской войны",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "东北历史区",
+      "kind": "博物馆",
+      "initials": "P2",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-33",
+      "name": "Речной вокзал Свияжск",
+      "position": {
+        "x": 6282402,
+        "y": 57,
+        "z": -5357835
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-05"
+      ],
+      "name_zh": "斯维亚日斯克河港",
+      "name_ru": "Речной вокзал Свияжск",
+      "source_name": "Речной вокзал Свияжск",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "东部滨水区",
+      "kind": "交通终点",
+      "initials": "P3",
+      "color": 10
+    },
+    {
+      "id": "SVY-LIVE-34",
+      "name": "Набережная реки Щуки — северный изгиб",
+      "position": {
+        "x": 6281707,
+        "y": 64,
+        "z": -5357871
+      },
+      "route_ids": [
+        "sviyazhsk-live-route-05"
+      ],
+      "name_zh": "舒卡河滨水区北弯",
+      "name_ru": "Набережная реки Щуки — северный изгиб",
+      "source_name": "Набережная реки Щуки — северный изгиб",
+      "source_status": "enabled_in_current_game_xaero",
+      "zone": "西北滨水区",
+      "kind": "滨水空间",
+      "initials": "P31",
+      "color": 10
+    }
+  ]
+}

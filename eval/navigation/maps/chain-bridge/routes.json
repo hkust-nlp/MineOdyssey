@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "map_id": "chain-bridge",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "server-package/navigation-v1/chain-bridge/routes.json",
+    "sha256": "30fad611118897251c8f26a6f348b501d79f01f10cbb8af1a1b18c9a58e8f8d2"
+  },
+  "quality_status": "planned_pending_runtime_validation",
+  "route_count": 1,
+  "routes": [
+    {
+      "id": "chain-bridge-route-01",
+      "title": "A Lánchíd budai hídfőjétől a Vigadóig",
+      "title_zh": "从链桥布达侧到 Vigadó 码头",
+      "title_local": "A Lánchíd budai hídfőjétől a Vigadóig",
+      "topic_local": "Átkelés a Lánchídon és séta a pesti Duna-parton",
+      "prompt_local": "Kora este induljon el a „Lánchíd budai hídfője” ponttól, keljen át a hídon a „Ponton” felé, majd pihenjen meg az „Öreg akácfa” alatt, és a „Vigadó 1 kikötő” pontnál fejezze be a Duna-parti sétát.",
+      "prompt_zh": "傍晚从「Lánchíd budai hídfője」出发，走过链桥到「Ponton」，在「Öreg akácfa」下稍作休息，最后沿多瑙河岸走到「Vigadó 1 kikötő」结束散步。",
+      "prompt_language": "hu-HU",
+      "prompt_style": "natural_situational_local_language",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "riverfront_path",
+        "pontoon_access",
+        "bridge_crossing",
+        "level_change",
+        "natural_situational_prompt",
+        "local_language_prompt",
+        "chinese_review_translation"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "T-P-O-V 路线已按远端最新点序更新，仍需运行时实走复测。",
+      "semantic_dependency_status": "reviewed_topic_stop_order",
+      "semantic_dependency_zh": "从链桥布达侧过桥，经 Ponton 和老槐树，最后沿多瑙河岸前往 Vigadó 码头。",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3,
+        "straight_line_polyline_blocks": 663.54
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "CBR-04",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "CBR-02",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CBR-01",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CHAIN-BRIDGE-WP-07",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "chain-bridge-route-01-segment-01",
+          "from": "CBR-04",
+          "to": "CBR-02",
+          "straight_line_blocks": 422.31,
+          "status": "planned_pending_runtime_validation"
+        },
+        {
+          "id": "chain-bridge-route-01-segment-02",
+          "from": "CBR-02",
+          "to": "CBR-01",
+          "straight_line_blocks": 82.46,
+          "status": "planned_pending_runtime_validation"
+        },
+        {
+          "id": "chain-bridge-route-01-segment-03",
+          "from": "CBR-01",
+          "to": "CHAIN-BRIDGE-WP-07",
+          "straight_line_blocks": 158.77,
+          "status": "planned_pending_runtime_validation"
+        }
+      ]
+    }
+  ],
+  "upload_recommendation": "waypoints_and_routes_ready",
+  "excluded_waypoints": []
+}

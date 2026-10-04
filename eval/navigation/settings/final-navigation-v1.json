@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "setting_id": "final-navigation-v1",
+  "profile_id": "minecraft-1.21.11",
+  "arrival": {
+    "radius_3d": 3.5,
+    "radius_y": 1.5,
+    "sample_interval_sec": 1
+  },
+  "completion": {
+    "action": "claim_done",
+    "claim_attempt_limit": 3
+  },
+  "task_eval_defaults": {
+    "time": "noon",
+    "weather": "clear",
+    "six_view_enabled": false,
+    "player_scale": 1.0,
+    "third_person": false,
+    "hud_enabled": false,
+    "navigation_hints_enabled": false,
+    "guideline": false,
+    "resource_pack_and_shader": false,
+    "coordinate_lock_enabled": true
+  },
+  "runtime": {
+    "gamemode": "adventure",
+    "clear_inventory": true,
+    "disable_mobs": true,
+    "time": {
+      "value": 6000,
+      "freeze": true
+    },
+    "weather": {
+      "value": "clear",
+      "freeze": true
+    },
+    "difficulty": "peaceful",
+    "allow_flight": false,
+    "target_waypoint_profile": "xaero-target-only",
+    "waypoint_in_world_max_distance": 32,
+    "world_copy": "reflink-or-copy-never-hardlink"
+  },
+  "agent": {
+    "observation_mode": "event_only",
+    "observe_interval_sec": 5,
+    "default_periodic_observe": false,
+    "allow_model_observe_toggle": false,
+    "bash_timeout_sec": 300,
+    "llm_timeout_sec": 600,
+    "llm_max_retries": 0,
+    "max_consecutive_llm_failures": 3,
+    "six_view_enabled": false,
+    "max_images_in_context": 100,
+    "auto_summarize_turn_threshold": 100,
+    "auto_summarize_token_threshold": 200000,
+    "max_conversation_rounds": 0
+  },
+  "limits": {
+    "max_assistant_steps": 500,
+    "watchdog_timeout_sec": 21600,
+    "max_deaths": 1
+  }
+}

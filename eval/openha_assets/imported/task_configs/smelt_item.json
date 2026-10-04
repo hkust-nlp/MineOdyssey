@@ -1,0 +1,2252 @@
+{
+  "smelt_item:baked_potato": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "potato"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "baked_potato",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:baked_potato",
+      "openha_task_name": "craft_item:baked_potato",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:baked_potato",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:blue_glazed_terracotta": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "blue_terracotta"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "blue_glazed_terracotta",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:blue_glazed_terracotta",
+      "openha_task_name": "craft_item:blue_glazed_terracotta",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:brick": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "clay_ball"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "brick",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:brick",
+      "openha_task_name": "craft_item:brick",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:brick",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:brown_glazed_terracotta": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "brown_terracotta"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "brown_glazed_terracotta",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:brown_glazed_terracotta",
+      "openha_task_name": "craft_item:brown_glazed_terracotta",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:charcoal": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "birch_wood"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "charcoal",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:charcoal",
+      "openha_task_name": "craft_item:charcoal",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:charcoal",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:coal": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "coal_ore"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "coal",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:coal",
+      "openha_task_name": "craft_item:coal",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:coal",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:cooked_beef": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "beef"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "cooked_beef",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:cooked_beef",
+      "openha_task_name": "craft_item:cooked_beef",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:cooked_beef",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:cooked_chicken": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "chicken"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "cooked_chicken",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:cooked_chicken",
+      "openha_task_name": "craft_item:cooked_chicken",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:cooked_chicken",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:cooked_cod": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "cod"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "cooked_cod",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:cooked_cod",
+      "openha_task_name": "craft_item:cooked_cod",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:cooked_cod",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:cooked_porkchop": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "porkchop"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "cooked_porkchop",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:cooked_porkchop",
+      "openha_task_name": "craft_item:cooked_porkchop",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:cooked_porkchop",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:cooked_rabbit": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "rabbit"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "cooked_rabbit",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:cooked_rabbit",
+      "openha_task_name": "craft_item:cooked_rabbit",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:cooked_rabbit",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:cooked_salmon": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "salmon"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "cooked_salmon",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:cooked_salmon",
+      "openha_task_name": "craft_item:cooked_salmon",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:cooked_salmon",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:cracked_nether_bricks": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "nether_bricks"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "cracked_nether_bricks",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:cracked_nether_bricks",
+      "openha_task_name": "craft_item:cracked_nether_bricks",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:cracked_polished_blackstone_bricks": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "polished_blackstone_bricks"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "cracked_polished_blackstone_bricks",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:cracked_polished_blackstone_bricks",
+      "openha_task_name": "craft_item:cracked_polished_blackstone_bricks",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:cyan_glazed_terracotta": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "cyan_terracotta"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "cyan_glazed_terracotta",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:cyan_glazed_terracotta",
+      "openha_task_name": "craft_item:cyan_glazed_terracotta",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:diamond": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "diamond_ore"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "diamond",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:diamond",
+      "openha_task_name": "craft_item:diamond",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:diamond",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:dried_kelp": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "kelp"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "dried_kelp",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:dried_kelp",
+      "openha_task_name": "craft_item:dried_kelp",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:dried_kelp",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:gold_ingot": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "nether_gold_ore"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "gold_ingot",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:gold_ingot",
+      "openha_task_name": "craft_item:gold_ingot",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:gold_ingot",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:gold_nugget": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "golden_sword"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "gold_nugget",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:gold_nugget",
+      "openha_task_name": "craft_item:gold_nugget",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:gold_nugget",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:gray_glazed_terracotta": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "gray_terracotta"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "gray_glazed_terracotta",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:gray_glazed_terracotta",
+      "openha_task_name": "craft_item:gray_glazed_terracotta",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:green_dye": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "cactus"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "green_dye",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:green_dye",
+      "openha_task_name": "craft_item:green_dye",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:green_dye",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:green_glazed_terracotta": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "green_terracotta"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "green_glazed_terracotta",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:green_glazed_terracotta",
+      "openha_task_name": "craft_item:green_glazed_terracotta",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:iron_ingot": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "iron_ore"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "iron_ingot",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:iron_ingot",
+      "openha_task_name": "craft_item:iron_ingot",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:iron_ingot",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:iron_nugget": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "iron_sword"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "iron_nugget",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:iron_nugget",
+      "openha_task_name": "craft_item:iron_nugget",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:iron_nugget",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:lapis_lazuli": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "lapis_ore"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "lapis_lazuli",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:lapis_lazuli",
+      "openha_task_name": "craft_item:lapis_lazuli",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:lapis_lazuli",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:light_blue_glazed_terracotta": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "light_blue_terracotta"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "light_blue_glazed_terracotta",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:light_blue_glazed_terracotta",
+      "openha_task_name": "craft_item:light_blue_glazed_terracotta",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:light_gray_glazed_terracotta": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "light_gray_terracotta"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "light_gray_glazed_terracotta",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:light_gray_glazed_terracotta",
+      "openha_task_name": "craft_item:light_gray_glazed_terracotta",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:lime_dye": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "sea_pickle"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "lime_dye",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:lime_dye",
+      "openha_task_name": "craft_item:lime_dye",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:lime_glazed_terracotta": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "lime_terracotta"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "lime_glazed_terracotta",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:lime_glazed_terracotta",
+      "openha_task_name": "craft_item:lime_glazed_terracotta",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:magenta_glazed_terracotta": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "magenta_terracotta"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "magenta_glazed_terracotta",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:magenta_glazed_terracotta",
+      "openha_task_name": "craft_item:magenta_glazed_terracotta",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:nether_brick": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "netherrack"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "nether_brick",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:nether_brick",
+      "openha_task_name": "craft_item:nether_brick",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:nether_brick",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:netherite_scrap": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "ancient_debris"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "netherite_scrap",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:netherite_scrap",
+      "openha_task_name": "craft_item:netherite_scrap",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:netherite_scrap",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:orange_glazed_terracotta": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "orange_terracotta"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "orange_glazed_terracotta",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:orange_glazed_terracotta",
+      "openha_task_name": "craft_item:orange_glazed_terracotta",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:pink_glazed_terracotta": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "pink_terracotta"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "pink_glazed_terracotta",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:pink_glazed_terracotta",
+      "openha_task_name": "craft_item:pink_glazed_terracotta",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:popped_chorus_fruit": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "chorus_fruit"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "popped_chorus_fruit",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:popped_chorus_fruit",
+      "openha_task_name": "craft_item:popped_chorus_fruit",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:purple_glazed_terracotta": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "purple_terracotta"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "purple_glazed_terracotta",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:purple_glazed_terracotta",
+      "openha_task_name": "craft_item:purple_glazed_terracotta",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:quartz": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "nether_quartz_ore"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "quartz",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:quartz",
+      "openha_task_name": "craft_item:quartz",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:redstone": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "redstone_ore"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "redstone",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:redstone",
+      "openha_task_name": "craft_item:redstone",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:redstone",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:smooth_quartz": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "quartz_block"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "smooth_quartz",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:smooth_quartz",
+      "openha_task_name": "craft_item:smooth_quartz",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:smooth_red_sandstone": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "red_sandstone"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "smooth_red_sandstone",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:smooth_red_sandstone",
+      "openha_task_name": "craft_item:smooth_red_sandstone",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:smooth_sandstone": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "sandstone"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "smooth_sandstone",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:smooth_sandstone",
+      "openha_task_name": "craft_item:smooth_sandstone",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:smooth_sandstone",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:smooth_stone": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "stone"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "smooth_stone",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:smooth_stone",
+      "openha_task_name": "craft_item:smooth_stone",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:smooth_stone",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:sponge": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "wet_sponge"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "sponge",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:sponge",
+      "openha_task_name": "craft_item:sponge",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:terracotta": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "clay"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "terracotta",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:terracotta",
+      "openha_task_name": "craft_item:terracotta",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 10,
+      "instruction_source_key": "craft_item:terracotta",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "smelt_item:white_glazed_terracotta": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "white_terracotta"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "white_glazed_terracotta",
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "smelt_item:white_glazed_terracotta",
+      "openha_task_name": "craft_item:white_glazed_terracotta",
+      "family": "smelt_item",
+      "source_spawn_file": "smelt_item.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  }
+}

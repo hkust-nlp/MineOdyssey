@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "map_id": "dkm-tirpitz",
+  "display_name": "DKM Tirpitz",
+  "environment": "indoor",
+  "source": {
+    "repository": "anonymous/source",
+    "provenance": {
+      "kind": "git-lfs-world-materialized-as-local-source-archive",
+      "git_commit": "0000000000000000000000000000000000000000",
+      "git_path": "custom_maps/maps/inter_map/dkm_tirpitz"
+    },
+    "asset_name": "dkm_tirpitz.zip",
+    "archive_path": "dkm_tirpitz.zip",
+    "archive_bytes": 2700916,
+    "archive_sha256": "495fb4040b98e0f656d7ff85f428020089c7314f6c6dcd1fafde6c5dd1681daa",
+    "world_root": "dkm_tirpitz"
+  },
+  "world": {
+    "source_version": {
+      "version_name": "1.21.1",
+      "data_version": 3955
+    },
+    "minecraft_version": "1.21.11",
+    "version_name": "1.21.11",
+    "data_version": 4671,
+    "expected_source_fingerprint": "4d1c853c3fae715868591d750543bf03eb0e7e4c1d3c6ba375b95b1ba82375be",
+    "expected_prepared_fingerprint": "cb2213f0c39d9920dfcafb0e924bc1a6b70d98b58471167b593e00f9106a9092",
+    "preparation": {
+      "id": "minecraft-server-force-upgrade-1.21.11-v1",
+      "runtime_profile": "minecraft-1.21.11",
+      "server_arguments": [
+        "--forceUpgrade",
+        "--eraseCache",
+        "nogui"
+      ],
+      "reason": "Preserve the exact source archive, then upgrade one cloned world with the pinned Minecraft 1.21.11 / NeoForge 21.11.44 server and save it as the immutable prepared snapshot."
+    }
+  },
+  "license": {
+    "scope": "evaluation-only source archive",
+    "redistribution": "not granted by this manifest",
+    "note": "Keep the source ZIP and extracted source world outside Git; preserve the upstream Git provenance and any bundled terms."
+  }
+}

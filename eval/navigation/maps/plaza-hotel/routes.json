@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "map_id": "plaza-hotel",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "custom_maps/maps/inter_map/plaza_hotel/routes.json",
+    "sha256": "901e71448243fc1a1903a7728cc9dc4d4772e5112b61446e74923717b4d0dc41"
+  },
+  "quality_status": "semantically_reviewed_owner_approved",
+  "upload_recommendation": "routes_ready_for_runtime_validation",
+  "route_count": 6,
+  "routes": [
+    {
+      "id": "plh-route-01",
+      "title": "Arrival and Afternoon Tea",
+      "title_local": "Arrival and Afternoon Tea",
+      "title_zh": "抵店后的下午茶",
+      "prompt_language": "en-US",
+      "prompt_local": "After arriving at the hotel by taxi, get off at Blueprint Taxi Co., pass The Shoppes at the Plaza, and go to The Palm Court for afternoon tea.",
+      "prompt_zh": "刚乘出租车抵达酒店后，从 Blueprint Taxi Co. 下车，经过 The Shoppes at the Plaza，前往 The Palm Court 享用下午茶。",
+      "difficulty": "medium",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "PLH-WP-68",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "PLH-WP-52",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PLH-WP-53",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "plh-route-01-segment-01",
+          "from": "PLH-WP-68",
+          "to": "PLH-WP-52"
+        },
+        {
+          "id": "plh-route-01-segment-02",
+          "from": "PLH-WP-52",
+          "to": "PLH-WP-53"
+        }
+      ]
+    },
+    {
+      "id": "plh-route-04",
+      "title": "Business Meeting Check-In",
+      "title_local": "Business Meeting Check-In",
+      "title_zh": "会议签到动线",
+      "prompt_language": "en-US",
+      "prompt_local": "When attending a business meeting on the fifth floor, start from Palm Court Meeting Room, go through the stairs on the first and fifth floors, and arrive at Meeting Room 201.",
+      "prompt_zh": "参加五层商务会议时，从 Palm Court Meeting Room 出发，经一层和五层楼梯，抵达 Meeting Room 201。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "PLH-WP-54",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "PLH-WP-04",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PLH-WP-21",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PLH-WP-55",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "plh-route-04-segment-01",
+          "from": "PLH-WP-54",
+          "to": "PLH-WP-04"
+        },
+        {
+          "id": "plh-route-04-segment-02",
+          "from": "PLH-WP-04",
+          "to": "PLH-WP-21"
+        },
+        {
+          "id": "plh-route-04-segment-03",
+          "from": "PLH-WP-21",
+          "to": "PLH-WP-55"
+        }
+      ]
+    },
+    {
+      "id": "plh-route-06",
+      "title": "Guest Room to Rooftop Dinner",
+      "title_local": "Guest Room to Rooftop Dinner",
+      "title_zh": "客房到屋顶晚餐",
+      "prompt_language": "en-US",
+      "prompt_local": "When checking into room 101 and making a reservation for the rooftop restaurant, start from room 101, go through the first and seventeenth floor stairs, and arrive at Rooftop Restaurant.",
+      "prompt_zh": "入住 101 房并预约屋顶餐厅时，从 101 房出发，经一层和十七层楼梯，抵达 Rooftop Restaurant。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "PLH-WP-37",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "PLH-WP-04",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PLH-WP-09",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PLH-WP-05",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "plh-route-06-segment-01",
+          "from": "PLH-WP-37",
+          "to": "PLH-WP-04"
+        },
+        {
+          "id": "plh-route-06-segment-02",
+          "from": "PLH-WP-04",
+          "to": "PLH-WP-09"
+        },
+        {
+          "id": "plh-route-06-segment-03",
+          "from": "PLH-WP-09",
+          "to": "PLH-WP-05"
+        }
+      ]
+    },
+    {
+      "id": "plh-route-07",
+      "title": "Guest Room to the Pool",
+      "title_local": "Guest Room to the Pool",
+      "title_zh": "客房到泳池",
+      "prompt_language": "en-US",
+      "prompt_local": "When you check into Room 1003 and prepare to swim, go from Room 1003 via the tenth and fifteenth floors of stairs to Pool.",
+      "prompt_zh": "入住 1003 房并准备游泳时，从 1003 房经十层和十五层楼梯，前往 Pool。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "PLH-WP-22",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "PLH-WP-16",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PLH-WP-11",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PLH-WP-60",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "plh-route-07-segment-01",
+          "from": "PLH-WP-22",
+          "to": "PLH-WP-16"
+        },
+        {
+          "id": "plh-route-07-segment-02",
+          "from": "PLH-WP-16",
+          "to": "PLH-WP-11"
+        },
+        {
+          "id": "plh-route-07-segment-03",
+          "from": "PLH-WP-11",
+          "to": "PLH-WP-60"
+        }
+      ]
+    },
+    {
+      "id": "plh-route-11",
+      "title": "Cross-Floor Guest Visit",
+      "title_local": "Cross-Floor Guest Visit",
+      "title_zh": "普通客房跨层探访",
+      "prompt_language": "en-US",
+      "prompt_local": "When going from the first floor to visit friends on the eleventh floor, go from room 121 through the stairs on the first and eleventh floors to arrive at room 1101.",
+      "prompt_zh": "从一层前往探访十一层朋友时，从 121 房经一层和十一层楼梯，抵达 1101 房。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "PLH-WP-34",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "PLH-WP-04",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PLH-WP-15",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PLH-WP-39",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "plh-route-11-segment-01",
+          "from": "PLH-WP-34",
+          "to": "PLH-WP-04"
+        },
+        {
+          "id": "plh-route-11-segment-02",
+          "from": "PLH-WP-04",
+          "to": "PLH-WP-15"
+        },
+        {
+          "id": "plh-route-11-segment-03",
+          "from": "PLH-WP-15",
+          "to": "PLH-WP-39"
+        }
+      ]
+    },
+    {
+      "id": "plh-route-14",
+      "title": "Guest Room to the Health Club",
+      "title_local": "Guest Room to the Health Club",
+      "title_zh": "客房到健康俱乐部",
+      "prompt_language": "en-US",
+      "prompt_local": "When you check into Room 609 and prepare to exercise, go from Room 609 via the sixth and seventeenth floors of stairs to reach Health Club.",
+      "prompt_zh": "入住 609 房并准备健身时，从 609 房经六层和十七层楼梯，抵达 Health Club。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "PLH-WP-26",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "PLH-WP-20",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PLH-WP-09",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PLH-WP-61",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "plh-route-14-segment-01",
+          "from": "PLH-WP-26",
+          "to": "PLH-WP-20"
+        },
+        {
+          "id": "plh-route-14-segment-02",
+          "from": "PLH-WP-20",
+          "to": "PLH-WP-09"
+        },
+        {
+          "id": "plh-route-14-segment-03",
+          "from": "PLH-WP-09",
+          "to": "PLH-WP-61"
+        }
+      ]
+    }
+  ]
+}

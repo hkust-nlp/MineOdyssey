@@ -1,0 +1,502 @@
+{
+  "schema_version": 1,
+  "map_id": "rms-queen-mary",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "custom_maps/maps/inter_map/rms_queen_mary/routes.json",
+    "sha256": "aa26fd39642bf6e2aa3a1816a4549e6202690bcfd37d4554d033cf3a50b098f4"
+  },
+  "quality_status": "semantically_reviewed_owner_approved",
+  "upload_recommendation": "routes_ready_for_runtime_validation",
+  "route_count": 10,
+  "routes": [
+    {
+      "id": "qmr-route-01",
+      "title": "Bridge Watch Handover",
+      "title_local": "Bridge Watch Handover",
+      "title_zh": "驾驶台交班",
+      "prompt_language": "en-GB",
+      "prompt_local": "When taking over the navigation watch, report to Chief Officer from cabin Captain, and then go to Officer's Chart Room to check the route.",
+      "prompt_zh": "接替航行值班时，从 Captain 舱室向 Chief Officer 报到，再前往 Officer's Chart Room 查看航线。",
+      "difficulty": "medium",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "RMS-QM-WP-015",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-017",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-046",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "qmr-route-01-segment-01",
+          "from": "RMS-QM-WP-015",
+          "to": "RMS-QM-WP-017"
+        },
+        {
+          "id": "qmr-route-01-segment-02",
+          "from": "RMS-QM-WP-017",
+          "to": "RMS-QM-WP-046"
+        }
+      ]
+    },
+    {
+      "id": "qmr-route-04",
+      "title": "Children's Activity Drop-Off",
+      "title_local": "Children's Activity Drop-Off",
+      "title_zh": "儿童活动接送",
+      "prompt_language": "en-GB",
+      "prompt_local": "When taking children to participate in onboard activities, proceed from Children's Playroom 1 to Cinema and then to Children's Playroom 2 after the activity.",
+      "prompt_zh": "带孩子参加船上活动时，从 Children's Playroom 1 前往 Cinema，活动结束后到 Children's Playroom 2。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "RMS-QM-WP-020",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-022",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-021",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "qmr-route-04-segment-01",
+          "from": "RMS-QM-WP-020",
+          "to": "RMS-QM-WP-022"
+        },
+        {
+          "id": "qmr-route-04-segment-02",
+          "from": "RMS-QM-WP-022",
+          "to": "RMS-QM-WP-021"
+        }
+      ]
+    },
+    {
+      "id": "qmr-route-07",
+      "title": "First-Class Wellness Visit",
+      "title_local": "First-Class Wellness Visit",
+      "title_zh": "头等舱康体体验",
+      "prompt_language": "en-GB",
+      "prompt_local": "When making a reservation for steam bath and swimming, go from 1st Class Swimming Pool via Calidarium to Bath.",
+      "prompt_zh": "预约蒸汽浴与游泳时，从 1st Class Swimming Pool 经 Calidarium 前往 Bath。",
+      "difficulty": "medium",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "RMS-QM-WP-008",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-012",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-067",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "qmr-route-07-segment-01",
+          "from": "RMS-QM-WP-008",
+          "to": "RMS-QM-WP-012"
+        },
+        {
+          "id": "qmr-route-07-segment-02",
+          "from": "RMS-QM-WP-012",
+          "to": "RMS-QM-WP-067"
+        }
+      ]
+    },
+    {
+      "id": "qmr-route-13",
+      "title": "Crew Hospital Emergency Route",
+      "title_local": "Crew Hospital Emergency Route",
+      "title_zh": "船员医院急诊流程",
+      "prompt_language": "en-GB",
+      "prompt_local": "When escorting sick crew members for emergency treatment, they will travel from Crew Hospital through Operating Theatre, Dispensary and Doctor, and finally to Surgery.",
+      "prompt_zh": "护送患病船员接受紧急处置时，从 Crew Hospital 经 Operating Theatre、Dispensary 和 Doctor，最终送到 Surgery。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "RMS-QM-WP-037",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-047",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-028",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-029",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-051",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "qmr-route-13-segment-01",
+          "from": "RMS-QM-WP-037",
+          "to": "RMS-QM-WP-047"
+        },
+        {
+          "id": "qmr-route-13-segment-02",
+          "from": "RMS-QM-WP-047",
+          "to": "RMS-QM-WP-028"
+        },
+        {
+          "id": "qmr-route-13-segment-03",
+          "from": "RMS-QM-WP-028",
+          "to": "RMS-QM-WP-029"
+        },
+        {
+          "id": "qmr-route-13-segment-04",
+          "from": "RMS-QM-WP-029",
+          "to": "RMS-QM-WP-051"
+        }
+      ]
+    },
+    {
+      "id": "qmr-route-14",
+      "title": "Generator Equipment Inspection",
+      "title_local": "Generator Equipment Inspection",
+      "title_zh": "发电设备巡检",
+      "prompt_language": "en-GB",
+      "prompt_local": "When performing power system inspection, enter from Entrance to Turbo Generator, check Turbo Generator, Low Pressure Generator, Emergency Dynamos in sequence, and finally report to Chief Engineer.",
+      "prompt_zh": "执行动力系统巡检时，从 Entrance to Turbo Generator 进入，依次检查 Turbo Generator、Low Pressure Generator、Emergency Dynamos，最后向 Chief Engineer 汇报。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "RMS-QM-WP-032",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-062",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-042",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-031",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-016",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "qmr-route-14-segment-01",
+          "from": "RMS-QM-WP-032",
+          "to": "RMS-QM-WP-062"
+        },
+        {
+          "id": "qmr-route-14-segment-02",
+          "from": "RMS-QM-WP-062",
+          "to": "RMS-QM-WP-042"
+        },
+        {
+          "id": "qmr-route-14-segment-03",
+          "from": "RMS-QM-WP-042",
+          "to": "RMS-QM-WP-031"
+        },
+        {
+          "id": "qmr-route-14-segment-04",
+          "from": "RMS-QM-WP-031",
+          "to": "RMS-QM-WP-016"
+        }
+      ]
+    },
+    {
+      "id": "qmr-route-15",
+      "title": "Foredeck Machinery Inspection",
+      "title_local": "Foredeck Machinery Inspection",
+      "title_zh": "艏部机械巡查",
+      "prompt_language": "en-GB",
+      "prompt_local": "When inspecting deck moorings, proceed from Wheelhouse to Capstan Machinery and Capstan and finally to cabin Chief Engineer to submit records.",
+      "prompt_zh": "检查甲板系泊设备时，从 Wheelhouse 前往 Capstan Machinery 和 Capstan，最后到 Chief Engineer 舱室提交记录。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "RMS-QM-WP-066",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-014",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-013",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-016",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "qmr-route-15-segment-01",
+          "from": "RMS-QM-WP-066",
+          "to": "RMS-QM-WP-014"
+        },
+        {
+          "id": "qmr-route-15-segment-02",
+          "from": "RMS-QM-WP-014",
+          "to": "RMS-QM-WP-013"
+        },
+        {
+          "id": "qmr-route-15-segment-03",
+          "from": "RMS-QM-WP-013",
+          "to": "RMS-QM-WP-016"
+        }
+      ]
+    },
+    {
+      "id": "qmr-route-16",
+      "title": "Ocean Communications Duty",
+      "title_local": "Ocean Communications Duty",
+      "title_zh": "远洋通信业务",
+      "prompt_language": "en-GB",
+      "prompt_local": "When handling ship-to-shore communication and news telegrams, the message goes from W/T Operator through Telegraph Office, Atlantic Telephone, and finally to Press Reception.",
+      "prompt_zh": "处理船岸联络与新闻电报时，从 W/T Operator 经 Telegraph Office、Atlantic Telephone，最终将消息送到 Press Reception。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "RMS-QM-WP-064",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-054",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-009",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-048",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "qmr-route-16-segment-01",
+          "from": "RMS-QM-WP-064",
+          "to": "RMS-QM-WP-054"
+        },
+        {
+          "id": "qmr-route-16-segment-02",
+          "from": "RMS-QM-WP-054",
+          "to": "RMS-QM-WP-009"
+        },
+        {
+          "id": "qmr-route-16-segment-03",
+          "from": "RMS-QM-WP-009",
+          "to": "RMS-QM-WP-048"
+        }
+      ]
+    },
+    {
+      "id": "qmr-route-17",
+      "title": "Tourist Recreation Itinerary",
+      "title_local": "Tourist Recreation Itinerary",
+      "title_zh": "游客完整康乐行程",
+      "prompt_language": "en-GB",
+      "prompt_local": "When planning to experience multiple onboard facilities, go from Tourist Entrance through Tourist Gymnasium, Tourist Swimming Bath and Travel Bureau, and finally to Cocktail Bar.",
+      "prompt_zh": "计划体验多项船上设施时，从 Tourist Entrance 经 Tourist Gymnasium、Tourist Swimming Bath 和 Travel Bureau，最终到 Cocktail Bar。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "RMS-QM-WP-073",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-059",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-060",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-061",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-023",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "qmr-route-17-segment-01",
+          "from": "RMS-QM-WP-073",
+          "to": "RMS-QM-WP-059"
+        },
+        {
+          "id": "qmr-route-17-segment-02",
+          "from": "RMS-QM-WP-059",
+          "to": "RMS-QM-WP-060"
+        },
+        {
+          "id": "qmr-route-17-segment-03",
+          "from": "RMS-QM-WP-060",
+          "to": "RMS-QM-WP-061"
+        },
+        {
+          "id": "qmr-route-17-segment-04",
+          "from": "RMS-QM-WP-061",
+          "to": "RMS-QM-WP-023"
+        }
+      ]
+    },
+    {
+      "id": "qmr-route-18",
+      "title": "Descent Through the Decks",
+      "title_local": "Descent Through the Decks",
+      "title_zh": "多层甲板下行",
+      "prompt_language": "en-GB",
+      "prompt_local": "When going from the cabin level to the equipment area on the ground floor, go down from Cabin Class Entrance to B Deck, pass through Stairs to D Deck and D Deck, and then go from Stairs to G Deck to G Deck.",
+      "prompt_zh": "从客舱层前往底层设备区时，从 Cabin Class Entrance 下行至 B Deck，经 Stairs to D Deck 和 D Deck，再由 Stairs to G Deck 到达 G Deck。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "RMS-QM-WP-005",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-002",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-068",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-004",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-071",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-003",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "qmr-route-18-segment-01",
+          "from": "RMS-QM-WP-005",
+          "to": "RMS-QM-WP-002"
+        },
+        {
+          "id": "qmr-route-18-segment-02",
+          "from": "RMS-QM-WP-002",
+          "to": "RMS-QM-WP-068"
+        },
+        {
+          "id": "qmr-route-18-segment-03",
+          "from": "RMS-QM-WP-068",
+          "to": "RMS-QM-WP-004"
+        },
+        {
+          "id": "qmr-route-18-segment-04",
+          "from": "RMS-QM-WP-004",
+          "to": "RMS-QM-WP-071"
+        },
+        {
+          "id": "qmr-route-18-segment-05",
+          "from": "RMS-QM-WP-071",
+          "to": "RMS-QM-WP-003"
+        }
+      ]
+    },
+    {
+      "id": "qmr-route-19",
+      "title": "Cabin-Service Supply Handover",
+      "title_local": "Cabin-Service Supply Handover",
+      "title_zh": "客舱服务物资交接",
+      "prompt_language": "en-GB",
+      "prompt_local": "Responsible for the handover of cabin linen and catering services, from Linen Store through Stewardesses, Leading Steward and Chief Steward's Day Room, and finally to 1st Class Saloon Dispense Bar.",
+      "prompt_zh": "负责客舱布草与餐饮服务交接时，从 Linen Store 经 Stewardesses、Leading Steward 和 Chief Steward's Day Room，最终到 1st Class Saloon Dispense Bar。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "RMS-QM-WP-075",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-072",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-074",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-019",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "RMS-QM-WP-007",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "qmr-route-19-segment-01",
+          "from": "RMS-QM-WP-075",
+          "to": "RMS-QM-WP-072"
+        },
+        {
+          "id": "qmr-route-19-segment-02",
+          "from": "RMS-QM-WP-072",
+          "to": "RMS-QM-WP-074"
+        },
+        {
+          "id": "qmr-route-19-segment-03",
+          "from": "RMS-QM-WP-074",
+          "to": "RMS-QM-WP-019"
+        },
+        {
+          "id": "qmr-route-19-segment-04",
+          "from": "RMS-QM-WP-019",
+          "to": "RMS-QM-WP-007"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "profile_id": "minecraft-1.21.11",
+  "minecraft": {
+    "version": "1.21.11",
+    "data_version": 4671
+  },
+  "neoforge": {
+    "version": "21.11.44",
+    "installer_url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.11.44/neoforge-21.11.44-installer.jar",
+    "installer_sha256": "b8ae291c1ebdf4d92e5f699e2323ec5493f10e7793452256b3682aebab3eb54f"
+  },
+  "portablemc": {
+    "linux_arm64_lwjgl_version": "3.3.3"
+  },
+  "agentbridge": {
+    "mod_id": "agentbridge",
+    "artifact_name": "agentbridge-1.21.11.jar",
+    "artifact_path": "eval/navigation/artifacts/mods/1.21.11/agentbridge-1.21.11.jar",
+    "sha256": "41eeed349570876cd554a7b5c46ec787c815d8dcafb9cca1e942a0e74fcbc184"
+  },
+  "client_mods": {
+    "required": [
+      {
+        "name": "AgentBridge",
+        "mod_id": "agentbridge",
+        "side": "client",
+        "artifact_name": "agentbridge-1.21.11.jar",
+        "version": "1.0.0",
+        "source": "tracked reproducible build from src/agentbridge profile 1.21.11",
+        "artifact_path": "eval/navigation/artifacts/mods/1.21.11/agentbridge-1.21.11.jar",
+        "sha256": "41eeed349570876cd554a7b5c46ec787c815d8dcafb9cca1e942a0e74fcbc184"
+      },
+      {
+        "name": "BoccHUD",
+        "mod_id": "bocchud",
+        "side": "client",
+        "artifact_name": "bocchud-0.4.1+mc1.21.11.jar",
+        "version": "0.4.1+mc1.21.11",
+        "source_url": "https://cdn.modrinth.com/data/zfPoD7Tm/versions/ytE13tzI/bocchud-0.4.1%2Bmc1.21.11.jar",
+        "project_url": "https://modrinth.com/mod/bocchud",
+        "sha256": "85f10fee3e01b0e642e3b4086d6541268685317cb657d330b90acb9bb482b3ff"
+      },
+      {
+        "name": "MaFgLib",
+        "mod_id": "mafglib",
+        "side": "client",
+        "artifact_name": "mafglib-0.4.3+mc1.21.11.jar",
+        "version": "0.4.3+mc1.21.11",
+        "source_url": "https://cdn.modrinth.com/data/SKI34J7B/versions/EopSKiRN/mafglib-0.4.3%2Bmc1.21.11.jar",
+        "project_url": "https://modrinth.com/mod/mafglib",
+        "sha256": "497d14daf5801d833e69d3231112ec295a506c3bdbd39598ee7b9ae906805799"
+      },
+      {
+        "name": "LambDynamicLights",
+        "mod_id": "lambdynlights",
+        "side": "client",
+        "artifact_name": "lambdynamiclights-4.9.1+1.21.11.jar",
+        "version": "4.9.1+1.21.11",
+        "source_url": "https://cdn.modrinth.com/data/yBW8D80W/versions/5Tp7kdU0/lambdynamiclights-4.9.1%2B1.21.11.jar",
+        "project_url": "https://modrinth.com/mod/lambdynamiclights",
+        "sha256": "99bcfbb13cbd7c98ec9574c2959a1c6a145aac26efed54bcb32ebf08abf9282c"
+      },
+      {
+        "name": "Xaero Minimap",
+        "mod_id": "xaerominimap",
+        "side": "client",
+        "artifact_name": "xaerominimap-neoforge-1.21.11-26.4.2.jar",
+        "version": "26.4.2",
+        "source_url": "https://cdn.modrinth.com/data/1bokaNcj/versions/ijlOlFLF/xaerominimap-neoforge-1.21.11-26.4.2.jar",
+        "project_url": "https://modrinth.com/mod/xaeros-minimap",
+        "sha256": "464aa2b63e800fa3d63d89bad94f15ad13989c1fcfd2d9ae077d3e4b3b134992"
+      },
+      {
+        "name": "Xaero World Map",
+        "mod_id": "xaeroworldmap",
+        "side": "client",
+        "artifact_name": "xaeroworldmap-neoforge-1.21.11-1.44.2.jar",
+        "version": "1.44.2",
+        "source_url": "https://cdn.modrinth.com/data/NcUtCpym/versions/73s8U0Yb/xaeroworldmap-neoforge-1.21.11-1.44.2.jar",
+        "project_url": "https://modrinth.com/mod/xaeros-world-map",
+        "sha256": "f6bb49ad16030ce5c763b8b95e2a0d6380bc014d9fc3e293c8588b9e76b42a2f"
+      }
+    ],
+    "optional_profiles": {
+      "guideline": [
+        {
+          "name": "Ground Navigation",
+          "mod_id": "ground_navigation",
+          "side": "client",
+          "artifact_name": "ground_navigation-0.1.0.jar",
+          "version": "0.1.0",
+          "source": "tracked reproducible build from src/ground-navigation",
+          "artifact_path": "eval/navigation/artifacts/mods/1.21.11/ground_navigation-0.1.0.jar",
+          "sha256": "ecd2970e65b1b6a1ce51e1fe3e9d3b8f7a2efc80c92a81d58f8868eed10a7e00"
+        },
+        {
+          "name": "Baritone planner backend",
+          "mod_id": "baritoe",
+          "side": "client",
+          "artifact_name": "baritone-standalone-neoforge-1.17.0.jar",
+          "version": "1.17.0",
+          "source_url": "https://github.com/cabaletta/baritone/releases/download/v1.17.0/baritone-standalone-neoforge-1.17.0.jar",
+          "project_url": "https://github.com/cabaletta/baritone",
+          "sha256": "1d31dea22e674d83bbad031ba9bb4f6f9c07fb52963428bdb757eefd70ab7230"
+        }
+      ]
+    },
+    "forbidden": [
+      "baritoe",
+      "ground_navigation"
+    ],
+    "reject_unknown_active": true
+  },
+  "client_configs": [
+    {
+      "source_path": "config/minihud.json",
+      "artifact_name": "minihud.json",
+      "sha256": "46279cd5fc7517c2aea06eef36bb6b6eda3470d3286d06c58c73eb976c3971d3"
+    }
+  ],
+  "runtime_receipt": "eval/templates/_local/navigation/1.21.11/runtime-receipt.json"
+}

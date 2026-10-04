@@ -1,0 +1,677 @@
+{
+  "map_id": "plaza_hotel",
+  "floor_reference_y": {
+    "-1": -31,
+    "0": [
+      -24,
+      -21
+    ],
+    "1": -7,
+    "2": 0,
+    "3": 8,
+    "4": 16,
+    "5": 24,
+    "6": 32,
+    "7": 40,
+    "8": 48,
+    "9": 56,
+    "10": 64,
+    "11": 72,
+    "12": 80,
+    "13": 88,
+    "14": 96,
+    "15": 104,
+    "16": 112,
+    "17": 120
+  },
+  "waypoints": [
+    {
+      "name": "The Terrace Suite (1601)",
+      "x": 54,
+      "y": 112,
+      "z": -161,
+      "category": "signature_suite",
+      "floor_index": 16,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Men's Changing Room (Pool)",
+      "x": 49,
+      "y": 104,
+      "z": -157,
+      "category": "leisure",
+      "floor_index": 15,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Women's Changing Room (Pool)",
+      "x": 63,
+      "y": 104,
+      "z": -157,
+      "category": "leisure",
+      "floor_index": 15,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Stairs F1",
+      "x": 57,
+      "y": -7,
+      "z": -152,
+      "category": "vertical_circulation",
+      "floor_index": 1,
+      "navigation_role": "connector"
+    },
+    {
+      "name": "Rooftop Restaurant",
+      "x": 21,
+      "y": 120,
+      "z": -123,
+      "category": "dining",
+      "floor_index": 17,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Stairs F2",
+      "x": 58,
+      "y": 0,
+      "z": -151,
+      "category": "vertical_circulation",
+      "floor_index": 2,
+      "navigation_role": "connector"
+    },
+    {
+      "name": "Stairs F3",
+      "x": 58,
+      "y": 8,
+      "z": -151,
+      "category": "vertical_circulation",
+      "floor_index": 3,
+      "navigation_role": "connector"
+    },
+    {
+      "name": "Stairs F4",
+      "x": 58,
+      "y": 16,
+      "z": -151,
+      "category": "vertical_circulation",
+      "floor_index": 4,
+      "navigation_role": "connector"
+    },
+    {
+      "name": "Stairs F17",
+      "x": 58,
+      "y": 120,
+      "z": -151,
+      "category": "vertical_circulation",
+      "floor_index": 17,
+      "navigation_role": "connector"
+    },
+    {
+      "name": "Stairs F16",
+      "x": 58,
+      "y": 112,
+      "z": -151,
+      "category": "vertical_circulation",
+      "floor_index": 16,
+      "navigation_role": "connector"
+    },
+    {
+      "name": "Stairs F15",
+      "x": 58,
+      "y": 104,
+      "z": -151,
+      "category": "vertical_circulation",
+      "floor_index": 15,
+      "navigation_role": "connector"
+    },
+    {
+      "name": "Stairs F14",
+      "x": 58,
+      "y": 96,
+      "z": -151,
+      "category": "vertical_circulation",
+      "floor_index": 14,
+      "navigation_role": "connector"
+    },
+    {
+      "name": "Stairs F13",
+      "x": 58,
+      "y": 88,
+      "z": -151,
+      "category": "vertical_circulation",
+      "floor_index": 13,
+      "navigation_role": "connector"
+    },
+    {
+      "name": "Stairs F12",
+      "x": 58,
+      "y": 80,
+      "z": -151,
+      "category": "vertical_circulation",
+      "floor_index": 12,
+      "navigation_role": "connector"
+    },
+    {
+      "name": "Stairs F11",
+      "x": 58,
+      "y": 72,
+      "z": -151,
+      "category": "vertical_circulation",
+      "floor_index": 11,
+      "navigation_role": "connector"
+    },
+    {
+      "name": "Stairs F10",
+      "x": 58,
+      "y": 64,
+      "z": -151,
+      "category": "vertical_circulation",
+      "floor_index": 10,
+      "navigation_role": "connector"
+    },
+    {
+      "name": "Stairs F9",
+      "x": 58,
+      "y": 56,
+      "z": -151,
+      "category": "vertical_circulation",
+      "floor_index": 9,
+      "navigation_role": "connector"
+    },
+    {
+      "name": "Stairs F8",
+      "x": 58,
+      "y": 48,
+      "z": -151,
+      "category": "vertical_circulation",
+      "floor_index": 8,
+      "navigation_role": "connector"
+    },
+    {
+      "name": "Stairs F7",
+      "x": 58,
+      "y": 40,
+      "z": -151,
+      "category": "vertical_circulation",
+      "floor_index": 7,
+      "navigation_role": "connector"
+    },
+    {
+      "name": "Stairs F6",
+      "x": 58,
+      "y": 32,
+      "z": -151,
+      "category": "vertical_circulation",
+      "floor_index": 6,
+      "navigation_role": "connector"
+    },
+    {
+      "name": "Stairs F5",
+      "x": 57,
+      "y": 24,
+      "z": -151,
+      "category": "vertical_circulation",
+      "floor_index": 5,
+      "navigation_role": "connector"
+    },
+    {
+      "name": "1003",
+      "x": 72,
+      "y": 64,
+      "z": -177,
+      "category": "room",
+      "floor_index": 10,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "902",
+      "x": 39,
+      "y": 56,
+      "z": -119,
+      "category": "room",
+      "floor_index": 9,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "801",
+      "x": 72,
+      "y": 48,
+      "z": -189,
+      "category": "room",
+      "floor_index": 8,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "702",
+      "x": 21,
+      "y": 40,
+      "z": -120,
+      "category": "room",
+      "floor_index": 7,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "609",
+      "x": 23,
+      "y": 32,
+      "z": -171,
+      "category": "room",
+      "floor_index": 6,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "508",
+      "x": 17,
+      "y": 24,
+      "z": -161,
+      "category": "room",
+      "floor_index": 5,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "407",
+      "x": 15,
+      "y": 16,
+      "z": -157,
+      "category": "room",
+      "floor_index": 4,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "310",
+      "x": 27,
+      "y": 8,
+      "z": -176,
+      "category": "room",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "302",
+      "x": 63,
+      "y": 8,
+      "z": -188,
+      "category": "room",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "209",
+      "x": 72,
+      "y": 0,
+      "z": -135,
+      "category": "room",
+      "floor_index": 2,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "205",
+      "x": 64,
+      "y": 0,
+      "z": -161,
+      "category": "room",
+      "floor_index": 2,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "201",
+      "x": 69,
+      "y": 0,
+      "z": -192,
+      "category": "room",
+      "floor_index": 2,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "121",
+      "x": 13,
+      "y": -7,
+      "z": -201,
+      "category": "room",
+      "floor_index": 1,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "110",
+      "x": 73,
+      "y": -7,
+      "z": -124,
+      "category": "room",
+      "floor_index": 1,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "106",
+      "x": 74,
+      "y": -7,
+      "z": -169,
+      "category": "room",
+      "floor_index": 1,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "101",
+      "x": 69,
+      "y": -7,
+      "z": -193,
+      "category": "room",
+      "floor_index": 1,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Chanel Beauty",
+      "x": 23,
+      "y": -31,
+      "z": -147,
+      "category": "retail",
+      "floor_index": -1,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "1101",
+      "x": 70,
+      "y": 72,
+      "z": -191,
+      "category": "room",
+      "floor_index": 11,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "1102 (Room B)",
+      "x": 61,
+      "y": 72,
+      "z": -189,
+      "category": "room",
+      "floor_index": 11,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "1102 (Room A)",
+      "x": 61,
+      "y": 72,
+      "z": -180,
+      "category": "room",
+      "floor_index": 11,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "1106 (Room B)",
+      "x": 71,
+      "y": 72,
+      "z": -138,
+      "category": "room",
+      "floor_index": 11,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "1106 (Room A)",
+      "x": 72,
+      "y": 72,
+      "z": -147,
+      "category": "room",
+      "floor_index": 11,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "1109",
+      "x": 22,
+      "y": 72,
+      "z": -172,
+      "category": "room",
+      "floor_index": 11,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "1201",
+      "x": 71,
+      "y": 80,
+      "z": -191,
+      "category": "room",
+      "floor_index": 12,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "1202",
+      "x": 49,
+      "y": 80,
+      "z": -119,
+      "category": "room",
+      "floor_index": 12,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "1207",
+      "x": 16,
+      "y": 80,
+      "z": -145,
+      "category": "room",
+      "floor_index": 12,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "1301",
+      "x": 71,
+      "y": 88,
+      "z": -191,
+      "category": "room",
+      "floor_index": 13,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "1302",
+      "x": 43,
+      "y": 88,
+      "z": -125,
+      "category": "room",
+      "floor_index": 13,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "1306 (Room B)",
+      "x": 71,
+      "y": 88,
+      "z": -139,
+      "category": "room",
+      "floor_index": 13,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "1306 (Room A)",
+      "x": 72,
+      "y": 88,
+      "z": -145,
+      "category": "room",
+      "floor_index": 13,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "The Shoppes at the Plaza",
+      "x": -6,
+      "y": -24,
+      "z": -167,
+      "category": "retail",
+      "floor_index": 0,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "The Palm Court",
+      "x": 26,
+      "y": -22,
+      "z": -163,
+      "category": "dining",
+      "floor_index": 0,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Palm Court Meeting Room",
+      "x": 64,
+      "y": -21,
+      "z": -177,
+      "category": "meeting",
+      "floor_index": 0,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Meeting Room 201",
+      "x": 49,
+      "y": 24,
+      "z": -137,
+      "category": "meeting",
+      "floor_index": 5,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Meeting Room 301",
+      "x": 50,
+      "y": 88,
+      "z": -137,
+      "category": "meeting",
+      "floor_index": 13,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "The Champagne Room",
+      "x": 67,
+      "y": -21,
+      "z": -118,
+      "category": "dining",
+      "floor_index": 0,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "The Rose Club",
+      "x": 15,
+      "y": -21,
+      "z": -111,
+      "category": "dining",
+      "floor_index": 0,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Laduree",
+      "x": 81,
+      "y": -21,
+      "z": -177,
+      "category": "dining",
+      "floor_index": 0,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Pool",
+      "x": 54,
+      "y": 104,
+      "z": -173,
+      "category": "leisure",
+      "floor_index": 15,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Health Club",
+      "x": 15,
+      "y": 120,
+      "z": -165,
+      "category": "leisure",
+      "floor_index": 17,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Sauna",
+      "x": 61,
+      "y": 104,
+      "z": -170,
+      "category": "leisure",
+      "floor_index": 15,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "The Royal Suite (1401)",
+      "x": 53,
+      "y": 96,
+      "z": -131,
+      "category": "signature_suite",
+      "floor_index": 14,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "The Edwardian Suite (1404)",
+      "x": 69,
+      "y": 96,
+      "z": -178,
+      "category": "signature_suite",
+      "floor_index": 14,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "HERMÈS * Paris *",
+      "x": 19,
+      "y": -31,
+      "z": -114,
+      "category": "retail",
+      "floor_index": -1,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Washroom Female (Ground Floor)",
+      "x": 76,
+      "y": -21,
+      "z": -149,
+      "category": "public_facilities",
+      "floor_index": 0,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Washroom Male (Ground Floor)",
+      "x": 77,
+      "y": -21,
+      "z": -136,
+      "category": "public_facilities",
+      "floor_index": 0,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Blueprint Taxi Co.",
+      "x": 62,
+      "y": -24,
+      "z": -71,
+      "category": "transportation",
+      "floor_index": 0,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "1402",
+      "x": 72,
+      "y": 96,
+      "z": -143,
+      "category": "room",
+      "floor_index": 14,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "1403",
+      "x": 72,
+      "y": 96,
+      "z": -168,
+      "category": "room",
+      "floor_index": 14,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "1501",
+      "x": 71,
+      "y": 104,
+      "z": -169,
+      "category": "room",
+      "floor_index": 15,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "1502",
+      "x": 71,
+      "y": 104,
+      "z": -143,
+      "category": "room",
+      "floor_index": 15,
+      "navigation_role": "destination"
+    }
+  ]
+}

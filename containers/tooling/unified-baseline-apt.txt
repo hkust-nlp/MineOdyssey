@@ -1,0 +1,32 @@
+# mc-unified 基础工具集（Ubuntu 22.04 apt 包名）
+# 说明：
+# - grep/sed/tar/coreutils 等通常来自基础镜像或系统基础包，这里不重复安装。
+# - 目标是覆盖 agent 常见 shell 诊断/数据处理命令，优先解决 jq 缺失问题。
+
+# JSON / 网络
+jq
+ca-certificates
+
+# 进程 / 系统排障
+procps
+psmisc
+iproute2
+iputils-ping
+net-tools
+lsof
+
+# 信息查看 / 搜索 / 结构浏览
+ripgrep
+tree
+bsdextrautils
+
+# 文件 / 压缩 / 文本浏览
+# `which` 命令由 debianutils 提供（Ubuntu 22.04 无独立 `which` 包）
+debianutils
+file
+unzip
+zip
+less
+vim-tiny
+findutils
+gawk

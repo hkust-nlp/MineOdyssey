@@ -1,0 +1,56 @@
+#
+#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
+#
+waypoint:Dry Dock 4:D4:-8523396:30:-6021046:16:false:0:gui.xaero_default:false:0:0:false
+waypoint:Motor Generator House:MG:-8523306:31:-6021025:9:false:0:gui.xaero_default:false:0:0:false
+waypoint:Lime, Pitch and Coal House:LP:-8523492:30:-6020812:4:false:0:gui.xaero_default:false:0:0:false
+waypoint:Smithery & Forge Shop:SF:-8523568:30:-6021026:11:false:0:gui.xaero_default:false:0:0:false
+waypoint:Building Trades Shops:TS:-8523528:30:-6020781:16:false:0:gui.xaero_default:false:0:0:false
+waypoint:Pier G:PG:-8523383:30:-6021636:13:false:0:gui.xaero_default:false:0:0:false
+waypoint:Yard Garage & Auto Repair Shop:YG:-8523385:31:-6020777:20:false:0:gui.xaero_default:false:0:0:false
+waypoint:Marine Officers’ Quarters:OQ:-8523160:33:-6020844:8:false:0:gui.xaero_default:false:0:0:false
+waypoint:Non-Commision Officers’ Quarters:95:-8523178:31:-6020877:3:false:0:gui.xaero_default:false:0:0:false
+waypoint:Paymaster’s Office:PO:-8523619:30:-6020826:13:false:0:gui.xaero_default:false:0:0:false
+waypoint:Administration Building:AB:-8523235:34:-6020826:1:false:0:gui.xaero_default:false:0:0:false
+waypoint:Construction & Repair Storehous:CR:-8523421:30:-6021084:15:false:0:gui.xaero_default:false:0:0:false
+waypoint:Dry Dock 1:D1:-8523507:30:-6021101:12:false:0:gui.xaero_default:false:0:0:false
+waypoint:Ship Superintendent’s Office:SO:-8523582:31:-6021226:19:false:0:gui.xaero_default:false:0:0:false
+waypoint:Pier C:PC:-8523594:30:-6021383:11:false:0:gui.xaero_default:false:0:0:false
+waypoint:Pier J:PJ:-8523281:30:-6021758:4:false:0:gui.xaero_default:false:0:0:false
+waypoint:Locomotive Shed:LS:-8523449:30:-6020824:5:false:0:gui.xaero_default:false:0:0:false
+waypoint:General Storehouse:GS:-8523001:33:-6020954:5:false:0:gui.xaero_default:false:0:0:false
+waypoint:Supply Storehouse:SS:-8523019:38:-6020889:5:false:0:gui.xaero_default:false:0:0:false
+waypoint:Pier K:PK:-8523374:30:-6022044:5:false:0:gui.xaero_default:false:0:0:false
+waypoint:Coal Plant Office:CP:-8523189:30:-6021568:10:false:0:gui.xaero_default:false:0:0:false
+waypoint:Garbage Incinerator:GI:-8523151:36:-6021618:0:false:0:gui.xaero_default:false:0:0:false
+waypoint:Substation G:SG:-8522888:30:-6021232:11:false:0:gui.xaero_default:false:0:0:false
+waypoint:Acetylene House:AH:-8522845:32:-6021051:2:false:0:gui.xaero_default:false:0:0:false
+waypoint:Dry Dock 6 Boat Side:D6:-8523022:30:-6021365:13:false:0:gui.xaero_default:false:0:0:false
+waypoint:Electrical Substation No. 13:ES:-8523356:30:-6021700:20:false:0:gui.xaero_default:false:0:0:false
+waypoint:Compressor Building:CB:-8523309:30:-6021697:4:false:0:gui.xaero_default:false:0:0:false
+waypoint:Production Utility Building:PU:-8523180:30:-6021672:5:false:0:gui.xaero_default:false:0:0:false
+waypoint:Central Power Plant:CP:-8523418:30:-6020830:13:false:0:gui.xaero_default:false:0:0:false
+waypoint:Motor Generator & Substation 6:MS:-8523581:30:-6021174:0:false:0:gui.xaero_default:false:0:0:false
+waypoint:Pump House for Dry Dock No.1:PD:-8523564:30:-6021074:12:false:0:gui.xaero_default:false:0:0:false
+waypoint:Ordnance Machine Shop:OM:-8523374:32:-6020867:6:false:0:gui.xaero_default:false:0:0:false
+waypoint:Paint Shop:PS:-8523267:30:-6021060:9:false:0:gui.xaero_default:false:0:0:false
+waypoint:Pattern Shop:PS:-8523197:31:-6020879:19:false:0:gui.xaero_default:false:0:0:false
+waypoint:Light Machine Shop & Lab:LL:-8523032:30:-6020983:6:false:0:gui.xaero_default:false:0:0:false
+waypoint:Chemical Lab:CL:-8523164:31:-6020893:18:false:0:gui.xaero_default:false:0:0:false
+waypoint:Navy Applied Science Lab:AL:-8522653:31:-6021077:20:false:0:gui.xaero_default:false:0:0:false
+waypoint:Dry Dock 6 Boat Head:D6:-8523108:36:-6021412:11:false:0:gui.xaero_default:false:0:0:false
+waypoint:Dry Dock 5 Boat Head:D5:-8522954:30:-6021209:19:false:0:gui.xaero_default:false:0:0:false
+waypoint:Sub-Assembly Shop No.2:SA:-8523567:30:-6021102:10:false:0:gui.xaero_default:false:0:0:false
+waypoint:Sub-Assembly Shop No.1:SA:-8523638:30:-6021261:15:false:0:gui.xaero_default:false:0:0:false
+waypoint:Machine Shop & Erecting Shop II:ME:-8523336:31:-6020884:11:false:0:gui.xaero_default:false:0:0:false
+waypoint:Dry Dock 3:D3:-8523024:30:-6021090:1:false:0:gui.xaero_default:false:0:0:false
+waypoint:Boat Storehouse:BS:-8523472:30:-6020962:4:false:0:gui.xaero_default:false:0:0:false
+waypoint:Iron Plating Shop:IP:-8523480:35:-6020984:4:false:0:gui.xaero_default:false:0:0:false
+waypoint:Timber Shed & Mold Loft:TM:-8523526:29:-6020917:9:false:0:gui.xaero_default:false:0:0:false
+waypoint:Dry Dock 2:D2:-8523211:30:-6021102:17:false:0:gui.xaero_default:false:0:0:false
+waypoint:Power House:PH:-8523201:31:-6021029:1:false:0:gui.xaero_default:false:0:0:false
+waypoint:Boiler Shop:BS:-8523313:30:-6020962:20:false:0:gui.xaero_default:false:0:0:false
+waypoint:Pipe & Copper Shop:PC:-8523575:30:-6020967:4:false:0:gui.xaero_default:false:0:0:false
+waypoint:Plumbers' & Boiler Shop:PB:-8523611:30:-6020919:13:false:0:gui.xaero_default:false:0:0:false
+waypoint:Canteen:C3:-8523604:30:-6021164:0:false:0:gui.xaero_default:false:0:0:false
+waypoint:Machine Shop & Erecting Shop I:ME:-8523246:31:-6020848:4:false:0:gui.xaero_default:false:0:0:false

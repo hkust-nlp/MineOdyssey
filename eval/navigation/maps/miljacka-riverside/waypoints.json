@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "map_id": "miljacka-riverside",
+  "quality_status": "formal_routes_two_of_ten_runtime_verified",
+  "excluded_waypoints": [
+    {
+      "name": "Muzej Sarajevo",
+      "reason": "disabled_in_xaero",
+      "position": {
+        "x": -8,
+        "y": -5,
+        "z": -68
+      }
+    }
+  ],
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/miljacka-riverside-formal-10-routes.json",
+    "sha256": "583cc5e0fbfa072963bf97d36b2bc2d5188d7bcf1f36774262973c79656b84b0"
+  },
+  "waypoint_count": 14,
+  "waypoints": [
+    {
+      "id": "MIL-WP-BISTRIK-APARTMENTS",
+      "name": "Bistrik Old Town Apartments",
+      "position": {
+        "x": 52,
+        "y": -4,
+        "z": 28
+      },
+      "route_ids": []
+    },
+    {
+      "id": "MIL-WP-SETNICA-3",
+      "name": "Šetnica 3 At Mejdan",
+      "position": {
+        "x": -24,
+        "y": -2,
+        "z": 39
+      },
+      "route_ids": [
+        "miljacka-route-07",
+        "miljacka-route-06"
+      ]
+    },
+    {
+      "id": "MIL-WP-LATINSKA-CUPRIJA",
+      "name": "Latinska ćuprija",
+      "position": {
+        "x": -2,
+        "y": -5,
+        "z": -16
+      },
+      "route_ids": [
+        "miljacka-route-01"
+      ]
+    },
+    {
+      "id": "MIL-WP-MUZEJ-SARAJEVO",
+      "name": "Muzej Sarajeva 1878–1918",
+      "position": {
+        "x": 16,
+        "y": -5,
+        "z": -64
+      },
+      "route_ids": [
+        "miljacka-route-01"
+      ]
+    },
+    {
+      "id": "MIL-WP-MUSIC-PAVILION",
+      "name": "Muzički paviljon – At Mejdan",
+      "position": {
+        "x": -64,
+        "y": -2,
+        "z": 25
+      },
+      "route_ids": [
+        "miljacka-route-01",
+        "miljacka-route-02",
+        "miljacka-route-06"
+      ]
+    },
+    {
+      "id": "MIL-WP-ISA-BEGOV",
+      "name": "Isa Begov Hamam i Hotel",
+      "position": {
+        "x": 78,
+        "y": -4,
+        "z": 14
+      },
+      "route_ids": [
+        "miljacka-route-02"
+      ]
+    },
+    {
+      "id": "MIL-WP-HOTEL-PRESIDENT",
+      "name": "Hotel President",
+      "position": {
+        "x": 113,
+        "y": -5,
+        "z": -86
+      },
+      "route_ids": [
+        "miljacka-route-06"
+      ]
+    },
+    {
+      "id": "MIL-WP-CAREVA-MOSQUE",
+      "name": "Careva džamija",
+      "position": {
+        "x": 131,
+        "y": -4,
+        "z": -3
+      },
+      "route_ids": [
+        "miljacka-route-02",
+        "miljacka-route-10"
+      ]
+    },
+    {
+      "id": "MIL-WP-NACIONALNI-SPOMENIK",
+      "name": "Nacionalni spomenik Bosne i Hercegovine",
+      "position": {
+        "x": 133,
+        "y": -4,
+        "z": 16
+      },
+      "route_ids": []
+    },
+    {
+      "id": "MIL-WP-SARAJEVO-INSIDER",
+      "name": "Sarajevo Insider – gradske ture i izleti",
+      "position": {
+        "x": -7,
+        "y": -5,
+        "z": -72
+      },
+      "route_ids": [
+        "miljacka-route-10"
+      ]
+    },
+    {
+      "id": "MIL-WP-KONYALI",
+      "name": "Konyalı Sarajevo",
+      "position": {
+        "x": 128,
+        "y": -4,
+        "z": -76
+      },
+      "route_ids": [
+        "miljacka-route-01"
+      ]
+    },
+    {
+      "id": "MIL-WP-STUDIO-MUZIKOWSKA",
+      "name": "Studio Muzikowska",
+      "position": {
+        "x": 52,
+        "y": -5,
+        "z": -68
+      },
+      "route_ids": [
+        "miljacka-route-07"
+      ]
+    },
+    {
+      "id": "MIL-WP-INOVINE-T58",
+      "name": "iNovine T-58",
+      "position": {
+        "x": -8,
+        "y": -5,
+        "z": -3
+      },
+      "route_ids": [
+        "miljacka-route-07"
+      ]
+    },
+    {
+      "id": "MIL-WP-MERHAMET",
+      "name": "Merhamet",
+      "position": {
+        "x": 58,
+        "y": -4,
+        "z": 11
+      },
+      "route_ids": []
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "map_id": "memorial-hall-park",
+  "quality_status": "waypoints_only_unvalidated",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/memorial-hall-park-formal-10-routes.json",
+    "sha256": "86bce50e71e69ef8d8e0a11fbbe16ad9e94b0dfc8fb292ea4075975c89ca87f9"
+  },
+  "waypoint_count": 6,
+  "waypoints": [
+    {
+      "id": "MEMORIAL-HALL-PARK-WP-01",
+      "name": "自由廣場牌樓",
+      "position": {
+        "x": 10,
+        "y": -14,
+        "z": 9
+      },
+      "route_ids": [
+        "memorial-route-01"
+      ],
+      "initials": "自",
+      "color": 8,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "MEMORIAL-HALL-PARK-WP-02",
+      "name": "中正紀念堂演藝廳",
+      "position": {
+        "x": 477,
+        "y": 2,
+        "z": -73
+      },
+      "route_ids": [
+        "memorial-route-01"
+      ],
+      "initials": "中",
+      "color": 14,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "MEMORIAL-HALL-PARK-WP-03",
+      "name": "中正紀念堂大孝門",
+      "position": {
+        "x": 687,
+        "y": -13,
+        "z": 71
+      },
+      "route_ids": [],
+      "initials": "中",
+      "color": 10,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "MHP-02",
+      "name": "民主廣場中心",
+      "position": {
+        "x": 125,
+        "y": -14,
+        "z": -10
+      },
+      "route_ids": [
+        "memorial-route-01"
+      ]
+    },
+    {
+      "id": "MHP-05",
+      "name": "南側庭園池畔",
+      "position": {
+        "x": 245,
+        "y": -13,
+        "z": 93
+      },
+      "route_ids": [
+        "memorial-route-01"
+      ]
+    },
+    {
+      "id": "MHP-09",
+      "name": "大忠門",
+      "position": {
+        "x": 625,
+        "y": -13,
+        "z": -270
+      },
+      "route_ids": [
+        "memorial-route-01"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1863 @@
+{
+  "schema_version": 1,
+  "map_id": "wurzburg",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "eval/navigation/maps/wurzburg/waypoints.xaero.txt",
+    "sha256": "655709226f3a5a615b54c1baed023179c3901d1e07f244f02c835b3e0bd0560a"
+  },
+  "dimension": "overworld",
+  "source_record_count": 78,
+  "waypoint_count": 78,
+  "excluded_waypoints": [],
+  "local_position_corrections": {
+    "approved_on": "2026-09-10",
+    "reason": "User-approved ground-level arrival anchors based on recorded stable player positions; original Xaero annotation is retained unchanged for provenance. These corrections do not certify routes or rescore historical runs.",
+    "rounding": "nearest_integer_half_away_from_zero",
+    "original_positions": {
+      "WUR-WP-01": {"x": -46, "y": 0, "z": 144},
+      "WUR-WP-02": {"x": 32, "y": 6, "z": 177},
+      "WUR-WP-13": {"x": -218, "y": -3, "z": 519},
+      "WUR-WP-44": {"x": 483, "y": 2, "z": 492},
+      "WUR-WP-69": {"x": 498, "y": 8, "z": 643},
+      "WUR-WP-59": {"x": 692, "y": 6, "z": 487},
+      "WUR-WP-77": {"x": -207, "y": -4, "z": 463}
+    }
+  },
+  "waypoints": [
+    {
+      "id": "WUR-WP-01",
+      "name": "Etinger & Cazan Rechtsanwälte",
+      "position": {
+        "x": -45,
+        "y": -13,
+        "z": 145
+      },
+      "route_ids": [
+        "wur-route-02"
+      ],
+      "initials": "EC",
+      "color": 6,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-02",
+      "name": "Domino's Pizza Würzburg Nord",
+      "position": {
+        "x": 33,
+        "y": -13,
+        "z": 177
+      },
+      "route_ids": [
+        "wur-route-03"
+      ],
+      "initials": "DP",
+      "color": 0,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-03",
+      "name": "HypoVereinsbank",
+      "position": {
+        "x": 32,
+        "y": -13,
+        "z": 172
+      },
+      "route_ids": [
+        "wur-route-03"
+      ],
+      "initials": "HB",
+      "color": 20,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-04",
+      "name": "AkSi Barber Shop",
+      "position": {
+        "x": -53,
+        "y": -14,
+        "z": 246
+      },
+      "route_ids": [
+        "wur-route-12"
+      ],
+      "initials": "AB",
+      "color": 4,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-05",
+      "name": "Altglascontainer 1",
+      "position": {
+        "x": -78,
+        "y": -14,
+        "z": 157
+      },
+      "route_ids": [],
+      "initials": "A1",
+      "color": 11,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-06",
+      "name": "Neutorstraße 8",
+      "position": {
+        "x": -129,
+        "y": -14,
+        "z": 194
+      },
+      "route_ids": [
+        "wur-route-08"
+      ],
+      "initials": "N8",
+      "color": 3,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-07",
+      "name": "Carent GmbH Autovermietung",
+      "position": {
+        "x": -135,
+        "y": -15,
+        "z": 239
+      },
+      "route_ids": [
+        "wur-route-08"
+      ],
+      "initials": "CA",
+      "color": 6,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-08",
+      "name": "Tipico",
+      "position": {
+        "x": -8,
+        "y": -13,
+        "z": 253
+      },
+      "route_ids": [
+        "wur-route-12"
+      ],
+      "initials": "T",
+      "color": 2,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-09",
+      "name": "WAX Studio",
+      "position": {
+        "x": -13,
+        "y": -14,
+        "z": 265
+      },
+      "route_ids": [
+        "wur-route-12"
+      ],
+      "initials": "WS",
+      "color": 14,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-10",
+      "name": "Kopie Team Würzburg",
+      "position": {
+        "x": -63,
+        "y": -14,
+        "z": 275
+      },
+      "route_ids": [
+        "wur-route-03"
+      ],
+      "initials": "KT",
+      "color": 20,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-11",
+      "name": "Staatliches Bauamt Würzburg",
+      "position": {
+        "x": -103,
+        "y": -15,
+        "z": 267
+      },
+      "route_ids": [
+        "wur-route-02"
+      ],
+      "initials": "SB",
+      "color": 1,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-12",
+      "name": "Finanzamt Würzburg",
+      "position": {
+        "x": -113,
+        "y": -12,
+        "z": 362
+      },
+      "route_ids": [
+        "wur-route-02"
+      ],
+      "initials": "FW",
+      "color": 5,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-13",
+      "name": "Conzept Bad GmbH",
+      "position": {
+        "x": -212,
+        "y": -13,
+        "z": 522
+      },
+      "route_ids": [
+        "wur-route-02"
+      ],
+      "initials": "CB",
+      "color": 18,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-14",
+      "name": "Glascontainer",
+      "position": {
+        "x": -29,
+        "y": -12,
+        "z": 479
+      },
+      "route_ids": [],
+      "initials": "G",
+      "color": 20,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-15",
+      "name": "Dorint Hotel Würzburg",
+      "position": {
+        "x": -45,
+        "y": -12,
+        "z": 424
+      },
+      "route_ids": [],
+      "initials": "D",
+      "color": 7,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-16",
+      "name": "Riemenschneider-Gymnasium",
+      "position": {
+        "x": 39,
+        "y": -9,
+        "z": 442
+      },
+      "route_ids": [
+        "wur-route-03"
+      ],
+      "initials": "RG",
+      "color": 15,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-17",
+      "name": "Siebold-Gymnasium",
+      "position": {
+        "x": -5,
+        "y": -11,
+        "z": 491
+      },
+      "route_ids": [
+        "wur-route-04"
+      ],
+      "initials": "SG",
+      "color": 9,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-18",
+      "name": "Sozialgericht Würzburg",
+      "position": {
+        "x": 22,
+        "y": -12,
+        "z": 313
+      },
+      "route_ids": [],
+      "initials": "SW",
+      "color": 15,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-19",
+      "name": "Fahrschule Meyer",
+      "position": {
+        "x": 32,
+        "y": -12,
+        "z": 335
+      },
+      "route_ids": [
+        "wur-route-03"
+      ],
+      "initials": "FM",
+      "color": 1,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-20",
+      "name": "Haltestelle Sozialgericht",
+      "position": {
+        "x": -6,
+        "y": -12,
+        "z": 343
+      },
+      "route_ids": [],
+      "initials": "BS",
+      "color": 7,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-21",
+      "name": "PSD Bank",
+      "position": {
+        "x": -31,
+        "y": -12,
+        "z": 359
+      },
+      "route_ids": [
+        "wur-route-12"
+      ],
+      "initials": "PS",
+      "color": 9,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-22",
+      "name": "KKH",
+      "position": {
+        "x": -43,
+        "y": -12,
+        "z": 363
+      },
+      "route_ids": [
+        "wur-route-12"
+      ],
+      "initials": "KK",
+      "color": 5,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-23",
+      "name": "Dr. Klein Baufinanzierung",
+      "position": {
+        "x": -123,
+        "y": -13,
+        "z": 392
+      },
+      "route_ids": [
+        "wur-route-02"
+      ],
+      "initials": "KB",
+      "color": 20,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-24",
+      "name": "Yogahimmel",
+      "position": {
+        "x": -175,
+        "y": -12,
+        "z": 411
+      },
+      "route_ids": [],
+      "initials": "YG",
+      "color": 6,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-25",
+      "name": "PRITZL",
+      "position": {
+        "x": -219,
+        "y": -12,
+        "z": 426
+      },
+      "route_ids": [],
+      "initials": "PR",
+      "color": 4,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-26",
+      "name": "Auktionshaus Mars",
+      "position": {
+        "x": -270,
+        "y": -12,
+        "z": 447
+      },
+      "route_ids": [],
+      "initials": "AM",
+      "color": 6,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-27",
+      "name": "Sunart GmbH Sun Studio",
+      "position": {
+        "x": -297,
+        "y": -12,
+        "z": 457
+      },
+      "route_ids": [],
+      "initials": "SS",
+      "color": 7,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-28",
+      "name": "Rüdigerstraße 4",
+      "position": {
+        "x": -288,
+        "y": -13,
+        "z": 521
+      },
+      "route_ids": [],
+      "initials": "R4",
+      "color": 13,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-29",
+      "name": "St. Johannis",
+      "position": {
+        "x": -94,
+        "y": -6,
+        "z": 672
+      },
+      "route_ids": [
+        "wur-route-04",
+        "wur-route-06"
+      ],
+      "initials": "SJ",
+      "color": 15,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-30",
+      "name": "Ev. Kindergarten St. Johannis",
+      "position": {
+        "x": -7,
+        "y": -2,
+        "z": 651
+      },
+      "route_ids": [
+        "wur-route-04"
+      ],
+      "initials": "EK",
+      "color": 16,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-31",
+      "name": "Haltestelle - Rennweg",
+      "position": {
+        "x": -103,
+        "y": -3,
+        "z": 894
+      },
+      "route_ids": [
+        "wur-route-04"
+      ],
+      "initials": "BR",
+      "color": 12,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-32",
+      "name": "Haltestelle - Handwerkskammer 2",
+      "position": {
+        "x": 32,
+        "y": -8,
+        "z": 589
+      },
+      "route_ids": [
+        "wur-route-04"
+      ],
+      "initials": "H2",
+      "color": 12,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-33",
+      "name": "Haltestelle Handwerkskammer 1",
+      "position": {
+        "x": 69,
+        "y": -10,
+        "z": 452
+      },
+      "route_ids": [
+        "wur-route-03"
+      ],
+      "initials": "H1",
+      "color": 14,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-34",
+      "name": "Parkplatz  4",
+      "position": {
+        "x": 38,
+        "y": -14,
+        "z": 37
+      },
+      "route_ids": [
+        "wur-route-12"
+      ],
+      "initials": "P4",
+      "color": 18,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-35",
+      "name": "Haltestelle Neutorstraße 1",
+      "position": {
+        "x": -24,
+        "y": -13,
+        "z": 103
+      },
+      "route_ids": [
+        "wur-route-02"
+      ],
+      "initials": "N1",
+      "color": 9,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-36",
+      "name": "Haltestelle Neutorstraße 2",
+      "position": {
+        "x": -14,
+        "y": -13,
+        "z": 87
+      },
+      "route_ids": [
+        "wur-route-03"
+      ],
+      "initials": "N2",
+      "color": 2,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-37",
+      "name": "522 Apartunities",
+      "position": {
+        "x": 71,
+        "y": -11,
+        "z": -8
+      },
+      "route_ids": [
+        "wur-route-08"
+      ],
+      "initials": "52",
+      "color": 15,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-38",
+      "name": "Haltestelle Berliner Platz",
+      "position": {
+        "x": 69,
+        "y": -14,
+        "z": 138
+      },
+      "route_ids": [],
+      "initials": "B6",
+      "color": 5,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-39",
+      "name": "Berliner Pl. 11",
+      "position": {
+        "x": 235,
+        "y": -12,
+        "z": 228
+      },
+      "route_ids": [
+        "wur-route-06"
+      ],
+      "initials": "11",
+      "color": 18,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-40",
+      "name": "Berliner Pl. 9",
+      "position": {
+        "x": 155,
+        "y": -12,
+        "z": 134
+      },
+      "route_ids": [
+        "wur-route-08"
+      ],
+      "initials": "B9",
+      "color": 1,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-41",
+      "name": "Unique Studios",
+      "position": {
+        "x": 237,
+        "y": -7,
+        "z": 423
+      },
+      "route_ids": [
+        "wur-route-06"
+      ],
+      "initials": "US",
+      "color": 11,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-42",
+      "name": "Garmin Würzburg",
+      "position": {
+        "x": 285,
+        "y": -6,
+        "z": 437
+      },
+      "route_ids": [
+        "wur-route-06"
+      ],
+      "initials": "GW",
+      "color": 15,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-43",
+      "name": "Diskothek Labyrinth",
+      "position": {
+        "x": 331,
+        "y": -5,
+        "z": 454
+      },
+      "route_ids": [
+        "wur-route-07"
+      ],
+      "initials": "DL",
+      "color": 16,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-44",
+      "name": "Noxum GmbH",
+      "position": {
+        "x": 484,
+        "y": -3,
+        "z": 492
+      },
+      "route_ids": [
+        "wur-route-06"
+      ],
+      "initials": "NG",
+      "color": 20,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-45",
+      "name": "Parken am Hauptfriedhof",
+      "position": {
+        "x": 357,
+        "y": -4,
+        "z": 464
+      },
+      "route_ids": [
+        "wur-route-14"
+      ],
+      "initials": "P5",
+      "color": 0,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-46",
+      "name": "Parkhaus Ringparkcenter",
+      "position": {
+        "x": 264,
+        "y": -7,
+        "z": 366
+      },
+      "route_ids": [
+        "wur-route-07"
+      ],
+      "initials": "P4",
+      "color": 12,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-47",
+      "name": "Parkplatz \"Schweinfurter Straße\"",
+      "position": {
+        "x": 353,
+        "y": -11,
+        "z": 163
+      },
+      "route_ids": [
+        "wur-route-08"
+      ],
+      "initials": "P3",
+      "color": 6,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-48",
+      "name": "NOVUM Conference & Events",
+      "position": {
+        "x": 472,
+        "y": -12,
+        "z": 273
+      },
+      "route_ids": [],
+      "initials": "NO",
+      "color": 16,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-49",
+      "name": "Shell Recharge-Ladestation",
+      "position": {
+        "x": 387,
+        "y": -12,
+        "z": 270
+      },
+      "route_ids": [
+        "wur-route-08"
+      ],
+      "initials": "SR",
+      "color": 2,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-50",
+      "name": "Premier Inn Würzburg Hotel",
+      "position": {
+        "x": 318,
+        "y": -12,
+        "z": 256
+      },
+      "route_ids": [
+        "wur-route-08"
+      ],
+      "initials": "GH",
+      "color": 10,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-51",
+      "name": "SiemensAG Niederlassung Würzburg",
+      "position": {
+        "x": 292,
+        "y": -12,
+        "z": 253
+      },
+      "route_ids": [],
+      "initials": "SM",
+      "color": 14,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-52",
+      "name": "Haltestelle 3",
+      "position": {
+        "x": 262,
+        "y": -12,
+        "z": 263
+      },
+      "route_ids": [],
+      "initials": "B3",
+      "color": 0,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-53",
+      "name": "HAAS - Das Sanitätshaus",
+      "position": {
+        "x": 233,
+        "y": -12,
+        "z": 248
+      },
+      "route_ids": [
+        "wur-route-06"
+      ],
+      "initials": "HA",
+      "color": 0,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-54",
+      "name": "Oberbank",
+      "position": {
+        "x": 314,
+        "y": -12,
+        "z": 291
+      },
+      "route_ids": [
+        "wur-route-07"
+      ],
+      "initials": "OB",
+      "color": 9,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-55",
+      "name": "Lidl",
+      "position": {
+        "x": 400,
+        "y": -11,
+        "z": 326
+      },
+      "route_ids": [
+        "wur-route-07",
+        "wur-route-13"
+      ],
+      "initials": "LD",
+      "color": 2,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-56",
+      "name": "Moxy Wuerzburg",
+      "position": {
+        "x": 481,
+        "y": -12,
+        "z": 330
+      },
+      "route_ids": [
+        "wur-route-07"
+      ],
+      "initials": "MW",
+      "color": 7,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-57",
+      "name": "Haltestelle 2",
+      "position": {
+        "x": 486,
+        "y": -10,
+        "z": 324
+      },
+      "route_ids": [],
+      "initials": "B2",
+      "color": 3,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-58",
+      "name": "AC Hotel",
+      "position": {
+        "x": 528,
+        "y": -12,
+        "z": 344
+      },
+      "route_ids": [
+        "wur-route-09"
+      ],
+      "initials": "AC",
+      "color": 8,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-59",
+      "name": "Fahrradprofis Würzburg",
+      "position": {
+        "x": 693,
+        "y": -6,
+        "z": 487
+      },
+      "route_ids": [
+        "wur-route-13"
+      ],
+      "initials": "FW",
+      "color": 3,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-60",
+      "name": "Spielothek 4Play",
+      "position": {
+        "x": 671,
+        "y": -8,
+        "z": 427
+      },
+      "route_ids": [
+        "wur-route-13"
+      ],
+      "initials": "S4",
+      "color": 11,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-61",
+      "name": "BIEBL+KNAPP",
+      "position": {
+        "x": 667,
+        "y": -10,
+        "z": 423
+      },
+      "route_ids": [
+        "wur-route-13"
+      ],
+      "initials": "BK",
+      "color": 3,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-62",
+      "name": "Häuschen 0",
+      "position": {
+        "x": 693,
+        "y": -4,
+        "z": 684
+      },
+      "route_ids": [
+        "wur-route-13"
+      ],
+      "initials": "H0",
+      "color": 19,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-63",
+      "name": "Grabstein 3",
+      "position": {
+        "x": 553,
+        "y": -1,
+        "z": 794
+      },
+      "route_ids": [],
+      "initials": "G3",
+      "color": 3,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-64",
+      "name": "Grabstein 2",
+      "position": {
+        "x": 260,
+        "y": -5,
+        "z": 676
+      },
+      "route_ids": [],
+      "initials": "G2",
+      "color": 6,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-65",
+      "name": "Grabstein 1",
+      "position": {
+        "x": 614,
+        "y": -2,
+        "z": 609
+      },
+      "route_ids": [
+        "wur-route-09"
+      ],
+      "initials": "G1",
+      "color": 6,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-66",
+      "name": "Aussegnungshalle",
+      "position": {
+        "x": 332,
+        "y": -5,
+        "z": 539
+      },
+      "route_ids": [
+        "wur-route-14"
+      ],
+      "initials": "A",
+      "color": 9,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-67",
+      "name": "Städtischer Bestattungsdienst",
+      "position": {
+        "x": 208,
+        "y": -9,
+        "z": 604
+      },
+      "route_ids": [
+        "wur-route-14"
+      ],
+      "initials": "SB",
+      "color": 10,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-68",
+      "name": "Gedenkkapelle im Ehrenfriedhof",
+      "position": {
+        "x": 443,
+        "y": 4,
+        "z": 850
+      },
+      "route_ids": [],
+      "initials": "GE",
+      "color": 12,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-69",
+      "name": "Kapelle im Hauptfriedhof",
+      "position": {
+        "x": 498,
+        "y": -1,
+        "z": 644
+      },
+      "route_ids": [
+        "wur-route-09",
+        "wur-route-14"
+      ],
+      "initials": "KH",
+      "color": 17,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-70",
+      "name": "Kriegerdenkmal 1870-71",
+      "position": {
+        "x": 251,
+        "y": -8,
+        "z": 475
+      },
+      "route_ids": [],
+      "initials": "K1",
+      "color": 7,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-71",
+      "name": "Park des Gedenkens",
+      "position": {
+        "x": 266,
+        "y": -7,
+        "z": 485
+      },
+      "route_ids": [],
+      "initials": "PG",
+      "color": 8,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-72",
+      "name": "Blumenhaus Böck",
+      "position": {
+        "x": 268,
+        "y": -8,
+        "z": 530
+      },
+      "route_ids": [
+        "wur-route-09"
+      ],
+      "initials": "BB",
+      "color": 17,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-73",
+      "name": "Toiletten",
+      "position": {
+        "x": 242,
+        "y": -9,
+        "z": 570
+      },
+      "route_ids": [
+        "wur-route-14"
+      ],
+      "initials": "T1",
+      "color": 16,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-74",
+      "name": "Haltestelle Hauptfriedhof",
+      "position": {
+        "x": 215,
+        "y": -9,
+        "z": 560
+      },
+      "route_ids": [],
+      "initials": "BH",
+      "color": 2,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-75",
+      "name": "Parkplatz 1",
+      "position": {
+        "x": 244,
+        "y": -9,
+        "z": 525
+      },
+      "route_ids": [
+        "wur-route-14"
+      ],
+      "initials": "P1",
+      "color": 20,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-76",
+      "name": "Berliner Pl. 5A",
+      "position": {
+        "x": -10,
+        "y": -13,
+        "z": 203
+      },
+      "route_ids": [
+        "wur-route-12"
+      ],
+      "initials": "BP",
+      "color": 0,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-77",
+      "name": "Ludwigstraße 10",
+      "position": {
+        "x": -218,
+        "y": -13,
+        "z": 457
+      },
+      "route_ids": [
+        "wur-route-02"
+      ],
+      "initials": "L1",
+      "color": 3,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WUR-WP-78",
+      "name": "Kapuzinerstraße 23",
+      "position": {
+        "x": -113,
+        "y": -13,
+        "z": 490
+      },
+      "route_ids": [
+        "wur-route-12"
+      ],
+      "initials": "K2",
+      "color": 7,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+#
+#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
+#
+waypoint:жк «Квартал Ю» 98 - 6:YU:6287315:200:-5354962:20:false:0:gui.xaero_default:false:0:0:false
+waypoint:Остановка 8:B8:6287462:197:-5355414:0:false:0:gui.xaero_default:false:0:0:false
+waypoint:Остановка 7:B7:6287485:197:-5355389:5:false:0:gui.xaero_default:false:0:0:false
+waypoint:Остановка 6:B6:6287618:202:-5354997:7:false:0:gui.xaero_default:false:0:0:false
+waypoint:Остановка 5:B5:6287669:202:-5354944:15:false:0:gui.xaero_default:false:0:0:false
+waypoint:ГАОУ «Школа Иннополис»:IS:6287416:205:-5354719:6:false:0:gui.xaero_default:false:0:0:false
+waypoint:Остановка 3:B3:6288269:201:-5355791:9:false:0:gui.xaero_default:false:0:0:false
+waypoint:Остановка 4:B4:6288297:201:-5355870:19:false:0:gui.xaero_default:false:0:0:false
+waypoint:детский сад Иннополиса 2:DS:6287849:202:-5355513:16:false:0:gui.xaero_default:false:0:0:false
+waypoint:ПСЧ № 8 МЧС России:FD:6288496:194:-5356850:19:false:0:gui.xaero_default:false:0:0:false
+waypoint:ИнноПарк:IP:6288365:197:-5356286:16:false:0:gui.xaero_default:false:0:0:false
+waypoint:Теннисный корт:TC:6287290:194:-5355249:14:false:0:gui.xaero_default:false:0:0:false
+waypoint:Стадион Иннополис:SI:6287373:194:-5355356:18:false:0:gui.xaero_default:false:0:0:false
+waypoint:Спортивный комплекс «Иннополис»:SC:6287503:209:-5355648:10:false:0:gui.xaero_default:false:0:0:false
+waypoint:Медицинский центр Иннополиса:MC:6287638:197:-5356286:19:false:0:gui.xaero_default:false:0:0:false
+waypoint:Muse of Tech:MT:6287631:199:-5356075:2:false:0:gui.xaero_default:false:0:0:false
+waypoint:Остановка 2:B2:6287650:199:-5355919:6:false:0:gui.xaero_default:false:0:0:false
+waypoint:Университет Иннополис:IU:6287576:199:-5355841:19:false:0:gui.xaero_default:false:0:0:false
+waypoint:Технопарк имени Циолковского:ТT:6287955:202:-5355768:4:false:0:gui.xaero_default:false:0:0:false
+waypoint:Технопарк им. А.С. Попова:ТP:6288068:203:-5355734:10:false:0:gui.xaero_default:false:0:0:false
+waypoint:Остановка 1:B1:6288029:202:-5355602:16:false:0:gui.xaero_default:false:0:0:false
+waypoint:Sixty:SI:6288126:200:-5355253:2:false:0:gui.xaero_default:false:0:0:false
+waypoint:ArtSpace:AS:6287967:199:-5354847:5:false:0:gui.xaero_default:false:0:0:false
+waypoint:ION:IO:6288059:198:-5354972:3:false:0:gui.xaero_default:false:0:0:false
+waypoint:детский сад Иннополиса 1:DS:6287696:203:-5355136:8:false:0:gui.xaero_default:false:0:0:false
+waypoint:ОСОШ «Иннополис»:ОI:6287719:203:-5355262:9:false:0:gui.xaero_default:false:0:0:false
+waypoint:Кайрос:К:6287681:202:-5355461:4:false:0:gui.xaero_default:false:0:0:false
+waypoint:Пятёрочка:5P:6287594:200:-5355342:18:false:0:gui.xaero_default:false:0:0:false
+waypoint:Cup & Cake:CC:6287503:200:-5355360:18:false:0:gui.xaero_default:false:0:0:false
+waypoint:Спортивная улица, 110:11:6287525:201:-5355247:14:false:0:gui.xaero_default:false:0:0:false
+waypoint:Спортивная улица, 100:10:6287468:200:-5355218:13:false:0:gui.xaero_default:false:0:0:false
+waypoint:Win-Win:WW:6287507:201:-5355160:11:false:0:gui.xaero_default:false:0:0:false
+waypoint:Мэрия города Иннополис:CH:6287649:203:-5355153:5:false:0:gui.xaero_default:false:0:0:false
+waypoint:Ярмарочная площадь:YP:6287637:203:-5355033:13:false:0:gui.xaero_default:false:0:0:false
+waypoint:Спортивная Площадка Воркаут:SP:6287716:203:-5355003:2:false:0:gui.xaero_default:false:0:0:false

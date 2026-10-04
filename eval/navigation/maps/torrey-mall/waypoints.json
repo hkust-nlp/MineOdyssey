@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "map_id": "torrey-mall",
+  "quality_status": "verified_store_only_routes",
+  "excluded_waypoints": [],
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/torrey-mall-8-diverse-routes.json",
+    "sha256": "4cae8656ca256ad4919ef534b00e505133a3033166af93eb02d2f6dcfae2d246"
+  },
+  "waypoint_count": 19,
+  "waypoints": [
+    {
+      "id": "TOR-ALL-29",
+      "name": "Miniso",
+      "position": {
+        "x": -2318,
+        "y": -8,
+        "z": 1212
+      },
+      "route_ids": [
+        "torrey-sparse-05"
+      ]
+    },
+    {
+      "id": "TOR-SEM-04",
+      "name": "Quiosco de helados sur",
+      "position": {
+        "x": -2249,
+        "y": -8,
+        "z": 1256
+      },
+      "route_ids": [
+        "torrey-sparse-02"
+      ]
+    },
+    {
+      "id": "TOR-SEM-06",
+      "name": "Entrada este del pasaje subterráneo de vidrio",
+      "position": {
+        "x": -2184,
+        "y": -4,
+        "z": 1117
+      },
+      "route_ids": [
+        "torrey-sparse-04"
+      ]
+    },
+    {
+      "id": "TOR-SEM-08",
+      "name": "Vestíbulo de ascensores de la torre este (pisos 1–33 / 1–17)",
+      "position": {
+        "x": -2218,
+        "y": -4,
+        "z": 1140
+      },
+      "route_ids": [
+        "torrey-sparse-02"
+      ]
+    },
+    {
+      "id": "TOR-SEM-12",
+      "name": "Letrero NIVEL 1",
+      "position": {
+        "x": -2285,
+        "y": -8,
+        "z": 1210
+      },
+      "point_kind": "floor_anchor",
+      "route_ids": [
+        "torrey-sparse-03"
+      ]
+    },
+    {
+      "id": "TOR-STORE-02",
+      "name": "Entrada de Pizza Hut",
+      "position": {
+        "x": -2236,
+        "y": -8,
+        "z": 1163
+      },
+      "route_ids": [
+        "torrey-sparse-03",
+        "torrey-sparse-05"
+      ],
+      "point_kind": "official_tenant_storefront"
+    },
+    {
+      "id": "TOR-STORE-03",
+      "name": "Entrada de Ilaria",
+      "position": {
+        "x": -2290,
+        "y": -8,
+        "z": 1167
+      },
+      "route_ids": [
+        "torrey-sparse-03",
+        "torrey-sparse-07"
+      ],
+      "point_kind": "official_tenant_storefront"
+    },
+    {
+      "id": "TOR-STORE-06",
+      "name": "Entrada de Gzuck",
+      "position": {
+        "x": -2222,
+        "y": -8,
+        "z": 1211
+      },
+      "route_ids": [
+        "torrey-sparse-07"
+      ],
+      "point_kind": "official_tenant_storefront"
+    },
+    {
+      "id": "TOR-STORE-07",
+      "name": "Entrada de Claro",
+      "position": {
+        "x": -2213,
+        "y": -8,
+        "z": 1211
+      },
+      "route_ids": [
+        "torrey-sparse-01"
+      ],
+      "point_kind": "official_tenant_storefront"
+    },
+    {
+      "id": "TOR-STORE-09",
+      "name": "Entrada de Lucio Cafe",
+      "position": {
+        "x": -2244,
+        "y": -8,
+        "z": 1200
+      },
+      "route_ids": [
+        "torrey-sparse-07"
+      ],
+      "point_kind": "official_tenant_storefront"
+    },
+    {
+      "id": "TOR-STORE-ARUMA",
+      "name": "Aruma Centro Cívico",
+      "position": {
+        "x": -2323,
+        "y": -7,
+        "z": 1219
+      },
+      "route_ids": [
+        "torrey-sparse-06"
+      ],
+      "point_kind": "official_tenant_storefront"
+    },
+    {
+      "id": "TOR-STORE-CRISOL",
+      "name": "Crisol",
+      "position": {
+        "x": -2211,
+        "y": -8,
+        "z": 1159
+      },
+      "route_ids": [
+        "torrey-sparse-02"
+      ],
+      "point_kind": "official_tenant_storefront"
+    },
+    {
+      "id": "TOR-STORE-FALABELLA",
+      "name": "Falabella Centro Cívico",
+      "position": {
+        "x": -2329,
+        "y": -7,
+        "z": 1241
+      },
+      "route_ids": [
+        "torrey-sparse-01"
+      ],
+      "point_kind": "official_tenant_storefront"
+    },
+    {
+      "id": "TOR-STORE-HM",
+      "name": "H&M",
+      "position": {
+        "x": -2199,
+        "y": -8,
+        "z": 1161
+      },
+      "route_ids": [
+        "torrey-sparse-05"
+      ],
+      "point_kind": "official_tenant_storefront"
+    },
+    {
+      "id": "TOR-STORE-INKAFARMA",
+      "name": "Inkafarma",
+      "position": {
+        "x": -2213,
+        "y": -4,
+        "z": 1160
+      },
+      "route_ids": [
+        "torrey-sparse-04"
+      ],
+      "point_kind": "official_tenant_storefront"
+    },
+    {
+      "id": "TOR-STORE-LUCIO",
+      "name": "Lucio Cafe",
+      "position": {
+        "x": -2244,
+        "y": -8,
+        "z": 1200
+      },
+      "route_ids": [
+        "torrey-sparse-01"
+      ],
+      "point_kind": "official_tenant_storefront"
+    },
+    {
+      "id": "TOR-STORE-MIFARMA",
+      "name": "Mifarma",
+      "position": {
+        "x": -2305,
+        "y": -8,
+        "z": 1225
+      },
+      "route_ids": [
+        "torrey-sparse-04"
+      ],
+      "point_kind": "official_tenant_storefront"
+    },
+    {
+      "id": "TOR-STORE-MOVISTAR",
+      "name": "Movistar",
+      "position": {
+        "x": -2194,
+        "y": -4,
+        "z": 1172
+      },
+      "route_ids": [
+        "torrey-sparse-06"
+      ],
+      "point_kind": "official_tenant_storefront"
+    },
+    {
+      "id": "TOR-STORE-PLAZA-VEA",
+      "name": "Plaza Vea Centro Cívico",
+      "position": {
+        "x": -2277,
+        "y": -8,
+        "z": 1156
+      },
+      "route_ids": [
+        "torrey-sparse-06"
+      ],
+      "point_kind": "official_tenant_storefront"
+    }
+  ]
+}

@@ -1,0 +1,5797 @@
+{
+  "mine_block:acacia_door": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          2530,
+          76,
+          1798
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:acacia_door",
+      "openha_task_name": "mine_block:acacia_door",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:acacia_door",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:acacia_leaves": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -498.3,
+          69,
+          2210.9
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "shears",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:acacia_leaves",
+      "openha_task_name": "mine_block:acacia_leaves",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:acacia_leaves",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:acacia_log": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          -117,
+          69,
+          619
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:acacia_log",
+      "openha_task_name": "mine_block:acacia_log",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:acacia_log",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:acacia_pressure_plate": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          2530,
+          76,
+          1798
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:acacia_pressure_plate",
+      "openha_task_name": "mine_block:acacia_pressure_plate",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:acacia_pressure_plate",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:acacia_slab": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          101,
+          68,
+          3840
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "stone_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:acacia_slab",
+      "openha_task_name": "mine_block:acacia_slab",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:acacia_slab",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:acacia_stairs": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          2528,
+          77,
+          1830
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:acacia_stairs",
+      "openha_task_name": "mine_block:acacia_stairs",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:acacia_stairs",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:allium": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          773,
+          80,
+          876
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:allium",
+      "openha_task_name": "mine_block:allium",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:allium",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:andesite": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          217,
+          71,
+          959
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "wooden_pickaxe",
+      "stone_pickaxe",
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:andesite",
+      "openha_task_name": "mine_block:andesite",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:andesite",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:azure_bluet": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          347,
+          67,
+          802
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:azure_bluet",
+      "openha_task_name": "mine_block:azure_bluet",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:azure_bluet",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:bamboo": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          170,
+          65,
+          69
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:bamboo",
+      "openha_task_name": "mine_block:bamboo",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:bamboo",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:bee_nest": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          754,
+          75,
+          -2031
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:bee_nest",
+      "openha_task_name": "mine_block:bee_nest",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:bee_nest",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:bell": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -450,
+          65,
+          -385
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:bell",
+      "openha_task_name": "mine_block:bell",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:bell",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:birch_leaves": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -565,
+          66,
+          -1164
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:birch_leaves",
+      "openha_task_name": "mine_block:birch_leaves",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:birch_leaves",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:birch_log": {
+    "seeds": [
+      {
+        "seed": 100,
+        "position": [
+          -216,
+          72,
+          202
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:birch_log",
+      "openha_task_name": "mine_block:birch_log",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:birch_log",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:blast_furnace": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          2876,
+          71,
+          1415
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:blast_furnace",
+      "openha_task_name": "mine_block:blast_furnace",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:blast_furnace",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:blue_bed": {
+    "seeds": [
+      {
+        "seed": 2024,
+        "position": [
+          -1966.5,
+          70,
+          -1238
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "stone_axe",
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:blue_bed",
+      "openha_task_name": "mine_block:blue_bed",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:blue_bed",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:blue_orchid": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          -217,
+          73,
+          -1327
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:blue_orchid",
+      "openha_task_name": "mine_block:blue_orchid",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:blue_orchid",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:brewing_stand": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          859,
+          70,
+          561
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:brewing_stand",
+      "openha_task_name": "mine_block:brewing_stand",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:brewing_stand",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:bricks": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          2876,
+          71,
+          1415
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:bricks",
+      "openha_task_name": "mine_block:bricks",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:bricks",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:cactus": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -116,
+          71,
+          17.061
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:cactus",
+      "openha_task_name": "mine_block:cactus",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:cactus",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:campfire": {
+    "seeds": [
+      {
+        "seed": 2024,
+        "position": [
+          -1942,
+          64,
+          -1178
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "stone_axe",
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:campfire",
+      "openha_task_name": "mine_block:campfire",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:campfire",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:carrots": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -381.3,
+          71,
+          1106.9
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:carrots",
+      "openha_task_name": "mine_block:carrots",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:carrots",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:cauldron": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          891,
+          68,
+          536
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:cauldron",
+      "openha_task_name": "mine_block:cauldron",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:cauldron",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:chest": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          341,
+          68,
+          997
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:chest",
+      "openha_task_name": "mine_block:chest",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:chest",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:chiseled_sandstone": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -356.3,
+          53,
+          -340.3
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:chiseled_sandstone",
+      "openha_task_name": "mine_block:chiseled_sandstone",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:chiseled_sandstone",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:clay": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -462,
+          74,
+          -333
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:clay",
+      "openha_task_name": "mine_block:clay",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:clay",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:coal_ore": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          175,
+          77,
+          860
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "stone_pickaxe",
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:coal_ore",
+      "openha_task_name": "mine_block:coal_ore",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:coal_ore",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:cobblestone": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          217,
+          71,
+          959
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "wooden_pickaxe",
+      "stone_pickaxe",
+      "iron_pickaxe",
+      "diamond_pickaxe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:cobblestone",
+      "openha_task_name": "mine_block:cobblestone",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:cobblestone",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:cobweb": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          27,
+          25,
+          -106.39
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:cobweb",
+      "openha_task_name": "mine_block:cobweb",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:cobweb",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:cocoa": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          154,
+          76,
+          100
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:cocoa",
+      "openha_task_name": "mine_block:cocoa",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:cocoa",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:composter": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          893,
+          72,
+          632
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:composter",
+      "openha_task_name": "mine_block:composter",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:composter",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:cornflower": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          361,
+          68,
+          771
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:cornflower",
+      "openha_task_name": "mine_block:cornflower",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:cornflower",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:cracked_stone_bricks": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          346,
+          69,
+          999
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:cracked_stone_bricks",
+      "openha_task_name": "mine_block:cracked_stone_bricks",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:cracked_stone_bricks",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:cracked_stone_bricks_stairs": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          349,
+          70,
+          1000
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:cracked_stone_bricks_stairs",
+      "openha_task_name": "mine_block:cracked_stone_bricks_stairs",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:crafting_table": {
+    "seeds": [
+      {
+        "seed": 1404809164,
+        "position": [
+          212.104,
+          73.0625,
+          228.078
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "wooden_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:crafting_table",
+      "openha_task_name": "mine_block:crafting_table",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:crafting_table",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:crying_obsidian": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          345,
+          70,
+          989
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:crying_obsidian",
+      "openha_task_name": "mine_block:crying_obsidian",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:crying_obsidian",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:cut_sandstone": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -280,
+          72,
+          -25.577
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:cut_sandstone",
+      "openha_task_name": "mine_block:cut_sandstone",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:cut_sandstone",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:cyan_bed": {
+    "seeds": [
+      {
+        "seed": 2024,
+        "position": [
+          -2938,
+          70,
+          -479
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:cyan_bed",
+      "openha_task_name": "mine_block:cyan_bed",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:cyan_bed",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:dandelion": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          373,
+          70,
+          763
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:dandelion",
+      "openha_task_name": "mine_block:dandelion",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 5,
+      "instruction_source_key": "mine_block:dandelion",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:dark_oak_leaves": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -613,
+          70,
+          -1137
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:dark_oak_leaves",
+      "openha_task_name": "mine_block:dark_oak_leaves",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:dark_oak_leaves",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:dark_oak_log": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -613,
+          70,
+          -1137
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:dark_oak_log",
+      "openha_task_name": "mine_block:dark_oak_log",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:dark_oak_log",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:dark_oak_slab": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -911,
+          69,
+          3652
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:dark_oak_slab",
+      "openha_task_name": "mine_block:dark_oak_slab",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:dark_oak_slab",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:dark_oak_stairs": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -921.8,
+          69,
+          3657
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:dark_oak_stairs",
+      "openha_task_name": "mine_block:dark_oak_stairs",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:dark_oak_stairs",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:dead_bush": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -120,
+          70,
+          -0.963
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:dead_bush",
+      "openha_task_name": "mine_block:dead_bush",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:dead_bush",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:diamond_ore": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          17950,
+          11,
+          7506
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:diamond_ore",
+      "openha_task_name": "mine_block:diamond_ore",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:diamond_ore",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:diorite": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          217,
+          71,
+          959
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "wooden_pickaxe",
+      "stone_pickaxe",
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:diorite",
+      "openha_task_name": "mine_block:diorite",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:diorite",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:dirt": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          398,
+          80,
+          1122
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_shovel",
+      "diamond_shovel",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:dirt",
+      "openha_task_name": "mine_block:dirt",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:dirt",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:farmland": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -655,
+          65,
+          3139.5
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "wooden_shovel"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:farmland",
+      "openha_task_name": "mine_block:farmland",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:farmland",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:fern": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          76.5,
+          74,
+          2689
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:fern",
+      "openha_task_name": "mine_block:fern",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:fern",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:flower_pot": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -450,
+          71,
+          -360
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:flower_pot",
+      "openha_task_name": "mine_block:flower_pot",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:flower_pot",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:furnace": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -1838,
+          72,
+          30501
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:furnace",
+      "openha_task_name": "mine_block:furnace",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:furnace",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:glass": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          2554,
+          74,
+          1837
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:glass",
+      "openha_task_name": "mine_block:glass",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:glass",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:gold_block": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          345,
+          70,
+          989
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:gold_block",
+      "openha_task_name": "mine_block:gold_block",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:gold_block",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:gold_ore": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          17950,
+          11,
+          7506
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:gold_ore",
+      "openha_task_name": "mine_block:gold_ore",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:gold_ore",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:granite": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          210,
+          73,
+          965
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "wooden_pickaxe",
+      "stone_pickaxe",
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:granite",
+      "openha_task_name": "mine_block:granite",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:granite",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:grass": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          390,
+          69,
+          745
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:grass",
+      "openha_task_name": "mine_block:grass",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:grass",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:grass_block": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -4573,
+          70,
+          -5060
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "wooden_shovel",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:grass_block",
+      "openha_task_name": "mine_block:grass_block",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:grass_block",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:gravel": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          397,
+          80,
+          1118
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_shovel",
+      "diamond_shovel"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:gravel",
+      "openha_task_name": "mine_block:gravel",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:gravel",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:green_bed": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -673,
+          65,
+          3171.7
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:green_bed",
+      "openha_task_name": "mine_block:green_bed",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:green_bed",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:grindstone": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -6090.9,
+          63.5,
+          -6077.8
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "stone_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:grindstone",
+      "openha_task_name": "mine_block:grindstone",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:grindstone",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:hay_block": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -453,
+          65,
+          -381
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:hay_block",
+      "openha_task_name": "mine_block:hay_block",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:hay_block",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:iron_bars": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          8962,
+          52,
+          6179.5
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:iron_bars",
+      "openha_task_name": "mine_block:iron_bars",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:iron_bars",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:iron_ore": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          194,
+          61,
+          897
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "stone_pickaxe",
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:iron_ore",
+      "openha_task_name": "mine_block:iron_ore",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:iron_ore",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:jungle_door": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -454,
+          67,
+          -373
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:jungle_door",
+      "openha_task_name": "mine_block:jungle_door",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:jungle_door",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:kelp": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -172,
+          49,
+          97.353
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:kelp",
+      "openha_task_name": "mine_block:kelp",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:kelp",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:kelp_plant": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -172,
+          49,
+          97.353
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:kelp_plant",
+      "openha_task_name": "mine_block:kelp_plant",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:kelp_plant",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:ladder": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          859,
+          70,
+          561
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:ladder",
+      "openha_task_name": "mine_block:ladder",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:ladder",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:large_fern": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          677,
+          63,
+          2184
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:large_fern",
+      "openha_task_name": "mine_block:large_fern",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:large_fern",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:light_blue_terracotta": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -357,
+          65,
+          -340
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:light_blue_terracotta",
+      "openha_task_name": "mine_block:light_blue_terracotta",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:light_blue_terracotta",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:lilac": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -600.5,
+          66,
+          -1180
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:lilac",
+      "openha_task_name": "mine_block:lilac",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:lilac",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:lily_of_the_valley": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -345.4,
+          72,
+          2158.8
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "shears"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:lily_of_the_valley",
+      "openha_task_name": "mine_block:lily_of_the_valley",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:lily_of_the_valley",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:lily_pad": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          -255,
+          63,
+          -678
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:lily_pad",
+      "openha_task_name": "mine_block:lily_pad",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:lily_pad",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:lime_bed": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -459,
+          67,
+          -373.406
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:lime_bed",
+      "openha_task_name": "mine_block:lime_bed",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:lime_bed",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:lime_terracotta": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -462,
+          74,
+          -333
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:lime_terracotta",
+      "openha_task_name": "mine_block:lime_terracotta",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:lime_terracotta",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:magma_block": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          345,
+          70,
+          989
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:magma_block",
+      "openha_task_name": "mine_block:magma_block",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:magma_block",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:melon": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          2562,
+          78,
+          1863
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:melon",
+      "openha_task_name": "mine_block:melon",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:melon",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:mossy_stone_bricks": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          345,
+          70,
+          989
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:mossy_stone_bricks",
+      "openha_task_name": "mine_block:mossy_stone_bricks",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:mossy_stone_bricks",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:mossy_stone_bricks_stairs": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          345,
+          70,
+          989
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:mossy_stone_bricks_stairs",
+      "openha_task_name": "mine_block:mossy_stone_bricks_stairs",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:mushroom_stem": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -606,
+          68,
+          -1135
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:mushroom_stem",
+      "openha_task_name": "mine_block:mushroom_stem",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:mushroom_stem",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:netherrack": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          340,
+          67,
+          1000
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:netherrack",
+      "openha_task_name": "mine_block:netherrack",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:netherrack",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:oak_door": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          883,
+          69,
+          614
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "diamond_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:oak_door",
+      "openha_task_name": "mine_block:oak_door",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:oak_door",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:oak_fence": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          1.56,
+          23,
+          -98.407
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:oak_fence",
+      "openha_task_name": "mine_block:oak_fence",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:oak_fence",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:oak_leaves": {
+    "seeds": [
+      {
+        "seed": 100,
+        "position": [
+          -216,
+          72,
+          202
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:oak_leaves",
+      "openha_task_name": "mine_block:oak_leaves",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:oak_leaves",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:oak_log": {
+    "seeds": [
+      {
+        "seed": 100,
+        "position": [
+          -216,
+          72,
+          202
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:oak_log",
+      "openha_task_name": "mine_block:oak_log",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:oak_log",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:oak_slab": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          15863,
+          67,
+          -21680
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:oak_slab",
+      "openha_task_name": "mine_block:oak_slab",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:oak_slab",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:oak_stairs": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          2871,
+          70,
+          1402
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:oak_stairs",
+      "openha_task_name": "mine_block:oak_stairs",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:oak_stairs",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:oak_trapdoor": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          884,
+          68,
+          601
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:oak_trapdoor",
+      "openha_task_name": "mine_block:oak_trapdoor",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:oak_trapdoor",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:obsidian": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          345,
+          70,
+          989
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:obsidian",
+      "openha_task_name": "mine_block:obsidian",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:obsidian",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:orange_bed": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          2571,
+          76,
+          1857
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:orange_bed",
+      "openha_task_name": "mine_block:orange_bed",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:orange_bed",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:orange_terracotta": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -364,
+          65,
+          -333.531
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:orange_terracotta",
+      "openha_task_name": "mine_block:orange_terracotta",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:orange_terracotta",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:orange_tulip": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          506,
+          70,
+          781
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:orange_tulip",
+      "openha_task_name": "mine_block:orange_tulip",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:orange_tulip",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:oxeye_daisy": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -5130,
+          64,
+          -5474
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:oxeye_daisy",
+      "openha_task_name": "mine_block:oxeye_daisy",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:oxeye_daisy",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:peony": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          419,
+          73,
+          887
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:peony",
+      "openha_task_name": "mine_block:peony",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:peony",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:pink_carpet": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          15906,
+          73,
+          -21497.3
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:pink_carpet",
+      "openha_task_name": "mine_block:pink_carpet",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:pink_tulip": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          455,
+          64,
+          928
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:pink_tulip",
+      "openha_task_name": "mine_block:pink_tulip",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:pink_tulip",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:poppy": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          399,
+          69,
+          729
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:poppy",
+      "openha_task_name": "mine_block:poppy",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:poppy",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:potatoes": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -374.6,
+          71,
+          1084.4
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:potatoes",
+      "openha_task_name": "mine_block:potatoes",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:potatoes",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:potted_cactus": {
+    "seeds": [
+      {
+        "seed": 2024,
+        "position": [
+          -2976,
+          71,
+          -471
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:potted_cactus",
+      "openha_task_name": "mine_block:potted_cactus",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:potted_cactus",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:potted_dead_bush": {
+    "seeds": [
+      {
+        "seed": 2024,
+        "position": [
+          -2955,
+          72,
+          -470
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:potted_dead_bush",
+      "openha_task_name": "mine_block:potted_dead_bush",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:potted_dead_bush",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:prismarine_bricks": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -3837,
+          56,
+          -3567
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "stone_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:prismarine_bricks",
+      "openha_task_name": "mine_block:prismarine_bricks",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:prismarine_bricks",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:pumpkin": {
+    "seeds": [
+      {
+        "seed": 2024,
+        "position": [
+          -2272,
+          77,
+          -414
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:pumpkin",
+      "openha_task_name": "mine_block:pumpkin",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:pumpkin",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:purple_bed": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          352.2,
+          81,
+          1125.7
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:purple_bed",
+      "openha_task_name": "mine_block:purple_bed",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:purple_bed",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:rail": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          1,
+          23,
+          -63.819
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:rail",
+      "openha_task_name": "mine_block:rail",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:rail",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:red_carpet": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          15911,
+          73,
+          -21497.8
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:red_carpet",
+      "openha_task_name": "mine_block:red_carpet",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:red_carpet",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:red_mushroom_block": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -606,
+          68,
+          -1135
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:red_mushroom_block",
+      "openha_task_name": "mine_block:red_mushroom_block",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:red_mushroom_block",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:red_tulip": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          455,
+          64,
+          928
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:red_tulip",
+      "openha_task_name": "mine_block:red_tulip",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:red_tulip",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:redstone_ore": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -13.547,
+          15,
+          -98.368
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:redstone_ore",
+      "openha_task_name": "mine_block:redstone_ore",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:redstone_ore",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:redstone_torch": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -4268,
+          66,
+          -2043
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:redstone_torch",
+      "openha_task_name": "mine_block:redstone_torch",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:redstone_torch",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:rose_bush": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          419,
+          73,
+          887
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:rose_bush",
+      "openha_task_name": "mine_block:rose_bush",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:rose_bush",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:sand": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -4638,
+          64,
+          -5148
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "wooden_shovel",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:sand",
+      "openha_task_name": "mine_block:sand",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:sand",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:sand_slab": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -664,
+          65,
+          3168.5
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "wooden_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:sand_slab",
+      "openha_task_name": "mine_block:sand_slab",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:sand_stone": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -661,
+          60,
+          3185.7
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "wooden_shovel"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:sand_stone",
+      "openha_task_name": "mine_block:sand_stone",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 0,
+      "instruction_source_key": null,
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:sandstone_stairs": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -459,
+          67,
+          -373.338
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:sandstone_stairs",
+      "openha_task_name": "mine_block:sandstone_stairs",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:sandstone_stairs",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:sea_pickle": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -459,
+          67,
+          -373.338
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:sea_pickle",
+      "openha_task_name": "mine_block:sea_pickle",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:sea_pickle",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:smoker": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -407,
+          73,
+          1179
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "stone_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:smoker",
+      "openha_task_name": "mine_block:smoker",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:smoker",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:smooth_stone": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          891,
+          68,
+          536
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:smooth_stone",
+      "openha_task_name": "mine_block:smooth_stone",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:smooth_stone",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:snow": {
+    "seeds": [
+      {
+        "seed": 1404809164,
+        "position": [
+          2,
+          63,
+          60
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "stone_shovel",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:snow",
+      "openha_task_name": "mine_block:snow",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:snow",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:spruce_door": {
+    "seeds": [
+      {
+        "seed": 2024,
+        "position": [
+          -1966.5,
+          70,
+          -1238
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "stone_axe",
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:spruce_door",
+      "openha_task_name": "mine_block:spruce_door",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:spruce_door",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:spruce_fence": {
+    "seeds": [
+      {
+        "seed": 2024,
+        "position": [
+          -1966.5,
+          70,
+          -1238
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "stone_axe",
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:spruce_fence",
+      "openha_task_name": "mine_block:spruce_fence",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:spruce_fence",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:spruce_leaves": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          -139,
+          78,
+          -797
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:spruce_leaves",
+      "openha_task_name": "mine_block:spruce_leaves",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:spruce_leaves",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:spruce_log": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          363,
+          70,
+          1019
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "diamond_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:spruce_log",
+      "openha_task_name": "mine_block:spruce_log",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:spruce_log",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:spruce_pressure_plate": {
+    "seeds": [
+      {
+        "seed": 2024,
+        "position": [
+          -1966.5,
+          70,
+          -1238
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "stone_axe",
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:spruce_pressure_plate",
+      "openha_task_name": "mine_block:spruce_pressure_plate",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:spruce_pressure_plate",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:spruce_stairs": {
+    "seeds": [
+      {
+        "seed": 2024,
+        "position": [
+          -1962,
+          67,
+          -1233
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "stone_axe",
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:spruce_stairs",
+      "openha_task_name": "mine_block:spruce_stairs",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:spruce_stairs",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:spruce_trapdoor": {
+    "seeds": [
+      {
+        "seed": 2024,
+        "position": [
+          -1957,
+          64,
+          -1214
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "stone_axe",
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:spruce_trapdoor",
+      "openha_task_name": "mine_block:spruce_trapdoor",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:spruce_trapdoor",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:stone": {
+    "seeds": [
+      {
+        "seed": 27,
+        "position": [
+          133,
+          61,
+          2
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "stone_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:stone",
+      "openha_task_name": "mine_block:stone",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:stone",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:stone_brick_slab": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -6274.6,
+          67.0,
+          -6033.8
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "stone_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:stone_brick_slab",
+      "openha_task_name": "mine_block:stone_brick_slab",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:stone_brick_slab",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:stone_brick_stairs": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          341,
+          68,
+          995
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:stone_brick_stairs",
+      "openha_task_name": "mine_block:stone_brick_stairs",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:stone_brick_stairs",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:stone_pressure_plate": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -356.3,
+          53,
+          -340.3
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:stone_pressure_plate",
+      "openha_task_name": "mine_block:stone_pressure_plate",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:stone_pressure_plate",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:stone_slab": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          345,
+          70,
+          989
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:stone_slab",
+      "openha_task_name": "mine_block:stone_slab",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:stone_slab",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:stonecutter": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -462,
+          74,
+          -333
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:stonecutter",
+      "openha_task_name": "mine_block:stonecutter",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:stonecutter",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:stripped_oak_log": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          2873,
+          68,
+          1395
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:stripped_oak_log",
+      "openha_task_name": "mine_block:stripped_oak_log",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:stripped_oak_log",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:stripped_oak_wood": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          883,
+          69,
+          609
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "diamond_axe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:stripped_oak_wood",
+      "openha_task_name": "mine_block:stripped_oak_wood",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:stripped_oak_wood",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:sugar_cane": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          544,
+          63,
+          899
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:sugar_cane",
+      "openha_task_name": "mine_block:sugar_cane",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:sugar_cane",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:sunflower": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [
+          -142,
+          64,
+          253
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:sunflower",
+      "openha_task_name": "mine_block:sunflower",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:sunflower",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:tall_grass": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          390,
+          69,
+          745
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:tall_grass",
+      "openha_task_name": "mine_block:tall_grass",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:tall_grass",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:terracotta": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -459,
+          67,
+          -373.338
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:terracotta",
+      "openha_task_name": "mine_block:terracotta",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:terracotta",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:torch": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          867,
+          67,
+          548
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:torch",
+      "openha_task_name": "mine_block:torch",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:torch",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:vine": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -172.4,
+          77,
+          2673
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "shears",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:vine",
+      "openha_task_name": "mine_block:vine",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:vine",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:wall_torch": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          883,
+          69,
+          609
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:wall_torch",
+      "openha_task_name": "mine_block:wall_torch",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:wall_torch",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:wheat": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -458,
+          64,
+          -344
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:wheat",
+      "openha_task_name": "mine_block:wheat",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:wheat",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": true
+    }
+  },
+  "mine_block:white_bed": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -459,
+          67,
+          -373.406
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:white_bed",
+      "openha_task_name": "mine_block:white_bed",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:white_bed",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:white_carpet": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          -4777,
+          64,
+          -1930
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:white_carpet",
+      "openha_task_name": "mine_block:white_carpet",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:white_carpet",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:white_glazed_terracotta": {
+    "seeds": [
+      {
+        "seed": 114514,
+        "position": [
+          -462,
+          74,
+          -333
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:white_glazed_terracotta",
+      "openha_task_name": "mine_block:white_glazed_terracotta",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:white_glazed_terracotta",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:white_stained_glass_pane": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          859,
+          70,
+          561
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:white_stained_glass_pane",
+      "openha_task_name": "mine_block:white_stained_glass_pane",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:white_stained_glass_pane",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:white_terracotta": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          2863,
+          70,
+          1409
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:white_terracotta",
+      "openha_task_name": "mine_block:white_terracotta",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:white_terracotta",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:white_tulip": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          786,
+          73,
+          893
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      "air"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:white_tulip",
+      "openha_task_name": "mine_block:white_tulip",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:white_tulip",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:white_wool": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          873,
+          68,
+          554
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:white_wool",
+      "openha_task_name": "mine_block:white_wool",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:white_wool",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:yellow_bed": {
+    "seeds": [
+      {
+        "seed": 7972459931808049474,
+        "position": [
+          15863,
+          68,
+          -21674
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:yellow_bed",
+      "openha_task_name": "mine_block:yellow_bed",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:yellow_bed",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:yellow_glazed_terracotta": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          2530,
+          76,
+          1798
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:yellow_glazed_terracotta",
+      "openha_task_name": "mine_block:yellow_glazed_terracotta",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:yellow_glazed_terracotta",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:yellow_stained_glass": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          2880,
+          75,
+          1336
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:yellow_stained_glass",
+      "openha_task_name": "mine_block:yellow_stained_glass",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:yellow_stained_glass",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:yellow_stained_glass_pane": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          859,
+          70,
+          561
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:yellow_stained_glass_pane",
+      "openha_task_name": "mine_block:yellow_stained_glass_pane",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:yellow_stained_glass_pane",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:yellow_terracotta": {
+    "seeds": [
+      {
+        "seed": 1997,
+        "position": [
+          2570,
+          73,
+          1833
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_axe",
+      ""
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:yellow_terracotta",
+      "openha_task_name": "mine_block:yellow_terracotta",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:yellow_terracotta",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "mine_block:yellow_wool": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [
+          873,
+          68,
+          554
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "tool": [
+      "iron_pickaxe",
+      "diamond_pickaxe"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "mine_block:yellow_wool",
+      "openha_task_name": "mine_block:yellow_wool",
+      "family": "mine_block",
+      "source_spawn_file": "mine_block.json",
+      "instruction_count": 6,
+      "instruction_source_key": "mine_block:yellow_wool",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  }
+}

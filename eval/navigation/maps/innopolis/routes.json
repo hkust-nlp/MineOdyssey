@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "map_id": "innopolis",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "eval/navigation/maps/innopolis/route-plan-v1.json",
+    "sha256": "f14f62ccaedf4f534f2146ced36e8fe4e464edb139b9578469d6461a702e77ff"
+  },
+  "quality_status": "review_plan_only_not_certified",
+  "upload_recommendation": "waypoints_ready_routes_need_manual_walkthrough",
+  "route_count": 9,
+  "routes": [
+    {
+      "id": "inn-route-02",
+      "title": "住宅到科技园通勤",
+      "title_en": "Residential-to-Technopark Commute",
+      "persona": "technopark_commuter",
+      "difficulty": "medium",
+      "basis": "residence_university_workplace_flow",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {"waypoint_id": "INN-WP-30", "role": "start"},
+        {"waypoint_id": "INN-WP-18", "role": "via"},
+        {"waypoint_id": "INN-WP-20", "role": "end"}
+      ]
+    },
+    {
+      "id": "inn-route-03",
+      "title": "居民日常办事环线",
+      "title_en": "Resident Daily Errands Loop",
+      "persona": "resident",
+      "difficulty": "medium",
+      "basis": "local_services_loop",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {"waypoint_id": "INN-WP-30", "role": "start"},
+        {"waypoint_id": "INN-WP-27", "role": "via"},
+        {"waypoint_id": "INN-WP-28", "role": "via"},
+        {"waypoint_id": "INN-WP-33", "role": "via"},
+        {"waypoint_id": "INN-WP-34", "role": "via"},
+        {"waypoint_id": "INN-WP-30", "role": "end"}
+      ]
+    },
+    {
+      "id": "inn-route-04",
+      "title": "居民周末休闲",
+      "title_en": "Resident Weekend Leisure",
+      "persona": "resident",
+      "difficulty": "medium",
+      "basis": "sports_recreation_and_personal_service_flow",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {"waypoint_id": "INN-WP-01", "role": "start"},
+        {"waypoint_id": "INN-WP-12", "role": "via"},
+        {"waypoint_id": "INN-WP-13", "role": "via"},
+        {"waypoint_id": "INN-WP-35", "role": "via"},
+        {"waypoint_id": "INN-WP-22", "role": "end"}
+      ]
+    },
+    {
+      "id": "inn-route-05",
+      "title": "科技园商务访客日程",
+      "title_en": "Technopark Business Visitor Itinerary",
+      "persona": "business_visitor",
+      "difficulty": "medium",
+      "basis": "hotel_technopark_meetings_and_departure_stop_flow",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {"waypoint_id": "INN-WP-16", "role": "start"},
+        {"waypoint_id": "INN-WP-19", "role": "via"},
+        {"waypoint_id": "INN-WP-20", "role": "via"},
+        {"waypoint_id": "INN-WP-21", "role": "end"}
+      ]
+    },
+    {
+      "id": "inn-route-06",
+      "title": "大学—InnoPark跨园区",
+      "title_en": "University-to-InnoPark Cross-District Transfer",
+      "persona": "worker_or_visitor",
+      "difficulty": "hard",
+      "basis": "published_university_innopark_transfer_relationship",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {"waypoint_id": "INN-WP-17", "role": "start"},
+        {"waypoint_id": "INN-WP-18", "role": "via"},
+        {"waypoint_id": "INN-WP-11", "role": "via"},
+        {"waypoint_id": "INN-WP-08", "role": "end"}
+      ]
+    },
+    {
+      "id": "inn-route-07",
+      "title": "大学生学习生活路线",
+      "title_en": "University Student Study and Leisure Route",
+      "persona": "student",
+      "difficulty": "hard",
+      "basis": "student_residence_study_sports_and_culture_flow",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {"waypoint_id": "INN-WP-31", "role": "start"},
+        {"waypoint_id": "INN-WP-32", "role": "via"},
+        {"waypoint_id": "INN-WP-18", "role": "via"},
+        {"waypoint_id": "INN-WP-14", "role": "via"},
+        {"waypoint_id": "INN-WP-23", "role": "end"}
+      ]
+    },
+    {
+      "id": "inn-route-08",
+      "title": "教育接驳巡查",
+      "title_en": "Education Shuttle Inspection",
+      "persona": "education_staff",
+      "difficulty": "medium",
+      "basis": "south_to_north_school_stop_and_kindergarten_inspection",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {"waypoint_id": "INN-WP-06", "role": "start"},
+        {"waypoint_id": "INN-WP-05", "role": "via"},
+        {"waypoint_id": "INN-WP-04", "role": "via"},
+        {"waypoint_id": "INN-WP-25", "role": "via"},
+        {"waypoint_id": "INN-WP-26", "role": "via"},
+        {"waypoint_id": "INN-WP-09", "role": "end"}
+      ]
+    },
+    {
+      "id": "inn-route-09",
+      "title": "运动与康复路线",
+      "title_en": "Sports and Rehabilitation Route",
+      "persona": "resident_athlete",
+      "difficulty": "hard",
+      "basis": "outdoor_sports_complex_and_medical_flow",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {"waypoint_id": "INN-WP-35", "role": "start"},
+        {"waypoint_id": "INN-WP-12", "role": "via"},
+        {"waypoint_id": "INN-WP-13", "role": "via"},
+        {"waypoint_id": "INN-WP-14", "role": "via"},
+        {"waypoint_id": "INN-WP-15", "role": "end"}
+      ]
+    },
+    {
+      "id": "inn-route-10",
+      "title": "市政与公共安全巡查",
+      "title_en": "Municipal and Public Safety Inspection",
+      "persona": "municipal_inspector",
+      "difficulty": "hard",
+      "basis": "south_public_facilities_to_fire_station_inspection",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {"waypoint_id": "INN-WP-06", "role": "start"},
+        {"waypoint_id": "INN-WP-34", "role": "via"},
+        {"waypoint_id": "INN-WP-33", "role": "via"},
+        {"waypoint_id": "INN-WP-15", "role": "via"},
+        {"waypoint_id": "INN-WP-10", "role": "end"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# mc-unified 调试增强工具集（可选，通过 INSTALL_DEBUG_TOOLS=1 安装）
+
+strace
+tcpdump
+dnsutils
+htop
+tmux

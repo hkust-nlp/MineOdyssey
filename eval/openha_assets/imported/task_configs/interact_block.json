@@ -1,0 +1,587 @@
+{
+  "custom:interact_with_anvil": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          28,
+          63,
+          47
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "block": [
+      {
+        "anvil": [
+          0,
+          0,
+          5
+        ]
+      }
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "custom:interact_with_anvil",
+      "openha_task_name": "custom:interact_with_anvil",
+      "family": "interact_block",
+      "source_spawn_file": "interact_block.json",
+      "instruction_count": 5,
+      "instruction_source_key": "custom:interact_with_anvil",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "custom:interact_with_beacon": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          28,
+          63,
+          47
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "block": [
+      {
+        "beacon": [
+          0,
+          0,
+          5
+        ]
+      }
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "custom:interact_with_beacon",
+      "openha_task_name": "custom:interact_with_beacon",
+      "family": "interact_block",
+      "source_spawn_file": "interact_block.json",
+      "instruction_count": 5,
+      "instruction_source_key": "custom:interact_with_beacon",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "custom:interact_with_blast_furnace": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          28,
+          63,
+          47
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "block": [
+      {
+        "blast_furnace": [
+          0,
+          0,
+          5
+        ]
+      }
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "custom:interact_with_blast_furnace",
+      "openha_task_name": "custom:interact_with_blast_furnace",
+      "family": "interact_block",
+      "source_spawn_file": "interact_block.json",
+      "instruction_count": 5,
+      "instruction_source_key": "custom:interact_with_blast_furnace",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "custom:interact_with_brewingstand": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          28,
+          63,
+          47
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "block": [
+      {
+        "brewingstand": [
+          0,
+          0,
+          5
+        ]
+      }
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "custom:interact_with_brewingstand",
+      "openha_task_name": "custom:interact_with_brewingstand",
+      "family": "interact_block",
+      "source_spawn_file": "interact_block.json",
+      "instruction_count": 5,
+      "instruction_source_key": "custom:interact_with_brewingstand",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "custom:interact_with_campfire": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          28,
+          63,
+          47
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "block": [
+      {
+        "campfire": [
+          0,
+          0,
+          5
+        ]
+      }
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "custom:interact_with_campfire",
+      "openha_task_name": "custom:interact_with_campfire",
+      "family": "interact_block",
+      "source_spawn_file": "interact_block.json",
+      "instruction_count": 5,
+      "instruction_source_key": "custom:interact_with_campfire",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "custom:interact_with_cartography_table": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          28,
+          63,
+          47
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "block": [
+      {
+        "cartography_table": [
+          0,
+          0,
+          5
+        ]
+      }
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "custom:interact_with_cartography_table",
+      "openha_task_name": "custom:interact_with_cartography_table",
+      "family": "interact_block",
+      "source_spawn_file": "interact_block.json",
+      "instruction_count": 5,
+      "instruction_source_key": "custom:interact_with_cartography_table",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "custom:interact_with_crafting_table": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          28,
+          63,
+          47
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "block": [
+      {
+        "crafting_table": [
+          0,
+          0,
+          5
+        ]
+      }
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "custom:interact_with_crafting_table",
+      "openha_task_name": "custom:interact_with_crafting_table",
+      "family": "interact_block",
+      "source_spawn_file": "interact_block.json",
+      "instruction_count": 5,
+      "instruction_source_key": "custom:interact_with_crafting_table",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "custom:interact_with_furnace": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          28,
+          63,
+          47
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "block": [
+      {
+        "furnace": [
+          0,
+          0,
+          5
+        ]
+      }
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "custom:interact_with_furnace",
+      "openha_task_name": "custom:interact_with_furnace",
+      "family": "interact_block",
+      "source_spawn_file": "interact_block.json",
+      "instruction_count": 5,
+      "instruction_source_key": "custom:interact_with_furnace",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "custom:interact_with_grindstone": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          28,
+          63,
+          47
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "block": [
+      {
+        "grindstone": [
+          0,
+          0,
+          5
+        ]
+      }
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "custom:interact_with_grindstone",
+      "openha_task_name": "custom:interact_with_grindstone",
+      "family": "interact_block",
+      "source_spawn_file": "interact_block.json",
+      "instruction_count": 5,
+      "instruction_source_key": "custom:interact_with_grindstone",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "custom:interact_with_loom": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          28,
+          63,
+          47
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "block": [
+      {
+        "loom": [
+          0,
+          0,
+          5
+        ]
+      }
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "custom:interact_with_loom",
+      "openha_task_name": "custom:interact_with_loom",
+      "family": "interact_block",
+      "source_spawn_file": "interact_block.json",
+      "instruction_count": 5,
+      "instruction_source_key": "custom:interact_with_loom",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "custom:interact_with_smithing_table": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          28,
+          63,
+          47
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "block": [
+      {
+        "smithing_table": [
+          0,
+          0,
+          5
+        ]
+      }
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "custom:interact_with_smithing_table",
+      "openha_task_name": "custom:interact_with_smithing_table",
+      "family": "interact_block",
+      "source_spawn_file": "interact_block.json",
+      "instruction_count": 5,
+      "instruction_source_key": "custom:interact_with_smithing_table",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "custom:interact_with_smoker": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          28,
+          63,
+          47
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "block": [
+      {
+        "smoker": [
+          0,
+          0,
+          5
+        ]
+      }
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "custom:interact_with_smoker",
+      "openha_task_name": "custom:interact_with_smoker",
+      "family": "interact_block",
+      "source_spawn_file": "interact_block.json",
+      "instruction_count": 5,
+      "instruction_source_key": "custom:interact_with_smoker",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "custom:interact_with_stonecutter": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          28,
+          63,
+          47
+        ],
+        "dimension": "overworld",
+        "dimension_source": "default_overworld"
+      }
+    ],
+    "block": [
+      {
+        "stonecutter": [
+          0,
+          0,
+          5
+        ]
+      }
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "custom:interact_with_stonecutter",
+      "openha_task_name": "custom:interact_with_stonecutter",
+      "family": "interact_block",
+      "source_spawn_file": "interact_block.json",
+      "instruction_count": 5,
+      "instruction_source_key": "custom:interact_with_stonecutter",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "default_overworld": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [
+        0
+      ],
+      "equip_distraction_level_default": "difficulty",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  }
+}

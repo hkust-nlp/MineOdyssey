@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "map_id": "hagia-sophia",
+  "display_name": "Hagia Sophia",
+  "environment": "indoor",
+  "source": {
+    "repository": "anonymous/source",
+    "provenance": {
+      "kind": "git-lfs-world-materialized-as-local-source-archive",
+      "git_commit": "0000000000000000000000000000000000000000",
+      "git_path": "custom_maps/maps/inter_map/hagia_sophia"
+    },
+    "asset_name": "hagia_sophia.zip",
+    "archive_path": "hagia_sophia.zip",
+    "archive_bytes": 22130306,
+    "archive_sha256": "9b419628a5cc1881c53ea06813cb97f494797117b120d123ce9b558faa8bba40",
+    "world_root": "hagia_sophia"
+  },
+  "world": {
+    "source_version": {
+      "version_name": "1.16.5",
+      "data_version": 2586
+    },
+    "minecraft_version": "1.21.11",
+    "version_name": "1.21.11",
+    "data_version": 4671,
+    "expected_source_fingerprint": "a416d30c6206c391aa6fbe41aa65a3688acd196c513e81bbe18873c0d3864840",
+    "expected_prepared_fingerprint": "59ef9254a131f94999dde192cb1b8d380ba5de5edbed13d7905f385fdb3e1b10",
+    "preparation": {
+      "id": "minecraft-server-force-upgrade-1.21.11-v1",
+      "runtime_profile": "minecraft-1.21.11",
+      "server_arguments": [
+        "--forceUpgrade",
+        "--eraseCache",
+        "nogui"
+      ],
+      "reason": "Preserve the exact source archive, then upgrade one cloned world with the pinned Minecraft 1.21.11 / NeoForge 21.11.44 server and save it as the immutable prepared snapshot."
+    }
+  },
+  "license": {
+    "scope": "evaluation-only source archive",
+    "redistribution": "not granted by this manifest",
+    "note": "Keep the source ZIP and extracted source world outside Git; preserve the upstream Git provenance and any bundled terms."
+  }
+}

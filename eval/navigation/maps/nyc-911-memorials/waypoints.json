@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "map_id": "nyc-911-memorials",
+  "quality_status": "verified_routes",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/nyc-911-memorials-10-routes.json",
+    "sha256": "22fb6bcd4ca117deafe9ea0a34eb0c0f5783b35593f2de82ce909fe4ffcab79f"
+  },
+  "waypoint_count": 24,
+  "waypoints": [
+    {
+      "id": "NYC-WP-01",
+      "name": "2 World Trade Center",
+      "position": {
+        "x": 2202,
+        "y": -10,
+        "z": -31
+      },
+      "route_ids": [
+        "nyc-911-route-02",
+        "nyc-911-route-07"
+      ],
+      "initials": null,
+      "color": 4,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-02",
+      "name": "Oculus",
+      "position": {
+        "x": 2123,
+        "y": -12,
+        "z": 42
+      },
+      "route_ids": [
+        "nyc-911-route-07"
+      ],
+      "initials": null,
+      "color": 3,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-03",
+      "name": "St. Nicholas Greek Orthodox Church",
+      "position": {
+        "x": 2050,
+        "y": -6,
+        "z": 265
+      },
+      "route_ids": [
+        "nyc-911-route-03",
+        "nyc-911-route-04"
+      ],
+      "initials": null,
+      "color": 9,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-04",
+      "name": "Museum Entrance",
+      "position": {
+        "x": 2088,
+        "y": -12,
+        "z": 84
+      },
+      "route_ids": [
+        "nyc-911-route-02"
+      ],
+      "initials": null,
+      "color": 5,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-05",
+      "name": "Mural Project",
+      "position": {
+        "x": 2212,
+        "y": -9,
+        "z": 108
+      },
+      "route_ids": [
+        "nyc-911-route-05"
+      ],
+      "initials": null,
+      "color": 13,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-06",
+      "name": "3 World Trade Center",
+      "position": {
+        "x": 2203,
+        "y": -8,
+        "z": 175
+      },
+      "route_ids": [
+        "nyc-911-route-05"
+      ],
+      "initials": null,
+      "color": 18,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-07",
+      "name": "Westfield World Trade Center",
+      "position": {
+        "x": 2207,
+        "y": -9,
+        "z": 219
+      },
+      "route_ids": [
+        "nyc-911-route-07"
+      ],
+      "initials": null,
+      "color": 11,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-08",
+      "name": "Beer Garden",
+      "position": {
+        "x": 2244,
+        "y": -8,
+        "z": -2
+      },
+      "route_ids": [
+        "nyc-911-route-07"
+      ],
+      "initials": null,
+      "color": 12,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-09",
+      "name": "Fulton Street Art Wall (North)",
+      "position": {
+        "x": 2133,
+        "y": -12,
+        "z": 12
+      },
+      "route_ids": [
+        "nyc-911-route-05"
+      ],
+      "initials": null,
+      "color": 15,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-10",
+      "name": "Fulton Street Art Wall (East)",
+      "position": {
+        "x": 2182,
+        "y": -10,
+        "z": 103
+      },
+      "route_ids": [
+        "nyc-911-route-05"
+      ],
+      "initials": null,
+      "color": 19,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-11",
+      "name": "One World Trade Center",
+      "position": {
+        "x": 1965,
+        "y": -12,
+        "z": -20
+      },
+      "route_ids": [
+        "nyc-911-route-01"
+      ],
+      "initials": null,
+      "color": 2,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-12",
+      "name": "Elevator",
+      "position": {
+        "x": 2046,
+        "y": -5,
+        "z": -23
+      },
+      "route_ids": [],
+      "initials": null,
+      "color": 15,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-13",
+      "name": "Perelman Performing Arts Center",
+      "position": {
+        "x": 2085,
+        "y": -12,
+        "z": -4
+      },
+      "route_ids": [
+        "nyc-911-route-01",
+        "nyc-911-route-05"
+      ],
+      "initials": null,
+      "color": 2,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-14",
+      "name": "WTC Cortlandt Subway Station Entrance 1",
+      "position": {
+        "x": 2093,
+        "y": -12,
+        "z": -32
+      },
+      "route_ids": [
+        "nyc-911-route-01"
+      ],
+      "initials": null,
+      "color": 1,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-15",
+      "name": "WTC Cortlandt Subway Station",
+      "position": {
+        "x": 2091,
+        "y": -12,
+        "z": -49
+      },
+      "route_ids": [
+        "nyc-911-route-03"
+      ],
+      "initials": null,
+      "color": 2,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-16",
+      "name": "Subway Station",
+      "position": {
+        "x": 2099,
+        "y": -12,
+        "z": 146
+      },
+      "route_ids": [],
+      "initials": null,
+      "color": 3,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-17",
+      "name": "South Tower Pool",
+      "position": {
+        "x": 2068,
+        "y": -12,
+        "z": 135
+      },
+      "route_ids": [
+        "nyc-911-route-02",
+        "nyc-911-route-04"
+      ],
+      "initials": null,
+      "color": 12,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-18",
+      "name": "North Tower Pool",
+      "position": {
+        "x": 1980,
+        "y": -12,
+        "z": 71
+      },
+      "route_ids": [
+        "nyc-911-route-02",
+        "nyc-911-route-06"
+      ],
+      "initials": null,
+      "color": 0,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-19",
+      "name": "The Sphere",
+      "position": {
+        "x": 1996,
+        "y": -6,
+        "z": 245
+      },
+      "route_ids": [
+        "nyc-911-route-03",
+        "nyc-911-route-04",
+        "nyc-911-route-06"
+      ],
+      "initials": null,
+      "color": 9,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-20",
+      "name": "America's Response Monument",
+      "position": {
+        "x": 1985,
+        "y": -5,
+        "z": 259
+      },
+      "route_ids": [
+        "nyc-911-route-04"
+      ],
+      "initials": null,
+      "color": 12,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-21",
+      "name": "Anne Frank Tree",
+      "position": {
+        "x": 2058,
+        "y": -7,
+        "z": 291
+      },
+      "route_ids": [
+        "nyc-911-route-03",
+        "nyc-911-route-04"
+      ],
+      "initials": null,
+      "color": 15,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-22",
+      "name": "Liberty Park",
+      "position": {
+        "x": 2097,
+        "y": -11,
+        "z": 305
+      },
+      "route_ids": [
+        "nyc-911-route-04",
+        "nyc-911-route-07"
+      ],
+      "initials": null,
+      "color": 7,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-23",
+      "name": "Survivor Tree",
+      "position": {
+        "x": 1997,
+        "y": -12,
+        "z": 155
+      },
+      "route_ids": [
+        "nyc-911-route-02",
+        "nyc-911-route-04",
+        "nyc-911-route-06"
+      ],
+      "initials": null,
+      "color": 4,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "NYC-WP-24",
+      "name": "9/11 Memorial Glade",
+      "position": {
+        "x": 1987,
+        "y": -12,
+        "z": 137
+      },
+      "route_ids": [],
+      "initials": null,
+      "color": 7,
+      "source": "current_enabled_xaero_waypoint"
+    }
+  ]
+}

@@ -1,0 +1,1242 @@
+{
+  "schema_version": 1,
+  "map_id": "ueno-park",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/ueno-current-15-routes.json",
+    "sha256": "7731dedef5d496ce78950693fc598a0377773317edf1152bb77e0a07ce852afd"
+  },
+  "waypoint_count": 72,
+  "waypoints": [
+    {
+      "id": "UENO-LIVE-01",
+      "name": "酒＆業務スーパー上野広小路店",
+      "position": {
+        "x": -1106,
+        "y": -7,
+        "z": 854
+      },
+      "route_ids": [
+        "ueno-live-route-06",
+        "ueno-live-route-05"
+      ],
+      "source_index": 4,
+      "initials": "酒",
+      "color": 8,
+      "route_use_count": 2
+    },
+    {
+      "id": "UENO-LIVE-02",
+      "name": "2階の右",
+      "position": {
+        "x": -1131,
+        "y": -7,
+        "z": 840
+      },
+      "route_ids": [],
+      "source_index": 5,
+      "initials": "2",
+      "color": 6,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-03",
+      "name": "AZITO しじみ炊き肉 湯島",
+      "position": {
+        "x": -1137,
+        "y": -7,
+        "z": 821
+      },
+      "route_ids": [
+        "ueno-live-route-05"
+      ],
+      "source_index": 6,
+      "initials": "A",
+      "color": 9,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-04",
+      "name": "70's Rock&Blues Bar 『g.o.s』",
+      "position": {
+        "x": -1115,
+        "y": -7,
+        "z": 770
+      },
+      "route_ids": [
+        "ueno-live-route-05"
+      ],
+      "source_index": 7,
+      "initials": "7",
+      "color": 19,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-05",
+      "name": "第二英鮨 上野",
+      "position": {
+        "x": -1179,
+        "y": -7,
+        "z": 865
+      },
+      "route_ids": [
+        "ueno-live-route-05"
+      ],
+      "source_index": 8,
+      "initials": "第",
+      "color": 19,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-06",
+      "name": "上野ソルロンタン",
+      "position": {
+        "x": -1158,
+        "y": -7,
+        "z": 862
+      },
+      "route_ids": [
+        "ueno-live-route-05"
+      ],
+      "source_index": 9,
+      "initials": "上",
+      "color": 14,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-07",
+      "name": "㈱京屋漆器店",
+      "position": {
+        "x": -1212,
+        "y": -6,
+        "z": 826
+      },
+      "route_ids": [
+        "ueno-live-route-11"
+      ],
+      "source_index": 10,
+      "initials": "㈱",
+      "color": 19,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-08",
+      "name": "BAR モモンガ",
+      "position": {
+        "x": -1226,
+        "y": -6,
+        "z": 790
+      },
+      "route_ids": [],
+      "source_index": 11,
+      "initials": "B",
+      "color": 19,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-09",
+      "name": "のぶちゃん 上野店",
+      "position": {
+        "x": -1239,
+        "y": -6,
+        "z": 755
+      },
+      "route_ids": [],
+      "source_index": 12,
+      "initials": "の",
+      "color": 12,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-10",
+      "name": "九州 熱中屋 上野 LIVE",
+      "position": {
+        "x": -1244,
+        "y": -6,
+        "z": 724
+      },
+      "route_ids": [],
+      "source_index": 13,
+      "initials": "九",
+      "color": 17,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-11",
+      "name": "整体マッサージ癒し人上野店",
+      "position": {
+        "x": -1231,
+        "y": -6,
+        "z": 762
+      },
+      "route_ids": [],
+      "source_index": 14,
+      "initials": "整",
+      "color": 0,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-12",
+      "name": "大阪焼肉・ホルモン ふたご 上野店",
+      "position": {
+        "x": -1233,
+        "y": -6,
+        "z": 759
+      },
+      "route_ids": [],
+      "source_index": 15,
+      "initials": "大",
+      "color": 9,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-13",
+      "name": "スリムビューティハウス上野駅前店",
+      "position": {
+        "x": -1180,
+        "y": -7,
+        "z": 710
+      },
+      "route_ids": [],
+      "source_index": 16,
+      "initials": "ス",
+      "color": 17,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-14",
+      "name": "JMOA 本部",
+      "position": {
+        "x": -1202,
+        "y": -6,
+        "z": 706
+      },
+      "route_ids": [],
+      "source_index": 17,
+      "initials": "J",
+      "color": 14,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-15",
+      "name": "伊豆榮 不忍亭",
+      "position": {
+        "x": -1225,
+        "y": -7,
+        "z": 909
+      },
+      "route_ids": [
+        "ueno-live-route-11"
+      ],
+      "source_index": 18,
+      "initials": "伊",
+      "color": 20,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-16",
+      "name": "ロータス上野池之端",
+      "position": {
+        "x": -1206,
+        "y": -6,
+        "z": 963
+      },
+      "route_ids": [],
+      "source_index": 19,
+      "initials": "ロ",
+      "color": 10,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-17",
+      "name": "公衆トイレ",
+      "position": {
+        "x": -1300,
+        "y": -6,
+        "z": 799
+      },
+      "route_ids": [
+        "ueno-live-route-01"
+      ],
+      "source_index": 20,
+      "initials": "公",
+      "color": 16,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-18",
+      "name": "亀屋一睡亭",
+      "position": {
+        "x": -1302,
+        "y": -6,
+        "z": 732
+      },
+      "route_ids": [
+        "ueno-live-route-11"
+      ],
+      "source_index": 21,
+      "initials": "亀",
+      "color": 15,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-19",
+      "name": "マツモトキヨシ 上野公園前店",
+      "position": {
+        "x": -1306,
+        "y": -5,
+        "z": 703
+      },
+      "route_ids": [
+        "ueno-live-route-06"
+      ],
+      "source_index": 22,
+      "initials": "M",
+      "color": 14,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-20",
+      "name": "Smart Stay SHIZUKU 上野駅前",
+      "position": {
+        "x": -1324,
+        "y": -5,
+        "z": 702
+      },
+      "route_ids": [],
+      "source_index": 23,
+      "initials": "S",
+      "color": 13,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-21",
+      "name": "インイン・ホテル上野",
+      "position": {
+        "x": -1393,
+        "y": -5,
+        "z": 713
+      },
+      "route_ids": [
+        "ueno-live-route-02"
+      ],
+      "source_index": 24,
+      "initials": "I",
+      "color": 0,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-22",
+      "name": "蓬莱閣",
+      "position": {
+        "x": -1420,
+        "y": -5,
+        "z": 721
+      },
+      "route_ids": [],
+      "source_index": 25,
+      "initials": "蓬",
+      "color": 6,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-23",
+      "name": "レストラン&コーヒー とうかい",
+      "position": {
+        "x": -1424,
+        "y": -5,
+        "z": 722
+      },
+      "route_ids": [],
+      "source_index": 26,
+      "initials": "レ",
+      "color": 7,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-24",
+      "name": "大戸屋ごはん処 上野公園店",
+      "position": {
+        "x": -1269,
+        "y": -6,
+        "z": 707
+      },
+      "route_ids": [],
+      "source_index": 27,
+      "initials": "大",
+      "color": 13,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-25",
+      "name": "天龍 上野御徒町店",
+      "position": {
+        "x": -1100,
+        "y": -7,
+        "z": 625
+      },
+      "route_ids": [],
+      "source_index": 28,
+      "initials": "天",
+      "color": 0,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-26",
+      "name": "天下一品 上野アメ横店",
+      "position": {
+        "x": -1119,
+        "y": -7,
+        "z": 622
+      },
+      "route_ids": [
+        "ueno-live-route-12"
+      ],
+      "source_index": 29,
+      "initials": "T",
+      "color": 20,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-27",
+      "name": "千里香",
+      "position": {
+        "x": -1133,
+        "y": -7,
+        "z": 621
+      },
+      "route_ids": [],
+      "source_index": 30,
+      "initials": "千",
+      "color": 9,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-28",
+      "name": "ファミリーマート",
+      "position": {
+        "x": -1202,
+        "y": -7,
+        "z": 601
+      },
+      "route_ids": [],
+      "source_index": 31,
+      "initials": "F",
+      "color": 18,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-29",
+      "name": "Bag&Luggage NUOVO",
+      "position": {
+        "x": -1358,
+        "y": -5,
+        "z": 642
+      },
+      "route_ids": [],
+      "source_index": 32,
+      "initials": "B",
+      "color": 18,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-30",
+      "name": "ヨドバシカメラ マルチメディア上野",
+      "position": {
+        "x": -1420,
+        "y": -5,
+        "z": 623
+      },
+      "route_ids": [
+        "ueno-live-route-07"
+      ],
+      "source_index": 33,
+      "initials": "ヨ",
+      "color": 18,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-31",
+      "name": "カラオケ館 上野2号店",
+      "position": {
+        "x": -1344,
+        "y": -5,
+        "z": 645
+      },
+      "route_ids": [
+        "ueno-live-route-12"
+      ],
+      "source_index": 35,
+      "initials": "K",
+      "color": 13,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-32",
+      "name": "松屋 上野店",
+      "position": {
+        "x": -1331,
+        "y": -5,
+        "z": 652
+      },
+      "route_ids": [],
+      "source_index": 36,
+      "initials": "松",
+      "color": 15,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-33",
+      "name": "タックイン 上野アメ横店",
+      "position": {
+        "x": -1308,
+        "y": -6,
+        "z": 642
+      },
+      "route_ids": [],
+      "source_index": 37,
+      "initials": "T",
+      "color": 17,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-34",
+      "name": "大黒屋",
+      "position": {
+        "x": -1303,
+        "y": -5,
+        "z": 657
+      },
+      "route_ids": [],
+      "source_index": 38,
+      "initials": "D",
+      "color": 9,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-35",
+      "name": "外貨両替機 SMART EXCHANGE セブン-イレブン 上野",
+      "position": {
+        "x": -1262,
+        "y": -6,
+        "z": 661
+      },
+      "route_ids": [],
+      "source_index": 39,
+      "initials": "外",
+      "color": 0,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-36",
+      "name": "松田歯科",
+      "position": {
+        "x": -1304,
+        "y": -7,
+        "z": 628
+      },
+      "route_ids": [],
+      "source_index": 40,
+      "initials": "松",
+      "color": 1,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-37",
+      "name": "しのぶ 上野駅前店",
+      "position": {
+        "x": -1300,
+        "y": -7,
+        "z": 634
+      },
+      "route_ids": [],
+      "source_index": 41,
+      "initials": "し",
+      "color": 20,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-38",
+      "name": "大黒屋",
+      "position": {
+        "x": -1282,
+        "y": -7,
+        "z": 596
+      },
+      "route_ids": [
+        "ueno-live-route-10"
+      ],
+      "source_index": 44,
+      "initials": "D",
+      "color": 4,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-39",
+      "name": "エスパス日拓 上野新館",
+      "position": {
+        "x": -1236,
+        "y": -7,
+        "z": 600
+      },
+      "route_ids": [],
+      "source_index": 45,
+      "initials": "E",
+      "color": 4,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-40",
+      "name": "海鮮市場 八芳 上野店",
+      "position": {
+        "x": -1315,
+        "y": -7,
+        "z": 574
+      },
+      "route_ids": [
+        "ueno-live-route-10"
+      ],
+      "source_index": 46,
+      "initials": "海",
+      "color": 18,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-41",
+      "name": "アリラン",
+      "position": {
+        "x": -1298,
+        "y": -7,
+        "z": 568
+      },
+      "route_ids": [
+        "ueno-live-route-03",
+        "ueno-live-route-10"
+      ],
+      "source_index": 47,
+      "initials": "ア",
+      "color": 14,
+      "route_use_count": 2
+    },
+    {
+      "id": "UENO-LIVE-42",
+      "name": "サンコーエン",
+      "position": {
+        "x": -1208,
+        "y": -8,
+        "z": 547
+      },
+      "route_ids": [
+        "ueno-live-route-08"
+      ],
+      "source_index": 48,
+      "initials": "S",
+      "color": 20,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-43",
+      "name": "ABC-MART",
+      "position": {
+        "x": -1202,
+        "y": -8,
+        "z": 549
+      },
+      "route_ids": [
+        "ueno-live-route-03"
+      ],
+      "source_index": 49,
+      "initials": "A",
+      "color": 5,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-44",
+      "name": "山賊海賊 アメ横センタービル店",
+      "position": {
+        "x": -1224,
+        "y": -8,
+        "z": 552
+      },
+      "route_ids": [],
+      "source_index": 51,
+      "initials": "S",
+      "color": 11,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-45",
+      "name": "アラスケバブ",
+      "position": {
+        "x": -1289,
+        "y": -7,
+        "z": 593
+      },
+      "route_ids": [
+        "ueno-live-route-03",
+        "ueno-live-route-10"
+      ],
+      "source_index": 52,
+      "initials": "ア",
+      "color": 1,
+      "route_use_count": 2
+    },
+    {
+      "id": "UENO-LIVE-46",
+      "name": "エスパス日拓 上野本館",
+      "position": {
+        "x": -1319,
+        "y": -5,
+        "z": 654
+      },
+      "route_ids": [],
+      "source_index": 54,
+      "initials": "エ",
+      "color": 0,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-47",
+      "name": "したまちミュージアム",
+      "position": {
+        "x": -1332,
+        "y": -5,
+        "z": 771
+      },
+      "route_ids": [
+        "ueno-live-route-09",
+        "ueno-live-route-04",
+        "ueno-live-route-07",
+        "ueno-live-route-02"
+      ],
+      "source_index": 56,
+      "initials": "し",
+      "color": 17,
+      "route_use_count": 4
+    },
+    {
+      "id": "UENO-LIVE-49",
+      "name": "上野公園",
+      "position": {
+        "x": -1429,
+        "y": -5,
+        "z": 684
+      },
+      "route_ids": [
+        "ueno-live-route-01",
+        "ueno-live-route-04",
+        "ueno-live-route-07"
+      ],
+      "source_index": 58,
+      "initials": "U01",
+      "color": 10,
+      "route_use_count": 3
+    },
+    {
+      "id": "UENO-LIVE-50",
+      "name": "ホテル観月荘",
+      "position": {
+        "x": -1434,
+        "y": -5,
+        "z": 727
+      },
+      "route_ids": [
+        "ueno-live-route-12"
+      ],
+      "source_index": 59,
+      "initials": "U02",
+      "color": 10,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-51",
+      "name": "上野地下駐車場",
+      "position": {
+        "x": -1332,
+        "y": -5,
+        "z": 694
+      },
+      "route_ids": [],
+      "source_index": 60,
+      "initials": "U03",
+      "color": 10,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-52",
+      "name": "れんこん",
+      "position": {
+        "x": -1299,
+        "y": -7,
+        "z": 610
+      },
+      "route_ids": [],
+      "source_index": 61,
+      "initials": "U04",
+      "color": 10,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-53",
+      "name": "飄香居",
+      "position": {
+        "x": -1243,
+        "y": -6,
+        "z": 853
+      },
+      "route_ids": [],
+      "source_index": 62,
+      "initials": "U07",
+      "color": 10,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-54",
+      "name": "韓国カフェレストラン",
+      "position": {
+        "x": -1225,
+        "y": -6,
+        "z": 885
+      },
+      "route_ids": [
+        "ueno-live-route-03"
+      ],
+      "source_index": 63,
+      "initials": "U08",
+      "color": 10,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-55",
+      "name": "AMUSE",
+      "position": {
+        "x": -1210,
+        "y": -6,
+        "z": 880
+      },
+      "route_ids": [],
+      "source_index": 64,
+      "initials": "U09",
+      "color": 10,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-56",
+      "name": "喜太郎",
+      "position": {
+        "x": -1181,
+        "y": -6,
+        "z": 893
+      },
+      "route_ids": [],
+      "source_index": 65,
+      "initials": "U10",
+      "color": 10,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-57",
+      "name": "スギエ画廊",
+      "position": {
+        "x": -1179,
+        "y": -6,
+        "z": 897
+      },
+      "route_ids": [
+        "ueno-live-route-11"
+      ],
+      "source_index": 66,
+      "initials": "U11",
+      "color": 10,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-58",
+      "name": "炭火焼鳥ごくう 上野店",
+      "position": {
+        "x": -1155,
+        "y": -7,
+        "z": 812
+      },
+      "route_ids": [
+        "ueno-live-route-08"
+      ],
+      "source_index": 67,
+      "initials": "U12",
+      "color": 10,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-59",
+      "name": "吉野家",
+      "position": {
+        "x": -1076,
+        "y": -8,
+        "z": 608
+      },
+      "route_ids": [],
+      "source_index": 68,
+      "initials": "U13",
+      "color": 10,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-62",
+      "name": "不忍池東岸広場",
+      "position": {
+        "x": -1279,
+        "y": -6,
+        "z": 894
+      },
+      "route_ids": [
+        "ueno-live-route-09",
+        "ueno-live-route-07"
+      ],
+      "source_index": 71,
+      "initials": "U18",
+      "color": 3,
+      "route_use_count": 2
+    },
+    {
+      "id": "UENO-LIVE-63",
+      "name": "不忍池北岸",
+      "position": {
+        "x": -1245,
+        "y": -6,
+        "z": 1015
+      },
+      "route_ids": [
+        "ueno-live-route-09",
+        "ueno-live-route-11"
+      ],
+      "source_index": 72,
+      "initials": "U19",
+      "color": 3,
+      "route_use_count": 2
+    },
+    {
+      "id": "UENO-LIVE-64",
+      "name": "公園西側花園広場",
+      "position": {
+        "x": -1390,
+        "y": -6,
+        "z": 763
+      },
+      "route_ids": [
+        "ueno-live-route-01",
+        "ueno-live-route-02"
+      ],
+      "source_index": 73,
+      "initials": "U20",
+      "color": 6,
+      "route_use_count": 2
+    },
+    {
+      "id": "UENO-LIVE-65",
+      "name": "公園西側芝生広場",
+      "position": {
+        "x": -1557,
+        "y": -6,
+        "z": 802
+      },
+      "route_ids": [],
+      "source_index": 74,
+      "initials": "U25",
+      "color": 3,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-66",
+      "name": "上野オークラ劇場 正面口",
+      "position": {
+        "x": -1359,
+        "y": -5,
+        "z": 707
+      },
+      "route_ids": [
+        "ueno-live-route-11"
+      ],
+      "source_index": 76,
+      "initials": "B21",
+      "color": 15,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-67",
+      "name": "黒沢ビル エントランス",
+      "position": {
+        "x": -1181,
+        "y": -6,
+        "z": 946
+      },
+      "route_ids": [],
+      "source_index": 77,
+      "initials": "B22",
+      "color": 2,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-68",
+      "name": "上野東洋ビル エントランス",
+      "position": {
+        "x": -1127,
+        "y": -7,
+        "z": 723
+      },
+      "route_ids": [],
+      "source_index": 78,
+      "initials": "B23",
+      "color": 4,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-69",
+      "name": "タイトーステーション 上野アメ横店 正面口",
+      "position": {
+        "x": -1169,
+        "y": -7,
+        "z": 612
+      },
+      "route_ids": [
+        "ueno-live-route-12"
+      ],
+      "source_index": 79,
+      "initials": "B24",
+      "color": 6,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-70",
+      "name": "上野の森ファーストビル前",
+      "position": {
+        "x": -1446,
+        "y": -6,
+        "z": 730
+      },
+      "route_ids": [],
+      "source_index": 80,
+      "initials": "B27",
+      "color": 12,
+      "route_use_count": 0
+    },
+    {
+      "id": "UENO-LIVE-71",
+      "name": "摩利支天徳大寺（参詣口）",
+      "position": {
+        "x": -1150,
+        "y": -4,
+        "z": 568
+      },
+      "route_ids": [
+        "ueno-live-route-04",
+        "ueno-live-route-10"
+      ],
+      "source_index": 81,
+      "initials": "B30",
+      "color": 5,
+      "route_use_count": 2
+    },
+    {
+      "id": "UENO-LIVE-72",
+      "name": "ヨドバシカメラ マルチメディア上野",
+      "position": {
+        "x": -1461,
+        "y": -6,
+        "z": 615
+      },
+      "route_ids": [
+        "ueno-live-route-01",
+        "ueno-live-route-06",
+        "ueno-live-route-02"
+      ],
+      "source_index": 82,
+      "initials": "YD",
+      "color": 4,
+      "route_use_count": 3
+    },
+    {
+      "id": "UENO-LIVE-73",
+      "name": "鈴本演芸場・鈴本ビル",
+      "position": {
+        "x": -1211,
+        "y": -6,
+        "z": 704
+      },
+      "route_ids": [
+        "ueno-live-route-09",
+        "ueno-live-route-08"
+      ],
+      "source_index": 83,
+      "initials": "SM",
+      "color": 6,
+      "route_use_count": 2
+    },
+    {
+      "id": "UENO-LIVE-74",
+      "name": "ABAB・PLAZA Uエリア",
+      "position": {
+        "x": -1265,
+        "y": -6,
+        "z": 666
+      },
+      "route_ids": [
+        "ueno-live-route-06"
+      ],
+      "source_index": 84,
+      "initials": "AB",
+      "color": 8,
+      "route_use_count": 1
+    },
+    {
+      "id": "UENO-LIVE-75",
+      "name": "アメ横センタービル",
+      "position": {
+        "x": -1261,
+        "y": -7,
+        "z": 602
+      },
+      "route_ids": [
+        "ueno-live-route-04",
+        "ueno-live-route-06",
+        "ueno-live-route-10"
+      ],
+      "source_index": 85,
+      "initials": "AC",
+      "color": 12,
+      "route_use_count": 3
+    }
+  ],
+  "excluded_waypoints": [
+    {
+      "source_index": 34,
+      "name": "外貨両替機 SMART EXCHANGE ヨドバシカメラ マルチメディア上野",
+      "initials": "外",
+      "mc": {
+        "x": -1415,
+        "y": -6,
+        "z": 592
+      },
+      "color": 6,
+      "disabled": true
+    },
+    {
+      "source_index": 42,
+      "name": "しのぶ 上野駅前店",
+      "initials": "し",
+      "mc": {
+        "x": -1297,
+        "y": -7,
+        "z": 623
+      },
+      "color": 13,
+      "disabled": true
+    },
+    {
+      "source_index": 43,
+      "name": "朝日信用金庫 上野支店",
+      "initials": "朝",
+      "mc": {
+        "x": -1290,
+        "y": -7,
+        "z": 602
+      },
+      "color": 7,
+      "disabled": true
+    },
+    {
+      "source_index": 50,
+      "name": "ABC-MART",
+      "initials": "A",
+      "mc": {
+        "x": -1199,
+        "y": -8,
+        "z": 556
+      },
+      "color": 12,
+      "disabled": true
+    },
+    {
+      "source_index": 53,
+      "name": "エスパス日拓 上野本館",
+      "initials": "エ",
+      "mc": {
+        "x": -1304,
+        "y": -5,
+        "z": 656
+      },
+      "color": 0,
+      "disabled": true
+    },
+    {
+      "source_index": 55,
+      "name": "エスパス日拓 上野本館",
+      "initials": "エ",
+      "mc": {
+        "x": -1318,
+        "y": -5,
+        "z": 657
+      },
+      "color": 15,
+      "disabled": true
+    },
+    {
+      "source_index": 57,
+      "name": "池畔花見スポット",
+      "initials": "湖",
+      "mc": {
+        "x": -1578,
+        "y": -6,
+        "z": 874
+      },
+      "color": 0,
+      "disabled": true,
+      "point_id": "UENO-LIVE-48",
+      "exclusion_reason_zh": "点位位于与陆岸不连通的池中孤岛；步行路线禁用，禁止游泳抵达。"
+    },
+    {
+      "source_index": 75,
+      "name": "不忍池辯天堂（参道口）",
+      "initials": "B1",
+      "mc": {
+        "x": -1543,
+        "y": -6,
+        "z": 946
+      },
+      "color": 5,
+      "disabled": true,
+      "point_id": "B1",
+      "exclusion_reason_zh": "点位位于与陆岸不连通的池中孤岛；步行路线禁用，禁止游泳抵达。"
+    },
+    {
+      "source_index": 69,
+      "name": "不忍池西岸",
+      "initials": "U14",
+      "mc": {
+        "x": -1582,
+        "y": -7,
+        "z": 851
+      },
+      "color": 3,
+      "disabled": true,
+      "point_id": "UENO-LIVE-60",
+      "route_use_count": 0,
+      "exclusion_reason_zh": "点位位于与陆岸不连通的池中结构；步行路线禁用，禁止游泳抵达。"
+    },
+    {
+      "source_index": 70,
+      "name": "天龍橋",
+      "initials": "U15",
+      "mc": {
+        "x": -1578,
+        "y": -6,
+        "z": 837
+      },
+      "color": 3,
+      "disabled": true,
+      "point_id": "UENO-LIVE-61",
+      "route_use_count": 0,
+      "exclusion_reason_zh": "点位位于与陆岸不连通的池中结构；步行路线禁用，禁止游泳抵达。"
+    }
+  ]
+}

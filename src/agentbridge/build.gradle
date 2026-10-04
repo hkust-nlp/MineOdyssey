@@ -1,0 +1,94 @@
+plugins {
+    id 'java'
+    id 'net.neoforged.moddev' version '2.0.142'
+}
+
+def profileName = (project.findProperty('agentbridgeProfile') ?: '1.21.11').toString()
+def profileFile = file("profiles/${profileName}.properties")
+if (!profileFile.isFile()) {
+    throw new GradleException("Unknown AgentBridge profile: ${profileName}")
+}
+def profile = new Properties()
+profileFile.withInputStream { profile.load(it) }
+
+version = profile.getProperty('mod_version', '1.0.0')
+group = 'com.mcagent'
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.neoforged.net/releases' }
+}
+
+base {
+    archivesName = "agentbridge-${profileName}"
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    enable {
+        version = profile.getProperty('neo_version')
+        disableRecompilation = true
+    }
+
+    runs {
+        configureEach {
+            systemProperty 'forge.logging.console.level', 'debug'
+        }
+        client {
+            client()
+            gameDirectory = project.file("run-${profileName}")
+        }
+    }
+
+    mods {
+        agentbridge {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'org.nanohttpd:nanohttpd:2.3.1'
+    jarJar(group: 'org.nanohttpd', name: 'nanohttpd', version: '[2.3.1,2.4)')
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+
+def modResourceProperties = [
+    mod_id: 'agentbridge',
+    mod_name: 'Agent Bridge',
+    mod_license: 'MIT',
+    mod_version: version,
+    mod_authors: 'MCAgent Team',
+    mod_description: 'HTTP API bridge for direct Minecraft client control.',
+    neo_version: profile.getProperty('neo_version'),
+    neo_version_range: profile.getProperty('neo_version_range'),
+    minecraft_version: profile.getProperty('minecraft_version'),
+    minecraft_version_range: profile.getProperty('minecraft_version_range'),
+]
+
+processResources {
+    inputs.properties(modResourceProperties)
+    filesMatching(['META-INF/neoforge.mods.toml', 'agentbridge-build.properties']) {
+        expand modResourceProperties
+    }
+}
+
+tasks.named('jar') {
+    archiveFileName = "agentbridge-${profileName}.jar"
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}

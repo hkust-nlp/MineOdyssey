@@ -1,0 +1,418 @@
+{
+  "schema_version": 1,
+  "map_id": "copacabana-waterfront",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/copacabana-waterfront-formal-20-routes.json",
+    "sha256": "6bf9d7252c1800840f481bd08939e755aad60dbca412f6faa1b2e0c1bb397719"
+  },
+  "quality_status": "reviewed_routes",
+  "route_count": 5,
+  "routes": [
+    {
+      "id": "copa-route-19",
+      "title": "Copacabana 海滨晨跑与取衣",
+      "prompt_zh": "你是住在海滨酒店、晨跑后要取洗衣的旅客。今天想从 Arena Copacabana Hotel 沿海滩跑过 Copacabana Palace，再经东段酒店到洗衣店取衣。请从「Arena Copacabana Hotel」出发，最后到「FLClean Lavagem a Seco」；这段行程的主题是「Copacabana 海滨晨跑与取衣」。",
+      "persona_zh": "住在海滨酒店、晨跑后要取洗衣的旅客",
+      "topic_zh": "Copacabana 海滨晨跑与取衣",
+      "purpose_zh": "从 Arena Copacabana Hotel 沿海滩跑过 Copacabana Palace，再经东段酒店到洗衣店取衣",
+      "actor": "住在海滨酒店、晨跑后要取洗衣的旅客",
+      "intent": "从 Arena Copacabana Hotel 沿海滩跑过 Copacabana Palace，再经东段酒店到洗衣店取衣",
+      "theme": "Copacabana 海滨晨跑与取衣",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Arena Copacabana Hotel 沿海滩跑过 Copacabana Palace，再经东段酒店到洗衣店取衣",
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4
+      },
+      "tags": [
+        "跑步者",
+        "利用稀疏地标完成长距离沿海训练",
+        "waterfront_run"
+      ],
+      "status": "modified_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "COPW-03",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "COPW-01",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "COPW-20",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "COPW-30",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "COPW-33",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "copa-route-19-segment-01",
+          "from": "COPW-03",
+          "to": "COPW-01"
+        },
+        {
+          "id": "copa-route-19-segment-02",
+          "from": "COPW-01",
+          "to": "COPW-20"
+        },
+        {
+          "id": "copa-route-19-segment-03",
+          "from": "COPW-20",
+          "to": "COPW-30"
+        },
+        {
+          "id": "copa-route-19-segment-04",
+          "from": "COPW-30",
+          "to": "COPW-33"
+        }
+      ]
+    },
+    {
+      "id": "copa-route-02",
+      "title": "海滨住客陪孩子前往学校",
+      "prompt_zh": "作为陪孩子参加短期课程的海滨住客，你今天打算从 Hotel Atlântico Praia 出发，先到银行办事，再送孩子到市立学校，最后前往附近住宅会合。路线从「Hotel Atlântico Praia」开始，在「Edifício residencial de Copacabana」结束，围绕「海滨住客陪孩子前往学校」展开。",
+      "persona_zh": "陪孩子参加短期课程的海滨住客",
+      "topic_zh": "海滨住客陪孩子前往学校",
+      "purpose_zh": "从 Hotel Atlântico Praia 出发，先到银行办事，再送孩子到市立学校，最后前往附近住宅会合",
+      "actor": "陪孩子参加短期课程的海滨住客",
+      "intent": "从 Hotel Atlântico Praia 出发，先到银行办事，再送孩子到市立学校，最后前往附近住宅会合",
+      "theme": "海滨住客陪孩子前往学校",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Hotel Atlântico Praia 出发，先到银行办事，再送孩子到市立学校，最后前往附近住宅会合",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "tags": [
+        "当地居民",
+        "用餐后完成银行事务",
+        "food_banking"
+      ],
+      "status": "full_route_mineflayer_reached",
+      "points": [
+        {
+          "waypoint_id": "COPW-32",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "COPW-11",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "COPW-07",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "COPW-02",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "copa-route-02-segment-01",
+          "from": "COPW-32",
+          "to": "COPW-11"
+        },
+        {
+          "id": "copa-route-02-segment-02",
+          "from": "COPW-11",
+          "to": "COPW-07"
+        },
+        {
+          "id": "copa-route-02-segment-03",
+          "from": "COPW-07",
+          "to": "COPW-02"
+        }
+      ]
+    },
+    {
+      "id": "copa-route-03",
+      "title": "Astoria 酒店服务与银行事务",
+      "prompt_zh": "你是住在 Astoria、需要完成短途事务的旅客，今天要完成「Astoria 酒店服务与银行事务」：从 Astoria 出发，在 Maxim's 与 Windsor 餐厅处理会面，最后到 Banco Safra 办理事务。请从「Hotel Astoria Palace」走到「Banco Safra - Ag. 0199 - Copacabana」。",
+      "persona_zh": "住在 Astoria、需要完成短途事务的旅客",
+      "topic_zh": "Astoria 酒店服务与银行事务",
+      "purpose_zh": "从 Astoria 出发，在 Maxim's 与 Windsor 餐厅处理会面，最后到 Banco Safra 办理事务",
+      "actor": "住在 Astoria、需要完成短途事务的旅客",
+      "intent": "从 Astoria 出发，在 Maxim's 与 Windsor 餐厅处理会面，最后到 Banco Safra 办理事务",
+      "theme": "Astoria 酒店服务与银行事务",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Astoria 出发，在 Maxim's 与 Windsor 餐厅处理会面，最后到 Banco Safra 办理事务",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "tags": [
+        "酒店住客",
+        "在酒店、健身与餐厅间移动",
+        "hotel_services"
+      ],
+      "status": "full_route_mineflayer_reached",
+      "points": [
+        {
+          "waypoint_id": "COPW-12",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "COPW-13",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "COPW-16",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "COPW-17",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "copa-route-03-segment-01",
+          "from": "COPW-12",
+          "to": "COPW-13"
+        },
+        {
+          "id": "copa-route-03-segment-02",
+          "from": "COPW-13",
+          "to": "COPW-16"
+        },
+        {
+          "id": "copa-route-03-segment-03",
+          "from": "COPW-16",
+          "to": "COPW-17"
+        }
+      ]
+    },
+    {
+      "id": "copa-route-11",
+      "title": "银行与巴西设计零售",
+      "prompt_zh": "作为要挑一件礼物的设计游客，你今天打算先在两家银行处理付款，再比较 LUCCI 与 Sauer 的设计商品，最后到 VitaFit 与同行者会合。路线从「Sicoob」开始，在「VitaFit」结束，围绕「银行与巴西设计零售」展开。",
+      "persona_zh": "要挑一件礼物的设计游客",
+      "topic_zh": "银行与巴西设计零售",
+      "purpose_zh": "先在两家银行处理付款，再比较 LUCCI 与 Sauer 的设计商品，最后到 VitaFit 与同行者会合",
+      "actor": "要挑一件礼物的设计游客",
+      "intent": "先在两家银行处理付款，再比较 LUCCI 与 Sauer 的设计商品，最后到 VitaFit 与同行者会合",
+      "theme": "银行与巴西设计零售",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "先在两家银行处理付款，再比较 LUCCI 与 Sauer 的设计商品，最后到 VitaFit 与同行者会合",
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4
+      },
+      "tags": [
+        "办事购物者",
+        "完成金融事务并浏览精品零售",
+        "banking_retail"
+      ],
+      "status": "full_route_mineflayer_reached",
+      "points": [
+        {
+          "waypoint_id": "COPW-11",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "COPW-17",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "COPW-18",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "COPW-19",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "COPW-22",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "copa-route-11-segment-01",
+          "from": "COPW-11",
+          "to": "COPW-17"
+        },
+        {
+          "id": "copa-route-11-segment-02",
+          "from": "COPW-17",
+          "to": "COPW-18"
+        },
+        {
+          "id": "copa-route-11-segment-03",
+          "from": "COPW-18",
+          "to": "COPW-19"
+        },
+        {
+          "id": "copa-route-11-segment-04",
+          "from": "COPW-19",
+          "to": "COPW-22"
+        }
+      ]
+    },
+    {
+      "id": "copa-route-12",
+      "title": "运动、骑行与 School of Rock",
+      "prompt_zh": "你是在 School of Rock 上课的本地学生，今天要完成「运动、骑行与 School of Rock」：从公交站出发，经过健身房和自行车店，最后到 School of Rock 上课。请从「Ponto de ônibus」走到「School of Rock Copacabana」。",
+      "persona_zh": "在 School of Rock 上课的本地学生",
+      "topic_zh": "运动、骑行与 School of Rock",
+      "purpose_zh": "从公交站出发，经过健身房和自行车店，最后到 School of Rock 上课",
+      "actor": "在 School of Rock 上课的本地学生",
+      "intent": "从公交站出发，经过健身房和自行车店，最后到 School of Rock 上课",
+      "theme": "运动、骑行与 School of Rock",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从公交站出发，经过健身房和自行车店，最后到 School of Rock 上课",
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4
+      },
+      "tags": [
+        "健身通勤者",
+        "乘公交后完成健身和课程",
+        "active_mobility"
+      ],
+      "status": "full_route_mineflayer_reached",
+      "points": [
+        {
+          "waypoint_id": "COPW-21",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "COPW-22",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "COPW-23",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "COPW-24",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "COPW-25",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "copa-route-12-segment-01",
+          "from": "COPW-21",
+          "to": "COPW-22"
+        },
+        {
+          "id": "copa-route-12-segment-02",
+          "from": "COPW-22",
+          "to": "COPW-23"
+        },
+        {
+          "id": "copa-route-12-segment-03",
+          "from": "COPW-23",
+          "to": "COPW-24"
+        },
+        {
+          "id": "copa-route-12-segment-04",
+          "from": "COPW-24",
+          "to": "COPW-25"
+        }
+      ]
+    }
+  ],
+  "upload_recommendation": "waypoints_and_routes_ready",
+  "excluded_waypoints": []
+}

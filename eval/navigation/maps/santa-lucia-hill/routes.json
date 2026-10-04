@@ -1,0 +1,448 @@
+{
+  "schema_version": 1,
+  "map_id": "santa-lucia-hill",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/santa-lucia-hill-strict-reachable-routes.json",
+    "sha256": "b053e2300f725c54b0e617eac82091e92fd893ec34e4c57246e6d4a3bf49187e"
+  },
+  "quality_status": "reviewed_routes",
+  "route_count": 5,
+  "routes": [
+    {
+      "id": "santa-route-01",
+      "title": "国家图书馆到山顶历史花园",
+      "prompt_zh": "你是想了解圣露西亚山城市史的游客。今天想从 Biblioteca Nacional de Chile 进入山脚，经 Monumento a Pedro de Valdivia 走到 Jardín Japonés。请从「Biblioteca Nacional de Chile」出发，最后到「Jardín Japonés」；这段行程的主题是「国家图书馆到山顶历史花园」。",
+      "persona_zh": "想了解圣露西亚山城市史的游客",
+      "topic_zh": "国家图书馆到山顶历史花园",
+      "purpose_zh": "从 Biblioteca Nacional de Chile 进入山脚，经 Monumento a Pedro de Valdivia 走到 Jardín Japonés",
+      "actor": "想了解圣露西亚山城市史的游客",
+      "intent": "从 Biblioteca Nacional de Chile 进入山脚，经 Monumento a Pedro de Valdivia 走到 Jardín Japonés",
+      "theme": "国家图书馆到山顶历史花园",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Biblioteca Nacional de Chile 进入山脚，经 Monumento a Pedro de Valdivia 走到 Jardín Japonés",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "SLW-06",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SLW-01",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLW-21",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLW-27",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "santa-route-01-segment-01",
+          "from": "SLW-06",
+          "to": "SLW-01"
+        },
+        {
+          "id": "santa-route-01-segment-02",
+          "from": "SLW-01",
+          "to": "SLW-21"
+        },
+        {
+          "id": "santa-route-01-segment-03",
+          "from": "SLW-21",
+          "to": "SLW-27"
+        }
+      ]
+    },
+    {
+      "id": "santa-route-02",
+      "title": "Terraza Neptuno 至 Puerta Española",
+      "prompt_zh": "作为第一次登圣露西亚山的游客，你今天打算从 Fuente Neptuno 连续经过 Terraza Neptuno 和 Puerta Española，最后到 Jardín Circular。路线从「Fuente Neptuno」开始，在「Jardín Circular」结束，围绕「Terraza Neptuno 至 Puerta Española」展开。",
+      "persona_zh": "第一次登圣露西亚山的游客",
+      "topic_zh": "Terraza Neptuno 至 Puerta Española",
+      "purpose_zh": "从 Fuente Neptuno 连续经过 Terraza Neptuno 和 Puerta Española，最后到 Jardín Circular",
+      "actor": "第一次登圣露西亚山的游客",
+      "intent": "从 Fuente Neptuno 连续经过 Terraza Neptuno 和 Puerta Española，最后到 Jardín Circular",
+      "theme": "Terraza Neptuno 至 Puerta Española",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Fuente Neptuno 连续经过 Terraza Neptuno 和 Puerta Española，最后到 Jardín Circular",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "SLW-10",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SLW-03",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLW-09",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLW-24",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "santa-route-02-segment-01",
+          "from": "SLW-10",
+          "to": "SLW-03"
+        },
+        {
+          "id": "santa-route-02-segment-02",
+          "from": "SLW-03",
+          "to": "SLW-09"
+        },
+        {
+          "id": "santa-route-02-segment-03",
+          "from": "SLW-09",
+          "to": "SLW-24"
+        }
+      ]
+    },
+    {
+      "id": "santa-route-03",
+      "title": "Vicuña Mackenna、Caupolicán 与东侧露台",
+      "prompt_zh": "你是想理解山丘改造与纪念景观的城市史游客，今天要完成「Vicuña Mackenna、Caupolicán 与东侧露台」：从 Monumento a Benjamín Vicuña Mackenna 进入山丘，经 Terraza Neptuno、Estatua de Caupolicán 和 Ermita Vicuña Mackenna 走到 Terraza Portales 与 Parque Pedro de Valdivia。请从「Monumento a Benjamín Vicuña Mackenna」走到「Parque Pedro de Valdivia」。",
+      "persona_zh": "想理解山丘改造与纪念景观的城市史游客",
+      "topic_zh": "Vicuña Mackenna、Caupolicán 与东侧露台",
+      "purpose_zh": "从 Monumento a Benjamín Vicuña Mackenna 进入山丘，经 Terraza Neptuno、Estatua de Caupolicán 和 Ermita Vicuña Mackenna 走到 Terraza Portales 与 Parque Pedro de Valdivia",
+      "actor": "想理解山丘改造与纪念景观的城市史游客",
+      "intent": "从 Monumento a Benjamín Vicuña Mackenna 进入山丘，经 Terraza Neptuno、Estatua de Caupolicán 和 Ermita Vicuña Mackenna 走到 Terraza Portales 与 Parque Pedro de Valdivia",
+      "theme": "Vicuña Mackenna、Caupolicán 与东侧露台",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Monumento a Benjamín Vicuña Mackenna 进入山丘，经 Terraza Neptuno、Estatua de Caupolicán 和 Ermita Vicuña Mackenna 走到 Terraza Portales 与 Parque Pedro de Valdivia",
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "SLW-11",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SLW-16",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLW-08",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLW-17",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLW-20",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLW-02",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "santa-route-03-segment-01",
+          "from": "SLW-11",
+          "to": "SLW-16"
+        },
+        {
+          "id": "santa-route-03-segment-02",
+          "from": "SLW-16",
+          "to": "SLW-08"
+        },
+        {
+          "id": "santa-route-03-segment-03",
+          "from": "SLW-08",
+          "to": "SLW-17"
+        },
+        {
+          "id": "santa-route-03-segment-04",
+          "from": "SLW-17",
+          "to": "SLW-20"
+        },
+        {
+          "id": "santa-route-03-segment-05",
+          "from": "SLW-20",
+          "to": "SLW-02"
+        }
+      ]
+    },
+    {
+      "id": "santa-route-05",
+      "title": "Archivo Nacional de Chile、Castillo Hidalgo 与山顶花园",
+      "prompt_zh": "今天你想以想看城堡和山顶园林的回访游客的身份安排「Archivo Nacional de Chile、Castillo Hidalgo 与山顶花园」。具体做法是从 Archivo Nacional de Chile 进入山丘，参观 Castillo Hidalgo 后依次走到 Jardín Circular 和 Jardín Japonés；从「Archivo Nacional de Chile」出发，到「Jardín Japonés」结束。",
+      "persona_zh": "想看城堡和山顶园林的回访游客",
+      "topic_zh": "Archivo Nacional de Chile、Castillo Hidalgo 与山顶花园",
+      "purpose_zh": "从 Archivo Nacional de Chile 进入山丘，参观 Castillo Hidalgo 后依次走到 Jardín Circular 和 Jardín Japonés",
+      "actor": "想看城堡和山顶园林的回访游客",
+      "intent": "从 Archivo Nacional de Chile 进入山丘，参观 Castillo Hidalgo 后依次走到 Jardín Circular 和 Jardín Japonés",
+      "theme": "Archivo Nacional de Chile、Castillo Hidalgo 与山顶花园",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Archivo Nacional de Chile 进入山丘，参观 Castillo Hidalgo 后依次走到 Jardín Circular 和 Jardín Japonés",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "SLW-05",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SLW-12",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLW-24",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLW-27",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "santa-route-05-segment-01",
+          "from": "SLW-05",
+          "to": "SLW-12"
+        },
+        {
+          "id": "santa-route-05-segment-02",
+          "from": "SLW-12",
+          "to": "SLW-24"
+        },
+        {
+          "id": "santa-route-05-segment-03",
+          "from": "SLW-24",
+          "to": "SLW-27"
+        }
+      ]
+    },
+    {
+      "id": "santa-route-04",
+      "title": "Hostal Santa Lucía 至 Pedro de Valdivia 字标横向步行",
+      "prompt_zh": "你是住在 Hostal Santa Lucía、想横向认识山脚纪念景观的游客。请从「Hostal Santa Lucía」出发，经过 Edificio Santa Lucía、Monumento a Benjamín Vicuña Mackenna 和 Fuente Neptuno，最后到「Letrero de Pedro de Valdivia」；主题是「Hostal Santa Lucía 至 Pedro de Valdivia 字标横向步行」。",
+      "persona_zh": "住在 Hostal Santa Lucía、想横向认识山脚纪念景观的游客",
+      "topic_zh": "Hostal Santa Lucía 至 Pedro de Valdivia 字标横向步行",
+      "purpose_zh": "从 Hostal Santa Lucía 出发，经 Edificio Santa Lucía、Monumento a Benjamín Vicuña Mackenna 与 Fuente Neptuno，横穿至 Letrero de Pedro de Valdivia",
+      "actor": "住在 Hostal Santa Lucía、想横向认识山脚纪念景观的游客",
+      "intent": "从 Hostal Santa Lucía 出发，经 Edificio Santa Lucía、Monumento a Benjamín Vicuña Mackenna 与 Fuente Neptuno，横穿至 Letrero de Pedro de Valdivia",
+      "theme": "Hostal Santa Lucía 至 Pedro de Valdivia 字标横向步行",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "reached",
+      "validation_status": "full_route_baritone_reached",
+      "validation_note_zh": "2026-08-24 已完成 Baritone 整线实走与第一视角录像，7 个导航点全部到达（含 1 个隐藏连接点）。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Hostal Santa Lucía 出发，经 Edificio Santa Lucía、Monumento a Benjamín Vicuña Mackenna 与 Fuente Neptuno，横穿至 Letrero de Pedro de Valdivia",
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5
+      },
+      "status": "full_route_baritone_reached",
+      "points": [
+        {
+          "waypoint_id": "SLW-04",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SLW-01",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLW-11",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLW-10",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLW-16",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLW-25",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "santa-route-04-segment-01",
+          "from": "SLW-04",
+          "to": "SLW-01"
+        },
+        {
+          "id": "santa-route-04-segment-02",
+          "from": "SLW-01",
+          "to": "SLW-11"
+        },
+        {
+          "id": "santa-route-04-segment-03",
+          "from": "SLW-11",
+          "to": "SLW-10"
+        },
+        {
+          "id": "santa-route-04-segment-04",
+          "from": "SLW-10",
+          "to": "SLW-16"
+        },
+        {
+          "id": "santa-route-04-segment-05",
+          "from": "SLW-16",
+          "to": "SLW-25"
+        }
+      ]
+    }
+  ],
+  "upload_recommendation": "waypoints_and_routes_ready",
+  "excluded_waypoints": [
+    {
+      "name": "Waypoint",
+      "mc": {
+        "x": 2678,
+        "y": 30,
+        "z": -598
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "SL01 Ferchu Graffiti West",
+      "mc": {
+        "x": 2448,
+        "y": -14,
+        "z": -489
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "SL06 Castillo Hidalgo Signpost",
+      "mc": {
+        "x": 2707,
+        "y": 22,
+        "z": -660
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "SL11 Portales Route Signpost",
+      "mc": {
+        "x": 2769,
+        "y": 28,
+        "z": -629
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "SL14 Wall Repair Note",
+      "mc": {
+        "x": 2804,
+        "y": 10,
+        "z": -722
+      },
+      "reason": "disabled_in_xaero"
+    }
+  ]
+}

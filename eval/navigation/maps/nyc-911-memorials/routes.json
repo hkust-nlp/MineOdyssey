@@ -1,0 +1,687 @@
+{
+  "schema_version": 1,
+  "map_id": "nyc-911-memorials",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/nyc-911-memorials-10-routes.json",
+    "sha256": "22fb6bcd4ca117deafe9ea0a34eb0c0f5783b35593f2de82ce909fe4ffcab79f"
+  },
+  "quality_status": "reviewed_routes",
+  "route_count": 7,
+  "routes": [
+    {
+      "id": "nyc-911-route-01",
+      "title": "从 Cortlandt 抵达世贸中心",
+      "prompt_zh": "你是第一次到访世贸中心的游客。今天想从 Cortlandt 地铁站出发，经过 Perelman 表演艺术中心建立方向，最后到 One World Trade Center。请从「WTC Cortlandt Subway Station Entrance 1」出发，最后到「One World Trade Center」；这段行程的主题是「从 Cortlandt 抵达世贸中心」。",
+      "persona_zh": "第一次到访世贸中心的游客",
+      "topic_zh": "从 Cortlandt 抵达世贸中心",
+      "purpose_zh": "从 Cortlandt 地铁站出发，经过 Perelman 表演艺术中心建立方向，最后到 One World Trade Center",
+      "actor": "第一次到访世贸中心的游客",
+      "intent": "从 Cortlandt 地铁站出发，经过 Perelman 表演艺术中心建立方向，最后到 One World Trade Center",
+      "theme": "从 Cortlandt 抵达世贸中心",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Cortlandt 地铁站出发，经过 Perelman 表演艺术中心建立方向，最后到 One World Trade Center",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "NYC-WP-14",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "NYC-WP-13",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NYC-WP-11",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "nyc-911-route-01-segment-01",
+          "from": "NYC-WP-14",
+          "to": "NYC-WP-13"
+        },
+        {
+          "id": "nyc-911-route-01-segment-02",
+          "from": "NYC-WP-13",
+          "to": "NYC-WP-11"
+        }
+      ]
+    },
+    {
+      "id": "nyc-911-route-02",
+      "title": "9/11 纪念广场核心访问",
+      "prompt_zh": "作为第一次参观 9/11 纪念区的游客，你今天打算从 2 World Trade Center 进入纪念馆，依次到南塔水池、Survivor Tree 和北塔水池。路线从「2 World Trade Center」开始，在「North Tower Pool」结束，围绕「9/11 纪念广场核心访问」展开。",
+      "persona_zh": "第一次参观 9/11 纪念区的游客",
+      "topic_zh": "9/11 纪念广场核心访问",
+      "purpose_zh": "从 2 World Trade Center 进入纪念馆，依次到南塔水池、Survivor Tree 和北塔水池",
+      "actor": "第一次参观 9/11 纪念区的游客",
+      "intent": "从 2 World Trade Center 进入纪念馆，依次到南塔水池、Survivor Tree 和北塔水池",
+      "theme": "9/11 纪念广场核心访问",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 2 World Trade Center 进入纪念馆，依次到南塔水池、Survivor Tree 和北塔水池",
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "NYC-WP-01",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "NYC-WP-04",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NYC-WP-17",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NYC-WP-23",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NYC-WP-18",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "nyc-911-route-02-segment-01",
+          "from": "NYC-WP-01",
+          "to": "NYC-WP-04"
+        },
+        {
+          "id": "nyc-911-route-02-segment-02",
+          "from": "NYC-WP-04",
+          "to": "NYC-WP-17"
+        },
+        {
+          "id": "nyc-911-route-02-segment-03",
+          "from": "NYC-WP-17",
+          "to": "NYC-WP-23"
+        },
+        {
+          "id": "nyc-911-route-02-segment-04",
+          "from": "NYC-WP-23",
+          "to": "NYC-WP-18"
+        }
+      ]
+    },
+    {
+      "id": "nyc-911-route-03",
+      "title": "Liberty Park 的纪念与信仰",
+      "prompt_zh": "你是关注纪念空间与宗教建筑的访客，今天要完成「Liberty Park 的纪念与信仰」：从 Cortlandt 地铁站进入 Liberty Park，依次看 The Sphere、圣尼古拉教堂与 Anne Frank Tree。请从「WTC Cortlandt Subway Station」走到「Anne Frank Tree」。",
+      "persona_zh": "关注纪念空间与宗教建筑的访客",
+      "topic_zh": "Liberty Park 的纪念与信仰",
+      "purpose_zh": "从 Cortlandt 地铁站进入 Liberty Park，依次看 The Sphere、圣尼古拉教堂与 Anne Frank Tree",
+      "actor": "关注纪念空间与宗教建筑的访客",
+      "intent": "从 Cortlandt 地铁站进入 Liberty Park，依次看 The Sphere、圣尼古拉教堂与 Anne Frank Tree",
+      "theme": "Liberty Park 的纪念与信仰",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Cortlandt 地铁站进入 Liberty Park，依次看 The Sphere、圣尼古拉教堂与 Anne Frank Tree",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "NYC-WP-15",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "NYC-WP-19",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NYC-WP-03",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NYC-WP-21",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "nyc-911-route-03-segment-01",
+          "from": "NYC-WP-15",
+          "to": "NYC-WP-19"
+        },
+        {
+          "id": "nyc-911-route-03-segment-02",
+          "from": "NYC-WP-19",
+          "to": "NYC-WP-03"
+        },
+        {
+          "id": "nyc-911-route-03-segment-03",
+          "from": "NYC-WP-03",
+          "to": "NYC-WP-21"
+        }
+      ]
+    },
+    {
+      "id": "nyc-911-route-04",
+      "title": "Liberty Park 与 9·11 纪念核心",
+      "prompt_zh": "你是第一次来到 9·11 纪念区的历史游客。今天围绕「Liberty Park 与 9·11 纪念核心」步行，从「Liberty Park」出发，经过 Anne Frank Tree、圣尼古拉教堂、America's Response Monument、The Sphere 和 Survivor Tree，最后到「South Tower Pool」。",
+      "persona_zh": "第一次来到 9·11 纪念区的历史游客",
+      "topic_zh": "Liberty Park 与 9·11 纪念核心",
+      "purpose_zh": "从 Liberty Park 经过 Anne Frank Tree、圣尼古拉教堂、America's Response Monument 与 The Sphere，再走到 Survivor Tree 和 South Tower Pool",
+      "actor": "第一次来到 9·11 纪念区的历史游客",
+      "intent": "从 Liberty Park 经过 Anne Frank Tree、圣尼古拉教堂、America's Response Monument 与 The Sphere，再走到 Survivor Tree 和 South Tower Pool",
+      "theme": "Liberty Park 与 9·11 纪念核心",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Liberty Park 经过 Anne Frank Tree、圣尼古拉教堂、America's Response Monument 与 The Sphere，再走到 Survivor Tree 和 South Tower Pool",
+      "metrics": {
+        "point_count": 7,
+        "unique_point_count": 7,
+        "segment_count": 6
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "NYC-WP-22",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "NYC-WP-21",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NYC-WP-03",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NYC-WP-20",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NYC-WP-19",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NYC-WP-23",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NYC-WP-17",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "nyc-911-route-04-segment-01",
+          "from": "NYC-WP-22",
+          "to": "NYC-WP-21"
+        },
+        {
+          "id": "nyc-911-route-04-segment-02",
+          "from": "NYC-WP-21",
+          "to": "NYC-WP-03"
+        },
+        {
+          "id": "nyc-911-route-04-segment-03",
+          "from": "NYC-WP-03",
+          "to": "NYC-WP-20"
+        },
+        {
+          "id": "nyc-911-route-04-segment-04",
+          "from": "NYC-WP-20",
+          "to": "NYC-WP-19"
+        },
+        {
+          "id": "nyc-911-route-04-segment-05",
+          "from": "NYC-WP-19",
+          "to": "NYC-WP-23"
+        },
+        {
+          "id": "nyc-911-route-04-segment-06",
+          "from": "NYC-WP-23",
+          "to": "NYC-WP-17"
+        }
+      ]
+    },
+    {
+      "id": "nyc-911-route-06",
+      "title": "双塔水池、Survivor Tree 与 The Sphere",
+      "prompt_zh": "你是想理解灾后韧性主题的访客。今天想从北塔水池走到 Survivor Tree，最后在 The Sphere 结束纪念步行。请从「North Tower Pool」出发，最后到「The Sphere」；这段行程的主题是「双塔水池、Survivor Tree 与 The Sphere」。",
+      "persona_zh": "想理解灾后韧性主题的访客",
+      "topic_zh": "双塔水池、Survivor Tree 与 The Sphere",
+      "purpose_zh": "从北塔水池走到 Survivor Tree，最后在 The Sphere 结束纪念步行",
+      "actor": "想理解灾后韧性主题的访客",
+      "intent": "从北塔水池走到 Survivor Tree，最后在 The Sphere 结束纪念步行",
+      "theme": "双塔水池、Survivor Tree 与 The Sphere",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "verified_edges_recombined_needs_full_route_retest",
+      "validation_status": "verified_edges_recombined_needs_full_route_retest",
+      "validation_note_zh": "相邻点均来自现有有向边；新组合仍需整线实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从北塔水池走到 Survivor Tree，最后在 The Sphere 结束纪念步行",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "verified_edges_recombined_needs_full_route_retest",
+      "points": [
+        {
+          "waypoint_id": "NYC-WP-18",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "NYC-WP-23",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NYC-WP-19",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "nyc-911-route-06-segment-01",
+          "from": "NYC-WP-18",
+          "to": "NYC-WP-23"
+        },
+        {
+          "id": "nyc-911-route-06-segment-02",
+          "from": "NYC-WP-23",
+          "to": "NYC-WP-19"
+        }
+      ]
+    },
+    {
+      "id": "nyc-911-route-05",
+      "title": "世贸中心公共艺术与重建建筑",
+      "prompt_zh": "你是关注城市重建与公共艺术的建筑游客。今天从「Perelman Performing Arts Center」出发，依次观察两处 Fulton Street Art Wall 和 Mural Project，最后到「3 World Trade Center」；这段行程的主题是「世贸中心公共艺术与重建建筑」。",
+      "persona_zh": "关注城市重建与公共艺术的建筑游客",
+      "topic_zh": "世贸中心公共艺术与重建建筑",
+      "purpose_zh": "从 Perelman Performing Arts Center 沿公共艺术墙走到 Mural Project 与 3 World Trade Center，观察重建后的文化空间",
+      "actor": "关注城市重建与公共艺术的建筑游客",
+      "intent": "从 Perelman Performing Arts Center 沿公共艺术墙走到 Mural Project 与 3 World Trade Center，观察重建后的文化空间",
+      "theme": "世贸中心公共艺术与重建建筑",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "新增路线需要整线实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Perelman Performing Arts Center 沿公共艺术墙走到 Mural Project 与 3 World Trade Center，观察重建后的文化空间",
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "NYC-WP-13",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "NYC-WP-09",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NYC-WP-10",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NYC-WP-05",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NYC-WP-06",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "nyc-911-route-05-segment-01",
+          "from": "NYC-WP-13",
+          "to": "NYC-WP-09"
+        },
+        {
+          "id": "nyc-911-route-05-segment-02",
+          "from": "NYC-WP-09",
+          "to": "NYC-WP-10"
+        },
+        {
+          "id": "nyc-911-route-05-segment-03",
+          "from": "NYC-WP-10",
+          "to": "NYC-WP-05"
+        },
+        {
+          "id": "nyc-911-route-05-segment-04",
+          "from": "NYC-WP-05",
+          "to": "NYC-WP-06"
+        }
+      ]
+    },
+    {
+      "id": "nyc-911-route-07",
+      "title": "新世贸中心建筑与公共空间",
+      "prompt_zh": "你是想了解新世贸中心城市生活的回访游客。今天从「Oculus」出发，经过 2 World Trade Center 和东侧休息空间，再到 Westfield，最后在「Liberty Park」结束；这段行程的主题是「新世贸中心建筑与公共空间」。",
+      "persona_zh": "想了解新世贸中心城市生活的回访游客",
+      "topic_zh": "新世贸中心建筑与公共空间",
+      "purpose_zh": "从 Oculus 经过新世贸中心东侧建筑与日常休息空间，再经 Westfield 前往 Liberty Park",
+      "actor": "想了解新世贸中心城市生活的回访游客",
+      "intent": "从 Oculus 经过新世贸中心东侧建筑与日常休息空间，再经 Westfield 前往 Liberty Park",
+      "theme": "新世贸中心建筑与公共空间",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "新增路线需要整线实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Oculus 经过新世贸中心东侧建筑与日常休息空间，再经 Westfield 前往 Liberty Park",
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "NYC-WP-02",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "NYC-WP-01",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NYC-WP-08",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NYC-WP-07",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NYC-WP-22",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "nyc-911-route-07-segment-01",
+          "from": "NYC-WP-02",
+          "to": "NYC-WP-01"
+        },
+        {
+          "id": "nyc-911-route-07-segment-02",
+          "from": "NYC-WP-01",
+          "to": "NYC-WP-08"
+        },
+        {
+          "id": "nyc-911-route-07-segment-03",
+          "from": "NYC-WP-08",
+          "to": "NYC-WP-07"
+        },
+        {
+          "id": "nyc-911-route-07-segment-04",
+          "from": "NYC-WP-07",
+          "to": "NYC-WP-22"
+        }
+      ]
+    }
+  ],
+  "upload_recommendation": "waypoints_and_routes_ready",
+  "excluded_waypoints": [
+    {
+      "name": "Westfield World Trade Center",
+      "mc": {
+        "x": 2205,
+        "y": -9,
+        "z": 244
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "world trade center",
+      "mc": {
+        "x": 2202,
+        "y": -10,
+        "z": -31
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "North Tower (1 World Trade Cente",
+      "mc": {
+        "x": 2134,
+        "y": -12,
+        "z": 98
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "Twin Towers",
+      "mc": {
+        "x": 2094,
+        "y": -12,
+        "z": 89
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "N911-01 National September 11 Memorial & Museum entrance",
+      "mc": {
+        "x": 2094,
+        "y": -12,
+        "z": 72
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "N911-02 World Trade Center Transportation Hub wayfinding",
+      "mc": {
+        "x": 1958,
+        "y": -12,
+        "z": 106
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "N911-07 Oculus / WTC map",
+      "mc": {
+        "x": 2193,
+        "y": -10,
+        "z": -35
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "N911-10 Saint Nicholas Greek Ort",
+      "mc": {
+        "x": 2050,
+        "y": -6,
+        "z": 271
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "N911-11 3 World Trade Center west frontage",
+      "mc": {
+        "x": 2110,
+        "y": -12,
+        "z": 145
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "N911-12 4 World Trade Center west frontage",
+      "mc": {
+        "x": 2110,
+        "y": -12,
+        "z": 230
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "N911-13 West Street / Vesey Street corner",
+      "mc": {
+        "x": 1915,
+        "y": -13,
+        "z": -99
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "N911-14 West Street / Fulton Street corner",
+      "mc": {
+        "x": 1922,
+        "y": -12,
+        "z": -23
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "N911-15 West Street / Liberty Street corner",
+      "mc": {
+        "x": 1927,
+        "y": -12,
+        "z": 186
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "N911-16 West Street / Cedar Street corner",
+      "mc": {
+        "x": 1956,
+        "y": -13,
+        "z": 260
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "N911-17 Greenwich Street / Fulton Street corner",
+      "mc": {
+        "x": 2099,
+        "y": -12,
+        "z": 30
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "N911-18 National September 11 Memorial Museum pavilion",
+      "mc": {
+        "x": 2081,
+        "y": -12,
+        "z": 86
+      },
+      "reason": "disabled_in_xaero"
+    }
+  ]
+}

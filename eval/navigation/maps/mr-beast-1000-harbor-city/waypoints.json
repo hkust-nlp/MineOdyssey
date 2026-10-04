@@ -1,0 +1,1292 @@
+{
+  "schema_version": 1,
+  "map_id": "mr-beast-1000-harbor-city",
+  "local_position_corrections": {
+    "approved_on": "2026-09-10",
+    "rounding": "nearest_integer_half_away_from_zero",
+    "reason": "User-approved arrival anchor correction; original Xaero annotation is retained for provenance. Historical results are not rescored.",
+    "original_positions": {"HBC-WP-45": {"x": -8523480, "y": 35, "z": -6020984}},
+    "suggested_positions": {"HBC-WP-45": {"x": -8523480.0, "y": 30, "z": -6020984.6}}
+  },
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "eval/navigation/maps/mr-beast-1000-harbor-city/waypoints.xaero.txt",
+    "sha256": "03dff56baa9baa4f8b6b0807922828b9bbce59011b91643ebc0419a0da93acbc"
+  },
+  "dimension": "overworld",
+  "source_record_count": 53,
+  "waypoint_count": 53,
+  "excluded_waypoints": [],
+  "waypoints": [
+    {
+      "id": "HBC-WP-01",
+      "name": "Dry Dock 4",
+      "position": {
+        "x": -8523396,
+        "y": 30,
+        "z": -6021046
+      },
+      "route_ids": [
+        "hbc-route-13"
+      ],
+      "initials": "D4",
+      "color": 16,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-02",
+      "name": "Motor Generator House",
+      "position": {
+        "x": -8523306,
+        "y": 31,
+        "z": -6021025
+      },
+      "route_ids": [
+        "hbc-route-13"
+      ],
+      "initials": "MG",
+      "color": 9,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-03",
+      "name": "Lime, Pitch and Coal House",
+      "position": {
+        "x": -8523492,
+        "y": 30,
+        "z": -6020812
+      },
+      "route_ids": [
+        "hbc-route-13"
+      ],
+      "initials": "LP",
+      "color": 4,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-04",
+      "name": "Smithery & Forge Shop",
+      "position": {
+        "x": -8523568,
+        "y": 30,
+        "z": -6021026
+      },
+      "route_ids": [
+        "hbc-route-13"
+      ],
+      "initials": "SF",
+      "color": 11,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-05",
+      "name": "Building Trades Shops",
+      "position": {
+        "x": -8523528,
+        "y": 30,
+        "z": -6020781
+      },
+      "route_ids": [
+        "hbc-route-13"
+      ],
+      "initials": "TS",
+      "color": 16,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-06",
+      "name": "Pier G",
+      "position": {
+        "x": -8523383,
+        "y": 30,
+        "z": -6021636
+      },
+      "route_ids": [
+        "hbc-route-12"
+      ],
+      "initials": "PG",
+      "color": 13,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-07",
+      "name": "Yard Garage & Auto Repair Shop",
+      "position": {
+        "x": -8523385,
+        "y": 31,
+        "z": -6020777
+      },
+      "route_ids": [
+        "hbc-route-12"
+      ],
+      "initials": "YG",
+      "color": 20,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-08",
+      "name": "Marine Officers’ Quarters",
+      "position": {
+        "x": -8523160,
+        "y": 33,
+        "z": -6020844
+      },
+      "route_ids": [
+        "hbc-route-12"
+      ],
+      "initials": "OQ",
+      "color": 8,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-09",
+      "name": "Non-Commision Officers’ Quarters",
+      "position": {
+        "x": -8523178,
+        "y": 31,
+        "z": -6020877
+      },
+      "route_ids": [
+        "hbc-route-12"
+      ],
+      "initials": "95",
+      "color": 3,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-10",
+      "name": "Paymaster’s Office",
+      "position": {
+        "x": -8523619,
+        "y": 30,
+        "z": -6020826
+      },
+      "route_ids": [],
+      "initials": "PO",
+      "color": 13,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-11",
+      "name": "Administration Building",
+      "position": {
+        "x": -8523235,
+        "y": 34,
+        "z": -6020826
+      },
+      "route_ids": [],
+      "initials": "AB",
+      "color": 1,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-12",
+      "name": "Construction & Repair Storehous",
+      "position": {
+        "x": -8523421,
+        "y": 30,
+        "z": -6021084
+      },
+      "route_ids": [
+        "hbc-route-10"
+      ],
+      "initials": "CR",
+      "color": 15,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-13",
+      "name": "Dry Dock 1",
+      "position": {
+        "x": -8523507,
+        "y": 30,
+        "z": -6021101
+      },
+      "route_ids": [
+        "hbc-route-06"
+      ],
+      "initials": "D1",
+      "color": 12,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-14",
+      "name": "Ship Superintendent’s Office",
+      "position": {
+        "x": -8523582,
+        "y": 31,
+        "z": -6021226
+      },
+      "route_ids": [
+        "hbc-route-10"
+      ],
+      "initials": "SO",
+      "color": 19,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-15",
+      "name": "Pier C",
+      "position": {
+        "x": -8523594,
+        "y": 30,
+        "z": -6021383
+      },
+      "route_ids": [
+        "hbc-route-10"
+      ],
+      "initials": "PC",
+      "color": 11,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-16",
+      "name": "Pier J",
+      "position": {
+        "x": -8523281,
+        "y": 30,
+        "z": -6021758
+      },
+      "route_ids": [
+        "hbc-route-09"
+      ],
+      "initials": "PJ",
+      "color": 4,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-17",
+      "name": "Locomotive Shed",
+      "position": {
+        "x": -8523449,
+        "y": 30,
+        "z": -6020824
+      },
+      "route_ids": [
+        "hbc-route-09"
+      ],
+      "initials": "LS",
+      "color": 5,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-18",
+      "name": "General Storehouse",
+      "position": {
+        "x": -8523001,
+        "y": 33,
+        "z": -6020954
+      },
+      "route_ids": [
+        "hbc-route-09",
+        "hbc-route-12"
+      ],
+      "initials": "GS",
+      "color": 5,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-19",
+      "name": "Supply Storehouse",
+      "position": {
+        "x": -8523019,
+        "y": 38,
+        "z": -6020889
+      },
+      "route_ids": [
+        "hbc-route-09"
+      ],
+      "initials": "SS",
+      "color": 5,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-20",
+      "name": "Pier K",
+      "position": {
+        "x": -8523374,
+        "y": 30,
+        "z": -6022044
+      },
+      "route_ids": [
+        "hbc-route-08",
+        "hbc-route-09"
+      ],
+      "initials": "PK",
+      "color": 5,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-21",
+      "name": "Coal Plant Office",
+      "position": {
+        "x": -8523189,
+        "y": 30,
+        "z": -6021568
+      },
+      "route_ids": [
+        "hbc-route-08"
+      ],
+      "initials": "CP",
+      "color": 10,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-22",
+      "name": "Garbage Incinerator",
+      "position": {
+        "x": -8523151,
+        "y": 36,
+        "z": -6021618
+      },
+      "route_ids": [
+        "hbc-route-08"
+      ],
+      "initials": "GI",
+      "color": 0,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-23",
+      "name": "Substation G",
+      "position": {
+        "x": -8522888,
+        "y": 30,
+        "z": -6021232
+      },
+      "route_ids": [
+        "hbc-route-08"
+      ],
+      "initials": "SG",
+      "color": 11,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-24",
+      "name": "Acetylene House",
+      "position": {
+        "x": -8522845,
+        "y": 32,
+        "z": -6021051
+      },
+      "route_ids": [
+        "hbc-route-08"
+      ],
+      "initials": "AH",
+      "color": 2,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-25",
+      "name": "Dry Dock 6 Boat Side",
+      "position": {
+        "x": -8523022,
+        "y": 30,
+        "z": -6021365
+      },
+      "route_ids": [
+        "hbc-route-07"
+      ],
+      "initials": "D6",
+      "color": 13,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-26",
+      "name": "Electrical Substation No. 13",
+      "position": {
+        "x": -8523356,
+        "y": 30,
+        "z": -6021700
+      },
+      "route_ids": [
+        "hbc-route-07"
+      ],
+      "initials": "ES",
+      "color": 20,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-27",
+      "name": "Compressor Building",
+      "position": {
+        "x": -8523309,
+        "y": 30,
+        "z": -6021697
+      },
+      "route_ids": [
+        "hbc-route-07"
+      ],
+      "initials": "CB",
+      "color": 4,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-28",
+      "name": "Production Utility Building",
+      "position": {
+        "x": -8523180,
+        "y": 30,
+        "z": -6021672
+      },
+      "route_ids": [
+        "hbc-route-07"
+      ],
+      "initials": "PU",
+      "color": 5,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-29",
+      "name": "Central Power Plant",
+      "position": {
+        "x": -8523418,
+        "y": 30,
+        "z": -6020830
+      },
+      "route_ids": [
+        "hbc-route-06"
+      ],
+      "initials": "CP",
+      "color": 13,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-30",
+      "name": "Motor Generator & Substation 6",
+      "position": {
+        "x": -8523581,
+        "y": 30,
+        "z": -6021174
+      },
+      "route_ids": [
+        "hbc-route-06"
+      ],
+      "initials": "MS",
+      "color": 0,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-31",
+      "name": "Pump House for Dry Dock No.1",
+      "position": {
+        "x": -8523564,
+        "y": 30,
+        "z": -6021074
+      },
+      "route_ids": [
+        "hbc-route-06"
+      ],
+      "initials": "PD",
+      "color": 12,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-32",
+      "name": "Ordnance Machine Shop",
+      "position": {
+        "x": -8523374,
+        "y": 32,
+        "z": -6020867
+      },
+      "route_ids": [
+        "hbc-route-05",
+        "hbc-route-13"
+      ],
+      "initials": "OM",
+      "color": 6,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-33",
+      "name": "Paint Shop",
+      "position": {
+        "x": -8523267,
+        "y": 30,
+        "z": -6021060
+      },
+      "route_ids": [
+        "hbc-route-05"
+      ],
+      "initials": "PS",
+      "color": 9,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-34",
+      "name": "Pattern Shop",
+      "position": {
+        "x": -8523197,
+        "y": 31,
+        "z": -6020879
+      },
+      "route_ids": [
+        "hbc-route-05"
+      ],
+      "initials": "PS",
+      "color": 19,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-35",
+      "name": "Light Machine Shop & Lab",
+      "position": {
+        "x": -8523032,
+        "y": 30,
+        "z": -6020983
+      },
+      "route_ids": [
+        "hbc-route-05"
+      ],
+      "initials": "LL",
+      "color": 6,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-36",
+      "name": "Chemical Lab",
+      "position": {
+        "x": -8523164,
+        "y": 31,
+        "z": -6020893
+      },
+      "route_ids": [
+        "hbc-route-05"
+      ],
+      "initials": "CL",
+      "color": 18,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-37",
+      "name": "Navy Applied Science Lab",
+      "position": {
+        "x": -8522653,
+        "y": 31,
+        "z": -6021077
+      },
+      "route_ids": [
+        "hbc-route-05"
+      ],
+      "initials": "AL",
+      "color": 20,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-38",
+      "name": "Dry Dock 6 Boat Head",
+      "position": {
+        "x": -8523108,
+        "y": 36,
+        "z": -6021412
+      },
+      "route_ids": [
+        "hbc-route-04"
+      ],
+      "initials": "D6",
+      "color": 11,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-39",
+      "name": "Dry Dock 5 Boat Head",
+      "position": {
+        "x": -8522954,
+        "y": 30,
+        "z": -6021209
+      },
+      "route_ids": [
+        "hbc-route-04"
+      ],
+      "initials": "D5",
+      "color": 19,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-40",
+      "name": "Sub-Assembly Shop No.2",
+      "position": {
+        "x": -8523567,
+        "y": 30,
+        "z": -6021102
+      },
+      "route_ids": [
+        "hbc-route-04"
+      ],
+      "initials": "SA",
+      "color": 10,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-41",
+      "name": "Sub-Assembly Shop No.1",
+      "position": {
+        "x": -8523638,
+        "y": 30,
+        "z": -6021261
+      },
+      "route_ids": [
+        "hbc-route-04"
+      ],
+      "initials": "SA",
+      "color": 15,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-42",
+      "name": "Machine Shop & Erecting Shop II",
+      "position": {
+        "x": -8523336,
+        "y": 31,
+        "z": -6020884
+      },
+      "route_ids": [
+        "hbc-route-04"
+      ],
+      "initials": "ME",
+      "color": 11,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-43",
+      "name": "Dry Dock 3",
+      "position": {
+        "x": -8523024,
+        "y": 30,
+        "z": -6021090
+      },
+      "route_ids": [
+        "hbc-route-03",
+        "hbc-route-10"
+      ],
+      "initials": "D3",
+      "color": 1,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-44",
+      "name": "Boat Storehouse",
+      "position": {
+        "x": -8523472,
+        "y": 30,
+        "z": -6020962
+      },
+      "route_ids": [
+        "hbc-route-03",
+        "hbc-route-10"
+      ],
+      "initials": "BS",
+      "color": 4,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-45",
+      "name": "Iron Plating Shop",
+      "position": {
+        "x": -8523480,
+        "y": 30,
+        "z": -6020985
+      },
+      "route_ids": [
+        "hbc-route-03"
+      ],
+      "initials": "IP",
+      "color": 4,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-46",
+      "name": "Timber Shed & Mold Loft",
+      "position": {
+        "x": -8523526,
+        "y": 29,
+        "z": -6020917
+      },
+      "route_ids": [
+        "hbc-route-03"
+      ],
+      "initials": "TM",
+      "color": 9,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-47",
+      "name": "Dry Dock 2",
+      "position": {
+        "x": -8523211,
+        "y": 30,
+        "z": -6021102
+      },
+      "route_ids": [
+        "hbc-route-02"
+      ],
+      "initials": "D2",
+      "color": 17,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-48",
+      "name": "Power House",
+      "position": {
+        "x": -8523201,
+        "y": 31,
+        "z": -6021029
+      },
+      "route_ids": [
+        "hbc-route-02"
+      ],
+      "initials": "PH",
+      "color": 1,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-49",
+      "name": "Boiler Shop",
+      "position": {
+        "x": -8523313,
+        "y": 30,
+        "z": -6020962
+      },
+      "route_ids": [
+        "hbc-route-02"
+      ],
+      "initials": "BS",
+      "color": 20,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-50",
+      "name": "Pipe & Copper Shop",
+      "position": {
+        "x": -8523575,
+        "y": 30,
+        "z": -6020967
+      },
+      "route_ids": [
+        "hbc-route-02"
+      ],
+      "initials": "PC",
+      "color": 4,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-51",
+      "name": "Plumbers' & Boiler Shop",
+      "position": {
+        "x": -8523611,
+        "y": 30,
+        "z": -6020919
+      },
+      "route_ids": [
+        "hbc-route-02"
+      ],
+      "initials": "PB",
+      "color": 13,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-52",
+      "name": "Canteen",
+      "position": {
+        "x": -8523604,
+        "y": 30,
+        "z": -6021164
+      },
+      "route_ids": [],
+      "initials": "C3",
+      "color": 0,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HBC-WP-53",
+      "name": "Machine Shop & Erecting Shop I",
+      "position": {
+        "x": -8523246,
+        "y": 31,
+        "z": -6020848
+      },
+      "route_ids": [],
+      "initials": "ME",
+      "color": 4,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    }
+  ]
+}

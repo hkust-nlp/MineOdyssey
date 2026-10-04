@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "map_id": "shun-lee",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/shun-lee-current-5-routes.json",
+    "sha256": "cbff9918f83f356387577a6d001e872f5d7e0c8f9490b50e4a761332d5efd219"
+  },
+  "waypoint_count": 20,
+  "waypoints": [
+    {
+      "id": "SLH-02",
+      "name": "順利紀律部隊宿舍中央廣場",
+      "initials": "SL02",
+      "position": {
+        "x": -248,
+        "y": 10,
+        "z": -673
+      },
+      "route_ids": [
+        "slr-n01"
+      ],
+      "kind": "屋苑廣場",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position"
+    },
+    {
+      "id": "SLH-03",
+      "name": "順利紀律部隊宿舍東面平台",
+      "initials": "SL03",
+      "position": {
+        "x": -188,
+        "y": 10,
+        "z": -677
+      },
+      "route_ids": [
+        "slr-n01"
+      ],
+      "kind": "屋苑平台",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position"
+    },
+    {
+      "id": "SLH-04",
+      "name": "順利紀律部隊宿舍入口",
+      "initials": "SL04",
+      "position": {
+        "x": -267,
+        "y": 10,
+        "z": -549
+      },
+      "route_ids": [
+        "slr-n02"
+      ],
+      "kind": "屋苑入口",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position"
+    },
+    {
+      "id": "SLH-06",
+      "name": "盛德中心學校籃球場",
+      "initials": "SL06",
+      "position": {
+        "x": -206,
+        "y": -2,
+        "z": -550
+      },
+      "route_ids": [
+        "slr-n02"
+      ],
+      "kind": "籃球場",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position"
+    },
+    {
+      "id": "SLH-07",
+      "name": "遙控模型賽車場（A場）",
+      "initials": "SL07",
+      "position": {
+        "x": -147,
+        "y": 6,
+        "z": -519
+      },
+      "route_ids": [
+        "slr-n01",
+        "slr-n02"
+      ],
+      "kind": "遙控模型賽車場",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position"
+    },
+    {
+      "id": "SLH-08",
+      "name": "香港扶幼會盛德中心學校",
+      "initials": "SL08",
+      "position": {
+        "x": -211,
+        "y": -2,
+        "z": -599
+      },
+      "route_ids": [
+        "slr-n03"
+      ],
+      "kind": "學校",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position"
+    },
+    {
+      "id": "SLH-09",
+      "name": "滙基書院（東九龍）",
+      "initials": "SL09",
+      "position": {
+        "x": -135,
+        "y": -2,
+        "z": -599
+      },
+      "route_ids": [
+        "slr-n03",
+        "slr-n05"
+      ],
+      "kind": "學校",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position"
+    },
+    {
+      "id": "SLH-10",
+      "name": "基督教滙基堂",
+      "initials": "SL10",
+      "position": {
+        "x": -113,
+        "y": -2,
+        "z": -535
+      },
+      "route_ids": [
+        "slr-n05"
+      ],
+      "kind": "教堂",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position"
+    },
+    {
+      "id": "SLH-11",
+      "name": "滙基書院飯堂",
+      "initials": "SL11",
+      "position": {
+        "x": -107,
+        "y": -2,
+        "z": -596
+      },
+      "route_ids": [
+        "slr-n05"
+      ],
+      "kind": "飯堂",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position"
+    },
+    {
+      "id": "SLH-12",
+      "name": "順利邨羽毛球場",
+      "initials": "SL12",
+      "position": {
+        "x": -92,
+        "y": -2,
+        "z": -573
+      },
+      "route_ids": [
+        "slr-n02"
+      ],
+      "kind": "羽毛球場",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position"
+    },
+    {
+      "id": "SLH-13",
+      "name": "順利消防局",
+      "initials": "SL13",
+      "position": {
+        "x": -122,
+        "y": -2,
+        "z": -622
+      },
+      "route_ids": [
+        "slr-n03"
+      ],
+      "kind": "消防局",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position"
+    },
+    {
+      "id": "SLH-14",
+      "name": "基督教中國佈道會聖道迦南書院",
+      "initials": "SL14",
+      "position": {
+        "x": -49,
+        "y": -2,
+        "z": -613
+      },
+      "route_ids": [
+        "slr-n04"
+      ],
+      "kind": "學校",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position"
+    },
+    {
+      "id": "SLH-15",
+      "name": "順利邨遊樂場",
+      "initials": "SL15",
+      "position": {
+        "x": -69,
+        "y": -2,
+        "z": -665
+      },
+      "route_ids": [
+        "slr-n04"
+      ],
+      "kind": "遊樂場",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position"
+    },
+    {
+      "id": "SLH-16",
+      "name": "順利邨健身遊樂場",
+      "initials": "SL16",
+      "position": {
+        "x": -15,
+        "y": -2,
+        "z": -651
+      },
+      "route_ids": [
+        "slr-n02"
+      ],
+      "kind": "健身場",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position"
+    },
+    {
+      "id": "SLH-17",
+      "name": "順利邨五人足球場",
+      "initials": "SL17",
+      "position": {
+        "x": -137,
+        "y": -1,
+        "z": -694
+      },
+      "route_ids": [
+        "slr-n04"
+      ],
+      "kind": "足球場",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position"
+    },
+    {
+      "id": "SLH-18",
+      "name": "順利消防局巴士站",
+      "initials": "SL18",
+      "position": {
+        "x": -163,
+        "y": -3,
+        "z": -696
+      },
+      "route_ids": [
+        "slr-n03",
+        "slr-n04"
+      ],
+      "kind": "巴士站",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position"
+    },
+    {
+      "id": "SLH-19",
+      "name": "順利邨五人足球場入口",
+      "initials": "SL19",
+      "position": {
+        "x": -142,
+        "y": -1,
+        "z": -671
+      },
+      "route_ids": [
+        "slr-n03"
+      ],
+      "kind": "足球場入口",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position"
+    },
+    {
+      "id": "SLH-20",
+      "name": "滙基書院二樓平台",
+      "initials": "SL20",
+      "position": {
+        "x": -113,
+        "y": 4,
+        "z": -568
+      },
+      "route_ids": [
+        "slr-n05"
+      ],
+      "kind": "校舍平台",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position"
+    },
+    {
+      "id": "SLH-N01",
+      "name": "滙基書院主樓梯起點",
+      "initials": "SLN1",
+      "position": {
+        "x": -114,
+        "y": -2,
+        "z": -544
+      },
+      "route_ids": [
+        "slr-n05"
+      ],
+      "kind": "內部導航點",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position",
+      "navigation_only": true,
+      "xaero": {
+        "disabled": true
+      }
+    },
+    {
+      "id": "SLH-N02",
+      "name": "滙基書院二樓樓梯口",
+      "initials": "SLN2",
+      "position": {
+        "x": -114,
+        "y": 4,
+        "z": -545
+      },
+      "route_ids": [
+        "slr-n05"
+      ],
+      "kind": "內部導航點",
+      "language": "zh-Hant-HK",
+      "evidence": "live_game_visual_review_2026_08_25",
+      "standability": "reviewed_exact_stand_position",
+      "navigation_only": true,
+      "xaero": {
+        "disabled": true
+      }
+    }
+  ]
+}

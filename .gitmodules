@@ -1,0 +1,3 @@
+[submodule "external/baritone"]
+	path = external/baritone
+	url = https://github.com/cabaletta/baritone.git

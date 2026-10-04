@@ -1,0 +1,2624 @@
+{
+  "kill_entity:bat": {
+    "seeds": [
+      {
+        "seed": 1403770728608262707,
+        "position": [
+          -533,
+          40,
+          210
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:bat",
+      "openha_task_name": "kill_entity:bat",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:bat",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:bee": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:bee",
+      "openha_task_name": "kill_entity:bee",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:bee",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:blaze": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "the_nether",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "nether"
+    ],
+    "dimension": "the_nether",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:blaze",
+      "openha_task_name": "kill_entity:blaze",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:blaze",
+      "dimensions": [
+        "the_nether"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:cat": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:cat",
+      "openha_task_name": "kill_entity:cat",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:cat",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:cave_spider": {
+    "seeds": [
+      {
+        "seed": 1403770728608262707,
+        "position": [
+          -533,
+          40,
+          210
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:cave_spider",
+      "openha_task_name": "kill_entity:cave_spider",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:cave_spider",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:chicken": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:chicken",
+      "openha_task_name": "kill_entity:chicken",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:chicken",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:cod": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          -117,
+          61,
+          115
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal",
+      "water"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:cod",
+      "openha_task_name": "kill_entity:cod",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:cod",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:cow": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:cow",
+      "openha_task_name": "kill_entity:cow",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:cow",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:creeper": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:creeper",
+      "openha_task_name": "kill_entity:creeper",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:creeper",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:dolphin": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          -117,
+          61,
+          115
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal",
+      "water"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:dolphin",
+      "openha_task_name": "kill_entity:dolphin",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:dolphin",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:donkey": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:donkey",
+      "openha_task_name": "kill_entity:donkey",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:donkey",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:drowned": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          85,
+          61,
+          79
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal",
+      "water"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:drowned",
+      "openha_task_name": "kill_entity:drowned",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:drowned",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:elder_guardian": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "boss"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:elder_guardian",
+      "openha_task_name": "kill_entity:elder_guardian",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:elder_guardian",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:ender_dragon": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "the_end",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "boss",
+      "the_end"
+    ],
+    "dimension": "the_end",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:ender_dragon",
+      "openha_task_name": "kill_entity:ender_dragon",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:ender_dragon",
+      "dimensions": [
+        "the_end"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:enderman": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "the_end",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal",
+      "the_end"
+    ],
+    "dimension": "the_end",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:enderman",
+      "openha_task_name": "kill_entity:enderman",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:enderman",
+      "dimensions": [
+        "the_end"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:endermite": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "the_end",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [
+      "/time set night"
+    ],
+    "label": [
+      "the_end"
+    ],
+    "dimension": "the_end",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:endermite",
+      "openha_task_name": "kill_entity:endermite",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:endermite",
+      "dimensions": [
+        "the_end"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:evoker": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:evoker",
+      "openha_task_name": "kill_entity:evoker",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:evoker",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:fox": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:fox",
+      "openha_task_name": "kill_entity:fox",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:fox",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:ghast": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:ghast",
+      "openha_task_name": "kill_entity:ghast",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:ghast",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:guardian": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:guardian",
+      "openha_task_name": "kill_entity:guardian",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:guardian",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:hoglin": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "the_nether",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "nether"
+    ],
+    "dimension": "the_nether",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:hoglin",
+      "openha_task_name": "kill_entity:hoglin",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:hoglin",
+      "dimensions": [
+        "the_nether"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:horse": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:horse",
+      "openha_task_name": "kill_entity:horse",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:horse",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:husk": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          178,
+          68,
+          -1526
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [
+      "/time set night"
+    ],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:husk",
+      "openha_task_name": "kill_entity:husk",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:husk",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:iron_golem": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          -912,
+          71,
+          750
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:iron_golem",
+      "openha_task_name": "kill_entity:iron_golem",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:iron_golem",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:llama": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:llama",
+      "openha_task_name": "kill_entity:llama",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:llama",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:magma_cube": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "the_nether",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "nether"
+    ],
+    "dimension": "the_nether",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:magma_cube",
+      "openha_task_name": "kill_entity:magma_cube",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:magma_cube",
+      "dimensions": [
+        "the_nether"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:mooshroom": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          -7140,
+          64,
+          -2066
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:mooshroom",
+      "openha_task_name": "kill_entity:mooshroom",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:mooshroom",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:ocelot": {
+    "seeds": [
+      {
+        "seed": 3595531610718549062,
+        "position": [
+          131,
+          74,
+          -22
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:ocelot",
+      "openha_task_name": "kill_entity:ocelot",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:ocelot",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:parrot": {
+    "seeds": [
+      {
+        "seed": 3595531610718549062,
+        "position": [
+          131,
+          74,
+          -22
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:parrot",
+      "openha_task_name": "kill_entity:parrot",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:parrot",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:phantom": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:phantom",
+      "openha_task_name": "kill_entity:phantom",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:phantom",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:pig": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:pig",
+      "openha_task_name": "kill_entity:pig",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:pig",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:piglin": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "the_nether",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "nether"
+    ],
+    "dimension": "the_nether",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:piglin",
+      "openha_task_name": "kill_entity:piglin",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:piglin",
+      "dimensions": [
+        "the_nether"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:piglin_brute": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "the_nether",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "nether"
+    ],
+    "dimension": "the_nether",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:piglin_brute",
+      "openha_task_name": "kill_entity:piglin_brute",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:piglin_brute",
+      "dimensions": [
+        "the_nether"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:pillager": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:pillager",
+      "openha_task_name": "kill_entity:pillager",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:pillager",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:polar_bear": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          4564,
+          63,
+          1184
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:polar_bear",
+      "openha_task_name": "kill_entity:polar_bear",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:polar_bear",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:pufferfish": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          85,
+          61,
+          79
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal",
+      "water"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:pufferfish",
+      "openha_task_name": "kill_entity:pufferfish",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:pufferfish",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:rabbit": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          178,
+          68,
+          -1526
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:rabbit",
+      "openha_task_name": "kill_entity:rabbit",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:rabbit",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:ravager": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:ravager",
+      "openha_task_name": "kill_entity:ravager",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:ravager",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:salmon": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          -117,
+          61,
+          115
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "normal",
+      "water"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:salmon",
+      "openha_task_name": "kill_entity:salmon",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:salmon",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:sheep": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:sheep",
+      "openha_task_name": "kill_entity:sheep",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:sheep",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:shulker": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "the_end",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "the_end"
+    ],
+    "dimension": "the_end",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:shulker",
+      "openha_task_name": "kill_entity:shulker",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:shulker",
+      "dimensions": [
+        "the_end"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:silverfish": {
+    "seeds": [
+      {
+        "seed": 1403770728608262707,
+        "position": [
+          -533,
+          40,
+          210
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:silverfish",
+      "openha_task_name": "kill_entity:silverfish",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:silverfish",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:skeleton": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [
+      "/time set night"
+    ],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:skeleton",
+      "openha_task_name": "kill_entity:skeleton",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:skeleton",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:skeleton_horse": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:skeleton_horse",
+      "openha_task_name": "kill_entity:skeleton_horse",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:skeleton_horse",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:slime": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:slime",
+      "openha_task_name": "kill_entity:slime",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:slime",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:spider": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:spider",
+      "openha_task_name": "kill_entity:spider",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:spider",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:squid": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          -117,
+          61,
+          115
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "normal",
+      "water"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:squid",
+      "openha_task_name": "kill_entity:squid",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:squid",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:stray": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          4564,
+          63,
+          1184
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [
+      "/time set night"
+    ],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:stray",
+      "openha_task_name": "kill_entity:stray",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:stray",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:strider": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "the_nether",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "nether"
+    ],
+    "dimension": "the_nether",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:strider",
+      "openha_task_name": "kill_entity:strider",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:strider",
+      "dimensions": [
+        "the_nether"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:tropical_fish": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          -117,
+          61,
+          115
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal",
+      "water"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:tropical_fish",
+      "openha_task_name": "kill_entity:tropical_fish",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:tropical_fish",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:turtle": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          -117,
+          61,
+          115
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal",
+      "water"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:turtle",
+      "openha_task_name": "kill_entity:turtle",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:turtle",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:vex": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:vex",
+      "openha_task_name": "kill_entity:vex",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:vex",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:villager": {
+    "seeds": [
+      {
+        "seed": 1403770728608262707,
+        "position": [
+          -912,
+          71,
+          750
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:villager",
+      "openha_task_name": "kill_entity:villager",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:villager",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:vindicator": {
+    "seeds": [
+      {
+        "seed": 1403770728608262707,
+        "position": [
+          -912,
+          71,
+          750
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:vindicator",
+      "openha_task_name": "kill_entity:vindicator",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:vindicator",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:witch": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          331,
+          63,
+          5293
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:witch",
+      "openha_task_name": "kill_entity:witch",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:witch",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:wither": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          331,
+          63,
+          5293
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:wither",
+      "openha_task_name": "kill_entity:wither",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:wither",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:wither_skeleton": {
+    "seeds": [
+      {
+        "seed": 1403770728608262707,
+        "position": [
+          -13,
+          69,
+          3
+        ],
+        "dimension": "the_nether",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "nether"
+    ],
+    "dimension": "the_nether",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:wither_skeleton",
+      "openha_task_name": "kill_entity:wither_skeleton",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:wither_skeleton",
+      "dimensions": [
+        "the_nether"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:wolf": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:wolf",
+      "openha_task_name": "kill_entity:wolf",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:wolf",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:zombie": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [
+      "/time set night"
+    ],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:zombie",
+      "openha_task_name": "kill_entity:zombie",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:zombie",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:zombie_villager": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "overworld",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe",
+      ""
+    ],
+    "commands": [
+      "/time set night"
+    ],
+    "label": [
+      "normal"
+    ],
+    "dimension": "overworld",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:zombie_villager",
+      "openha_task_name": "kill_entity:zombie_villager",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:zombie_villager",
+      "dimensions": [
+        "overworld"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  },
+  "kill_entity:zombified_piglin": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [
+          31,
+          64,
+          61
+        ],
+        "dimension": "the_nether",
+        "dimension_source": "label_inferred"
+      }
+    ],
+    "tool": [
+      "diamond_sword",
+      "diamond_axe"
+    ],
+    "commands": [],
+    "label": [
+      "nether"
+    ],
+    "dimension": "the_nether",
+    "_mcbots_meta": {
+      "canonical_task_name": "kill_entity:zombified_piglin",
+      "openha_task_name": "kill_entity:zombified_piglin",
+      "family": "kill_entity",
+      "source_spawn_file": "kill_entity.json",
+      "instruction_count": 5,
+      "instruction_source_key": "kill_entity:zombified_piglin",
+      "dimensions": [
+        "the_nether"
+      ],
+      "dimension_source_counts": {
+        "label_inferred": 1
+      },
+      "suggested_pregen_radius_chunks": 3,
+      "inventory_forbidden_slots_default": [],
+      "equip_distraction_level_default": "normal",
+      "inventory_distraction_level_default": "difficulty",
+      "has_inferred_2d_seed_position": false
+    }
+  }
+}

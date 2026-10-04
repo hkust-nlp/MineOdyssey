@@ -1,0 +1,26 @@
+{
+  "artifact_sha256": "41eeed349570876cd554a7b5c46ec787c815d8dcafb9cca1e942a0e74fcbc184",
+  "previous_artifact_sha256": "56fad44a634f22dc5e8798fcfa8557c26a3b5dcb6bb36c51ec6278db5c83dd02",
+  "coordinate_lock_policy": "xaero-coordinate-filter-v2",
+  "build_command": "./gradlew test jar",
+  "java_tests_passed": 6,
+  "source_sha256": {
+    "src/agentbridge/src/main/java/com/mcagent/bridge/AgentBridgeMod.java": "31f3649826791ce84dd392841bae3925cde261f4bf18e31bcab61b0c0df3c9fd",
+    "src/agentbridge/src/main/java/com/mcagent/bridge/BridgeServer.java": "c55001c2f4c51e468f2c8ad570e39c175afbbcac20b1afaef89bf1dccbf6903d",
+    "src/agentbridge/src/main/java/com/mcagent/bridge/CoordinateExposureLock.java": "cbe58eaee4499e8ad5ea044079c15fc73c3567c040c96e0fbf7108ff5c38e9e1",
+    "src/agentbridge/src/main/java/com/mcagent/bridge/ToastSuppressor.java": "ee3cf40bcccd49b20681c68fb27558ec8e0726dc9aa2c061bfd0e6823cdc19ff",
+    "src/agentbridge/src/main/java/com/mcagent/bridge/api/BlockHandler.java": "72ac66e0bed756e476f7b4bf40a71cd0ffb031cdc6392da2d641a3e1d6f4eb73",
+    "src/agentbridge/src/main/java/com/mcagent/bridge/api/GUIHandler.java": "4f28e5e32b96d51d6327d0d0b784c51bbafbf8e6160ba14933e38b7b7705dff5",
+    "src/agentbridge/src/main/java/com/mcagent/bridge/api/InputHandler.java": "668243ac048fb9bffc24f8f2d0b3be4d3dda0862ab4af6dfb7f88b619dc2ee28",
+    "src/agentbridge/src/main/java/com/mcagent/bridge/api/LookHandler.java": "91de25bc6e664c737bdf5baa445eb4976271fa8128ce06c9d9e984444db4221a",
+    "src/agentbridge/src/main/java/com/mcagent/bridge/api/StateHandler.java": "ff7f90020729cf8c9faeef80df977608b60955bd37fb83da3c9f76367f094e6c",
+    "src/agentbridge/src/main/java/com/mcagent/bridge/mixin/ChatComponentMixin.java": "7cde4f8407885c63f3d3c209cf8c579e5c706af83e1d4f7d453e0daa2f38d082",
+    "src/agentbridge/src/main/java/com/mcagent/bridge/util/BaritoneHelper.java": "bd391805631cb9f154e94554b5511c7ceac870730569996ded9b668cf592658a",
+    "src/agentbridge/src/main/java/com/mcagent/bridge/util/BridgeLogger.java": "ee3c88fd027e3574ad81e18f48747d9a953b6a70cfa0a6648b4ca24d3e73b546",
+    "src/agentbridge/src/main/java/com/mcagent/bridge/util/ClientThread.java": "651f9a8895a195681aaa902a764b6c36808821f013ded2c5e71a8a7811442ed1",
+    "src/agentbridge/src/main/resources/META-INF/neoforge.mods.toml": "9013179e70548c82475b8c30389662422b16fecd761316b071163f79a19b8633",
+    "src/agentbridge/src/main/resources/agentbridge-build.properties": "3fca10e2d24d20a71bf3c1572d420b71d10b3cc264a86617d323fb9081045f32",
+    "src/agentbridge/src/main/resources/agentbridge.mixins.json": "1decf156e0a3c361cc5574d874d31d899dfcb9edbcffd2dd498c2a4df9e92270",
+    "src/agentbridge/src/test/java/com/mcagent/bridge/CoordinateExposureLockTest.java": "f1ebdb05c14e71f94d7f801a0779e1fbe76b6df5250ef8f2fb10638895fdf815"
+  }
+}

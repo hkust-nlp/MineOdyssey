@@ -1,0 +1,126 @@
+# 回归我们最初选择的、最稳的 NVIDIA 基础镜像
+FROM docker.io/nvidia/opengl:1.2-glvnd-devel-ubuntu22.04
+
+# 1. 设置非交互模式
+ENV DEBIAN_FRONTEND=noninteractive
+
+# 2. 安装 Java 21、Xvfb、Xorg 和基础依赖
+RUN apt-get update && apt-get install -y \
+    openjdk-21-jdk \
+    python3-pip \
+    xvfb \
+    xserver-xorg-core \
+    xserver-xorg-video-dummy \
+    x11-utils \
+    x11-apps \
+    imagemagick \
+    xdotool \
+    wget \
+    curl \
+    file \
+    libglu1-mesa \
+    libegl1-mesa \
+    libgl1-mesa-glx \
+    libglx-mesa0 \
+    mesa-utils \
+    libx11-6 \
+    libxext6 \
+    libxtst6 \
+    kmod \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# 2.5. 安装 Python 依赖
+RUN pip3 install portablemc flask requests openai && portablemc -h
+
+# 2.6. 安装 mcrcon (Minecraft RCON 客户端, 用于 wait_server_ready / data get entity 等)
+RUN wget --timeout=30 --tries=3 \
+    https://github.com/Tiiffi/mcrcon/releases/download/v0.7.2/mcrcon-0.7.2-linux-x86-64.tar.gz \
+    -O /tmp/mcrcon.tgz \
+    && tar xzf /tmp/mcrcon.tgz -C /tmp \
+    && install -m 0755 /tmp/mcrcon /usr/local/bin/mcrcon \
+    && rm -f /tmp/mcrcon.tgz /tmp/mcrcon /tmp/README.md /tmp/LICENSE /tmp/CHANGELOG.md \
+    && mcrcon -v
+
+# 3. 安装 VirtualGL (核心补丁)
+# 基础镜像提供了驱动接口，VirtualGL 负责把游戏的渲染指令"翻译"给驱动
+RUN wget --timeout=30 --tries=3 \
+    https://sourceforge.net/projects/virtualgl/files/3.1/virtualgl_3.1_amd64.deb/download \
+    -O virtualgl.deb \
+    && file virtualgl.deb | grep -q "Debian binary package" \
+    && dpkg -i virtualgl.deb \
+    && apt-get install -f -y \
+    && which vglrun \
+    && vglrun --help \
+    && rm virtualgl.deb
+
+# 4. 设置环境变量，确保 nvidia-smi 和 vglrun 都能直接用
+ENV PATH=$PATH:/opt/VirtualGL/bin
+# 将 NVIDIA 库路径放在最前面，确保优先使用 GPU 渲染
+ENV LD_LIBRARY_PATH=/usr/lib64:/opt/VirtualGL/lib64:/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
+
+# Bypass any host-injected HTTP_PROXY/HTTPS_PROXY for localhost:
+# AgentBridge/RCON/remote_bash all listen on 127.0.0.1, so requests must not be proxied.
+# Both upper- and lowercase are needed (Python requests honours either).
+ENV NO_PROXY=127.0.0.1,localhost,::1
+ENV no_proxy=127.0.0.1,localhost,::1
+
+WORKDIR /app
+
+
+# FROM ubuntu:24.04
+
+# ENV DEBIAN_FRONTEND=noninteractive
+# ENV NVIDIA_VISIBLE_DEVICES=all
+# ENV NVIDIA_DRIVER_CAPABILITIES=graphics,utility
+
+# RUN apt-get update && apt-get install -y \
+#     openjdk-21-jdk \
+#     xvfb \
+#     xserver-xorg-core \
+#     xserver-xorg-video-dummy \
+#     x11-utils \
+#     x11-apps \
+#     imagemagick \
+#     xdotool \
+#     wget \
+#     curl \
+#     file \
+#     # OpenGL 库（Ubuntu 24.04 正确包名）
+#     libglu1-mesa \
+#     libegl1 \
+#     libgl1 \
+#     libglx0 \
+#     libglvnd0 \
+#     libglvnd-dev \
+#     libgles2 \
+#     mesa-utils \
+#     mesa-vulkan-drivers \
+#     libx11-6 \
+#     libxext6 \
+#     libxtst6 \
+#     kmod \
+#     # 虚拟音频设备（解决 ALSA 无声卡问题）
+#     pulseaudio \
+#     && apt-get clean && rm -rf /var/lib/apt/lists/*   
+
+# # PortableMC v5.0.0 (Rust)
+# RUN wget --timeout=30 --tries=3 \    
+#     https://github.com/mindstorm38/portablemc/releases/download/v5.0.0/portablemc-5.0.0-linux-x86_64.tar.gz \    
+#     -O /tmp/portablemc.tar.gz \    
+#     && tar -xzf /tmp/portablemc.tar.gz -C /tmp/ \    
+#     && mv /tmp/portablemc-5.0.0-linux-x86_64/portablemc /usr/local/bin/portablemc \    
+#     && chmod +x /usr/local/bin/portablemc \    
+#     && rm -rf /tmp/portablemc.tar.gz /tmp/portablemc-5.0.0-linux-x86_64 \    
+#     && portablemc --version  
+
+# # VirtualGL
+# RUN wget --timeout=30 --tries=3 \   
+#     https://sourceforge.net/projects/virtualgl/files/3.1/virtualgl_3.1_amd64.deb/download \   
+#     -O virtualgl.deb \   
+#     && dpkg -i virtualgl.deb || apt-get install -f -y \   
+#     && rm virtualgl.deb
+
+# ENV PATH=$PATH:/opt/VirtualGL/bin  
+# ENV LD_LIBRARY_PATH=/usr/lib64:/opt/VirtualGL/lib64:/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH  
+
+# WORKDIR /app

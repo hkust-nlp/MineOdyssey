@@ -1,0 +1,24 @@
+{
+  "smelt_item:baked_potato": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [-1838, 72, 30501]
+      }
+    ],
+    "need_furnace": true,
+    "init_inventory": [
+      {
+        "quantity": ">=1",
+        "slot": "random",
+        "type": "potato"
+      },
+      {
+        "quantity": ">3",
+        "slot": "random",
+        "type": "coal"
+      }
+    ],
+    "goal": "baked_potato"
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "map_id": "copacabana-waterfront",
+  "quality_status": "partial_legacy_validation_needs_strict_retest",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/copacabana-waterfront-formal-20-routes.json",
+    "sha256": "6bf9d7252c1800840f481bd08939e755aad60dbca412f6faa1b2e0c1bb397719"
+  },
+  "waypoint_count": 20,
+  "waypoints": [
+    {
+      "id": "COPW-01",
+      "name": "Praia de Copacabana",
+      "position": {
+        "x": -1751,
+        "y": -14,
+        "z": 394
+      },
+      "route_ids": [
+        "copa-route-19"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-02",
+      "name": "Edifício residencial de Copacabana",
+      "position": {
+        "x": -2086,
+        "y": -14,
+        "z": 406
+      },
+      "route_ids": [
+        "copa-route-02"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-03",
+      "name": "Arena Copacabana Hotel",
+      "position": {
+        "x": -2102,
+        "y": -14,
+        "z": 414
+      },
+      "route_ids": [
+        "copa-route-19"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-07",
+      "name": "Escola Municipal Doutor Cícero Penna",
+      "position": {
+        "x": -2036,
+        "y": -14,
+        "z": 374
+      },
+      "route_ids": [
+        "copa-route-02"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-11",
+      "name": "Sicoob",
+      "position": {
+        "x": -1959,
+        "y": -14,
+        "z": 340
+      },
+      "route_ids": [
+        "copa-route-02",
+        "copa-route-11"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-12",
+      "name": "Hotel Astoria Palace",
+      "position": {
+        "x": -1927,
+        "y": -14,
+        "z": 333
+      },
+      "route_ids": [
+        "copa-route-03"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-13",
+      "name": "Maxim's Rio - (Copacabana)",
+      "position": {
+        "x": -1911,
+        "y": -14,
+        "z": 332
+      },
+      "route_ids": [
+        "copa-route-03"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-16",
+      "name": "Restaurante Windsor Excelsior",
+      "position": {
+        "x": -1877,
+        "y": -14,
+        "z": 307
+      },
+      "route_ids": [
+        "copa-route-03"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-17",
+      "name": "Banco Safra - Ag. 0199 - Copacabana",
+      "position": {
+        "x": -1868,
+        "y": -14,
+        "z": 297
+      },
+      "route_ids": [
+        "copa-route-03",
+        "copa-route-11"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-18",
+      "name": "LUCCI Atelier",
+      "position": {
+        "x": -1860,
+        "y": -14,
+        "z": 293
+      },
+      "route_ids": [
+        "copa-route-11"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-19",
+      "name": "Sauer - (Copacabana)",
+      "position": {
+        "x": -1842,
+        "y": -14,
+        "z": 286
+      },
+      "route_ids": [
+        "copa-route-11"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-20",
+      "name": "Copacabana Palace, A Belmond Hotel",
+      "position": {
+        "x": -1760,
+        "y": -14,
+        "z": 243
+      },
+      "route_ids": [
+        "copa-route-19"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-21",
+      "name": "Ponto de ônibus",
+      "position": {
+        "x": -1721,
+        "y": -14,
+        "z": 258
+      },
+      "route_ids": [
+        "copa-route-12"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-22",
+      "name": "VitaFit",
+      "position": {
+        "x": -1714,
+        "y": -14,
+        "z": 215
+      },
+      "route_ids": [
+        "copa-route-11",
+        "copa-route-12"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-23",
+      "name": "Palace Academia - (Copacabana)",
+      "position": {
+        "x": -1698,
+        "y": -14,
+        "z": 228
+      },
+      "route_ids": [
+        "copa-route-12"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-24",
+      "name": "RioSouth Bicicletas",
+      "position": {
+        "x": -1682,
+        "y": -14,
+        "z": 219
+      },
+      "route_ids": [
+        "copa-route-12"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-25",
+      "name": "School of Rock Copacabana",
+      "position": {
+        "x": -1662,
+        "y": -14,
+        "z": 214
+      },
+      "route_ids": [
+        "copa-route-12"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-30",
+      "name": "Hotel Rio Lancaster",
+      "position": {
+        "x": -1559,
+        "y": -14,
+        "z": 172
+      },
+      "route_ids": [
+        "copa-route-19"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-32",
+      "name": "Hotel Atlântico Praia",
+      "position": {
+        "x": -1544,
+        "y": -14,
+        "z": 166
+      },
+      "route_ids": [
+        "copa-route-02"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "COPW-33",
+      "name": "FLClean Lavagem a Seco",
+      "position": {
+        "x": -1525,
+        "y": -14,
+        "z": 163
+      },
+      "route_ids": [
+        "copa-route-19"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    }
+  ]
+}

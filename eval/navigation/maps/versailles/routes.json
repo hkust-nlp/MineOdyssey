@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "map_id": "versailles",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "custom_maps/maps/inter_map/versailles/routes.json",
+    "sha256": "ac05143a6cbd7290d65312b39d022ac3218ad14fc910054821f10ef086bed8d2"
+  },
+  "quality_status": "semantically_reviewed_owner_approved",
+  "upload_recommendation": "routes_ready_for_runtime_validation",
+  "route_count": 4,
+  "routes": [
+    {
+      "id": "ver-route-06-07",
+      "title": "Des appartements du Roi au salon de la Paix",
+      "title_local": "Des appartements du Roi au salon de la Paix",
+      "title_zh": "国王寝宫至战争厅、镜厅与和平厅",
+      "prompt_language": "fr-FR",
+      "prompt_local": "Après la visite des appartements du Roi, partez de la Salle des Gardes du Roi, passez par la Chambre du Roi et le Cabinet du Conseil, puis gagnez le Salon de la Guerre. Traversez ensuite la Grande Galerie et terminez dans le Salon de la Paix.",
+      "prompt_zh": "完成国王寝宫参观后，从 Salle des Gardes du Roi 出发，经过 Chambre du Roi 和 Cabinet du Conseil 前往 Salon de la Guerre；随后穿过 Grande Galerie，最后抵达 Salon de la Paix。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "VER-WP-07",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "VER-WP-17",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "VER-WP-10",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "VER-WP-16",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "VER-WP-18",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "VER-WP-19",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ver-route-06-07-segment-01",
+          "from": "VER-WP-07",
+          "to": "VER-WP-17"
+        },
+        {
+          "id": "ver-route-06-07-segment-02",
+          "from": "VER-WP-17",
+          "to": "VER-WP-10"
+        },
+        {
+          "id": "ver-route-06-07-segment-03",
+          "from": "VER-WP-10",
+          "to": "VER-WP-16"
+        },
+        {
+          "id": "ver-route-06-07-segment-04",
+          "from": "VER-WP-16",
+          "to": "VER-WP-18"
+        },
+        {
+          "id": "ver-route-06-07-segment-05",
+          "from": "VER-WP-18",
+          "to": "VER-WP-19"
+        }
+      ]
+    },
+    {
+      "id": "ver-route-08-09",
+      "title": "De l'Opéra royal aux salles d'art",
+      "title_local": "De l'Opéra royal aux salles d'art",
+      "title_zh": "皇家歌剧院、礼拜堂与艺术空间巡礼",
+      "prompt_language": "fr-FR",
+      "prompt_local": "Partez de l'Opéra Royal de Versailles et rejoignez la Chapelle Royale en passant par la Galerie de l’Histoire du Château. Poursuivez ensuite par le Salon d'Hercule et le Salon de l'Abondance, puis terminez au Cabinet des Tableaux.",
+      "prompt_zh": "从 Opéra Royal de Versailles 出发，经 Galerie de l’Histoire du Château 前往 Chapelle Royale；随后依次参观 Salon d'Hercule、Salon de l'Abondance，最后到达 Cabinet des Tableaux。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "VER-WP-02",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "VER-WP-01",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "VER-WP-08",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "VER-WP-05",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "VER-WP-04",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "VER-WP-03",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ver-route-08-09-segment-01",
+          "from": "VER-WP-02",
+          "to": "VER-WP-01"
+        },
+        {
+          "id": "ver-route-08-09-segment-02",
+          "from": "VER-WP-01",
+          "to": "VER-WP-08"
+        },
+        {
+          "id": "ver-route-08-09-segment-03",
+          "from": "VER-WP-08",
+          "to": "VER-WP-05"
+        },
+        {
+          "id": "ver-route-08-09-segment-04",
+          "from": "VER-WP-05",
+          "to": "VER-WP-04"
+        },
+        {
+          "id": "ver-route-08-09-segment-05",
+          "from": "VER-WP-04",
+          "to": "VER-WP-03"
+        }
+      ]
+    },
+    {
+      "id": "ver-route-10",
+      "title": "Parcours complet du Grand Appartement du Roi",
+      "title_local": "Parcours complet du Grand Appartement du Roi",
+      "title_zh": "国王大套间完整巡礼",
+      "prompt_language": "fr-FR",
+      "prompt_local": "Afin de visiter systématiquement la Suite du Roi, partez de Salon d'Hercule, passez par Vénus, Diane, Mars et Mercure, et arrivez enfin à Salon d'Apollon.",
+      "prompt_zh": "为了系统参观国王大套间，从 Salon d'Hercule 出发，依次经过 Vénus、Diane、Mars 和 Mercure，最终到 Salon d'Apollon。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "VER-WP-05",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "VER-WP-06",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "VER-WP-12",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "VER-WP-13",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "VER-WP-14",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "VER-WP-15",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ver-route-10-segment-01",
+          "from": "VER-WP-05",
+          "to": "VER-WP-06"
+        },
+        {
+          "id": "ver-route-10-segment-02",
+          "from": "VER-WP-06",
+          "to": "VER-WP-12"
+        },
+        {
+          "id": "ver-route-10-segment-03",
+          "from": "VER-WP-12",
+          "to": "VER-WP-13"
+        },
+        {
+          "id": "ver-route-10-segment-04",
+          "from": "VER-WP-13",
+          "to": "VER-WP-14"
+        },
+        {
+          "id": "ver-route-10-segment-05",
+          "from": "VER-WP-14",
+          "to": "VER-WP-15"
+        }
+      ]
+    },
+    {
+      "id": "ver-route-13",
+      "title": "De la salle du Congrès aux appartements de la Reine",
+      "title_local": "De la salle du Congrès aux appartements de la Reine",
+      "title_zh": "国会厅到王后套间",
+      "prompt_language": "fr-FR",
+      "prompt_local": "Afin de comprendre les changements de la politique et de la vie royale de Versailles, voyagez de Salle du Congrès à Salle des Gardes de la Reine, en passant par Grand Couvert et Salon des Nobles, jusqu'à Chambre de la Reine.",
+      "prompt_zh": "为了了解凡尔赛政治与王室生活变迁，从 Salle du Congrès 前往 Salle des Gardes de la Reine，经 Grand Couvert 和 Salon des Nobles，抵达 Chambre de la Reine。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "VER-WP-09",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "VER-WP-23",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "VER-WP-22",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "VER-WP-21",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "VER-WP-20",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ver-route-13-segment-01",
+          "from": "VER-WP-09",
+          "to": "VER-WP-23"
+        },
+        {
+          "id": "ver-route-13-segment-02",
+          "from": "VER-WP-23",
+          "to": "VER-WP-22"
+        },
+        {
+          "id": "ver-route-13-segment-03",
+          "from": "VER-WP-22",
+          "to": "VER-WP-21"
+        },
+        {
+          "id": "ver-route-13-segment-04",
+          "from": "VER-WP-21",
+          "to": "VER-WP-20"
+        }
+      ]
+    }
+  ]
+}

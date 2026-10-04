@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "map_id": "santa-lucia-hill",
+  "quality_status": "verified_routes_one_unrouted_waypoint",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/santa-lucia-hill-strict-reachable-routes.json",
+    "sha256": "b053e2300f725c54b0e617eac82091e92fd893ec34e4c57246e6d4a3bf49187e"
+  },
+  "waypoint_count": 22,
+  "waypoints": [
+    {
+      "id": "SLW-01",
+      "name": "Edificio Santa Lucía",
+      "position": {
+        "x": 2548,
+        "y": -13,
+        "z": -559
+      },
+      "route_ids": [
+        "santa-route-01",
+        "santa-route-04"
+      ],
+      "initials": null,
+      "color": 16,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-02",
+      "name": "Parque Pedro de Valdivia",
+      "position": {
+        "x": 2743,
+        "y": 34,
+        "z": -681
+      },
+      "route_ids": [
+        "santa-route-03"
+      ],
+      "initials": null,
+      "color": 11,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-03",
+      "name": "Terraza Las Niñas",
+      "position": {
+        "x": 2672,
+        "y": 25,
+        "z": -527
+      },
+      "route_ids": [
+        "santa-route-02"
+      ],
+      "initials": null,
+      "color": 18,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-04",
+      "name": "Hostal Santa Lucía",
+      "position": {
+        "x": 2588,
+        "y": -12,
+        "z": -625
+      },
+      "route_ids": [
+        "santa-route-04"
+      ],
+      "initials": null,
+      "color": 3,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-05",
+      "name": "Archivo Nacional de Chile",
+      "position": {
+        "x": 2527,
+        "y": -14,
+        "z": -469
+      },
+      "route_ids": [
+        "santa-route-05"
+      ],
+      "initials": null,
+      "color": 9,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-06",
+      "name": "Biblioteca Nacional de Chile",
+      "position": {
+        "x": 2461,
+        "y": -13,
+        "z": -411
+      },
+      "route_ids": [
+        "santa-route-01"
+      ],
+      "initials": null,
+      "color": 5,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-08",
+      "name": "Estatua de Caupolicán",
+      "position": {
+        "x": 2655,
+        "y": 26,
+        "z": -572
+      },
+      "route_ids": [
+        "santa-route-03"
+      ],
+      "initials": null,
+      "color": 2,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-09",
+      "name": "Puerta Española",
+      "position": {
+        "x": 2660,
+        "y": 23,
+        "z": -552
+      },
+      "route_ids": [
+        "santa-route-02"
+      ],
+      "initials": null,
+      "color": 11,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-10",
+      "name": "Fuente Neptuno",
+      "position": {
+        "x": 2665,
+        "y": -3,
+        "z": -470
+      },
+      "route_ids": [
+        "santa-route-02",
+        "santa-route-04"
+      ],
+      "initials": null,
+      "color": 0,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-11",
+      "name": "Monumento a Benjamín Vicuña Mackenna",
+      "position": {
+        "x": 2583,
+        "y": -13,
+        "z": -453
+      },
+      "route_ids": [
+        "santa-route-03",
+        "santa-route-04"
+      ],
+      "initials": null,
+      "color": 7,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-12",
+      "name": "Castillo Hidalgo",
+      "position": {
+        "x": 2777,
+        "y": 20,
+        "z": -753
+      },
+      "route_ids": [
+        "santa-route-05"
+      ],
+      "initials": null,
+      "color": 11,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-14",
+      "name": "Grafiti Ferchu – lado este",
+      "position": {
+        "x": 2570,
+        "y": -17,
+        "z": -546
+      },
+      "route_ids": [],
+      "initials": null,
+      "color": 7,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-15",
+      "name": "Letrero de la palmera",
+      "position": {
+        "x": 2641,
+        "y": -11,
+        "z": -387
+      },
+      "route_ids": [],
+      "initials": null,
+      "color": 7,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-16",
+      "name": "Terraza Neptuno",
+      "position": {
+        "x": 2678,
+        "y": 2,
+        "z": -484
+      },
+      "route_ids": [
+        "santa-route-03",
+        "santa-route-04"
+      ],
+      "initials": null,
+      "color": 10,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-17",
+      "name": "Ermita Vicuña Mackenna",
+      "position": {
+        "x": 2687,
+        "y": 39,
+        "z": -599
+      },
+      "route_ids": [
+        "santa-route-03"
+      ],
+      "initials": null,
+      "color": 10,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-19",
+      "name": "Plaza Pedro de Valdivia – sector A",
+      "position": {
+        "x": 2713,
+        "y": 25,
+        "z": -547
+      },
+      "route_ids": [],
+      "initials": null,
+      "color": 10,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-20",
+      "name": "Terraza Portales",
+      "position": {
+        "x": 2749,
+        "y": 38,
+        "z": -618
+      },
+      "route_ids": [
+        "santa-route-03"
+      ],
+      "initials": null,
+      "color": 10,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-21",
+      "name": "Monumento a Pedro de Valdivia",
+      "position": {
+        "x": 2747,
+        "y": 33,
+        "z": -673
+      },
+      "route_ids": [
+        "santa-route-01"
+      ],
+      "initials": null,
+      "color": 10,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-22",
+      "name": "Señal de la ruta de Caupolicán",
+      "position": {
+        "x": 2761,
+        "y": 11,
+        "z": -782
+      },
+      "route_ids": [],
+      "initials": null,
+      "color": 10,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-24",
+      "name": "Jardín Circular",
+      "position": {
+        "x": 2792,
+        "y": 6,
+        "z": -802
+      },
+      "route_ids": [
+        "santa-route-02",
+        "santa-route-05"
+      ],
+      "initials": null,
+      "color": 10,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-25",
+      "name": "Letrero de Pedro de Valdivia",
+      "position": {
+        "x": 2791,
+        "y": -8,
+        "z": -480
+      },
+      "route_ids": [
+        "santa-route-04"
+      ],
+      "initials": null,
+      "color": 7,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "SLW-27",
+      "name": "Jardín Japonés",
+      "position": {
+        "x": 2824,
+        "y": 0,
+        "z": -795
+      },
+      "route_ids": [
+        "santa-route-01",
+        "santa-route-05"
+      ],
+      "initials": null,
+      "color": 10,
+      "source": "current_enabled_xaero_waypoint"
+    }
+  ]
+}

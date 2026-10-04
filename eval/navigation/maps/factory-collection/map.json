@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "map_id": "factory-collection",
+  "display_name": "Factory Collection",
+  "environment": "mixed",
+  "source": {
+    "repository": "anonymous/source",
+    "provenance": {
+      "kind": "git-lfs-world-materialized-as-local-source-archive",
+      "git_commit": "0000000000000000000000000000000000000000",
+      "git_path": "custom_maps/maps/inter_map/factory_collection"
+    },
+    "asset_name": "factory_collection.zip",
+    "archive_path": "factory_collection.zip",
+    "archive_bytes": 40582605,
+    "archive_sha256": "a7fd1d6cbba9d5c959534e61d90765fc426fe62032485107b1d5ed5069e02587",
+    "world_root": "factory-collection"
+  },
+  "world": {
+    "source_version": {
+      "version_name": "1.20.1",
+      "version_id": 3465,
+      "data_version": 3465
+    },
+    "minecraft_version": "1.21.11",
+    "version_name": "1.21.11",
+    "data_version": 4671,
+    "expected_source_fingerprint": "f5fa2cf48f098e51fc9b633e23e229c527c6fe31f60afc1853daa1cd1a510fb7",
+    "expected_prepared_fingerprint": "5ca2f57c60916409322ca14c3c360eb6f9909b47db65f77eb40bab94e3df78a8",
+    "preparation": {
+      "id": "minecraft-server-force-upgrade-1.21.11-v1",
+      "runtime_profile": "minecraft-1.21.11",
+      "server_arguments": [
+        "--forceUpgrade",
+        "--eraseCache",
+        "nogui"
+      ],
+      "reason": "Preserve the exact modded 1.20.1 source archive, then upgrade one cloned world with the pinned Minecraft 1.21.11 / NeoForge 21.11.44 server and save it as the immutable prepared snapshot. The target runtime does not include the source Create, MTR, or Valkyrien Ships mods, so visual review is required for missing factory and railway content."
+    }
+  },
+  "compatibility": {
+    "status": "server_start_verified_visual_review_required",
+    "source_features": [
+      "create",
+      "mtr",
+      "valkyrien-ships"
+    ],
+    "upgrade_warnings": [
+      "missing source Fabric data pack",
+      "legacy Axiom gamerules rejected",
+      "legacy random_sequences saved data rejected"
+    ],
+    "note": "A successful 1.21.11 server start does not prove that modded factory blocks, railway data, or moving structures survived the upgrade."
+  },
+  "license": {
+    "scope": "evaluation-only source archive",
+    "redistribution": "not granted by this manifest",
+    "note": "Keep the source ZIP and extracted source world outside Git; preserve the upstream Git provenance and any bundled terms."
+  }
+}

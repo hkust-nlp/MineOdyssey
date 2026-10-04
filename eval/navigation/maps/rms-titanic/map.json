@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "map_id": "rms-titanic",
+  "display_name": "RMS Titanic",
+  "environment": "indoor",
+  "source": {
+    "repository": "anonymous/source",
+    "provenance": {
+      "kind": "git-lfs-world-materialized-as-local-source-archive",
+      "git_commit": "0000000000000000000000000000000000000000",
+      "git_path": "custom_maps/maps/inter_map/rms_titanic"
+    },
+    "asset_name": "rms_titanic.zip",
+    "archive_path": "rms_titanic.zip",
+    "archive_bytes": 9537920,
+    "archive_sha256": "d991ddbf398b1d396c846a68bdb2b17afd27eca36f4111429fdc3891db696658",
+    "world_root": "rms_titanic"
+  },
+  "world": {
+    "source_version": {
+      "version_name": "1.15.2",
+      "data_version": 2230
+    },
+    "minecraft_version": "1.21.11",
+    "version_name": "1.21.11",
+    "data_version": 4671,
+    "expected_source_fingerprint": "ef61379ff2e9e77a5e56626f83a29a7f46d576b9db0c8755eb270c746f8f7b96",
+    "expected_prepared_fingerprint": "6ca1f7131e5b7d8f8d2dbaf90512a3e93cd1ab7973be52aa66dc3924dcd828b8",
+    "preparation": {
+      "id": "minecraft-server-force-upgrade-1.21.11-v1",
+      "runtime_profile": "minecraft-1.21.11",
+      "server_arguments": [
+        "--forceUpgrade",
+        "--eraseCache",
+        "nogui"
+      ],
+      "reason": "Preserve the exact source archive, then upgrade one cloned world with the pinned Minecraft 1.21.11 / NeoForge 21.11.44 server and save it as the immutable prepared snapshot."
+    }
+  },
+  "license": {
+    "scope": "evaluation-only source archive",
+    "redistribution": "not granted by this manifest",
+    "note": "Keep the source ZIP and extracted source world outside Git; preserve the upstream Git provenance and any bundled terms."
+  }
+}

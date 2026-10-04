@@ -1,0 +1,33 @@
+license="All Rights Reserved"
+
+[[mods]]
+modId="ground_navigation"
+version="0.1.0"
+displayName="Ground Navigation"
+authors="mcbots"
+description='''
+Shows Baritone's planned path as a ground-level navigation trail.
+'''
+
+[[dependencies.ground_navigation]]
+modId="neoforge"
+type="required"
+versionRange="[21.11.42,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.ground_navigation]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.11]"
+ordering="NONE"
+side="CLIENT"
+
+# The installed Baritone 1.17.0 artifact declares the historical "baritoe"
+# mod id. Keep it optional so other Baritone distributions can also work.
+[[dependencies.ground_navigation]]
+modId="baritoe"
+type="optional"
+versionRange="[1.17.0,)"
+ordering="AFTER"
+side="CLIENT"

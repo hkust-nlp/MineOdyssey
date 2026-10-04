@@ -1,0 +1,476 @@
+{
+  "schema_version": 1,
+  "map_id": "ohrid",
+  "waypoint_count": 33,
+  "quality_status": "reviewed_current_33_waypoints_five_routes_pending_baritone_validation",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/ohrid-current-15-routes.json",
+    "sha256": "3ebf2af585c6c9026dccd44e12a9514bf545bdcad19e627452799f73fd27614d"
+  },
+  "waypoints": [
+    {
+      "id": "OHRID-LIVE-01",
+      "name": "Хотел Де Лаго",
+      "position": {
+        "x": 53,
+        "y": -6,
+        "z": 57
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-02"
+      ],
+      "initials": "Х",
+      "color": 11
+    },
+    {
+      "id": "OHRID-LIVE-02",
+      "name": "Stars - Pearls & Silver",
+      "position": {
+        "x": 69,
+        "y": -6,
+        "z": 51
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-01"
+      ],
+      "initials": "S",
+      "color": 12
+    },
+    {
+      "id": "OHRID-LIVE-03",
+      "name": "Luciano Wine Bar & Apartments",
+      "position": {
+        "x": 71,
+        "y": -6,
+        "z": 54
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-02"
+      ],
+      "initials": "L",
+      "color": 5
+    },
+    {
+      "id": "OHRID-LIVE-04",
+      "name": "Апартман Тилеви",
+      "position": {
+        "x": 93,
+        "y": -6,
+        "z": 50
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-02"
+      ],
+      "initials": "B",
+      "color": 14
+    },
+    {
+      "id": "OHRID-LIVE-05",
+      "name": "Соба на 3 кат кај плоштад Лихнидос",
+      "position": {
+        "x": 100,
+        "y": 2,
+        "z": 71
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-02"
+      ],
+      "initials": "L",
+      "color": 13
+    },
+    {
+      "id": "OHRID-LIVE-06",
+      "name": "Лори",
+      "position": {
+        "x": 44,
+        "y": -6,
+        "z": 58
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-02"
+      ],
+      "initials": "Л",
+      "color": 10
+    },
+    {
+      "id": "OHRID-LIVE-07",
+      "name": "Ле Пети Бистро Лихнидос",
+      "position": {
+        "x": 121,
+        "y": -6,
+        "z": 75
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-04"
+      ],
+      "initials": "L",
+      "color": 4
+    },
+    {
+      "id": "OHRID-LIVE-08",
+      "name": "Ресторан „Томато“",
+      "position": {
+        "x": 134,
+        "y": -6,
+        "z": 64
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-04"
+      ],
+      "initials": "R",
+      "color": 7
+    },
+    {
+      "id": "OHRID-LIVE-09",
+      "name": "Кафе Галерија",
+      "position": {
+        "x": 151,
+        "y": -6,
+        "z": 24
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-03"
+      ],
+      "initials": "C",
+      "color": 16
+    },
+    {
+      "id": "OHRID-LIVE-10",
+      "name": "Галерија Хаус",
+      "position": {
+        "x": 132,
+        "y": -6,
+        "z": 15
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-01"
+      ],
+      "initials": "G",
+      "color": 8
+    },
+    {
+      "id": "OHRID-LIVE-11",
+      "name": "Споменик на Св.Климент Охридски",
+      "position": {
+        "x": 175,
+        "y": -5,
+        "z": 61
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-04"
+      ],
+      "initials": "С",
+      "color": 3
+    },
+    {
+      "id": "OHRID-LIVE-12",
+      "name": "Банкомат Комерцијална банка",
+      "position": {
+        "x": 197,
+        "y": -5,
+        "z": 55
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-04"
+      ],
+      "initials": "A",
+      "color": 8
+    },
+    {
+      "id": "OHRID-LIVE-13",
+      "name": "Di Angolo Pizzeria",
+      "position": {
+        "x": 121,
+        "y": -6,
+        "z": 16
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-01"
+      ],
+      "initials": "D",
+      "color": 17
+    },
+    {
+      "id": "OHRID-LIVE-14",
+      "name": "SRNA",
+      "position": {
+        "x": 88,
+        "y": -6,
+        "z": 48
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-01"
+      ],
+      "initials": "S",
+      "color": 18
+    },
+    {
+      "id": "OHRID-LIVE-15",
+      "name": "Охридски бисери Филеви",
+      "position": {
+        "x": 101,
+        "y": -6,
+        "z": 41
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-01"
+      ],
+      "initials": "O",
+      "color": 13
+    },
+    {
+      "id": "OHRID-LIVE-16",
+      "name": "Ресторан и лаунџ Долна Порта",
+      "position": {
+        "x": 62,
+        "y": -6,
+        "z": 82
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-03"
+      ],
+      "initials": "D",
+      "color": 6
+    },
+    {
+      "id": "OHRID-LIVE-17",
+      "name": "Port Villa",
+      "position": {
+        "x": 82,
+        "y": -6,
+        "z": 81
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-03"
+      ],
+      "initials": "P",
+      "color": 9
+    },
+    {
+      "id": "OHRID-LIVE-18",
+      "name": "Bro's Burger Station",
+      "position": {
+        "x": 71,
+        "y": -6,
+        "z": 73
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-02"
+      ],
+      "initials": "B",
+      "color": 16
+    },
+    {
+      "id": "OHRID-LIVE-19",
+      "name": "Плоштад Долна Порта",
+      "position": {
+        "x": 17,
+        "y": -5,
+        "z": 106
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-01"
+      ],
+      "initials": "L",
+      "color": 1
+    },
+    {
+      "id": "OHRID-LIVE-20",
+      "name": "Плоштад Лихнидос",
+      "position": {
+        "x": 92,
+        "y": -6,
+        "z": 86
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-02"
+      ],
+      "initials": "L",
+      "color": 3
+    },
+    {
+      "id": "OHRID-LIVE-22",
+      "name": "Споменик на Свети Наум Охридски",
+      "position": {
+        "x": 126,
+        "y": -6,
+        "z": 102
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-05"
+      ],
+      "initials": "M",
+      "color": 5
+    },
+    {
+      "id": "OHRID-LIVE-24",
+      "name": "Hostel di Angollo",
+      "position": {
+        "x": 126,
+        "y": -6,
+        "z": 41
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-03"
+      ],
+      "initials": "T",
+      "color": 8
+    },
+    {
+      "id": "OHRID-LIVE-25",
+      "name": "Пристаниште Охрид",
+      "position": {
+        "x": 61,
+        "y": -3,
+        "z": 204
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-05"
+      ],
+      "initials": "P",
+      "color": 20
+    },
+    {
+      "id": "OHRID-LIVE-28",
+      "name": "Капетанија на пристаништето",
+      "position": {
+        "x": 90,
+        "y": -6,
+        "z": 96
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-05"
+      ],
+      "initials": "C",
+      "color": 5
+    },
+    {
+      "id": "OHRID-LIVE-29",
+      "name": "Sliver",
+      "position": {
+        "x": 110,
+        "y": -6,
+        "z": 66
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-01"
+      ],
+      "initials": "S",
+      "color": 8
+    },
+    {
+      "id": "OHRID-LIVE-31",
+      "name": "Плоштад „Св. Климент Охридски“",
+      "position": {
+        "x": 172,
+        "y": -5,
+        "z": 59
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-04"
+      ],
+      "initials": "SC",
+      "color": 12
+    },
+    {
+      "id": "OHRID-LIVE-39",
+      "name": "Балкон на 4 кат во хотел „Александрија“",
+      "position": {
+        "x": 42,
+        "y": 8,
+        "z": 99
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-03"
+      ],
+      "initials": "HA",
+      "color": 4
+    },
+    {
+      "id": "OHRID-LIVE-42",
+      "name": "Тераса на соба 1, 4 кат, хотел „Александрија“",
+      "position": {
+        "x": 40,
+        "y": 8,
+        "z": 103
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-04"
+      ],
+      "initials": "HA",
+      "color": 8
+    },
+    {
+      "id": "OHRID-LIVE-55",
+      "name": "Надворешна тераса на ресторан Александрија",
+      "position": {
+        "x": 39,
+        "y": -6,
+        "z": 115
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-03"
+      ],
+      "initials": "RA",
+      "color": 2
+    },
+    {
+      "id": "OHRID-LIVE-56",
+      "name": "Езерска тераса на ресторан Александрија",
+      "position": {
+        "x": 42,
+        "y": -6,
+        "z": 111
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-05"
+      ],
+      "initials": "RA",
+      "color": 17
+    },
+    {
+      "id": "OHRID-LIVE-57",
+      "name": "Јавно седење покрај езерото",
+      "position": {
+        "x": 79,
+        "y": -6,
+        "z": 111
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-05"
+      ],
+      "initials": "ЈС",
+      "color": 9
+    },
+    {
+      "id": "OHRID-LIVE-58",
+      "name": "Вила Цун, 2 кат",
+      "position": {
+        "x": 67,
+        "y": -2,
+        "z": 93
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-05"
+      ],
+      "initials": "C",
+      "color": 2
+    },
+    {
+      "id": "OHRID-LIVE-64",
+      "name": "Цветна леха во паркот на плоштад „Св. Климент“",
+      "position": {
+        "x": 179,
+        "y": -6,
+        "z": 116
+      },
+      "route_ids": [
+        "ohrid-reviewed-route-04"
+      ],
+      "initials": "SC",
+      "color": 3
+    }
+  ]
+}

@@ -1,0 +1,568 @@
+{
+  "schema_version": 1,
+  "map_id": "ohrid",
+  "route_count": 5,
+  "quality_status": "reviewed_current_33_waypoints_five_routes_pending_baritone_validation",
+  "upload_recommendation": "do_not_mark_validated_until_all_redesigned_routes_pass",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/ohrid-current-15-routes.json",
+    "sha256": "3ebf2af585c6c9026dccd44e12a9514bf545bdcad19e627452799f73fd27614d"
+  },
+  "routes": [
+    {
+      "id": "ohrid-reviewed-route-01",
+      "title": "Подароци и средба во стариот град",
+      "title_local": "Подароци и средба во стариот град",
+      "title_zh": "老城购物与朋友会合",
+      "topic_local": "Галерија, локални продавници и Плоштад Долна Порта",
+      "topic_zh": "画廊、当地商店与下城门广场",
+      "actor": "在老城为朋友挑选礼物的游客",
+      "persona_zh": "在老城为朋友挑选礼物的游客",
+      "prompt_language": "mk-MK",
+      "prompt_local": "Поминете едно попладне избирајќи подароци во стариот град. Почнете во «Галерија Хаус», ручајте во «Di Angolo Pizzeria», а потоа разгледајте ги «Охридски бисери Филеви», «Sliver», «SRNA» и «Stars - Pearls & Silver». На крај сретнете се со пријателите на «Плоштад Долна Порта».",
+      "prompt_zh": "用一个下午在老城为朋友挑选礼物：先到「Галерија Хаус」，在「Di Angolo Pizzeria」吃午饭，再逛「Охридски бисери Филеви」、「Sliver」、「SRNA」和「Stars - Pearls & Silver」，最后到「Плоштад Долна Порта」与朋友会合。",
+      "prompt_style": "concise_natural_situational_local_language_with_chinese_review",
+      "route_kind": "normal_route",
+      "task_type": "natural_multi_stop_itinerary",
+      "theme": "画廊、当地商店与下城门广场",
+      "intent": "用一个下午在老城为朋友挑选礼物：先到「Галерија Хаус」，在「Di Angolo Pizzeria」吃午饭，再逛「Охридски бисери Филеви」、「Sliver」、「SRNA」和「Stars - Pearls & Silver」，最后到「Плоштад Долна Порта」与朋友会合。",
+      "semantic_dependency_status": "reviewed_natural_actor_and_stop_order",
+      "semantic_dependency_zh": "同一位游客完成一次连续的老城购物行程，并在购物结束后与朋友会合。",
+      "route_features": [
+        "current_reviewed_waypoints_only",
+        "six_to_seven_points",
+        "no_waypoint_overlap_between_routes",
+        "natural_consistent_actor",
+        "local_language_prompt",
+        "chinese_review_translation"
+      ],
+      "metrics": {
+        "point_count": 7,
+        "unique_point_count": 7,
+        "segment_count": 6,
+        "segment_straight_line_blocks": [
+          11.05,
+          32.02,
+          26.57,
+          28.43,
+          19.24,
+          75.7
+        ],
+        "total_straight_line_blocks": 193.01,
+        "endpoint_straight_line_blocks": 146.65
+      },
+      "validation_status": "pending_baritone_validation_after_route_redesign",
+      "reachability_status": "pending_baritone_validation_after_route_redesign",
+      "validation_note_zh": "使用当前 33 个审核 waypoint 重新规划；路线与连接段尚未重新进行 Baritone 实走验证。",
+      "video_status": "stale_previous_route_video_not_attached_to_new_route_id",
+      "points": [
+        {
+          "waypoint_id": "OHRID-LIVE-10",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-13",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-15",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-29",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-14",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-02",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-19",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ohrid-reviewed-route-01-segment-01",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-10",
+          "to": "OHRID-LIVE-13"
+        },
+        {
+          "id": "ohrid-reviewed-route-01-segment-02",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-13",
+          "to": "OHRID-LIVE-15"
+        },
+        {
+          "id": "ohrid-reviewed-route-01-segment-03",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-15",
+          "to": "OHRID-LIVE-29"
+        },
+        {
+          "id": "ohrid-reviewed-route-01-segment-04",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-29",
+          "to": "OHRID-LIVE-14"
+        },
+        {
+          "id": "ohrid-reviewed-route-01-segment-05",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-14",
+          "to": "OHRID-LIVE-02"
+        },
+        {
+          "id": "ohrid-reviewed-route-01-segment-06",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-02",
+          "to": "OHRID-LIVE-19"
+        }
+      ]
+    },
+    {
+      "id": "ohrid-reviewed-route-02",
+      "title": "Утро со пријателите покрај езерото",
+      "title_local": "Утро со пријателите покрај езерото",
+      "title_zh": "与朋友共度湖滨早晨",
+      "topic_local": "Од сместувањето до заеднички појадок и Плоштад Лихнидос",
+      "topic_zh": "从住宿点集合、吃早午餐到利赫尼多斯广场",
+      "actor": "早晨召集同行朋友一起散步的游客",
+      "persona_zh": "早晨召集同行朋友一起散步的游客",
+      "prompt_language": "mk-MK",
+      "prompt_local": "Излезете од «Соба на 3 кат кај плоштад Лихнидос» и сретнете се со еден пријател кај «Лори». Соберете ги останатите пријатели кај «Хотел Де Лаго», «Luciano Wine Bar & Apartments» и «Апартман Тилеви», појадувајте заедно во «Bro's Burger Station» и завршете со прошетка на «Плоштад Лихнидос».",
+      "prompt_zh": "从「Соба на 3 кат кај плоштад Лихнидос」下楼，在「Лори」与一位朋友会合，再到「Хотел Де Лаго」、「Luciano Wine Bar & Apartments」和「Апартман Тилеви」接上其他同行者。大家一起在「Bro's Burger Station」吃早午餐，最后到「Плоштад Лихнидос」沿湖散步。",
+      "prompt_style": "concise_natural_situational_local_language_with_chinese_review",
+      "route_kind": "normal_route",
+      "task_type": "natural_multi_stop_itinerary",
+      "theme": "从住宿点集合、吃早午餐到利赫尼多斯广场",
+      "intent": "从「Соба на 3 кат кај плоштад Лихнидос」下楼，在「Лори」与一位朋友会合，再到「Хотел Де Лаго」、「Luciano Wine Bar & Apartments」和「Апартман Тилеви」接上其他同行者。大家一起在「Bro's Burger Station」吃早午餐，最后到「Плоштад Лихнидос」沿湖散步。",
+      "semantic_dependency_status": "reviewed_natural_actor_and_stop_order",
+      "semantic_dependency_zh": "同一群朋友从各自住宿点集合，集合完成后一起吃饭并前往湖滨广场。",
+      "route_features": [
+        "current_reviewed_waypoints_only",
+        "six_to_seven_points",
+        "no_waypoint_overlap_between_routes",
+        "natural_consistent_actor",
+        "local_language_prompt",
+        "chinese_review_translation"
+      ],
+      "metrics": {
+        "point_count": 7,
+        "unique_point_count": 7,
+        "segment_count": 6,
+        "segment_straight_line_blocks": [
+          58.04,
+          9.06,
+          18.25,
+          22.36,
+          31.83,
+          24.7
+        ],
+        "total_straight_line_blocks": 164.24,
+        "endpoint_straight_line_blocks": 18.79
+      },
+      "validation_status": "pending_baritone_validation_after_route_redesign",
+      "reachability_status": "pending_baritone_validation_after_route_redesign",
+      "validation_note_zh": "使用当前 33 个审核 waypoint 重新规划；路线与连接段尚未重新进行 Baritone 实走验证。",
+      "video_status": "stale_previous_route_video_not_attached_to_new_route_id",
+      "points": [
+        {
+          "waypoint_id": "OHRID-LIVE-05",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-06",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-01",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-03",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-04",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-18",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-20",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ohrid-reviewed-route-02-segment-01",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-05",
+          "to": "OHRID-LIVE-06"
+        },
+        {
+          "id": "ohrid-reviewed-route-02-segment-02",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-06",
+          "to": "OHRID-LIVE-01"
+        },
+        {
+          "id": "ohrid-reviewed-route-02-segment-03",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-01",
+          "to": "OHRID-LIVE-03"
+        },
+        {
+          "id": "ohrid-reviewed-route-02-segment-04",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-03",
+          "to": "OHRID-LIVE-04"
+        },
+        {
+          "id": "ohrid-reviewed-route-02-segment-05",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-04",
+          "to": "OHRID-LIVE-18"
+        },
+        {
+          "id": "ohrid-reviewed-route-02-segment-06",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-18",
+          "to": "OHRID-LIVE-20"
+        }
+      ]
+    },
+    {
+      "id": "ohrid-reviewed-route-03",
+      "title": "Вечера со пријатели и поглед од хотелот",
+      "title_local": "Вечера со пријатели и поглед од хотелот",
+      "title_zh": "与朋友晚餐并返回酒店看湖景",
+      "topic_local": "Од Кафе Галерија преку сместувањата до Долна Порта и хотелот",
+      "topic_zh": "从咖啡馆接朋友，经下城门晚餐后返回酒店",
+      "actor": "傍晚与住在不同住宿点的朋友聚餐的游客",
+      "persona_zh": "傍晚与住在不同住宿点的朋友聚餐的游客",
+      "prompt_language": "mk-MK",
+      "prompt_local": "По кафе во «Кафе Галерија», сретнете ги пријателите што престојуваат во «Hostel di Angollo» и «Port Villa». Вечерајте заедно во «Ресторан и лаунџ Долна Порта», седнете уште малку на «Надворешна тераса на ресторан Александрија», а вечерта завршете ја со поглед од «Балкон на 4 кат во хотел „Александрија“».",
+      "prompt_zh": "在「Кафе Галерија」喝完咖啡后，去接住在「Hostel di Angollo」和「Port Villa」的朋友。大家一起到「Ресторан и лаунџ Долна Порта」吃晚餐，在「Надворешна тераса на ресторан Александрија」坐一会儿，最后从「Балкон на 4 кат во хотел „Александрија“」看看湖景。",
+      "prompt_style": "concise_natural_situational_local_language_with_chinese_review",
+      "route_kind": "normal_route",
+      "task_type": "natural_multi_stop_itinerary",
+      "theme": "从咖啡馆接朋友，经下城门晚餐后返回酒店",
+      "intent": "在「Кафе Галерија」喝完咖啡后，去接住在「Hostel di Angollo」和「Port Villa」的朋友。大家一起到「Ресторан и лаунџ Долна Порта」吃晚餐，在「Надворешна тераса на ресторан Александрија」坐一会儿，最后从「Балкон на 4 кат во хотел „Александрија“」看看湖景。",
+      "semantic_dependency_status": "reviewed_natural_actor_and_stop_order",
+      "semantic_dependency_zh": "先接齐住在两个住宿点的朋友，再一起晚餐，最后返回酒店结束夜晚。",
+      "route_features": [
+        "current_reviewed_waypoints_only",
+        "six_to_seven_points",
+        "no_waypoint_overlap_between_routes",
+        "natural_consistent_actor",
+        "local_language_prompt",
+        "chinese_review_translation"
+      ],
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5,
+        "segment_straight_line_blocks": [
+          30.23,
+          59.46,
+          20.02,
+          40.22,
+          21.47
+        ],
+        "total_straight_line_blocks": 171.4,
+        "endpoint_straight_line_blocks": 133.05
+      },
+      "validation_status": "pending_baritone_validation_after_route_redesign",
+      "reachability_status": "pending_baritone_validation_after_route_redesign",
+      "validation_note_zh": "使用当前 33 个审核 waypoint 重新规划；路线与连接段尚未重新进行 Baritone 实走验证。",
+      "video_status": "stale_previous_route_video_not_attached_to_new_route_id",
+      "points": [
+        {
+          "waypoint_id": "OHRID-LIVE-09",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-24",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-17",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-16",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-55",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-39",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ohrid-reviewed-route-03-segment-01",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-09",
+          "to": "OHRID-LIVE-24"
+        },
+        {
+          "id": "ohrid-reviewed-route-03-segment-02",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-24",
+          "to": "OHRID-LIVE-17"
+        },
+        {
+          "id": "ohrid-reviewed-route-03-segment-03",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-17",
+          "to": "OHRID-LIVE-16"
+        },
+        {
+          "id": "ohrid-reviewed-route-03-segment-04",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-16",
+          "to": "OHRID-LIVE-55"
+        },
+        {
+          "id": "ohrid-reviewed-route-03-segment-05",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-55",
+          "to": "OHRID-LIVE-39"
+        }
+      ]
+    },
+    {
+      "id": "ohrid-reviewed-route-04",
+      "title": "Плоштад Св. Климент и вечерни ресторани",
+      "title_local": "Плоштад Св. Климент и вечерни ресторани",
+      "title_zh": "圣克莱门特广场与晚餐",
+      "topic_local": "Попладне од хотелската тераса до плоштадот, вечера и десерт",
+      "topic_zh": "从酒店露台到广场、晚餐与甜点",
+      "actor": "傍晚赴约吃饭的酒店住客",
+      "persona_zh": "傍晚赴约吃饭的酒店住客",
+      "prompt_language": "mk-MK",
+      "prompt_local": "Тргнете од «Тераса на соба 1, 4 кат, хотел „Александрија“» и подигнете готовина кај «Банкомат Комерцијална банка». Сретнете се со пријателот на «Плоштад „Св. Климент Охридски“», прошетајте покрај «Споменик на Св.Климент Охридски» и «Цветна леха во паркот на плоштад „Св. Климент“», а потоа вечерајте во «Ресторан „Томато“» и одете на десерт во «Ле Пети Бистро Лихнидос».",
+      "prompt_zh": "从「Тераса на соба 1, 4 кат, хотел „Александрија“」出发，到「Банкомат Комерцијална банка」取现金。随后在「Плоштад „Св. Климент Охридски“」与朋友见面，经过「Споменик на Св.Климент Охридски」和「Цветна леха во паркот на плоштад „Св. Климент“」，再到「Ресторан „Томато“」吃晚餐，最后去「Ле Пети Бистро Лихнидос」吃甜点。",
+      "prompt_style": "concise_natural_situational_local_language_with_chinese_review",
+      "route_kind": "normal_route",
+      "task_type": "natural_multi_stop_itinerary",
+      "theme": "从酒店露台到广场、晚餐与甜点",
+      "intent": "从「Тераса на соба 1, 4 кат, хотел „Александрија“」出发，到「Банкомат Комерцијална банка」取现金。随后在「Плоштад „Св. Климент Охридски“」与朋友见面，经过「Споменик на Св.Климент Охридски」和「Цветна леха во паркот на плоштад „Св. Климент“」，再到「Ресторан „Томато“」吃晚餐，最后去「Ле Пети Бистро Лихнидос」吃甜点。",
+      "semantic_dependency_status": "reviewed_natural_actor_and_stop_order",
+      "semantic_dependency_zh": "酒店住客取款后赴广场约会，与同一位朋友散步、吃晚餐并以甜点结束。",
+      "route_features": [
+        "current_reviewed_waypoints_only",
+        "six_to_seven_points",
+        "no_waypoint_overlap_between_routes",
+        "natural_consistent_actor",
+        "local_language_prompt",
+        "chinese_review_translation"
+      ],
+      "metrics": {
+        "point_count": 7,
+        "unique_point_count": 7,
+        "segment_count": 6,
+        "segment_straight_line_blocks": [
+          164.69,
+          25.32,
+          3.61,
+          55.15,
+          68.77,
+          17.03
+        ],
+        "total_straight_line_blocks": 334.57,
+        "endpoint_straight_line_blocks": 86.84
+      },
+      "validation_status": "pending_baritone_validation_after_route_redesign",
+      "reachability_status": "pending_baritone_validation_after_route_redesign",
+      "validation_note_zh": "使用当前 33 个审核 waypoint 重新规划；路线与连接段尚未重新进行 Baritone 实走验证。",
+      "video_status": "stale_previous_route_video_not_attached_to_new_route_id",
+      "points": [
+        {
+          "waypoint_id": "OHRID-LIVE-42",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-12",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-31",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-11",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-64",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-08",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-07",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ohrid-reviewed-route-04-segment-01",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-42",
+          "to": "OHRID-LIVE-12"
+        },
+        {
+          "id": "ohrid-reviewed-route-04-segment-02",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-12",
+          "to": "OHRID-LIVE-31"
+        },
+        {
+          "id": "ohrid-reviewed-route-04-segment-03",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-31",
+          "to": "OHRID-LIVE-11"
+        },
+        {
+          "id": "ohrid-reviewed-route-04-segment-04",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-11",
+          "to": "OHRID-LIVE-64"
+        },
+        {
+          "id": "ohrid-reviewed-route-04-segment-05",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-64",
+          "to": "OHRID-LIVE-08"
+        },
+        {
+          "id": "ohrid-reviewed-route-04-segment-06",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-08",
+          "to": "OHRID-LIVE-07"
+        }
+      ]
+    },
+    {
+      "id": "ohrid-reviewed-route-05",
+      "title": "Од Вила Цун до Охридското пристаниште",
+      "title_local": "Од Вила Цун до Охридското пристаниште",
+      "title_zh": "从维拉村二楼前往奥赫里德港",
+      "topic_local": "Крајбрежна прошетка пред поаѓање со брод",
+      "topic_zh": "乘船前的湖滨步行",
+      "actor": "准备从奥赫里德港乘船的游客",
+      "persona_zh": "准备从奥赫里德港乘船的游客",
+      "prompt_language": "mk-MK",
+      "prompt_local": "Пред пловењето излезете од «Вила Цун, 2 кат» и поминете покрај «Споменик на Свети Наум Охридски». Проверете го поаѓањето кај «Капетанија на пристаништето», одморете се на «Јавно седење покрај езерото» и напијте се нешто на «Езерска тераса на ресторан Александрија». Потоа продолжете до «Пристаниште Охрид» за да се качите на бродот.",
+      "prompt_zh": "乘船前从「Вила Цун, 2 кат」出发，经过「Споменик на Свети Наум Охридски」，到「Капетанија на пристаништето」确认出发时间。在「Јавно седење покрај езерото」休息，并到「Езерска тераса на ресторан Александрија」喝点东西，最后前往「Пристаниште Охрид」登船。",
+      "prompt_style": "concise_natural_situational_local_language_with_chinese_review",
+      "route_kind": "normal_route",
+      "task_type": "natural_multi_stop_itinerary",
+      "theme": "乘船前的湖滨步行",
+      "intent": "乘船前从「Вила Цун, 2 кат」出发，经过「Споменик на Свети Наум Охридски」，到「Капетанија на пристаништето」确认出发时间。在「Јавно седење покрај езерото」休息，并到「Езерска тераса на ресторан Александрија」喝点东西，最后前往「Пристаниште Охрид」登船。",
+      "semantic_dependency_status": "reviewed_natural_actor_and_stop_order",
+      "semantic_dependency_zh": "游客确认开船时间后在湖边等待，临近出发时再前往远端港口登船。",
+      "route_features": [
+        "current_reviewed_waypoints_only",
+        "six_to_seven_points",
+        "no_waypoint_overlap_between_routes",
+        "natural_consistent_actor",
+        "local_language_prompt",
+        "chinese_review_translation"
+      ],
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5,
+        "segment_straight_line_blocks": [
+          59.82,
+          36.5,
+          18.6,
+          37.0,
+          94.97
+        ],
+        "total_straight_line_blocks": 246.89,
+        "endpoint_straight_line_blocks": 111.17
+      },
+      "validation_status": "pending_baritone_validation_after_route_redesign",
+      "reachability_status": "pending_baritone_validation_after_route_redesign",
+      "validation_note_zh": "使用当前 33 个审核 waypoint 重新规划；路线与连接段尚未重新进行 Baritone 实走验证。",
+      "video_status": "stale_previous_route_video_not_attached_to_new_route_id",
+      "points": [
+        {
+          "waypoint_id": "OHRID-LIVE-58",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-22",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-28",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-57",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-56",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "OHRID-LIVE-25",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ohrid-reviewed-route-05-segment-01",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-58",
+          "to": "OHRID-LIVE-22"
+        },
+        {
+          "id": "ohrid-reviewed-route-05-segment-02",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-22",
+          "to": "OHRID-LIVE-28"
+        },
+        {
+          "id": "ohrid-reviewed-route-05-segment-03",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-28",
+          "to": "OHRID-LIVE-57"
+        },
+        {
+          "id": "ohrid-reviewed-route-05-segment-04",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-57",
+          "to": "OHRID-LIVE-56"
+        },
+        {
+          "id": "ohrid-reviewed-route-05-segment-05",
+          "status": "pending_baritone_validation_after_route_redesign",
+          "from": "OHRID-LIVE-56",
+          "to": "OHRID-LIVE-25"
+        }
+      ]
+    }
+  ]
+}

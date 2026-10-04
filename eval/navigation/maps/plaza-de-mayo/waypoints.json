@@ -1,0 +1,594 @@
+{
+  "schema_version": 1,
+  "map_id": "plaza-de-mayo",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/plaza-de-mayo-current-15-routes.json",
+    "sha256": "bd234713d871e8a157c1be26de20a847cb77292c59d82077426263928e647d94"
+  },
+  "waypoint_count": 39,
+  "waypoints": [
+    {
+      "id": "PDM-LIVE-01",
+      "name": "Consulado de Chile",
+      "position": {
+        "x": -635,
+        "y": 12,
+        "z": 58
+      },
+      "route_ids": [
+        "pdm-route-05"
+      ],
+      "source_index": 4,
+      "initials": "C",
+      "color": 10
+    },
+    {
+      "id": "PDM-LIVE-02",
+      "name": "Edificio Sudamérica",
+      "position": {
+        "x": -587,
+        "y": 12,
+        "z": 154
+      },
+      "route_ids": [
+        "pdm-route-16"
+      ],
+      "source_index": 5,
+      "initials": "E",
+      "color": 18
+    },
+    {
+      "id": "PDM-LIVE-03",
+      "name": "Plaza Héroes de Malvinas",
+      "position": {
+        "x": -400,
+        "y": 12,
+        "z": 491
+      },
+      "route_ids": [
+        "pdm-route-09"
+      ],
+      "source_index": 6,
+      "initials": "P",
+      "color": 8
+    },
+    {
+      "id": "PDM-LIVE-04",
+      "name": "Ministerio de Economía",
+      "position": {
+        "x": -235,
+        "y": 8,
+        "z": 503
+      },
+      "route_ids": [
+        "pdm-route-09",
+        "pdm-route-05",
+        "pdm-route-11"
+      ],
+      "source_index": 7,
+      "initials": "M",
+      "color": 17
+    },
+    {
+      "id": "PDM-LIVE-05",
+      "name": "ARCA - Agencia 5",
+      "position": {
+        "x": -250,
+        "y": 9,
+        "z": 464
+      },
+      "route_ids": [
+        "pdm-route-16"
+      ],
+      "source_index": 8,
+      "initials": "A",
+      "color": 20
+    },
+    {
+      "id": "PDM-LIVE-06",
+      "name": "Antiguo Recinto del Congreso Nacional",
+      "position": {
+        "x": -243,
+        "y": 11,
+        "z": 420
+      },
+      "route_ids": [
+        "pdm-route-11"
+      ],
+      "source_index": 9,
+      "initials": "A",
+      "color": 1
+    },
+    {
+      "id": "PDM-LIVE-07",
+      "name": "Ex Palacio de Gobierno de la Ciudad de Buenos Aires",
+      "position": {
+        "x": -593,
+        "y": 12,
+        "z": 228
+      },
+      "route_ids": [
+        "pdm-route-08"
+      ],
+      "source_index": 10,
+      "initials": "E",
+      "color": 16
+    },
+    {
+      "id": "PDM-LIVE-08",
+      "name": "Interior de la estación de subte",
+      "position": {
+        "x": -699,
+        "y": 6,
+        "z": 231
+      },
+      "route_ids": [
+        "pdm-route-11"
+      ],
+      "source_index": 11,
+      "initials": "S",
+      "color": 2
+    },
+    {
+      "id": "PDM-LIVE-09",
+      "name": "Casa de la Cultura (Edificio La Prensa)",
+      "position": {
+        "x": -644,
+        "y": 13,
+        "z": 225
+      },
+      "route_ids": [
+        "pdm-route-05",
+        "pdm-route-08"
+      ],
+      "source_index": 12,
+      "initials": "C",
+      "color": 5
+    },
+    {
+      "id": "PDM-LIVE-10",
+      "name": "Hotel NH Collection Buenos Aires",
+      "position": {
+        "x": -555,
+        "y": 12,
+        "z": 399
+      },
+      "route_ids": [
+        "pdm-route-08",
+        "pdm-route-11"
+      ],
+      "source_index": 14,
+      "initials": "H",
+      "color": 15
+    },
+    {
+      "id": "PDM-LIVE-11",
+      "name": "Buenos Aires Museo (BAM)",
+      "position": {
+        "x": -405,
+        "y": 12,
+        "z": 467
+      },
+      "route_ids": [
+        "pdm-route-09"
+      ],
+      "source_index": 15,
+      "initials": "B",
+      "color": 2
+    },
+    {
+      "id": "PDM-LIVE-12",
+      "name": "Furaibo",
+      "position": {
+        "x": -465,
+        "y": 12,
+        "z": 499
+      },
+      "route_ids": [],
+      "source_index": 16,
+      "initials": "F",
+      "color": 11
+    },
+    {
+      "id": "PDM-LIVE-13",
+      "name": "562 Hotel Nogaró",
+      "position": {
+        "x": -643,
+        "y": 13,
+        "z": 429
+      },
+      "route_ids": [],
+      "source_index": 18,
+      "initials": "5",
+      "color": 16
+    },
+    {
+      "id": "PDM-LIVE-14",
+      "name": "L.P Escobar Hermanos Saciaf",
+      "position": {
+        "x": -657,
+        "y": 13,
+        "z": 441
+      },
+      "route_ids": [],
+      "source_index": 19,
+      "initials": "L",
+      "color": 13
+    },
+    {
+      "id": "PDM-LIVE-15",
+      "name": "Agencia de viajes Historical Eter",
+      "position": {
+        "x": -673,
+        "y": 13,
+        "z": 455
+      },
+      "route_ids": [],
+      "source_index": 20,
+      "initials": "T",
+      "color": 3
+    },
+    {
+      "id": "PDM-LIVE-16",
+      "name": "De Las Luces Hotel",
+      "position": {
+        "x": -622,
+        "y": 12,
+        "z": 491
+      },
+      "route_ids": [
+        "pdm-route-08"
+      ],
+      "source_index": 21,
+      "initials": "D",
+      "color": 18
+    },
+    {
+      "id": "PDM-LIVE-17",
+      "name": "Consejo de la Magistratura",
+      "position": {
+        "x": -584,
+        "y": 12,
+        "z": 489
+      },
+      "route_ids": [
+        "pdm-route-08"
+      ],
+      "source_index": 22,
+      "initials": "C",
+      "color": 12
+    },
+    {
+      "id": "PDM-LIVE-18",
+      "name": "Mostaza",
+      "position": {
+        "x": -670,
+        "y": 12,
+        "z": 80
+      },
+      "route_ids": [
+        "pdm-route-02"
+      ],
+      "source_index": 23,
+      "initials": "M",
+      "color": 6
+    },
+    {
+      "id": "PDM-LIVE-19",
+      "name": "Legislatura de la Ciudad Autónoma de Buenos Aires",
+      "position": {
+        "x": -663,
+        "y": 13,
+        "z": 401
+      },
+      "route_ids": [
+        "pdm-route-09",
+        "pdm-route-11"
+      ],
+      "source_index": 24,
+      "initials": "B",
+      "color": 19
+    },
+    {
+      "id": "PDM-LIVE-20",
+      "name": "Biblioteca Esteban Echeverría",
+      "position": {
+        "x": -709,
+        "y": 13,
+        "z": 361
+      },
+      "route_ids": [
+        "pdm-route-09"
+      ],
+      "source_index": 25,
+      "initials": "B",
+      "color": 18
+    },
+    {
+      "id": "PDM-LIVE-21",
+      "name": "Museo Histórico Nacional del Cabildo",
+      "position": {
+        "x": -551,
+        "y": 12,
+        "z": 288
+      },
+      "route_ids": [
+        "pdm-route-01"
+      ],
+      "source_index": 26,
+      "initials": "M",
+      "color": 8
+    },
+    {
+      "id": "PDM-LIVE-22",
+      "name": "Museo de la Administración Federal de Ingresos Públicos",
+      "position": {
+        "x": -332,
+        "y": 12,
+        "z": 350
+      },
+      "route_ids": [],
+      "source_index": 27,
+      "initials": "M",
+      "color": 10
+    },
+    {
+      "id": "PDM-LIVE-23",
+      "name": "Ministerio de Producción",
+      "position": {
+        "x": -125,
+        "y": 3,
+        "z": 484
+      },
+      "route_ids": [
+        "pdm-route-10"
+      ],
+      "source_index": 28,
+      "initials": "M",
+      "color": 13
+    },
+    {
+      "id": "PDM-LIVE-24",
+      "name": "Edificio de Ferrocarriles",
+      "position": {
+        "x": -149,
+        "y": 4,
+        "z": 524
+      },
+      "route_ids": [
+        "pdm-route-09",
+        "pdm-route-05",
+        "pdm-route-10"
+      ],
+      "source_index": 29,
+      "initials": "R",
+      "color": 4
+    },
+    {
+      "id": "PDM-LIVE-25",
+      "name": "Ministerio de Economía de la Nación",
+      "position": {
+        "x": -166,
+        "y": 9,
+        "z": 373
+      },
+      "route_ids": [
+        "pdm-route-16"
+      ],
+      "source_index": 31,
+      "initials": "M",
+      "color": 16
+    },
+    {
+      "id": "PDM-LIVE-26",
+      "name": "Casa Rosada",
+      "position": {
+        "x": -207,
+        "y": 12,
+        "z": 275
+      },
+      "route_ids": [
+        "pdm-route-01",
+        "pdm-route-02",
+        "pdm-route-10",
+        "pdm-route-16"
+      ],
+      "source_index": 33,
+      "initials": "C",
+      "color": 19
+    },
+    {
+      "id": "PDM-LIVE-27",
+      "name": "Monumento a Juan de Garay",
+      "position": {
+        "x": -92,
+        "y": 5,
+        "z": 84
+      },
+      "route_ids": [
+        "pdm-route-10"
+      ],
+      "source_index": 34,
+      "initials": "M",
+      "color": 7
+    },
+    {
+      "id": "PDM-LIVE-28",
+      "name": "Plazoleta 11 de junio",
+      "position": {
+        "x": -81,
+        "y": 6,
+        "z": 99
+      },
+      "route_ids": [
+        "pdm-route-01"
+      ],
+      "source_index": 35,
+      "initials": "P",
+      "color": 13
+    },
+    {
+      "id": "PDM-LIVE-29",
+      "name": "Los Leones",
+      "position": {
+        "x": -128,
+        "y": 6,
+        "z": 46
+      },
+      "route_ids": [],
+      "source_index": 37,
+      "initials": "L",
+      "color": 8
+    },
+    {
+      "id": "PDM-LIVE-30",
+      "name": "Galería Alejandro Bustillo",
+      "position": {
+        "x": -191,
+        "y": 11,
+        "z": 126
+      },
+      "route_ids": [
+        "pdm-route-10"
+      ],
+      "source_index": 38,
+      "initials": "G",
+      "color": 7
+    },
+    {
+      "id": "PDM-LIVE-31",
+      "name": "Museo Histórico y Numismático del Banco Nación",
+      "position": {
+        "x": -337,
+        "y": 12,
+        "z": 173
+      },
+      "route_ids": [
+        "pdm-route-16"
+      ],
+      "source_index": 39,
+      "initials": "M",
+      "color": 8
+    },
+    {
+      "id": "PDM-LIVE-32",
+      "name": "Palacio de la Reconquista — Salón Principal",
+      "position": {
+        "x": -362,
+        "y": 12,
+        "z": 19
+      },
+      "route_ids": [],
+      "source_index": 40,
+      "initials": "P",
+      "color": 20
+    },
+    {
+      "id": "PDM-LIVE-33",
+      "name": "Arquidiócesis de Buenos Aires",
+      "position": {
+        "x": -423,
+        "y": 12,
+        "z": 133
+      },
+      "route_ids": [
+        "pdm-route-02"
+      ],
+      "source_index": 41,
+      "initials": "A",
+      "color": 16
+    },
+    {
+      "id": "PDM-LIVE-34",
+      "name": "Catedral Metropolitana de Buenos Aires",
+      "position": {
+        "x": -523,
+        "y": 12,
+        "z": 116
+      },
+      "route_ids": [
+        "pdm-route-01",
+        "pdm-route-02"
+      ],
+      "source_index": 42,
+      "initials": "C",
+      "color": 15
+    },
+    {
+      "id": "PDM-LIVE-35",
+      "name": "Mausoleo del General José de San Martín",
+      "position": {
+        "x": -491,
+        "y": 14,
+        "z": 163
+      },
+      "route_ids": [
+        "pdm-route-02"
+      ],
+      "source_index": 43,
+      "initials": "M",
+      "color": 3
+    },
+    {
+      "id": "PDM-LIVE-36",
+      "name": "Monumento al General Manuel Belgrano",
+      "position": {
+        "x": -271,
+        "y": 12,
+        "z": 272
+      },
+      "route_ids": [
+        "pdm-route-01"
+      ],
+      "source_index": 44,
+      "initials": "M",
+      "color": 9
+    },
+    {
+      "id": "PDM-LIVE-37",
+      "name": "Plaza de Mayo Casa Rosada",
+      "position": {
+        "x": -361,
+        "y": 7,
+        "z": 311
+      },
+      "route_ids": [],
+      "source_index": 45,
+      "initials": "P",
+      "color": 9
+    },
+    {
+      "id": "PDM-LIVE-38",
+      "name": "Plaza de Mayo",
+      "position": {
+        "x": -391,
+        "y": 12,
+        "z": 251
+      },
+      "route_ids": [
+        "pdm-route-01",
+        "pdm-route-16"
+      ],
+      "source_index": 46,
+      "initials": "P",
+      "color": 16
+    },
+    {
+      "id": "PDM-LIVE-39",
+      "name": "Banco de la Nación Argentina",
+      "position": {
+        "x": -245,
+        "y": 13,
+        "z": 157
+      },
+      "route_ids": [
+        "pdm-route-02"
+      ],
+      "source_index": 47,
+      "initials": "B",
+      "color": 4
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "map_id": "buckingham-palace",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "custom_maps/maps/inter_map/buckingham_palace/waypoints.json",
+    "sha256": "d6fc7b61b70713afbdedd0093a88179050ad232308500506e62d7d87568e3d73"
+  },
+  "dimension": "overworld",
+  "waypoint_count": 18,
+  "waypoints": [
+    {
+      "id": "BPH-WP-01",
+      "name": "Ballroom",
+      "position": {
+        "x": -129,
+        "y": -32,
+        "z": 124
+      },
+      "route_ids": [],
+      "initials": "B",
+      "color": 12,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "BPH-WP-02",
+      "name": "Yellow Drawing Room",
+      "position": {
+        "x": 11,
+        "y": -32,
+        "z": 78
+      },
+      "route_ids": [],
+      "initials": "Y",
+      "color": 15,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "BPH-WP-03",
+      "name": "Centre Room",
+      "position": {
+        "x": 8,
+        "y": -23,
+        "z": 21
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 12,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "BPH-WP-04",
+      "name": "Principal Corridor",
+      "position": {
+        "x": 0,
+        "y": -23,
+        "z": 17
+      },
+      "route_ids": [],
+      "initials": "P",
+      "color": 14,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "BPH-WP-05",
+      "name": "Chinese Luncheon Room",
+      "position": {
+        "x": 10,
+        "y": -23,
+        "z": -50
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 10,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "BPH-WP-06",
+      "name": "Picture Gallery",
+      "position": {
+        "x": -122,
+        "y": -32,
+        "z": 15
+      },
+      "route_ids": [],
+      "initials": "P",
+      "color": 5,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "BPH-WP-07",
+      "name": "Queen's Study",
+      "position": {
+        "x": -103,
+        "y": -32,
+        "z": -62
+      },
+      "route_ids": [],
+      "initials": "Q",
+      "color": 9,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "BPH-WP-08",
+      "name": "Grand Entrance",
+      "position": {
+        "x": -97,
+        "y": -41,
+        "z": 15
+      },
+      "route_ids": [],
+      "initials": "G",
+      "color": 2,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "BPH-WP-09",
+      "name": "Bow Room",
+      "position": {
+        "x": -147,
+        "y": -40,
+        "z": 19
+      },
+      "route_ids": [],
+      "initials": "B",
+      "color": 13,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "BPH-WP-10",
+      "name": "Swimming Pool",
+      "position": {
+        "x": -141,
+        "y": -40,
+        "z": -65
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 0,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "BPH-WP-11",
+      "name": "The Grand Staircase",
+      "position": {
+        "x": -105,
+        "y": -37,
+        "z": 37
+      },
+      "route_ids": [],
+      "initials": "T",
+      "color": 3,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "BPH-WP-12",
+      "name": "Throne Room",
+      "position": {
+        "x": -104,
+        "y": -32,
+        "z": -9
+      },
+      "route_ids": [],
+      "initials": "T",
+      "color": 4,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "BPH-WP-13",
+      "name": "Green Drawing Room",
+      "position": {
+        "x": -105,
+        "y": -32,
+        "z": 14
+      },
+      "route_ids": [],
+      "initials": "G",
+      "color": 6,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "BPH-WP-14",
+      "name": "State Dining Room",
+      "position": {
+        "x": -138,
+        "y": -32,
+        "z": 69
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 2,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "BPH-WP-15",
+      "name": "Blue Drawing Room",
+      "position": {
+        "x": -139,
+        "y": -32,
+        "z": 40
+      },
+      "route_ids": [],
+      "initials": "B",
+      "color": 6,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "BPH-WP-16",
+      "name": "Royal Closet",
+      "position": {
+        "x": -137,
+        "y": -32,
+        "z": -21
+      },
+      "route_ids": [],
+      "initials": "R",
+      "color": 14,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "BPH-WP-17",
+      "name": "White Drawing Room",
+      "position": {
+        "x": -135,
+        "y": -32,
+        "z": -7
+      },
+      "route_ids": [],
+      "initials": "W",
+      "color": 14,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "BPH-WP-18",
+      "name": "Music Room",
+      "position": {
+        "x": -147,
+        "y": -32,
+        "z": 15
+      },
+      "route_ids": [],
+      "initials": "M",
+      "color": 14,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    }
+  ]
+}

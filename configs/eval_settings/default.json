@@ -1,0 +1,11 @@
+{
+  "time": "noon",
+  "weather": "clear",
+  "six_view_enabled": false,
+  "player_scale": 1.0,
+  "third_person": false,
+  "hud_enabled": false,
+  "navigation_hints_enabled": false,
+  "guideline": false,
+  "resource_pack_and_shader": false
+}

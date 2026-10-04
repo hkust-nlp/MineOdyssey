@@ -1,0 +1,1211 @@
+{
+  "schema_version": 1,
+  "map_id": "cape-town",
+  "quality_status": "formal_routes_pending_runtime_validation",
+  "excluded_waypoints": [
+    {
+      "point_id": "CPT-WP-009",
+      "name": "Waypoint",
+      "reason": "disabled_in_current_xaero",
+      "position": {
+        "x": -1956,
+        "y": 40,
+        "z": 1329
+      }
+    },
+    {
+      "point_id": "CPT-WP-021",
+      "name": "是否拆掉？",
+      "reason": "construction_note_not_navigation_waypoint",
+      "position": {
+        "x": -1795,
+        "y": 30,
+        "z": 1195
+      }
+    },
+    {
+      "point_id": "CPT-WP-022",
+      "name": "空地。。",
+      "reason": "construction_note_not_navigation_waypoint",
+      "position": {
+        "x": -1833,
+        "y": 33,
+        "z": 1203
+      }
+    },
+    {
+      "point_id": "CPT-WP-038",
+      "name": "Muze",
+      "reason": "disabled_in_current_xaero",
+      "position": {
+        "x": -1644,
+        "y": 19,
+        "z": 651
+      }
+    },
+    {
+      "point_id": "CPT-WP-080",
+      "name": "Dock",
+      "reason": "wrong_previous_robben_island_map",
+      "position": {
+        "x": 126,
+        "y": -11,
+        "z": 222
+      }
+    },
+    {
+      "point_id": "CPT-WP-081",
+      "name": "Lighthouse Top",
+      "reason": "wrong_previous_robben_island_map",
+      "position": {
+        "x": 211,
+        "y": 40,
+        "z": 227
+      }
+    },
+    {
+      "point_id": "CPT-WP-082",
+      "name": "Lighthouse Entrance",
+      "reason": "wrong_previous_robben_island_map",
+      "position": {
+        "x": 211,
+        "y": -9,
+        "z": 215
+      }
+    },
+    {
+      "point_id": "CPT-WP-083",
+      "name": "Central Red-roof Building",
+      "reason": "wrong_previous_robben_island_map",
+      "position": {
+        "x": 304,
+        "y": -9,
+        "z": 140
+      }
+    },
+    {
+      "point_id": "CPT-WP-084",
+      "name": "Stone Hall Entrance",
+      "reason": "wrong_previous_robben_island_map",
+      "position": {
+        "x": 296,
+        "y": -9,
+        "z": 127
+      }
+    },
+    {
+      "point_id": "CPT-WP-085",
+      "name": "Red-roof Long House",
+      "reason": "wrong_previous_robben_island_map",
+      "position": {
+        "x": 318,
+        "y": -9,
+        "z": 97
+      }
+    },
+    {
+      "point_id": "CPT-WP-086",
+      "name": "Western Workshop",
+      "reason": "wrong_previous_robben_island_map",
+      "position": {
+        "x": 282,
+        "y": -9,
+        "z": 99
+      }
+    },
+    {
+      "point_id": "CPT-WP-087",
+      "name": "Village Central Junction",
+      "reason": "wrong_previous_robben_island_map",
+      "position": {
+        "x": 285,
+        "y": -9,
+        "z": 118
+      }
+    },
+    {
+      "point_id": "CPT-WP-088",
+      "name": "North Compound Gate",
+      "reason": "wrong_previous_robben_island_map",
+      "position": {
+        "x": 275,
+        "y": -9,
+        "z": 90
+      }
+    },
+    {
+      "point_id": "CPT-WP-089",
+      "name": "North Enclosed Complex",
+      "reason": "wrong_previous_robben_island_map",
+      "position": {
+        "x": 250,
+        "y": -10,
+        "z": 50
+      }
+    },
+    {
+      "point_id": "CPT-WP-090",
+      "name": "Garrison Church",
+      "reason": "wrong_previous_robben_island_map",
+      "position": {
+        "x": 235,
+        "y": -9,
+        "z": 210
+      }
+    },
+    {
+      "point_id": "CPT-WP-091",
+      "name": "Ledewinkel Community Store",
+      "reason": "wrong_previous_robben_island_map",
+      "position": {
+        "x": 336,
+        "y": -9,
+        "z": 24
+      }
+    },
+    {
+      "point_id": "CPT-WP-092",
+      "name": "Village Playground",
+      "reason": "wrong_previous_robben_island_map",
+      "position": {
+        "x": 355,
+        "y": -9,
+        "z": 69
+      }
+    }
+  ],
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/cape-town-current-15-routes.json",
+    "sha256": "599e13e491990e2c408969e1fe05e159dd8ed112be741d6a1ed49f689ee6b7cc"
+  },
+  "waypoint_count": 73,
+  "waypoints": [
+    {
+      "id": "CPT-WP-001",
+      "name": "Mosque Shafee",
+      "position": {
+        "x": -2072,
+        "y": 47,
+        "z": 1335
+      },
+      "route_ids": [
+        "cape-current-route-11",
+        "cape-current-route-02"
+      ],
+      "initials": "M",
+      "color": 6,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-002",
+      "name": "Benmau Lodge",
+      "position": {
+        "x": -2064,
+        "y": 48,
+        "z": 1323
+      },
+      "route_ids": [],
+      "initials": "B",
+      "color": 12,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-003",
+      "name": "Chandler House",
+      "position": {
+        "x": -2070,
+        "y": 48,
+        "z": 1318
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 7,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-004",
+      "name": "Bo-Kaap Village Lodge",
+      "position": {
+        "x": -2041,
+        "y": 47,
+        "z": 1313
+      },
+      "route_ids": [
+        "cape-current-route-01",
+        "cape-current-route-12"
+      ],
+      "initials": "B",
+      "color": 18,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-005",
+      "name": "Virtuous",
+      "position": {
+        "x": -2049,
+        "y": 53,
+        "z": 1278
+      },
+      "route_ids": [],
+      "initials": "V",
+      "color": 20,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-006",
+      "name": "Skincare ld",
+      "position": {
+        "x": -2023,
+        "y": 53,
+        "z": 1257
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 17,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-007",
+      "name": "SHM Data & Electrical",
+      "position": {
+        "x": -1998,
+        "y": 48,
+        "z": 1271
+      },
+      "route_ids": [
+        "cape-current-route-01"
+      ],
+      "initials": "S",
+      "color": 20,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-008",
+      "name": "Masjid Boorhaanol Islam",
+      "position": {
+        "x": -1954,
+        "y": 40,
+        "z": 1329
+      },
+      "route_ids": [
+        "cape-current-route-11"
+      ],
+      "initials": "M",
+      "color": 2,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-010",
+      "name": "Bo Kaap Cooking Tour",
+      "position": {
+        "x": -1920,
+        "y": 37,
+        "z": 1311
+      },
+      "route_ids": [
+        "cape-current-route-01",
+        "cape-current-route-02"
+      ],
+      "initials": "B",
+      "color": 16,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-011",
+      "name": "CPT Projects Trading Renovation",
+      "position": {
+        "x": -1950,
+        "y": 43,
+        "z": 1253
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 17,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-012",
+      "name": "Designer water Cape Town",
+      "position": {
+        "x": -1938,
+        "y": 42,
+        "z": 1265
+      },
+      "route_ids": [],
+      "initials": "D",
+      "color": 6,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-013",
+      "name": "Purple Pearl at Bokaap",
+      "position": {
+        "x": -1933,
+        "y": 41,
+        "z": 1271
+      },
+      "route_ids": [
+        "cape-current-route-01",
+        "cape-current-route-02"
+      ],
+      "initials": "P",
+      "color": 6,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-014",
+      "name": "Driving Link K53",
+      "position": {
+        "x": -1899,
+        "y": 38,
+        "z": 1274
+      },
+      "route_ids": [],
+      "initials": "D",
+      "color": 1,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-015",
+      "name": "UPS Inverter Technologies PTY lt",
+      "position": {
+        "x": -1871,
+        "y": 35,
+        "z": 1267
+      },
+      "route_ids": [],
+      "initials": "U",
+      "color": 4,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-016",
+      "name": "La Rose Bed & Breakfast",
+      "position": {
+        "x": -1862,
+        "y": 35,
+        "z": 1258
+      },
+      "route_ids": [
+        "cape-current-route-01",
+        "cape-current-route-02"
+      ],
+      "initials": "L",
+      "color": 4,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-017",
+      "name": "Sibling",
+      "position": {
+        "x": -1806,
+        "y": 31,
+        "z": 1225
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 9,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-018",
+      "name": "Rouge On Rose Boutique Hotel",
+      "position": {
+        "x": -1835,
+        "y": 33,
+        "z": 1252
+      },
+      "route_ids": [
+        "cape-current-route-01",
+        "cape-current-route-02"
+      ],
+      "initials": "R",
+      "color": 20,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-019",
+      "name": "atFrits Dog Hotel & Daycare Centre",
+      "position": {
+        "x": -1766,
+        "y": 28,
+        "z": 1224
+      },
+      "route_ids": [
+        "cape-current-route-02",
+        "cape-current-route-12"
+      ],
+      "initials": "A",
+      "color": 17,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-020",
+      "name": "Red's Car Wash",
+      "position": {
+        "x": -1786,
+        "y": 29,
+        "z": 1218
+      },
+      "route_ids": [],
+      "initials": "R",
+      "color": 18,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-023",
+      "name": "VINK Multi- Services",
+      "position": {
+        "x": -1807,
+        "y": 33,
+        "z": 1204
+      },
+      "route_ids": [
+        "cape-current-route-03"
+      ],
+      "initials": "V",
+      "color": 7,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-024",
+      "name": "apartment CPT",
+      "position": {
+        "x": -1799,
+        "y": 32,
+        "z": 1198
+      },
+      "route_ids": [],
+      "initials": "A",
+      "color": 4,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-025",
+      "name": "THE ELECTRICAL CONNECTION",
+      "position": {
+        "x": -1850,
+        "y": 36,
+        "z": 1152
+      },
+      "route_ids": [
+        "cape-current-route-03"
+      ],
+      "initials": "T",
+      "color": 14,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-026",
+      "name": "Hair and Beauty on Chiappini",
+      "position": {
+        "x": -1857,
+        "y": 37,
+        "z": 1156
+      },
+      "route_ids": [],
+      "initials": "H",
+      "color": 2,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-027",
+      "name": "Jamia Masjid",
+      "position": {
+        "x": -1861,
+        "y": 39,
+        "z": 1133
+      },
+      "route_ids": [
+        "cape-current-route-11",
+        "cape-current-route-03"
+      ],
+      "initials": "J",
+      "color": 2,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-028",
+      "name": "Cape Diamonds",
+      "position": {
+        "x": -1650,
+        "y": 18,
+        "z": 600
+      },
+      "route_ids": [
+        "cape-current-route-14",
+        "cape-current-route-12"
+      ],
+      "initials": "C",
+      "color": 4,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-029",
+      "name": "Kent&Co",
+      "position": {
+        "x": -1673,
+        "y": 18,
+        "z": 525
+      },
+      "route_ids": [],
+      "initials": "B",
+      "color": 16,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-030",
+      "name": "Intermed Medical Suppliers",
+      "position": {
+        "x": -1695,
+        "y": 19,
+        "z": 543
+      },
+      "route_ids": [
+        "cape-current-route-09"
+      ],
+      "initials": "I",
+      "color": 14,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-031",
+      "name": "Pool Caffe",
+      "position": {
+        "x": -1718,
+        "y": 19,
+        "z": 549
+      },
+      "route_ids": [
+        "cape-current-route-13"
+      ],
+      "initials": "P",
+      "color": 10,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-032",
+      "name": "Victoria Junction",
+      "position": {
+        "x": -1718,
+        "y": 19,
+        "z": 504
+      },
+      "route_ids": [
+        "cape-current-route-06",
+        "cape-current-route-14"
+      ],
+      "initials": "V",
+      "color": 7,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-033",
+      "name": "Newport house",
+      "position": {
+        "x": -1696,
+        "y": 18,
+        "z": 460
+      },
+      "route_ids": [],
+      "initials": "N",
+      "color": 3,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-034",
+      "name": "Moxie Jewellery",
+      "position": {
+        "x": -1708,
+        "y": 18,
+        "z": 460
+      },
+      "route_ids": [
+        "cape-current-route-11"
+      ],
+      "initials": "M",
+      "color": 5,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-035",
+      "name": "Garden Court Victoria Junction",
+      "position": {
+        "x": -1782,
+        "y": 22,
+        "z": 487
+      },
+      "route_ids": [],
+      "initials": "G",
+      "color": 8,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-036",
+      "name": "Salute Event Solutions",
+      "position": {
+        "x": -1640,
+        "y": 18,
+        "z": 639
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 1,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-037",
+      "name": "Muse",
+      "position": {
+        "x": -1633,
+        "y": 18,
+        "z": 660
+      },
+      "route_ids": [
+        "cape-current-route-14"
+      ],
+      "initials": "M",
+      "color": 9,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-039",
+      "name": "Smokers Paradise",
+      "position": {
+        "x": -1673,
+        "y": 20,
+        "z": 659
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 8,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-040",
+      "name": "carmichael",
+      "position": {
+        "x": -1713,
+        "y": 22,
+        "z": 685
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 19,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-041",
+      "name": "Fashion Adventure",
+      "position": {
+        "x": -1629,
+        "y": 19,
+        "z": 727
+      },
+      "route_ids": [
+        "cape-current-route-14"
+      ],
+      "initials": "F",
+      "color": 18,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-042",
+      "name": "Sheldon Property Group",
+      "position": {
+        "x": -1645,
+        "y": 20,
+        "z": 732
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 14,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-043",
+      "name": "Perdersen Lennar",
+      "position": {
+        "x": -1658,
+        "y": 21,
+        "z": 736
+      },
+      "route_ids": [],
+      "initials": "P",
+      "color": 19,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-044",
+      "name": "RIVA fish restaurant",
+      "position": {
+        "x": -1667,
+        "y": 21,
+        "z": 739
+      },
+      "route_ids": [],
+      "initials": "R",
+      "color": 5,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-045",
+      "name": "Ala Turkish Barber",
+      "position": {
+        "x": -1675,
+        "y": 21,
+        "z": 741
+      },
+      "route_ids": [],
+      "initials": "A",
+      "color": 5,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-046",
+      "name": "Vespa",
+      "position": {
+        "x": -1696,
+        "y": 22,
+        "z": 749
+      },
+      "route_ids": [
+        "cape-current-route-14"
+      ],
+      "initials": "V",
+      "color": 7,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-047",
+      "name": "gas station",
+      "position": {
+        "x": -1671,
+        "y": 23,
+        "z": 783
+      },
+      "route_ids": [],
+      "initials": "G",
+      "color": 5,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-048",
+      "name": "Standard Bank ATM",
+      "position": {
+        "x": -1654,
+        "y": 23,
+        "z": 796
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 20,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-049",
+      "name": "Pick n Pay Express",
+      "position": {
+        "x": -1681,
+        "y": 23,
+        "z": 816
+      },
+      "route_ids": [
+        "cape-current-route-14"
+      ],
+      "initials": "P",
+      "color": 6,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-050",
+      "name": "Patrick's House",
+      "position": {
+        "x": -1596,
+        "y": 19,
+        "z": 921
+      },
+      "route_ids": [],
+      "initials": "P",
+      "color": 6,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-051",
+      "name": "Salesian Institute Youth Project",
+      "position": {
+        "x": -1662,
+        "y": 21,
+        "z": 899
+      },
+      "route_ids": [
+        "cape-current-route-09"
+      ],
+      "initials": "S",
+      "color": 11,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-052",
+      "name": "Monalisa Luxury Spa",
+      "position": {
+        "x": -1646,
+        "y": 21,
+        "z": 1255
+      },
+      "route_ids": [],
+      "initials": "M",
+      "color": 17,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-053",
+      "name": "Hi-Q Cape Town",
+      "position": {
+        "x": -1666,
+        "y": 22,
+        "z": 1253
+      },
+      "route_ids": [
+        "cape-current-route-12"
+      ],
+      "initials": "H",
+      "color": 6,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-054",
+      "name": "Cape Town Strength & Conditionin",
+      "position": {
+        "x": -1647,
+        "y": 21,
+        "z": 1330
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 18,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-055",
+      "name": "Dutch Consulate General",
+      "position": {
+        "x": -1644,
+        "y": 22,
+        "z": 1223
+      },
+      "route_ids": [
+        "cape-current-route-13"
+      ],
+      "initials": "D",
+      "color": 6,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-056",
+      "name": "Evangelical Lutheran Church",
+      "position": {
+        "x": -1628,
+        "y": 21,
+        "z": 1240
+      },
+      "route_ids": [],
+      "initials": "E",
+      "color": 3,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-057",
+      "name": "9 Rose St Parking",
+      "position": {
+        "x": -1745,
+        "y": 27,
+        "z": 1211
+      },
+      "route_ids": [],
+      "initials": "P",
+      "color": 18,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-058",
+      "name": "Marco's African Place",
+      "position": {
+        "x": -1739,
+        "y": 27,
+        "z": 1188
+      },
+      "route_ids": [
+        "cape-current-route-02"
+      ],
+      "initials": "M",
+      "color": 9,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-059",
+      "name": "Bo-kaap Bo-tique",
+      "position": {
+        "x": -1758,
+        "y": 29,
+        "z": 1180
+      },
+      "route_ids": [],
+      "initials": "B",
+      "color": 16,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-060",
+      "name": "BE/SIX LOFT APARTMENT",
+      "position": {
+        "x": -1782,
+        "y": 29,
+        "z": 1184
+      },
+      "route_ids": [],
+      "initials": "B",
+      "color": 3,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-061",
+      "name": "Poliform",
+      "position": {
+        "x": -1753,
+        "y": 28,
+        "z": 1158
+      },
+      "route_ids": [
+        "cape-current-route-03"
+      ],
+      "initials": "P",
+      "color": 5,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-062",
+      "name": "HOME",
+      "position": {
+        "x": -1869,
+        "y": 40,
+        "z": 1101
+      },
+      "route_ids": [],
+      "initials": "H",
+      "color": 12,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-063",
+      "name": "A'terra",
+      "position": {
+        "x": -1815,
+        "y": 32,
+        "z": 1091
+      },
+      "route_ids": [
+        "cape-current-route-03"
+      ],
+      "initials": "A",
+      "color": 20,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-064",
+      "name": "BURR & MUIR",
+      "position": {
+        "x": -1795,
+        "y": 32,
+        "z": 1056
+      },
+      "route_ids": [
+        "cape-current-route-03"
+      ],
+      "initials": "B",
+      "color": 11,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-065",
+      "name": "Pilli Pilli",
+      "position": {
+        "x": -1752,
+        "y": 27,
+        "z": 1036
+      },
+      "route_ids": [],
+      "initials": "P",
+      "color": 6,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-066",
+      "name": "The Valour",
+      "position": {
+        "x": -1733,
+        "y": 25,
+        "z": 1020
+      },
+      "route_ids": [],
+      "initials": "T",
+      "color": 4,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-067",
+      "name": "From Ocean to Taste",
+      "position": {
+        "x": -1727,
+        "y": 25,
+        "z": 1040
+      },
+      "route_ids": [],
+      "initials": "F",
+      "color": 4,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-068",
+      "name": "Shift Espresso Bar | Strand Street",
+      "position": {
+        "x": -1763,
+        "y": 28,
+        "z": 1094
+      },
+      "route_ids": [
+        "cape-current-route-02"
+      ],
+      "initials": "S",
+      "color": 18,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-069",
+      "name": "State House",
+      "position": {
+        "x": -1700,
+        "y": 25,
+        "z": 1127
+      },
+      "route_ids": [
+        "cape-current-route-13"
+      ],
+      "initials": "S",
+      "color": 18,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-070",
+      "name": "Horizon Capital",
+      "position": {
+        "x": -1696,
+        "y": 23,
+        "z": 1108
+      },
+      "route_ids": [],
+      "initials": "H",
+      "color": 5,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-072",
+      "name": "Standart Group Studios",
+      "position": {
+        "x": -1685,
+        "y": 25,
+        "z": 1152
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 10,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-074",
+      "name": "SMEC",
+      "position": {
+        "x": -1517,
+        "y": 16,
+        "z": 1137
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 0,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-075",
+      "name": "Rosebank College",
+      "position": {
+        "x": -1559,
+        "y": 18,
+        "z": 1135
+      },
+      "route_ids": [
+        "cape-current-route-06",
+        "cape-current-route-09"
+      ],
+      "initials": "S",
+      "color": 17,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-076",
+      "name": "Grind 4 Truth Coffee Shop",
+      "position": {
+        "x": -1596,
+        "y": 19,
+        "z": 1050
+      },
+      "route_ids": [],
+      "initials": "G",
+      "color": 12,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-077",
+      "name": "Prestwich Memorial",
+      "position": {
+        "x": -1607,
+        "y": 19,
+        "z": 1070
+      },
+      "route_ids": [
+        "cape-current-route-06",
+        "cape-current-route-09"
+      ],
+      "initials": "P",
+      "color": 18,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-078",
+      "name": "Mushindo Aikido",
+      "position": {
+        "x": -1660,
+        "y": 22,
+        "z": 1054
+      },
+      "route_ids": [],
+      "initials": "M",
+      "color": 16,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CPT-WP-079",
+      "name": "St Andrew's PresbyterianChurch",
+      "position": {
+        "x": -1658,
+        "y": 22,
+        "z": 1044
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 12,
+      "source": "current_enabled_xaero_waypoint"
+    }
+  ]
+}

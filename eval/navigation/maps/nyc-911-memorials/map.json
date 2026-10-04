@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "map_id": "nyc-911-memorials",
+  "display_name": "911 Memories",
+  "out_of_bounds": {
+    "at_or_below_y": -14,
+    "duration_sec": 15
+  },
+  "environment": "outdoor",
+  "source": {
+    "repository": "anonymous/source",
+    "release_id": 1,
+    "release_url": "https://example.invalid/anonymous-source",
+    "asset_name": "NYC-911.memorials.zip",
+    "archive_bytes": 106608685,
+    "archive_sha256": "41378aa10bdb6e331c86b398ccc90fd63e0a74343e9bfbafefe63b28c21c1a83",
+    "world_root": "911`memorials"
+  },
+  "world": {
+    "source_version": {
+      "version_name": "1.21.11",
+      "data_version": 4671
+    },
+    "minecraft_version": "1.21.11",
+    "version_name": "1.21.11",
+    "data_version": 4671,
+    "expected_source_fingerprint": "34331ac1596805ffb037cbb2f265fa9c43cd45a27a84a9d856b91d6227496e74",
+    "expected_prepared_fingerprint": "fde0730f04e542be2ffc66f59f6f597bbb5c95c079454b2a868c8a89548c0d21",
+    "preparation": {
+      "id": "height-datapack-compat-minecraft-1.21.11-v1",
+      "remove_paths": [
+        "datapacks/heights"
+      ],
+      "replacement_datapack": {
+        "source_path": "eval/navigation/compatibility/heights-1.21.11",
+        "install_path": "datapacks/heights",
+        "manifest_path": "eval/navigation/compatibility/heights-1.21.11.files.sha256",
+        "manifest_sha256": "9471dd22a7c29c5bd585eb507c2145e458af000e2e209ba8a53ab3b1592597e6",
+        "data_pack_format": {
+          "major": 94,
+          "minor": 1
+        }
+      },
+      "reason": "Preserve the exact source snapshot, then replace its recognized legacy height pack once with the locked Minecraft 1.21.11 height-512 compatibility pack."
+    }
+  },
+  "license": {
+    "scope": "evaluation-only source archive",
+    "redistribution": "not granted by this manifest",
+    "note": "Keep the source ZIP and extracted world outside Git; preserve any upstream terms distributed with the archive."
+  }
+}

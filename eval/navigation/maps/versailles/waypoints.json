@@ -1,0 +1,520 @@
+{
+  "schema_version": 1,
+  "map_id": "versailles",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "custom_maps/maps/inter_map/versailles/waypoints.json",
+    "sha256": "e5f7c4206876fdfbacdaa991ad40c975b4c8a63e17f33f74b49e70ac567ddad9"
+  },
+  "dimension": "overworld",
+  "waypoint_count": 23,
+  "waypoints": [
+    {
+      "id": "VER-WP-01",
+      "name": "Galerie de l’Histoire du Château",
+      "position": {
+        "x": -831,
+        "y": 11,
+        "z": 1450
+      },
+      "route_ids": [],
+      "initials": "G",
+      "color": 3,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-02",
+      "name": "Opéra Royal de Versailles",
+      "position": {
+        "x": -845,
+        "y": 24,
+        "z": 1559
+      },
+      "route_ids": [],
+      "initials": "O",
+      "color": 7,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-03",
+      "name": "Cabinet des Tableaux",
+      "position": {
+        "x": -778,
+        "y": 21,
+        "z": 1232
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 11,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-04",
+      "name": "Salon de l'Abondance",
+      "position": {
+        "x": -821,
+        "y": 21,
+        "z": 1278
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 14,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-05",
+      "name": "Salon d'Hercule",
+      "position": {
+        "x": -841,
+        "y": 21,
+        "z": 1295
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 8,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-06",
+      "name": "Salon de Vénus",
+      "position": {
+        "x": -802,
+        "y": 21,
+        "z": 1281
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 6,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-07",
+      "name": "Salle des Gardes du Roi",
+      "position": {
+        "x": -730,
+        "y": 11,
+        "z": 1142
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 8,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-08",
+      "name": "Chapelle Royale",
+      "position": {
+        "x": -879,
+        "y": 11,
+        "z": 1328
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 15,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-09",
+      "name": "Salle du Congrès",
+      "position": {
+        "x": -877,
+        "y": 11,
+        "z": 908
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 9,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-10",
+      "name": "Cabinet du Conseil",
+      "position": {
+        "x": -689,
+        "y": 21,
+        "z": 1202
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 2,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-11",
+      "name": "Antichambre de l'Œil-de-Bœuf",
+      "position": {
+        "x": -684,
+        "y": 21,
+        "z": 1148
+      },
+      "route_ids": [],
+      "initials": "A",
+      "color": 12,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-12",
+      "name": "Salon de Diane",
+      "position": {
+        "x": -770,
+        "y": 21,
+        "z": 1281
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 3,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-13",
+      "name": "Salon de Mars",
+      "position": {
+        "x": -738,
+        "y": 21,
+        "z": 1281
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 14,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-14",
+      "name": "Salon de Mercure",
+      "position": {
+        "x": -710,
+        "y": 21,
+        "z": 1280
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 10,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-15",
+      "name": "Salon d'Apollon",
+      "position": {
+        "x": -688,
+        "y": 21,
+        "z": 1280
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 13,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-16",
+      "name": "Salon de la Guerre",
+      "position": {
+        "x": -663,
+        "y": 21,
+        "z": 1281
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 1,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-17",
+      "name": "Chambre du Roi",
+      "position": {
+        "x": -683,
+        "y": 21,
+        "z": 1179
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 10,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-18",
+      "name": "Grande Galerie",
+      "position": {
+        "x": -666,
+        "y": 21,
+        "z": 1197
+      },
+      "route_ids": [],
+      "initials": "G",
+      "color": 6,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-19",
+      "name": "Salon de la Paix",
+      "position": {
+        "x": -665,
+        "y": 21,
+        "z": 1078
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 11,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-20",
+      "name": "Chambre de la Reine",
+      "position": {
+        "x": -687,
+        "y": 21,
+        "z": 1078
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 4,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-21",
+      "name": "Salon des Nobles",
+      "position": {
+        "x": -712,
+        "y": 21,
+        "z": 1077
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 8,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-22",
+      "name": "Antichambre du Grand Couvert",
+      "position": {
+        "x": -742,
+        "y": 21,
+        "z": 1078
+      },
+      "route_ids": [],
+      "initials": "A",
+      "color": 7,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "VER-WP-23",
+      "name": "Salle des Gardes de la Reine",
+      "position": {
+        "x": -803,
+        "y": 21,
+        "z": 1078
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 15,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    }
+  ]
+}

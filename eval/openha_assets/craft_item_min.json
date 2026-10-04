@@ -1,0 +1,19 @@
+{
+  "craft_item:stick": {
+    "seeds": [
+      {
+        "seed": 1,
+        "position": [-1838, 72, 30501]
+      }
+    ],
+    "need_crafting_table": false,
+    "init_inventory": [
+      {
+        "quantity": ">=2",
+        "slot": "random",
+        "type": "bamboo"
+      }
+    ],
+    "goal": "stick"
+  }
+}

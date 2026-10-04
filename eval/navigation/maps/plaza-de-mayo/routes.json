@@ -1,0 +1,729 @@
+{
+  "schema_version": 1,
+  "map_id": "plaza-de-mayo",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/plaza-de-mayo-current-15-routes.json",
+    "sha256": "bd234713d871e8a157c1be26de20a847cb77292c59d82077426263928e647d94"
+  },
+  "quality_status": "reviewed_routes",
+  "route_count": 8,
+  "routes": [
+    {
+      "id": "pdm-route-01",
+      "title": "五月革命与国家独立",
+      "prompt_zh": "你是第一次来到布宜诺斯艾利斯的历史游客。今天想从 Cabildo 和主教座堂进入 Plaza de Mayo，经 Belgrano 纪念像和 Casa Rosada 走到六月十一日小广场。请从「Museo Histórico Nacional del Cabildo」出发，最后到「Plazoleta 11 de junio」；这段行程的主题是「五月革命与国家独立」。",
+      "persona_zh": "第一次来到布宜诺斯艾利斯的历史游客",
+      "topic_zh": "五月革命与国家独立",
+      "purpose_zh": "从 Cabildo 和主教座堂进入 Plaza de Mayo，经 Belgrano 纪念像和 Casa Rosada 走到六月十一日小广场",
+      "actor": "第一次来到布宜诺斯艾利斯的历史游客",
+      "intent": "从 Cabildo 和主教座堂进入 Plaza de Mayo，经 Belgrano 纪念像和 Casa Rosada 走到六月十一日小广场",
+      "theme": "五月革命与国家独立",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Cabildo 和主教座堂进入 Plaza de Mayo，经 Belgrano 纪念像和 Casa Rosada 走到六月十一日小广场",
+      "waypoint_status": "current_live_xaero_user_finished",
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "PDM-LIVE-21",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-34",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-38",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-36",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-26",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-28",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "pdm-route-01-segment-01",
+          "from": "PDM-LIVE-21",
+          "to": "PDM-LIVE-34"
+        },
+        {
+          "id": "pdm-route-01-segment-02",
+          "from": "PDM-LIVE-34",
+          "to": "PDM-LIVE-38"
+        },
+        {
+          "id": "pdm-route-01-segment-03",
+          "from": "PDM-LIVE-38",
+          "to": "PDM-LIVE-36"
+        },
+        {
+          "id": "pdm-route-01-segment-04",
+          "from": "PDM-LIVE-36",
+          "to": "PDM-LIVE-26"
+        },
+        {
+          "id": "pdm-route-01-segment-05",
+          "from": "PDM-LIVE-26",
+          "to": "PDM-LIVE-28"
+        }
+      ]
+    },
+    {
+      "id": "pdm-route-02",
+      "title": "主教座堂、圣马丁陵墓与国家机构",
+      "prompt_zh": "作为研究宗教与国家建设关系的学生，你今天打算从广场西侧经过主教座堂、圣马丁陵墓和总教区，再走到国家银行与 Casa Rosada。路线从「Mostaza」开始，在「Casa Rosada」结束，围绕「主教座堂、圣马丁陵墓与国家机构」展开。",
+      "persona_zh": "研究宗教与国家建设关系的学生",
+      "topic_zh": "主教座堂、圣马丁陵墓与国家机构",
+      "purpose_zh": "从广场西侧经过主教座堂、圣马丁陵墓和总教区，再走到国家银行与 Casa Rosada",
+      "actor": "研究宗教与国家建设关系的学生",
+      "intent": "从广场西侧经过主教座堂、圣马丁陵墓和总教区，再走到国家银行与 Casa Rosada",
+      "theme": "主教座堂、圣马丁陵墓与国家机构",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从广场西侧经过主教座堂、圣马丁陵墓和总教区，再走到国家银行与 Casa Rosada",
+      "waypoint_status": "current_live_xaero_user_finished",
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "PDM-LIVE-18",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-34",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-35",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-33",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-39",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-26",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "pdm-route-02-segment-01",
+          "from": "PDM-LIVE-18",
+          "to": "PDM-LIVE-34"
+        },
+        {
+          "id": "pdm-route-02-segment-02",
+          "from": "PDM-LIVE-34",
+          "to": "PDM-LIVE-35"
+        },
+        {
+          "id": "pdm-route-02-segment-03",
+          "from": "PDM-LIVE-35",
+          "to": "PDM-LIVE-33"
+        },
+        {
+          "id": "pdm-route-02-segment-04",
+          "from": "PDM-LIVE-33",
+          "to": "PDM-LIVE-39"
+        },
+        {
+          "id": "pdm-route-02-segment-05",
+          "from": "PDM-LIVE-39",
+          "to": "PDM-LIVE-26"
+        }
+      ]
+    },
+    {
+      "id": "pdm-route-09",
+      "title": "图书馆、市议会与公共机构",
+      "prompt_zh": "你是关注阿根廷公共历史的访客，今天要完成「图书馆、市议会与公共机构」：从 Biblioteca Esteban Echeverría 经过 Legislatura de la Ciudad Autónoma de Buenos Aires 和 Buenos Aires Museo (BAM)，走到 Plaza Héroes de Malvinas、Ministerio de Economía 与 Edificio de Ferrocarriles。请从「Biblioteca Esteban Echeverría」走到「Edificio de Ferrocarriles」。",
+      "persona_zh": "关注阿根廷公共历史的访客",
+      "topic_zh": "图书馆、市议会与公共机构",
+      "purpose_zh": "从 Biblioteca Esteban Echeverría 经过 Legislatura de la Ciudad Autónoma de Buenos Aires 和 Buenos Aires Museo (BAM)，走到 Plaza Héroes de Malvinas、Ministerio de Economía 与 Edificio de Ferrocarriles",
+      "actor": "关注阿根廷公共历史的访客",
+      "intent": "从 Biblioteca Esteban Echeverría 经过 Legislatura de la Ciudad Autónoma de Buenos Aires 和 Buenos Aires Museo (BAM)，走到 Plaza Héroes de Malvinas、Ministerio de Economía 与 Edificio de Ferrocarriles",
+      "theme": "图书馆、市议会与公共机构",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Biblioteca Esteban Echeverría 经过 Legislatura de la Ciudad Autónoma de Buenos Aires 和 Buenos Aires Museo (BAM)，走到 Plaza Héroes de Malvinas、Ministerio de Economía 与 Edificio de Ferrocarriles",
+      "waypoint_status": "current_live_xaero_user_finished",
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "PDM-LIVE-20",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-19",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-11",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-03",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-04",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-24",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "pdm-route-09-segment-01",
+          "from": "PDM-LIVE-20",
+          "to": "PDM-LIVE-19"
+        },
+        {
+          "id": "pdm-route-09-segment-02",
+          "from": "PDM-LIVE-19",
+          "to": "PDM-LIVE-11"
+        },
+        {
+          "id": "pdm-route-09-segment-03",
+          "from": "PDM-LIVE-11",
+          "to": "PDM-LIVE-03"
+        },
+        {
+          "id": "pdm-route-09-segment-04",
+          "from": "PDM-LIVE-03",
+          "to": "PDM-LIVE-04"
+        },
+        {
+          "id": "pdm-route-09-segment-05",
+          "from": "PDM-LIVE-04",
+          "to": "PDM-LIVE-24"
+        }
+      ]
+    },
+    {
+      "id": "pdm-route-05",
+      "title": "领事馆到经济部门的文件递交",
+      "prompt_zh": "今天你想以需要跨政府区递交文件的本地办事者的身份安排「领事馆到经济部门的文件递交」。具体做法是从智利领事馆出发，先到 Casa de la Cultura 整理材料，再去经济部门递交并前往 Edificio de Ferrocarriles；从「Consulado de Chile」出发，到「Edificio de Ferrocarriles」结束。",
+      "persona_zh": "需要跨政府区递交文件的本地办事者",
+      "topic_zh": "领事馆到经济部门的文件递交",
+      "purpose_zh": "从智利领事馆出发，先到 Casa de la Cultura 整理材料，再去经济部门递交并前往 Edificio de Ferrocarriles",
+      "actor": "需要跨政府区递交文件的本地办事者",
+      "intent": "从智利领事馆出发，先到 Casa de la Cultura 整理材料，再去经济部门递交并前往 Edificio de Ferrocarriles",
+      "theme": "领事馆到经济部门的文件递交",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从智利领事馆出发，先到 Casa de la Cultura 整理材料，再去经济部门递交并前往 Edificio de Ferrocarriles",
+      "waypoint_status": "current_live_xaero_user_finished",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "PDM-LIVE-01",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-09",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-04",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-24",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "pdm-route-05-segment-01",
+          "from": "PDM-LIVE-01",
+          "to": "PDM-LIVE-09"
+        },
+        {
+          "id": "pdm-route-05-segment-02",
+          "from": "PDM-LIVE-09",
+          "to": "PDM-LIVE-04"
+        },
+        {
+          "id": "pdm-route-05-segment-03",
+          "from": "PDM-LIVE-04",
+          "to": "PDM-LIVE-24"
+        }
+      ]
+    },
+    {
+      "id": "pdm-route-08",
+      "title": "旧市政文化建筑与南侧街区",
+      "prompt_zh": "你是住在广场附近的建筑游客。今天想从 Casa de la Cultura 和旧市政府出发，经 NH 酒店与司法委员会走到 De Las Luces Hotel。请从「Casa de la Cultura (Edificio La Prensa)」出发，最后到「De Las Luces Hotel」；这段行程的主题是「旧市政文化建筑与南侧街区」。",
+      "persona_zh": "住在广场附近的建筑游客",
+      "topic_zh": "旧市政文化建筑与南侧街区",
+      "purpose_zh": "从 Casa de la Cultura 和旧市政府出发，经 NH 酒店与司法委员会走到 De Las Luces Hotel",
+      "actor": "住在广场附近的建筑游客",
+      "intent": "从 Casa de la Cultura 和旧市政府出发，经 NH 酒店与司法委员会走到 De Las Luces Hotel",
+      "theme": "旧市政文化建筑与南侧街区",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Casa de la Cultura 和旧市政府出发，经 NH 酒店与司法委员会走到 De Las Luces Hotel",
+      "waypoint_status": "current_live_xaero_user_finished",
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "PDM-LIVE-09",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-07",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-10",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-17",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-16",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "pdm-route-08-segment-01",
+          "from": "PDM-LIVE-09",
+          "to": "PDM-LIVE-07"
+        },
+        {
+          "id": "pdm-route-08-segment-02",
+          "from": "PDM-LIVE-07",
+          "to": "PDM-LIVE-10"
+        },
+        {
+          "id": "pdm-route-08-segment-03",
+          "from": "PDM-LIVE-10",
+          "to": "PDM-LIVE-17"
+        },
+        {
+          "id": "pdm-route-08-segment-04",
+          "from": "PDM-LIVE-17",
+          "to": "PDM-LIVE-16"
+        }
+      ]
+    },
+    {
+      "id": "pdm-route-10",
+      "title": "广场东侧纪念物与铁路建筑",
+      "prompt_zh": "作为研究城市基础设施史的学生，你今天打算从 Juan de Garay 纪念物经过 Bustillo 画廊和 Casa Rosada，最后走到生产部门与 Edificio de Ferrocarriles。路线从「Monumento a Juan de Garay」开始，在「Edificio de Ferrocarriles」结束，围绕「广场东侧纪念物与铁路建筑」展开。",
+      "persona_zh": "研究城市基础设施史的学生",
+      "topic_zh": "广场东侧纪念物与铁路建筑",
+      "purpose_zh": "从 Juan de Garay 纪念物经过 Bustillo 画廊和 Casa Rosada，最后走到生产部门与 Edificio de Ferrocarriles",
+      "actor": "研究城市基础设施史的学生",
+      "intent": "从 Juan de Garay 纪念物经过 Bustillo 画廊和 Casa Rosada，最后走到生产部门与 Edificio de Ferrocarriles",
+      "theme": "广场东侧纪念物与铁路建筑",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Juan de Garay 纪念物经过 Bustillo 画廊和 Casa Rosada，最后走到生产部门与 Edificio de Ferrocarriles",
+      "waypoint_status": "current_live_xaero_user_finished",
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "PDM-LIVE-27",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-30",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-26",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-23",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-24",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "pdm-route-10-segment-01",
+          "from": "PDM-LIVE-27",
+          "to": "PDM-LIVE-30"
+        },
+        {
+          "id": "pdm-route-10-segment-02",
+          "from": "PDM-LIVE-30",
+          "to": "PDM-LIVE-26"
+        },
+        {
+          "id": "pdm-route-10-segment-03",
+          "from": "PDM-LIVE-26",
+          "to": "PDM-LIVE-23"
+        },
+        {
+          "id": "pdm-route-10-segment-04",
+          "from": "PDM-LIVE-23",
+          "to": "PDM-LIVE-24"
+        }
+      ]
+    },
+    {
+      "id": "pdm-route-11",
+      "title": "经济部门、市议会与地铁",
+      "prompt_zh": "你是在五月广场南侧办理公共事务的访客，今天要完成「经济部门、市议会与地铁」：从经济部门经过旧国会建筑和 NH 酒店前往市议会，最后进入地铁站离开。请从「Ministerio de Economía」走到「Interior de la estación de subte」。",
+      "persona_zh": "在五月广场南侧办理公共事务的访客",
+      "topic_zh": "经济部门、市议会与地铁",
+      "purpose_zh": "从经济部门经过旧国会建筑和 NH 酒店前往市议会，最后进入地铁站离开",
+      "actor": "在五月广场南侧办理公共事务的访客",
+      "intent": "从经济部门经过旧国会建筑和 NH 酒店前往市议会，最后进入地铁站离开",
+      "theme": "经济部门、市议会与地铁",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从经济部门经过旧国会建筑和 NH 酒店前往市议会，最后进入地铁站离开",
+      "waypoint_status": "current_live_xaero_user_finished",
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "PDM-LIVE-04",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-06",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-10",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-19",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-08",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "pdm-route-11-segment-01",
+          "from": "PDM-LIVE-04",
+          "to": "PDM-LIVE-06"
+        },
+        {
+          "id": "pdm-route-11-segment-02",
+          "from": "PDM-LIVE-06",
+          "to": "PDM-LIVE-10"
+        },
+        {
+          "id": "pdm-route-11-segment-03",
+          "from": "PDM-LIVE-10",
+          "to": "PDM-LIVE-19"
+        },
+        {
+          "id": "pdm-route-11-segment-04",
+          "from": "PDM-LIVE-19",
+          "to": "PDM-LIVE-08"
+        }
+      ]
+    },
+    {
+      "id": "pdm-route-16",
+      "title": "五月广场金融史与财政机构",
+      "prompt_zh": "你是研究阿根廷公共财政史的访客。今天从「Edificio Sudamérica」出发，参观 Museo Histórico y Numismático del Banco Nación，再经过 Plaza de Mayo 与 Casa Rosada，最后走访 Ministerio de Economía de la Nación，并到「ARCA - Agencia 5」结束；这段行程的主题是「五月广场金融史与财政机构」。",
+      "persona_zh": "研究阿根廷公共财政史的访客",
+      "topic_zh": "五月广场金融史与财政机构",
+      "purpose_zh": "从 Edificio Sudamérica 经 Museo Histórico y Numismático del Banco Nación、Plaza de Mayo 与 Casa Rosada，走到 Ministerio de Economía de la Nación 和 ARCA - Agencia 5",
+      "actor": "研究阿根廷公共财政史的访客",
+      "intent": "从 Edificio Sudamérica 经 Museo Histórico y Numismático del Banco Nación、Plaza de Mayo 与 Casa Rosada，走到 Ministerio de Economía de la Nación 和 ARCA - Agencia 5",
+      "theme": "五月广场金融史与财政机构",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "reached",
+      "validation_status": "full_route_baritone_reached",
+      "validation_note_zh": "2026-08-24 已完成 Baritone 整线实走与第一视角录像，8 个导航点全部到达（含 2 个隐藏连接点）。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Edificio Sudamérica 经 Museo Histórico y Numismático del Banco Nación、Plaza de Mayo 与 Casa Rosada，走到 Ministerio de Economía de la Nación 和 ARCA - Agencia 5",
+      "waypoint_status": "current_live_xaero_user_finished",
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5
+      },
+      "status": "full_route_baritone_reached",
+      "points": [
+        {
+          "waypoint_id": "PDM-LIVE-02",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-31",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-38",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-26",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-25",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "PDM-LIVE-05",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "pdm-route-16-segment-01",
+          "from": "PDM-LIVE-02",
+          "to": "PDM-LIVE-31"
+        },
+        {
+          "id": "pdm-route-16-segment-02",
+          "from": "PDM-LIVE-31",
+          "to": "PDM-LIVE-38"
+        },
+        {
+          "id": "pdm-route-16-segment-03",
+          "from": "PDM-LIVE-38",
+          "to": "PDM-LIVE-26"
+        },
+        {
+          "id": "pdm-route-16-segment-04",
+          "from": "PDM-LIVE-26",
+          "to": "PDM-LIVE-25"
+        },
+        {
+          "id": "pdm-route-16-segment-05",
+          "from": "PDM-LIVE-25",
+          "to": "PDM-LIVE-05"
+        }
+      ]
+    }
+  ],
+  "upload_recommendation": "waypoints_and_routes_ready",
+  "excluded_waypoints": [
+    {
+      "name": "Museo Histórico y Numismático de",
+      "mc": {
+        "x": -277,
+        "y": 12,
+        "z": 177
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "Furaibo",
+      "mc": {
+        "x": -463,
+        "y": 13,
+        "z": 502
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "Railway Building",
+      "mc": {
+        "x": -127,
+        "y": 3,
+        "z": 524
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "Ministerio de Economía de la Nac",
+      "mc": {
+        "x": -166,
+        "y": 9,
+        "z": 373
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "Plazoleta 11 de junio",
+      "mc": {
+        "x": -65,
+        "y": 6,
+        "z": 103
+      },
+      "reason": "disabled_in_xaero"
+    }
+  ]
+}

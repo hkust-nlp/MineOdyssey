@@ -1,0 +1,608 @@
+{
+  "schema_version": 1,
+  "map_id": "notre-dame",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "custom_maps/maps/inter_map/notre_dame/waypoints.json",
+    "sha256": "7506a571301823a7dbd97553c69bddfe8dcd4be152c3f7d733e74e3089348781"
+  },
+  "dimension": "overworld",
+  "waypoint_count": 27,
+  "waypoints": [
+    {
+      "id": "NTD-WP-01",
+      "name": "Chapelle d'Élie",
+      "position": {
+        "x": 1906,
+        "y": 7,
+        "z": 394
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 0,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-02",
+      "name": "Chapelle de Salomon",
+      "position": {
+        "x": 1899,
+        "y": 7,
+        "z": 394
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 6,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-03",
+      "name": "Chapelle de David",
+      "position": {
+        "x": 1892,
+        "y": 7,
+        "z": 394
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 6,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-04",
+      "name": "Chapelle d'Isaïe",
+      "position": {
+        "x": 1885,
+        "y": 7,
+        "z": 395
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 10,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-05",
+      "name": "Chapelle de Moïse",
+      "position": {
+        "x": 1878,
+        "y": 7,
+        "z": 393
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 12,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-06",
+      "name": "Chapelle d'Abraham",
+      "position": {
+        "x": 1872,
+        "y": 7,
+        "z": 395
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 4,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-07",
+      "name": "Chapelle Saint-Joseph",
+      "position": {
+        "x": 1906,
+        "y": 7,
+        "z": 438
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 2,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-08",
+      "name": "Chapelle Saint-Thomas-d'Aquin",
+      "position": {
+        "x": 1898,
+        "y": 7,
+        "z": 437
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 5,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-09",
+      "name": "Chapelle Sainte-Clotilde",
+      "position": {
+        "x": 1892,
+        "y": 7,
+        "z": 437
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 14,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-10",
+      "name": "Chapelle Saint-Vincent-de-Paul",
+      "position": {
+        "x": 1885,
+        "y": 7,
+        "z": 437
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 11,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-11",
+      "name": "Chapelle Sainte-Geneviève",
+      "position": {
+        "x": 1878,
+        "y": 7,
+        "z": 437
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 13,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-12",
+      "name": "Chapelle Saint-Denis",
+      "position": {
+        "x": 1871,
+        "y": 7,
+        "z": 437
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 5,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-13",
+      "name": "Chapelle Saint-Paul-Chen",
+      "position": {
+        "x": 1864,
+        "y": 7,
+        "z": 437
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 11,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-14",
+      "name": "Chapelle de Noé",
+      "position": {
+        "x": 1864,
+        "y": 7,
+        "z": 394
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 13,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-15",
+      "name": "Trésor",
+      "position": {
+        "x": 1961,
+        "y": 17,
+        "z": 466
+      },
+      "route_ids": [],
+      "initials": "T",
+      "color": 0,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-16",
+      "name": "Sacristie",
+      "position": {
+        "x": 1951,
+        "y": 6,
+        "z": 467
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 2,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-17",
+      "name": "Tour Sud",
+      "position": {
+        "x": 1847,
+        "y": 79,
+        "z": 430
+      },
+      "route_ids": [],
+      "initials": "T",
+      "color": 9,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-18",
+      "name": "Tour Nord",
+      "position": {
+        "x": 1847,
+        "y": 79,
+        "z": 402
+      },
+      "route_ids": [],
+      "initials": "T",
+      "color": 3,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-19",
+      "name": "Flèche",
+      "position": {
+        "x": 1917,
+        "y": 64,
+        "z": 416
+      },
+      "route_ids": [],
+      "initials": "F",
+      "color": 12,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-20",
+      "name": "Ambon",
+      "position": {
+        "x": 1925,
+        "y": 9,
+        "z": 416
+      },
+      "route_ids": [],
+      "initials": "A",
+      "color": 6,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-21",
+      "name": "Déambulatoire Sud",
+      "position": {
+        "x": 1958,
+        "y": 8,
+        "z": 427
+      },
+      "route_ids": [],
+      "initials": "D",
+      "color": 0,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-22",
+      "name": "Déambulatoire Nord",
+      "position": {
+        "x": 1959,
+        "y": 8,
+        "z": 405
+      },
+      "route_ids": [],
+      "initials": "D",
+      "color": 4,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-23",
+      "name": "Maître-Autel",
+      "position": {
+        "x": 1959,
+        "y": 8,
+        "z": 416
+      },
+      "route_ids": [],
+      "initials": "M",
+      "color": 11,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-24",
+      "name": "Pietà",
+      "position": {
+        "x": 1971,
+        "y": 9,
+        "z": 416
+      },
+      "route_ids": [],
+      "initials": "P",
+      "color": 5,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-25",
+      "name": "Chœur",
+      "position": {
+        "x": 1952,
+        "y": 7,
+        "z": 416
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 2,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-26",
+      "name": "Grand Orgue",
+      "position": {
+        "x": 1845,
+        "y": 7,
+        "z": 416
+      },
+      "route_ids": [],
+      "initials": "G",
+      "color": 1,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "NTD-WP-27",
+      "name": "Nef",
+      "position": {
+        "x": 1898,
+        "y": 7,
+        "z": 416
+      },
+      "route_ids": [],
+      "initials": "N",
+      "color": 9,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    }
+  ]
+}
