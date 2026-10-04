@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "map_id": "torrey-mall",
+  "display_name": "Torrey Mall",
+  "out_of_bounds": {
+    "at_or_below_y": -14,
+    "duration_sec": 15
+  },
+  "environment": "outdoor",
+  "source": {
+    "repository": "anonymous/source",
+    "release_id": 1,
+    "release_url": "https://example.invalid/anonymous-source",
+    "asset_name": "navigation-1.21.11-torrey-mall.zip",
+    "archive_path": "navigation-1.21.11-torrey-mall.zip",
+    "archive_bytes": 104889800,
+    "archive_sha256": "2d0c782cf48f91f5128eed25752f523a03a2ceff0ce77b0baa5cb307150c8ec0",
+    "world_root": "torrey-mall"
+  },
+  "world": {
+    "source_version": {
+      "version_name": "1.21.11",
+      "version_id": 4671,
+      "data_version": 4671
+    },
+    "minecraft_version": "1.21.11",
+    "version_name": "1.21.11",
+    "data_version": 4671,
+    "expected_source_fingerprint": "65a785fecf8cb8d15858f75641d688e08d1ee5eed981d72eec1fb60dfcd9c9aa",
+    "expected_prepared_fingerprint": "65a785fecf8cb8d15858f75641d688e08d1ee5eed981d72eec1fb60dfcd9c9aa",
+    "preparation": {
+      "id": "identity-minecraft-1.21.11-v1",
+      "reason": "Use the verified ready-to-run 1.21.11 release world unchanged as both source and prepared snapshot."
+    }
+  },
+  "license": {
+    "scope": "evaluation-only source archive",
+    "redistribution": "not granted by this manifest",
+    "note": "Preserve the release manifest provenance, original upstream archive digest, and any bundled terms."
+  }
+}

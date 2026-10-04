@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "map_id": "wurzburg",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "eval/navigation/maps/wurzburg/route-plan-v1.json",
+    "sha256": "a49650a621785f2862d0507255137e68184a754aeaf10cbf2b3f2c2613ff314c"
+  },
+  "quality_status": "review_plan_only_not_certified",
+  "upload_recommendation": "waypoints_ready_routes_need_manual_walkthrough",
+  "route_count": 10,
+  "routes": [
+    {
+      "id": "wur-route-02",
+      "title": "房产翻修手续串联",
+      "title_en": "Property Renovation and Administration Circuit",
+      "persona": "property_project_owner",
+      "difficulty": "medium",
+      "basis": "transit_legal_building_tax_finance_property_and_supplier_flow",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "WUR-WP-35",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "WUR-WP-01",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-11",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-12",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-23",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-77",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-13",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "wur-route-03",
+      "title": "学生放学后的办事路线",
+      "title_en": "Student After-School Errands",
+      "persona": "student_and_driving_learner",
+      "difficulty": "medium",
+      "basis": "school_driving_lesson_printing_food_bank_and_transit_flow",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "WUR-WP-33",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "WUR-WP-16",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-19",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-10",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-02",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-03",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-36",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "wur-route-04",
+      "title": "教育社区联络巡访",
+      "title_en": "Education Community Liaison Visit",
+      "persona": "education_community_liaison",
+      "difficulty": "medium",
+      "basis": "transit_school_kindergarten_church_and_outbound_stop_flow",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "WUR-WP-32",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "WUR-WP-17",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-30",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-29",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-31",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "wur-route-06",
+      "title": "社区青年到科技企业的职业参访",
+      "title_en": "Community Youth Career Visit to Technology Firms",
+      "persona": "career_visit_group",
+      "difficulty": "hard",
+      "basis": "community_vocational_school_services_and_technology_firms_flow",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "WUR-WP-29",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "WUR-WP-39",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-53",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-41",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-42",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-44",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "wur-route-07",
+      "title": "酒店住客的采购、金融与夜间活动",
+      "title_en": "Hotel Guest Shopping, Banking, and Nightlife",
+      "persona": "hotel_guest",
+      "difficulty": "medium",
+      "basis": "hotel_grocery_bank_parking_and_nightlife_flow",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "WUR-WP-56",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "WUR-WP-55",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-54",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-46",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-43",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "wur-route-08",
+      "title": "新居民跨城搬迁与落脚",
+      "title_en": "New Resident Cross-City Move-In",
+      "persona": "new_resident",
+      "difficulty": "hard",
+      "basis": "rental_car_realtor_apartment_insurance_parking_charging_and_hotel_flow",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "WUR-WP-07",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "WUR-WP-06",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-37",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-40",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-47",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-49",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-50",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "wur-route-09",
+      "title": "酒店出发前往主墓园祭扫",
+      "title_en": "Hotel-to-Cemetery Memorial Visit",
+      "persona": "out_of_town_memorial_visitor",
+      "difficulty": "hard",
+      "basis": "hotel_flower_chapel_and_personal_family_grave_flow",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "WUR-WP-58",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "WUR-WP-72",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-69",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-65",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "wur-route-12",
+      "title": "居民周六生活事务",
+      "title_en": "Resident Saturday Errands",
+      "persona": "city_center_resident",
+      "difficulty": "medium",
+      "basis": "parking_address_grooming_leisure_bank_insurance_and_home_flow",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "WUR-WP-34",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "WUR-WP-76",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-04",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-09",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-08",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-21",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-22",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-78",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "wur-route-13",
+      "title": "东侧居民采购、就医与休闲",
+      "title_en": "East-Side Resident Shopping, Healthcare, and Leisure",
+      "persona": "east_side_resident",
+      "difficulty": "medium",
+      "basis": "home_bicycle_service_dental_leisure_and_grocery_flow",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "WUR-WP-62",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "WUR-WP-59",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-61",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-60",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-55",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "wur-route-14",
+      "title": "主墓园服务设施日常巡检",
+      "title_en": "Main Cemetery Service Facility Inspection",
+      "persona": "cemetery_operations_worker",
+      "difficulty": "medium",
+      "basis": "parking_administration_public_facilities_funeral_hall_and_chapel_flow",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "WUR-WP-45",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "WUR-WP-75",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-67",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-73",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-66",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "WUR-WP-69",
+          "role": "end"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "Finalpool overworld height compatibility for Minecraft 1.21.11",
+    "min_format": [
+      94,
+      1
+    ],
+    "max_format": [
+      94,
+      1
+    ]
+  }
+}

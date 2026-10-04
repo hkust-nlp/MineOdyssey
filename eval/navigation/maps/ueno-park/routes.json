@@ -1,0 +1,998 @@
+{
+  "schema_version": 1,
+  "map_id": "ueno-park",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/ueno-current-15-routes.json",
+    "sha256": "7731dedef5d496ce78950693fc598a0377773317edf1152bb77e0a07ce852afd"
+  },
+  "quality_status": "reviewed_routes",
+  "route_count": 12,
+  "routes": [
+    {
+      "id": "ueno-live-route-01",
+      "title": "上野站前到公园西侧",
+      "prompt_zh": "在「ヨドバシカメラ マルチメディア上野」购买相机存储卡，到「上野公園」开始拍照；在「公園西側花園広場」拍摄花朵特写，离开前到「公衆トイレ」整理一下随身物品。",
+      "persona_zh": "第一次到上野、想先认识公园的游客",
+      "topic_zh": "上野公园西侧拍照",
+      "purpose_zh": "从上野站前进入上野公園拍照，最后到公衆トイレ整理随身物品",
+      "actor": "第一次到上野、想先认识公园的游客",
+      "intent": "从上野站前进入上野公園拍照，最后到公衆トイレ整理随身物品",
+      "theme": "上野公园西侧拍照",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops",
+        "walking_only_no_swimming"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按 2026-08-27 网页评论替换终点；新点序需要重新实走验证。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "购买摄影用品后进入公园拍照，离开前到公衆トイレ整理随身物品",
+      "waypoint_status": "current_enabled_live_xaero_user_reannotated",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "UENO-LIVE-72",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-49",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-64",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-17",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ueno-live-route-01-segment-01",
+          "from": "UENO-LIVE-72",
+          "to": "UENO-LIVE-49"
+        },
+        {
+          "id": "ueno-live-route-01-segment-02",
+          "from": "UENO-LIVE-49",
+          "to": "UENO-LIVE-64"
+        },
+        {
+          "id": "ueno-live-route-01-segment-03",
+          "from": "UENO-LIVE-64",
+          "to": "UENO-LIVE-17"
+        }
+      ]
+    },
+    {
+      "id": "ueno-live-route-09",
+      "title": "铃本演艺场、下町博物馆与不忍池",
+      "prompt_zh": "作为傍晚在上野安排文化散步的本地人，你今天打算从铃本演艺场一带经过下町博物馆和不忍池东岸，最后沿水岸走到北岸。路线从「鈴本演芸場・鈴本ビル」开始，在「不忍池北岸」结束，围绕「铃本演艺场、下町博物馆与不忍池」展开。",
+      "persona_zh": "傍晚在上野安排文化散步的本地人",
+      "topic_zh": "铃本演艺场、下町博物馆与不忍池",
+      "purpose_zh": "从铃本演艺场一带经过下町博物馆和不忍池东岸，最后沿水岸走到北岸",
+      "actor": "傍晚在上野安排文化散步的本地人",
+      "intent": "从铃本演艺场一带经过下町博物馆和不忍池东岸，最后沿水岸走到北岸",
+      "theme": "铃本演艺场、下町博物馆与不忍池",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops",
+        "walking_only_no_swimming"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从铃本演艺场一带经过下町博物馆和不忍池东岸，最后沿水岸走到北岸",
+      "waypoint_status": "current_enabled_live_xaero_user_reannotated",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "UENO-LIVE-73",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-47",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-62",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-63",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ueno-live-route-09-segment-01",
+          "from": "UENO-LIVE-73",
+          "to": "UENO-LIVE-47"
+        },
+        {
+          "id": "ueno-live-route-09-segment-02",
+          "from": "UENO-LIVE-47",
+          "to": "UENO-LIVE-62"
+        },
+        {
+          "id": "ueno-live-route-09-segment-03",
+          "from": "UENO-LIVE-62",
+          "to": "UENO-LIVE-63"
+        }
+      ]
+    },
+    {
+      "id": "ueno-live-route-04",
+      "title": "摩利支天德大寺、阿美横与下町博物馆",
+      "prompt_zh": "你是对下町信仰和街区文化感兴趣的游客。从「摩利支天徳大寺（参詣口）」参拜后进入アメ横センタービル，再经上野公園走到「したまちミュージアム」；这段行程的主题是「摩利支天德大寺、阿美横与下町博物馆」。",
+      "persona_zh": "对下町信仰和街区文化感兴趣的游客",
+      "topic_zh": "摩利支天德大寺、阿美横与下町博物馆",
+      "purpose_zh": "从摩利支天徳大寺进入阿美横，经上野公園沿陆路走到下町博物馆",
+      "actor": "对下町信仰和街区文化感兴趣的游客",
+      "intent": "从摩利支天徳大寺进入阿美横，经上野公園沿陆路走到下町博物馆",
+      "theme": "摩利支天德大寺、阿美横与下町博物馆",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops",
+        "walking_only_no_swimming"
+      ],
+      "reachability_status": "reached",
+      "validation_status": "full_route_baritone_reached",
+      "validation_note_zh": "2026-08-24 已完成 Baritone 整线实走与第一视角录像，4 个导航点全部到达；路线全程为连续陆路，不涉水。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从摩利支天徳大寺进入阿美横，经上野公園沿陆路走到下町博物馆",
+      "waypoint_status": "current_enabled_live_xaero_user_reannotated",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "full_route_baritone_reached",
+      "points": [
+        {
+          "waypoint_id": "UENO-LIVE-71",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-75",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-49",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-47",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ueno-live-route-04-segment-01",
+          "from": "UENO-LIVE-71",
+          "to": "UENO-LIVE-75"
+        },
+        {
+          "id": "ueno-live-route-04-segment-02",
+          "from": "UENO-LIVE-75",
+          "to": "UENO-LIVE-49"
+        },
+        {
+          "id": "ueno-live-route-04-segment-03",
+          "from": "UENO-LIVE-49",
+          "to": "UENO-LIVE-47"
+        }
+      ]
+    },
+    {
+      "id": "ueno-live-route-03",
+      "title": "阿美横多文化饮食",
+      "prompt_zh": "今天你想以和朋友来阿美横吃饭的本地年轻人的身份安排「阿美横多文化饮食」。具体做法是在 ABC-MART 会合后依次选择韩国料理、烤肉与咖啡，完成一次多文化餐饮散步；从「ABC-MART」出发，到「韓国カフェレストラン」结束。",
+      "persona_zh": "和朋友来阿美横吃饭的本地年轻人",
+      "topic_zh": "阿美横多文化饮食",
+      "purpose_zh": "在 ABC-MART 会合后依次选择韩国料理、烤肉与咖啡，完成一次多文化餐饮散步",
+      "actor": "和朋友来阿美横吃饭的本地年轻人",
+      "intent": "在 ABC-MART 会合后依次选择韩国料理、烤肉与咖啡，完成一次多文化餐饮散步",
+      "theme": "阿美横多文化饮食",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops",
+        "walking_only_no_swimming"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "在 ABC-MART 会合后依次选择韩国料理、烤肉与咖啡，完成一次多文化餐饮散步",
+      "waypoint_status": "current_enabled_live_xaero_user_reannotated",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "UENO-LIVE-43",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-41",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-45",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-54",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ueno-live-route-03-segment-01",
+          "from": "UENO-LIVE-43",
+          "to": "UENO-LIVE-41"
+        },
+        {
+          "id": "ueno-live-route-03-segment-02",
+          "from": "UENO-LIVE-41",
+          "to": "UENO-LIVE-45"
+        },
+        {
+          "id": "ueno-live-route-03-segment-03",
+          "from": "UENO-LIVE-45",
+          "to": "UENO-LIVE-54"
+        }
+      ]
+    },
+    {
+      "id": "ueno-live-route-06",
+      "title": "阿美横下班后采购",
+      "prompt_zh": "你是下班后顺路采购的附近居民。今天想从站前商场进入阿美横，经过综合商场和药妆店，最后到食品超市完成采购。请从「ヨドバシカメラ マルチメディア上野」出发，最后到「酒＆業務スーパー上野広小路店」；这段行程的主题是「阿美横下班后采购」。",
+      "persona_zh": "下班后顺路采购的附近居民",
+      "topic_zh": "阿美横下班后采购",
+      "purpose_zh": "从站前商场进入阿美横，经过综合商场和药妆店，最后到食品超市完成采购",
+      "actor": "下班后顺路采购的附近居民",
+      "intent": "从站前商场进入阿美横，经过综合商场和药妆店，最后到食品超市完成采购",
+      "theme": "阿美横下班后采购",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops",
+        "walking_only_no_swimming"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从站前商场进入阿美横，经过综合商场和药妆店，最后到食品超市完成采购",
+      "waypoint_status": "current_enabled_live_xaero_user_reannotated",
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "UENO-LIVE-72",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-75",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-74",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-19",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-01",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ueno-live-route-06-segment-01",
+          "from": "UENO-LIVE-72",
+          "to": "UENO-LIVE-75"
+        },
+        {
+          "id": "ueno-live-route-06-segment-02",
+          "from": "UENO-LIVE-75",
+          "to": "UENO-LIVE-74"
+        },
+        {
+          "id": "ueno-live-route-06-segment-03",
+          "from": "UENO-LIVE-74",
+          "to": "UENO-LIVE-19"
+        },
+        {
+          "id": "ueno-live-route-06-segment-04",
+          "from": "UENO-LIVE-19",
+          "to": "UENO-LIVE-01"
+        }
+      ]
+    },
+    {
+      "id": "ueno-live-route-07",
+      "title": "上野公園与下町博物馆",
+      "prompt_zh": "作为带家人认识上野下町的游客，你今天打算从站前进入上野公園，参观下町博物馆后走到不忍池东岸休息。路线从「ヨドバシカメラ マルチメディア上野」开始，在「不忍池東岸広場」结束，围绕「上野公園与下町博物馆」展开。",
+      "persona_zh": "带家人认识上野下町的游客",
+      "topic_zh": "上野公園与下町博物馆",
+      "purpose_zh": "从站前进入上野公園，参观下町博物馆后走到不忍池东岸休息",
+      "actor": "带家人认识上野下町的游客",
+      "intent": "从站前进入上野公園，参观下町博物馆后走到不忍池东岸休息",
+      "theme": "上野公園与下町博物馆",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops",
+        "walking_only_no_swimming"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从站前进入上野公園，参观下町博物馆后走到不忍池东岸休息",
+      "waypoint_status": "current_enabled_live_xaero_user_reannotated",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "UENO-LIVE-30",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-49",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-47",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-62",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ueno-live-route-07-segment-01",
+          "from": "UENO-LIVE-30",
+          "to": "UENO-LIVE-49"
+        },
+        {
+          "id": "ueno-live-route-07-segment-02",
+          "from": "UENO-LIVE-49",
+          "to": "UENO-LIVE-47"
+        },
+        {
+          "id": "ueno-live-route-07-segment-03",
+          "from": "UENO-LIVE-47",
+          "to": "UENO-LIVE-62"
+        }
+      ]
+    },
+    {
+      "id": "ueno-live-route-08",
+      "title": "从铃本演艺场到炭火烧鸟悟空",
+      "prompt_zh": "晚上先在「サンコーエン」吃饭，再到「鈴本演芸場・鈴本ビル」看一场演出，散场后去「炭火焼鳥ごくう 上野店」吃烤鸡肉串。",
+      "persona_zh": "准备看演出的外地朋友",
+      "topic_zh": "铃本演艺场演出与散场后夜宵",
+      "purpose_zh": "先在サンコーエン吃饭，前往鈴本演芸場看演出，散场后到炭火焼鳥ごくう 上野店",
+      "actor": "准备看演出的外地朋友",
+      "intent": "先在サンコーエン吃饭，前往鈴本演芸場看演出，散场后到炭火焼鳥ごくう 上野店",
+      "theme": "铃本演艺场演出与散场后夜宵",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops",
+        "walking_only_no_swimming"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "先吃晚饭和看演出，散场后到炭火焼鳥ごくう 上野店吃夜宵",
+      "waypoint_status": "current_enabled_live_xaero_user_reannotated",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "UENO-LIVE-42",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-73",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-58",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ueno-live-route-08-segment-01",
+          "from": "UENO-LIVE-42",
+          "to": "UENO-LIVE-73"
+        },
+        {
+          "id": "ueno-live-route-08-segment-02",
+          "from": "UENO-LIVE-73",
+          "to": "UENO-LIVE-58"
+        }
+      ]
+    },
+    {
+      "id": "ueno-live-route-02",
+      "title": "抵达上野、入住后参观下町博物馆",
+      "prompt_zh": "你是刚到上野、带着行李的住客。从「ヨドバシカメラ マルチメディア上野」前往インイン・ホテル上野办理入住，再经过公園西側花園広場，最后沿公园陆路到「したまちミュージアム」参观；这段行程的主题是「抵达上野、入住后参观下町博物馆」。",
+      "persona_zh": "刚到上野、带着行李的住客",
+      "topic_zh": "抵达上野、入住后参观下町博物馆",
+      "purpose_zh": "从上野站前到酒店办理入住，经西侧花园广场沿公园陆路前往下町博物馆",
+      "actor": "刚到上野、带着行李的住客",
+      "intent": "从上野站前到酒店办理入住，经西侧花园广场沿公园陆路前往下町博物馆",
+      "theme": "抵达上野、入住后参观下町博物馆",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops",
+        "walking_only_no_swimming"
+      ],
+      "reachability_status": "reached",
+      "validation_status": "full_route_baritone_reached",
+      "validation_note_zh": "2026-08-24 已完成 Baritone 整线实走与第一视角录像，5 个导航点全部到达（含 1 个隐藏陆路连接点）。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从上野站前到酒店办理入住，经西侧花园广场沿公园陆路前往下町博物馆",
+      "waypoint_status": "current_enabled_live_xaero_user_reannotated",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "full_route_baritone_reached",
+      "points": [
+        {
+          "waypoint_id": "UENO-LIVE-72",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-21",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-64",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-47",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ueno-live-route-02-segment-01",
+          "from": "UENO-LIVE-72",
+          "to": "UENO-LIVE-21"
+        },
+        {
+          "id": "ueno-live-route-02-segment-02",
+          "from": "UENO-LIVE-21",
+          "to": "UENO-LIVE-64"
+        },
+        {
+          "id": "ueno-live-route-02-segment-03",
+          "from": "UENO-LIVE-64",
+          "to": "UENO-LIVE-47"
+        }
+      ]
+    },
+    {
+      "id": "ueno-live-route-05",
+      "title": "汤岛夜间餐饮与采购",
+      "prompt_zh": "你是约朋友体验汤岛夜生活的本地人。从「70's Rock&Blues Bar 『g.o.s』」会合后到 AZITO 用餐，再去酒＆業務スーパー采购，比较两家晚餐店，最后到「第二英鮨 上野」；这段行程的主题是「汤岛夜间餐饮与采购」。",
+      "persona_zh": "约朋友体验汤岛夜生活的本地人",
+      "topic_zh": "汤岛夜间餐饮与采购",
+      "purpose_zh": "从现场音乐酒吧经过 AZITO 与食品采购点，沿汤岛餐饮街比较晚餐选择后到第二英鮨",
+      "actor": "约朋友体验汤岛夜生活的本地人",
+      "intent": "从现场音乐酒吧经过 AZITO 与食品采购点，沿汤岛餐饮街比较晚餐选择后到第二英鮨",
+      "theme": "汤岛夜间餐饮与采购",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops",
+        "walking_only_no_swimming"
+      ],
+      "reachability_status": "reached",
+      "validation_status": "full_route_baritone_reached",
+      "validation_note_zh": "2026-08-24 已完成 Baritone 整线实走与第一视角录像，6 个导航点全部到达（含 1 个隐藏连接点）。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从现场音乐酒吧经过 AZITO 与食品采购点，沿汤岛餐饮街比较晚餐选择后到第二英鮨",
+      "waypoint_status": "current_enabled_live_xaero_user_reannotated",
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4
+      },
+      "status": "full_route_baritone_reached",
+      "points": [
+        {
+          "waypoint_id": "UENO-LIVE-04",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-03",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-01",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-06",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-05",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ueno-live-route-05-segment-01",
+          "from": "UENO-LIVE-04",
+          "to": "UENO-LIVE-03"
+        },
+        {
+          "id": "ueno-live-route-05-segment-02",
+          "from": "UENO-LIVE-03",
+          "to": "UENO-LIVE-01"
+        },
+        {
+          "id": "ueno-live-route-05-segment-03",
+          "from": "UENO-LIVE-01",
+          "to": "UENO-LIVE-06"
+        },
+        {
+          "id": "ueno-live-route-05-segment-04",
+          "from": "UENO-LIVE-06",
+          "to": "UENO-LIVE-05"
+        }
+      ]
+    },
+    {
+      "id": "ueno-live-route-10",
+      "title": "摩利支天参拜与阿美横多国美食",
+      "prompt_zh": "你是带朋友逛阿美横的东京本地人。先在「摩利支天徳大寺（参詣口）」会合，参拜后走进アメ横センタービル，沿市场街经过大黒屋，再依次看看アラスケバブ、アリラン和海鮮市場 八芳 上野店的餐食，最后选一家吃饭；这段行程的主题是「摩利支天参拜与阿美横多国美食」。",
+      "persona_zh": "带朋友逛阿美横的东京本地人",
+      "topic_zh": "摩利支天参拜与阿美横多国美食",
+      "purpose_zh": "参拜后沿阿美横市场街比较不同国家和地区的餐食并选择用餐地点",
+      "actor": "带朋友逛阿美横的东京本地人",
+      "intent": "参拜后沿阿美横市场街比较不同国家和地区的餐食并选择用餐地点",
+      "theme": "摩利支天参拜与阿美横多国美食",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops",
+        "walking_only_no_swimming"
+      ],
+      "reachability_status": "reached",
+      "validation_status": "full_route_baritone_reached",
+      "validation_note_zh": "2026-08-24 已完成 Baritone 整线实走与第一视角录像，6 个停靠点全部到达；同一连续市场街面、不折返、不涉水。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "参拜后沿阿美横市场街比较不同国家和地区的餐食并选择用餐地点",
+      "waypoint_status": "current_enabled_live_xaero_user_reannotated",
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5
+      },
+      "status": "full_route_baritone_reached",
+      "points": [
+        {
+          "waypoint_id": "UENO-LIVE-71",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-75",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-38",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-45",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-41",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-40",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ueno-live-route-10-segment-01",
+          "from": "UENO-LIVE-71",
+          "to": "UENO-LIVE-75"
+        },
+        {
+          "id": "ueno-live-route-10-segment-02",
+          "from": "UENO-LIVE-75",
+          "to": "UENO-LIVE-38"
+        },
+        {
+          "id": "ueno-live-route-10-segment-03",
+          "from": "UENO-LIVE-38",
+          "to": "UENO-LIVE-45"
+        },
+        {
+          "id": "ueno-live-route-10-segment-04",
+          "from": "UENO-LIVE-45",
+          "to": "UENO-LIVE-41"
+        },
+        {
+          "id": "ueno-live-route-10-segment-05",
+          "from": "UENO-LIVE-41",
+          "to": "UENO-LIVE-40"
+        }
+      ]
+    },
+    {
+      "id": "ueno-live-route-11",
+      "title": "剧场、漆器画廊与池畔晚餐",
+      "prompt_zh": "你是周末在上野约会的本地伴侣，今天要完成「剧场、漆器画廊与池畔晚餐」：从上野オークラ劇場出发，经过亀屋一睡亭、京屋漆器店与スギエ画廊，到伊豆榮吃晚餐后沿不忍池北岸散步。请从「上野オークラ劇場 正面口」走到「不忍池北岸」。",
+      "persona_zh": "周末在上野约会的本地伴侣",
+      "topic_zh": "剧场、漆器画廊与池畔晚餐",
+      "purpose_zh": "从上野オークラ劇場出发，经过亀屋一睡亭、京屋漆器店与スギエ画廊，到伊豆榮吃晚餐后沿不忍池北岸散步",
+      "actor": "周末在上野约会的本地伴侣",
+      "intent": "从上野オークラ劇場出发，经过亀屋一睡亭、京屋漆器店与スギエ画廊，到伊豆榮吃晚餐后沿不忍池北岸散步",
+      "theme": "剧场、漆器画廊与池畔晚餐",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops",
+        "walking_only_no_swimming"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从上野オークラ劇場出发，经过亀屋一睡亭、京屋漆器店与スギエ画廊，到伊豆榮吃晚餐后沿不忍池北岸散步",
+      "waypoint_status": "current_enabled_live_xaero_user_reannotated",
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "UENO-LIVE-66",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-18",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-07",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-57",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-15",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-63",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ueno-live-route-11-segment-01",
+          "from": "UENO-LIVE-66",
+          "to": "UENO-LIVE-18"
+        },
+        {
+          "id": "ueno-live-route-11-segment-02",
+          "from": "UENO-LIVE-18",
+          "to": "UENO-LIVE-07"
+        },
+        {
+          "id": "ueno-live-route-11-segment-03",
+          "from": "UENO-LIVE-07",
+          "to": "UENO-LIVE-57"
+        },
+        {
+          "id": "ueno-live-route-11-segment-04",
+          "from": "UENO-LIVE-57",
+          "to": "UENO-LIVE-15"
+        },
+        {
+          "id": "ueno-live-route-11-segment-05",
+          "from": "UENO-LIVE-15",
+          "to": "UENO-LIVE-63"
+        }
+      ]
+    },
+    {
+      "id": "ueno-live-route-12",
+      "title": "酒店住客的卡拉 OK 与御徒町夜游",
+      "prompt_zh": "傍晚离开「ホテル観月荘」后，先到「カラオケ館 上野2号店」唱歌，再去「タイトーステーション 上野アメ横店 正面口」玩几局游戏，最后到「天下一品 上野アメ横店」吃一碗拉面。",
+      "persona_zh": "住在上野、想安排轻松夜生活的游客",
+      "topic_zh": "酒店住客的卡拉 OK 与御徒町夜游",
+      "purpose_zh": "从 ホテル観月荘 出发，依次去卡拉 OK 和阿美横游戏厅，最后到天下一品 上野アメ横店吃拉面",
+      "actor": "住在上野、想安排轻松夜生活的游客",
+      "intent": "从 ホテル観月荘 出发，依次去卡拉 OK 和阿美横游戏厅，最后到天下一品 上野アメ横店吃拉面",
+      "theme": "酒店住客的卡拉 OK 与御徒町夜游",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops",
+        "walking_only_no_swimming"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从酒店出发唱歌和玩游戏，最后到天下一品吃拉面",
+      "waypoint_status": "current_enabled_live_xaero_user_reannotated",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "UENO-LIVE-50",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-31",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-69",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "UENO-LIVE-26",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ueno-live-route-12-segment-01",
+          "from": "UENO-LIVE-50",
+          "to": "UENO-LIVE-31"
+        },
+        {
+          "id": "ueno-live-route-12-segment-02",
+          "from": "UENO-LIVE-31",
+          "to": "UENO-LIVE-69"
+        },
+        {
+          "id": "ueno-live-route-12-segment-03",
+          "from": "UENO-LIVE-69",
+          "to": "UENO-LIVE-26"
+        }
+      ]
+    }
+  ],
+  "upload_recommendation": "waypoints_and_routes_ready",
+  "excluded_waypoints": [
+    {
+      "name": "外貨両替機 SMART EXCHANGE ヨドバシカメラ マルチ",
+      "mc": {
+        "x": -1415,
+        "y": -6,
+        "z": 592
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "しのぶ 上野駅前店",
+      "mc": {
+        "x": -1297,
+        "y": -7,
+        "z": 623
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "Asahi Shinkin Bank Ueno",
+      "mc": {
+        "x": -1290,
+        "y": -7,
+        "z": 602
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "ABC -MART",
+      "mc": {
+        "x": -1199,
+        "y": -8,
+        "z": 556
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "エスパス日拓 上野本館",
+      "mc": {
+        "x": -1304,
+        "y": -5,
+        "z": 656
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "エスパス日拓 上野本館",
+      "mc": {
+        "x": -1318,
+        "y": -5,
+        "z": 657
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "湖赏花处",
+      "mc": {
+        "x": -1578,
+        "y": -6,
+        "z": 874
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "不忍池弁天堂入口",
+      "mc": {
+        "x": -1543,
+        "y": -6,
+        "z": 946
+      },
+      "reason": "disabled_in_xaero"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[project]
+name = "mc-bot-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "flask>=3.0.0",
+    "portablemc>=4.4.1",
+    "requests>=2.32.5",
+    "openai>=1.0.0",
+    "pillow>=12.2.0",
+]

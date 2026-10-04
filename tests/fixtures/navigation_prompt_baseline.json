@@ -1,0 +1,10 @@
+{
+  "source_commit": "0000000000000000000000000000000000000000",
+  "source_path": "agent/main.py",
+  "xml_prompt_sha256": {
+    "hints=0,panorama=0": "0922ea51eb9f1b905d3b28a6b5960ed8716cfdad9535b024f306a0234d0b7774",
+    "hints=0,panorama=1": "916a1d2a6920d5c4ef7561b4d097bf6f7ab6040f20020f769c482da61711fff3",
+    "hints=1,panorama=0": "46577833bcea7b33e85dc59dbeb56871c4d06a0ef85e02b00e0aa81573d26cf0",
+    "hints=1,panorama=1": "b51ed1f86469982d9577f4607dd8c0e672f076f4f3ab9196322d33c652885dca"
+  }
+}

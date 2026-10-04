@@ -1,0 +1,737 @@
+{
+  "schema_version": 1,
+  "map_id": "sviyazhsk",
+  "route_count": 6,
+  "quality_status": "replanned_current_34_waypoints_six_routes_pending_baritone_validation",
+  "upload_recommendation": "do_not_mark_validated_until_all_new_segments_pass",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/sviyazhsk-live-6-routes.json",
+    "sha256": "f81170bc2fe1a78a4ba1162a94eaf632d2dc270a4469ffe6c4d94781912b4e74"
+  },
+  "routes": [
+    {
+      "id": "sviyazhsk-live-route-01",
+      "title": "От Конного двора к особняку на Еленинской",
+      "title_local": "От Конного двора к особняку на Еленинской",
+      "title_zh": "从马厩横穿岛城前往叶列宁斯卡娅街宅邸",
+      "topic_local": "Прогулка с друзьями через монастырский квартал и старые купеческие улицы",
+      "topic_zh": "与朋友游览修道院街区和老商人住宅街",
+      "actor": "与朋友游览、购买纪念品并拍照的游客",
+      "persona_zh": "与朋友游览、购买纪念品并拍照的游客",
+      "prompt_language": "ru-RU",
+      "prompt_local": "После прогулки в «Конный двор» встретьтесь с друзьями у «Вход в Иоанно-Предтеченский монастырь». Вместе осмотрите «Троицкая церковь», выберите сувениры в «Музейный Сувенир магазин» и продолжите прогулку к «Дом купца Ф. Т. Каменева» и «Особняк на Еленинской», где можно сделать несколько фотографий.",
+      "prompt_zh": "在「Конный двор」结束游览后，到「Вход в Иоанно-Предтеченский монастырь」与朋友会合。一起看看「Троицкая церковь」，到「Музейный Сувенир магазин」挑选纪念品，再走到「Дом купца Ф. Т. Каменева」和「Особняк на Еленинской」拍几张照片。",
+      "prompt_style": "concise_natural_situational_local_language_with_chinese_review",
+      "route_kind": "normal_route",
+      "task_type": "natural_multi_stop_itinerary",
+      "theme": "与朋友游览修道院街区和老商人住宅街",
+      "intent": "在「Конный двор」结束游览后，到「Вход в Иоанно-Предтеченский монастырь」与朋友会合。一起看看「Троицкая церковь」，到「Музейный Сувенир магазин」挑选纪念品，再走到「Дом купца Ф. Т. Каменева」和「Особняк на Еленинской」拍几张照片。",
+      "purpose_zh": "在「Конный двор」结束游览后，到「Вход в Иоанно-Предтеченский монастырь」与朋友会合。一起看看「Троицкая церковь」，到「Музейный Сувенир магазин」挑选纪念品，再走到「Дом купца Ф. Т. Каменева」和「Особняк на Еленинской」拍几张照片。",
+      "semantic_dependency_status": "reviewed_natural_actor_and_stop_order",
+      "semantic_dependency_local": "Одна компания проводит вместе остаток прогулки: встреча у монастыря, храм, сувениры и фотографии на старой улице.",
+      "semantic_dependency_zh": "同一群朋友会合后共同游览教堂、购买纪念品，最后到老街上的历史住宅拍照，人物与目的保持一致。",
+      "route_features": [
+        "current_game_waypoints_only",
+        "no_waypoint_overlap_between_routes",
+        "five_to_eight_points",
+        "cross_map_interleaving",
+        "long_spatial_span",
+        "directional_progression_without_deliberate_retrace",
+        "transport_nodes_at_route_endpoints_when_present",
+        "local_language_prompt",
+        "chinese_review_translation",
+        "consistent_actor_identity",
+        "natural_coherent_stop_order"
+      ],
+      "coverage_zones": [
+        "西南修道院区",
+        "南部宗教建筑群",
+        "中南部",
+        "中部历史区",
+        "东部民居区"
+      ],
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5,
+        "segment_straight_line_blocks": [
+          373.16,
+          61.08,
+          164.35,
+          130.39,
+          306.37
+        ],
+        "total_straight_line_blocks": 1035.35,
+        "endpoint_straight_line_blocks": 925.67,
+        "detour_ratio": 1.1185
+      },
+      "validation_status": "pending_baritone_validation_after_live_waypoint_reset",
+      "reachability_status": "pending_baritone_validation_after_live_waypoint_reset",
+      "validation_note_zh": "路线和坐标均按当前游戏启用 waypoint 重建，并改为跨地图交错长线；尚未进行新的 Baritone 连续实走验证。",
+      "video_status": "no_current_video_new_route_id",
+      "points": [
+        {
+          "waypoint_id": "SVY-LIVE-19",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-27",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-28",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-13",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-23",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-08",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "sviyazhsk-live-route-01-segment-01",
+          "straight_line_blocks": 373.16,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-19",
+          "to": "SVY-LIVE-27"
+        },
+        {
+          "id": "sviyazhsk-live-route-01-segment-02",
+          "straight_line_blocks": 61.08,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-27",
+          "to": "SVY-LIVE-28"
+        },
+        {
+          "id": "sviyazhsk-live-route-01-segment-03",
+          "straight_line_blocks": 164.35,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-28",
+          "to": "SVY-LIVE-13"
+        },
+        {
+          "id": "sviyazhsk-live-route-01-segment-04",
+          "straight_line_blocks": 130.39,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-13",
+          "to": "SVY-LIVE-23"
+        },
+        {
+          "id": "sviyazhsk-live-route-01-segment-05",
+          "straight_line_blocks": 306.37,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-23",
+          "to": "SVY-LIVE-08"
+        }
+      ]
+    },
+    {
+      "id": "sviyazhsk-live-route-02",
+      "title": "От Успенского монастыря к миниатюре острова",
+      "title_local": "От Успенского монастыря к миниатюре острова",
+      "title_zh": "从圣母安息修道院横穿岛城到微缩模型",
+      "topic_local": "От монастырской жизни к современным общественным местам острова",
+      "topic_zh": "从修道院生活到岛上的现代公共空间",
+      "actor": "参加地方史集体参观的学生",
+      "persona_zh": "参加地方史集体参观的学生",
+      "prompt_language": "ru-RU",
+      "prompt_local": "С группой осмотрите «Богородице-Успенский Свияжский м» и пообедайте в «Монастырская трапеза». После обеда пройдите к «УЧАСТКОВЫЙ ПУНКТ ПОЛИЦИИ», «Сельсовет» и «Stena Kommunarov», чтобы увидеть общественную часть острова. Закончите прогулку общей фотографией у «Миниатюра Острова Свияжск».",
+      "prompt_zh": "和同学一起参观「Богородице-Успенский Свияжский м」，随后到「Монастырская трапеза」吃午饭。午饭后依次前往「УЧАСТКОВЫЙ ПУНКТ ПОЛИЦИИ」、「Сельсовет」和「Stena Kommunarov」，看看岛上的公共生活区域，最后在「Миниатюра Острова Свияжск」拍一张合照。",
+      "prompt_style": "concise_natural_situational_local_language_with_chinese_review",
+      "route_kind": "normal_route",
+      "task_type": "natural_multi_stop_itinerary",
+      "theme": "从修道院生活到岛上的现代公共空间",
+      "intent": "和同学一起参观「Богородице-Успенский Свияжский м」，随后到「Монастырская трапеза」吃午饭。午饭后依次前往「УЧАСТКОВЫЙ ПУНКТ ПОЛИЦИИ」、「Сельсовет」和「Stena Kommunarov」，看看岛上的公共生活区域，最后在「Миниатюра Острова Свияжск」拍一张合照。",
+      "purpose_zh": "和同学一起参观「Богородице-Успенский Свияжский м」，随后到「Монастырская трапеза」吃午饭。午饭后依次前往「УЧАСТКОВЫЙ ПУНКТ ПОЛИЦИИ」、「Сельсовет」和「Stena Kommunarov」，看看岛上的公共生活区域，最后在「Миниатюра Острова Свияжск」拍一张合照。",
+      "semantic_dependency_status": "reviewed_natural_actor_and_stop_order",
+      "semantic_dependency_local": "Одна учебная группа сначала знакомится с монастырской частью острова, после обеда переходит к общественным местам и завершает общую прогулку фотографией.",
+      "semantic_dependency_zh": "同一学生团队先参观修道院区域，午饭后转向公共生活区域，最后以集体合照结束行程。",
+      "route_features": [
+        "current_game_waypoints_only",
+        "no_waypoint_overlap_between_routes",
+        "five_to_eight_points",
+        "cross_map_interleaving",
+        "long_spatial_span",
+        "directional_progression_without_deliberate_retrace",
+        "transport_nodes_at_route_endpoints_when_present",
+        "local_language_prompt",
+        "chinese_review_translation",
+        "consistent_actor_identity",
+        "natural_coherent_stop_order"
+      ],
+      "coverage_zones": [
+        "西南修道院区",
+        "南部宗教建筑群",
+        "南部公共区",
+        "北部公共区",
+        "东部民居区"
+      ],
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5,
+        "segment_straight_line_blocks": [
+          509.32,
+          72.95,
+          303.8,
+          57.5,
+          205.97
+        ],
+        "total_straight_line_blocks": 1149.54,
+        "endpoint_straight_line_blocks": 979.94,
+        "detour_ratio": 1.1731
+      },
+      "validation_status": "pending_baritone_validation_after_live_waypoint_reset",
+      "reachability_status": "pending_baritone_validation_after_live_waypoint_reset",
+      "validation_note_zh": "路线和坐标均按当前游戏启用 waypoint 重建，并改为跨地图交错长线；尚未进行新的 Baritone 连续实走验证。",
+      "video_status": "no_current_video_new_route_id",
+      "points": [
+        {
+          "waypoint_id": "SVY-LIVE-16",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-02",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-14",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-24",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-12",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-09",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "sviyazhsk-live-route-02-segment-01",
+          "straight_line_blocks": 509.32,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-16",
+          "to": "SVY-LIVE-02"
+        },
+        {
+          "id": "sviyazhsk-live-route-02-segment-02",
+          "straight_line_blocks": 72.95,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-02",
+          "to": "SVY-LIVE-14"
+        },
+        {
+          "id": "sviyazhsk-live-route-02-segment-03",
+          "straight_line_blocks": 303.8,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-14",
+          "to": "SVY-LIVE-24"
+        },
+        {
+          "id": "sviyazhsk-live-route-02-segment-04",
+          "straight_line_blocks": 57.5,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-24",
+          "to": "SVY-LIVE-12"
+        },
+        {
+          "id": "sviyazhsk-live-route-02-segment-05",
+          "straight_line_blocks": 205.97,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-12",
+          "to": "SVY-LIVE-09"
+        }
+      ]
+    },
+    {
+      "id": "sviyazhsk-live-route-03",
+      "title": "От теплохода к музею археологического дерева",
+      "title_local": "От теплохода к музею археологического дерева",
+      "title_zh": "从游船纵贯岛城到木制考古博物馆",
+      "topic_local": "Длинный путь от прибытия по воде через религию, образование, торговлю и военную историю",
+      "topic_zh": "从水路抵达，经宗教、教育、商业与战争史纵贯岛城",
+      "actor": "乘船抵达后安排历史主题一日游的游客",
+      "persona_zh": "乘船抵达后安排历史主题一日游的游客",
+      "prompt_language": "ru-RU",
+      "prompt_local": "Сойдите с «Теплоход у Свияжска» и начните день у «Собор Богоматери «Всех скорбящих Радость»». Затем загляните к «Дом Крылова / уездное училище», отдохните на «Ленивый торжок» и продолжите музейную часть дня в «Музей Гражданской войны» и «Музей археологического дерева \"Т».",
+      "prompt_zh": "从「Теплоход у Свияжска」下船后，先去「Собор Богоматери «Всех скорбящих Радость»」。随后看看「Дом Крылова / уездное училище」，到「Ленивый торжок」休息，再前往「Музей Гражданской войны」和「Музей археологического дерева \"Т」参观。",
+      "prompt_style": "concise_natural_situational_local_language_with_chinese_review",
+      "route_kind": "normal_route",
+      "task_type": "natural_multi_stop_itinerary",
+      "theme": "从水路抵达，经宗教、教育、商业与战争史纵贯岛城",
+      "intent": "从「Теплоход у Свияжска」下船后，先去「Собор Богоматери «Всех скорбящих Радость»」。随后看看「Дом Крылова / уездное училище」，到「Ленивый торжок」休息，再前往「Музей Гражданской войны」和「Музей археологического дерева \"Т」参观。",
+      "purpose_zh": "从「Теплоход у Свияжска」下船后，先去「Собор Богоматери «Всех скорбящих Радость»」。随后看看「Дом Крылова / уездное училище」，到「Ленивый торжок」休息，再前往「Музей Гражданской войны」和「Музей археологического дерева \"Т」参观。",
+      "semantic_dependency_status": "reviewed_natural_actor_and_stop_order",
+      "semantic_dependency_local": "Турист после прибытия по воде проводит один исторический день: достопримечательности, отдых на торжке и два музея в конце маршрута.",
+      "semantic_dependency_zh": "游客下船后进行一次连续的历史主题游览，在集市休息后继续参观两座博物馆。",
+      "route_features": [
+        "current_game_waypoints_only",
+        "no_waypoint_overlap_between_routes",
+        "five_to_eight_points",
+        "cross_map_interleaving",
+        "long_spatial_span",
+        "directional_progression_without_deliberate_retrace",
+        "transport_nodes_at_route_endpoints_when_present",
+        "local_language_prompt",
+        "chinese_review_translation",
+        "consistent_actor_identity",
+        "natural_coherent_stop_order"
+      ],
+      "coverage_zones": [
+        "南侧水域",
+        "南部宗教建筑群",
+        "中部历史区",
+        "中部商业区",
+        "东北历史区",
+        "东部手工艺区"
+      ],
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5,
+        "segment_straight_line_blocks": [
+          209.58,
+          120.21,
+          158.62,
+          242.16,
+          338.93
+        ],
+        "total_straight_line_blocks": 1069.5,
+        "endpoint_straight_line_blocks": 803.18,
+        "detour_ratio": 1.3316
+      },
+      "validation_status": "pending_baritone_validation_after_live_waypoint_reset",
+      "reachability_status": "pending_baritone_validation_after_live_waypoint_reset",
+      "validation_note_zh": "路线和坐标均按当前游戏启用 waypoint 重建，并改为跨地图交错长线；尚未进行新的 Baritone 连续实走验证。",
+      "video_status": "no_current_video_new_route_id",
+      "points": [
+        {
+          "waypoint_id": "SVY-LIVE-01",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-30",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-21",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-26",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-32",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-07",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "sviyazhsk-live-route-03-segment-01",
+          "straight_line_blocks": 209.58,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-01",
+          "to": "SVY-LIVE-30"
+        },
+        {
+          "id": "sviyazhsk-live-route-03-segment-02",
+          "straight_line_blocks": 120.21,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-30",
+          "to": "SVY-LIVE-21"
+        },
+        {
+          "id": "sviyazhsk-live-route-03-segment-03",
+          "straight_line_blocks": 158.62,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-21",
+          "to": "SVY-LIVE-26"
+        },
+        {
+          "id": "sviyazhsk-live-route-03-segment-04",
+          "straight_line_blocks": 242.16,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-26",
+          "to": "SVY-LIVE-32"
+        },
+        {
+          "id": "sviyazhsk-live-route-03-segment-05",
+          "straight_line_blocks": 338.93,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-32",
+          "to": "SVY-LIVE-07"
+        }
+      ]
+    },
+    {
+      "id": "sviyazhsk-live-route-04",
+      "title": "От монастыря через социальную историю к Дому Гончара",
+      "title_local": "От монастыря через социальную историю к Дому Гончара",
+      "title_zh": "从修道院经社会史建筑横跨至陶工之家",
+      "topic_local": "Как монастырские, социальные, инженерные и ремесленные места показывают жизнь острова",
+      "topic_zh": "修道院、社会设施、工程与手工艺共同呈现岛城生活",
+      "actor": "想了解岛上居民日常生活历史的游客",
+      "persona_zh": "想了解岛上居民日常生活历史的游客",
+      "prompt_language": "ru-RU",
+      "prompt_local": "От «Богородице-Успенский Свияжский м» пройдите к «Комплекс зданий земской больницы» и «Бывший Ольгинский приют». Затем посмотрите «Старая водонапорная башня» и «Дом Агафонова с торговой лавкой», а закончите прогулку мастер-классом в «Дом Гончара».",
+      "prompt_zh": "从「Богородице-Успенский Свияжский м」出发，前往「Комплекс зданий земской больницы」和「Бывший Ольгинский приют」。随后看看「Старая водонапорная башня」与「Дом Агафонова с торговой лавкой」，最后到「Дом Гончара」参加手工体验。",
+      "prompt_style": "concise_natural_situational_local_language_with_chinese_review",
+      "route_kind": "normal_route",
+      "task_type": "natural_multi_stop_itinerary",
+      "theme": "修道院、社会设施、工程与手工艺共同呈现岛城生活",
+      "intent": "从「Богородице-Успенский Свияжский м」出发，前往「Комплекс зданий земской больницы」和「Бывший Ольгинский приют」。随后看看「Старая водонапорная башня」与「Дом Агафонова с торговой лавкой」，最后到「Дом Гончара」参加手工体验。",
+      "purpose_zh": "从「Богородице-Успенский Свияжский м」出发，前往「Комплекс зданий земской больницы」和「Бывший Ольгинский приют」。随后看看「Старая водонапорная башня」与「Дом Агафонова с торговой лавкой」，最后到「Дом Гончара」参加手工体验。",
+      "semantic_dependency_status": "reviewed_natural_actor_and_stop_order",
+      "semantic_dependency_local": "Маршрут показывает разные стороны повседневной жизни острова и естественно заканчивается практическим знакомством с местным ремеслом.",
+      "semantic_dependency_zh": "沿途地点共同呈现岛上过去的日常生活，最后以当地手工体验自然收尾。",
+      "route_features": [
+        "current_game_waypoints_only",
+        "no_waypoint_overlap_between_routes",
+        "five_to_eight_points",
+        "cross_map_interleaving",
+        "long_spatial_span",
+        "directional_progression_without_deliberate_retrace",
+        "transport_nodes_at_route_endpoints_when_present",
+        "local_language_prompt",
+        "chinese_review_translation",
+        "consistent_actor_identity",
+        "natural_coherent_stop_order"
+      ],
+      "coverage_zones": [
+        "西南修道院区",
+        "西部社会史区",
+        "中部社会史区",
+        "西北部",
+        "北部民居区",
+        "东部手工艺区"
+      ],
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5,
+        "segment_straight_line_blocks": [
+          298.18,
+          328.08,
+          257.28,
+          123.49,
+          313.79
+        ],
+        "total_straight_line_blocks": 1320.82,
+        "endpoint_straight_line_blocks": 1065.65,
+        "detour_ratio": 1.2395
+      },
+      "validation_status": "pending_baritone_validation_after_live_waypoint_reset",
+      "reachability_status": "pending_baritone_validation_after_live_waypoint_reset",
+      "validation_note_zh": "路线和坐标均按当前游戏启用 waypoint 重建，并改为跨地图交错长线；尚未进行新的 Baritone 连续实走验证。",
+      "video_status": "no_current_video_new_route_id",
+      "points": [
+        {
+          "waypoint_id": "SVY-LIVE-18",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-20",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-31",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-25",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-22",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-06",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "sviyazhsk-live-route-04-segment-01",
+          "straight_line_blocks": 298.18,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-18",
+          "to": "SVY-LIVE-20"
+        },
+        {
+          "id": "sviyazhsk-live-route-04-segment-02",
+          "straight_line_blocks": 328.08,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-20",
+          "to": "SVY-LIVE-31"
+        },
+        {
+          "id": "sviyazhsk-live-route-04-segment-03",
+          "straight_line_blocks": 257.28,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-31",
+          "to": "SVY-LIVE-25"
+        },
+        {
+          "id": "sviyazhsk-live-route-04-segment-04",
+          "straight_line_blocks": 123.49,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-25",
+          "to": "SVY-LIVE-22"
+        },
+        {
+          "id": "sviyazhsk-live-route-04-segment-05",
+          "straight_line_blocks": 313.79,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-22",
+          "to": "SVY-LIVE-06"
+        }
+      ]
+    },
+    {
+      "id": "sviyazhsk-live-route-05",
+      "title": "От Успенского собора через набережную к речному вокзалу",
+      "title_local": "От Успенского собора через набережную к речному вокзалу",
+      "title_zh": "从圣母安息主教座堂经滨水区横穿至河港",
+      "topic_local": "Большая прогулка через религиозный, природный и общественный ландшафт острова",
+      "topic_zh": "横跨岛城宗教、滨水与公共生活景观",
+      "actor": "带学生参观并乘晚船离岛的教师",
+      "persona_zh": "带学生参观并乘晚船离岛的教师",
+      "prompt_language": "ru-RU",
+      "prompt_local": "После экскурсии в «Собор Успения Пресвятой Богороди» отдохните с учениками в «Сад размышлений» и прогуляйтесь по «Набережная реки Щуки — северный изгиб». Затем отведите группу на встречу в «Свияжская основная школа», а после неё — к вечернему теплоходу через «Речной вокзал Свияжск».",
+      "prompt_zh": "参观完「Собор Успения Пресвятой Богороди」后，带学生到「Сад размышлений」休息，再沿「Набережная реки Щуки — северный изгиб」散步。随后前往「Свияжская основная школа」参加交流，结束后到「Речной вокзал Свияжск」乘晚船离岛。",
+      "prompt_style": "concise_natural_situational_local_language_with_chinese_review",
+      "route_kind": "normal_route",
+      "task_type": "natural_multi_stop_itinerary",
+      "theme": "横跨岛城宗教、滨水与公共生活景观",
+      "intent": "参观完「Собор Успения Пресвятой Богороди」后，带学生到「Сад размышлений」休息，再沿「Набережная реки Щуки — северный изгиб」散步。随后前往「Свияжская основная школа」参加交流，结束后到「Речной вокзал Свияжск」乘晚船离岛。",
+      "purpose_zh": "参观完「Собор Успения Пресвятой Богороди」后，带学生到「Сад размышлений」休息，再沿「Набережная реки Щуки — северный изгиб」散步。随后前往「Свияжская основная школа」参加交流，结束后到「Речной вокзал Свияжск」乘晚船离岛。",
+      "semantic_dependency_status": "reviewed_natural_actor_and_stop_order",
+      "semantic_dependency_local": "Учитель всё время ведёт одну группу: экскурсия и отдых проходят до школьной встречи, а после встречи группа отправляется на вечерний теплоход.",
+      "semantic_dependency_zh": "教师始终带领同一批学生；参观和休息安排在学校交流前，交流结束后再集体前往河港。",
+      "route_features": [
+        "current_game_waypoints_only",
+        "no_waypoint_overlap_between_routes",
+        "five_to_eight_points",
+        "cross_map_interleaving",
+        "long_spatial_span",
+        "directional_progression_without_deliberate_retrace",
+        "transport_nodes_at_route_endpoints_when_present",
+        "local_language_prompt",
+        "chinese_review_translation",
+        "consistent_actor_identity",
+        "natural_coherent_stop_order"
+      ],
+      "coverage_zones": [
+        "西南修道院区",
+        "西部历史区",
+        "西北滨水区",
+        "北部公共区",
+        "东部滨水区"
+      ],
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4,
+        "segment_straight_line_blocks": [
+          251.35,
+          382.26,
+          451.12,
+          246.12
+        ],
+        "total_straight_line_blocks": 1330.85,
+        "endpoint_straight_line_blocks": 1028.75,
+        "detour_ratio": 1.2937
+      },
+      "validation_status": "pending_baritone_validation_after_live_waypoint_reset",
+      "reachability_status": "pending_baritone_validation_after_live_waypoint_reset",
+      "validation_note_zh": "路线和坐标均按当前游戏启用 waypoint 重建，并改为跨地图交错长线；尚未进行新的 Baritone 连续实走验证。",
+      "video_status": "no_current_video_new_route_id",
+      "points": [
+        {
+          "waypoint_id": "SVY-LIVE-17",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-15",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-34",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-11",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-33",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "sviyazhsk-live-route-05-segment-01",
+          "straight_line_blocks": 251.35,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-17",
+          "to": "SVY-LIVE-15"
+        },
+        {
+          "id": "sviyazhsk-live-route-05-segment-02",
+          "straight_line_blocks": 382.26,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-15",
+          "to": "SVY-LIVE-34"
+        },
+        {
+          "id": "sviyazhsk-live-route-05-segment-03",
+          "straight_line_blocks": 451.12,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-34",
+          "to": "SVY-LIVE-11"
+        },
+        {
+          "id": "sviyazhsk-live-route-05-segment-04",
+          "straight_line_blocks": 246.12,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-11",
+          "to": "SVY-LIVE-33"
+        }
+      ]
+    },
+    {
+      "id": "sviyazhsk-live-route-06",
+      "title": "От исторического музея через храмы к дому Тимофеева",
+      "title_local": "От исторического музея через храмы к дому Тимофеева",
+      "title_zh": "从历史博物馆经教堂群横穿至季莫费耶夫故居",
+      "topic_local": "Историческая, религиозная и жилая архитектура по всей длине острова",
+      "topic_zh": "横跨岛城的历史、宗教与居住建筑",
+      "actor": "与当地向导游览历史建筑的游客",
+      "persona_zh": "与当地向导游览历史建筑的游客",
+      "prompt_language": "ru-RU",
+      "prompt_local": "После посещения «Государственный историко-архитек» осмотрите «Сергиевская церковь». У «Свияга» встретьтесь с местным гидом и вместе продолжите прогулку к «Храм святых равноапостольных цар» и «Дом Тимофеева-Терентьева-Бровкин».",
+      "prompt_zh": "参观完「Государственный историко-архитек」后，前往「Сергиевская церковь」。随后在「Свияга」与当地向导会合，一起继续游览「Храм святых равноапостольных цар」和「Дом Тимофеева-Терентьева-Бровкин」。",
+      "prompt_style": "concise_natural_situational_local_language_with_chinese_review",
+      "route_kind": "normal_route",
+      "task_type": "natural_multi_stop_itinerary",
+      "theme": "横跨岛城的历史、宗教与居住建筑",
+      "intent": "参观完「Государственный историко-архитек」后，前往「Сергиевская церковь」。随后在「Свияга」与当地向导会合，一起继续游览「Храм святых равноапостольных цар」和「Дом Тимофеева-Терентьева-Бровкин」。",
+      "purpose_zh": "参观完「Государственный историко-архитек」后，前往「Сергиевская церковь」。随后在「Свияга」与当地向导会合，一起继续游览「Храм святых равноапостольных цар」和「Дом Тимофеева-Терентьева-Бровкин」。",
+      "semantic_dependency_status": "reviewed_natural_actor_and_stop_order",
+      "semantic_dependency_local": "Турист сначала осматривает музей и церковь самостоятельно, затем встречается с гидом и продолжает с ним вторую часть прогулки.",
+      "semantic_dependency_zh": "游客先自行参观博物馆和教堂，在约定地点与向导会合后，再共同完成后半段游览。",
+      "route_features": [
+        "current_game_waypoints_only",
+        "no_waypoint_overlap_between_routes",
+        "five_to_eight_points",
+        "cross_map_interleaving",
+        "long_spatial_span",
+        "directional_progression_without_deliberate_retrace",
+        "transport_nodes_at_route_endpoints_when_present",
+        "local_language_prompt",
+        "chinese_review_translation",
+        "consistent_actor_identity",
+        "natural_coherent_stop_order"
+      ],
+      "coverage_zones": [
+        "西部历史区",
+        "南部宗教建筑群",
+        "北部历史区",
+        "东北宗教区",
+        "东北民居区"
+      ],
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4,
+        "segment_straight_line_blocks": [
+          282.3,
+          501.09,
+          95.56,
+          124.42
+        ],
+        "total_straight_line_blocks": 1003.37,
+        "endpoint_straight_line_blocks": 685.94,
+        "detour_ratio": 1.4628
+      },
+      "validation_status": "pending_baritone_validation_after_live_waypoint_reset",
+      "reachability_status": "pending_baritone_validation_after_live_waypoint_reset",
+      "validation_note_zh": "路线和坐标均按当前游戏启用 waypoint 重建，并改为跨地图交错长线；尚未进行新的 Baritone 连续实走验证。",
+      "video_status": "no_current_video_new_route_id",
+      "points": [
+        {
+          "waypoint_id": "SVY-LIVE-03",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-29",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-04",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-05",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SVY-LIVE-10",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "sviyazhsk-live-route-06-segment-01",
+          "straight_line_blocks": 282.3,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-03",
+          "to": "SVY-LIVE-29"
+        },
+        {
+          "id": "sviyazhsk-live-route-06-segment-02",
+          "straight_line_blocks": 501.09,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-29",
+          "to": "SVY-LIVE-04"
+        },
+        {
+          "id": "sviyazhsk-live-route-06-segment-03",
+          "straight_line_blocks": 95.56,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-04",
+          "to": "SVY-LIVE-05"
+        },
+        {
+          "id": "sviyazhsk-live-route-06-segment-04",
+          "straight_line_blocks": 124.42,
+          "status": "pending_baritone_validation",
+          "from": "SVY-LIVE-05",
+          "to": "SVY-LIVE-10"
+        }
+      ]
+    }
+  ]
+}

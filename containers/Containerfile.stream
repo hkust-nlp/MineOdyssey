@@ -1,0 +1,7 @@
+# 继承原镜像，加上 FFmpeg + NVENC
+FROM mc-agent-gpu-ubuntu2204
+
+# 安装 FFmpeg
+RUN apt-get update && apt-get install -y \
+    ffmpeg \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*

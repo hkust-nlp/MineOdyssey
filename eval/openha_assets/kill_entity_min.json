@@ -1,0 +1,13 @@
+{
+  "kill_entity:sheep": {
+    "seeds": [
+      {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+      }
+    ],
+    "tool": ["diamond_sword", "diamond_axe", ""],
+    "commands": [],
+    "label": ["normal"]
+  }
+}

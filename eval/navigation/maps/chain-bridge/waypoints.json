@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "map_id": "chain-bridge",
+  "quality_status": "planned_pending_runtime_validation",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "server-package/navigation-v1/chain-bridge/waypoints.json",
+    "sha256": "5e176349f92170b5af4f3af656b80ed1fde6526de6a639cee8687505858344c4"
+  },
+  "waypoint_count": 7,
+  "waypoints": [
+    {
+      "id": "CBR-04",
+      "name": "Lánchíd budai hídfője",
+      "position": {
+        "x": -1021,
+        "y": 2,
+        "z": -1663
+      },
+      "route_ids": [
+        "chain-bridge-route-01"
+      ],
+      "initials": "T",
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "CBR-02",
+      "name": "Ponton",
+      "position": {
+        "x": -603,
+        "y": -1,
+        "z": -1723
+      },
+      "route_ids": [
+        "chain-bridge-route-01"
+      ],
+      "initials": "P",
+      "color": null,
+      "source": "existing_xaero_waypoint"
+    },
+    {
+      "id": "CHAIN-BRIDGE-WP-03",
+      "name": "Akadémia 3. ponton",
+      "position": {
+        "x": -614,
+        "y": -4,
+        "z": -1855
+      },
+      "route_ids": [],
+      "initials": "A",
+      "color": 14,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CHAIN-BRIDGE-WP-04",
+      "name": "Deák Ferenc-emlékmű",
+      "position": {
+        "x": -512,
+        "y": -1,
+        "z": -1618
+      },
+      "route_ids": [],
+      "initials": "D",
+      "color": 14,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CHAIN-BRIDGE-WP-05",
+      "name": "Count István Széchenyi Statue",
+      "position": {
+        "x": -533,
+        "y": -1,
+        "z": -1786
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 17,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "CBR-01",
+      "name": "Öreg akácfa",
+      "position": {
+        "x": -523,
+        "y": -1,
+        "z": -1743
+      },
+      "route_ids": [
+        "chain-bridge-route-01"
+      ],
+      "initials": "O",
+      "color": null,
+      "source": "existing_xaero_and_in_world_text"
+    },
+    {
+      "id": "CHAIN-BRIDGE-WP-07",
+      "name": "Vigadó 1 kikötő",
+      "position": {
+        "x": -629,
+        "y": -8,
+        "z": -1625
+      },
+      "route_ids": [
+        "chain-bridge-route-01"
+      ],
+      "initials": "V",
+      "color": 17,
+      "source": "current_enabled_xaero_waypoint"
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "schema_version": 1,
+  "map_id": "hofburg",
+  "quality_status": "verified_routes_two_unrouted_waypoints",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/hofburg-10-routes.json",
+    "sha256": "252e91878ab828562f1534e4545170caba09c7e34bf8e852848cb5130b29ce54"
+  },
+  "waypoint_count": 36,
+  "waypoints": [
+    {
+      "id": "HOF-WP-01",
+      "name": "Brunnen „Herkules und der Nemeische Löwe“",
+      "position": {
+        "x": 315,
+        "y": -8,
+        "z": 754
+      },
+      "route_ids": [
+        "hofburg-route-04"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-02",
+      "name": "Denkmal Franz Joseph I",
+      "position": {
+        "x": 322,
+        "y": -8,
+        "z": 799
+      },
+      "route_ids": [
+        "hofburg-route-04"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-03",
+      "name": "Mozartdenkmal",
+      "position": {
+        "x": 219,
+        "y": -6,
+        "z": 751
+      },
+      "route_ids": [
+        "hofburg-route-04"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-04",
+      "name": "Erzherzog-Albrecht-Denkmal",
+      "position": {
+        "x": 526,
+        "y": 0,
+        "z": 792
+      },
+      "route_ids": [
+        "hofburg-route-02"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-05",
+      "name": "Albertina",
+      "position": {
+        "x": 524,
+        "y": 1,
+        "z": 766
+      },
+      "route_ids": [
+        "hofburg-route-02"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-06",
+      "name": "Österreichisches Filmmuseum",
+      "position": {
+        "x": 534,
+        "y": -8,
+        "z": 737
+      },
+      "route_ids": [
+        "hofburg-route-02"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-07",
+      "name": "Fantastic Soccer GmbH",
+      "position": {
+        "x": 516,
+        "y": -8,
+        "z": 628
+      },
+      "route_ids": [],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-08",
+      "name": "Pfarrkirche St. Augustin",
+      "position": {
+        "x": 517,
+        "y": -8,
+        "z": 596
+      },
+      "route_ids": [
+        "hofburg-route-02",
+        "hofburg-route-03"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-09",
+      "name": "I&S Hammerl",
+      "position": {
+        "x": 497,
+        "y": -8,
+        "z": 556
+      },
+      "route_ids": [],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-10",
+      "name": "Prunksaal der Österreichischen Nationalbibliothek",
+      "position": {
+        "x": 456,
+        "y": -8,
+        "z": 532
+      },
+      "route_ids": [
+        "hofburg-route-03"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-11",
+      "name": "Kaiser-Joseph-II.-Denkmal",
+      "position": {
+        "x": 480,
+        "y": -8,
+        "z": 514
+      },
+      "route_ids": [
+        "hofburg-route-03"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-12",
+      "name": "Die Macht zur See",
+      "position": {
+        "x": 488,
+        "y": -9,
+        "z": 379
+      },
+      "route_ids": [
+        "hofburg-route-07",
+        "hofburg-route-08"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-13",
+      "name": "Sisi Museum",
+      "position": {
+        "x": 396,
+        "y": -8,
+        "z": 380
+      },
+      "route_ids": [
+        "hofburg-route-05"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-14",
+      "name": "Die Macht zu Lande",
+      "position": {
+        "x": 436,
+        "y": -9,
+        "z": 299
+      },
+      "route_ids": [
+        "hofburg-route-07"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-15",
+      "name": "Öffentliche Toilette",
+      "position": {
+        "x": 353,
+        "y": -8,
+        "z": 293
+      },
+      "route_ids": [],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-16",
+      "name": "Kaiserliche Schatzkammer",
+      "position": {
+        "x": 390,
+        "y": -9,
+        "z": 463
+      },
+      "route_ids": [
+        "hofburg-route-05"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-17",
+      "name": "Schweizertor",
+      "position": {
+        "x": 369,
+        "y": -8,
+        "z": 420
+      },
+      "route_ids": [
+        "hofburg-route-05"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-18",
+      "name": "Österreichische Präsidentschaftskanzlei",
+      "position": {
+        "x": 263,
+        "y": -8,
+        "z": 300
+      },
+      "route_ids": [
+        "hofburg-route-05",
+        "hofburg-route-07",
+        "hofburg-route-08"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-19",
+      "name": "Haus der Geschichte Österreich",
+      "position": {
+        "x": 270,
+        "y": -4,
+        "z": 575
+      },
+      "route_ids": [
+        "hofburg-route-01",
+        "hofburg-route-05"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-20",
+      "name": "Prinz-Eugen-Denkmal",
+      "position": {
+        "x": 251,
+        "y": -7,
+        "z": 529
+      },
+      "route_ids": [
+        "hofburg-route-01"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-21",
+      "name": "Hofburg Vienna Eventlocation",
+      "position": {
+        "x": 319,
+        "y": -8,
+        "z": 529
+      },
+      "route_ids": [
+        "hofburg-route-01"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-22",
+      "name": "Imperial Shop Wien",
+      "position": {
+        "x": 202,
+        "y": -6,
+        "z": 593
+      },
+      "route_ids": [
+        "hofburg-route-04"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-23",
+      "name": "Kaiser-Franz-I.-Denkmal",
+      "position": {
+        "x": 352,
+        "y": -8,
+        "z": 361
+      },
+      "route_ids": [],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-24",
+      "name": "Heldenplatz",
+      "position": {
+        "x": 205,
+        "y": -7,
+        "z": 455
+      },
+      "route_ids": [
+        "hofburg-route-01",
+        "hofburg-route-08"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-25",
+      "name": "Erzherzog-Karl-Denkmal",
+      "position": {
+        "x": 192,
+        "y": -7,
+        "z": 430
+      },
+      "route_ids": [
+        "hofburg-route-01"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-26",
+      "name": "Spanische Hofreitschule",
+      "position": {
+        "x": 455,
+        "y": -8,
+        "z": 427
+      },
+      "route_ids": [],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-27",
+      "name": "Michaelertrakt",
+      "position": {
+        "x": 445,
+        "y": -9,
+        "z": 350
+      },
+      "route_ids": [
+        "hofburg-route-07",
+        "hofburg-route-08"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-28",
+      "name": "Josefsplatz",
+      "position": {
+        "x": 465,
+        "y": -8,
+        "z": 451
+      },
+      "route_ids": [],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-29",
+      "name": "Amalienburg",
+      "position": {
+        "x": 330,
+        "y": -8,
+        "z": 310
+      },
+      "route_ids": [
+        "hofburg-route-05",
+        "hofburg-route-07",
+        "hofburg-route-08"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-30",
+      "name": "Äußeres Burgtor",
+      "position": {
+        "x": 130,
+        "y": -7,
+        "z": 540
+      },
+      "route_ids": [
+        "hofburg-route-01",
+        "hofburg-route-08"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-31",
+      "name": "Palmenhaus",
+      "position": {
+        "x": 436,
+        "y": -7,
+        "z": 679
+      },
+      "route_ids": [],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-32",
+      "name": "Hofburgstüberl",
+      "position": {
+        "x": 307,
+        "y": -7,
+        "z": 437
+      },
+      "route_ids": [],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-33",
+      "name": "Stallburg",
+      "position": {
+        "x": 541,
+        "y": -7,
+        "z": 440
+      },
+      "route_ids": [],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-WP-34",
+      "name": "Augustinerkonvent Wien",
+      "position": {
+        "x": 524,
+        "y": -7,
+        "z": 659
+      },
+      "route_ids": [
+        "hofburg-route-02",
+        "hofburg-route-03"
+      ],
+      "initials": null,
+      "color": null,
+      "source": "current_enabled_xaero_waypoint"
+    },
+    {
+      "id": "HOF-NAV-26-PUBLIC-EXIT",
+      "name": "Öffentlicher Ausgang der Spanischen Hofreitschule",
+      "position": {
+        "x": 441,
+        "y": -9,
+        "z": 391
+      },
+      "route_ids": []
+    },
+    {
+      "id": "HOF-NAV-26-COURTYARD",
+      "name": "Verbindung zum Hofburg-Innenhof",
+      "position": {
+        "x": 422,
+        "y": -9,
+        "z": 404
+      },
+      "route_ids": []
+    }
+  ]
+}

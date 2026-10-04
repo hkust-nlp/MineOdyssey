@@ -1,0 +1,987 @@
+{
+  "artifact_kind": "navigation-map-release-manifest",
+  "asset_count": 43,
+  "assets": [
+    {
+      "asset_bytes": 217045344,
+      "asset_name": "navigation-1.21.11-cape-town.zip",
+      "asset_sha256": "2236dd31eb33ea72dcc467bd429d56436aed59c381eba7f298fea146c45fba40",
+      "data_version": 4671,
+      "display_name": "Cape Town · City Centre / Bo-Kaap",
+      "environment": "outdoor",
+      "map_id": "cape-town",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "AFR-Cape.Town.zip",
+      "upstream_archive_bytes": 217269697,
+      "upstream_archive_sha256": "f3380d3b11d45c9b0ffbcea35398f45a102901bcd312799959e44e9db12de8a3",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 678,
+        "total_bytes": 1198424762,
+        "value": "f6798c93a612a8cbf4c82dc04266b6f08257d01e86a203c65ce8d2f7ba99eee3"
+      },
+      "world_root": "cape-town"
+    },
+    {
+      "asset_bytes": 106618962,
+      "asset_name": "navigation-1.21.11-hofburg.zip",
+      "asset_sha256": "229976cdc7632da4530d2e84a8afeb8b3d89b28bb746f0900114ba180abfd10d",
+      "data_version": 4671,
+      "display_name": "Hofburg",
+      "environment": "outdoor",
+      "map_id": "hofburg",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "ALPS-Hofburg.zip",
+      "upstream_archive_bytes": 106640665,
+      "upstream_archive_sha256": "4071558c6295732413767c9d38102b2d1bcb195da5aa923b4e49c8b05c9d8d1a",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 325,
+        "total_bytes": 593217491,
+        "value": "60f901e29201b62a64c2f89bfdf54d10571978ef5c7206ab23a8ffb22d222b05"
+      },
+      "world_root": "hofburg"
+    },
+    {
+      "asset_bytes": 103650222,
+      "asset_name": "navigation-1.21.11-zurich.zip",
+      "asset_sha256": "5fcf06c10055f7e895681eb122cb104f526bc3eecbf6c382cb21dcd5bab7a9c9",
+      "data_version": 4671,
+      "display_name": "ALPS Zürich",
+      "environment": "outdoor",
+      "map_id": "zurich",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "ALPS-Zurich.zip",
+      "upstream_archive_bytes": 103673983,
+      "upstream_archive_sha256": "129732662983066a933dff09f0871166b428edcb2111b4570522bc18af1130dc",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 350,
+        "total_bytes": 594501510,
+        "value": "633f985cefac3449e79889c256b7f719761b04cdd9f56d1c5ff1e05a1f803388"
+      },
+      "world_root": "zurich"
+    },
+    {
+      "asset_bytes": 10676976,
+      "asset_name": "navigation-1.21.11-plaza-de-mayo.zip",
+      "asset_sha256": "a62fee6ea523ed8e65c4b0f48026182281283af8ddf7f63a3c81f3b684ea24f1",
+      "data_version": 4671,
+      "display_name": "Plaza de Mayo",
+      "environment": "outdoor",
+      "map_id": "plaza-de-mayo",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "ARG-Plaza.de.Mayo.zip",
+      "upstream_archive_bytes": 10682575,
+      "upstream_archive_sha256": "8eab80b433bd486719cd953e0e8af377f0d608d5fe6dcf1e9ff4f20e9b349696",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 70,
+        "total_bytes": 28157663,
+        "value": "38849bcc717432870670a7ac7cc0e00f93f7d70e18fdbc9d89f4f82665a3793f"
+      },
+      "world_root": "plaza-de-mayo"
+    },
+    {
+      "asset_bytes": 83810218,
+      "asset_name": "navigation-1.21.11-maribor-old-town.zip",
+      "asset_sha256": "0dbd7f282d27895a48c088b6d58bd995dff7d643c301f904df21808838ef40d2",
+      "data_version": 4671,
+      "display_name": "Maribor Old Town",
+      "environment": "outdoor",
+      "map_id": "maribor-old-town",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [
+        "heights"
+      ],
+      "upstream_archive": "BAL-Maribor.Old.Town.zip",
+      "upstream_archive_bytes": 83838427,
+      "upstream_archive_sha256": "76088f15f2e4595e443b0c794c462336023f26b86ce21bff3adf23d283f337b7",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 337,
+        "total_bytes": 460180366,
+        "value": "2d5bc846337a541d04cfaaa2fb5a5ca1a37b9ffcefde0a9a3c9a0c0ab67e14c1"
+      },
+      "world_root": "maribor-old-town"
+    },
+    {
+      "asset_bytes": 102266600,
+      "asset_name": "navigation-1.21.11-miljacka-riverside.zip",
+      "asset_sha256": "b70312f528e920c05c5668cc83a8386c1a4c6704ea82d5b4021419d598334beb",
+      "data_version": 4671,
+      "display_name": "Miljacka Riverside",
+      "environment": "outdoor",
+      "map_id": "miljacka-riverside",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [
+        "heights"
+      ],
+      "upstream_archive": "BK-Miljacka.Riverside.zip",
+      "upstream_archive_bytes": 102288455,
+      "upstream_archive_sha256": "433ba54a061b2ab69b639ddd4275db095fffb1ac0629a21c6c1ad4abf41cfa57",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 320,
+        "total_bytes": 591291301,
+        "value": "836bc51bbfb4651076cddd424cd0114f113581b630b250567293a83fca143d37"
+      },
+      "world_root": "miljacka-riverside"
+    },
+    {
+      "asset_bytes": 72450448,
+      "asset_name": "navigation-1.21.11-ohrid.zip",
+      "asset_sha256": "44c54f341eb6055c424b58df25c744011a010bc557caaf1963006a212a4ccb15",
+      "data_version": 4671,
+      "display_name": "Ohrid",
+      "environment": "outdoor",
+      "map_id": "ohrid",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [
+        "heights.zip"
+      ],
+      "upstream_archive": "BK-Ohrid.zip",
+      "upstream_archive_bytes": 72469833,
+      "upstream_archive_sha256": "7685c65b0e256a4227d3a7f6112a889cfdde5a11d43413f69f2ca7dc6f725dc6",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 312,
+        "total_bytes": 581347625,
+        "value": "33966c3d08341322ba00ea52fb60bfeaca0d5e0b1b080a61416b066bc3c79499"
+      },
+      "world_root": "ohrid"
+    },
+    {
+      "asset_bytes": 46449767,
+      "asset_name": "navigation-1.21.11-balneario.zip",
+      "asset_sha256": "f83dd7d0d9a3b4cdb11f1911a3e07784fe0edd1fca46b6243db70bca37e65bf5",
+      "data_version": 4671,
+      "display_name": "Balneario",
+      "environment": "outdoor",
+      "map_id": "balneario",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "BR-Balneario.zip",
+      "upstream_archive_bytes": 46457072,
+      "upstream_archive_sha256": "fac5faae3ef548f2cb86f23aeae28002cc0aae02dd2df8c09ca202fddbe07adf",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 106,
+        "total_bytes": 270903422,
+        "value": "94d585942ff245fd6939e2eb540e1da6bd0a473442bf9a3b22d9847735004ba7"
+      },
+      "world_root": "balneario"
+    },
+    {
+      "asset_bytes": 104746702,
+      "asset_name": "navigation-1.21.11-copacabana-waterfront.zip",
+      "asset_sha256": "cb47fd3dba9ef98679b4a98956e1e293eb5dbe5fbd9f1b1039e2181231dde324",
+      "data_version": 4671,
+      "display_name": "Copacabana Waterfront",
+      "environment": "outdoor",
+      "map_id": "copacabana-waterfront",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "BR-Copacabana.Waterfront.zip",
+      "upstream_archive_bytes": 104776640,
+      "upstream_archive_sha256": "58355b44f62e2375f831bb8c09576e1eb498c36f13736d6e037956f05697c92e",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 359,
+        "total_bytes": 596961805,
+        "value": "17ea40e8bfdc0f6a78d43da5193f91b09ebe8d18c8a63d2dea24c9d25f80944b"
+      },
+      "world_root": "copacabana-waterfront"
+    },
+    {
+      "asset_bytes": 104496870,
+      "asset_name": "navigation-1.21.11-faro-la-serena.zip",
+      "asset_sha256": "69e539cd98646a0516b0f5e8eb78f62e2ec6ccc157b1268b8589179aede3d995",
+      "data_version": 4671,
+      "display_name": "FaroLaSerena",
+      "environment": "outdoor",
+      "map_id": "faro-la-serena",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [
+        "heights"
+      ],
+      "upstream_archive": "CH-FaroLaSerena.zip",
+      "upstream_archive_bytes": 104521855,
+      "upstream_archive_sha256": "226d0441c2b62238bd09f388798827c275401b95e92e7e74b089bedd2c60a681",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 410,
+        "total_bytes": 603507044,
+        "value": "089a040a128a68f25bf94ba25c0f54130afc64cc4b1832d7eb1103641167c6f0"
+      },
+      "world_root": "faro-la-serena"
+    },
+    {
+      "asset_bytes": 47719323,
+      "asset_name": "navigation-1.21.11-santa-lucia-hill.zip",
+      "asset_sha256": "d4eb8fae45049bc666d2d00faff85bfd04b32206c645eaaa21f31cf62f20e37e",
+      "data_version": 4671,
+      "display_name": "Santa Lucia Hill",
+      "environment": "outdoor",
+      "map_id": "santa-lucia-hill",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "CH-Santa.Lucia.Hill.zip",
+      "upstream_archive_bytes": 47728903,
+      "upstream_archive_sha256": "73c8d52a62a7d40a7634a0acd4d03adf582489f2b2c2a6ecb0ac509acb05d1f1",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 123,
+        "total_bytes": 285853232,
+        "value": "879f7e5b12f86b2ff478306512792f3c367a7a4e1c1f45134f8e832e0df697bd"
+      },
+      "world_root": "santa-lucia-hill"
+    },
+    {
+      "asset_bytes": 60756161,
+      "asset_name": "navigation-1.21.11-innopolis.zip",
+      "asset_sha256": "d27480af8b288979d6e695d733a01753784c50ee2a9c474f838d8e95a1c652b8",
+      "data_version": 4671,
+      "display_name": "Innopolis",
+      "environment": "outdoor",
+      "map_id": "innopolis",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [
+        "heights"
+      ],
+      "upstream_archive": "CIS-Innopolis.zip",
+      "upstream_archive_bytes": 60766716,
+      "upstream_archive_sha256": "4dd5abda72a8f4493d68fd5e93b03318daecbc187699f9f6e6078a0076d3f788",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 124,
+        "total_bytes": 138119577,
+        "value": "1ef25a6ca84cdc80b69f95719bbe1285ccc8483968f7ce6309709a868d7c3c63"
+      },
+      "world_root": "innopolis"
+    },
+    {
+      "asset_bytes": 65311684,
+      "asset_name": "navigation-1.21.11-sviyazhsk.zip",
+      "asset_sha256": "f08ee854c4ee3e3bf315bbe6e5077be2549bb8c603e74ed2069ba6db367fe8c3",
+      "data_version": 4671,
+      "display_name": "Sviyazhsk",
+      "environment": "outdoor",
+      "map_id": "sviyazhsk",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "CIS-Sviyazhsk.zip",
+      "upstream_archive_bytes": 65324297,
+      "upstream_archive_sha256": "04cb7fec0a0858bb49e06c5b07c730e0079151a18e779c94f0587390c2dbb800",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 131,
+        "total_bytes": 215448180,
+        "value": "d062e502ae8a8e598d1df1f22dc7aba2b948dd8e5d11785d727bd4f771d4cc72"
+      },
+      "world_root": "sviyazhsk"
+    },
+    {
+      "asset_bytes": 28056060,
+      "asset_name": "navigation-1.21.11-entrup.zip",
+      "asset_sha256": "4e8624b1dc38da6a225094fe163717b83a019ade20967133c730fa83f4f8b25d",
+      "data_version": 4671,
+      "display_name": "Entrup",
+      "environment": "outdoor",
+      "map_id": "entrup",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [
+        "heights.zip"
+      ],
+      "upstream_archive": "GER-Entrup.zip",
+      "upstream_archive_bytes": 28063677,
+      "upstream_archive_sha256": "966d5eeec141e9c5e3a5458be8cd4ad86a79e456fde669e190d79e5c0a4bc711",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 100,
+        "total_bytes": 208271868,
+        "value": "a5bb5f01743736ebd3ea2e0570f032504a41c39158f7126d4f1aaf6daaff077a"
+      },
+      "world_root": "entrup"
+    },
+    {
+      "asset_bytes": 107441098,
+      "asset_name": "navigation-1.21.11-wurzburg.zip",
+      "asset_sha256": "d7f5cc46cf6ac54b893c1b046af341682823d41e7998ae3138a3bb8d702a1589",
+      "data_version": 4671,
+      "display_name": "Würzburg",
+      "environment": "outdoor",
+      "map_id": "wurzburg",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [
+        "heights"
+      ],
+      "upstream_archive": "GER-Wurzburg.zip",
+      "upstream_archive_bytes": 107468426,
+      "upstream_archive_sha256": "2e6787c567083b6a966f95faaf05c45218ac97c2f07573b1d65276bb66320d52",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 410,
+        "total_bytes": 604905044,
+        "value": "aae033c5bf4c6fb088ba740cc61b396f823108135a79bc56061b3e225adaf6cd"
+      },
+      "world_root": "wurzburg"
+    },
+    {
+      "asset_bytes": 205798575,
+      "asset_name": "navigation-1.21.11-shun-lee.zip",
+      "asset_sha256": "07de9a58f2e8c84b4c85f5ff4f836ec9dd6d82de23f5518fbcf424186ee9faa9",
+      "data_version": 4671,
+      "display_name": "HK Shun Lee",
+      "environment": "outdoor",
+      "map_id": "shun-lee",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "HK-Shun.Lee.zip",
+      "upstream_archive_bytes": 205849429,
+      "upstream_archive_sha256": "ac7bd4494cc09020cdeb0520446e7d0326f9b5af36cc1e54bcdb5e1cf8cdb277",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 656,
+        "total_bytes": 1186873868,
+        "value": "a2986234f93b1285f9932c589b0dc3ba73a069e3d55355cf8aa3cd82a53d0f20"
+      },
+      "world_root": "shun-lee"
+    },
+    {
+      "asset_bytes": 71891133,
+      "asset_name": "navigation-1.21.11-chain-bridge.zip",
+      "asset_sha256": "5bbb2dc6942fdd724aef4d90f6575fd2c4202187ec5e041732795e0a0b107caf",
+      "data_version": 4671,
+      "display_name": "Chain Bridge",
+      "environment": "outdoor",
+      "map_id": "chain-bridge",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "HUN-The.Chain.Bridge.zip",
+      "upstream_archive_bytes": 71912382,
+      "upstream_archive_sha256": "087ce33222f7b49be5ea6743dda1d4ecedd93e93db9a9914c5a826c270d15b7d",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 272,
+        "total_bytes": 338701122,
+        "value": "40f887ce098986134a91127a40e70ea6c186b1223d274d675cf5c37e031ba7b6"
+      },
+      "world_root": "chain-bridge"
+    },
+    {
+      "asset_bytes": 60256016,
+      "asset_name": "navigation-1.21.11-algarve-racetrack.zip",
+      "asset_sha256": "c7a8efa59a614cc624c402c14c96f90dfb3135e5fae1e792ff41f20ada9e7cc2",
+      "data_version": 4671,
+      "display_name": "AlgarveRacetrack",
+      "environment": "outdoor",
+      "map_id": "algarve-racetrack",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "IB-AlgarveRacetrack.zip",
+      "upstream_archive_bytes": 60265113,
+      "upstream_archive_sha256": "fb85cc5df70594a814b7dbd121a96e3e3ff1db2b28eff35ef1d29dddd30f2b36",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 141,
+        "total_bytes": 321367091,
+        "value": "7e9e3da129dc2039eeeb5e1d554134a457ff1b919dcc9c2305ccd949ee3353e1"
+      },
+      "world_root": "algarve-racetrack"
+    },
+    {
+      "asset_bytes": 106723549,
+      "asset_name": "navigation-1.21.11-dublin-departments-district.zip",
+      "asset_sha256": "5ba216ed134aa5a7552a56948756812d857d869ba81c1595416ef964dfee28c6",
+      "data_version": 4671,
+      "display_name": "Dublin Departments District",
+      "environment": "outdoor",
+      "map_id": "dublin-departments-district",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [
+        "heights"
+      ],
+      "upstream_archive": "IRE-Dublin.Departments.District.zip",
+      "upstream_archive_bytes": 106746067,
+      "upstream_archive_sha256": "fbb47421ec19debee346c00cae6bbde315b91354279d5a15137bd793db5bb0e5",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 325,
+        "total_bytes": 593104647,
+        "value": "02a660d3a48e540d94f19ef7c014ca953995df35e6a9259aa2ea6589fd920952"
+      },
+      "world_root": "dublin-departments-district"
+    },
+    {
+      "asset_bytes": 106003567,
+      "asset_name": "navigation-1.21.11-ueno-park.zip",
+      "asset_sha256": "dfd8d17bbb4f3f6ff7beac26555d051a4730dd220681c5890ea6ba3f97600f8a",
+      "data_version": 4671,
+      "display_name": "Ueno Park",
+      "environment": "outdoor",
+      "map_id": "ueno-park",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [
+        "heights"
+      ],
+      "upstream_archive": "JP-Ueno.Park.zip",
+      "upstream_archive_bytes": 106026301,
+      "upstream_archive_sha256": "24d564a02ad4151cb1ebb13cf16cbb0eae82db1b71e6886f4c6565abae374c28",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 342,
+        "total_bytes": 595339518,
+        "value": "08ff5abe15ea55730d14472865d11c87c23e274ec1de403432cc76b3f924970d"
+      },
+      "world_root": "ueno-park"
+    },
+    {
+      "asset_bytes": 43726473,
+      "asset_name": "navigation-1.21.11-dubai-downtown.zip",
+      "asset_sha256": "ac6ba7dc7083b3aad4b302066c736674f21eceaa0271e12c9d1c442ba2c09918",
+      "data_version": 4671,
+      "display_name": "Dubai Downtown",
+      "environment": "outdoor",
+      "map_id": "dubai-downtown",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [
+        "world-height-datapack.zip"
+      ],
+      "upstream_archive": "ME-Dubai.Downtown.zip",
+      "upstream_archive_bytes": 43735731,
+      "upstream_archive_sha256": "315ff4a82b017831df2e4704162c3f11f744d52063cae783aea9d5bada869c65",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 90,
+        "total_bytes": 67894584,
+        "value": "f30cf20e18f93405eafb4e6f0fbb89231b95e0a19385709bba9d51946add8447"
+      },
+      "world_root": "dubai-downtown"
+    },
+    {
+      "asset_bytes": 208066310,
+      "asset_name": "navigation-1.21.11-lusail-plaza-towers.zip",
+      "asset_sha256": "db8aca938975bd387876ed884ce8d079b40f7821f12309ecc0d6fb1aac153b37",
+      "data_version": 4671,
+      "display_name": "Lusail Plaza Towers",
+      "environment": "outdoor",
+      "map_id": "lusail-plaza-towers",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [
+        "heights"
+      ],
+      "upstream_archive": "ME-Lusail.Plaza.Towers.zip",
+      "upstream_archive_bytes": 208119649,
+      "upstream_archive_sha256": "2bae4686fecf65e4beef7fc26a005043e403b2fb12facb7f276f0c22c2eca24c",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 687,
+        "total_bytes": 1191918059,
+        "value": "553c91971d4cf045c135181ad7502a8164eba60d3d67ae683cfac7710a8e2dc0"
+      },
+      "world_root": "lusail-plaza-towers"
+    },
+    {
+      "asset_bytes": 106107601,
+      "asset_name": "navigation-1.21.11-denmark-town.zip",
+      "asset_sha256": "aebde10db65a0da7cf3e99bfd75b4b378e4fdc8a8c698dab2d1494710916505d",
+      "data_version": 4671,
+      "display_name": "Denmark Town",
+      "environment": "outdoor",
+      "map_id": "denmark-town",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [
+        "heights"
+      ],
+      "upstream_archive": "NB-Denmark.Town.zip",
+      "upstream_archive_bytes": 106143505,
+      "upstream_archive_sha256": "173a013d1c28ea3f134d223b27b7fd86aace449b0c1669ac0ff551b67139423e",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 447,
+        "total_bytes": 608295025,
+        "value": "83f10476e004a924a9a9794156ba3b77d6b78f2953b27a6aee12a9717732319a"
+      },
+      "world_root": "denmark-town"
+    },
+    {
+      "asset_bytes": 206382566,
+      "asset_name": "navigation-1.21.11-palmersquare.zip",
+      "asset_sha256": "bcdc0258de177daad9045fd455ce06671deba4d0d3d1c4c79e9d4e2e0ad9e90d",
+      "data_version": 4671,
+      "display_name": "Palmersquare",
+      "environment": "outdoor",
+      "map_id": "palmersquare",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [
+        "heights"
+      ],
+      "upstream_archive": "NJ-Palmersquare.zip",
+      "upstream_archive_bytes": 206433786,
+      "upstream_archive_sha256": "5fc2f4dfa5f7c4c74466de3e74a354c57cb97b9972a4e12f82cd2a5f96f1d432",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 659,
+        "total_bytes": 1186862879,
+        "value": "c0fd98b3e01159ca6e7f95fe5d32806c85c9354c8cc5590315d722772ef981ea"
+      },
+      "world_root": "palmersquare"
+    },
+    {
+      "asset_bytes": 106577546,
+      "asset_name": "navigation-1.21.11-nyc-911-memorials.zip",
+      "asset_sha256": "02bd1d6a78e4482b0723fa46ea4533471259f9af86250cdca60b81fd9ec61835",
+      "data_version": 4671,
+      "display_name": "911 Memories",
+      "environment": "outdoor",
+      "map_id": "nyc-911-memorials",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "NYC-911.memorials.zip",
+      "upstream_archive_bytes": 106608685,
+      "upstream_archive_sha256": "41378aa10bdb6e331c86b398ccc90fd63e0a74343e9bfbafefe63b28c21c1a83",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 428,
+        "total_bytes": 608334784,
+        "value": "b989b97210ab2ec5ce196bf5df0ed8befc9559c9baa934e4b7e6b4bead4b5d19"
+      },
+      "world_root": "nyc-911-memorials"
+    },
+    {
+      "asset_bytes": 101669485,
+      "asset_name": "navigation-1.21.11-mr-beast-1000-harbor-city.zip",
+      "asset_sha256": "79490ac798bffc484d22c886c8537099742d89279e80f67fe20bae17310f9a66",
+      "data_version": 4671,
+      "display_name": "Mr Beast 1000$ harbor city",
+      "environment": "outdoor",
+      "map_id": "mr-beast-1000-harbor-city",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "NYC-Mr.Beast.1000.harbor.city.zip",
+      "upstream_archive_bytes": 101707129,
+      "upstream_archive_sha256": "ec3bc88771609f78240e2bfaa6668b4ff34a9eaf20f37d0bfcb04f74331fa8c4",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 491,
+        "total_bytes": 177578017,
+        "value": "16fdc09f722b0235b952072d452060eae69f803349b9f76da7dcf15870efe7d0"
+      },
+      "world_root": "mr-beast-1000-harbor-city"
+    },
+    {
+      "asset_bytes": 104889800,
+      "asset_name": "navigation-1.21.11-torrey-mall.zip",
+      "asset_sha256": "2d0c782cf48f91f5128eed25752f523a03a2ceff0ce77b0baa5cb307150c8ec0",
+      "data_version": 4671,
+      "display_name": "Torrey Mall",
+      "environment": "outdoor",
+      "map_id": "torrey-mall",
+      "minecraft_version": "1.21.11",
+      "preparation": "source_clone_with_locked_heights_datapack",
+      "removed_legacy_height_packs": [
+        "heights"
+      ],
+      "upstream_archive": "PE-Torrey.Mall.zip",
+      "upstream_archive_bytes": 104914180,
+      "upstream_archive_sha256": "75b2d309dbed31c56de160e5c18293ce795dd0870256cf382b3c8141b6acd786",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 370,
+        "total_bytes": 599488106,
+        "value": "65a785fecf8cb8d15858f75641d688e08d1ee5eed981d72eec1fb60dfcd9c9aa"
+      },
+      "world_root": "torrey-mall"
+    },
+    {
+      "asset_bytes": 106503078,
+      "asset_name": "navigation-1.21.11-memorial-hall-park.zip",
+      "asset_sha256": "4666e9e8982a100d9d297684044e5931b7c4c92cc1de7272eda1ac42ac5714e0",
+      "data_version": 4671,
+      "display_name": "Memorial Hall Park",
+      "environment": "outdoor",
+      "map_id": "memorial-hall-park",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "TW-Memorial.Hall.Park.zip",
+      "upstream_archive_bytes": 106525094,
+      "upstream_archive_sha256": "5c34ca9dccf4b54a7686b2486a3e914ec5f40af7377976da0ca9c96e12c5a45d",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 323,
+        "total_bytes": 592607597,
+        "value": "b21da1e6d9cf9c113c7392bbdee1699ae745bd646554e1c710c85799b7f9af9c"
+      },
+      "world_root": "memorial-hall-park"
+    },
+    {
+      "asset_bytes": 8644382,
+      "asset_name": "navigation-1.21.11-alcatraz.zip",
+      "asset_sha256": "8de4bc491efee8dc8ea97058394811d37f42558bcb13da934e9363e787b1b9ca",
+      "data_version": 4671,
+      "display_name": "Alcatraz",
+      "environment": "indoor",
+      "map_id": "alcatraz",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "alcatraz.zip",
+      "upstream_archive_bytes": 8248160,
+      "upstream_archive_sha256": "3cbe5c47d5329f3ec5c290902067b7e13b4a45c9b025c53808d4332197d50e06",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 91,
+        "total_bytes": 66150709,
+        "value": "09e26ce1bf1b9d0a7569121632af137efeecd6245e921d697c566a78cfa9ecb9"
+      },
+      "world_root": "alcatraz"
+    },
+    {
+      "asset_bytes": 7667516,
+      "asset_name": "navigation-1.21.11-bismarck.zip",
+      "asset_sha256": "c2900c46d1516c63cdbf578e9596341f6a87ca445a3e0f9812e25dd560b72662",
+      "data_version": 4671,
+      "display_name": "Bismarck",
+      "environment": "indoor",
+      "map_id": "bismarck",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "bismarck.zip",
+      "upstream_archive_bytes": 4305793,
+      "upstream_archive_sha256": "f85aa6f572f2552e20e81e3efc24cc06d0584f69ea00ee243aa0021fd67a1559",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 65,
+        "total_bytes": 79897139,
+        "value": "77fc1ba3a81ca8cacebfe2652e0578fad338384678f1fbfa55f40a3968d3d1a1"
+      },
+      "world_root": "bismarck"
+    },
+    {
+      "asset_bytes": 20353259,
+      "asset_name": "navigation-1.21.11-buckingham-palace.zip",
+      "asset_sha256": "75a5154ee3c54c3081f6bba71e650222751ed9ba6cc89bef65db2ed5b65c998e",
+      "data_version": 4671,
+      "display_name": "Buckingham Palace",
+      "environment": "indoor",
+      "map_id": "buckingham-palace",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "buckingham_palace.zip",
+      "upstream_archive_bytes": 20558987,
+      "upstream_archive_sha256": "e2d3564a2eea7c2b11bab40f21a3caece15d673bd5c8099518720a53cfd14186",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 213,
+        "total_bytes": 190096245,
+        "value": "db1503e8848e060a32527b46bcef3709788355a20a3e914379bc15caf939b0a2"
+      },
+      "world_root": "buckingham-palace"
+    },
+    {
+      "asset_bytes": 3311723,
+      "asset_name": "navigation-1.21.11-dkm-tirpitz.zip",
+      "asset_sha256": "c6ee9344b4866b03d658337e1c4eadfe8f2f88deb78d0610a61e1145ce04863f",
+      "data_version": 4671,
+      "display_name": "DKM Tirpitz",
+      "environment": "indoor",
+      "map_id": "dkm-tirpitz",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "dkm_tirpitz.zip",
+      "upstream_archive_bytes": 2700916,
+      "upstream_archive_sha256": "495fb4040b98e0f656d7ff85f428020089c7314f6c6dcd1fafde6c5dd1681daa",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 58,
+        "total_bytes": 32441470,
+        "value": "bc2e7bfd929266cf78304c6ffdb0850f63e3c78c41eacbaf56a796b66802d942"
+      },
+      "world_root": "dkm-tirpitz"
+    },
+    {
+      "asset_bytes": 19122990,
+      "asset_name": "navigation-1.21.11-grand-budapest-hotel.zip",
+      "asset_sha256": "1a7c434ff7ad48a0289412f597b1ca13b135e7f0a46b399f64b780c7cd4e7338",
+      "data_version": 4671,
+      "display_name": "Grand Budapest Hotel",
+      "environment": "indoor",
+      "map_id": "grand-budapest-hotel",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "grand_budapest_hotel.zip",
+      "upstream_archive_bytes": 17135765,
+      "upstream_archive_sha256": "f3147c1df0588aed7c24a183e1c207cffb8fa9324ff208e59dc801954790e64d",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 66,
+        "total_bytes": 47919622,
+        "value": "d9a65cb9128a775d5f767abe8147f4a7296cf8d33e4806ed0579c6f995986fc4"
+      },
+      "world_root": "grand-budapest-hotel"
+    },
+    {
+      "asset_bytes": 22368293,
+      "asset_name": "navigation-1.21.11-hagia-sophia.zip",
+      "asset_sha256": "fd19363157dbd84b357a5622ef2ac7f61bf78fc0df7e6d19253b9ddd80bfe0d0",
+      "data_version": 4671,
+      "display_name": "Hagia Sophia",
+      "environment": "indoor",
+      "map_id": "hagia-sophia",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "hagia_sophia.zip",
+      "upstream_archive_bytes": 22130306,
+      "upstream_archive_sha256": "9b419628a5cc1881c53ea06813cb97f494797117b120d123ce9b558faa8bba40",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 542,
+        "total_bytes": 105760374,
+        "value": "75c34a64be2867fdfced6c353c9955f98ce4b02a691471616ab3326f64edd84d"
+      },
+      "world_root": "hagia-sophia"
+    },
+    {
+      "asset_bytes": 7378653,
+      "asset_name": "navigation-1.21.11-notre-dame.zip",
+      "asset_sha256": "9e1bce348bbb65e5040bdd3b70f973ff3e642bbf2b675dd17213307523b37ec7",
+      "data_version": 4671,
+      "display_name": "Notre Dame",
+      "environment": "indoor",
+      "map_id": "notre-dame",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "notre_dame.zip",
+      "upstream_archive_bytes": 7228179,
+      "upstream_archive_sha256": "0dbf07ae919d5caf8543b4c357419b40828701a0dd2a5cfa638f86cb11df1a78",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 50,
+        "total_bytes": 13304491,
+        "value": "2397091cc9f6ec9c3b1cc2f6bf0247c5ba3cb475716b1bc4be27d863efd7714f"
+      },
+      "world_root": "notre-dame"
+    },
+    {
+      "asset_bytes": 3700494,
+      "asset_name": "navigation-1.21.11-plaza-hotel.zip",
+      "asset_sha256": "d59245d7998d70cfc645c03ec50f721c6aa504532090b175c721d56c6be9a4a1",
+      "data_version": 4671,
+      "display_name": "Plaza Hotel",
+      "environment": "indoor",
+      "map_id": "plaza-hotel",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "plaza_hotel.zip",
+      "upstream_archive_bytes": 3540949,
+      "upstream_archive_sha256": "5109336c286575082c4d38efb92146a032002affa64c06c94da6f00d73debeef",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 40,
+        "total_bytes": 14221506,
+        "value": "332e1e3cecaa7bb588c23761088186edf813074f4d740333b3f34e7cb7bc0af5"
+      },
+      "world_root": "plaza-hotel"
+    },
+    {
+      "asset_bytes": 534492917,
+      "asset_name": "navigation-1.21.11-reichstag.zip",
+      "asset_sha256": "a8dc9208dcfad7307a3f0d03fc657385b756516ac017e8575464064f61ec95b1",
+      "data_version": 4671,
+      "display_name": "Reichstag",
+      "environment": "indoor",
+      "map_id": "reichstag",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "reichstag.zip",
+      "upstream_archive_bytes": 511035199,
+      "upstream_archive_sha256": "d45cde6911f21f312407a0f4fdf4d46cae4f58e4da5d363188794b980e12d628",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 1305,
+        "total_bytes": 820116689,
+        "value": "33b887796a9ba6696b91d475cfb3b03d10dc42fe13d578fa904067765dd7db36"
+      },
+      "world_root": "reichstag"
+    },
+    {
+      "asset_bytes": 23977352,
+      "asset_name": "navigation-1.21.11-rms-queen-mary.zip",
+      "asset_sha256": "d6a67b362d590509eb99dc0fa383e678013adf7e3718e2acf00e0d3215f4e60a",
+      "data_version": 4671,
+      "display_name": "RMS Queen Mary",
+      "environment": "indoor",
+      "map_id": "rms-queen-mary",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "rms_queen_mary.zip",
+      "upstream_archive_bytes": 24590696,
+      "upstream_archive_sha256": "abfe10c0492406717c643778445125a042a40fff5c2c41e12a31ffe6cba3c668",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 405,
+        "total_bytes": 98957507,
+        "value": "7ec7752ad23504e197705b924b2c38251c08b2e21dfdd1fa3be39e9e4542b62d"
+      },
+      "world_root": "rms-queen-mary"
+    },
+    {
+      "asset_bytes": 10395692,
+      "asset_name": "navigation-1.21.11-rms-titanic.zip",
+      "asset_sha256": "de122e7c3ee8c44472efa5a242fe906f6fb496328105c8113c31cfa6c694c60b",
+      "data_version": 4671,
+      "display_name": "RMS Titanic",
+      "environment": "indoor",
+      "map_id": "rms-titanic",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "rms_titanic.zip",
+      "upstream_archive_bytes": 9537920,
+      "upstream_archive_sha256": "d991ddbf398b1d396c846a68bdb2b17afd27eca36f4111429fdc3891db696658",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 140,
+        "total_bytes": 72858800,
+        "value": "dd29f623fddf5193a87bbcfd679c4b583d760c845e4e9f1e67e631146fcde532"
+      },
+      "world_root": "rms-titanic"
+    },
+    {
+      "asset_bytes": 20242595,
+      "asset_name": "navigation-1.21.11-sofi-stadium.zip",
+      "asset_sha256": "d70b0bd84a1202b43dc3198464d24f69921c06168bf6d3fb789503f65027dfaa",
+      "data_version": 4671,
+      "display_name": "SoFi Stadium",
+      "environment": "indoor",
+      "map_id": "sofi-stadium",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "sofi_stadium.zip",
+      "upstream_archive_bytes": 20342639,
+      "upstream_archive_sha256": "2e7b5d2e1e7c02eeede4a0d92c1e4f2cd097f4959326ce7bc58e38488f63169f",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 124,
+        "total_bytes": 106711729,
+        "value": "55b1598c6c6fc9873ad4d1f5eb2c411c0d35ad98b5f6e8e18088afbf4402634c"
+      },
+      "world_root": "sofi-stadium"
+    },
+    {
+      "asset_bytes": 10429793,
+      "asset_name": "navigation-1.21.11-versailles.zip",
+      "asset_sha256": "7e7afd5c2fbfdcd50ffbc52b5aa789d6be68d8417de176e79e4774f26bc26e4d",
+      "data_version": 4671,
+      "display_name": "Versailles",
+      "environment": "indoor",
+      "map_id": "versailles",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "versailles.zip",
+      "upstream_archive_bytes": 8795446,
+      "upstream_archive_sha256": "8b4d7513ee333b5ec9d5f9e31520ec06137af1fa97250e804d45c208fb8db8b9",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 102,
+        "total_bytes": 38782500,
+        "value": "d43ece7c8d13ea7f4fa1532482a9daadd38204f5d73395a072f495fc18560f86"
+      },
+      "world_root": "versailles"
+    },
+    {
+      "asset_bytes": 14296235,
+      "asset_name": "navigation-1.21.11-white-house.zip",
+      "asset_sha256": "9e3732016e5cbc9d9c5df4f3516a58477c88be468b921cfad483c14bb13bd13d",
+      "data_version": 4671,
+      "display_name": "White House",
+      "environment": "indoor",
+      "map_id": "white-house",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "white_house.zip",
+      "upstream_archive_bytes": 15035253,
+      "upstream_archive_sha256": "e79b16afa0083479455fbdbccb9d3b26490c29091377b43b81b0672ee5c3239b",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 267,
+        "total_bytes": 116830792,
+        "value": "2e803faf0e6b6074918c941f24dde9e610cc0e7da40266c18950f72738ed0f25"
+      },
+      "world_root": "white-house"
+    },
+    {
+      "asset_bytes": 41895438,
+      "asset_name": "navigation-1.21.11-factory-collection.zip",
+      "asset_sha256": "5137747188820fbab4bbb66865342eff6da5299f0e75fcb6540c232c8c67fb36",
+      "data_version": 4671,
+      "display_name": "Factory Collection",
+      "environment": "mixed",
+      "map_id": "factory-collection",
+      "minecraft_version": "1.21.11",
+      "preparation": "verified_prepared_snapshot",
+      "removed_legacy_height_packs": [],
+      "upstream_archive": "factory_collection.zip",
+      "upstream_archive_bytes": 40582605,
+      "upstream_archive_sha256": "a7fd1d6cbba9d5c959534e61d90765fc426fe62032485107b1d5ed5069e02587",
+      "world_fingerprint": {
+        "algorithm": "sha256-relative-path-and-content-v1",
+        "file_count": 204,
+        "total_bytes": 165114598,
+        "value": "8a762091ba7d5da20c03c7ea7f3e4eb3bf99f41b8d48498288df0930225eead1"
+      },
+      "world_root": "factory-collection"
+    }
+  ],
+  "built_at_utc": "2026-08-17T23:29:05Z",
+  "data_version": 4671,
+  "minecraft_version": "1.21.11",
+  "release_tag": "navigation-maps-1.21.11-v1",
+  "release_url": "https://example.invalid/anonymous-source",
+  "repository": "anonymous/source",
+  "schema_version": 1
+}

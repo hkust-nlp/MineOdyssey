@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "map_id": "hagia-sophia",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "custom_maps/maps/inter_map/hagia_sophia/routes.json",
+    "sha256": "23c90cb1f6cc4fc388f0e683bdc49ffe3b20e75237ddb8bc47523d6deb1cc65d"
+  },
+  "quality_status": "semantically_reviewed_owner_approved",
+  "upload_recommendation": "routes_ready_for_runtime_validation",
+  "route_count": 3,
+  "routes": [
+    {
+      "id": "hag-route-05",
+      "title": "Vaftizhaneden Güney Galerisi'ne",
+      "title_local": "Vaftizhaneden Güney Galerisi'ne",
+      "title_zh": "洗礼堂到南廊",
+      "prompt_language": "tr-TR",
+      "prompt_local": "Kilisenin üst ve alt katları arasındaki mekansal ilişkiyi incelemek için IMPERIAL GATE aracılığıyla Baptistry'den South Gallery'ye gidin.",
+      "prompt_zh": "为了考察教堂上下层空间关系，从 Baptistry 经 IMPERIAL GATE 前往 South Gallery。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "HAG-WP-01",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HAG-WP-03",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HAG-WP-05",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "hag-route-05-segment-01",
+          "from": "HAG-WP-01",
+          "to": "HAG-WP-03"
+        },
+        {
+          "id": "hag-route-05-segment-02",
+          "from": "HAG-WP-03",
+          "to": "HAG-WP-05"
+        }
+      ]
+    },
+    {
+      "id": "hag-route-07",
+      "title": "Skeuophylakion'dan Apsise",
+      "title_local": "Skeuophylakion'dan Apsise",
+      "title_zh": "圣器库到后殿",
+      "prompt_language": "tr-TR",
+      "prompt_local": "Tören alanını ve eser depolama alanını kontrol ederken Skeuophylakion'den Imperial Loge aracılığıyla APSE Mihrab'ye gidin.",
+      "prompt_zh": "核对礼仪空间与器物储藏区时，从 Skeuophylakion 经 Imperial Loge 前往 APSE Mihrab。",
+      "difficulty": "medium",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "HAG-WP-10",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HAG-WP-08",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HAG-WP-02",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "hag-route-07-segment-01",
+          "from": "HAG-WP-10",
+          "to": "HAG-WP-08"
+        },
+        {
+          "id": "hag-route-07-segment-02",
+          "from": "HAG-WP-08",
+          "to": "HAG-WP-02"
+        }
+      ]
+    },
+    {
+      "id": "hag-route-10",
+      "title": "Kuzey Galerisinden Taç Giyme Alanına",
+      "title_local": "Kuzey Galerisinden Taç Giyme Alanına",
+      "title_zh": "北廊到加冕区",
+      "prompt_language": "tr-TR",
+      "prompt_local": "Üst kat turunu tamamladıktan sonra tarihi tören alanına ilerleyin, Wishing Column'den North Gallery'ye çıkın ve DOME alanı üzerinden Coronation Square'ye gelin.",
+      "prompt_zh": "完成上层参观后前往历史仪式空间，从 Wishing Column 上行至 North Gallery，经 DOME 区域抵达 Coronation Square。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "HAG-WP-06",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HAG-WP-07",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HAG-WP-09",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HAG-WP-04",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "hag-route-10-segment-01",
+          "from": "HAG-WP-06",
+          "to": "HAG-WP-07"
+        },
+        {
+          "id": "hag-route-10-segment-02",
+          "from": "HAG-WP-07",
+          "to": "HAG-WP-09"
+        },
+        {
+          "id": "hag-route-10-segment-03",
+          "from": "HAG-WP-09",
+          "to": "HAG-WP-04"
+        }
+      ]
+    }
+  ]
+}

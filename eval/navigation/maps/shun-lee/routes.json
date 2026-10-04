@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "map_id": "shun-lee",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/shun-lee-current-5-routes.json",
+    "sha256": "cbff9918f83f356387577a6d001e872f5d7e0c8f9490b50e4a761332d5efd219"
+  },
+  "quality_status": "reviewed_routes",
+  "route_count": 5,
+  "routes": [
+    {
+      "id": "slr-n01",
+      "title": "宿舍中央廣場至遙控模型賽車場",
+      "title_zh": "宿舍中央廣場至遙控模型賽車場",
+      "topic_local": "由屋苑平台行去睇遙控車",
+      "topic_zh": "住宅平台到北側賽車場",
+      "prompt_local": "下晝喺「順利紀律部隊宿舍中央廣場」接姪仔，帶佢去「順利紀律部隊宿舍東面平台」試影遠處嘅賽車場，再落到「遙控模型賽車場（A場）」睇車手練習，幫佢影低最鍾意嗰架模型車。",
+      "prompt_zh": "下午在「順利紀律部隊宿舍中央廣場」接上侄子，带他去「順利紀律部隊宿舍東面平台」试着远拍赛车场，再下到「遙控模型賽車場（A場）」看车手练习，并为他最喜欢的一辆模型车拍照。",
+      "prompt_language": "zh-Hant-HK",
+      "prompt_style": "natural_situational_local_language",
+      "semantic_dependency_status": "reviewed_topic_stop_order",
+      "validation_status": "full_route_baritone_reached",
+      "reachability_status": "baritone_reached",
+      "points": [
+        {
+          "waypoint_id": "SLH-02",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SLH-03",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLH-07",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "slr-n02",
+      "title": "由宿舍入口橫過社區運動場地",
+      "title_zh": "由宿舍入口橫穿社區運動場地",
+      "topic_local": "順利邨朝早晨運",
+      "topic_zh": "順利邨東西向晨運",
+      "prompt_local": "朝早由「順利紀律部隊宿舍入口」開始晨跑，沿住「遙控模型賽車場（A場）」外圍嘅行人路跑過，再喺「盛德中心學校籃球場」同「順利邨羽毛球場」場邊各做一組短途折返跑，最後去「順利邨健身遊樂場」拉筋放鬆。",
+      "prompt_zh": "早上从「順利紀律部隊宿舍入口」开始晨跑，沿「遙控模型賽車場（A場）」外围的人行道跑过，再在「盛德中心學校籃球場」和「順利邨羽毛球場」场边各做一组短途折返跑，最后到「順利邨健身遊樂場」拉伸放松。",
+      "prompt_language": "zh-Hant-HK",
+      "prompt_style": "natural_situational_local_language",
+      "semantic_dependency_status": "reviewed_topic_stop_order",
+      "validation_status": "full_route_baritone_reached",
+      "reachability_status": "baritone_reached",
+      "points": [
+        {
+          "waypoint_id": "SLH-04",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SLH-07",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLH-06",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLH-12",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLH-16",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "slr-n03",
+      "title": "盛德放學後到巴士站",
+      "title_zh": "盛德放學後到巴士站",
+      "topic_local": "放學後搵朋友再搭車返屋企",
+      "topic_zh": "學校帶、公共服務與放學返程",
+      "prompt_local": "由「香港扶幼會盛德中心學校」放學後，去「滙基書院（東九龍）」接埋做消防安全報告嘅同學，再到「順利消防局」攞宣傳單張。喺「順利邨五人足球場入口」同其餘組員會合，之後一齊去「順利消防局巴士站」搭車返屋企。",
+      "prompt_zh": "从「香港扶幼會盛德中心學校」放学后，到「滙基書院（東九龍）」接上一起做消防安全报告的同学，再去「順利消防局」领取宣传资料。在「順利邨五人足球場入口」与其他组员会合，之后一起到「順利消防局巴士站」乘车回家。",
+      "prompt_language": "zh-Hant-HK",
+      "prompt_style": "natural_situational_local_language",
+      "semantic_dependency_status": "reviewed_topic_stop_order",
+      "validation_status": "full_route_baritone_reached",
+      "reachability_status": "baritone_reached",
+      "points": [
+        {
+          "waypoint_id": "SLH-08",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SLH-09",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLH-13",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLH-19",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLH-18",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "slr-n04",
+      "title": "迦南放學後去踢波再搭巴士",
+      "title_zh": "迦南放學後到足球場與巴士站",
+      "topic_local": "放學、屋邨運動同返程",
+      "topic_zh": "放學後的屋邨運動與返程",
+      "prompt_local": "由「基督教中國佈道會聖道迦南書院」放學後，先去「順利邨遊樂場」同同學會合，再到「順利邨五人足球場」踢波，完場後去「順利消防局巴士站」搭車離開。",
+      "prompt_zh": "从「基督教中國佈道會聖道迦南書院」放学后，先到「順利邨遊樂場」与同学会合，再去「順利邨五人足球場」踢球，结束后到「順利消防局巴士站」乘车离开。",
+      "prompt_language": "zh-Hant-HK",
+      "prompt_style": "natural_situational_local_language",
+      "semantic_dependency_status": "reviewed_topic_stop_order",
+      "validation_status": "full_route_baritone_reached",
+      "reachability_status": "baritone_reached",
+      "points": [
+        {
+          "waypoint_id": "SLH-14",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SLH-15",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLH-17",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLH-18",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "slr-n05",
+      "title": "滙基堂、二樓平台與校舍出口",
+      "title_zh": "滙基堂、二樓平台與校舍出口",
+      "topic_local": "滙基書院低層開放日參觀",
+      "topic_zh": "滙基書院低樓層室內參觀",
+      "prompt_local": "開放日由「基督教滙基堂」開始參觀，先上「滙基書院二樓平台」，再落到「滙基書院飯堂」了解校園生活，最後由「滙基書院（東九龍）」校舍入口離開。",
+      "prompt_zh": "开放日从「基督教滙基堂」开始参观，先上到「滙基書院二樓平台」，再下到「滙基書院飯堂」了解校园生活，最后从「滙基書院（東九龍）」校舍入口离开。",
+      "prompt_language": "zh-Hant-HK",
+      "prompt_style": "natural_situational_local_language",
+      "semantic_dependency_status": "reviewed_topic_stop_order",
+      "validation_status": "full_route_baritone_reached",
+      "reachability_status": "baritone_reached",
+      "points": [
+        {
+          "waypoint_id": "SLH-10",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SLH-20",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLH-11",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SLH-09",
+          "role": "end"
+        }
+      ]
+    }
+  ],
+  "upload_recommendation": "waypoints_and_routes_ready"
+}

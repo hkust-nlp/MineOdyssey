@@ -1,0 +1,10 @@
+{
+  "key.ground_navigation.toggle": "开关地面导航",
+  "message.ground_navigation.enabled": "地面导航已开启",
+  "message.ground_navigation.disabled": "地面导航已关闭",
+  "message.ground_navigation.active": "已读取 Baritone 路线：%s 个节点",
+  "message.ground_navigation.calculating": "Baritone 正在规划路线……",
+  "message.ground_navigation.idle": "当前没有路线，请先让 Baritone 开始寻路。",
+  "message.ground_navigation.unavailable": "未检测到 Baritone。",
+  "message.ground_navigation.error": "读取 Baritone 路线失败，请查看 latest.log。"
+}

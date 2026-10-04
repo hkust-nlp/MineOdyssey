@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "map_id": "notre-dame",
+  "display_name": "Notre Dame",
+  "environment": "indoor",
+  "source": {
+    "repository": "anonymous/source",
+    "provenance": {
+      "kind": "git-lfs-world-materialized-as-local-source-archive",
+      "git_commit": "0000000000000000000000000000000000000000",
+      "git_path": "custom_maps/maps/inter_map/notre_dame"
+    },
+    "asset_name": "notre_dame.zip",
+    "archive_path": "notre_dame.zip",
+    "archive_bytes": 7228179,
+    "archive_sha256": "0dbf07ae919d5caf8543b4c357419b40828701a0dd2a5cfa638f86cb11df1a78",
+    "world_root": "notre_dame"
+  },
+  "world": {
+    "source_version": {
+      "version_name": "1.20.4",
+      "data_version": 3700
+    },
+    "minecraft_version": "1.21.11",
+    "version_name": "1.21.11",
+    "data_version": 4671,
+    "expected_source_fingerprint": "577182f349d399483cd65f4f8fe8fd6f2edda8abb9179208f5564586723c9997",
+    "expected_prepared_fingerprint": "5709acd21ded64934bd25b30686770fc953139515e2a0eedf5dad6378ea9b201",
+    "preparation": {
+      "id": "minecraft-server-force-upgrade-1.21.11-v1",
+      "runtime_profile": "minecraft-1.21.11",
+      "server_arguments": [
+        "--forceUpgrade",
+        "--eraseCache",
+        "nogui"
+      ],
+      "reason": "Preserve the exact source archive, then upgrade one cloned world with the pinned Minecraft 1.21.11 / NeoForge 21.11.44 server and save it as the immutable prepared snapshot."
+    }
+  },
+  "license": {
+    "scope": "evaluation-only source archive",
+    "redistribution": "not granted by this manifest",
+    "note": "Keep the source ZIP and extracted source world outside Git; preserve the upstream Git provenance and any bundled terms."
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "map_id": "white-house",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "custom_maps/maps/inter_map/white_house/routes.json",
+    "sha256": "f98b57351688b4f803aea77eeb8fb9785efad87da83f27aca474e9e7a3a5b937"
+  },
+  "quality_status": "semantically_reviewed_owner_approved",
+  "upload_recommendation": "routes_ready_for_runtime_validation",
+  "route_count": 9,
+  "routes": [
+    {
+      "id": "whi-route-05",
+      "title": "Diplomatic Reception Collection Tour",
+      "title_local": "Diplomatic Reception Collection Tour",
+      "title_zh": "外交接待藏品参观",
+      "prompt_language": "en-US",
+      "prompt_local": "While waiting for a scheduled diplomatic meeting, join a short collection tour. Start in Diplomatic Reception Room, then examine the historical displays in Map Room, China Room, and Vermeil Room.",
+      "prompt_zh": "等待一场预约好的外交会见时，参加一次简短的白宫藏品参观：从 Diplomatic Reception Room 出发，依次查看 Map Room、China Room 和 Vermeil Room 的历史陈设。",
+      "difficulty": "medium",
+      "status": "runtime_validation_pending",
+      "points": [
+        {"waypoint_id": "WHI-WP-40", "role": "start"},
+        {"waypoint_id": "WHI-WP-37", "role": "via"},
+        {"waypoint_id": "WHI-WP-39", "role": "via"},
+        {"waypoint_id": "WHI-WP-38", "role": "end"}
+      ],
+      "segments": [
+        {"id": "whi-route-05-segment-01", "from": "WHI-WP-40", "to": "WHI-WP-37"},
+        {"id": "whi-route-05-segment-02", "from": "WHI-WP-37", "to": "WHI-WP-39"},
+        {"id": "whi-route-05-segment-03", "from": "WHI-WP-39", "to": "WHI-WP-38"}
+      ]
+    },
+    {
+      "id": "whi-route-07",
+      "title": "Private Residence Conservation Check",
+      "title_local": "Private Residence Conservation Check",
+      "title_zh": "总统私人空间藏品巡检",
+      "prompt_language": "en-US",
+      "prompt_local": "Complete a conservation check of the private residence. Start in Yellow Oval Room, inspect the furnishings in Treaty Room, and finish by checking Lincoln Bedroom.",
+      "prompt_zh": "完成一次白宫私人居住区的藏品巡检：从 Yellow Oval Room 出发，检查 Treaty Room 的陈设，最后到 Lincoln Bedroom 完成记录。",
+      "difficulty": "medium",
+      "status": "runtime_validation_pending",
+      "points": [
+        {"waypoint_id": "WHI-WP-30", "role": "start"},
+        {"waypoint_id": "WHI-WP-29", "role": "via"},
+        {"waypoint_id": "WHI-WP-28", "role": "end"}
+      ],
+      "segments": [
+        {"id": "whi-route-07-segment-01", "from": "WHI-WP-30", "to": "WHI-WP-29"},
+        {"id": "whi-route-07-segment-02", "from": "WHI-WP-29", "to": "WHI-WP-28"}
+      ]
+    },
+    {
+      "id": "whi-route-08",
+      "title": "Family Floor Bedroom Inspection",
+      "title_local": "Family Floor Bedroom Inspection",
+      "title_zh": "家庭层卧室巡查",
+      "prompt_language": "en-US",
+      "prompt_local": "Before overnight guests arrive, inspect the bedrooms on the family floor. Start in President's Bedroom, then check West Bedroom and Queen's Bedroom, and finish in East Bedroom.",
+      "prompt_zh": "在留宿宾客抵达前检查家庭层卧室：从 President's Bedroom 开始，依次查看 West Bedroom、Queen's Bedroom，最后到 East Bedroom 完成检查。",
+      "difficulty": "medium",
+      "status": "runtime_validation_pending",
+      "points": [
+        {"waypoint_id": "WHI-WP-04", "role": "start"},
+        {"waypoint_id": "WHI-WP-06", "role": "via"},
+        {"waypoint_id": "WHI-WP-07", "role": "via"},
+        {"waypoint_id": "WHI-WP-05", "role": "end"}
+      ],
+      "segments": [
+        {"id": "whi-route-08-segment-01", "from": "WHI-WP-04", "to": "WHI-WP-06"},
+        {"id": "whi-route-08-segment-02", "from": "WHI-WP-06", "to": "WHI-WP-07"},
+        {"id": "whi-route-08-segment-03", "from": "WHI-WP-07", "to": "WHI-WP-05"}
+      ]
+    },
+    {
+      "id": "whi-route-09",
+      "title": "East Room Event Preparation",
+      "title_local": "East Room Event Preparation",
+      "title_zh": "东厅活动准备",
+      "prompt_language": "en-US",
+      "prompt_local": "Prepare materials for an event in East Room. Start in First Lady's Office, collect the place cards from Graphics and Calligraphy Office, check the guest arrival route in East Garden Room, and then report to East Room.",
+      "prompt_zh": "为 East Room 的活动准备物料：从 First Lady's Office 出发，到 Graphics and Calligraphy Office 领取席位卡，在 East Garden Room 检查宾客入场路线，最后到 East Room 报到。",
+      "difficulty": "medium",
+      "status": "runtime_validation_pending",
+      "points": [
+        {"waypoint_id": "WHI-WP-11", "role": "start"},
+        {"waypoint_id": "WHI-WP-10", "role": "via"},
+        {"waypoint_id": "WHI-WP-12", "role": "via"},
+        {"waypoint_id": "WHI-WP-31", "role": "end"}
+      ],
+      "segments": [
+        {"id": "whi-route-09-segment-01", "from": "WHI-WP-11", "to": "WHI-WP-10"},
+        {"id": "whi-route-09-segment-02", "from": "WHI-WP-10", "to": "WHI-WP-12"},
+        {"id": "whi-route-09-segment-03", "from": "WHI-WP-12", "to": "WHI-WP-31"}
+      ]
+    },
+    {
+      "id": "whi-route-10",
+      "title": "Emergency Briefing to the Oval Office",
+      "title_local": "Emergency Briefing to the Oval Office",
+      "title_zh": "地下应急简报到总统办公室",
+      "prompt_language": "en-US",
+      "prompt_local": "After an emergency briefing in PEOC, carry the situation report upstairs. Pass through Diplomatic Reception Room and Map Room, brief the team in Cabinet Room, and deliver the final update in Oval Office.",
+      "prompt_zh": "在 PEOC 完成紧急情况简报后，把态势报告送到楼上：经过 Diplomatic Reception Room 和 Map Room，在 Cabinet Room 向团队汇报，最后到 Oval Office 提交最新情况。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {"waypoint_id": "WHI-WP-15", "role": "start"},
+        {"waypoint_id": "WHI-WP-40", "role": "via"},
+        {"waypoint_id": "WHI-WP-37", "role": "via"},
+        {"waypoint_id": "WHI-WP-23", "role": "via"},
+        {"waypoint_id": "WHI-WP-24", "role": "end"}
+      ],
+      "segments": [
+        {"id": "whi-route-10-segment-01", "from": "WHI-WP-15", "to": "WHI-WP-40"},
+        {"id": "whi-route-10-segment-02", "from": "WHI-WP-40", "to": "WHI-WP-37"},
+        {"id": "whi-route-10-segment-03", "from": "WHI-WP-37", "to": "WHI-WP-23"},
+        {"id": "whi-route-10-segment-04", "from": "WHI-WP-23", "to": "WHI-WP-24"}
+      ]
+    },
+    {
+      "id": "whi-route-11",
+      "title": "Morning Security Sweep",
+      "title_local": "Morning Security Sweep",
+      "title_zh": "户外设施与西翼安保巡查",
+      "prompt_language": "en-US",
+      "prompt_local": "Carry out a security check before the President's morning routine. Inspect Basketball Court and Swimming Pool, verify the route through Rose Garden, and finish the check at Oval Office.",
+      "prompt_zh": "在总统开始晨间活动前完成安保巡查：检查 Basketball Court 和 Swimming Pool，确认穿过 Rose Garden 的通行路线，最后到 Oval Office 结束巡查。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {"waypoint_id": "WHI-WP-08", "role": "start"},
+        {"waypoint_id": "WHI-WP-09", "role": "via"},
+        {"waypoint_id": "WHI-WP-21", "role": "via"},
+        {"waypoint_id": "WHI-WP-24", "role": "end"}
+      ],
+      "segments": [
+        {"id": "whi-route-11-segment-01", "from": "WHI-WP-08", "to": "WHI-WP-09"},
+        {"id": "whi-route-11-segment-02", "from": "WHI-WP-09", "to": "WHI-WP-21"},
+        {"id": "whi-route-11-segment-03", "from": "WHI-WP-21", "to": "WHI-WP-24"}
+      ]
+    },
+    {
+      "id": "whi-route-12",
+      "title": "Senior Leadership Schedule Coordination",
+      "title_local": "Senior Leadership Schedule Coordination",
+      "title_zh": "西翼高层会议日程协调",
+      "prompt_language": "en-US",
+      "prompt_local": "Coordinate the afternoon leadership schedule. Start in Chief of Staff's Office, confirm the Vice President's agenda in Vice President's Office, prepare Roosevelt Room and Cabinet Room, then take the final schedule to Oval Office.",
+      "prompt_zh": "协调下午的高层会议日程：从 Chief of Staff's Office 出发，到 Vice President's Office 确认副总统议程，再检查 Roosevelt Room 和 Cabinet Room，最后把定稿送到 Oval Office。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {"waypoint_id": "WHI-WP-16", "role": "start"},
+        {"waypoint_id": "WHI-WP-17", "role": "via"},
+        {"waypoint_id": "WHI-WP-22", "role": "via"},
+        {"waypoint_id": "WHI-WP-23", "role": "via"},
+        {"waypoint_id": "WHI-WP-24", "role": "end"}
+      ],
+      "segments": [
+        {"id": "whi-route-12-segment-01", "from": "WHI-WP-16", "to": "WHI-WP-17"},
+        {"id": "whi-route-12-segment-02", "from": "WHI-WP-17", "to": "WHI-WP-22"},
+        {"id": "whi-route-12-segment-03", "from": "WHI-WP-22", "to": "WHI-WP-23"},
+        {"id": "whi-route-12-segment-04", "from": "WHI-WP-23", "to": "WHI-WP-24"}
+      ]
+    },
+    {
+      "id": "whi-route-14",
+      "title": "Top-Floor Recreation Facilities Inspection",
+      "title_local": "Top-Floor Recreation Facilities Inspection",
+      "title_zh": "顶层家庭休闲设施巡查",
+      "prompt_language": "en-US",
+      "prompt_local": "Inspect the recreation rooms on the top floor of the residence. Begin in Greenhouse, continue through Solarium, Workout Room, and Music Room, and finish the facilities check in Sun Room.",
+      "prompt_zh": "检查白宫居住区顶层的休闲设施：从 Greenhouse 开始，依次经过 Solarium、Workout Room 和 Music Room，最后到 Sun Room 完成设施巡检。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {"waypoint_id": "WHI-WP-01", "role": "start"},
+        {"waypoint_id": "WHI-WP-02", "role": "via"},
+        {"waypoint_id": "WHI-WP-25", "role": "via"},
+        {"waypoint_id": "WHI-WP-26", "role": "via"},
+        {"waypoint_id": "WHI-WP-27", "role": "end"}
+      ],
+      "segments": [
+        {"id": "whi-route-14-segment-01", "from": "WHI-WP-01", "to": "WHI-WP-02"},
+        {"id": "whi-route-14-segment-02", "from": "WHI-WP-02", "to": "WHI-WP-25"},
+        {"id": "whi-route-14-segment-03", "from": "WHI-WP-25", "to": "WHI-WP-26"},
+        {"id": "whi-route-14-segment-04", "from": "WHI-WP-26", "to": "WHI-WP-27"}
+      ]
+    },
+    {
+      "id": "whi-route-15",
+      "title": "East Wing to State Dinner Coordination",
+      "title_local": "East Wing to State Dinner Coordination",
+      "title_zh": "东翼到国宴厅活动协调",
+      "prompt_language": "en-US",
+      "prompt_local": "Coordinate an evening program spanning the East Wing and State Floor. Begin at White House Family Theater, check the reception flow through East Garden Room and Diplomatic Reception Room, then inspect Blue Room and finish at State Dining Room.",
+      "prompt_zh": "协调一场横跨东翼与国事层的晚间活动：从 White House Family Theater 出发，经 East Garden Room 和 Diplomatic Reception Room 检查接待动线，再查看 Blue Room，最后到 State Dining Room 完成准备。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {"waypoint_id": "WHI-WP-13", "role": "start"},
+        {"waypoint_id": "WHI-WP-12", "role": "via"},
+        {"waypoint_id": "WHI-WP-40", "role": "via"},
+        {"waypoint_id": "WHI-WP-36", "role": "via"},
+        {"waypoint_id": "WHI-WP-32", "role": "end"}
+      ],
+      "segments": [
+        {"id": "whi-route-15-segment-01", "from": "WHI-WP-13", "to": "WHI-WP-12"},
+        {"id": "whi-route-15-segment-02", "from": "WHI-WP-12", "to": "WHI-WP-40"},
+        {"id": "whi-route-15-segment-03", "from": "WHI-WP-40", "to": "WHI-WP-36"},
+        {"id": "whi-route-15-segment-04", "from": "WHI-WP-36", "to": "WHI-WP-32"}
+      ]
+    }
+  ]
+}

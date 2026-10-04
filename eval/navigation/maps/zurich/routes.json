@@ -1,0 +1,435 @@
+{
+  "schema_version": 1,
+  "map_id": "zurich",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/zurich-formal-10-routes.json",
+    "sha256": "6a3399a0ea2c6d360a1a12b9cd538c890cb807e152fb929f875d1cf3bb708102"
+  },
+  "quality_status": "reviewed_routes",
+  "route_count": 6,
+  "routes": [
+    {
+      "id": "zurich-route-06",
+      "title": "Rindermarkt 到 Gottfried Keller 出生地",
+      "prompt_zh": "你是想了解作家与老城关系的文学游客。今天想从 Haus zur Sichel 沿 Rindermarkt 和 Predigergasse 走到 Gedenktafel am Geburtshaus von Gottfried Keller。请从「Haus zur Sichel」出发，最后到「Gedenktafel am Geburtshaus von Gottfried Keller」；这段行程的主题是「Rindermarkt 到 Gottfried Keller 出生地」。",
+      "persona_zh": "想了解作家与老城关系的文学游客",
+      "topic_zh": "Rindermarkt 到 Gottfried Keller 出生地",
+      "purpose_zh": "从 Haus zur Sichel 沿 Rindermarkt 和 Predigergasse 走到 Gedenktafel am Geburtshaus von Gottfried Keller",
+      "actor": "想了解作家与老城关系的文学游客",
+      "intent": "从 Haus zur Sichel 沿 Rindermarkt 和 Predigergasse 走到 Gedenktafel am Geburtshaus von Gottfried Keller",
+      "theme": "Rindermarkt 到 Gottfried Keller 出生地",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Haus zur Sichel 沿 Rindermarkt 和 Predigergasse 走到 Gedenktafel am Geburtshaus von Gottfried Keller",
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "ZRH-08",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "ZRH-11",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ZRH-12",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ZRH-23",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ZRH-25",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "zurich-route-06-segment-01",
+          "from": "ZRH-08",
+          "to": "ZRH-11"
+        },
+        {
+          "id": "zurich-route-06-segment-02",
+          "from": "ZRH-11",
+          "to": "ZRH-12"
+        },
+        {
+          "id": "zurich-route-06-segment-03",
+          "from": "ZRH-12",
+          "to": "ZRH-23"
+        },
+        {
+          "id": "zurich-route-06-segment-04",
+          "from": "ZRH-23",
+          "to": "ZRH-25"
+        }
+      ]
+    },
+    {
+      "id": "zurich-route-02",
+      "title": "Rindermarkt 历史建筑到 Predigerplatz",
+      "prompt_zh": "作为记录老城建筑细节的城市游客，你今天打算从 Stüssihofstätt 进入 Rindermarkt，依次观察 Zum Farren、Haus zur Sichel 与 Zur Gelben Lilie，最后走到 Predigerplatz。路线从「Straßenecke Stüssihofstätt」开始，在「Straßenschild am Predigerplatz (Ost)」结束，围绕「Rindermarkt 历史建筑到 Predigerplatz」展开。",
+      "persona_zh": "记录老城建筑细节的城市游客",
+      "topic_zh": "Rindermarkt 历史建筑到 Predigerplatz",
+      "purpose_zh": "从 Stüssihofstätt 进入 Rindermarkt，依次观察 Zum Farren、Haus zur Sichel 与 Zur Gelben Lilie，最后走到 Predigerplatz",
+      "actor": "记录老城建筑细节的城市游客",
+      "intent": "从 Stüssihofstätt 进入 Rindermarkt，依次观察 Zum Farren、Haus zur Sichel 与 Zur Gelben Lilie，最后走到 Predigerplatz",
+      "theme": "Rindermarkt 历史建筑到 Predigerplatz",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Stüssihofstätt 进入 Rindermarkt，依次观察 Zum Farren、Haus zur Sichel 与 Zur Gelben Lilie，最后走到 Predigerplatz",
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "ZRH-01",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "ZRH-07",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ZRH-08",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ZRH-09",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ZRH-11",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ZRH-24",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "zurich-route-02-segment-01",
+          "from": "ZRH-01",
+          "to": "ZRH-07"
+        },
+        {
+          "id": "zurich-route-02-segment-02",
+          "from": "ZRH-07",
+          "to": "ZRH-08"
+        },
+        {
+          "id": "zurich-route-02-segment-03",
+          "from": "ZRH-08",
+          "to": "ZRH-09"
+        },
+        {
+          "id": "zurich-route-02-segment-04",
+          "from": "ZRH-09",
+          "to": "ZRH-11"
+        },
+        {
+          "id": "zurich-route-02-segment-05",
+          "from": "ZRH-11",
+          "to": "ZRH-24"
+        }
+      ]
+    },
+    {
+      "id": "zurich-route-03",
+      "title": "Predigerplatz 珠宝工艺与旧书",
+      "prompt_zh": "你是同时喜欢手工艺和旧书的本地读者，今天要完成「Predigerplatz 珠宝工艺与旧书」：从 Friedman Schmuck 看珠宝工艺，经 Predigerplatz 走到 Antiquariat 选旧书。请从「Friedman Schmuck」走到「Antiquariat」。",
+      "persona_zh": "同时喜欢手工艺和旧书的本地读者",
+      "topic_zh": "Predigerplatz 珠宝工艺与旧书",
+      "purpose_zh": "从 Friedman Schmuck 看珠宝工艺，经 Predigerplatz 走到 Antiquariat 选旧书",
+      "actor": "同时喜欢手工艺和旧书的本地读者",
+      "intent": "从 Friedman Schmuck 看珠宝工艺，经 Predigerplatz 走到 Antiquariat 选旧书",
+      "theme": "Predigerplatz 珠宝工艺与旧书",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "verified_edges_recombined_needs_full_route_retest",
+      "validation_status": "verified_edges_recombined_needs_full_route_retest",
+      "validation_note_zh": "相邻点均来自现有有向边；新组合仍需整线实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Friedman Schmuck 看珠宝工艺，经 Predigerplatz 走到 Antiquariat 选旧书",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "verified_edges_recombined_needs_full_route_retest",
+      "points": [
+        {
+          "waypoint_id": "ZRH-06",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "ZRH-13",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ZRH-14",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "zurich-route-03-segment-01",
+          "from": "ZRH-06",
+          "to": "ZRH-13"
+        },
+        {
+          "id": "zurich-route-03-segment-02",
+          "from": "ZRH-13",
+          "to": "ZRH-14"
+        }
+      ]
+    },
+    {
+      "id": "zurich-route-04",
+      "title": "Neumarkt 的理发、家装与威士忌小店",
+      "prompt_zh": "今天你想以在老城集中处理生活事务的居民的身份安排「Neumarkt 的理发、家装与威士忌小店」。具体做法是先理发，再到 Farrow & Ball 选家装材料，最后去 Whisky-Shop 挑一份礼物；从「Classic Cuts」出发，到「Whisky-Shop」结束。",
+      "persona_zh": "在老城集中处理生活事务的居民",
+      "topic_zh": "Neumarkt 的理发、家装与威士忌小店",
+      "purpose_zh": "先理发，再到 Farrow & Ball 选家装材料，最后去 Whisky-Shop 挑一份礼物",
+      "actor": "在老城集中处理生活事务的居民",
+      "intent": "先理发，再到 Farrow & Ball 选家装材料，最后去 Whisky-Shop 挑一份礼物",
+      "theme": "Neumarkt 的理发、家装与威士忌小店",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "先理发，再到 Farrow & Ball 选家装材料，最后去 Whisky-Shop 挑一份礼物",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "ZRH-03",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "ZRH-20",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ZRH-26",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "zurich-route-04-segment-01",
+          "from": "ZRH-03",
+          "to": "ZRH-20"
+        },
+        {
+          "id": "zurich-route-04-segment-02",
+          "from": "ZRH-20",
+          "to": "ZRH-26"
+        }
+      ]
+    },
+    {
+      "id": "zurich-route-01",
+      "title": "Rindermarkt 日常小采购",
+      "prompt_zh": "你是在老城顺路采购的附近居民。今天想从 Straßenecke Stüssihofstätt进入 Rindermarkt，先挑选衣物，再到 ÄSS BAR 买面包。请从「Straßenecke Stüssihofstätt」出发，最后到「ÄSS BAR」；这段行程的主题是「Rindermarkt 日常小采购」。",
+      "persona_zh": "在老城顺路采购的附近居民",
+      "topic_zh": "Rindermarkt 日常小采购",
+      "purpose_zh": "从 Straßenecke Stüssihofstätt进入 Rindermarkt，先挑选衣物，再到 ÄSS BAR 买面包",
+      "actor": "在老城顺路采购的附近居民",
+      "intent": "从 Straßenecke Stüssihofstätt进入 Rindermarkt，先挑选衣物，再到 ÄSS BAR 买面包",
+      "theme": "Rindermarkt 日常小采购",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Straßenecke Stüssihofstätt进入 Rindermarkt，先挑选衣物，再到 ÄSS BAR 买面包",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "ZRH-01",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "ZRH-02",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ZRH-04",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ZRH-05",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "zurich-route-01-segment-01",
+          "from": "ZRH-01",
+          "to": "ZRH-02"
+        },
+        {
+          "id": "zurich-route-01-segment-02",
+          "from": "ZRH-02",
+          "to": "ZRH-04"
+        },
+        {
+          "id": "zurich-route-01-segment-03",
+          "from": "ZRH-04",
+          "to": "ZRH-05"
+        }
+      ]
+    },
+    {
+      "id": "zurich-route-05",
+      "title": "Neumarkt 商店到 Rindermarkt",
+      "prompt_zh": "作为想避开主街慢慢逛店的回访游客，你今天打算从 CALIDA 出发，经 Rindermarkt 街牌走到 Max Steiner，观察老城商业街的尺度。路线从「CALIDA」开始，在「Max Steiner」结束，围绕「Neumarkt 商店到 Rindermarkt」展开。",
+      "persona_zh": "想避开主街慢慢逛店的回访游客",
+      "topic_zh": "Neumarkt 商店到 Rindermarkt",
+      "purpose_zh": "从 CALIDA 出发，经 Rindermarkt 街牌走到 Max Steiner，观察老城商业街的尺度",
+      "actor": "想避开主街慢慢逛店的回访游客",
+      "intent": "从 CALIDA 出发，经 Rindermarkt 街牌走到 Max Steiner，观察老城商业街的尺度",
+      "theme": "Neumarkt 商店到 Rindermarkt",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 CALIDA 出发，经 Rindermarkt 街牌走到 Max Steiner，观察老城商业街的尺度",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "ZRH-04",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "ZRH-11",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ZRH-22",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "zurich-route-05-segment-01",
+          "from": "ZRH-04",
+          "to": "ZRH-11"
+        },
+        {
+          "id": "zurich-route-05-segment-02",
+          "from": "ZRH-11",
+          "to": "ZRH-22"
+        }
+      ]
+    }
+  ],
+  "upload_recommendation": "waypoints_and_routes_ready"
+}

@@ -1,0 +1,39 @@
+# 统一镜像：基于客户端镜像补齐 VNC/Stream + Server 依赖
+FROM mc-agent-gpu-ubuntu2204
+
+ARG INSTALL_DEBUG_TOOLS=0
+ARG TOOLING_BASELINE_VERSION=2026-02-22-2
+
+LABEL mcbots.tooling.baseline.version="${TOOLING_BASELINE_VERSION}"
+LABEL mcbots.tooling.debug.enabled="${INSTALL_DEBUG_TOOLS}"
+
+COPY containers/tooling/unified-baseline-apt.txt /tmp/unified-baseline-apt.txt
+COPY containers/tooling/unified-debug-apt.txt /tmp/unified-debug-apt.txt
+
+# 安装 VNC/Stream 依赖 + 服务端工具链 + 统一容器基础命令行工具集
+RUN set -eux; \
+    apt-get update; \
+    apt-get install -y --no-install-recommends \
+        git \
+        gcc \
+        make \
+        x11vnc \
+        novnc \
+        websockify \
+        ffmpeg \
+        $(grep -Ev '^\s*(#|$)' /tmp/unified-baseline-apt.txt); \
+    if [ "${INSTALL_DEBUG_TOOLS}" = "1" ]; then \
+        apt-get install -y --no-install-recommends \
+            $(grep -Ev '^\s*(#|$)' /tmp/unified-debug-apt.txt); \
+    fi; \
+    apt-get clean; \
+    rm -rf /var/lib/apt/lists/* /tmp/unified-baseline-apt.txt /tmp/unified-debug-apt.txt
+
+# 编译安装 mcrcon（RCON 客户端工具）
+RUN cd /tmp \
+    && git clone https://github.com/Tiiffi/mcrcon.git \
+    && cd mcrcon \
+    && make \
+    && make install \
+    && cd / \
+    && rm -rf /tmp/mcrcon

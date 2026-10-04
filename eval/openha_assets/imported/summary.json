@@ -1,0 +1,46 @@
+{
+  "format_version": "mcbots.openha-import.v1",
+  "generated_at_utc": "2026-02-23T04:21:35Z",
+  "stats": {
+    "total_entries_seen": 823,
+    "total_tasks_imported": 822,
+    "families_imported": {
+      "kill_entity": 61,
+      "mine_block": 153,
+      "interact_block": 13,
+      "craft_item": 550,
+      "smelt_item": 45
+    },
+    "raw_duplicate_keys_across_families": 10,
+    "canonical_collisions": 1
+  },
+  "families": {
+    "kill_entity": 61,
+    "mine_block": 153,
+    "interact_block": 13,
+    "craft_item": 550,
+    "smelt_item": 45
+  },
+  "example_tasks": [
+    "craft_item:acacia_boat",
+    "craft_item:acacia_button",
+    "craft_item:acacia_door",
+    "craft_item:acacia_fence_gate",
+    "craft_item:acacia_planks",
+    "craft_item:acacia_pressure_plate",
+    "craft_item:acacia_sign",
+    "craft_item:acacia_slab",
+    "craft_item:acacia_stairs",
+    "craft_item:acacia_trapdoor",
+    "craft_item:acacia_wood",
+    "craft_item:activator_rail",
+    "craft_item:andesite",
+    "craft_item:andesite_stairs",
+    "craft_item:andesite_wall",
+    "craft_item:anvil",
+    "craft_item:armor_stand",
+    "craft_item:arrow",
+    "craft_item:barrel",
+    "craft_item:beacon"
+  ]
+}

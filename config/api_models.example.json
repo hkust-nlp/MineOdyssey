@@ -1,0 +1,16 @@
+{
+  "gemini3flash": {
+    "base_url": "https://openrouter.ai/api/v1",
+    "api_key": "<YOUR_OPENROUTER_API_KEY>",
+    "modelname": "google/gemini-3-flash-preview",
+    "model_params": {
+      "extra_body": {
+        "provider": {
+          "only": [
+            "google-vertex"
+          ]
+        }
+      }
+    }
+  }
+}

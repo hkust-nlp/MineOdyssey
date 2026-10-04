@@ -1,0 +1,641 @@
+{
+  "map_id": "sofi_stadium",
+  "routes": [
+    {
+      "id": "section_444_to_ticketmaster_terrace",
+      "difficulty": "easy",
+      "start": {
+        "name": "Section 444",
+        "x": -204,
+        "y": 84,
+        "z": -182,
+        "category": "seating_section",
+        "floor_index": 4,
+        "navigation_role": "destination"
+      },
+      "via": [],
+      "goal": {
+        "name": "Ticketmaster Terrace",
+        "x": -201,
+        "y": 87,
+        "z": -191,
+        "category": "hospitality",
+        "floor_index": 4,
+        "navigation_role": "destination"
+      },
+      "instruction": "It is time for a break from the game. Leave section 444 and meet your group at the Ticketmaster Terrace."
+    },
+    {
+      "id": "section_414_to_terrace_lounge",
+      "difficulty": "easy",
+      "start": {
+        "name": "Section 414",
+        "x": -196,
+        "y": 84,
+        "z": 9,
+        "category": "seating_section",
+        "floor_index": 4,
+        "navigation_role": "destination"
+      },
+      "via": [],
+      "goal": {
+        "name": "Terrace Lounge",
+        "x": -201,
+        "y": 87,
+        "z": 16,
+        "category": "hospitality",
+        "floor_index": 4,
+        "navigation_role": "destination"
+      },
+      "instruction": "A friend is waiting for you at the Terrace Lounge. Make your way there from section 414."
+    },
+    {
+      "id": "vip_lobby_to_section_350",
+      "difficulty": "easy",
+      "start": {
+        "name": "Ticketmaster VIP Lobby",
+        "x": -173,
+        "y": 73,
+        "z": -186,
+        "category": "lobby",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "via": [],
+      "goal": {
+        "name": "Section 350",
+        "x": -204,
+        "y": 68,
+        "z": -178,
+        "category": "seating_section",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "instruction": "You have checked in with your group at the Ticketmaster VIP Lobby. Now find your way to section 350 before the event begins."
+    },
+    {
+      "id": "vip_246_to_vip_219",
+      "difficulty": "medium",
+      "start": {
+        "name": "VIP Section 246",
+        "x": -200,
+        "y": 42,
+        "z": -152,
+        "category": "vip_seating",
+        "floor_index": 2,
+        "navigation_role": "destination"
+      },
+      "via": [],
+      "goal": {
+        "name": "VIP Section 219",
+        "x": -200,
+        "y": 44,
+        "z": -17,
+        "category": "vip_seating",
+        "floor_index": 2,
+        "navigation_role": "destination"
+      },
+      "instruction": "You are meeting friends in VIP section 219, but you are currently at VIP section 246. Follow the concourse around to join them."
+    },
+    {
+      "id": "section_308_to_section_337",
+      "difficulty": "medium",
+      "start": {
+        "name": "Section 308",
+        "x": -320,
+        "y": 70,
+        "z": -90,
+        "category": "seating_section",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "via": [],
+      "goal": {
+        "name": "Section 337",
+        "x": -82,
+        "y": 66,
+        "z": -89,
+        "category": "seating_section",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "instruction": "Your ticket was changed from section 308 to section 337. Make your way around the Level 3 concourse to your new section."
+    },
+    {
+      "id": "section_514_to_terrace_suites",
+      "difficulty": "medium",
+      "start": {
+        "name": "Section 514",
+        "x": -198,
+        "y": 99,
+        "z": 23,
+        "category": "seating_section",
+        "floor_index": 5,
+        "navigation_role": "destination"
+      },
+      "via": [],
+      "goal": {
+        "name": "Terrace Suites",
+        "x": -186,
+        "y": 107,
+        "z": 31,
+        "category": "suite",
+        "floor_index": 6,
+        "navigation_role": "destination"
+      },
+      "instruction": "You have been invited to join a group in the Terrace Suites. Leave section 514, go up to the suite level, and find them there."
+    },
+    {
+      "id": "section_337_to_section_430_via_entry_5",
+      "difficulty": "medium",
+      "start": {
+        "name": "Section 337",
+        "x": -82,
+        "y": 66,
+        "z": -89,
+        "category": "seating_section",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "via": [
+        {
+          "name": "Entry 5",
+          "x": -25,
+          "y": 73,
+          "z": -146,
+          "category": "entrance",
+          "floor_index": 3,
+          "navigation_role": "destination"
+        }
+      ],
+      "goal": {
+        "name": "Section 430",
+        "x": -70,
+        "y": 86,
+        "z": -87,
+        "category": "seating_section",
+        "floor_index": 4,
+        "navigation_role": "destination"
+      },
+      "instruction": "The rest of your group is seated in section 430. Starting from section 337, use the stairs by Entry 5 to reach their level and join them."
+    },
+    {
+      "id": "section_233_to_section_430_via_entry_5",
+      "difficulty": "hard",
+      "start": {
+        "name": "Section 233",
+        "x": -104,
+        "y": 43,
+        "z": -88,
+        "category": "seating_section",
+        "floor_index": 2,
+        "navigation_role": "destination"
+      },
+      "via": [
+        {
+          "name": "Entry 5",
+          "x": -25,
+          "y": 73,
+          "z": -146,
+          "category": "entrance",
+          "floor_index": 3,
+          "navigation_role": "destination"
+        }
+      ],
+      "goal": {
+        "name": "Section 430",
+        "x": -70,
+        "y": 86,
+        "z": -87,
+        "category": "seating_section",
+        "floor_index": 4,
+        "navigation_role": "destination"
+      },
+      "instruction": "You are in section 233, but your friends have saved you a seat in section 430. Head to Entry 5, take the stairs up to their level, and meet them at the section."
+    },
+    {
+      "id": "hyundai_zone_to_entry_8_via_lake_park",
+      "difficulty": "hard",
+      "start": {
+        "name": "Hyundai Purple Zone",
+        "x": -657,
+        "y": 69,
+        "z": -120,
+        "category": "parking",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "via": [
+        {
+          "name": "Lake Park",
+          "x": -550,
+          "y": 68,
+          "z": -217,
+          "category": "park",
+          "floor_index": 3,
+          "navigation_role": "destination"
+        }
+      ],
+      "goal": {
+        "name": "Entry 8",
+        "x": -361,
+        "y": 69,
+        "z": -151,
+        "category": "entrance",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "instruction": "You have parked in the Hyundai Purple Zone and are ready to enter the stadium. Walk through Lake Park and make your way to Entry 8."
+    },
+    {
+      "id": "parking_lot_n_to_entry_5_via_nfl_los_angeles",
+      "difficulty": "hard",
+      "start": {
+        "name": "Parking Lot N",
+        "x": -350,
+        "y": 70,
+        "z": -355,
+        "category": "parking",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "via": [
+        {
+          "name": "NFL Los Angeles",
+          "x": -82,
+          "y": 73,
+          "z": -313,
+          "category": "landmark",
+          "floor_index": 3,
+          "navigation_role": "destination"
+        }
+      ],
+      "goal": {
+        "name": "Entry 5",
+        "x": -25,
+        "y": 73,
+        "z": -146,
+        "category": "entrance",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "instruction": "You have just arrived at Parking Lot N for the event. Walk past the NFL Los Angeles landmark and continue to Entry 5 to enter the stadium."
+    },
+    {
+      "id": "entry_8_to_section_308",
+      "difficulty": "easy",
+      "start": {
+        "name": "Entry 8",
+        "x": -361,
+        "y": 69,
+        "z": -151,
+        "category": "entrance",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "via": [],
+      "goal": {
+        "name": "Section 308",
+        "x": -320,
+        "y": 70,
+        "z": -90,
+        "category": "seating_section",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "instruction": "You have entered the stadium through Entry 8. Find section 308 and settle into your seats before the event starts."
+    },
+    {
+      "id": "entry_5_to_section_337",
+      "difficulty": "easy",
+      "start": {
+        "name": "Entry 5",
+        "x": -25,
+        "y": 73,
+        "z": -146,
+        "category": "entrance",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "via": [],
+      "goal": {
+        "name": "Section 337",
+        "x": -82,
+        "y": 66,
+        "z": -89,
+        "category": "seating_section",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "instruction": "You have just come in through Entry 5 and your ticket is for section 337. Make your way to the section and find your row."
+    },
+    {
+      "id": "section_206_to_vip_246",
+      "difficulty": "easy",
+      "start": {
+        "name": "Section 206",
+        "x": -297,
+        "y": 45,
+        "z": -89,
+        "category": "seating_section",
+        "floor_index": 2,
+        "navigation_role": "destination"
+      },
+      "via": [],
+      "goal": {
+        "name": "VIP Section 246",
+        "x": -200,
+        "y": 42,
+        "z": -152,
+        "category": "vip_seating",
+        "floor_index": 2,
+        "navigation_role": "destination"
+      },
+      "instruction": "A friend in VIP section 246 has invited you over during the break. Leave section 206 and follow the Level 2 concourse to meet them."
+    },
+    {
+      "id": "section_233_to_vip_219",
+      "difficulty": "easy",
+      "start": {
+        "name": "Section 233",
+        "x": -104,
+        "y": 43,
+        "z": -88,
+        "category": "seating_section",
+        "floor_index": 2,
+        "navigation_role": "destination"
+      },
+      "via": [],
+      "goal": {
+        "name": "VIP Section 219",
+        "x": -200,
+        "y": 44,
+        "z": -17,
+        "category": "vip_seating",
+        "floor_index": 2,
+        "navigation_role": "destination"
+      },
+      "instruction": "You are taking a short break from section 233 to visit friends in VIP section 219. Follow the same-level concourse until you reach them."
+    },
+    {
+      "id": "section_400_to_section_430",
+      "difficulty": "medium",
+      "start": {
+        "name": "Section 400",
+        "x": -328,
+        "y": 85,
+        "z": -87,
+        "category": "seating_section",
+        "floor_index": 4,
+        "navigation_role": "destination"
+      },
+      "via": [],
+      "goal": {
+        "name": "Section 430",
+        "x": -70,
+        "y": 86,
+        "z": -87,
+        "category": "seating_section",
+        "floor_index": 4,
+        "navigation_role": "destination"
+      },
+      "instruction": "You entered the wrong side of the upper bowl and need to reach section 430. Follow the Level 4 concourse around the stadium to your correct section."
+    },
+    {
+      "id": "section_322_to_section_337",
+      "difficulty": "medium",
+      "start": {
+        "name": "Section 322",
+        "x": -193,
+        "y": 68,
+        "z": 6,
+        "category": "seating_section",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "via": [],
+      "goal": {
+        "name": "Section 337",
+        "x": -82,
+        "y": 66,
+        "z": -89,
+        "category": "seating_section",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "instruction": "Your group has moved from section 322 to section 337. Make your way across the Level 3 concourse and join them there."
+    },
+    {
+      "id": "section_514_to_section_540",
+      "difficulty": "medium",
+      "start": {
+        "name": "Section 514",
+        "x": -198,
+        "y": 99,
+        "z": 23,
+        "category": "seating_section",
+        "floor_index": 5,
+        "navigation_role": "destination"
+      },
+      "via": [],
+      "goal": {
+        "name": "Section 540",
+        "x": -204,
+        "y": 97,
+        "z": -192,
+        "category": "seating_section",
+        "floor_index": 5,
+        "navigation_role": "destination"
+      },
+      "instruction": "You want to meet friends seated across the upper level in section 540. Leave section 514 and follow the Level 5 concourse around the stadium."
+    },
+    {
+      "id": "section_233_to_section_337_via_entry_5",
+      "difficulty": "medium",
+      "start": {
+        "name": "Section 233",
+        "x": -104,
+        "y": 43,
+        "z": -88,
+        "category": "seating_section",
+        "floor_index": 2,
+        "navigation_role": "destination"
+      },
+      "via": [
+        {
+          "name": "Entry 5",
+          "x": -25,
+          "y": 73,
+          "z": -146,
+          "category": "entrance",
+          "floor_index": 3,
+          "navigation_role": "destination"
+        }
+      ],
+      "goal": {
+        "name": "Section 337",
+        "x": -82,
+        "y": 66,
+        "z": -89,
+        "category": "seating_section",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "instruction": "Your friends are waiting in section 337. From section 233, head to Entry 5, use the stairs to go up one level, and continue to their section."
+    },
+    {
+      "id": "section_400_to_section_308_via_entry_8",
+      "difficulty": "medium",
+      "start": {
+        "name": "Section 400",
+        "x": -328,
+        "y": 85,
+        "z": -87,
+        "category": "seating_section",
+        "floor_index": 4,
+        "navigation_role": "destination"
+      },
+      "via": [
+        {
+          "name": "Entry 8",
+          "x": -361,
+          "y": 69,
+          "z": -151,
+          "category": "entrance",
+          "floor_index": 3,
+          "navigation_role": "destination"
+        }
+      ],
+      "goal": {
+        "name": "Section 308",
+        "x": -320,
+        "y": 70,
+        "z": -90,
+        "category": "seating_section",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "instruction": "You need to move from section 400 to section 308. Head toward Entry 8, take the stairs down one level, and continue to your new section."
+    },
+    {
+      "id": "parking_lot_n_to_section_337",
+      "difficulty": "hard",
+      "start": {
+        "name": "Parking Lot N",
+        "x": -350,
+        "y": 70,
+        "z": -355,
+        "category": "parking",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "via": [
+        {
+          "name": "NFL Los Angeles",
+          "x": -82,
+          "y": 73,
+          "z": -313,
+          "category": "landmark",
+          "floor_index": 3,
+          "navigation_role": "destination"
+        },
+        {
+          "name": "Entry 5",
+          "x": -25,
+          "y": 73,
+          "z": -146,
+          "category": "entrance",
+          "floor_index": 3,
+          "navigation_role": "destination"
+        }
+      ],
+      "goal": {
+        "name": "Section 337",
+        "x": -82,
+        "y": 66,
+        "z": -89,
+        "category": "seating_section",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "instruction": "You have arrived for the event and parked in Parking Lot N. Walk past the NFL Los Angeles landmark, enter through Entry 5, and continue to your seats in section 337."
+    },
+    {
+      "id": "hyundai_zone_to_section_308",
+      "difficulty": "hard",
+      "start": {
+        "name": "Hyundai Purple Zone",
+        "x": -657,
+        "y": 69,
+        "z": -120,
+        "category": "parking",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "via": [
+        {
+          "name": "Lake Park",
+          "x": -550,
+          "y": 68,
+          "z": -217,
+          "category": "park",
+          "floor_index": 3,
+          "navigation_role": "destination"
+        },
+        {
+          "name": "Entry 8",
+          "x": -361,
+          "y": 69,
+          "z": -151,
+          "category": "entrance",
+          "floor_index": 3,
+          "navigation_role": "destination"
+        }
+      ],
+      "goal": {
+        "name": "Section 308",
+        "x": -320,
+        "y": 70,
+        "z": -90,
+        "category": "seating_section",
+        "floor_index": 3,
+        "navigation_role": "destination"
+      },
+      "instruction": "After parking in the Hyundai Purple Zone, walk through Lake Park to the stadium, enter at Entry 8, and find your seats in section 308."
+    },
+    {
+      "id": "vip_219_to_section_400_via_american_airlines_plaza",
+      "difficulty": "hard",
+      "start": {
+        "name": "VIP Section 219",
+        "x": -200,
+        "y": 44,
+        "z": -17,
+        "category": "vip_seating",
+        "floor_index": 2,
+        "navigation_role": "destination"
+      },
+      "via": [
+        {
+          "name": "American Airlines Plaza",
+          "x": -374,
+          "y": 73,
+          "z": -35,
+          "category": "plaza",
+          "floor_index": 3,
+          "navigation_role": "destination"
+        }
+      ],
+      "goal": {
+        "name": "Section 400",
+        "x": -328,
+        "y": 85,
+        "z": -87,
+        "category": "seating_section",
+        "floor_index": 4,
+        "navigation_role": "destination"
+      },
+      "instruction": "You are leaving friends in VIP section 219 to return to your seat in section 400. Make your way to American Airlines Plaza, use the stairs to climb to Level 4, and continue to the section."
+    }
+  ]
+}

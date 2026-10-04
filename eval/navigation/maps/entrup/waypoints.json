@@ -1,0 +1,558 @@
+{
+  "schema_version": 1,
+  "map_id": "entrup",
+  "waypoint_count": 34,
+  "quality_status": "reviewed_current_34_waypoints_six_routes_pending_coordinate_revalidation",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/entrup-6-natural-routes-v3.json",
+    "sha256": "d5ffdab1945d66849dc69e783a03d0589d847168f4b758896ba5d1a8e36ce958"
+  },
+  "waypoints": [
+    {
+      "id": "ENTRUP-A08",
+      "name": "Gartenpavillon im Südwesten",
+      "position": {
+        "x": 126,
+        "y": 14,
+        "z": 361
+      },
+      "route_ids": [
+        "entrup-v3-01"
+      ],
+      "name_zh": "西南住宅区花园凉亭",
+      "initials": "GP",
+      "color": 6,
+      "verification": "spruce_plank_support_clear_feet_and_head_inside_glazed_garden_pavilion_with_white_and_yellow_canopy"
+    },
+    {
+      "id": "ENTRUP-B02",
+      "name": "Gartenhaus im Nordwesten",
+      "position": {
+        "x": 158,
+        "y": 4,
+        "z": 64
+      },
+      "route_ids": [
+        "entrup-v3-01"
+      ],
+      "name_zh": "西北花园住宅",
+      "initials": "GN",
+      "color": 2,
+      "verification": "public_sandstone_frontage_strict_bidirectional_walk_reached"
+    },
+    {
+      "id": "ENTRUP-A01",
+      "name": "Am Kuhdamm 6",
+      "position": {
+        "x": 235,
+        "y": 1,
+        "z": 59
+      },
+      "route_ids": [
+        "entrup-v3-01"
+      ],
+      "name_zh": "Am Kuhdamm 6 号建筑",
+      "initials": "K6",
+      "color": 18,
+      "verification": "current_save_stone_brick_support_clear_feet_and_head_business_identity_intentionally_omitted"
+    },
+    {
+      "id": "ENTRUP-G15",
+      "name": "Entruper Krug",
+      "position": {
+        "x": 368,
+        "y": -1,
+        "z": 66
+      },
+      "route_ids": [
+        "entrup-v3-01"
+      ],
+      "name_zh": "Entruper Krug 餐馆与客栈",
+      "initials": "KR",
+      "color": 13,
+      "verification": "current_save_end_stone_brick_support_clear_feet_and_head_at_public_courtyard"
+    },
+    {
+      "id": "ENTRUP-G01",
+      "name": "Kriegerdenkmal Entrup",
+      "position": {
+        "x": 343,
+        "y": 0,
+        "z": 42
+      },
+      "route_ids": [
+        "entrup-v3-01"
+      ],
+      "name_zh": "Entrup 战争纪念碑",
+      "initials": "KE",
+      "color": 15,
+      "verification": "restored_from_pre_edit_xaero_backup"
+    },
+    {
+      "id": "ENTRUP-B09",
+      "name": "Bachhaus am Nordostrand",
+      "position": {
+        "x": 527,
+        "y": -3,
+        "z": 55
+      },
+      "route_ids": [
+        "entrup-v3-01"
+      ],
+      "name_zh": "东北村口溪边住宅",
+      "initials": "BN",
+      "color": 4,
+      "verification": "restored_from_pre_edit_xaero_backup"
+    },
+    {
+      "id": "ENTRUP-A04",
+      "name": "Haus mit Glasvordach",
+      "position": {
+        "x": 95,
+        "y": 10,
+        "z": 96
+      },
+      "route_ids": [
+        "entrup-v3-02"
+      ],
+      "name_zh": "玻璃雨棚住宅",
+      "initials": "GV",
+      "color": 3,
+      "verification": "stone_brick_support_clear_feet_and_head_below_distinct_white_and_light_gray_glass_canopy"
+    },
+    {
+      "id": "ENTRUP-A02",
+      "name": "Brunnen am Kuhdamm",
+      "position": {
+        "x": 262,
+        "y": 1,
+        "z": 88
+      },
+      "route_ids": [
+        "entrup-v3-02"
+      ],
+      "name_zh": "Kuhdamm 住宅区水井",
+      "initials": "BK",
+      "color": 9,
+      "verification": "spruce_plank_platform_support_clear_feet_and_head_at_distinct_well"
+    },
+    {
+      "id": "ENTRUP-G04",
+      "name": "Erika Kuhfuß Einrichtungshaus",
+      "position": {
+        "x": 322,
+        "y": 0,
+        "z": 131
+      },
+      "route_ids": [
+        "entrup-v3-02"
+      ],
+      "name_zh": "Kuhfuß 家具店",
+      "initials": "EK",
+      "color": 10,
+      "verification": "google_name_osm_business_minecraft_geometry"
+    },
+    {
+      "id": "ENTRUP-H05",
+      "name": "An der Ilse 3",
+      "position": {
+        "x": 407,
+        "y": -2,
+        "z": 96
+      },
+      "route_ids": [
+        "entrup-v3-02"
+      ],
+      "name_zh": "An der Ilse 3 历史木构屋",
+      "initials": "I3",
+      "color": 4,
+      "verification": "approximate_building_projection_nearby_gate_approach_reachable"
+    },
+    {
+      "id": "ENTRUP-H04",
+      "name": "Am Weidenkamp 17",
+      "position": {
+        "x": 478,
+        "y": -3,
+        "z": 68
+      },
+      "route_ids": [
+        "entrup-v3-02"
+      ],
+      "name_zh": "Am Weidenkamp 17 木构农舍",
+      "initials": "17",
+      "color": 4,
+      "verification": "approximate_building_projection_nearby_dirt_path_reachable"
+    },
+    {
+      "id": "ENTRUP-H03",
+      "name": "Am Weidenkamp 13",
+      "position": {
+        "x": 460,
+        "y": -2,
+        "z": 114
+      },
+      "route_ids": [
+        "entrup-v3-02"
+      ],
+      "name_zh": "Am Weidenkamp 13 木构农舍",
+      "initials": "13",
+      "color": 4,
+      "verification": "restored_from_pre_edit_xaero_backup"
+    },
+    {
+      "id": "ENTRUP-G13",
+      "name": "Entrup Schlingfeld - Lemgo",
+      "position": {
+        "x": 316,
+        "y": 1,
+        "z": 183
+      },
+      "route_ids": [
+        "entrup-v3-03"
+      ],
+      "name_zh": "Entrup Schlingfeld 公交站",
+      "initials": "ES",
+      "color": 10,
+      "verification": "google_bus_stop_osm_schlingfeld_minecraft_road_geometry"
+    },
+    {
+      "id": "ENTRUP-W03",
+      "name": "Werner Niederschäfer",
+      "position": {
+        "x": 247,
+        "y": 4,
+        "z": 211
+      },
+      "route_ids": [
+        "entrup-v3-03"
+      ],
+      "name_zh": "Werner Niederschäfer 暖通安装公司",
+      "initials": "WN",
+      "color": 20,
+      "verification": "address_projection_minecraft_brick_frontage_reachable"
+    },
+    {
+      "id": "ENTRUP-W04",
+      "name": "Muellies Hundewelt",
+      "position": {
+        "x": 253,
+        "y": 4,
+        "z": 186
+      },
+      "route_ids": [
+        "entrup-v3-03"
+      ],
+      "name_zh": "Muellies 犬用品店",
+      "initials": "MH",
+      "color": 16,
+      "verification": "address_projection_nearest_minecraft_door_approach_reachable"
+    },
+    {
+      "id": "ENTRUP-A03",
+      "name": "Backsteinhaus mit Glasfront",
+      "position": {
+        "x": 155,
+        "y": 12,
+        "z": 163
+      },
+      "route_ids": [
+        "entrup-v3-03"
+      ],
+      "name_zh": "玻璃立面砖房",
+      "initials": "BG",
+      "color": 2,
+      "verification": "stone_brick_stair_support_clear_feet_and_head_at_brick_house_with_black_glass_frontage"
+    },
+    {
+      "id": "ENTRUP-A05",
+      "name": "Haus mit türkiser Fassade",
+      "position": {
+        "x": 88,
+        "y": 14,
+        "z": 152
+      },
+      "route_ids": [
+        "entrup-v3-03"
+      ],
+      "name_zh": "青绿色外墙住宅",
+      "initials": "TF",
+      "color": 11,
+      "verification": "stone_brick_support_clear_feet_and_head_at_brick_house_with_cyan_terracotta_frontage"
+    },
+    {
+      "id": "ENTRUP-B01",
+      "name": "Rotes Haus am westlichen Ortsrand",
+      "position": {
+        "x": 63,
+        "y": 11,
+        "z": 57
+      },
+      "route_ids": [
+        "entrup-v3-03"
+      ],
+      "name_zh": "西侧村口红顶住宅",
+      "initials": "RH",
+      "color": 2,
+      "verification": "public_grass_frontage_strict_bidirectional_walk_reached"
+    },
+    {
+      "id": "ENTRUP-W02",
+      "name": "SYCOmed e.K.",
+      "position": {
+        "x": 287,
+        "y": 2,
+        "z": 203
+      },
+      "route_ids": [
+        "entrup-v3-04"
+      ],
+      "name_zh": "SYCOmed 医疗诊断设备公司",
+      "initials": "SY",
+      "color": 12,
+      "verification": "address_projection_minecraft_frontage_reachable"
+    },
+    {
+      "id": "ENTRUP-S03",
+      "name": "Brunnen im Ortskern",
+      "position": {
+        "x": 386,
+        "y": -2,
+        "z": 138
+      },
+      "route_ids": [
+        "entrup-v3-04"
+      ],
+      "name_zh": "村中心水井",
+      "initials": "BO",
+      "color": 8,
+      "verification": "distinct_quartz_rimmed_well_south_approach_standable"
+    },
+    {
+      "id": "ENTRUP-H01",
+      "name": "Hohes Haus",
+      "position": {
+        "x": 424,
+        "y": -2,
+        "z": 162
+      },
+      "route_ids": [
+        "entrup-v3-04"
+      ],
+      "name_zh": "高屋旧骑士庄园",
+      "initials": "HH",
+      "color": 4,
+      "verification": "current_save_exact_oak_door_approach_standable"
+    },
+    {
+      "id": "ENTRUP-H02",
+      "name": "Fachwerkhaus Am Sellsiekbach 26",
+      "position": {
+        "x": 473,
+        "y": -3,
+        "z": 174
+      },
+      "route_ids": [
+        "entrup-v3-04"
+      ],
+      "name_zh": "Am Sellsiekbach 26 木构屋",
+      "initials": "FH",
+      "color": 4,
+      "verification": "current_save_exact_double_door_approach_standable"
+    },
+    {
+      "id": "ENTRUP-G09",
+      "name": "Wohnanlage Entrup (Stiftung Eben-Ezer)",
+      "position": {
+        "x": 492,
+        "y": -3,
+        "z": 146
+      },
+      "route_ids": [
+        "entrup-v3-04"
+      ],
+      "name_zh": "Entrup 辅助居住院区",
+      "initials": "WE",
+      "color": 10,
+      "verification": "kreis_lippe_official_name_address_minecraft_compound_geometry"
+    },
+    {
+      "id": "ENTRUP-A09",
+      "name": "Dunkelrotes Giebelhaus am Südrand",
+      "position": {
+        "x": 288,
+        "y": 4,
+        "z": 318
+      },
+      "route_ids": [
+        "entrup-v3-05"
+      ],
+      "name_zh": "南侧深红屋顶住宅",
+      "initials": "DG",
+      "color": 2,
+      "verification": "stone_brick_support_clear_feet_and_head_immediately_in_front_of_distinct_double_dark_oak_door_and_nether_brick_gable_roof"
+    },
+    {
+      "id": "ENTRUP-S02",
+      "name": "Winkelhaus am Südrondell",
+      "position": {
+        "x": 337,
+        "y": 1,
+        "z": 320
+      },
+      "route_ids": [
+        "entrup-v3-05"
+      ],
+      "name_zh": "南侧圆形场地旁折角住宅",
+      "initials": "WS",
+      "color": 10,
+      "verification": "distinct_l_shaped_building_east_door_approach_standable"
+    },
+    {
+      "id": "ENTRUP-A06",
+      "name": "Backsteinhaus am Gartenhof",
+      "position": {
+        "x": 345,
+        "y": 1,
+        "z": 245
+      },
+      "route_ids": [
+        "entrup-v3-05"
+      ],
+      "name_zh": "花园院落旁砖房",
+      "initials": "BH",
+      "color": 2,
+      "verification": "stone_brick_stair_support_clear_feet_and_head_at_brick_house_with_gray_glass_and_landscaped_courtyard"
+    },
+    {
+      "id": "ENTRUP-G07",
+      "name": "Kindergarten Tausendfüßler Entrup",
+      "position": {
+        "x": 377,
+        "y": 0,
+        "z": 255
+      },
+      "route_ids": [
+        "entrup-v3-05"
+      ],
+      "name_zh": "Tausendfüßler 幼儿园",
+      "initials": "KT",
+      "color": 10,
+      "verification": "restored_from_pre_edit_xaero_backup"
+    },
+    {
+      "id": "ENTRUP-B15",
+      "name": "Weidehütte an der Rinderweide",
+      "position": {
+        "x": 525,
+        "y": -3,
+        "z": 202
+      },
+      "route_ids": [
+        "entrup-v3-05"
+      ],
+      "name_zh": "牛牧场小屋",
+      "initials": "WH",
+      "color": 6,
+      "verification": "gray_concrete_powder_support_clear_feet_and_head_with_fenced_brick_roof_shelter_geometry"
+    },
+    {
+      "id": "ENTRUP-B16",
+      "name": "Rinderweide am östlichen Bach",
+      "position": {
+        "x": 532,
+        "y": -3,
+        "z": 227
+      },
+      "route_ids": [
+        "entrup-v3-05"
+      ],
+      "name_zh": "东侧溪边牛牧场",
+      "initials": "RW",
+      "color": 14,
+      "verification": "current_save_dirt_path_support_clear_feet_and_head_in_pasture_context"
+    },
+    {
+      "id": "ENTRUP-S01",
+      "name": "Verwinkelter Hof im Südwesten",
+      "position": {
+        "x": 192,
+        "y": 10,
+        "z": 262
+      },
+      "route_ids": [
+        "entrup-v3-06"
+      ],
+      "name_zh": "西南片区围合院落",
+      "initials": "VH",
+      "color": 10,
+      "verification": "end_stone_brick_support_clear_feet_and_head_at_user_selected_courtyard_approach"
+    },
+    {
+      "id": "ENTRUP-W01",
+      "name": "Zieglerhütte",
+      "position": {
+        "x": 428,
+        "y": -3,
+        "z": 253
+      },
+      "route_ids": [
+        "entrup-v3-06"
+      ],
+      "name_zh": "砖瓦工协会小屋",
+      "initials": "ZH",
+      "color": 6,
+      "verification": "official_location_behind_kindergarten_minecraft_double_door_approach_reachable"
+    },
+    {
+      "id": "ENTRUP-B13",
+      "name": "Obstwiese im Südosten",
+      "position": {
+        "x": 470,
+        "y": -3,
+        "z": 250
+      },
+      "route_ids": [
+        "entrup-v3-06"
+      ],
+      "name_zh": "东南果树草地",
+      "initials": "OW",
+      "color": 14,
+      "verification": "orchard_entrance_grass_strict_bidirectional_walk_reached"
+    },
+    {
+      "id": "ENTRUP-B12",
+      "name": "Kleine Bachbrücke",
+      "position": {
+        "x": 535,
+        "y": -3,
+        "z": 212
+      },
+      "route_ids": [
+        "entrup-v3-06"
+      ],
+      "name_zh": "东侧溪流小桥",
+      "initials": "KB",
+      "color": 12,
+      "verification": "bridge_approach_grass_strict_bidirectional_walk_reached"
+    },
+    {
+      "id": "ENTRUP-B14",
+      "name": "Teich am südöstlichen Ortsrand",
+      "position": {
+        "x": 545,
+        "y": -4,
+        "z": 300
+      },
+      "route_ids": [
+        "entrup-v3-06"
+      ],
+      "name_zh": "东南村口池塘",
+      "initials": "TS",
+      "color": 14,
+      "verification": "restored_from_pre_edit_xaero_backup"
+    }
+  ]
+}

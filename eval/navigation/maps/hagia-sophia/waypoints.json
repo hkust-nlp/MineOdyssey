@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "map_id": "hagia-sophia",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "custom_maps/maps/inter_map/hagia_sophia/waypoints.json",
+    "sha256": "dd44778f8d2adf25159f112ab21bdeb0540022aabd0db0c83c60ba3b0444d481"
+  },
+  "dimension": "overworld",
+  "waypoint_count": 10,
+  "waypoints": [
+    {
+      "id": "HAG-WP-01",
+      "name": "Baptistry",
+      "position": {
+        "x": 85,
+        "y": 54,
+        "z": -378
+      },
+      "route_ids": [],
+      "initials": "B",
+      "color": 9,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HAG-WP-02",
+      "name": "APSE Mihrab",
+      "position": {
+        "x": 133,
+        "y": 54,
+        "z": -433
+      },
+      "route_ids": [],
+      "initials": "A",
+      "color": 12,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HAG-WP-03",
+      "name": "IMPERIAL GATE",
+      "position": {
+        "x": 77,
+        "y": 53,
+        "z": -432
+      },
+      "route_ids": [],
+      "initials": "I",
+      "color": 8,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HAG-WP-04",
+      "name": "Coronation Square",
+      "position": {
+        "x": 121,
+        "y": 53,
+        "z": -423
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 6,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HAG-WP-05",
+      "name": "South Gallery",
+      "position": {
+        "x": 111,
+        "y": 69,
+        "z": -408
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 12,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HAG-WP-06",
+      "name": "Wishing Column",
+      "position": {
+        "x": 85,
+        "y": 54,
+        "z": -459
+      },
+      "route_ids": [],
+      "initials": "W",
+      "color": 4,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HAG-WP-07",
+      "name": "North Gallery",
+      "position": {
+        "x": 113,
+        "y": 69,
+        "z": -460
+      },
+      "route_ids": [],
+      "initials": "N",
+      "color": 11,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HAG-WP-08",
+      "name": "Imperial Loge",
+      "position": {
+        "x": 140,
+        "y": 54,
+        "z": -458
+      },
+      "route_ids": [],
+      "initials": "I",
+      "color": 12,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HAG-WP-09",
+      "name": "DOME",
+      "position": {
+        "x": 112,
+        "y": 53,
+        "z": -431
+      },
+      "route_ids": [],
+      "initials": "D",
+      "color": 6,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "HAG-WP-10",
+      "name": "Skeuophylakion",
+      "position": {
+        "x": 142,
+        "y": 55,
+        "z": -485
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 5,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    }
+  ]
+}

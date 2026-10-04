@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "map_id": "miljacka-riverside",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/miljacka-riverside-formal-10-routes.json",
+    "sha256": "583cc5e0fbfa072963bf97d36b2bc2d5188d7bcf1f36774262973c79656b84b0"
+  },
+  "quality_status": "reviewed_routes",
+  "route_count": 5,
+  "routes": [
+    {
+      "id": "miljacka-route-01",
+      "title": "拉丁桥与 1914 年刺杀事件",
+      "prompt_zh": "你是第一次到萨拉热窝的历史游客。今天想从 Muzički paviljon – At Mejdan 走到 Latinska ćuprija 和 Muzej Sarajeva 1878–1918，理解刺杀事件后到附近餐馆休息。请从「Muzički paviljon – At Mejdan」出发，最后到「Konyalı Sarajevo」；这段行程的主题是「拉丁桥与 1914 年刺杀事件」。",
+      "persona_zh": "第一次到萨拉热窝的历史游客",
+      "topic_zh": "拉丁桥与 1914 年刺杀事件",
+      "purpose_zh": "从 Muzički paviljon – At Mejdan 走到 Latinska ćuprija 和 Muzej Sarajeva 1878–1918，理解刺杀事件后到附近餐馆休息",
+      "actor": "第一次到萨拉热窝的历史游客",
+      "intent": "从 Muzički paviljon – At Mejdan 走到 Latinska ćuprija 和 Muzej Sarajeva 1878–1918，理解刺杀事件后到附近餐馆休息",
+      "theme": "拉丁桥与 1914 年刺杀事件",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Muzički paviljon – At Mejdan 走到 Latinska ćuprija 和 Muzej Sarajeva 1878–1918，理解刺杀事件后到附近餐馆休息",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "MIL-WP-MUSIC-PAVILION",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "MIL-WP-LATINSKA-CUPRIJA",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "MIL-WP-MUZEJ-SARAJEVO",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "MIL-WP-KONYALI",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "miljacka-route-01-segment-01",
+          "from": "MIL-WP-MUSIC-PAVILION",
+          "to": "MIL-WP-LATINSKA-CUPRIJA"
+        },
+        {
+          "id": "miljacka-route-01-segment-02",
+          "from": "MIL-WP-LATINSKA-CUPRIJA",
+          "to": "MIL-WP-MUZEJ-SARAJEVO"
+        },
+        {
+          "id": "miljacka-route-01-segment-03",
+          "from": "MIL-WP-MUZEJ-SARAJEVO",
+          "to": "MIL-WP-KONYALI"
+        }
+      ]
+    },
+    {
+      "id": "miljacka-route-02",
+      "title": "皇帝清真寺与奥斯曼河岸遗产",
+      "prompt_zh": "作为关注奥斯曼历史与宗教建筑的文化游客，你今天打算从 Careva džamija 参观 Isa Begov Hamam i Hotel，最后走到 Muzički paviljon – At Mejdan 观察河岸公共空间。路线从「Careva džamija」开始，在「Muzički paviljon – At Mejdan」结束，围绕「皇帝清真寺与奥斯曼河岸遗产」展开。",
+      "persona_zh": "关注奥斯曼历史与宗教建筑的文化游客",
+      "topic_zh": "皇帝清真寺与奥斯曼河岸遗产",
+      "purpose_zh": "从 Careva džamija 参观 Isa Begov Hamam i Hotel，最后走到 Muzički paviljon – At Mejdan 观察河岸公共空间",
+      "actor": "关注奥斯曼历史与宗教建筑的文化游客",
+      "intent": "从 Careva džamija 参观 Isa Begov Hamam i Hotel，最后走到 Muzički paviljon – At Mejdan 观察河岸公共空间",
+      "theme": "皇帝清真寺与奥斯曼河岸遗产",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Careva džamija 参观 Isa Begov Hamam i Hotel，最后走到 Muzički paviljon – At Mejdan 观察河岸公共空间",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "MIL-WP-CAREVA-MOSQUE",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "MIL-WP-ISA-BEGOV",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "MIL-WP-MUSIC-PAVILION",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "miljacka-route-02-segment-01",
+          "from": "MIL-WP-CAREVA-MOSQUE",
+          "to": "MIL-WP-ISA-BEGOV"
+        },
+        {
+          "id": "miljacka-route-02-segment-02",
+          "from": "MIL-WP-ISA-BEGOV",
+          "to": "MIL-WP-MUSIC-PAVILION"
+        }
+      ]
+    },
+    {
+      "id": "miljacka-route-07",
+      "title": "跨河购买报纸与 At Mejdan 河岸",
+      "prompt_zh": "你是在河两岸办事的本地居民，今天要完成「跨河购买报纸与 At Mejdan 河岸」：从北岸工作室过河买报纸，再走到 At Mejdan 河岸。请从「Studio Muzikowska」走到「Šetnica 3 At Mejdan」。",
+      "persona_zh": "在河两岸办事的本地居民",
+      "topic_zh": "跨河购买报纸与 At Mejdan 河岸",
+      "purpose_zh": "从北岸工作室过河买报纸，再走到 At Mejdan 河岸",
+      "actor": "在河两岸办事的本地居民",
+      "intent": "从北岸工作室过河买报纸，再走到 At Mejdan 河岸",
+      "theme": "跨河购买报纸与 At Mejdan 河岸",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从北岸工作室过河买报纸，再走到 At Mejdan 河岸",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "MIL-WP-STUDIO-MUZIKOWSKA",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "MIL-WP-INOVINE-T58",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "MIL-WP-SETNICA-3",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "miljacka-route-07-segment-01",
+          "from": "MIL-WP-STUDIO-MUZIKOWSKA",
+          "to": "MIL-WP-INOVINE-T58"
+        },
+        {
+          "id": "miljacka-route-07-segment-02",
+          "from": "MIL-WP-INOVINE-T58",
+          "to": "MIL-WP-SETNICA-3"
+        }
+      ]
+    },
+    {
+      "id": "miljacka-route-06",
+      "title": "At Mejdan 河畔散步后回酒店",
+      "prompt_zh": "今天你想以住在 Hotel President 的短期访客的身份安排「At Mejdan 河畔散步后回酒店」。具体做法是从 At Mejdan 音乐亭沿河岸散步，最后回到 Hotel President；从「Muzički paviljon – At Mejdan」出发，到「Hotel President」结束。",
+      "persona_zh": "住在 Hotel President 的短期访客",
+      "topic_zh": "At Mejdan 河畔散步后回酒店",
+      "purpose_zh": "从 At Mejdan 音乐亭沿河岸散步，最后回到 Hotel President",
+      "actor": "住在 Hotel President 的短期访客",
+      "intent": "从 At Mejdan 音乐亭沿河岸散步，最后回到 Hotel President",
+      "theme": "At Mejdan 河畔散步后回酒店",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 At Mejdan 音乐亭沿河岸散步，最后回到 Hotel President",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "MIL-WP-MUSIC-PAVILION",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "MIL-WP-SETNICA-3",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "MIL-WP-HOTEL-PRESIDENT",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "miljacka-route-06-segment-01",
+          "from": "MIL-WP-MUSIC-PAVILION",
+          "to": "MIL-WP-SETNICA-3"
+        },
+        {
+          "id": "miljacka-route-06-segment-02",
+          "from": "MIL-WP-SETNICA-3",
+          "to": "MIL-WP-HOTEL-PRESIDENT"
+        }
+      ]
+    },
+    {
+      "id": "miljacka-route-10",
+      "title": "皇帝清真寺到在地导览会合",
+      "prompt_zh": "你是与当地导游约好会合的回访游客。今天想从皇帝清真寺出发，沿河岸走到游客中心与当地导游会合。请从「Careva džamija」出发，最后到「Sarajevo Insider – gradske ture i izleti」；这段行程的主题是「皇帝清真寺到在地导览会合」。",
+      "persona_zh": "与当地导游约好会合的回访游客",
+      "topic_zh": "皇帝清真寺到在地导览会合",
+      "purpose_zh": "从皇帝清真寺出发，沿河岸走到游客中心与当地导游会合",
+      "actor": "与当地导游约好会合的回访游客",
+      "intent": "从皇帝清真寺出发，沿河岸走到游客中心与当地导游会合",
+      "theme": "皇帝清真寺到在地导览会合",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "verified_edges_recombined_needs_full_route_retest",
+      "validation_status": "verified_edges_recombined_needs_full_route_retest",
+      "validation_note_zh": "相邻点均来自现有有向边；新组合仍需整线实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从皇帝清真寺出发，沿河岸走到游客中心与当地导游会合",
+      "metrics": {
+        "point_count": 2,
+        "unique_point_count": 2,
+        "segment_count": 1
+      },
+      "status": "verified_edges_recombined_needs_full_route_retest",
+      "points": [
+        {
+          "waypoint_id": "MIL-WP-CAREVA-MOSQUE",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "MIL-WP-SARAJEVO-INSIDER",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "miljacka-route-10-segment-01",
+          "from": "MIL-WP-CAREVA-MOSQUE",
+          "to": "MIL-WP-SARAJEVO-INSIDER"
+        }
+      ]
+    }
+  ],
+  "upload_recommendation": "waypoints_and_routes_ready"
+}

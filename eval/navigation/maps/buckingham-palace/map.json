@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "map_id": "buckingham-palace",
+  "display_name": "Buckingham Palace",
+  "environment": "indoor",
+  "source": {
+    "repository": "anonymous/source",
+    "provenance": {
+      "kind": "git-lfs-world-materialized-as-local-source-archive",
+      "git_commit": "0000000000000000000000000000000000000000",
+      "git_path": "custom_maps/maps/inter_map/buckingham_palace"
+    },
+    "asset_name": "buckingham_palace.zip",
+    "archive_path": "buckingham_palace.zip",
+    "archive_bytes": 20558987,
+    "archive_sha256": "e2d3564a2eea7c2b11bab40f21a3caece15d673bd5c8099518720a53cfd14186",
+    "world_root": "buckingham_palace"
+  },
+  "world": {
+    "source_version": {
+      "version_name": "1.21.4",
+      "version_id": 4189,
+      "data_version": 3955
+    },
+    "minecraft_version": "1.21.11",
+    "version_name": "1.21.11",
+    "data_version": 4671,
+    "expected_source_fingerprint": "f2b4b8544f4003b73870d3e5a89d754fac62537294af90f27c66981e92b7cb03",
+    "expected_prepared_fingerprint": "73e8b035580faba87bae8f69569fb405cb66991be07d7248784551fcbb65a2fb",
+    "preparation": {
+      "id": "minecraft-server-force-upgrade-1.21.11-v1",
+      "runtime_profile": "minecraft-1.21.11",
+      "server_arguments": [
+        "--forceUpgrade",
+        "--eraseCache",
+        "nogui"
+      ],
+      "reason": "Preserve the exact source archive, then upgrade one cloned world with the pinned Minecraft 1.21.11 / NeoForge 21.11.44 server and save it as the immutable prepared snapshot."
+    }
+  },
+  "compatibility_review": {
+    "block_palette_scan": "no non-minecraft block namespaces found before or after upgrade",
+    "upgrade_warning": "The source level metadata reports Version.Name 1.21.4 but DataVersion 3955; both raw values are preserved in this manifest. The upgrade log also reports a missing legacy fabric datapack reference.",
+    "status": "prepared_snapshot_requires_visual_review"
+  },
+  "license": {
+    "scope": "evaluation-only source archive",
+    "redistribution": "not granted by this manifest",
+    "note": "Keep the source ZIP and extracted source world outside Git; preserve the upstream Git provenance and any bundled terms."
+  }
+}

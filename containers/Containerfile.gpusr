@@ -1,0 +1,43 @@
+# GPU Screen Recorder 版本 - 零拷贝高性能捕获
+# 继承 vnc-stream 镜像，添加 gpu-screen-recorder
+FROM mc-agent-gpu-vnc-stream-ubuntu2204
+
+# 安装 gpu-screen-recorder 依赖
+RUN apt-get update && apt-get install -y \
+    meson \
+    ninja-build \
+    git \
+    pkg-config \
+    libx11-dev \
+    libxcomposite-dev \
+    libxrandr-dev \
+    libxfixes-dev \
+    libxdamage-dev \
+    libavcodec-dev \
+    libavformat-dev \
+    libavutil-dev \
+    libswresample-dev \
+    libavfilter-dev \
+    libva-dev \
+    libpulse-dev \
+    libdrm-dev \
+    libcap-dev \
+    libvulkan-dev \
+    libturbojpeg0-dev \
+    libpipewire-0.3-dev \
+    libspa-0.2-dev \
+    libdbus-1-dev \
+    libwayland-dev \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# 编译安装 gpu-screen-recorder
+RUN git clone https://repo.dec05eba.com/gpu-screen-recorder /tmp/gpu-screen-recorder \
+    && cd /tmp/gpu-screen-recorder \
+    && meson setup build \
+    && meson compile -C build \
+    && meson install -C build \
+    && rm -rf /tmp/gpu-screen-recorder
+
+# 添加启动脚本
+COPY scripts/entrypoints/entrypoint-gpusr.sh /app/scripts/entrypoints/entrypoint-gpusr.sh
+RUN chmod +x /app/scripts/entrypoints/entrypoint-gpusr.sh

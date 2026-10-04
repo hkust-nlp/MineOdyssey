@@ -1,0 +1,115 @@
+# Portable Linux CPU navigation evaluation runtime.
+#
+# This image intentionally uses Mesa software rendering. It does not inherit
+# an NVIDIA image; x86_64 and arm64 use the same headless Mesa dependencies.
+FROM ubuntu:24.04
+
+ARG DEBIAN_FRONTEND=noninteractive
+ARG MCRCON_COMMIT=b5951e96349ec2ecf72b468459fc503a7067ba1f
+ARG UV_VERSION=0.11.9
+
+LABEL org.opencontainers.image.title="mcbots navigation evaluation (CPU)"
+LABEL org.opencontainers.image.description="Minecraft 1.21.11 navigation runtime for Linux CPU rendering"
+LABEL mcbots.runtime.backend="linux-container-cpu"
+LABEL mcbots.runtime.minecraft="1.21.11"
+
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        bash \
+        bubblewrap \
+        ca-certificates \
+        curl \
+        file \
+        findutils \
+        fontconfig \
+        fonts-dejavu-core \
+        fonts-noto-core \
+        gawk \
+        gcc \
+        git \
+        imagemagick \
+        iproute2 \
+        jq \
+        less \
+        libasound2t64 \
+        libc6-dev \
+        libegl1 \
+        libgl1 \
+        libgl1-mesa-dri \
+        libglu1-mesa \
+        libglx0 \
+        libx11-6 \
+        libxcursor1 \
+        libxext6 \
+        libxi6 \
+        libxinerama1 \
+        libxrandr2 \
+        libxrender1 \
+        libxtst6 \
+        lsof \
+        make \
+        mesa-utils \
+        mesa-vulkan-drivers \
+        net-tools \
+        novnc \
+        openjdk-21-jdk \
+        procps \
+        psmisc \
+        python3 \
+        python3-pip \
+        python3-venv \
+        ripgrep \
+        tini \
+        tree \
+        unzip \
+        websockify \
+        wget \
+        xauth \
+        x11-apps \
+        x11-utils \
+        x11vnc \
+        xdotool \
+        xvfb \
+        zip \
+        ffmpeg \
+    && chmod u+s /usr/bin/bwrap \
+    && rm -rf /var/lib/apt/lists/*
+
+# Build mcrcon for the image architecture instead of installing the upstream
+# x86-64 release tarball.
+RUN git clone --filter=blob:none https://github.com/Tiiffi/mcrcon.git /tmp/mcrcon \
+    && git -C /tmp/mcrcon checkout "${MCRCON_COMMIT}" \
+    && make -C /tmp/mcrcon \
+    && install -m 0755 /tmp/mcrcon/mcrcon /usr/local/bin/mcrcon \
+    && mcrcon -v \
+    && rm -rf /tmp/mcrcon
+
+# Keep uv and the project environment outside the bind-mounted repository so a
+# macOS .venv can never be executed inside Linux.
+RUN python3 -m venv /opt/uv \
+    && /opt/uv/bin/pip install --no-cache-dir "uv==${UV_VERSION}" \
+    && ln -s /opt/uv/bin/uv /usr/local/bin/uv
+
+WORKDIR /opt/mcbots-project
+COPY pyproject.toml uv.lock README.md ./
+ENV UV_PROJECT_ENVIRONMENT=/opt/mcbots-venv
+RUN uv sync --frozen --no-install-project \
+    && chmod -R a+rwX /opt/mcbots-venv
+
+ENV MCBOTS_PROJECT_ROOT=/workspace/mcbots \
+    MCBOTS_NAV_RUNTIME_TEMPLATE_ROOT=/workspace/mcbots/eval/templates/_local/navigation-linux-cpu \
+    MCBOTS_NAV_RUNTIME_BACKEND=linux-container-cpu \
+    MCBOTS_NAV_VNC_PORT=5900 \
+    MCBOTS_NAV_NOVNC_PORT=6080 \
+    PYTHONPATH=/workspace/mcbots \
+    LIBGL_ALWAYS_SOFTWARE=1 \
+    NO_PROXY=127.0.0.1,localhost,::1 \
+    no_proxy=127.0.0.1,localhost,::1
+
+WORKDIR /workspace/mcbots
+EXPOSE 6080
+
+ENTRYPOINT ["/usr/bin/tini", "--"]
+CMD ["sleep", "infinity"]

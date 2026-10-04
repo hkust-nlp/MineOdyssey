@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "map_id": "memorial-hall-park",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/memorial-hall-park-formal-10-routes.json",
+    "sha256": "86bce50e71e69ef8d8e0a11fbbe16ad9e94b0dfc8fb292ea4075975c89ca87f9"
+  },
+  "quality_status": "reviewed_routes",
+  "route_count": 1,
+  "routes": [
+    {
+      "id": "memorial-route-01",
+      "title": "自由廣場主軸與民主轉型",
+      "prompt_zh": "你是第一次到訪園區的遊客。今天想從自由廣場牌樓走向紀念堂，以廣場空間和民主轉型為主線理解園區。請從「自由廣場牌樓」出發，最後到「大忠門」；這段行程的主題是「自由廣場主軸與民主轉型」。",
+      "persona_zh": "第一次到訪園區的遊客",
+      "topic_zh": "自由廣場主軸與民主轉型",
+      "purpose_zh": "從自由廣場牌樓走向紀念堂，以廣場空間和民主轉型為主線理解園區",
+      "actor": "第一次到訪園區的遊客",
+      "intent": "從自由廣場牌樓走向紀念堂，以廣場空間和民主轉型為主線理解園區",
+      "theme": "自由廣場主軸與民主轉型",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物與主題精簡可見停靠點；新的點間組合需要實走複測。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "從自由廣場牌樓走向紀念堂，以廣場空間和民主轉型為主線理解園區",
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "MEMORIAL-HALL-PARK-WP-01",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "MHP-02",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "MHP-05",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "MEMORIAL-HALL-PARK-WP-02",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "MHP-09",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "memorial-route-01-segment-01",
+          "from": "MEMORIAL-HALL-PARK-WP-01",
+          "to": "MHP-02"
+        },
+        {
+          "id": "memorial-route-01-segment-02",
+          "from": "MHP-02",
+          "to": "MHP-05"
+        },
+        {
+          "id": "memorial-route-01-segment-03",
+          "from": "MHP-05",
+          "to": "MEMORIAL-HALL-PARK-WP-02"
+        },
+        {
+          "id": "memorial-route-01-segment-04",
+          "from": "MEMORIAL-HALL-PARK-WP-02",
+          "to": "MHP-09"
+        }
+      ]
+    }
+  ],
+  "upload_recommendation": "waypoints_and_routes_ready",
+  "excluded_waypoints": []
+}

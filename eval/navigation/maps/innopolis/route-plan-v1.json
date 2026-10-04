@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "map_id": "innopolis",
+  "source_kind": "user_confirmed_route_plan",
+  "planning_date": "2026-08-19",
+  "planning_policy": {
+    "primary": "semantic_plausibility",
+    "secondary": "low_cross_route_waypoint_overlap",
+    "road_geometry_required": false
+  },
+  "quality_status": "review_plan_only_not_certified",
+  "notes": [
+    "All remaining nine routes were reviewed one at a time against the color Xaero atlas before being accepted into this plan.",
+    "The plan does not claim road-following geometry or segment reachability certification.",
+    "INN-WP-02, INN-WP-03, and INN-WP-07 are intentionally unrouted; INN-WP-02 was removed as an intermediate commute checkpoint, while the other two are not forced into semantically weak tasks.",
+    "Stable waypoint IDs are authoritative; waypoint names and initials may be revised later without changing route identity."
+  ],
+  "routes": [
+    {
+      "id": "inn-route-02",
+      "title_zh": "住宅到科技园通勤",
+      "title_en": "Residential-to-Technopark Commute",
+      "persona": "technopark_commuter",
+      "difficulty": "medium",
+      "basis": "residence_university_workplace_flow",
+      "waypoint_ids": ["INN-WP-30", "INN-WP-18", "INN-WP-20"]
+    },
+    {
+      "id": "inn-route-03",
+      "title_zh": "居民日常办事环线",
+      "title_en": "Resident Daily Errands Loop",
+      "persona": "resident",
+      "difficulty": "medium",
+      "basis": "local_services_loop",
+      "waypoint_ids": ["INN-WP-30", "INN-WP-27", "INN-WP-28", "INN-WP-33", "INN-WP-34", "INN-WP-30"]
+    },
+    {
+      "id": "inn-route-04",
+      "title_zh": "居民周末休闲",
+      "title_en": "Resident Weekend Leisure",
+      "persona": "resident",
+      "difficulty": "medium",
+      "basis": "sports_recreation_and_personal_service_flow",
+      "waypoint_ids": ["INN-WP-01", "INN-WP-12", "INN-WP-13", "INN-WP-35", "INN-WP-22"]
+    },
+    {
+      "id": "inn-route-05",
+      "title_zh": "科技园商务访客日程",
+      "title_en": "Technopark Business Visitor Itinerary",
+      "persona": "business_visitor",
+      "difficulty": "medium",
+      "basis": "hotel_technopark_meetings_and_departure_stop_flow",
+      "waypoint_ids": ["INN-WP-16", "INN-WP-19", "INN-WP-20", "INN-WP-21"]
+    },
+    {
+      "id": "inn-route-06",
+      "title_zh": "大学—InnoPark跨园区",
+      "title_en": "University-to-InnoPark Cross-District Transfer",
+      "persona": "worker_or_visitor",
+      "difficulty": "hard",
+      "basis": "published_university_innopark_transfer_relationship",
+      "waypoint_ids": ["INN-WP-17", "INN-WP-18", "INN-WP-11", "INN-WP-08"]
+    },
+    {
+      "id": "inn-route-07",
+      "title_zh": "大学生学习生活路线",
+      "title_en": "University Student Study and Leisure Route",
+      "persona": "student",
+      "difficulty": "hard",
+      "basis": "student_residence_study_sports_and_culture_flow",
+      "waypoint_ids": ["INN-WP-31", "INN-WP-32", "INN-WP-18", "INN-WP-14", "INN-WP-23"]
+    },
+    {
+      "id": "inn-route-08",
+      "title_zh": "教育接驳巡查",
+      "title_en": "Education Shuttle Inspection",
+      "persona": "education_staff",
+      "difficulty": "medium",
+      "basis": "south_to_north_school_stop_and_kindergarten_inspection",
+      "waypoint_ids": ["INN-WP-06", "INN-WP-05", "INN-WP-04", "INN-WP-25", "INN-WP-26", "INN-WP-09"]
+    },
+    {
+      "id": "inn-route-09",
+      "title_zh": "运动与康复路线",
+      "title_en": "Sports and Rehabilitation Route",
+      "persona": "resident_athlete",
+      "difficulty": "hard",
+      "basis": "outdoor_sports_complex_and_medical_flow",
+      "waypoint_ids": ["INN-WP-35", "INN-WP-12", "INN-WP-13", "INN-WP-14", "INN-WP-15"]
+    },
+    {
+      "id": "inn-route-10",
+      "title_zh": "市政与公共安全巡查",
+      "title_en": "Municipal and Public Safety Inspection",
+      "persona": "municipal_inspector",
+      "difficulty": "hard",
+      "basis": "south_public_facilities_to_fire_station_inspection",
+      "waypoint_ids": ["INN-WP-06", "INN-WP-34", "INN-WP-33", "INN-WP-15", "INN-WP-10"]
+    }
+  ]
+}

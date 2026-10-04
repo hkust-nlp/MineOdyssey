@@ -1,0 +1,691 @@
+{
+  "schema_version": 1,
+  "map_id": "entrup",
+  "route_count": 6,
+  "quality_status": "reviewed_current_34_waypoints_six_routes_pending_coordinate_revalidation",
+  "upload_recommendation": "current_waypoints_and_routes_require_revalidation_after_live_coordinate_sync",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/entrup-6-natural-routes-v3.json",
+    "sha256": "d5ffdab1945d66849dc69e783a03d0589d847168f4b758896ba5d1a8e36ce958"
+  },
+  "routes": [
+    {
+      "id": "entrup-v3-01",
+      "title": "Dorfrundgang vom Südwesten zum nordöstlichen Bach",
+      "prompt_zh": "为 Entrup 村志收集照片和口述资料：拍摄「Gartenpavillon im Südwesten」、「Gartenhaus im Nordwesten」与「Am Kuhdamm 6」，再到「Entruper Krug」听一位老住户讲过去的村庄生活。之后在「Kriegerdenkmal Entrup」献花，并到「Bachhaus am Nordostrand」拍下最后一张照片。",
+      "persona_zh": "第一次想完整认识 Entrup 的访客",
+      "topic_zh": "村庄公共空间、地方记忆与北部生活",
+      "purpose_zh": "从西南花园凉亭出发，穿过西北住宅与 Kuhdamm，经 Entruper Krug 和战争纪念碑走到东北溪边住宅",
+      "actor": "第一次想完整认识 Entrup 的访客",
+      "intent": "从西南花园凉亭出发，穿过西北住宅与 Kuhdamm，经 Entruper Krug 和战争纪念碑走到东北溪边住宅",
+      "theme": "村庄公共空间、地方记忆与北部生活",
+      "prompt_style": "natural_situational_local_language",
+      "route_kind": "normal_persona_route",
+      "route_features": [
+        "single_topic",
+        "six_meaningful_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "map_wide_interleaving",
+        "directional_without_backtracking",
+        "no_waypoint_reuse",
+        "natural_situational_prompt",
+        "local_language_prompt",
+        "chinese_review_translation"
+      ],
+      "task_type": "first_visit_village_overview",
+      "coverage_zones": [
+        "southwest_gardens",
+        "northwest_homes",
+        "kuhdamm",
+        "village_memory",
+        "northeast_stream"
+      ],
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5,
+        "adjacent_distances_blocks": [
+          298.89,
+          77.22,
+          133.2,
+          34.67,
+          184.48
+        ],
+        "minimum_adjacent_distance_blocks": 34.67,
+        "straight_line_route_blocks": 728.46,
+        "endpoint_distance_blocks": 504.7,
+        "detour_ratio": 1.4434
+      },
+      "reachability_status": "pending_revalidation_after_live_coordinate_sync",
+      "validation_status": "pending_revalidation_after_live_coordinate_sync",
+      "validation_note_zh": "路线顺序未变；坐标已按当前游戏 waypoint 同步，受影响连接段需要重新实走验证。",
+      "semantic_dependency_status": "reviewed_topic_stop_order",
+      "semantic_dependency_zh": "从西南花园凉亭出发，穿过西北住宅与 Kuhdamm，经 Entruper Krug 和战争纪念碑走到东北溪边住宅",
+      "title_zh": "从西南花园到东北溪边的村庄纵览",
+      "title_local": "Dorfrundgang vom Südwesten zum nordöstlichen Bach",
+      "topic_local": "Wohnalltag, Treffpunkte und lokale Erinnerung",
+      "prompt_local": "Sammeln Sie Bilder und Erinnerungen für die Entruper Dorfchronik. Fotografieren Sie den «Gartenpavillon im Südwesten», das «Gartenhaus im Nordwesten» und das Haus «Am Kuhdamm 6». Im «Entruper Krug» sprechen Sie mit einem langjährigen Bewohner über das frühere Dorfleben. Legen Sie anschließend am «Kriegerdenkmal Entrup» Blumen nieder und nehmen Sie am «Bachhaus am Nordostrand» das letzte Foto auf.",
+      "prompt_language": "de-DE",
+      "points": [
+        {
+          "waypoint_id": "ENTRUP-A08",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "ENTRUP-B02",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-A01",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-G15",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-G01",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-B09",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "entrup-v3-01-segment-01",
+          "reachability_status": "pending_revalidation_after_live_coordinate_sync",
+          "from": "ENTRUP-A08",
+          "to": "ENTRUP-B02"
+        },
+        {
+          "id": "entrup-v3-01-segment-02",
+          "reachability_status": "pending_revalidation_after_live_coordinate_sync",
+          "from": "ENTRUP-B02",
+          "to": "ENTRUP-A01"
+        },
+        {
+          "id": "entrup-v3-01-segment-03",
+          "reachability_status": "reached",
+          "from": "ENTRUP-A01",
+          "to": "ENTRUP-G15"
+        },
+        {
+          "id": "entrup-v3-01-segment-04",
+          "reachability_status": "reached",
+          "from": "ENTRUP-G15",
+          "to": "ENTRUP-G01"
+        },
+        {
+          "id": "entrup-v3-01-segment-05",
+          "reachability_status": "reached",
+          "from": "ENTRUP-G01",
+          "to": "ENTRUP-B09"
+        }
+      ]
+    },
+    {
+      "id": "entrup-v3-02",
+      "title": "Wohnarchitektur und Einrichtung in Entrup",
+      "prompt_zh": "为一项比较村庄新旧设计的建筑作业收集案例：画下「Haus mit Glasvordach」的玻璃雨棚和「Brunnen am Kuhdamm」，在「Erika Kuhfuß Einrichtungshaus」选择一种当代设计元素，再拍摄「An der Ilse 3」、「Am Weidenkamp 17」和「Am Weidenkamp 13」作为对照。",
+      "persona_zh": "关注乡村住宅与室内设计的建筑学生",
+      "topic_zh": "Entrup 住宅设计从现代立面到历史木构的变化",
+      "purpose_zh": "从西部玻璃雨棚住宅出发，经社区水井和家具店，连续观察 An der Ilse 与 Am Weidenkamp 的历史住宅",
+      "actor": "关注乡村住宅与室内设计的建筑学生",
+      "intent": "从西部玻璃雨棚住宅出发，经社区水井和家具店，连续观察 An der Ilse 与 Am Weidenkamp 的历史住宅",
+      "theme": "Entrup 住宅设计从现代立面到历史木构的变化",
+      "prompt_style": "natural_situational_local_language",
+      "route_kind": "normal_persona_route",
+      "route_features": [
+        "single_topic",
+        "six_meaningful_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "map_wide_interleaving",
+        "directional_without_backtracking",
+        "no_waypoint_reuse",
+        "natural_situational_prompt",
+        "local_language_prompt",
+        "chinese_review_translation"
+      ],
+      "task_type": "residential_architecture_study",
+      "coverage_zones": [
+        "west_residential",
+        "kuhdamm",
+        "village_core",
+        "northeast_heritage"
+      ],
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5,
+        "adjacent_distances_blocks": [
+          167.43,
+          73.82,
+          91.95,
+          76.33,
+          49.41
+        ],
+        "minimum_adjacent_distance_blocks": 49.41,
+        "straight_line_route_blocks": 458.94,
+        "endpoint_distance_blocks": 365.64,
+        "detour_ratio": 1.2552
+      },
+      "reachability_status": "pending_revalidation_after_live_coordinate_sync",
+      "validation_status": "pending_revalidation_after_live_coordinate_sync",
+      "validation_note_zh": "路线顺序未变；坐标已按当前游戏 waypoint 同步，受影响连接段需要重新实走验证。",
+      "semantic_dependency_status": "reviewed_topic_stop_order",
+      "semantic_dependency_zh": "从西部玻璃雨棚住宅出发，经社区水井和家具店，连续观察 An der Ilse 与 Am Weidenkamp 的历史住宅",
+      "title_zh": "玻璃住宅、家具设计与历史农舍",
+      "title_local": "Wohnarchitektur und Einrichtung in Entrup",
+      "topic_local": "Von modernen Details zu historischen Hof- und Wohnhäusern",
+      "prompt_local": "Sammeln Sie Beispiele für eine Architekturübung über Alt und Neu im Dorf. Zeichnen Sie das Vordach am «Haus mit Glasvordach» und den «Brunnen am Kuhdamm», wählen Sie im «Erika Kuhfuß Einrichtungshaus» ein aktuelles Gestaltungselement aus und fotografieren Sie zum Vergleich die Häuser «An der Ilse 3», «Am Weidenkamp 17» und «Am Weidenkamp 13».",
+      "prompt_language": "de-DE",
+      "points": [
+        {
+          "waypoint_id": "ENTRUP-A04",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "ENTRUP-A02",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-G04",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-H05",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-H04",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-H03",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "entrup-v3-02-segment-01",
+          "reachability_status": "reached",
+          "from": "ENTRUP-A04",
+          "to": "ENTRUP-A02"
+        },
+        {
+          "id": "entrup-v3-02-segment-02",
+          "reachability_status": "pending_revalidation_after_live_coordinate_sync",
+          "from": "ENTRUP-A02",
+          "to": "ENTRUP-G04"
+        },
+        {
+          "id": "entrup-v3-02-segment-03",
+          "reachability_status": "pending_revalidation_after_live_coordinate_sync",
+          "from": "ENTRUP-G04",
+          "to": "ENTRUP-H05"
+        },
+        {
+          "id": "entrup-v3-02-segment-04",
+          "reachability_status": "pending_revalidation_after_live_coordinate_sync",
+          "from": "ENTRUP-H05",
+          "to": "ENTRUP-H04"
+        },
+        {
+          "id": "entrup-v3-02-segment-05",
+          "reachability_status": "pending_revalidation_after_live_coordinate_sync",
+          "from": "ENTRUP-H04",
+          "to": "ENTRUP-H03"
+        }
+      ]
+    },
+    {
+      "id": "entrup-v3-03",
+      "title": "Mitteilungen für Betriebe und Haushalte im Westen",
+      "prompt_zh": "从公交站「Entrup Schlingfeld - Lemgo」下车后配送新一期村报：先分别送一份到「Werner Niederschäfer」和「Muellies Hundewelt」，再把其余报纸依次送到「Backsteinhaus mit Glasfront」、「Haus mit türkiser Fassade」和「Rotes Haus am westlichen Ortsrand」。",
+      "persona_zh": "负责联络邻里与商户的本地社区志愿者",
+      "topic_zh": "西部商户与住宅的社区联络",
+      "purpose_zh": "从公交站开始，依次走访两家本地商户和三处西部住宅，把社区通知送到村庄西端",
+      "actor": "负责联络邻里与商户的本地社区志愿者",
+      "intent": "从公交站开始，依次走访两家本地商户和三处西部住宅，把社区通知送到村庄西端",
+      "theme": "西部商户与住宅的社区联络",
+      "prompt_style": "natural_situational_local_language",
+      "route_kind": "normal_persona_route",
+      "route_features": [
+        "single_topic",
+        "six_meaningful_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "map_wide_interleaving",
+        "directional_without_backtracking",
+        "no_waypoint_reuse",
+        "natural_situational_prompt",
+        "local_language_prompt",
+        "chinese_review_translation"
+      ],
+      "task_type": "community_notice_delivery",
+      "coverage_zones": [
+        "transit_core",
+        "west_businesses",
+        "west_residential",
+        "western_edge"
+      ],
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5,
+        "adjacent_distances_blocks": [
+          74.53,
+          25.71,
+          100.98,
+          67.93,
+          98.28
+        ],
+        "minimum_adjacent_distance_blocks": 25.71,
+        "straight_line_route_blocks": 367.43,
+        "endpoint_distance_blocks": 282.82,
+        "detour_ratio": 1.2992
+      },
+      "reachability_status": "pending_revalidation_after_live_coordinate_sync",
+      "validation_status": "pending_revalidation_after_live_coordinate_sync",
+      "validation_note_zh": "路线顺序未变；坐标已按当前游戏 waypoint 同步，受影响连接段需要重新实走验证。",
+      "semantic_dependency_status": "reviewed_topic_stop_order",
+      "semantic_dependency_zh": "从公交站开始，依次走访两家本地商户和三处西部住宅，把社区通知送到村庄西端",
+      "title_zh": "从公交站到西侧住区的社区通知",
+      "title_local": "Mitteilungen für Betriebe und Haushalte im Westen",
+      "topic_local": "Ein geradliniger Botengang durch den westlichen Ortsteil",
+      "prompt_local": "Steigen Sie an «Entrup Schlingfeld - Lemgo» aus und verteilen Sie die neue Dorfzeitung. Geben Sie je ein Exemplar bei «Werner Niederschäfer» und «Muellies Hundewelt» ab und bringen Sie die nächsten Ausgaben zum «Backsteinhaus mit Glasfront», zum «Haus mit türkiser Fassade» und zum «Rotes Haus am westlichen Ortsrand».",
+      "prompt_language": "de-DE",
+      "points": [
+        {
+          "waypoint_id": "ENTRUP-G13",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "ENTRUP-W03",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-W04",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-A03",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-A05",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-B01",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "entrup-v3-03-segment-01",
+          "reachability_status": "pending_revalidation_after_live_coordinate_sync",
+          "from": "ENTRUP-G13",
+          "to": "ENTRUP-W03"
+        },
+        {
+          "id": "entrup-v3-03-segment-02",
+          "reachability_status": "reached",
+          "from": "ENTRUP-W03",
+          "to": "ENTRUP-W04"
+        },
+        {
+          "id": "entrup-v3-03-segment-03",
+          "reachability_status": "reached",
+          "from": "ENTRUP-W04",
+          "to": "ENTRUP-A03"
+        },
+        {
+          "id": "entrup-v3-03-segment-04",
+          "reachability_status": "reached",
+          "from": "ENTRUP-A03",
+          "to": "ENTRUP-A05"
+        },
+        {
+          "id": "entrup-v3-03-segment-05",
+          "reachability_status": "pending_revalidation_after_live_coordinate_sync",
+          "from": "ENTRUP-A05",
+          "to": "ENTRUP-B01"
+        }
+      ]
+    },
+    {
+      "id": "entrup-v3-04",
+      "title": "Öffentliche Räume, historische Häuser und Wohnbetreuung",
+      "prompt_zh": "陪一位居民返回她居住的社区：先到「SYCOmed e.K.」领取已经订好的辅助用品，并在「Brunnen im Ortskern」休息。随后沿她熟悉的道路走过「Hohes Haus」与「Fachwerkhaus Am Sellsiekbach 26」，最后安全送她回到「Wohnanlage Entrup (Stiftung Eben-Ezer)」。",
+      "persona_zh": "关注社区步行环境与居住照护的本地社工",
+      "topic_zh": "从公共空间到 Wohnanlage 的社区环境观察",
+      "purpose_zh": "从医疗企业经村中心水井和两处历史住宅，抵达 Wohnanlage",
+      "actor": "关注社区步行环境与居住照护的本地社工",
+      "intent": "从医疗企业经村中心水井和两处历史住宅，抵达 Wohnanlage",
+      "theme": "从公共空间到 Wohnanlage 的社区环境观察",
+      "prompt_style": "natural_situational_local_language",
+      "route_kind": "normal_persona_route",
+      "route_features": [
+        "single_topic",
+        "five_meaningful_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "map_wide_interleaving",
+        "directional_without_backtracking",
+        "no_waypoint_reuse",
+        "natural_situational_prompt",
+        "local_language_prompt",
+        "chinese_review_translation"
+      ],
+      "task_type": "community_environment_walk",
+      "coverage_zones": [
+        "village_services",
+        "village_core",
+        "east_heritage",
+        "east_residential"
+      ],
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4,
+        "adjacent_distances_blocks": [
+          118.5,
+          44.94,
+          50.46,
+          33.84
+        ],
+        "minimum_adjacent_distance_blocks": 33.84,
+        "straight_line_route_blocks": 247.74,
+        "endpoint_distance_blocks": 212.84,
+        "detour_ratio": 1.164
+      },
+      "reachability_status": "pending_revalidation_after_live_coordinate_sync",
+      "validation_status": "pending_revalidation_after_live_coordinate_sync",
+      "validation_note_zh": "路线顺序未变；坐标已按当前游戏 waypoint 同步，受影响连接段需要重新实走验证。",
+      "semantic_dependency_status": "reviewed_topic_stop_order",
+      "semantic_dependency_zh": "从医疗企业经村中心水井和两处历史住宅，抵达 Wohnanlage",
+      "title_zh": "公共空间、历史住宅与居住照护",
+      "title_local": "Öffentliche Räume, historische Häuser und Wohnbetreuung",
+      "topic_local": "Ein Blick auf Aufenthaltsqualität und soziale Infrastruktur",
+      "prompt_local": "Begleiten Sie eine Bewohnerin auf dem Rückweg zu ihrer Wohnanlage. Holen Sie bei «SYCOmed e.K.» ein bestelltes Hilfsmittel ab und machen Sie am «Brunnen im Ortskern» eine Pause. Gehen Sie auf ihrem vertrauten Weg am «Hohes Haus» und am «Fachwerkhaus Am Sellsiekbach 26» vorbei und bringen Sie sie sicher zur «Wohnanlage Entrup (Stiftung Eben-Ezer)».",
+      "prompt_language": "de-DE",
+      "points": [
+        {
+          "waypoint_id": "ENTRUP-W02",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "ENTRUP-S03",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-H01",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-H02",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-G09",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "entrup-v3-04-segment-01",
+          "reachability_status": "pending_revalidation_after_live_coordinate_sync",
+          "from": "ENTRUP-W02",
+          "to": "ENTRUP-S03"
+        },
+        {
+          "id": "entrup-v3-04-segment-02",
+          "reachability_status": "reached",
+          "from": "ENTRUP-S03",
+          "to": "ENTRUP-H01"
+        },
+        {
+          "id": "entrup-v3-04-segment-03",
+          "reachability_status": "reached",
+          "from": "ENTRUP-H01",
+          "to": "ENTRUP-H02"
+        },
+        {
+          "id": "entrup-v3-04-segment-04",
+          "reachability_status": "reached",
+          "from": "ENTRUP-H02",
+          "to": "ENTRUP-G09"
+        }
+      ]
+    },
+    {
+      "id": "entrup-v3-05",
+      "title": "Mit Kindern vom südlichen Wohngebiet zur Rinderweide",
+      "prompt_zh": "幼儿园郊游前，依次把家长同意书送到「Dunkelrotes Giebelhaus am Südrand」、「Winkelhaus am Südrondell」与「Backsteinhaus am Gartenhof」。随后到「Kindergarten Tausendfüßler Entrup」与班级会合，在「Weidehütte an der Rinderweide」给孩子们分发点心，最后一起到「Rinderweide am östlichen Bach」观察牛群。",
+      "persona_zh": "组织孩子观察乡村自然的本地家长",
+      "topic_zh": "从南部住宅到幼儿园与牛牧场的亲子步行",
+      "purpose_zh": "在南部几处住宅接上同行家庭，经幼儿园走到牧场小屋和溪边牛牧场",
+      "actor": "组织孩子观察乡村自然的本地家长",
+      "intent": "在南部几处住宅接上同行家庭，经幼儿园走到牧场小屋和溪边牛牧场",
+      "theme": "从南部住宅到幼儿园与牛牧场的亲子步行",
+      "prompt_style": "natural_situational_local_language",
+      "route_kind": "normal_persona_route",
+      "route_features": [
+        "single_topic",
+        "six_meaningful_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "map_wide_interleaving",
+        "directional_without_backtracking",
+        "no_waypoint_reuse",
+        "natural_situational_prompt",
+        "local_language_prompt",
+        "chinese_review_translation"
+      ],
+      "task_type": "family_nature_walk",
+      "coverage_zones": [
+        "south_residential",
+        "garden_courtyard",
+        "kindergarten",
+        "east_pasture"
+      ],
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5,
+        "adjacent_distances_blocks": [
+          49.13,
+          75.43,
+          33.54,
+          157.23,
+          25.96
+        ],
+        "minimum_adjacent_distance_blocks": 25.96,
+        "straight_line_route_blocks": 341.29,
+        "endpoint_distance_blocks": 260.51,
+        "detour_ratio": 1.3101
+      },
+      "reachability_status": "baritone_continuous_route_reached",
+      "validation_status": "baritone_continuous_route_reached",
+      "validation_note_zh": "已在冒险模式下由 Baritone 连续实走整条路线，所有 5 段均到达。",
+      "semantic_dependency_status": "reviewed_topic_stop_order",
+      "semantic_dependency_zh": "在南部几处住宅接上同行家庭，经幼儿园走到牧场小屋和溪边牛牧场",
+      "title_zh": "南部家庭前往东部牛牧场",
+      "title_local": "Mit Kindern vom südlichen Wohngebiet zur Rinderweide",
+      "topic_local": "Familien, Kindergarten und Naturbeobachtung am Bach",
+      "prompt_local": "Bringen Sie vor dem Kindergartenausflug die Einverständniserklärungen zum «Dunkelrotes Giebelhaus am Südrand», zum «Winkelhaus am Südrondell» und zum «Backsteinhaus am Gartenhof». Treffen Sie danach die Gruppe am «Kindergarten Tausendfüßler Entrup», verteilen Sie den Imbiss an der «Weidehütte an der Rinderweide» und beobachten Sie mit den Kindern die Tiere auf der «Rinderweide am östlichen Bach».",
+      "prompt_language": "de-DE",
+      "points": [
+        {
+          "waypoint_id": "ENTRUP-A09",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "ENTRUP-S02",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-A06",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-G07",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-B15",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-B16",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "entrup-v3-05-segment-01",
+          "reachability_status": "reached",
+          "from": "ENTRUP-A09",
+          "to": "ENTRUP-S02"
+        },
+        {
+          "id": "entrup-v3-05-segment-02",
+          "reachability_status": "reached",
+          "from": "ENTRUP-S02",
+          "to": "ENTRUP-A06"
+        },
+        {
+          "id": "entrup-v3-05-segment-03",
+          "reachability_status": "reached",
+          "from": "ENTRUP-A06",
+          "to": "ENTRUP-G07"
+        },
+        {
+          "id": "entrup-v3-05-segment-04",
+          "reachability_status": "reached",
+          "from": "ENTRUP-G07",
+          "to": "ENTRUP-B15"
+        },
+        {
+          "id": "entrup-v3-05-segment-05",
+          "reachability_status": "reached",
+          "from": "ENTRUP-B15",
+          "to": "ENTRUP-B16"
+        }
+      ]
+    },
+    {
+      "id": "entrup-v3-06",
+      "title": "Zieglerhütte, Obstwiese, Bach und Teich",
+      "prompt_zh": "周末带孩子体验乡村生活：先给他们看看「Verwinkelter Hof im Südwesten」错落的房屋，再到「Zieglerhütte」讲讲旧时手艺。接着在「Obstwiese im Südosten」捡落果，一起走过「Kleine Bachbrücke」，最后在「Teich am südöstlichen Ortsrand」野餐。",
+      "persona_zh": "带朋友认识 Entrup 乡村生活的本地居民",
+      "topic_zh": "社区小屋、果园、溪桥与池塘",
+      "purpose_zh": "从西南围合院落横穿村庄，经社区小屋走向果园、溪桥与东南池塘",
+      "actor": "带朋友认识 Entrup 乡村生活的本地居民",
+      "intent": "从西南围合院落横穿村庄，经社区小屋走向果园、溪桥与东南池塘",
+      "theme": "社区小屋、果园、溪桥与池塘",
+      "prompt_style": "natural_situational_local_language",
+      "route_kind": "normal_persona_route",
+      "route_features": [
+        "single_topic",
+        "five_meaningful_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "map_wide_interleaving",
+        "directional_without_backtracking",
+        "no_waypoint_reuse",
+        "natural_situational_prompt",
+        "local_language_prompt",
+        "chinese_review_translation"
+      ],
+      "task_type": "rural_produce_and_water_walk",
+      "coverage_zones": [
+        "southwest_courtyard",
+        "community_hut",
+        "southeast_orchard",
+        "east_stream",
+        "southeast_pond"
+      ],
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4,
+        "adjacent_distances_blocks": [
+          236.53,
+          42.11,
+          75.29,
+          88.57
+        ],
+        "minimum_adjacent_distance_blocks": 42.11,
+        "straight_line_route_blocks": 442.5,
+        "endpoint_distance_blocks": 355.32,
+        "detour_ratio": 1.2454
+      },
+      "reachability_status": "pending_revalidation_after_live_coordinate_sync",
+      "validation_status": "pending_revalidation_after_live_coordinate_sync",
+      "validation_note_zh": "路线顺序未变；坐标已按当前游戏 waypoint 同步，受影响连接段需要重新实走验证。",
+      "semantic_dependency_status": "reviewed_topic_stop_order",
+      "semantic_dependency_zh": "从西南围合院落横穿村庄，经社区小屋走向果园、溪桥与东南池塘",
+      "title_zh": "从西南院落到东南池塘的乡村散步",
+      "title_local": "Zieglerhütte, Obstwiese, Bach und Teich",
+      "topic_local": "Dorfleben und Wasserlandschaft im Südosten Entrups",
+      "prompt_local": "Machen Sie mit den Kindern einen ländlichen Wochenendausflug. Zeigen Sie ihnen die verwinkelten Gebäude am «Verwinkelter Hof im Südwesten» und erklären Sie an der «Zieglerhütte» das alte Handwerk. Sammeln Sie auf der «Obstwiese im Südosten» Fallobst, überqueren Sie gemeinsam die «Kleine Bachbrücke» und machen Sie am «Teich am südöstlichen Ortsrand» ein Picknick.",
+      "prompt_language": "de-DE",
+      "points": [
+        {
+          "waypoint_id": "ENTRUP-S01",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "ENTRUP-W01",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-B13",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-B12",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "ENTRUP-B14",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "entrup-v3-06-segment-01",
+          "reachability_status": "pending_revalidation",
+          "from": "ENTRUP-S01",
+          "to": "ENTRUP-W01"
+        },
+        {
+          "id": "entrup-v3-06-segment-02",
+          "reachability_status": "reached",
+          "from": "ENTRUP-W01",
+          "to": "ENTRUP-B13"
+        },
+        {
+          "id": "entrup-v3-06-segment-03",
+          "reachability_status": "reached",
+          "from": "ENTRUP-B13",
+          "to": "ENTRUP-B12"
+        },
+        {
+          "id": "entrup-v3-06-segment-04",
+          "reachability_status": "reached",
+          "from": "ENTRUP-B12",
+          "to": "ENTRUP-B14"
+        }
+      ]
+    }
+  ]
+}

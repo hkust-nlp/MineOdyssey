@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "map_id": "reichstag",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "custom_maps/maps/inter_map/reichstag/waypoints.json",
+    "sha256": "3656dd663ec6efa710ec4002e42cbe3bb0c5b0d375996f135f1148e1c5388b33"
+  },
+  "dimension": "overworld",
+  "waypoint_count": 20,
+  "waypoints": [
+    {
+      "id": "REI-WP-01",
+      "name": "Pressefoyer",
+      "position": {
+        "x": 10033,
+        "y": 94,
+        "z": 9543
+      },
+      "route_ids": [],
+      "initials": "P",
+      "color": 3,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-02",
+      "name": "Ältestenrat",
+      "position": {
+        "x": 9920,
+        "y": 78,
+        "z": 9522
+      },
+      "route_ids": [],
+      "initials": "Ä",
+      "color": 14,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-03",
+      "name": "WC Herren West",
+      "position": {
+        "x": 9919,
+        "y": 60,
+        "z": 9605
+      },
+      "route_ids": [],
+      "initials": "W",
+      "color": 6,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-04",
+      "name": "WC Damen West",
+      "position": {
+        "x": 9921,
+        "y": 60,
+        "z": 9596
+      },
+      "route_ids": [],
+      "initials": "W",
+      "color": 13,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-05",
+      "name": "Westeingang",
+      "position": {
+        "x": 9920,
+        "y": 60,
+        "z": 9581
+      },
+      "route_ids": [],
+      "initials": "W",
+      "color": 11,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-06",
+      "name": "Bar",
+      "position": {
+        "x": 9917,
+        "y": 60,
+        "z": 9643
+      },
+      "route_ids": [],
+      "initials": "B",
+      "color": 7,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-07",
+      "name": "Besprechungsraum",
+      "position": {
+        "x": 9920,
+        "y": 60,
+        "z": 9620
+      },
+      "route_ids": [],
+      "initials": "B",
+      "color": 0,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-08",
+      "name": "Empfangsraum",
+      "position": {
+        "x": 10150,
+        "y": 60,
+        "z": 9519
+      },
+      "route_ids": [],
+      "initials": "E",
+      "color": 12,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-09",
+      "name": "Andachtsraum",
+      "position": {
+        "x": 10145,
+        "y": 60,
+        "z": 9559
+      },
+      "route_ids": [],
+      "initials": "A",
+      "color": 4,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-10",
+      "name": "Osteingang",
+      "position": {
+        "x": 10146,
+        "y": 60,
+        "z": 9578
+      },
+      "route_ids": [],
+      "initials": " ",
+      "color": 4,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-11",
+      "name": "WC Damen Ost",
+      "position": {
+        "x": 10147,
+        "y": 60,
+        "z": 9596
+      },
+      "route_ids": [],
+      "initials": "W",
+      "color": 15,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-12",
+      "name": "WC Herren Ost",
+      "position": {
+        "x": 10147,
+        "y": 60,
+        "z": 9606
+      },
+      "route_ids": [],
+      "initials": "W",
+      "color": 3,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-13",
+      "name": "Besprechungsraum",
+      "position": {
+        "x": 10144,
+        "y": 60,
+        "z": 9620
+      },
+      "route_ids": [],
+      "initials": "B",
+      "color": 6,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-14",
+      "name": "Clubraum",
+      "position": {
+        "x": 10151,
+        "y": 60,
+        "z": 9642
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 12,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-15",
+      "name": "Plenarsaal",
+      "position": {
+        "x": 10033,
+        "y": 58,
+        "z": 9572
+      },
+      "route_ids": [],
+      "initials": "P",
+      "color": 13,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-16",
+      "name": "Restaurant",
+      "position": {
+        "x": 9984,
+        "y": 60,
+        "z": 9641
+      },
+      "route_ids": [],
+      "initials": "R",
+      "color": 15,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-17",
+      "name": "Abgeordnetenlobby",
+      "position": {
+        "x": 10085,
+        "y": 60,
+        "z": 9642
+      },
+      "route_ids": [],
+      "initials": "A",
+      "color": 2,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-18",
+      "name": "Nordeingang",
+      "position": {
+        "x": 10033,
+        "y": 53,
+        "z": 9523
+      },
+      "route_ids": [],
+      "initials": "N",
+      "color": 10,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-19",
+      "name": "Südeingang",
+      "position": {
+        "x": 10033,
+        "y": 60,
+        "z": 9641
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 15,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "REI-WP-20",
+      "name": "Kuppel Aussichtsplattform",
+      "position": {
+        "x": 10034,
+        "y": 133,
+        "z": 9572
+      },
+      "route_ids": [],
+      "initials": "KA",
+      "color": 3,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "schema_version": 1,
+  "map_id": "notre-dame",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "custom_maps/maps/inter_map/notre_dame/routes.json",
+    "sha256": "5021132227c88a5f25b7745f70929786827e3a61e6d1a823c1557162302de950"
+  },
+  "quality_status": "semantically_reviewed_owner_approved",
+  "upload_recommendation": "routes_ready_for_runtime_validation",
+  "route_count": 6,
+  "routes": [
+    {
+      "id": "ntd-route-04",
+      "title": "De la nef au chœur",
+      "title_local": "De la nef au chœur",
+      "title_zh": "中殿到唱诗席",
+      "prompt_language": "fr-FR",
+      "prompt_local": "En entrant dans Notre Dame de Paris pour la première fois, passez de Nef via Ambon à Chœur pour comprendre la relation avant et après les principaux espaces liturgiques de l'église.",
+      "prompt_zh": "首次进入巴黎圣母院，从 Nef 经 Ambon 前往 Chœur，了解教堂主要礼仪空间的前后关系。",
+      "difficulty": "medium",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "NTD-WP-27",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "NTD-WP-20",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-25",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ntd-route-04-segment-01",
+          "from": "NTD-WP-27",
+          "to": "NTD-WP-20"
+        },
+        {
+          "id": "ntd-route-04-segment-02",
+          "from": "NTD-WP-20",
+          "to": "NTD-WP-25"
+        }
+      ]
+    },
+    {
+      "id": "ntd-route-08-09",
+      "title": "Parcours des chapelles bibliques et des saints",
+      "title_local": "Parcours des chapelles bibliques et des saints",
+      "title_zh": "圣经人物与圣人礼拜堂完整巡礼",
+      "prompt_language": "fr-FR",
+      "prompt_local": "Parcourez méthodiquement les chapelles consacrées aux figures bibliques et aux saints. Partez de la Chapelle de Noé, puis passez par les chapelles d'Abraham, de Moïse, d'Isaïe, de David et de Salomon. Rejoignez ensuite la Chapelle Saint-Joseph, continuez par les chapelles Sainte-Clotilde, Saint-Vincent-de-Paul, Sainte-Geneviève et Saint-Denis, et terminez à la Chapelle Saint-Paul-Chen.",
+      "prompt_zh": "系统参观两侧人物礼拜堂：从 Chapelle de Noé 出发，依次经过 Chapelle d'Abraham、Chapelle de Moïse、Chapelle d'Isaïe、Chapelle de David 和 Chapelle de Salomon；随后转至 Chapelle Saint-Joseph，再经过 Chapelle Sainte-Clotilde、Chapelle Saint-Vincent-de-Paul、Chapelle Sainte-Geneviève 和 Chapelle Saint-Denis，最后到达 Chapelle Saint-Paul-Chen。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "NTD-WP-14",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "NTD-WP-06",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-05",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-04",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-03",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-02",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-07",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-09",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-10",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-11",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-12",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-13",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ntd-route-08-09-segment-01",
+          "from": "NTD-WP-14",
+          "to": "NTD-WP-06"
+        },
+        {
+          "id": "ntd-route-08-09-segment-02",
+          "from": "NTD-WP-06",
+          "to": "NTD-WP-05"
+        },
+        {
+          "id": "ntd-route-08-09-segment-03",
+          "from": "NTD-WP-05",
+          "to": "NTD-WP-04"
+        },
+        {
+          "id": "ntd-route-08-09-segment-04",
+          "from": "NTD-WP-04",
+          "to": "NTD-WP-03"
+        },
+        {
+          "id": "ntd-route-08-09-segment-05",
+          "from": "NTD-WP-03",
+          "to": "NTD-WP-02"
+        },
+        {
+          "id": "ntd-route-08-09-segment-06",
+          "from": "NTD-WP-02",
+          "to": "NTD-WP-07"
+        },
+        {
+          "id": "ntd-route-08-09-segment-07",
+          "from": "NTD-WP-07",
+          "to": "NTD-WP-09"
+        },
+        {
+          "id": "ntd-route-08-09-segment-08",
+          "from": "NTD-WP-09",
+          "to": "NTD-WP-10"
+        },
+        {
+          "id": "ntd-route-08-09-segment-09",
+          "from": "NTD-WP-10",
+          "to": "NTD-WP-11"
+        },
+        {
+          "id": "ntd-route-08-09-segment-10",
+          "from": "NTD-WP-11",
+          "to": "NTD-WP-12"
+        },
+        {
+          "id": "ntd-route-08-09-segment-11",
+          "from": "NTD-WP-12",
+          "to": "NTD-WP-13"
+        }
+      ]
+    },
+    {
+      "id": "ntd-route-10",
+      "title": "Du grand orgue à la Pietà",
+      "title_local": "Du grand orgue à la Pietà",
+      "title_zh": "西端到祭坛艺术主线",
+      "prompt_language": "fr-FR",
+      "prompt_local": "Pour bien comprendre l'axe liturgique de l'église, partez de Grand Orgue, passez par Nef et Chœur, et arrivez à Pietà via Maître-Autel.",
+      "prompt_zh": "为了完整了解教堂礼仪轴线，从 Grand Orgue 出发，穿过 Nef 和 Chœur，经 Maître-Autel 抵达 Pietà。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "NTD-WP-26",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "NTD-WP-27",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-25",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-23",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-24",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ntd-route-10-segment-01",
+          "from": "NTD-WP-26",
+          "to": "NTD-WP-27"
+        },
+        {
+          "id": "ntd-route-10-segment-02",
+          "from": "NTD-WP-27",
+          "to": "NTD-WP-25"
+        },
+        {
+          "id": "ntd-route-10-segment-03",
+          "from": "NTD-WP-25",
+          "to": "NTD-WP-23"
+        },
+        {
+          "id": "ntd-route-10-segment-04",
+          "from": "NTD-WP-23",
+          "to": "NTD-WP-24"
+        }
+      ]
+    },
+    {
+      "id": "ntd-route-11",
+      "title": "Inspection du trésor et du déambulatoire",
+      "title_local": "Inspection du trésor et du déambulatoire",
+      "title_zh": "宝库与回廊巡查",
+      "prompt_language": "fr-FR",
+      "prompt_local": "Lors de la vérification de la zone ouverte autour de l'autel, passez de Sacristie via Trésor et Déambulatoire Sud, en contournant Maître-Autel pour accéder à Déambulatoire Nord.",
+      "prompt_zh": "检查祭坛周边开放区域时，从 Sacristie 经 Trésor 和 Déambulatoire Sud，绕过 Maître-Autel 前往 Déambulatoire Nord。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "NTD-WP-16",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "NTD-WP-15",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-21",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-23",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-22",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ntd-route-11-segment-01",
+          "from": "NTD-WP-16",
+          "to": "NTD-WP-15"
+        },
+        {
+          "id": "ntd-route-11-segment-02",
+          "from": "NTD-WP-15",
+          "to": "NTD-WP-21"
+        },
+        {
+          "id": "ntd-route-11-segment-03",
+          "from": "NTD-WP-21",
+          "to": "NTD-WP-23"
+        },
+        {
+          "id": "ntd-route-11-segment-04",
+          "from": "NTD-WP-23",
+          "to": "NTD-WP-22"
+        }
+      ]
+    },
+    {
+      "id": "ntd-route-12",
+      "title": "Passage intérieur entre les deux tours",
+      "title_local": "Passage intérieur entre les deux tours",
+      "title_zh": "双塔内部转场",
+      "prompt_language": "fr-FR",
+      "prompt_local": "Lorsque vous examinez la tour d'élévation ouest et l'espace de la nef, descendez de Tour Sud à Grand Orgue, traversez Nef et continuez jusqu'à Tour Nord.",
+      "prompt_zh": "检查西立面塔楼与中殿空间时，从 Tour Sud 下行至 Grand Orgue，穿过 Nef，再前往 Tour Nord。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "NTD-WP-17",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "NTD-WP-26",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-27",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "NTD-WP-18",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ntd-route-12-segment-01",
+          "from": "NTD-WP-17",
+          "to": "NTD-WP-26"
+        },
+        {
+          "id": "ntd-route-12-segment-02",
+          "from": "NTD-WP-26",
+          "to": "NTD-WP-27"
+        },
+        {
+          "id": "ntd-route-12-segment-03",
+          "from": "NTD-WP-27",
+          "to": "NTD-WP-18"
+        }
+      ]
+    },
+    {
+      "id": "ntd-route-13",
+      "title": "De la nef à la flèche",
+      "title_local": "De la nef à la flèche",
+      "title_zh": "中殿到尖塔",
+      "prompt_language": "fr-FR",
+      "prompt_local": "Lorsque vous vous rendez dans des endroits élevés pour inspecter la structure de la flèche, commencez par Nef et allez à Flèche pour terminer la transition de l'espace intérieur principal à la structure élevée.",
+      "prompt_zh": "前往高处检查尖塔结构时，从 Nef 出发前往 Flèche，完成由主要室内空间到高处结构的转场。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "NTD-WP-27",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "NTD-WP-19",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "ntd-route-13-segment-01",
+          "from": "NTD-WP-27",
+          "to": "NTD-WP-19"
+        }
+      ]
+    }
+  ]
+}

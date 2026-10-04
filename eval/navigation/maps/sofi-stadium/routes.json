@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "map_id": "sofi-stadium",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "custom_maps/maps/inter_map/sofi_stadium/routes.json",
+    "sha256": "9304d1873fe9b55cb06293a0c9d9743f532c850c9c3d4b3ec924deb860d708a7"
+  },
+  "quality_status": "semantically_reviewed_owner_approved",
+  "upload_recommendation": "routes_ready_for_runtime_validation",
+  "route_count": 6,
+  "routes": [
+    {
+      "id": "sofi-route-02",
+      "title": "Upper Concourse to the Terrace Suites",
+      "title_local": "Upper Concourse to the Terrace Suites",
+      "title_zh": "四层看台到露台套房",
+      "prompt_language": "en-US",
+      "prompt_local": "When invited to the Terrace Suite between games, start from Section 414, confirm the floor direction via Terrace Lounge and Section 514, and finally arrive at Terrace Suites.",
+      "prompt_zh": "比赛间歇受邀前往露台套房时，从 Section 414 出发，经 Terrace Lounge 和 Section 514 确认楼层方向，最终抵达 Terrace Suites。",
+      "difficulty": "medium",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "SOFI-WP-16",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SOFI-WP-08",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SOFI-WP-15",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SOFI-WP-23",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "sofi-route-02-segment-01",
+          "from": "SOFI-WP-16",
+          "to": "SOFI-WP-08"
+        },
+        {
+          "id": "sofi-route-02-segment-02",
+          "from": "SOFI-WP-08",
+          "to": "SOFI-WP-15"
+        },
+        {
+          "id": "sofi-route-02-segment-03",
+          "from": "SOFI-WP-15",
+          "to": "SOFI-WP-23"
+        }
+      ]
+    },
+    {
+      "id": "sofi-route-05",
+      "title": "Meeting Friends in the Lower VIP Sections",
+      "title_local": "Meeting Friends in the Lower VIP Sections",
+      "title_zh": "低层贵宾区会友",
+      "prompt_language": "en-US",
+      "prompt_local": "When you need to find friends in the lower VIP stands, start from VIP Section 246, pass by VIP Section 219, and finally go to Section 233.",
+      "prompt_zh": "需要在低层贵宾看台寻找朋友时，从 VIP Section 246 出发，经 VIP Section 219，最后到 Section 233。",
+      "difficulty": "medium",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "SOFI-WP-22",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SOFI-WP-18",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SOFI-WP-11",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "sofi-route-05-segment-01",
+          "from": "SOFI-WP-22",
+          "to": "SOFI-WP-18"
+        },
+        {
+          "id": "sofi-route-05-segment-02",
+          "from": "SOFI-WP-18",
+          "to": "SOFI-WP-11"
+        }
+      ]
+    },
+    {
+      "id": "sofi-route-08",
+      "title": "VIP Lobby to the Upper Seating",
+      "title_local": "VIP Lobby to the Upper Seating",
+      "title_zh": "贵宾大厅到四层看台",
+      "prompt_language": "en-US",
+      "prompt_local": "When going from the VIP lobby to the stand where your friends are, start from Ticketmaster VIP Lobby, pass through Section 350 and Section 444, and finally arrive at Ticketmaster Terrace.",
+      "prompt_zh": "从贵宾大厅前往朋友所在看台时，从 Ticketmaster VIP Lobby 出发，经 Section 350 和 Section 444，最终抵达 Ticketmaster Terrace。",
+      "difficulty": "medium",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "SOFI-WP-05",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SOFI-WP-21",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SOFI-WP-20",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SOFI-WP-07",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "sofi-route-08-segment-01",
+          "from": "SOFI-WP-05",
+          "to": "SOFI-WP-21"
+        },
+        {
+          "id": "sofi-route-08-segment-02",
+          "from": "SOFI-WP-21",
+          "to": "SOFI-WP-20"
+        },
+        {
+          "id": "sofi-route-08-segment-03",
+          "from": "SOFI-WP-20",
+          "to": "SOFI-WP-07"
+        }
+      ]
+    },
+    {
+      "id": "sofi-route-13",
+      "title": "Purple Zone Parking to the Plaza",
+      "title_local": "Purple Zone Parking to the Plaza",
+      "title_zh": "紫区停车后到广场",
+      "prompt_language": "en-US",
+      "prompt_local": "When re-entering after meeting friends outside the venue, go from Hyundai Purple Zone through Lake Park, enter via Entry 8, and finally arrive at American Airlines Plaza.",
+      "prompt_zh": "在场外与朋友会合后再入场时，从 Hyundai Purple Zone 穿过 Lake Park，经 Entry 8 入场，最终到 American Airlines Plaza。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "SOFI-WP-26",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SOFI-WP-25",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SOFI-WP-01",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SOFI-WP-04",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "sofi-route-13-segment-01",
+          "from": "SOFI-WP-26",
+          "to": "SOFI-WP-25"
+        },
+        {
+          "id": "sofi-route-13-segment-02",
+          "from": "SOFI-WP-25",
+          "to": "SOFI-WP-01"
+        },
+        {
+          "id": "sofi-route-13-segment-03",
+          "from": "SOFI-WP-01",
+          "to": "SOFI-WP-04"
+        }
+      ]
+    },
+    {
+      "id": "sofi-route-14",
+      "title": "North Parking to the Upper Seating",
+      "title_local": "North Parking to the Upper Seating",
+      "title_zh": "北停车场到四层看台",
+      "prompt_language": "en-US",
+      "prompt_local": "When traveling from the north parking lot to upper level seats, start at Parking Lot N, go through NFL Los Angeles and Entry 5, and then go to Section 430.",
+      "prompt_zh": "从北停车场前往高层座位时，从 Parking Lot N 出发，经 NFL Los Angeles 和 Entry 5，再到 Section 430。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "SOFI-WP-24",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SOFI-WP-03",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SOFI-WP-02",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SOFI-WP-09",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "sofi-route-14-segment-01",
+          "from": "SOFI-WP-24",
+          "to": "SOFI-WP-03"
+        },
+        {
+          "id": "sofi-route-14-segment-02",
+          "from": "SOFI-WP-03",
+          "to": "SOFI-WP-02"
+        },
+        {
+          "id": "sofi-route-14-segment-03",
+          "from": "SOFI-WP-02",
+          "to": "SOFI-WP-09"
+        }
+      ]
+    },
+    {
+      "id": "sofi-route-15",
+      "title": "Cross-Level Seat Change and Lounge Visit",
+      "title_local": "Cross-Level Seat Change and Lounge Visit",
+      "title_zh": "西侧看台跨层换座并前往酒廊",
+      "prompt_language": "en-US",
+      "prompt_local": "Move from Section 400 to the third-level seating on the opposite side, then meet your friends in the lounge. Start at Section 400, pass through Entry 8 and Section 308, continue to Section 337, and finish at Terrace Lounge.",
+      "prompt_zh": "需要从 Section 400 前往另一侧三层座位，并在换座后到酒廊与朋友会合：从 Section 400 出发，经 Entry 8 和 Section 308 到达 Section 337，最后前往 Terrace Lounge。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "SOFI-WP-12",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "SOFI-WP-01",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SOFI-WP-13",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SOFI-WP-10",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "SOFI-WP-08",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "sofi-route-15-segment-01",
+          "from": "SOFI-WP-12",
+          "to": "SOFI-WP-01"
+        },
+        {
+          "id": "sofi-route-15-segment-02",
+          "from": "SOFI-WP-01",
+          "to": "SOFI-WP-13"
+        },
+        {
+          "id": "sofi-route-15-segment-03",
+          "from": "SOFI-WP-13",
+          "to": "SOFI-WP-10"
+        },
+        {
+          "id": "sofi-route-15-segment-04",
+          "from": "SOFI-WP-10",
+          "to": "SOFI-WP-08"
+        }
+      ]
+    }
+  ]
+}

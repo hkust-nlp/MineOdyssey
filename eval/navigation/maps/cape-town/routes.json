@@ -1,0 +1,717 @@
+{
+  "schema_version": 1,
+  "map_id": "cape-town",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/cape-town-current-15-routes.json",
+    "sha256": "599e13e491990e2c408969e1fe05e159dd8ed112be741d6a1ed49f689ee6b7cc"
+  },
+  "quality_status": "reviewed_routes",
+  "route_count": 9,
+  "routes": [
+    {
+      "id": "cape-current-route-01",
+      "title": "Bo-Kaap 住客的烹饪与街区散步",
+      "prompt_zh": "你是住在 Bo-Kaap 的游客。从 Rouge On Rose Boutique Hotel 出发，经过街区旅馆和 Cape Malay 烹饪体验点，再沿本地店铺集中的街段走到 Bo-Kaap Village Lodge。请从「Rouge On Rose Boutique Hotel」走到「Bo-Kaap Village Lodge」。",
+      "persona_zh": "住在 Green Point、预约了 Cape Malay 烹饪体验的游客",
+      "topic_zh": "Bo-Kaap 住客的烹饪与清真寺访问",
+      "purpose_zh": "从 Newport House 前往 Bo Kaap Cooking Tour，体验结束后走到 Mosque Shafee 了解社区信仰空间",
+      "actor": "住在 Green Point、预约了 Cape Malay 烹饪体验的游客",
+      "intent": "从 Newport House 前往 Bo Kaap Cooking Tour，体验结束后走到 Mosque Shafee 了解社区信仰空间",
+      "theme": "Bo-Kaap 住客的烹饪与清真寺访问",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Newport House 前往 Bo Kaap Cooking Tour，体验结束后走到 Mosque Shafee 了解社区信仰空间",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "CPT-WP-018",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "CPT-WP-016",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-010",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-013",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-007",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-004",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "cape-current-route-01-segment-01",
+          "from": "CPT-WP-018",
+          "to": "CPT-WP-016"
+        },
+        {
+          "id": "cape-current-route-01-segment-02",
+          "from": "CPT-WP-016",
+          "to": "CPT-WP-010"
+        },
+        {
+          "id": "cape-current-route-01-segment-03",
+          "from": "CPT-WP-010",
+          "to": "CPT-WP-013"
+        },
+        {
+          "id": "cape-current-route-01-segment-04",
+          "from": "CPT-WP-013",
+          "to": "CPT-WP-007"
+        },
+        {
+          "id": "cape-current-route-01-segment-05",
+          "from": "CPT-WP-007",
+          "to": "CPT-WP-004"
+        }
+      ]
+    },
+    {
+      "id": "cape-current-route-11",
+      "title": "Bo-Kaap 社区手作与清真寺",
+      "prompt_zh": "作为想尊重了解 Cape Malay 社区的文化游客，你今天打算从 Moxie Jewellery 的社区手作出发，依次走访 Jamia Masjid、Masjid Boorhaanol Islam 与 Mosque Shafee。路线从「Moxie Jewellery」开始，在「Mosque Shafee」结束，围绕「Bo-Kaap 社区手作与清真寺」展开。",
+      "persona_zh": "想尊重了解 Cape Malay 社区的文化游客",
+      "topic_zh": "Bo-Kaap 社区手作与清真寺",
+      "purpose_zh": "从 Moxie Jewellery 的社区手作出发，依次走访 Jamia Masjid、Masjid Boorhaanol Islam 与 Mosque Shafee",
+      "actor": "想尊重了解 Cape Malay 社区的文化游客",
+      "intent": "从 Moxie Jewellery 的社区手作出发，依次走访 Jamia Masjid、Masjid Boorhaanol Islam 与 Mosque Shafee",
+      "theme": "Bo-Kaap 社区手作与清真寺",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Moxie Jewellery 的社区手作出发，依次走访 Jamia Masjid、Masjid Boorhaanol Islam 与 Mosque Shafee",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "CPT-WP-034",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "CPT-WP-027",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-008",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-001",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "cape-current-route-11-segment-01",
+          "from": "CPT-WP-034",
+          "to": "CPT-WP-027"
+        },
+        {
+          "id": "cape-current-route-11-segment-02",
+          "from": "CPT-WP-027",
+          "to": "CPT-WP-008"
+        },
+        {
+          "id": "cape-current-route-11-segment-03",
+          "from": "CPT-WP-008",
+          "to": "CPT-WP-001"
+        }
+      ]
+    },
+    {
+      "id": "cape-current-route-02",
+      "title": "市中心到 Bo-Kaap 的饮食街",
+      "prompt_zh": "你是想体验 Cape Malay 饮食的游客。从市中心咖啡与餐饮区进入 Bo-Kaap，经过街区旅馆和烹饪体验点，最后在 Mosque Shafee 一带结束。请从「Shift Espresso Bar | Strand Street」走到「Mosque Shafee」。",
+      "persona_zh": "住在 Waterfront、想体验 Cape Malay 饮食的游客",
+      "topic_zh": "Waterfront 住客进入 Bo-Kaap",
+      "purpose_zh": "从 Garden Court 出发，经 Rouge on Rose 和 Purple Pearl 进入 Bo-Kaap，最后到 Masjid Boorhaanol Islam",
+      "actor": "住在 Waterfront、想体验 Cape Malay 饮食的游客",
+      "intent": "从 Garden Court 出发，经 Rouge on Rose 和 Purple Pearl 进入 Bo-Kaap，最后到 Masjid Boorhaanol Islam",
+      "theme": "Waterfront 住客进入 Bo-Kaap",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Garden Court 出发，经 Rouge on Rose 和 Purple Pearl 进入 Bo-Kaap，最后到 Masjid Boorhaanol Islam",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "CPT-WP-068",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "CPT-WP-058",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-019",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-018",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-016",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-010",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-013",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-001",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "cape-current-route-02-segment-01",
+          "from": "CPT-WP-068",
+          "to": "CPT-WP-058"
+        },
+        {
+          "id": "cape-current-route-02-segment-02",
+          "from": "CPT-WP-058",
+          "to": "CPT-WP-019"
+        },
+        {
+          "id": "cape-current-route-02-segment-03",
+          "from": "CPT-WP-019",
+          "to": "CPT-WP-018"
+        },
+        {
+          "id": "cape-current-route-02-segment-04",
+          "from": "CPT-WP-018",
+          "to": "CPT-WP-016"
+        },
+        {
+          "id": "cape-current-route-02-segment-05",
+          "from": "CPT-WP-016",
+          "to": "CPT-WP-010"
+        },
+        {
+          "id": "cape-current-route-02-segment-06",
+          "from": "CPT-WP-010",
+          "to": "CPT-WP-013"
+        },
+        {
+          "id": "cape-current-route-02-segment-07",
+          "from": "CPT-WP-013",
+          "to": "CPT-WP-001"
+        }
+      ]
+    },
+    {
+      "id": "cape-current-route-03",
+      "title": "Jamia Masjid 周边设计街区",
+      "prompt_zh": "你是在市中心工作的设计从业者。从 VINK Multi- Services 出发，沿材料与设计商店集中的街段走到 Jamia Masjid，再到附近商户结束。请从「VINK Multi- Services」走到「BURR & MUIR」。",
+      "persona_zh": "在市中心工作的设计从业者",
+      "topic_zh": "Jamia Masjid 周边设计街区",
+      "purpose_zh": "从市中心服务商户出发，经过 Jamia Masjid，再到附近的设计商店挑选材料",
+      "actor": "在市中心工作的设计从业者",
+      "intent": "从市中心服务商户出发，经过 Jamia Masjid，再到附近的设计商店挑选材料",
+      "theme": "Jamia Masjid 周边设计街区",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从市中心服务商户出发，经过 Jamia Masjid，再到附近的设计商店挑选材料",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "CPT-WP-023",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "CPT-WP-061",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-025",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-027",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-063",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-064",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "cape-current-route-03-segment-01",
+          "from": "CPT-WP-023",
+          "to": "CPT-WP-061"
+        },
+        {
+          "id": "cape-current-route-03-segment-02",
+          "from": "CPT-WP-061",
+          "to": "CPT-WP-025"
+        },
+        {
+          "id": "cape-current-route-03-segment-03",
+          "from": "CPT-WP-025",
+          "to": "CPT-WP-027"
+        },
+        {
+          "id": "cape-current-route-03-segment-04",
+          "from": "CPT-WP-027",
+          "to": "CPT-WP-063"
+        },
+        {
+          "id": "cape-current-route-03-segment-05",
+          "from": "CPT-WP-063",
+          "to": "CPT-WP-064"
+        }
+      ]
+    },
+    {
+      "id": "cape-current-route-06",
+      "title": "Victoria Junction、Prestwich 记忆与 Rosebank",
+      "prompt_zh": "你是学习开普敦城市史的大学生。今天想从 Victoria Junction 前往 Prestwich Memorial 了解城市记忆，最后回到 Rosebank College 整理记录。请从「Victoria Junction」出发，最后到「Rosebank College」；这段行程的主题是「Victoria Junction、Prestwich 记忆与 Rosebank」。",
+      "persona_zh": "学习开普敦城市史的大学生",
+      "topic_zh": "Victoria Junction、Prestwich 记忆与 Rosebank",
+      "purpose_zh": "从 Victoria Junction 前往 Prestwich Memorial 了解城市记忆，最后回到 Rosebank College 整理记录",
+      "actor": "学习开普敦城市史的大学生",
+      "intent": "从 Victoria Junction 前往 Prestwich Memorial 了解城市记忆，最后回到 Rosebank College 整理记录",
+      "theme": "Victoria Junction、Prestwich 记忆与 Rosebank",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "verified_edges_recombined_needs_full_route_retest",
+      "validation_status": "verified_edges_recombined_needs_full_route_retest",
+      "validation_note_zh": "相邻点均来自现有有向边；新组合仍需整线实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Victoria Junction 前往 Prestwich Memorial 了解城市记忆，最后回到 Rosebank College 整理记录",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "verified_edges_recombined_needs_full_route_retest",
+      "points": [
+        {
+          "waypoint_id": "CPT-WP-032",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "CPT-WP-077",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-075",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "cape-current-route-06-segment-01",
+          "from": "CPT-WP-032",
+          "to": "CPT-WP-077"
+        },
+        {
+          "id": "cape-current-route-06-segment-02",
+          "from": "CPT-WP-077",
+          "to": "CPT-WP-075"
+        }
+      ]
+    },
+    {
+      "id": "cape-current-route-09",
+      "title": "医疗物资、青年项目与学生社区",
+      "prompt_zh": "作为参加 Salesian 青年项目的学生志愿者，你今天打算先领取项目所需的医疗物资，再到 Salesian Institute 服务，经过 Prestwich Memorial 后回到 Rosebank College。路线从「Intermed Medical Suppliers」开始，在「Rosebank College」结束，围绕「医疗物资、青年项目与学生社区」展开。",
+      "persona_zh": "参加 Salesian 青年项目的学生志愿者",
+      "topic_zh": "医疗物资、青年项目与学生社区",
+      "purpose_zh": "先领取项目所需的医疗物资，再到 Salesian Institute 服务，经过 Prestwich Memorial 后回到 Rosebank College",
+      "actor": "参加 Salesian 青年项目的学生志愿者",
+      "intent": "先领取项目所需的医疗物资，再到 Salesian Institute 服务，经过 Prestwich Memorial 后回到 Rosebank College",
+      "theme": "医疗物资、青年项目与学生社区",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "verified_edges_recombined_needs_full_route_retest",
+      "validation_status": "verified_edges_recombined_needs_full_route_retest",
+      "validation_note_zh": "相邻点均来自现有有向边；新组合仍需整线实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "先领取项目所需的医疗物资，再到 Salesian Institute 服务，经过 Prestwich Memorial 后回到 Rosebank College",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "verified_edges_recombined_needs_full_route_retest",
+      "points": [
+        {
+          "waypoint_id": "CPT-WP-030",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "CPT-WP-051",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-077",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-075",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "cape-current-route-09-segment-01",
+          "from": "CPT-WP-030",
+          "to": "CPT-WP-051"
+        },
+        {
+          "id": "cape-current-route-09-segment-02",
+          "from": "CPT-WP-051",
+          "to": "CPT-WP-077"
+        },
+        {
+          "id": "cape-current-route-09-segment-03",
+          "from": "CPT-WP-077",
+          "to": "CPT-WP-075"
+        }
+      ]
+    },
+    {
+      "id": "cape-current-route-13",
+      "title": "State House 与荷兰领事馆办事",
+      "prompt_zh": "你是第一次来市中心办理事务的访客，今天要完成「State House 与荷兰领事馆办事」：先在 Pool Caffe 整理文件，再到 State House，最后前往荷兰领事馆完成预约。请从「Pool Caffe」走到「Dutch Consulate General」。",
+      "persona_zh": "第一次来市中心办理事务的访客",
+      "topic_zh": "State House 与荷兰领事馆办事",
+      "purpose_zh": "先在 Pool Caffe 整理文件，再到 State House，最后前往荷兰领事馆完成预约",
+      "actor": "第一次来市中心办理事务的访客",
+      "intent": "先在 Pool Caffe 整理文件，再到 State House，最后前往荷兰领事馆完成预约",
+      "theme": "State House 与荷兰领事馆办事",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "先在 Pool Caffe 整理文件，再到 State House，最后前往荷兰领事馆完成预约",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "CPT-WP-031",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "CPT-WP-069",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-055",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "cape-current-route-13-segment-01",
+          "from": "CPT-WP-031",
+          "to": "CPT-WP-069"
+        },
+        {
+          "id": "cape-current-route-13-segment-02",
+          "from": "CPT-WP-069",
+          "to": "CPT-WP-055"
+        }
+      ]
+    },
+    {
+      "id": "cape-current-route-14",
+      "title": "Victoria Junction 创意零售街区",
+      "prompt_zh": "你是寻找本地设计作品的游客。从 Victoria Junction 出发，经过珠宝、设计与时装商店，最后到 Pick n Pay Express 补充日用品。请从「Victoria Junction」走到「Pick n Pay Express」。",
+      "persona_zh": "寻找开普敦本地设计作品的游客",
+      "topic_zh": "Chandler House、Victoria Junction 与本地珠宝",
+      "purpose_zh": "从 Chandler House 出发，经 Victoria Junction 走到 Moxie Jewellery 挑选本地作品",
+      "actor": "寻找开普敦本地设计作品的游客",
+      "intent": "从 Chandler House 出发，经 Victoria Junction 走到 Moxie Jewellery 挑选本地作品",
+      "theme": "Chandler House、Victoria Junction 与本地珠宝",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Chandler House 出发，经 Victoria Junction 走到 Moxie Jewellery 挑选本地作品",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "CPT-WP-032",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "CPT-WP-028",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-037",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-041",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-046",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-049",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "cape-current-route-14-segment-01",
+          "from": "CPT-WP-032",
+          "to": "CPT-WP-028"
+        },
+        {
+          "id": "cape-current-route-14-segment-02",
+          "from": "CPT-WP-028",
+          "to": "CPT-WP-037"
+        },
+        {
+          "id": "cape-current-route-14-segment-03",
+          "from": "CPT-WP-037",
+          "to": "CPT-WP-041"
+        },
+        {
+          "id": "cape-current-route-14-segment-04",
+          "from": "CPT-WP-041",
+          "to": "CPT-WP-046"
+        },
+        {
+          "id": "cape-current-route-14-segment-05",
+          "from": "CPT-WP-046",
+          "to": "CPT-WP-049"
+        }
+      ]
+    },
+    {
+      "id": "cape-current-route-12",
+      "title": "挑礼物、检查车辆、接狗后返回 Bo-Kaap",
+      "prompt_zh": "你是住在 Bo-Kaap、替朋友照看宠物的访客。今天想从 Cape Diamonds 取礼物，顺路检查车辆并到宠物日托接狗，最后回到 Bo-Kaap Village Lodge。请从「Cape Diamonds」出发，最后到「Bo-Kaap Village Lodge」；这段行程的主题是「挑礼物、检查车辆、接狗后返回 Bo-Kaap」。",
+      "persona_zh": "住在 Bo-Kaap、替朋友照看宠物的访客",
+      "topic_zh": "挑礼物、检查车辆、接狗后返回 Bo-Kaap",
+      "purpose_zh": "从 Cape Diamonds 取礼物，顺路检查车辆并到宠物日托接狗，最后回到 Bo-Kaap Village Lodge",
+      "actor": "住在 Bo-Kaap、替朋友照看宠物的访客",
+      "intent": "从 Cape Diamonds 取礼物，顺路检查车辆并到宠物日托接狗，最后回到 Bo-Kaap Village Lodge",
+      "theme": "挑礼物、检查车辆、接狗后返回 Bo-Kaap",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Cape Diamonds 取礼物，顺路检查车辆并到宠物日托接狗，最后回到 Bo-Kaap Village Lodge",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "CPT-WP-028",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "CPT-WP-053",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-019",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "CPT-WP-004",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "cape-current-route-12-segment-01",
+          "from": "CPT-WP-028",
+          "to": "CPT-WP-053"
+        },
+        {
+          "id": "cape-current-route-12-segment-02",
+          "from": "CPT-WP-053",
+          "to": "CPT-WP-019"
+        },
+        {
+          "id": "cape-current-route-12-segment-03",
+          "from": "CPT-WP-019",
+          "to": "CPT-WP-004"
+        }
+      ]
+    }
+  ],
+  "upload_recommendation": "waypoints_and_routes_ready"
+}

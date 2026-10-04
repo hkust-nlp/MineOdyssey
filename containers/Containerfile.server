@@ -1,0 +1,47 @@
+FROM ubuntu:22.04
+
+# 设置非交互模式
+ENV DEBIAN_FRONTEND=noninteractive
+
+# 安装 Java 21 和构建工具
+RUN apt-get update && apt-get install -y \
+    openjdk-21-jdk \
+    wget \
+    curl \
+    git \
+    gcc \
+    make \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# 编译安装 mcrcon（RCON 客户端工具）
+RUN cd /tmp \
+    && git clone https://github.com/Tiiffi/mcrcon.git \
+    && cd mcrcon \
+    && make \
+    && make install \
+    && cd / \
+    && rm -rf /tmp/mcrcon
+
+# 创建启动脚本（放到 /app 避免被挂载覆盖）
+COPY scripts/entrypoints/server-entrypoint.sh /app/entrypoint.sh
+RUN chmod +x /app/entrypoint.sh
+
+# 工作目录
+WORKDIR /server
+
+# 暴露端口
+EXPOSE 25565
+
+# 内存配置（通过环境变量，默认值）
+ENV MEMORY_MIN=2G
+ENV MEMORY_MAX=8G
+
+# 版本配置（通过环境变量，默认值）
+ENV MC_VERSION=1.21.1
+ENV NEOFORGE_VERSION=21.1.217
+
+# 挂载点说明：
+# -v ./server-data:/server       (世界存档、配置文件、libraries、run.sh)
+# -v ./server-mods:/server/mods  (服务端 Mod，可选)
+
+CMD ["/app/entrypoint.sh"]

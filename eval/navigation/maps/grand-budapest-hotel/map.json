@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "map_id": "grand-budapest-hotel",
+  "display_name": "Grand Budapest Hotel",
+  "environment": "indoor",
+  "source": {
+    "repository": "anonymous/source",
+    "provenance": {
+      "kind": "git-lfs-world-materialized-as-local-source-archive",
+      "git_commit": "0000000000000000000000000000000000000000",
+      "git_path": "custom_maps/maps/inter_map/grand_budapest_hotel"
+    },
+    "asset_name": "grand_budapest_hotel.zip",
+    "archive_path": "grand_budapest_hotel.zip",
+    "archive_bytes": 17135765,
+    "archive_sha256": "f3147c1df0588aed7c24a183e1c207cffb8fa9324ff208e59dc801954790e64d",
+    "world_root": "grand_budapest_hotel"
+  },
+  "world": {
+    "source_version": {
+      "version_name": "1.21.1",
+      "data_version": 3955
+    },
+    "minecraft_version": "1.21.11",
+    "version_name": "1.21.11",
+    "data_version": 4671,
+    "expected_source_fingerprint": "0d644d7ae086a4a47b208dec3690f8287fdc8cff0e93de43217bebe9bfec7683",
+    "expected_prepared_fingerprint": "6f56f128020b850510af15aac085a705eef40e899b8a8c78d2b8bc1cdfb1ca5b",
+    "preparation": {
+      "id": "minecraft-server-force-upgrade-1.21.11-v1",
+      "runtime_profile": "minecraft-1.21.11",
+      "server_arguments": [
+        "--forceUpgrade",
+        "--eraseCache",
+        "nogui"
+      ],
+      "reason": "Preserve the exact source archive, then upgrade one cloned world with the pinned Minecraft 1.21.11 / NeoForge 21.11.44 server and save it as the immutable prepared snapshot."
+    }
+  },
+  "license": {
+    "scope": "evaluation-only source archive",
+    "redistribution": "not granted by this manifest",
+    "note": "Keep the source ZIP and extracted source world outside Git; preserve the upstream Git provenance and any bundled terms."
+  }
+}

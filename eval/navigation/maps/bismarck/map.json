@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "map_id": "bismarck",
+  "display_name": "Bismarck",
+  "environment": "indoor",
+  "source": {
+    "repository": "anonymous/source",
+    "provenance": {
+      "kind": "git-lfs-world-materialized-as-local-source-archive",
+      "git_commit": "0000000000000000000000000000000000000000",
+      "git_path": "custom_maps/maps/inter_map/bismarck"
+    },
+    "asset_name": "bismarck.zip",
+    "archive_path": "bismarck.zip",
+    "archive_bytes": 4305793,
+    "archive_sha256": "f85aa6f572f2552e20e81e3efc24cc06d0584f69ea00ee243aa0021fd67a1559",
+    "world_root": "bismarck"
+  },
+  "world": {
+    "source_version": {
+      "version_name": "1.12.2",
+      "data_version": 1343
+    },
+    "minecraft_version": "1.21.11",
+    "version_name": "1.21.11",
+    "data_version": 4671,
+    "expected_source_fingerprint": "49e328b4efcacb41f0e928d47c2dd1bf51b2e2ad5915a9444310d200c0027a35",
+    "expected_prepared_fingerprint": "4cb165bf9c83ee7c9c487ff51f5a27da32d66c5007bc956399638cbb32fda4c9",
+    "preparation": {
+      "id": "minecraft-server-force-upgrade-1.21.11-v1",
+      "runtime_profile": "minecraft-1.21.11",
+      "server_arguments": [
+        "--forceUpgrade",
+        "--eraseCache",
+        "nogui"
+      ],
+      "reason": "Preserve the exact source archive, then upgrade one cloned world with the pinned Minecraft 1.21.11 / NeoForge 21.11.44 server and save it as the immutable prepared snapshot."
+    }
+  },
+  "license": {
+    "scope": "evaluation-only source archive",
+    "redistribution": "not granted by this manifest",
+    "note": "Keep the source ZIP and extracted source world outside Git; preserve the upstream Git provenance and any bundled terms."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "map_id": "plaza-hotel",
+  "display_name": "Plaza Hotel",
+  "out_of_bounds": {
+    "at_or_below_y": -60,
+    "duration_sec": 15
+  },
+  "environment": "indoor",
+  "source": {
+    "repository": "anonymous/source",
+    "provenance": {
+      "kind": "git-lfs-world-materialized-as-local-source-archive",
+      "git_commit": "0000000000000000000000000000000000000000",
+      "git_path": "custom_maps/maps/inter_map/plaza_hotel"
+    },
+    "asset_name": "plaza_hotel.zip",
+    "archive_path": "plaza_hotel.zip",
+    "archive_bytes": 3540949,
+    "archive_sha256": "5109336c286575082c4d38efb92146a032002affa64c06c94da6f00d73debeef",
+    "world_root": "plaza_hotel"
+  },
+  "world": {
+    "source_version": {
+      "version_name": "1.21.1",
+      "data_version": 3955
+    },
+    "minecraft_version": "1.21.11",
+    "version_name": "1.21.11",
+    "data_version": 4671,
+    "expected_source_fingerprint": "c3b7ce5d38600eebd7167d92836f59f0211b930767ea1a52651bafefc19cac6e",
+    "expected_prepared_fingerprint": "38c617d1d4b026c272b053f7e2b879f1b357f0ec8786d093fc594c479efd7887",
+    "preparation": {
+      "id": "minecraft-server-force-upgrade-1.21.11-v1",
+      "runtime_profile": "minecraft-1.21.11",
+      "server_arguments": [
+        "--forceUpgrade",
+        "--eraseCache",
+        "nogui"
+      ],
+      "reason": "Preserve the exact source archive, then upgrade one cloned world with the pinned Minecraft 1.21.11 / NeoForge 21.11.44 server and save it as the immutable prepared snapshot."
+    }
+  },
+  "license": {
+    "scope": "evaluation-only source archive",
+    "redistribution": "not granted by this manifest",
+    "note": "Keep the source ZIP and extracted source world outside Git; preserve the upstream Git provenance and any bundled terms."
+  }
+}

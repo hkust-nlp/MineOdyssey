@@ -1,0 +1,894 @@
+{
+  "schema_version": 1,
+  "map_id": "white-house",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "custom_maps/maps/inter_map/white_house/waypoints.json",
+    "sha256": "6872f85acc3612d62b5dd04c6012098f17c63aa7de514714ead25e142e37ac91"
+  },
+  "dimension": "overworld",
+  "waypoint_count": 40,
+  "waypoints": [
+    {
+      "id": "WHI-WP-01",
+      "name": "Greenhouse",
+      "position": {
+        "x": -15,
+        "y": 94,
+        "z": 128
+      },
+      "route_ids": [],
+      "initials": "G",
+      "color": 12,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-02",
+      "name": "Solarium",
+      "position": {
+        "x": 3,
+        "y": 94,
+        "z": 159
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 8,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-03",
+      "name": "Truman Balcony",
+      "position": {
+        "x": 3,
+        "y": 87,
+        "z": 160
+      },
+      "route_ids": [],
+      "initials": "T",
+      "color": 3,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-04",
+      "name": "President's Bedroom",
+      "position": {
+        "x": -14,
+        "y": 87,
+        "z": 149
+      },
+      "route_ids": [],
+      "initials": "M",
+      "color": 10,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-05",
+      "name": "East Bedroom",
+      "position": {
+        "x": 9,
+        "y": 87,
+        "z": 128
+      },
+      "route_ids": [],
+      "initials": "E",
+      "color": 8,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-06",
+      "name": "West Bedroom",
+      "position": {
+        "x": -3,
+        "y": 87,
+        "z": 130
+      },
+      "route_ids": [],
+      "initials": "E",
+      "color": 6,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-07",
+      "name": "Queen's Bedroom",
+      "position": {
+        "x": 19,
+        "y": 87,
+        "z": 130
+      },
+      "route_ids": [],
+      "initials": "Q",
+      "color": 15,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-08",
+      "name": "Basketball Court",
+      "position": {
+        "x": -57,
+        "y": 74,
+        "z": 298
+      },
+      "route_ids": [],
+      "initials": "B",
+      "color": 8,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-09",
+      "name": "Swimming Pool",
+      "position": {
+        "x": -93,
+        "y": 74,
+        "z": 198
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 9,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-10",
+      "name": "Graphics and Calligraphy Office",
+      "position": {
+        "x": 84,
+        "y": 80,
+        "z": 140
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 4,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-11",
+      "name": "First Lady's Office",
+      "position": {
+        "x": 77,
+        "y": 80,
+        "z": 164
+      },
+      "route_ids": [],
+      "initials": "F",
+      "color": 9,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-12",
+      "name": "East Garden Room",
+      "position": {
+        "x": 70,
+        "y": 75,
+        "z": 151
+      },
+      "route_ids": [],
+      "initials": "G",
+      "color": 15,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-13",
+      "name": "White House Family Theater",
+      "position": {
+        "x": 52,
+        "y": 75,
+        "z": 143
+      },
+      "route_ids": [],
+      "initials": "F",
+      "color": 15,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-14",
+      "name": "Jacqueline Kennedy Garden",
+      "position": {
+        "x": 47,
+        "y": 75,
+        "z": 161
+      },
+      "route_ids": [],
+      "initials": "K",
+      "color": 11,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-15",
+      "name": "Presidential Emergency Operations Center (PEOC)",
+      "position": {
+        "x": 75,
+        "y": 17,
+        "z": 134
+      },
+      "route_ids": [],
+      "initials": "P",
+      "color": 1,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-16",
+      "name": "Chief of Staff's Office",
+      "position": {
+        "x": -98,
+        "y": 75,
+        "z": 172
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 0,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-17",
+      "name": "Vice President's Office",
+      "position": {
+        "x": -100,
+        "y": 75,
+        "z": 159
+      },
+      "route_ids": [],
+      "initials": "V",
+      "color": 8,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-18",
+      "name": "Press Corps Office",
+      "position": {
+        "x": -34,
+        "y": 75,
+        "z": 141
+      },
+      "route_ids": [],
+      "initials": "P",
+      "color": 0,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-19",
+      "name": "Press Briefing Room",
+      "position": {
+        "x": -41,
+        "y": 75,
+        "z": 142
+      },
+      "route_ids": [],
+      "initials": "P",
+      "color": 13,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-20",
+      "name": "Press Staff Office",
+      "position": {
+        "x": -61,
+        "y": 75,
+        "z": 141
+      },
+      "route_ids": [],
+      "initials": "P",
+      "color": 6,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-21",
+      "name": "Rose Garden",
+      "position": {
+        "x": -58,
+        "y": 75,
+        "z": 162
+      },
+      "route_ids": [],
+      "initials": "R",
+      "color": 7,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-22",
+      "name": "Roosevelt Room",
+      "position": {
+        "x": -83,
+        "y": 76,
+        "z": 161
+      },
+      "route_ids": [],
+      "initials": "R",
+      "color": 12,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-23",
+      "name": "Cabinet Room",
+      "position": {
+        "x": -69,
+        "y": 76,
+        "z": 156
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 9,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-24",
+      "name": "Oval Office",
+      "position": {
+        "x": -70,
+        "y": 75,
+        "z": 170
+      },
+      "route_ids": [],
+      "initials": "O",
+      "color": 12,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-25",
+      "name": "Workout Room",
+      "position": {
+        "x": 21,
+        "y": 94,
+        "z": 133
+      },
+      "route_ids": [],
+      "initials": "W",
+      "color": 11,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-26",
+      "name": "Music Room",
+      "position": {
+        "x": 22,
+        "y": 94,
+        "z": 139
+      },
+      "route_ids": [],
+      "initials": "M",
+      "color": 6,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-27",
+      "name": "Sun Room",
+      "position": {
+        "x": 3,
+        "y": 94,
+        "z": 152
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 11,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-28",
+      "name": "Lincoln Bedroom",
+      "position": {
+        "x": 20,
+        "y": 87,
+        "z": 145
+      },
+      "route_ids": [],
+      "initials": "L",
+      "color": 7,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-29",
+      "name": "Treaty Room",
+      "position": {
+        "x": 12,
+        "y": 87,
+        "z": 145
+      },
+      "route_ids": [],
+      "initials": "T",
+      "color": 15,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-30",
+      "name": "Yellow Oval Room",
+      "position": {
+        "x": 3,
+        "y": 87,
+        "z": 151
+      },
+      "route_ids": [],
+      "initials": "Y",
+      "color": 7,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-31",
+      "name": "East Room",
+      "position": {
+        "x": 22,
+        "y": 80,
+        "z": 140
+      },
+      "route_ids": [],
+      "initials": "E",
+      "color": 4,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-32",
+      "name": "State Dining Room",
+      "position": {
+        "x": -12,
+        "y": 80,
+        "z": 141
+      },
+      "route_ids": [],
+      "initials": "S",
+      "color": 8,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-33",
+      "name": "Family Dining Room",
+      "position": {
+        "x": -12,
+        "y": 80,
+        "z": 137
+      },
+      "route_ids": [],
+      "initials": "F",
+      "color": 12,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-34",
+      "name": "Green Room",
+      "position": {
+        "x": 10,
+        "y": 80,
+        "z": 150
+      },
+      "route_ids": [],
+      "initials": "G",
+      "color": 10,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-35",
+      "name": "Red Room",
+      "position": {
+        "x": -4,
+        "y": 80,
+        "z": 148
+      },
+      "route_ids": [],
+      "initials": "R",
+      "color": 4,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-36",
+      "name": "Blue Room",
+      "position": {
+        "x": 3,
+        "y": 80,
+        "z": 153
+      },
+      "route_ids": [],
+      "initials": "B",
+      "color": 1,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-37",
+      "name": "Map Room",
+      "position": {
+        "x": -7,
+        "y": 75,
+        "z": 144
+      },
+      "route_ids": [],
+      "initials": "M",
+      "color": 14,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-38",
+      "name": "Vermeil Room",
+      "position": {
+        "x": 17,
+        "y": 75,
+        "z": 145
+      },
+      "route_ids": [],
+      "initials": "V",
+      "color": 1,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-39",
+      "name": "China Room",
+      "position": {
+        "x": 9,
+        "y": 75,
+        "z": 145
+      },
+      "route_ids": [],
+      "initials": "C",
+      "color": 5,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "WHI-WP-40",
+      "name": "Diplomatic Reception Room",
+      "position": {
+        "x": 3,
+        "y": 75,
+        "z": 152
+      },
+      "route_ids": [],
+      "initials": "D",
+      "color": 2,
+      "source": "lh-inter-maps-labeled-xaero-waypoint",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    }
+  ]
+}

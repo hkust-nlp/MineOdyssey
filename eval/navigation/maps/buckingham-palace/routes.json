@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "map_id": "buckingham-palace",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "custom_maps/maps/inter_map/buckingham_palace/routes.json",
+    "sha256": "a25a6799a150240d08fccd355b213063f848882494f8536b01b19e10aa96cc25"
+  },
+  "quality_status": "semantically_reviewed_owner_approved",
+  "upload_recommendation": "routes_ready_for_runtime_validation",
+  "route_count": 6,
+  "routes": [
+    {
+      "id": "bph-route-03",
+      "title": "State Banquet Rooms Tour",
+      "title_local": "State Banquet Rooms Tour",
+      "title_zh": "国宴空间参观",
+      "prompt_language": "en-GB",
+      "prompt_local": "In order to understand royal banquet etiquette, start from Ballroom, visit State Dining Room and Blue Drawing Room in sequence, and finally reach Music Room.",
+      "prompt_zh": "为了了解王室宴会礼仪，从 Ballroom 出发，依次参观 State Dining Room、Blue Drawing Room，最后到 Music Room。",
+      "difficulty": "medium",
+      "status": "runtime_validation_pending",
+      "points": [
+        {"waypoint_id": "BPH-WP-01", "role": "start"},
+        {"waypoint_id": "BPH-WP-14", "role": "via"},
+        {"waypoint_id": "BPH-WP-15", "role": "via"},
+        {"waypoint_id": "BPH-WP-18", "role": "end"}
+      ],
+      "segments": [
+        {"id": "bph-route-03-segment-01", "from": "BPH-WP-01", "to": "BPH-WP-14"},
+        {"id": "bph-route-03-segment-02", "from": "BPH-WP-14", "to": "BPH-WP-15"},
+        {"id": "bph-route-03-segment-03", "from": "BPH-WP-15", "to": "BPH-WP-18"}
+      ]
+    },
+    {
+      "id": "bph-route-04",
+      "title": "Royal Private Office Route",
+      "title_local": "Royal Private Office Route",
+      "title_zh": "王室私人办公动线",
+      "prompt_language": "en-GB",
+      "prompt_local": "When delivering documents for members of the Royal Family, travel from Principal Corridor via The Grand Staircase to Queen's Study, then continue to Royal Closet.",
+      "prompt_zh": "为王室成员递送文件时，从 Principal Corridor 经 The Grand Staircase 前往 Queen's Study，再到 Royal Closet。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {"waypoint_id": "BPH-WP-04", "role": "start"},
+        {"waypoint_id": "BPH-WP-11", "role": "via"},
+        {"waypoint_id": "BPH-WP-07", "role": "via"},
+        {"waypoint_id": "BPH-WP-16", "role": "end"}
+      ],
+      "segments": [
+        {"id": "bph-route-04-segment-01", "from": "BPH-WP-04", "to": "BPH-WP-11"},
+        {"id": "bph-route-04-segment-02", "from": "BPH-WP-11", "to": "BPH-WP-07"},
+        {"id": "bph-route-04-segment-03", "from": "BPH-WP-07", "to": "BPH-WP-16"}
+      ]
+    },
+    {
+      "id": "bph-route-07",
+      "title": "Principal State Rooms Tour",
+      "title_local": "Principal State Rooms Tour",
+      "title_zh": "主要国事厅巡礼",
+      "prompt_language": "en-GB",
+      "prompt_local": "On your first visit to the Palace's State Rooms, start from Throne Room, pass through Green Drawing Room and White Drawing Room, and finally arrive at Ballroom.",
+      "prompt_zh": "首次参观宫殿国事厅，从 Throne Room 出发，经过 Green Drawing Room、White Drawing Room，最后到 Ballroom。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {"waypoint_id": "BPH-WP-12", "role": "start"},
+        {"waypoint_id": "BPH-WP-13", "role": "via"},
+        {"waypoint_id": "BPH-WP-17", "role": "via"},
+        {"waypoint_id": "BPH-WP-01", "role": "end"}
+      ],
+      "segments": [
+        {"id": "bph-route-07-segment-01", "from": "BPH-WP-12", "to": "BPH-WP-13"},
+        {"id": "bph-route-07-segment-02", "from": "BPH-WP-13", "to": "BPH-WP-17"},
+        {"id": "bph-route-07-segment-03", "from": "BPH-WP-17", "to": "BPH-WP-01"}
+      ]
+    },
+    {
+      "id": "bph-route-09",
+      "title": "Entrance to the Royal Study",
+      "title_local": "Entrance to the Royal Study",
+      "title_zh": "入口到王室书房",
+      "prompt_language": "en-GB",
+      "prompt_local": "After receiving permission to enter the royal offices, go in through Grand Entrance, pass through The Grand Staircase and Picture Gallery, and arrive at Queen's Study.",
+      "prompt_zh": "获准前往王室办公区时，从 Grand Entrance 进入，经 The Grand Staircase 和 Picture Gallery，抵达 Queen's Study。",
+      "difficulty": "medium",
+      "status": "runtime_validation_pending",
+      "points": [
+        {"waypoint_id": "BPH-WP-08", "role": "start"},
+        {"waypoint_id": "BPH-WP-11", "role": "via"},
+        {"waypoint_id": "BPH-WP-06", "role": "via"},
+        {"waypoint_id": "BPH-WP-07", "role": "end"}
+      ],
+      "segments": [
+        {"id": "bph-route-09-segment-01", "from": "BPH-WP-08", "to": "BPH-WP-11"},
+        {"id": "bph-route-09-segment-02", "from": "BPH-WP-11", "to": "BPH-WP-06"},
+        {"id": "bph-route-09-segment-03", "from": "BPH-WP-06", "to": "BPH-WP-07"}
+      ]
+    },
+    {
+      "id": "bph-route-11",
+      "title": "Return from the Leisure Facilities",
+      "title_local": "Return from the Leisure Facilities",
+      "title_zh": "休闲设施返回主楼",
+      "prompt_language": "en-GB",
+      "prompt_local": "After swimming, return to the State Rooms area. Start from Swimming Pool, pass through Bow Room and The Grand Staircase, and arrive at Green Drawing Room.",
+      "prompt_zh": "结束游泳后返回国事厅区域，从 Swimming Pool 出发，经 Bow Room 和 The Grand Staircase，抵达 Green Drawing Room。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {"waypoint_id": "BPH-WP-10", "role": "start"},
+        {"waypoint_id": "BPH-WP-09", "role": "via"},
+        {"waypoint_id": "BPH-WP-11", "role": "via"},
+        {"waypoint_id": "BPH-WP-13", "role": "end"}
+      ],
+      "segments": [
+        {"id": "bph-route-11-segment-01", "from": "BPH-WP-10", "to": "BPH-WP-09"},
+        {"id": "bph-route-11-segment-02", "from": "BPH-WP-09", "to": "BPH-WP-11"},
+        {"id": "bph-route-11-segment-03", "from": "BPH-WP-11", "to": "BPH-WP-13"}
+      ]
+    },
+    {
+      "id": "bph-route-12",
+      "title": "East Wing Reception Rooms",
+      "title_local": "East Wing Reception Rooms",
+      "title_zh": "东翼会客室巡游",
+      "prompt_language": "en-GB",
+      "prompt_local": "While visiting the reception rooms in the Palace's East Wing, proceed from Chinese Luncheon Room via Principal Corridor and The Grand Staircase to Yellow Drawing Room.",
+      "prompt_zh": "参观宫殿东翼会客空间时，从 Chinese Luncheon Room 经 Principal Corridor 和 The Grand Staircase，抵达 Yellow Drawing Room。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {"waypoint_id": "BPH-WP-05", "role": "start"},
+        {"waypoint_id": "BPH-WP-04", "role": "via"},
+        {"waypoint_id": "BPH-WP-11", "role": "via"},
+        {"waypoint_id": "BPH-WP-02", "role": "end"}
+      ],
+      "segments": [
+        {"id": "bph-route-12-segment-01", "from": "BPH-WP-05", "to": "BPH-WP-04"},
+        {"id": "bph-route-12-segment-02", "from": "BPH-WP-04", "to": "BPH-WP-11"},
+        {"id": "bph-route-12-segment-03", "from": "BPH-WP-11", "to": "BPH-WP-02"}
+      ]
+    }
+  ]
+}

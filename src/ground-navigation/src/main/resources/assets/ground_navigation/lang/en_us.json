@@ -1,0 +1,10 @@
+{
+  "key.ground_navigation.toggle": "Toggle ground navigation",
+  "message.ground_navigation.enabled": "Ground navigation enabled",
+  "message.ground_navigation.disabled": "Ground navigation disabled",
+  "message.ground_navigation.active": "Baritone route acquired: %s nodes",
+  "message.ground_navigation.calculating": "Baritone is calculating a route...",
+  "message.ground_navigation.idle": "No route yet. Start a Baritone path first.",
+  "message.ground_navigation.unavailable": "Baritone was not found.",
+  "message.ground_navigation.error": "Could not read the Baritone route. Check latest.log."
+}

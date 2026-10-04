@@ -1,0 +1,50 @@
+Section "ServerLayout"
+    Identifier     "Layout0"
+    Screen      0  "Screen0" 0 0
+EndSection
+
+Section "Files"
+    ModulePath "/usr/lib/xorg/modules"
+    ModulePath "/usr/lib/x86_64-linux-gnu/xorg/extra-modules"
+EndSection
+
+Section "Module"
+    Load "glx"
+EndSection
+
+Section "Monitor"
+    Identifier     "Monitor0"
+    VendorName     "Unknown"
+    ModelName      "Unknown"
+    HorizSync       28.0 - 33.0
+    VertRefresh     43.0 - 72.0
+    Option         "DPMS"
+EndSection
+
+Section "Device"
+    Identifier     "Device0"
+    Driver         "nvidia"
+    VendorName     "NVIDIA Corporation"
+    BusID          "BUSID_PLACEHOLDER"
+    Option         "AllowEmptyInitialConfiguration" "True"
+EndSection
+
+Section "ServerFlags"
+    Option "BlankTime" "0"
+    Option "StandbyTime" "0"
+    Option "SuspendTime" "0"
+    Option "OffTime" "0"
+EndSection
+
+Section "Screen"
+    Identifier     "Screen0"
+    Device         "Device0"
+    Monitor        "Monitor0"
+    DefaultDepth    24
+    Option         "AllowEmptyInitialConfiguration" "True"
+    Option         "AllowIndirectGLXProtocol" "true"
+    SubSection     "Display"
+        Depth       24
+        Virtual     VIRTUAL_WIDTH_PLACEHOLDER VIRTUAL_HEIGHT_PLACEHOLDER
+    EndSubSection
+EndSection

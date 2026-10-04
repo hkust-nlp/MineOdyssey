@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "map_id": "zurich",
+  "quality_status": "sign_grounded_waypoints_static_standability_passed_routes_pending_runtime_validation",
+  "excluded_waypoints": [],
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/zurich-formal-10-routes.json",
+    "sha256": "6a3399a0ea2c6d360a1a12b9cd538c890cb807e152fb929f875d1cf3bb708102"
+  },
+  "waypoint_count": 19,
+  "waypoints": [
+    {
+      "id": "ZRH-01",
+      "name": "Straßenecke Stüssihofstätt",
+      "position": {
+        "x": 242,
+        "y": -9,
+        "z": -1285
+      },
+      "route_ids": [
+        "zurich-route-02",
+        "zurich-route-01"
+      ],
+      "initials": "Z01",
+      "evidence_mc": {
+        "x": 243,
+        "y": -7,
+        "z": -1285
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "dead_brain_coral_block"
+    },
+    {
+      "id": "ZRH-02",
+      "name": "Straßenschild am Rindermarkt (West)",
+      "position": {
+        "x": 244,
+        "y": -9,
+        "z": -1283
+      },
+      "route_ids": [
+        "zurich-route-01"
+      ],
+      "initials": "Z02",
+      "evidence_mc": {
+        "x": 244,
+        "y": -7,
+        "z": -1284
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "dead_bubble_coral_block"
+    },
+    {
+      "id": "ZRH-03",
+      "name": "Classic Cuts",
+      "position": {
+        "x": 245,
+        "y": -11,
+        "z": -1323
+      },
+      "route_ids": [
+        "zurich-route-04"
+      ],
+      "initials": "Z03",
+      "evidence_mc": {
+        "x": 246,
+        "y": -9,
+        "z": -1323
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "dead_brain_coral_block"
+    },
+    {
+      "id": "ZRH-04",
+      "name": "CALIDA",
+      "position": {
+        "x": 245,
+        "y": -11,
+        "z": -1314
+      },
+      "route_ids": [
+        "zurich-route-01",
+        "zurich-route-05"
+      ],
+      "initials": "Z04",
+      "evidence_mc": {
+        "x": 246,
+        "y": -9,
+        "z": -1314
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "dead_bubble_coral_block"
+    },
+    {
+      "id": "ZRH-05",
+      "name": "ÄSS BAR",
+      "position": {
+        "x": 246,
+        "y": -11,
+        "z": -1322
+      },
+      "route_ids": [
+        "zurich-route-01"
+      ],
+      "initials": "Z05",
+      "evidence_mc": {
+        "x": 247,
+        "y": -9,
+        "z": -1322
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "dead_horn_coral_block"
+    },
+    {
+      "id": "ZRH-06",
+      "name": "Friedman Schmuck",
+      "position": {
+        "x": 262,
+        "y": -8,
+        "z": -1280
+      },
+      "route_ids": [
+        "zurich-route-03"
+      ],
+      "initials": "Z06",
+      "evidence_mc": {
+        "x": 263,
+        "y": -6,
+        "z": -1280
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "gravel"
+    },
+    {
+      "id": "ZRH-07",
+      "name": "Zum Farren",
+      "position": {
+        "x": 267,
+        "y": -8,
+        "z": -1280
+      },
+      "route_ids": [
+        "zurich-route-02"
+      ],
+      "initials": "Z07",
+      "evidence_mc": {
+        "x": 268,
+        "y": -1,
+        "z": -1280
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "gray_concrete_powder"
+    },
+    {
+      "id": "ZRH-08",
+      "name": "Haus zur Sichel",
+      "position": {
+        "x": 282,
+        "y": -8,
+        "z": -1279
+      },
+      "route_ids": [
+        "zurich-route-06",
+        "zurich-route-02"
+      ],
+      "initials": "Z08",
+      "evidence_mc": {
+        "x": 282,
+        "y": -6,
+        "z": -1280
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "dead_tube_coral_block"
+    },
+    {
+      "id": "ZRH-09",
+      "name": "Zur Gelben Lilie",
+      "position": {
+        "x": 302,
+        "y": -8,
+        "z": -1279
+      },
+      "route_ids": [
+        "zurich-route-02"
+      ],
+      "initials": "Z09",
+      "evidence_mc": {
+        "x": 302,
+        "y": -6,
+        "z": -1280
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "gravel"
+    },
+    {
+      "id": "ZRH-11",
+      "name": "Straßenschild am Rindermarkt (Ost)",
+      "position": {
+        "x": 349,
+        "y": -10,
+        "z": -1275
+      },
+      "route_ids": [
+        "zurich-route-06",
+        "zurich-route-02",
+        "zurich-route-05"
+      ],
+      "initials": "Z11",
+      "evidence_mc": {
+        "x": 349,
+        "y": -8,
+        "z": -1276
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "gravel"
+    },
+    {
+      "id": "ZRH-12",
+      "name": "Straßenschild Synagogengasse",
+      "position": {
+        "x": 356,
+        "y": -11,
+        "z": -1308
+      },
+      "route_ids": [
+        "zurich-route-06"
+      ],
+      "initials": "Z12",
+      "evidence_mc": {
+        "x": 356,
+        "y": -8,
+        "z": -1309
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "dead_brain_coral_block"
+    },
+    {
+      "id": "ZRH-13",
+      "name": "Straßenschild am Predigerplatz (West)",
+      "position": {
+        "x": 367,
+        "y": -12,
+        "z": -1385
+      },
+      "route_ids": [
+        "zurich-route-03"
+      ],
+      "initials": "Z13",
+      "evidence_mc": {
+        "x": 368,
+        "y": -11,
+        "z": -1384
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "dead_fire_coral_block"
+    },
+    {
+      "id": "ZRH-14",
+      "name": "Antiquariat",
+      "position": {
+        "x": 411,
+        "y": -10,
+        "z": -1394
+      },
+      "route_ids": [
+        "zurich-route-03"
+      ],
+      "initials": "Z14",
+      "evidence_mc": {
+        "x": 411,
+        "y": -8,
+        "z": -1393
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "gravel"
+    },
+    {
+      "id": "ZRH-20",
+      "name": "Farrow & Ball",
+      "position": {
+        "x": 441,
+        "y": -9,
+        "z": -1357
+      },
+      "route_ids": [
+        "zurich-route-04"
+      ],
+      "initials": "Z20",
+      "evidence_mc": {
+        "x": 441,
+        "y": -6,
+        "z": -1358
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "dead_tube_coral_block"
+    },
+    {
+      "id": "ZRH-22",
+      "name": "Max Steiner",
+      "position": {
+        "x": 445,
+        "y": -9,
+        "z": -1341
+      },
+      "route_ids": [
+        "zurich-route-05"
+      ],
+      "initials": "Z22",
+      "evidence_mc": {
+        "x": 446,
+        "y": -8,
+        "z": -1341
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "dead_bubble_coral_block"
+    },
+    {
+      "id": "ZRH-23",
+      "name": "Straßenschild Predigergasse (Ost)",
+      "position": {
+        "x": 457,
+        "y": -9,
+        "z": -1298
+      },
+      "route_ids": [
+        "zurich-route-06"
+      ],
+      "initials": "Z23",
+      "evidence_mc": {
+        "x": 458,
+        "y": -6,
+        "z": -1298
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "dead_tube_coral_block"
+    },
+    {
+      "id": "ZRH-24",
+      "name": "Straßenschild am Predigerplatz (Ost)",
+      "position": {
+        "x": 474,
+        "y": -6,
+        "z": -1406
+      },
+      "route_ids": [
+        "zurich-route-02"
+      ],
+      "initials": "Z24",
+      "evidence_mc": {
+        "x": 474,
+        "y": -4,
+        "z": -1405
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "dead_tube_coral_block"
+    },
+    {
+      "id": "ZRH-25",
+      "name": "Gedenktafel am Geburtshaus von Gottfried Keller",
+      "position": {
+        "x": 474,
+        "y": -7,
+        "z": -1323
+      },
+      "route_ids": [
+        "zurich-route-06"
+      ],
+      "initials": "Z25",
+      "evidence_mc": {
+        "x": 474,
+        "y": -5,
+        "z": -1324
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "dead_bubble_coral_block"
+    },
+    {
+      "id": "ZRH-26",
+      "name": "Whisky-Shop",
+      "position": {
+        "x": 475,
+        "y": -7,
+        "z": -1321
+      },
+      "route_ids": [
+        "zurich-route-04"
+      ],
+      "initials": "Z26",
+      "evidence_mc": {
+        "x": 475,
+        "y": -5,
+        "z": -1322
+      },
+      "evidence": "exact_in_world_sign_text",
+      "standability": "static_solid_floor_and_two_block_clearance",
+      "floor": "dead_fire_coral_block"
+    }
+  ]
+}

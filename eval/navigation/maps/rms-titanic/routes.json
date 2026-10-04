@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "map_id": "rms-titanic",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "custom_maps/maps/inter_map/rms_titanic/routes.json",
+    "sha256": "1ce0622871340bd915348736b7022fd7b318d86b37069052e9584867b9a21acb"
+  },
+  "quality_status": "semantically_reviewed_owner_approved",
+  "upload_recommendation": "routes_ready_for_runtime_validation",
+  "route_count": 7,
+  "routes": [
+    {
+      "id": "tit-route-01",
+      "title": "Bridge Watch Handover",
+      "title_local": "Bridge Watch Handover",
+      "title_zh": "驾驶台值班交接",
+      "prompt_language": "en-GB",
+      "prompt_local": "When taking over the bridge duty, depart from Officers' Quarters, first report to Captain's Sitting Room, and then pass through Chart Room to arrive at Wheel House.",
+      "prompt_zh": "接替驾驶台值班时，从 Officers' Quarters 出发，先向 Captain's Sitting Room 报到，再经过 Chart Room 抵达 Wheel House。",
+      "difficulty": "easy",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "TIT-WP-01",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "TIT-WP-11",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TIT-WP-13",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TIT-WP-70",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "tit-route-01-segment-01",
+          "from": "TIT-WP-01",
+          "to": "TIT-WP-11"
+        },
+        {
+          "id": "tit-route-01-segment-02",
+          "from": "TIT-WP-11",
+          "to": "TIT-WP-13"
+        },
+        {
+          "id": "tit-route-01-segment-03",
+          "from": "TIT-WP-13",
+          "to": "TIT-WP-70"
+        }
+      ]
+    },
+    {
+      "id": "tit-route-02",
+      "title": "Senior Officers' Deck Inspection",
+      "title_local": "Senior Officers' Deck Inspection",
+      "title_zh": "高级船员甲板巡视",
+      "prompt_language": "en-GB",
+      "prompt_local": "When completing the morning patrol, start from Officer's Mess, pass through Officers' Quarters, and finally arrive at Boat Deck.",
+      "prompt_zh": "完成晨间巡视时，从 Officer's Mess 出发，经过 Officers' Quarters，最终到 Boat Deck。",
+      "difficulty": "medium",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "TIT-WP-40",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "TIT-WP-01",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TIT-WP-06",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "tit-route-02-segment-01",
+          "from": "TIT-WP-40",
+          "to": "TIT-WP-01"
+        },
+        {
+          "id": "tit-route-02-segment-02",
+          "from": "TIT-WP-01",
+          "to": "TIT-WP-06"
+        }
+      ]
+    },
+    {
+      "id": "tit-route-08",
+      "title": "Engineering and Deck-Crew Shift Change",
+      "title_local": "Engineering and Deck-Crew Shift Change",
+      "title_zh": "轮机与甲板船员换班",
+      "prompt_language": "en-GB",
+      "prompt_local": "When preparing to return to the cabin after the shift, depart from Firemen's Mess, pass through Firemen's Quarters, Greasers' Quarters, and arrive at Seamen's Mess.",
+      "prompt_zh": "结束轮班准备返回住舱时，从 Firemen's Mess 出发，经 Firemen's Quarters、Greasers' Quarters，抵达 Seamen's Mess。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "TIT-WP-18",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "TIT-WP-19",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TIT-WP-33",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TIT-WP-47",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "tit-route-08-segment-01",
+          "from": "TIT-WP-18",
+          "to": "TIT-WP-19"
+        },
+        {
+          "id": "tit-route-08-segment-02",
+          "from": "TIT-WP-19",
+          "to": "TIT-WP-33"
+        },
+        {
+          "id": "tit-route-08-segment-03",
+          "from": "TIT-WP-33",
+          "to": "TIT-WP-47"
+        }
+      ]
+    },
+    {
+      "id": "tit-route-10",
+      "title": "Medical Isolation Transfer",
+      "title_local": "Medical Isolation Transfer",
+      "title_zh": "医疗隔离转诊",
+      "prompt_language": "en-GB",
+      "prompt_local": "When the escort needs to further check the passengers, the unwell passengers will be picked up from Third Class General Room, first checked at Third Class Surgery, and then sent to Infectious Hospital.",
+      "prompt_zh": "护送需要进一步检查乘客时，从 Third Class General Room 接到身体不适的乘客，先到 Third Class Surgery 检查，再送往 Infectious Hospital。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "TIT-WP-63",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "TIT-WP-66",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TIT-WP-36",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "tit-route-10-segment-01",
+          "from": "TIT-WP-63",
+          "to": "TIT-WP-66"
+        },
+        {
+          "id": "tit-route-10-segment-02",
+          "from": "TIT-WP-66",
+          "to": "TIT-WP-36"
+        }
+      ]
+    },
+    {
+      "id": "tit-route-11",
+      "title": "Turkish Bath and Fitness Visit",
+      "title_local": "Turkish Bath and Fitness Visit",
+      "title_zh": "土耳其浴与健身体验",
+      "prompt_language": "en-GB",
+      "prompt_local": "When booking a complete wellness experience, start from Turkish Bath Cooling Room, pass through Hot Room, Steam Room and Swimming Bath, and finally go to Gymnasium.",
+      "prompt_zh": "预约完整康体体验时，从 Turkish Bath Cooling Room 出发，经 Hot Room、Steam Room 和 Swimming Bath，最终前往 Gymnasium。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "TIT-WP-67",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "TIT-WP-35",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TIT-WP-56",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TIT-WP-58",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TIT-WP-34",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "tit-route-11-segment-01",
+          "from": "TIT-WP-67",
+          "to": "TIT-WP-35"
+        },
+        {
+          "id": "tit-route-11-segment-02",
+          "from": "TIT-WP-35",
+          "to": "TIT-WP-56"
+        },
+        {
+          "id": "tit-route-11-segment-03",
+          "from": "TIT-WP-56",
+          "to": "TIT-WP-58"
+        },
+        {
+          "id": "tit-route-11-segment-04",
+          "from": "TIT-WP-58",
+          "to": "TIT-WP-34"
+        }
+      ]
+    },
+    {
+      "id": "tit-route-12",
+      "title": "Post-Workout Deck Walk",
+      "title_local": "Post-Workout Deck Walk",
+      "title_zh": "健身后的甲板散步",
+      "prompt_language": "en-GB",
+      "prompt_local": "When you finish your morning exercise and prepare to take a walk on the deck, start from Gymnasium, pass Boat Deck, and go to Dog Kennels.",
+      "prompt_zh": "完成晨练准备到甲板散步时，从 Gymnasium 出发，经 Boat Deck，前往 Dog Kennels。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "TIT-WP-34",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "TIT-WP-06",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TIT-WP-15",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "tit-route-12-segment-01",
+          "from": "TIT-WP-34",
+          "to": "TIT-WP-06"
+        },
+        {
+          "id": "tit-route-12-segment-02",
+          "from": "TIT-WP-06",
+          "to": "TIT-WP-15"
+        }
+      ]
+    },
+    {
+      "id": "tit-route-14",
+      "title": "Dining-Room Supply Route",
+      "title_local": "Dining-Room Supply Route",
+      "title_zh": "餐厅后勤补给",
+      "prompt_language": "en-GB",
+      "prompt_local": "When preparing dinner supplies for the restaurant, depart from Butcher's Shop, pass through Butcher's Larder and First Class Pantry, and arrive at the Dining Saloon.",
+      "prompt_zh": "为餐厅准备晚餐物资时，从 Butcher's Shop 出发，经 Butcher's Larder 和 First Class Pantry，抵达 Dining Saloon。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "TIT-WP-09",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "TIT-WP-08",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TIT-WP-26",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TIT-WP-23",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "tit-route-14-segment-01",
+          "from": "TIT-WP-09",
+          "to": "TIT-WP-08"
+        },
+        {
+          "id": "tit-route-14-segment-02",
+          "from": "TIT-WP-08",
+          "to": "TIT-WP-26"
+        },
+        {
+          "id": "tit-route-14-segment-03",
+          "from": "TIT-WP-26",
+          "to": "TIT-WP-23"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+# Linux/NVIDIA navigation evaluation runtime.
+#
+# Build the CPU dependency image first, then add the Xorg server required for
+# CDI-injected NVIDIA OpenGL rendering:
+#   podman build -f containers/Containerfile.navigation-cpu \
+#     -t mcbots-navigation:1.21.11 .
+#   podman build -f containers/Containerfile.navigation-gpu \
+#     -t mcbots-navigation-gpu:1.21.11 .
+
+ARG BASE_IMAGE=mcbots-navigation:1.21.11
+FROM ${BASE_IMAGE}
+
+ARG DEBIAN_FRONTEND=noninteractive
+
+LABEL org.opencontainers.image.title="mcbots navigation evaluation (NVIDIA GPU)"
+LABEL org.opencontainers.image.description="Minecraft 1.21.11 navigation runtime using NVIDIA CDI and Xorg"
+LABEL mcbots.runtime.backend="linux-container-gpu"
+LABEL mcbots.runtime.minecraft="1.21.11"
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        xserver-xorg-core \
+    && rm -rf /var/lib/apt/lists/*
+
+ENV MCBOTS_NAV_RUNTIME_BACKEND=linux-container-gpu \
+    MCBOTS_NAV_RUNTIME_TEMPLATE_ROOT=/workspace/mcbots/eval/templates/_local/navigation \
+    NVIDIA_DRIVER_CAPABILITIES=graphics,display,utility \
+    LIBGL_ALWAYS_SOFTWARE=""

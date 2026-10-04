@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "map_id": "reichstag",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "custom_maps/maps/inter_map/reichstag/routes.json",
+    "sha256": "a62290de63d261006bec9ebdefc7c6bbf0ec99d1372471afe318346d210b55c2"
+  },
+  "quality_status": "semantically_reviewed_owner_approved",
+  "upload_recommendation": "routes_ready_for_runtime_validation",
+  "route_count": 5,
+  "routes": [
+    {
+      "id": "rei-route-07",
+      "title": "Koordination nach der Plenarsitzung",
+      "title_local": "Koordination nach der Plenarsitzung",
+      "title_zh": "议事结果协调",
+      "prompt_language": "de-DE",
+      "prompt_local": "Wenn Sie für die Koordinierung der Folgearbeiten der Mitglieder verantwortlich sind, gehen Sie von Plenarsaal zu Ältestenrat, um den Abschluss der Tagesordnung zu bestätigen, und gehen Sie dann zu Abgeordnetenlobby, um Folgearbeiten mit dem Verbindungspersonal des Mitglieds zu vereinbaren.",
+      "prompt_zh": "负责协调议员后续工作时，从 Plenarsaal 前往 Ältestenrat 确认议程结论，再到 Abgeordnetenlobby 向议员联络人员安排后续工作。",
+      "difficulty": "medium",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "REI-WP-15",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "REI-WP-02",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "REI-WP-17",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "rei-route-07-segment-01",
+          "from": "REI-WP-15",
+          "to": "REI-WP-02"
+        },
+        {
+          "id": "rei-route-07-segment-02",
+          "from": "REI-WP-02",
+          "to": "REI-WP-17"
+        }
+      ]
+    },
+    {
+      "id": "rei-route-10",
+      "title": "Kontrolle der Gastronomie- und Sozialbereiche",
+      "title_local": "Kontrolle der Gastronomie- und Sozialbereiche",
+      "title_zh": "南北餐饮服务巡查",
+      "prompt_language": "de-DE",
+      "prompt_local": "Gehen Sie bei der Besichtigung der parlamentarischen Verpflegungs- und Sozialeinrichtungen von Südeingang über Restaurant, Bar und Clubraum und schließlich zu Abgeordnetenlobby.",
+      "prompt_zh": "检查议会餐饮和社交设施时，从 Südeingang 经 Restaurant、Bar 和 Clubraum，最终到 Abgeordnetenlobby。",
+      "difficulty": "medium",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "REI-WP-19",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "REI-WP-16",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "REI-WP-06",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "REI-WP-14",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "REI-WP-17",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "rei-route-10-segment-01",
+          "from": "REI-WP-19",
+          "to": "REI-WP-16"
+        },
+        {
+          "id": "rei-route-10-segment-02",
+          "from": "REI-WP-16",
+          "to": "REI-WP-06"
+        },
+        {
+          "id": "rei-route-10-segment-03",
+          "from": "REI-WP-06",
+          "to": "REI-WP-14"
+        },
+        {
+          "id": "rei-route-10-segment-04",
+          "from": "REI-WP-14",
+          "to": "REI-WP-17"
+        }
+      ]
+    },
+    {
+      "id": "rei-route-11",
+      "title": "Abstimmung zwischen den Besprechungsräumen",
+      "title_local": "Abstimmung zwischen den Besprechungsräumen",
+      "title_zh": "东西会议室联动",
+      "prompt_language": "de-DE",
+      "prompt_local": "Wenn es notwendig ist, die Konferenzräume auf der Ost- und Westseite zu koordinieren, gehen Sie von Westeingang über Besprechungsraum, Plenarsaal auf der Westseite und Besprechungsraum auf der Ostseite und schließlich zu Osteingang.",
+      "prompt_zh": "需要协调东西两侧会议室时，从 Westeingang 经西侧 Besprechungsraum、Plenarsaal 和东侧 Besprechungsraum，最终到 Osteingang。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "REI-WP-05",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "REI-WP-07",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "REI-WP-15",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "REI-WP-13",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "REI-WP-10",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "rei-route-11-segment-01",
+          "from": "REI-WP-05",
+          "to": "REI-WP-07"
+        },
+        {
+          "id": "rei-route-11-segment-02",
+          "from": "REI-WP-07",
+          "to": "REI-WP-15"
+        },
+        {
+          "id": "rei-route-11-segment-03",
+          "from": "REI-WP-15",
+          "to": "REI-WP-13"
+        },
+        {
+          "id": "rei-route-11-segment-04",
+          "from": "REI-WP-13",
+          "to": "REI-WP-10"
+        }
+      ]
+    },
+    {
+      "id": "rei-route-13",
+      "title": "Arbeitsweg für Presse und Abgeordnete",
+      "title_local": "Arbeitsweg für Presse und Abgeordnete",
+      "title_zh": "媒体与议员工作动线",
+      "prompt_language": "de-DE",
+      "prompt_local": "Wenn Sie den Fortschritt der Plenarsitzung verfolgen, wechseln Sie von Pressefoyer über Ältestenrat und Plenarsaal zu Abgeordnetenlobby, um mit den Mitgliedern zu kommunizieren.",
+      "prompt_zh": "跟进全体会议进展时，从 Pressefoyer 经 Ältestenrat 和 Plenarsaal，前往 Abgeordnetenlobby 与议员交流。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "REI-WP-01",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "REI-WP-02",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "REI-WP-15",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "REI-WP-17",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "rei-route-13-segment-01",
+          "from": "REI-WP-01",
+          "to": "REI-WP-02"
+        },
+        {
+          "id": "rei-route-13-segment-02",
+          "from": "REI-WP-02",
+          "to": "REI-WP-15"
+        },
+        {
+          "id": "rei-route-13-segment-03",
+          "from": "REI-WP-15",
+          "to": "REI-WP-17"
+        }
+      ]
+    },
+    {
+      "id": "rei-route-14",
+      "title": "Öffentlicher Besichtigungsweg",
+      "title_local": "Öffentlicher Besichtigungsweg",
+      "title_zh": "公众参观主线",
+      "prompt_language": "de-DE",
+      "prompt_local": "Wenn Sie den Reichstag zum ersten Mal besuchen, betreten Sie ihn über Nordeingang, passieren Sie Plenarsaal und Pressefoyer und steigen Sie schließlich in Kuppel Aussichtsplattform ein.",
+      "prompt_zh": "首次参观德国国会大厦，从 Nordeingang 进入，经 Plenarsaal 和 Pressefoyer，最终登上 Kuppel Aussichtsplattform。",
+      "difficulty": "hard",
+      "status": "runtime_validation_pending",
+      "points": [
+        {
+          "waypoint_id": "REI-WP-18",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "REI-WP-15",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "REI-WP-01",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "REI-WP-20",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "rei-route-14-segment-01",
+          "from": "REI-WP-18",
+          "to": "REI-WP-15"
+        },
+        {
+          "id": "rei-route-14-segment-02",
+          "from": "REI-WP-15",
+          "to": "REI-WP-01"
+        },
+        {
+          "id": "rei-route-14-segment-03",
+          "from": "REI-WP-01",
+          "to": "REI-WP-20"
+        }
+      ]
+    }
+  ]
+}

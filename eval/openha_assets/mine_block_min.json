@@ -1,0 +1,13 @@
+{
+  "mine_block:dirt": {
+    "seeds": [
+      {
+        "seed": 2025,
+        "position": [398, 80, 1122]
+      }
+    ],
+    "tool": ["iron_shovel", "diamond_shovel", "air"],
+    "commands": [],
+    "label": ["normal"]
+  }
+}

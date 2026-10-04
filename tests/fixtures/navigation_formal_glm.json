@@ -1,0 +1,107 @@
+{
+  "agent": {
+    "allow_model_observe_toggle": false,
+    "auto_summarize_token_threshold": 200000,
+    "auto_summarize_turn_threshold": 100,
+    "bash_timeout_sec": 300,
+    "default_periodic_observe": false,
+    "llm_max_retries": 0,
+    "llm_timeout_sec": 600,
+    "max_consecutive_llm_failures": 3,
+    "max_conversation_rounds": 0,
+    "max_images_in_context": 100,
+    "observation_mode": "event_only",
+    "observe_interval_sec": 5,
+    "six_view_enabled": false
+  },
+  "limits": {
+    "max_assistant_steps": 500,
+    "max_deaths": 1,
+    "watchdog_timeout_sec": 21600
+  },
+  "eval_setting": {
+    "coordinate_lock_enabled": true,
+    "guideline": false,
+    "hud_enabled": false,
+    "navigation_hints_enabled": false,
+    "player_scale": 1.0,
+    "resource_pack_and_shader": false,
+    "six_view_enabled": false,
+    "third_person": false,
+    "time": "noon",
+    "weather": "clear"
+  },
+  "model_parameters": {
+    "action_protocol": "tool_calls",
+    "api_protocol": "chat_completions",
+    "max_tokens": 32000,
+    "model_id": "glm-5.3-flash",
+    "reasoning_effort": "max",
+    "thinking": {
+      "type": "enabled"
+    }
+  },
+  "runtime": {
+    "allow_flight": false,
+    "clear_inventory": true,
+    "difficulty": "peaceful",
+    "disable_mobs": true,
+    "gamemode": "adventure",
+    "target_waypoint_profile": "xaero-target-only",
+    "time": {
+      "freeze": true,
+      "value": 6000
+    },
+    "waypoint_in_world_max_distance": 32,
+    "weather": {
+      "freeze": true,
+      "value": "clear"
+    },
+    "world_copy": "reflink-or-copy-never-hardlink"
+  },
+  "runtime_versions": {
+    "data_version": 4671,
+    "minecraft": "1.21.11",
+    "neoforge": "21.11.44"
+  },
+  "system_prompt_sha256": "e46a9f5101652881fc270a29dc706fc5ae0fde1ea94d502dde0288fea00930ed",
+  "source_run_json_sha256": "e953f73af706ca341a3b6c779c3fa8c79bd1ea451c16de127f82f414334d690d",
+  "source": "Actual formal GLM 5.3 Flash max navigation run; same policy verified across three maps.",
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "minecraft_action",
+        "description": "Submit exactly one Minecraft controller action. Use exec to run a Bash command; use another action type for control-only decisions.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "exec",
+                "skip",
+                "stop_execute",
+                "claim_done"
+              ],
+              "description": "The controller action to perform."
+            },
+            "content": {
+              "type": "string",
+              "description": "Required non-empty Bash command for exec; omit otherwise."
+            },
+            "observe_after_sec": {
+              "type": "number",
+              "minimum": 1.0,
+              "description": "Optional target delay before observation for exec; defaults to 2 seconds."
+            }
+          },
+          "required": [
+            "type"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ]
+}

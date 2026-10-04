@@ -1,0 +1,865 @@
+{
+  "schema_version": 1,
+  "map_id": "innopolis",
+  "local_position_corrections": {
+    "approved_on": "2026-09-10",
+    "rounding": "nearest_integer_half_away_from_zero",
+    "reason": "User-approved arrival anchor correction; original Xaero annotation is retained for provenance. Historical results are not rescored.",
+    "original_positions": {"INN-WP-14": {"x": 6287503, "y": 209, "z": -5355648}},
+    "suggested_positions": {"INN-WP-14": {"x": 6287502.3, "y": 196.5, "z": -5355648.1}}
+  },
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "eval/navigation/maps/innopolis/waypoints.xaero.txt",
+    "sha256": "b8999715187aed716fef0f757fef1a4611780201a944d251bd7043bbb0b1e552"
+  },
+  "dimension": "overworld",
+  "source_record_count": 35,
+  "waypoint_count": 35,
+  "excluded_waypoints": [],
+  "waypoints": [
+    {
+      "id": "INN-WP-01",
+      "name": "жк «Квартал Ю» 98 - 6",
+      "position": {
+        "x": 6287315,
+        "y": 200,
+        "z": -5354962
+      },
+      "route_ids": [
+        "inn-route-04"
+      ],
+      "initials": "YU",
+      "color": 20,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-02",
+      "name": "Остановка 8",
+      "position": {
+        "x": 6287462,
+        "y": 197,
+        "z": -5355414
+      },
+      "route_ids": [],
+      "initials": "B8",
+      "color": 0,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-03",
+      "name": "Остановка 7",
+      "position": {
+        "x": 6287485,
+        "y": 197,
+        "z": -5355389
+      },
+      "route_ids": [],
+      "initials": "B7",
+      "color": 5,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-04",
+      "name": "Остановка 6",
+      "position": {
+        "x": 6287618,
+        "y": 202,
+        "z": -5354997
+      },
+      "route_ids": [
+        "inn-route-08"
+      ],
+      "initials": "B6",
+      "color": 7,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-05",
+      "name": "Остановка 5",
+      "position": {
+        "x": 6287669,
+        "y": 202,
+        "z": -5354944
+      },
+      "route_ids": [
+        "inn-route-08"
+      ],
+      "initials": "B5",
+      "color": 15,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-06",
+      "name": "ГАОУ «Школа Иннополис»",
+      "position": {
+        "x": 6287416,
+        "y": 205,
+        "z": -5354719
+      },
+      "route_ids": [
+        "inn-route-08",
+        "inn-route-10"
+      ],
+      "initials": "IS",
+      "color": 6,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-07",
+      "name": "Остановка 3",
+      "position": {
+        "x": 6288269,
+        "y": 201,
+        "z": -5355791
+      },
+      "route_ids": [],
+      "initials": "B3",
+      "color": 9,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-08",
+      "name": "Остановка 4",
+      "position": {
+        "x": 6288297,
+        "y": 201,
+        "z": -5355870
+      },
+      "route_ids": [
+        "inn-route-06"
+      ],
+      "initials": "B4",
+      "color": 19,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-09",
+      "name": "детский сад Иннополиса 2",
+      "position": {
+        "x": 6287849,
+        "y": 202,
+        "z": -5355513
+      },
+      "route_ids": [
+        "inn-route-08"
+      ],
+      "initials": "DS",
+      "color": 16,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-10",
+      "name": "ПСЧ № 8 МЧС России",
+      "position": {
+        "x": 6288496,
+        "y": 194,
+        "z": -5356850
+      },
+      "route_ids": [
+        "inn-route-10"
+      ],
+      "initials": "FD",
+      "color": 19,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-11",
+      "name": "ИнноПарк",
+      "position": {
+        "x": 6288365,
+        "y": 197,
+        "z": -5356286
+      },
+      "route_ids": [
+        "inn-route-06"
+      ],
+      "initials": "IP",
+      "color": 16,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-12",
+      "name": "Теннисный корт",
+      "position": {
+        "x": 6287290,
+        "y": 194,
+        "z": -5355249
+      },
+      "route_ids": [
+        "inn-route-04",
+        "inn-route-09"
+      ],
+      "initials": "TC",
+      "color": 14,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-13",
+      "name": "Стадион Иннополис",
+      "position": {
+        "x": 6287373,
+        "y": 194,
+        "z": -5355356
+      },
+      "route_ids": [
+        "inn-route-04",
+        "inn-route-09"
+      ],
+      "initials": "SI",
+      "color": 18,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-14",
+      "name": "Спортивный комплекс «Иннополис»",
+      "position": {
+        "x": 6287502,
+        "y": 197,
+        "z": -5355648
+      },
+      "route_ids": [
+        "inn-route-07",
+        "inn-route-09"
+      ],
+      "initials": "SC",
+      "color": 10,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-15",
+      "name": "Медицинский центр Иннополиса",
+      "position": {
+        "x": 6287638,
+        "y": 197,
+        "z": -5356286
+      },
+      "route_ids": [
+        "inn-route-09",
+        "inn-route-10"
+      ],
+      "initials": "MC",
+      "color": 19,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-16",
+      "name": "Muse of Tech",
+      "position": {
+        "x": 6287631,
+        "y": 199,
+        "z": -5356075
+      },
+      "route_ids": [
+        "inn-route-05"
+      ],
+      "initials": "MT",
+      "color": 2,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-17",
+      "name": "Остановка 2",
+      "position": {
+        "x": 6287650,
+        "y": 199,
+        "z": -5355919
+      },
+      "route_ids": [
+        "inn-route-06"
+      ],
+      "initials": "B2",
+      "color": 6,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-18",
+      "name": "Университет Иннополис",
+      "position": {
+        "x": 6287576,
+        "y": 199,
+        "z": -5355841
+      },
+      "route_ids": [
+        "inn-route-02",
+        "inn-route-06",
+        "inn-route-07"
+      ],
+      "initials": "IU",
+      "color": 19,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-19",
+      "name": "Технопарк имени Циолковского",
+      "position": {
+        "x": 6287955,
+        "y": 202,
+        "z": -5355768
+      },
+      "route_ids": [
+        "inn-route-05"
+      ],
+      "initials": "ТT",
+      "color": 4,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-20",
+      "name": "Технопарк им. А.С. Попова",
+      "position": {
+        "x": 6288068,
+        "y": 203,
+        "z": -5355734
+      },
+      "route_ids": [
+        "inn-route-02",
+        "inn-route-05"
+      ],
+      "initials": "ТP",
+      "color": 10,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-21",
+      "name": "Остановка 1",
+      "position": {
+        "x": 6288029,
+        "y": 202,
+        "z": -5355602
+      },
+      "route_ids": [
+        "inn-route-05"
+      ],
+      "initials": "B1",
+      "color": 16,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-22",
+      "name": "Sixty",
+      "position": {
+        "x": 6288126,
+        "y": 200,
+        "z": -5355253
+      },
+      "route_ids": [
+        "inn-route-04"
+      ],
+      "initials": "SI",
+      "color": 2,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-23",
+      "name": "ArtSpace",
+      "position": {
+        "x": 6287967,
+        "y": 199,
+        "z": -5354847
+      },
+      "route_ids": [
+        "inn-route-07"
+      ],
+      "initials": "AS",
+      "color": 5,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-24",
+      "name": "ION",
+      "position": {
+        "x": 6288059,
+        "y": 198,
+        "z": -5354972
+      },
+      "route_ids": [],
+      "initials": "IO",
+      "color": 3,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-25",
+      "name": "детский сад Иннополиса 1",
+      "position": {
+        "x": 6287696,
+        "y": 203,
+        "z": -5355136
+      },
+      "route_ids": [
+        "inn-route-08"
+      ],
+      "initials": "DS",
+      "color": 8,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-26",
+      "name": "ОСОШ «Иннополис»",
+      "position": {
+        "x": 6287719,
+        "y": 203,
+        "z": -5355262
+      },
+      "route_ids": [
+        "inn-route-08"
+      ],
+      "initials": "ОI",
+      "color": 9,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-27",
+      "name": "Кайрос",
+      "position": {
+        "x": 6287681,
+        "y": 202,
+        "z": -5355461
+      },
+      "route_ids": [
+        "inn-route-03"
+      ],
+      "initials": "К",
+      "color": 4,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-28",
+      "name": "Пятёрочка",
+      "position": {
+        "x": 6287594,
+        "y": 200,
+        "z": -5355342
+      },
+      "route_ids": [
+        "inn-route-03"
+      ],
+      "initials": "5P",
+      "color": 18,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-29",
+      "name": "Cup & Cake",
+      "position": {
+        "x": 6287503,
+        "y": 200,
+        "z": -5355360
+      },
+      "route_ids": [],
+      "initials": "CC",
+      "color": 18,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-30",
+      "name": "Спортивная улица, 110",
+      "position": {
+        "x": 6287525,
+        "y": 201,
+        "z": -5355247
+      },
+      "route_ids": [
+        "inn-route-02",
+        "inn-route-03"
+      ],
+      "initials": "11",
+      "color": 14,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-31",
+      "name": "Спортивная улица, 100",
+      "position": {
+        "x": 6287468,
+        "y": 200,
+        "z": -5355218
+      },
+      "route_ids": [
+        "inn-route-07"
+      ],
+      "initials": "10",
+      "color": 13,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-32",
+      "name": "Win-Win",
+      "position": {
+        "x": 6287507,
+        "y": 201,
+        "z": -5355160
+      },
+      "route_ids": [
+        "inn-route-07"
+      ],
+      "initials": "WW",
+      "color": 11,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-33",
+      "name": "Мэрия города Иннополис",
+      "position": {
+        "x": 6287649,
+        "y": 203,
+        "z": -5355153
+      },
+      "route_ids": [
+        "inn-route-03",
+        "inn-route-10"
+      ],
+      "initials": "CH",
+      "color": 5,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-34",
+      "name": "Ярмарочная площадь",
+      "position": {
+        "x": 6287637,
+        "y": 203,
+        "z": -5355033
+      },
+      "route_ids": [
+        "inn-route-03",
+        "inn-route-10"
+      ],
+      "initials": "YP",
+      "color": 13,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "INN-WP-35",
+      "name": "Спортивная Площадка Воркаут",
+      "position": {
+        "x": 6287716,
+        "y": 203,
+        "z": -5355003
+      },
+      "route_ids": [
+        "inn-route-04",
+        "inn-route-09"
+      ],
+      "initials": "SP",
+      "color": 2,
+      "source": "manual-in-game-labeling",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "map_id": "sofi_stadium",
+  "floor_reference_y": {
+    "2": 43,
+    "3": 69,
+    "4": 85,
+    "5": 98,
+    "6": 107
+  },
+  "waypoints": [
+    {
+      "name": "Entry 8",
+      "x": -361,
+      "y": 69,
+      "z": -151,
+      "category": "entrance",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Entry 5",
+      "x": -25,
+      "y": 73,
+      "z": -146,
+      "category": "entrance",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "NFL Los Angeles",
+      "x": -82,
+      "y": 73,
+      "z": -313,
+      "category": "landmark",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "American Airlines Plaza",
+      "x": -374,
+      "y": 73,
+      "z": -35,
+      "category": "plaza",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Ticketmaster VIP Lobby",
+      "x": -173,
+      "y": 73,
+      "z": -186,
+      "category": "lobby",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Ticketmaster Terrace",
+      "x": -201,
+      "y": 87,
+      "z": -191,
+      "category": "hospitality",
+      "floor_index": 4,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Terrace Lounge",
+      "x": -201,
+      "y": 87,
+      "z": 16,
+      "category": "hospitality",
+      "floor_index": 4,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Section 430",
+      "x": -70,
+      "y": 86,
+      "z": -87,
+      "category": "seating_section",
+      "floor_index": 4,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Section 337",
+      "x": -82,
+      "y": 66,
+      "z": -89,
+      "category": "seating_section",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Section 233",
+      "x": -104,
+      "y": 43,
+      "z": -88,
+      "category": "seating_section",
+      "floor_index": 2,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Section 400",
+      "x": -328,
+      "y": 85,
+      "z": -87,
+      "category": "seating_section",
+      "floor_index": 4,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Section 308",
+      "x": -320,
+      "y": 70,
+      "z": -90,
+      "category": "seating_section",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Section 206",
+      "x": -297,
+      "y": 45,
+      "z": -89,
+      "category": "seating_section",
+      "floor_index": 2,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Section 514",
+      "x": -198,
+      "y": 99,
+      "z": 23,
+      "category": "seating_section",
+      "floor_index": 5,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Section 414",
+      "x": -196,
+      "y": 84,
+      "z": 9,
+      "category": "seating_section",
+      "floor_index": 4,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Section 322",
+      "x": -193,
+      "y": 68,
+      "z": 6,
+      "category": "seating_section",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "VIP Section 219",
+      "x": -200,
+      "y": 44,
+      "z": -17,
+      "category": "vip_seating",
+      "floor_index": 2,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Section 540",
+      "x": -204,
+      "y": 97,
+      "z": -192,
+      "category": "seating_section",
+      "floor_index": 5,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Section 444",
+      "x": -204,
+      "y": 84,
+      "z": -182,
+      "category": "seating_section",
+      "floor_index": 4,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Section 350",
+      "x": -204,
+      "y": 68,
+      "z": -178,
+      "category": "seating_section",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "VIP Section 246",
+      "x": -200,
+      "y": 42,
+      "z": -152,
+      "category": "vip_seating",
+      "floor_index": 2,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Terrace Suites",
+      "x": -186,
+      "y": 107,
+      "z": 31,
+      "category": "suite",
+      "floor_index": 6,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Parking Lot N",
+      "x": -350,
+      "y": 70,
+      "z": -355,
+      "category": "parking",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Lake Park",
+      "x": -550,
+      "y": 68,
+      "z": -217,
+      "category": "park",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    },
+    {
+      "name": "Hyundai Purple Zone",
+      "x": -657,
+      "y": 69,
+      "z": -120,
+      "category": "parking",
+      "floor_index": 3,
+      "navigation_role": "destination"
+    }
+  ]
+}

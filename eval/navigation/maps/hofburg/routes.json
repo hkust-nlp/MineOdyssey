@@ -1,0 +1,669 @@
+{
+  "schema_version": 1,
+  "map_id": "hofburg",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/hofburg-10-routes.json",
+    "sha256": "252e91878ab828562f1534e4545170caba09c7e34bf8e852848cb5130b29ce54"
+  },
+  "quality_status": "reviewed_routes",
+  "route_count": 7,
+  "routes": [
+    {
+      "id": "hofburg-route-01",
+      "title": "Heldenplatz 与新霍夫堡",
+      "prompt_zh": "你是第一次到霍夫堡的城市历史游客。从 Äußeres Burgtor 进入 Heldenplatz，依次观察两座骑马像、广场与新霍夫堡的关系，最后走到霍夫堡活动空间。请从「Äußeres Burgtor」走到「Hofburg Vienna Eventlocation」。",
+      "persona_zh": "第一次到霍夫堡的城市历史游客",
+      "topic_zh": "Heldenplatz 与新霍夫堡",
+      "purpose_zh": "从 Äußeres Burgtor 进入 Heldenplatz，经过 Erzherzog-Karl-Denkmal、Prinz-Eugen-Denkmal 与 Haus der Geschichte Österreich，最后到 Hofburg Vienna Eventlocation",
+      "actor": "第一次到霍夫堡的城市历史游客",
+      "intent": "从 Äußeres Burgtor 进入 Heldenplatz，经过 Erzherzog-Karl-Denkmal、Prinz-Eugen-Denkmal 与 Haus der Geschichte Österreich，最后到 Hofburg Vienna Eventlocation",
+      "theme": "Heldenplatz 与新霍夫堡",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Äußeres Burgtor 进入 Heldenplatz，经过 Erzherzog-Karl-Denkmal、Prinz-Eugen-Denkmal 与 Haus der Geschichte Österreich，最后到 Hofburg Vienna Eventlocation",
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4
+      },
+      "status": "strict_reachability_verified",
+      "points": [
+        {
+          "waypoint_id": "HOF-WP-30",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HOF-WP-25",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-24",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-20",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-19",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-21",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "hofburg-route-01-segment-01",
+          "from": "HOF-WP-30",
+          "to": "HOF-WP-25"
+        },
+        {
+          "id": "hofburg-route-01-segment-02",
+          "from": "HOF-WP-25",
+          "to": "HOF-WP-24"
+        },
+        {
+          "id": "hofburg-route-01-segment-03",
+          "from": "HOF-WP-24",
+          "to": "HOF-WP-20"
+        },
+        {
+          "id": "hofburg-route-01-segment-04",
+          "from": "HOF-WP-20",
+          "to": "HOF-WP-19"
+        },
+        {
+          "id": "hofburg-route-01-segment-05",
+          "from": "HOF-WP-19",
+          "to": "HOF-WP-21"
+        }
+      ]
+    },
+    {
+      "id": "hofburg-route-02",
+      "title": "Albertina 到奥古斯丁文化区",
+      "prompt_zh": "作为安排半天艺术参观的游客，你今天打算从 Erzherzog-Albrecht-Denkmal 进入 Albertina 和 Österreichisches Filmmuseum，再走到 Augustinerkonvent Wien 与 Pfarrkirche St. Augustin。路线从「Erzherzog-Albrecht-Denkmal」开始，在「Pfarrkirche St. Augustin」结束，围绕「Albertina 到奥古斯丁文化区」展开。",
+      "persona_zh": "安排半天艺术参观的游客",
+      "topic_zh": "Albertina 到奥古斯丁文化区",
+      "purpose_zh": "从 Erzherzog-Albrecht-Denkmal 进入 Albertina 和 Österreichisches Filmmuseum，再走到 Augustinerkonvent Wien 与 Pfarrkirche St. Augustin",
+      "actor": "安排半天艺术参观的游客",
+      "intent": "从 Erzherzog-Albrecht-Denkmal 进入 Albertina 和 Österreichisches Filmmuseum，再走到 Augustinerkonvent Wien 与 Pfarrkirche St. Augustin",
+      "theme": "Albertina 到奥古斯丁文化区",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Erzherzog-Albrecht-Denkmal 进入 Albertina 和 Österreichisches Filmmuseum，再走到 Augustinerkonvent Wien 与 Pfarrkirche St. Augustin",
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4
+      },
+      "status": "strict_reachability_verified",
+      "points": [
+        {
+          "waypoint_id": "HOF-WP-04",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HOF-WP-05",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-06",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-34",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-08",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "hofburg-route-02-segment-01",
+          "from": "HOF-WP-04",
+          "to": "HOF-WP-05"
+        },
+        {
+          "id": "hofburg-route-02-segment-02",
+          "from": "HOF-WP-05",
+          "to": "HOF-WP-06"
+        },
+        {
+          "id": "hofburg-route-02-segment-03",
+          "from": "HOF-WP-06",
+          "to": "HOF-WP-34"
+        },
+        {
+          "id": "hofburg-route-02-segment-04",
+          "from": "HOF-WP-34",
+          "to": "HOF-WP-08"
+        }
+      ]
+    },
+    {
+      "id": "hofburg-route-03",
+      "title": "奥古斯丁教堂与国家图书馆",
+      "prompt_zh": "你是研究帝国时期宗教与知识机构的学生。从奥古斯丁修道院走到奥古斯丁教堂，再参观国家图书馆大厅，最后在约瑟夫二世像一带结束记录。请从「Augustinerkonvent Wien」走到「Kaiser-Joseph-II.-Denkmal」。",
+      "persona_zh": "研究帝国宗教与知识机构的学生",
+      "topic_zh": "帝国纪念像、奥古斯丁教堂与国家图书馆",
+      "purpose_zh": "从 Augustinerkonvent Wien 前往 Pfarrkirche St. Augustin 和 Prunksaal der Österreichischen Nationalbibliothek，最后到 Kaiser-Joseph-II.-Denkmal",
+      "actor": "研究帝国宗教与知识机构的学生",
+      "intent": "从 Augustinerkonvent Wien 前往 Pfarrkirche St. Augustin 和 Prunksaal der Österreichischen Nationalbibliothek，最后到 Kaiser-Joseph-II.-Denkmal",
+      "theme": "帝国纪念像、奥古斯丁教堂与国家图书馆",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Augustinerkonvent Wien 前往 Pfarrkirche St. Augustin 和 Prunksaal der Österreichischen Nationalbibliothek，最后到 Kaiser-Joseph-II.-Denkmal",
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4
+      },
+      "status": "strict_reachability_verified",
+      "points": [
+        {
+          "waypoint_id": "HOF-WP-34",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HOF-WP-08",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-10",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-11",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "hofburg-route-03-segment-01",
+          "from": "HOF-WP-34",
+          "to": "HOF-WP-08"
+        },
+        {
+          "id": "hofburg-route-03-segment-02",
+          "from": "HOF-WP-08",
+          "to": "HOF-WP-10"
+        },
+        {
+          "id": "hofburg-route-03-segment-03",
+          "from": "HOF-WP-10",
+          "to": "HOF-WP-11"
+        }
+      ]
+    },
+    {
+      "id": "hofburg-route-04",
+      "title": "Burggarten 花园与纪念物",
+      "prompt_zh": "今天你想以在博物馆之间休息散步的本地人的身份安排「Burggarten 花园与纪念物」。具体做法是从 Imperial Shop Wien 进入 Burggarten，依次经过 Mozartdenkmal、Brunnen „Herkules und der Nemeische Löwe“ 与 Denkmal Franz Joseph I；从「Imperial Shop Wien」出发，到「Denkmal Franz Joseph I」结束。",
+      "persona_zh": "在博物馆之间休息散步的本地人",
+      "topic_zh": "Burggarten 花园与纪念物",
+      "purpose_zh": "从 Imperial Shop Wien 进入 Burggarten，依次经过 Mozartdenkmal、Brunnen „Herkules und der Nemeische Löwe“ 与 Denkmal Franz Joseph I",
+      "actor": "在博物馆之间休息散步的本地人",
+      "intent": "从 Imperial Shop Wien 进入 Burggarten，依次经过 Mozartdenkmal、Brunnen „Herkules und der Nemeische Löwe“ 与 Denkmal Franz Joseph I",
+      "theme": "Burggarten 花园与纪念物",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Imperial Shop Wien 进入 Burggarten，依次经过 Mozartdenkmal、Brunnen „Herkules und der Nemeische Löwe“ 与 Denkmal Franz Joseph I",
+      "metrics": {
+        "point_count": 4,
+        "unique_point_count": 4,
+        "segment_count": 3
+      },
+      "status": "strict_reachability_verified",
+      "points": [
+        {
+          "waypoint_id": "HOF-WP-22",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HOF-WP-03",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-01",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-02",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "hofburg-route-04-segment-01",
+          "from": "HOF-WP-22",
+          "to": "HOF-WP-03"
+        },
+        {
+          "id": "hofburg-route-04-segment-02",
+          "from": "HOF-WP-03",
+          "to": "HOF-WP-01"
+        },
+        {
+          "id": "hofburg-route-04-segment-03",
+          "from": "HOF-WP-01",
+          "to": "HOF-WP-02"
+        }
+      ]
+    },
+    {
+      "id": "hofburg-route-05",
+      "title": "Sisi Museum、帝国珍宝与奥地利历史",
+      "prompt_zh": "你是第一次参观皇宫内部的游客。今天想从 Österreichische Präsidentschaftskanzlei 一侧进入 Amalienburg，参观 Sisi Museum、Schweizertor 和 Kaiserliche Schatzkammer，最后到 Haus der Geschichte Österreich。请从「Österreichische Präsidentschaftskanzlei」出发，最后到「Haus der Geschichte Österreich」；这段行程的主题是「Sisi Museum、帝国珍宝与奥地利历史」。",
+      "persona_zh": "第一次参观皇宫内部的游客",
+      "topic_zh": "Sisi Museum、帝国珍宝与奥地利历史",
+      "purpose_zh": "从 Österreichische Präsidentschaftskanzlei 一侧进入 Amalienburg，参观 Sisi Museum、Schweizertor 和 Kaiserliche Schatzkammer，最后到 Haus der Geschichte Österreich",
+      "actor": "第一次参观皇宫内部的游客",
+      "intent": "从 Österreichische Präsidentschaftskanzlei 一侧进入 Amalienburg，参观 Sisi Museum、Schweizertor 和 Kaiserliche Schatzkammer，最后到 Haus der Geschichte Österreich",
+      "theme": "Sisi Museum、帝国珍宝与奥地利历史",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Österreichische Präsidentschaftskanzlei 一侧进入 Amalienburg，参观 Sisi Museum、Schweizertor 和 Kaiserliche Schatzkammer，最后到 Haus der Geschichte Österreich",
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5
+      },
+      "status": "strict_reachability_verified",
+      "points": [
+        {
+          "waypoint_id": "HOF-WP-18",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HOF-WP-29",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-13",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-17",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-16",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-19",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "hofburg-route-05-segment-01",
+          "from": "HOF-WP-18",
+          "to": "HOF-WP-29"
+        },
+        {
+          "id": "hofburg-route-05-segment-02",
+          "from": "HOF-WP-29",
+          "to": "HOF-WP-13"
+        },
+        {
+          "id": "hofburg-route-05-segment-03",
+          "from": "HOF-WP-13",
+          "to": "HOF-WP-17"
+        },
+        {
+          "id": "hofburg-route-05-segment-04",
+          "from": "HOF-WP-17",
+          "to": "HOF-WP-16"
+        },
+        {
+          "id": "hofburg-route-05-segment-05",
+          "from": "HOF-WP-16",
+          "to": "HOF-WP-19"
+        }
+      ]
+    },
+    {
+      "id": "hofburg-route-07",
+      "title": "Michaelertrakt、帝国雕塑与皇宫北翼",
+      "prompt_zh": "你是从 Michaelerplatz 进入皇宫的建筑爱好者。从 Michaelertrakt 出发，依次看海权与陆权两组帝国雕塑，再沿 Österreichische Präsidentschaftskanzlei 一侧走到 Amalienburg。请从「Michaelertrakt」走到「Amalienburg」。",
+      "persona_zh": "从 Michaelerplatz 进入皇宫的建筑爱好者",
+      "topic_zh": "Michaelertrakt、帝国雕塑与皇宫北翼",
+      "purpose_zh": "从 Michaelertrakt 经过帝国力量雕塑与 Österreichische Präsidentschaftskanzlei 前往 Amalienburg",
+      "actor": "从 Michaelerplatz 进入皇宫的建筑爱好者",
+      "intent": "从 Michaelertrakt 经过帝国力量雕塑与 Österreichische Präsidentschaftskanzlei 前往 Amalienburg",
+      "theme": "Michaelertrakt、帝国雕塑与皇宫北翼",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从 Michaelertrakt 经过帝国力量雕塑与 Österreichische Präsidentschaftskanzlei 前往 Amalienburg",
+      "metrics": {
+        "point_count": 5,
+        "unique_point_count": 5,
+        "segment_count": 4
+      },
+      "status": "strict_reachability_verified",
+      "points": [
+        {
+          "waypoint_id": "HOF-WP-27",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HOF-WP-12",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-14",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-18",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-29",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "hofburg-route-07-segment-01",
+          "from": "HOF-WP-27",
+          "to": "HOF-WP-12"
+        },
+        {
+          "id": "hofburg-route-07-segment-02",
+          "from": "HOF-WP-12",
+          "to": "HOF-WP-14"
+        },
+        {
+          "id": "hofburg-route-07-segment-03",
+          "from": "HOF-WP-14",
+          "to": "HOF-WP-18"
+        },
+        {
+          "id": "hofburg-route-07-segment-04",
+          "from": "HOF-WP-18",
+          "to": "HOF-WP-29"
+        }
+      ]
+    },
+    {
+      "id": "hofburg-route-08",
+      "title": "Habsburg 皇权核心空间",
+      "prompt_zh": "你是想理解哈布斯堡权力空间的历史游客，今天要完成「Habsburg 皇权核心空间」：从帝国海权雕塑经 Michaelertrakt、Amalienburg 和总统府走到 Heldenplatz 与外城门。请从「Die Macht zur See」走到「Äußeres Burgtor」。",
+      "persona_zh": "想理解哈布斯堡权力空间的历史游客",
+      "topic_zh": "Habsburg 皇权核心空间",
+      "purpose_zh": "从帝国海权雕塑经 Michaelertrakt、Amalienburg 和总统府走到 Heldenplatz 与外城门",
+      "actor": "想理解哈布斯堡权力空间的历史游客",
+      "intent": "从帝国海权雕塑经 Michaelertrakt、Amalienburg 和总统府走到 Heldenplatz 与外城门",
+      "theme": "Habsburg 皇权核心空间",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从帝国海权雕塑经 Michaelertrakt、Amalienburg 和总统府走到 Heldenplatz 与外城门",
+      "metrics": {
+        "point_count": 6,
+        "unique_point_count": 6,
+        "segment_count": 5
+      },
+      "status": "strict_reachability_verified",
+      "points": [
+        {
+          "waypoint_id": "HOF-WP-12",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HOF-WP-27",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-29",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-18",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-24",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HOF-WP-30",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "hofburg-route-08-segment-01",
+          "from": "HOF-WP-12",
+          "to": "HOF-WP-27"
+        },
+        {
+          "id": "hofburg-route-08-segment-02",
+          "from": "HOF-WP-27",
+          "to": "HOF-WP-29"
+        },
+        {
+          "id": "hofburg-route-08-segment-03",
+          "from": "HOF-WP-29",
+          "to": "HOF-WP-18"
+        },
+        {
+          "id": "hofburg-route-08-segment-04",
+          "from": "HOF-WP-18",
+          "to": "HOF-WP-24"
+        },
+        {
+          "id": "hofburg-route-08-segment-05",
+          "from": "HOF-WP-24",
+          "to": "HOF-WP-30"
+        }
+      ]
+    }
+  ],
+  "upload_recommendation": "waypoints_and_routes_ready",
+  "excluded_waypoints": [
+    {
+      "name": "Hercules and the Nemean lion fou",
+      "mc": {
+        "x": 314,
+        "y": -8,
+        "z": 742
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "Stallburg",
+      "mc": {
+        "x": 504,
+        "y": -9,
+        "z": 420
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "Schweizertor",
+      "mc": {
+        "x": 362,
+        "y": -9,
+        "z": 423
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "Prince Eugene Monument",
+      "mc": {
+        "x": 258,
+        "y": -7,
+        "z": 518
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "Neue Burg",
+      "mc": {
+        "x": 300,
+        "y": -7,
+        "z": 575
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "Austrian National Library",
+      "mc": {
+        "x": 445,
+        "y": -8,
+        "z": 500
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "Swiss Gate",
+      "mc": {
+        "x": 377,
+        "y": -8,
+        "z": 400
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "Burggarten",
+      "mc": {
+        "x": 336,
+        "y": -9,
+        "z": 711
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "Hofburgstüberl",
+      "mc": {
+        "x": 355,
+        "y": -8,
+        "z": 366
+      },
+      "reason": "disabled_in_xaero"
+    },
+    {
+      "name": "Mozart Monument",
+      "mc": {
+        "x": 250,
+        "y": -7,
+        "z": 748
+      },
+      "reason": "disabled_in_xaero"
+    }
+  ]
+}

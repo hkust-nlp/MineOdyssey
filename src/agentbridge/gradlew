@@ -1,0 +1,36 @@
+#!/usr/bin/env sh
+set -eu
+
+GRADLE_VERSION="8.14.3"
+GRADLE_DISTRIBUTION_SHA256="bd71102213493060956ec229d946beee57158dbd89d0e62b91bca0fa2c5f3531"
+GRADLE_BASE="${GRADLE_USER_HOME:-${HOME}/.gradle}"
+GRADLE_DIST_ROOT="${GRADLE_BASE}/wrapper/dists/gradle-${GRADLE_VERSION}-bin/mcbots"
+GRADLE_BIN="${GRADLE_DIST_ROOT}/gradle-${GRADLE_VERSION}/bin/gradle"
+
+if [ ! -x "${GRADLE_BIN}" ]; then
+    mkdir -p "${GRADLE_DIST_ROOT}"
+    TEMP_DIR="$(mktemp -d "${GRADLE_DIST_ROOT}/.download.XXXXXX")"
+    trap 'rm -rf "${TEMP_DIR}"' EXIT INT TERM
+    ZIP_PATH="${TEMP_DIR}/gradle.zip"
+    curl --fail --location --retry 3 \
+        "https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip" \
+        --output "${ZIP_PATH}"
+    if command -v sha256sum >/dev/null 2>&1; then
+        ACTUAL_SHA="$(sha256sum "${ZIP_PATH}" | awk '{print $1}')"
+    elif command -v shasum >/dev/null 2>&1; then
+        ACTUAL_SHA="$(shasum -a 256 "${ZIP_PATH}" | awk '{print $1}')"
+    else
+        echo "sha256sum or shasum is required to verify Gradle" >&2
+        exit 1
+    fi
+    if [ "${ACTUAL_SHA}" != "${GRADLE_DISTRIBUTION_SHA256}" ]; then
+        echo "Gradle distribution SHA-256 mismatch" >&2
+        exit 1
+    fi
+    unzip -q "${ZIP_PATH}" -d "${TEMP_DIR}/unpacked"
+    mv "${TEMP_DIR}/unpacked/gradle-${GRADLE_VERSION}" "${GRADLE_DIST_ROOT}/"
+    trap - EXIT INT TERM
+    rm -rf "${TEMP_DIR}"
+fi
+
+exec "${GRADLE_BIN}" "$@"

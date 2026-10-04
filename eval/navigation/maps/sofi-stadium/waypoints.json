@@ -1,0 +1,692 @@
+{
+  "schema_version": 1,
+  "map_id": "sofi-stadium",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "custom_maps/maps/inter_map/sofi_stadium/waypoints.json",
+    "sha256": "862352d3130fe3cc579ed9cd38aaab9af62d6afe27b2d32cc35ed97bd1440125"
+  },
+  "dimension": "overworld",
+  "floor_reference_y": {
+    "2": 43,
+    "3": 69,
+    "4": 85,
+    "5": 98,
+    "6": 107
+  },
+  "waypoint_count": 25,
+  "waypoints": [
+    {
+      "id": "SOFI-WP-01",
+      "name": "Entry 8",
+      "position": {
+        "x": -361,
+        "y": 69,
+        "z": -151
+      },
+      "route_ids": [
+        "sofi-route-13",
+        "sofi-route-15"
+      ],
+      "initials": "E",
+      "color": 5,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "entrance",
+      "floor_index": 3,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-02",
+      "name": "Entry 5",
+      "position": {
+        "x": -25,
+        "y": 73,
+        "z": -146
+      },
+      "route_ids": [
+        "sofi-route-14"
+      ],
+      "initials": "E",
+      "color": 15,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "entrance",
+      "floor_index": 3,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-03",
+      "name": "NFL Los Angeles",
+      "position": {
+        "x": -82,
+        "y": 73,
+        "z": -313
+      },
+      "route_ids": [
+        "sofi-route-14"
+      ],
+      "initials": "N",
+      "color": 4,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "landmark",
+      "floor_index": 3,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-04",
+      "name": "American Airlines Plaza",
+      "position": {
+        "x": -374,
+        "y": 73,
+        "z": -35
+      },
+      "route_ids": [
+        "sofi-route-13"
+      ],
+      "initials": "A",
+      "color": 12,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "plaza",
+      "floor_index": 3,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-05",
+      "name": "Ticketmaster VIP Lobby",
+      "position": {
+        "x": -173,
+        "y": 73,
+        "z": -186
+      },
+      "route_ids": [
+        "sofi-route-08"
+      ],
+      "initials": "T",
+      "color": 8,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "lobby",
+      "floor_index": 3,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-07",
+      "name": "Ticketmaster Terrace",
+      "position": {
+        "x": -201,
+        "y": 87,
+        "z": -191
+      },
+      "route_ids": [
+        "sofi-route-08"
+      ],
+      "initials": "T",
+      "color": 6,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "hospitality",
+      "floor_index": 4,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-08",
+      "name": "Terrace Lounge",
+      "position": {
+        "x": -201,
+        "y": 87,
+        "z": 16
+      },
+      "route_ids": [
+        "sofi-route-02",
+        "sofi-route-15"
+      ],
+      "initials": "T",
+      "color": 13,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "hospitality",
+      "floor_index": 4,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-09",
+      "name": "Section 430",
+      "position": {
+        "x": -70,
+        "y": 86,
+        "z": -87
+      },
+      "route_ids": [
+        "sofi-route-14"
+      ],
+      "initials": "4",
+      "color": 13,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "seating_section",
+      "floor_index": 4,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-10",
+      "name": "Section 337",
+      "position": {
+        "x": -82,
+        "y": 66,
+        "z": -89
+      },
+      "route_ids": [
+        "sofi-route-15"
+      ],
+      "initials": "3",
+      "color": 15,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "seating_section",
+      "floor_index": 3,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-11",
+      "name": "Section 233",
+      "position": {
+        "x": -104,
+        "y": 43,
+        "z": -88
+      },
+      "route_ids": [
+        "sofi-route-05"
+      ],
+      "initials": "2",
+      "color": 15,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "seating_section",
+      "floor_index": 2,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-12",
+      "name": "Section 400",
+      "position": {
+        "x": -328,
+        "y": 85,
+        "z": -87
+      },
+      "route_ids": [
+        "sofi-route-15"
+      ],
+      "initials": "4",
+      "color": 14,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "seating_section",
+      "floor_index": 4,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-13",
+      "name": "Section 308",
+      "position": {
+        "x": -320,
+        "y": 70,
+        "z": -90
+      },
+      "route_ids": [
+        "sofi-route-15"
+      ],
+      "initials": "3",
+      "color": 1,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "seating_section",
+      "floor_index": 3,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-14",
+      "name": "Section 206",
+      "position": {
+        "x": -297,
+        "y": 45,
+        "z": -89
+      },
+      "route_ids": [],
+      "initials": "2",
+      "color": 11,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "seating_section",
+      "floor_index": 2,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-15",
+      "name": "Section 514",
+      "position": {
+        "x": -198,
+        "y": 99,
+        "z": 23
+      },
+      "route_ids": [
+        "sofi-route-02"
+      ],
+      "initials": "5",
+      "color": 6,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "seating_section",
+      "floor_index": 5,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-16",
+      "name": "Section 414",
+      "position": {
+        "x": -196,
+        "y": 84,
+        "z": 9
+      },
+      "route_ids": [
+        "sofi-route-02"
+      ],
+      "initials": "4",
+      "color": 4,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "seating_section",
+      "floor_index": 4,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-17",
+      "name": "Section 322",
+      "position": {
+        "x": -193,
+        "y": 68,
+        "z": 6
+      },
+      "route_ids": [],
+      "initials": "3",
+      "color": 11,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "seating_section",
+      "floor_index": 3,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-18",
+      "name": "VIP Section 219",
+      "position": {
+        "x": -200,
+        "y": 44,
+        "z": -17
+      },
+      "route_ids": [
+        "sofi-route-05"
+      ],
+      "initials": "V",
+      "color": 9,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "vip_seating",
+      "floor_index": 2,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-19",
+      "name": "Section 540",
+      "position": {
+        "x": -204,
+        "y": 97,
+        "z": -192
+      },
+      "route_ids": [],
+      "initials": "5",
+      "color": 2,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "seating_section",
+      "floor_index": 5,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-20",
+      "name": "Section 444",
+      "position": {
+        "x": -204,
+        "y": 84,
+        "z": -182
+      },
+      "route_ids": [
+        "sofi-route-08"
+      ],
+      "initials": "4",
+      "color": 4,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "seating_section",
+      "floor_index": 4,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-21",
+      "name": "Section 350",
+      "position": {
+        "x": -204,
+        "y": 68,
+        "z": -178
+      },
+      "route_ids": [
+        "sofi-route-08"
+      ],
+      "initials": "3",
+      "color": 14,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "seating_section",
+      "floor_index": 3,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-22",
+      "name": "VIP Section 246",
+      "position": {
+        "x": -200,
+        "y": 42,
+        "z": -152
+      },
+      "route_ids": [
+        "sofi-route-05"
+      ],
+      "initials": "V",
+      "color": 10,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "vip_seating",
+      "floor_index": 2,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-23",
+      "name": "Terrace Suites",
+      "position": {
+        "x": -186,
+        "y": 107,
+        "z": 31
+      },
+      "route_ids": [
+        "sofi-route-02"
+      ],
+      "initials": "T",
+      "color": 7,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "suite",
+      "floor_index": 6,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-24",
+      "name": "Parking Lot N",
+      "position": {
+        "x": -350,
+        "y": 70,
+        "z": -355
+      },
+      "route_ids": [
+        "sofi-route-14"
+      ],
+      "initials": "P",
+      "color": 13,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "parking",
+      "floor_index": 3,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-25",
+      "name": "Lake Park",
+      "position": {
+        "x": -550,
+        "y": 68,
+        "z": -217
+      },
+      "route_ids": [
+        "sofi-route-13"
+      ],
+      "initials": "L",
+      "color": 11,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "park",
+      "floor_index": 3,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    },
+    {
+      "id": "SOFI-WP-26",
+      "name": "Hyundai Purple Zone",
+      "position": {
+        "x": -657,
+        "y": 69,
+        "z": -120
+      },
+      "route_ids": [
+        "sofi-route-13"
+      ],
+      "initials": "H",
+      "color": 9,
+      "source": "lh-inter-maps-normalized-waypoint",
+      "category": "parking",
+      "floor_index": 3,
+      "navigation_role": "destination",
+      "xaero": {
+        "disabled": false,
+        "type": 0,
+        "set": "gui.xaero_default",
+        "rotate_on_tp": false,
+        "tp_yaw": 0,
+        "visibility_type": 0,
+        "destination": false
+      }
+    }
+  ]
+}

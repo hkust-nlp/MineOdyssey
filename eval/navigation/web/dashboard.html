@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Navigation Eval Live</title>
+  <style>
+    :root { color-scheme: dark; font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
+    * { box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; margin: 0; background: #0b0f14; color: #dfe7ef; overflow: hidden; }
+    header { height: 54px; display: flex; align-items: center; gap: 14px; padding: 0 18px; border-bottom: 1px solid #26313d; background: #111820; }
+    header h1 { font-size: 15px; margin: 0; font-weight: 650; }
+    #task { color: #8fa2b5; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    #status { margin-left: auto; padding: 5px 9px; border-radius: 999px; background: #28333d; font-size: 12px; }
+    main { display: grid; grid-template-columns: minmax(480px, 62%) minmax(340px, 38%); height: calc(100vh - 54px); }
+    .vnc { min-width: 0; min-height: 0; overflow: hidden; border-right: 1px solid #26313d; background: #05080b; }
+    iframe { display: block; width: 100%; height: 100%; border: 0; }
+    aside { min-width: 0; min-height: 0; overflow: hidden; display: flex; flex-direction: column; background: #0e141b; }
+    .summary { padding: 10px 14px; border-bottom: 1px solid #26313d; display: grid; gap: 8px; font-size: 12px; color: #9eacba; max-height: 42%; overflow: auto; }
+    details { border: 1px solid #263440; border-radius: 7px; background: #111922; }
+    summary { cursor: pointer; padding: 7px 9px; color: #b8c7d5; font-weight: 600; }
+    .prompt { color: #e9f1f8; line-height: 1.5; padding: 0 9px 9px; max-height: 240px; overflow: auto; }
+    .stats { display: flex; flex-wrap: wrap; gap: 12px; }
+    #turns { flex: 1 1 0; min-height: 0; overflow-y: auto; overflow-x: hidden; overscroll-behavior: contain; padding: 14px; }
+    .empty { color: #788897; text-align: center; margin-top: 25vh; }
+    .turn { border: 1px solid #273440; border-radius: 10px; margin-bottom: 12px; overflow: hidden; background: #121a22; }
+    .turn-head { padding: 7px 10px; color: #8fa2b5; background: #17212b; font-size: 11px; }
+    .section { padding: 10px 12px; border-top: 1px solid #23303b; }
+    .section:first-of-type { border-top: 0; }
+    .label { margin-bottom: 6px; text-transform: uppercase; letter-spacing: .08em; font-size: 10px; color: #6fb6ff; }
+    pre { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font: 12px/1.55 ui-monospace, SFMono-Regular, Menlo, monospace; color: #d9e2ea; }
+    .action { color: #8ee6a8; }
+    @media (max-width: 900px) { main { grid-template-columns: 1fr; grid-template-rows: 55% 45%; } .vnc { border-right: 0; border-bottom: 1px solid #26313d; } }
+  </style>
+</head>
+<body>
+  <header><h1>Navigation Eval Live</h1><div id="task">载入任务…</div><div id="status">连接中</div></header>
+  <main>
+    <section class="vnc"><iframe id="vnc" title="noVNC"></iframe></section>
+    <aside>
+      <div class="summary">
+        <details><summary>System prompt</summary><pre class="prompt" id="system-prompt"></pre></details>
+        <details open><summary>Task prompt</summary><pre class="prompt" id="prompt"></pre></details>
+        <div class="stats" id="stats"></div>
+      </div>
+      <div id="turns"><div class="empty">等待模型第一次决策…</div></div>
+    </aside>
+  </main>
+  <script>
+    let vncLoaded = false;
+    let lastTurnCount = -1;
+    const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    function actionFrom(content) {
+      const match = String(content || '').match(/<action>[\s\S]*?<\/action>/i);
+      return match ? match[0] : content;
+    }
+    function renderTurns(turns) {
+      if (turns.length === lastTurnCount) return;
+      const root = document.getElementById('turns');
+      if (!turns.length) root.innerHTML = '<div class="empty">等待模型第一次决策…</div>';
+      else root.innerHTML = turns.map((turn, i) => `<article class="turn">
+        <div class="turn-head">Decision ${i + 1}</div>
+        ${turn.reasoning ? `<div class="section"><div class="label">Reasoning</div><pre>${esc(turn.reasoning)}</pre></div>` : ''}
+        <div class="section"><div class="label">Action</div><pre class="action">${esc(actionFrom(turn.content))}</pre></div>
+      </article>`).join('');
+      if (turns.length > lastTurnCount) root.scrollTop = root.scrollHeight;
+      lastTurnCount = turns.length;
+    }
+    async function refresh() {
+      try {
+        const response = await fetch('/api/state', {cache: 'no-store'});
+        const state = await response.json();
+        const run = state.run || {}, task = run.task || {}, status = state.agent_status || {}, completion = state.completion || {};
+        if (!vncLoaded && state.novnc_url) { document.getElementById('vnc').src = state.novnc_url; vncLoaded = true; }
+        document.getElementById('task').textContent = `${run.map_id || 'map'} / ${run.task_id || 'task'} / ${run.model_parameters?.model_id || 'model'}`;
+        document.getElementById('system-prompt').textContent = state.system_prompt || '';
+        document.getElementById('prompt').textContent = task.prompt || '';
+        const done = completion.status || status.stop_reason || 'running';
+        document.getElementById('status').textContent = done;
+        document.getElementById('stats').innerHTML = `<span>决策 ${status.llm_request_success || state.turns.length}</span><span>Claims ${state.claims.length}</span><span>Checkpoint events ${state.events.length}</span>`;
+        renderTurns(state.turns || []);
+      } catch (_) { document.getElementById('status').textContent = '等待服务'; }
+    }
+    refresh(); setInterval(refresh, 1000);
+  </script>
+</body>
+</html>

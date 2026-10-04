@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "map_id": "mr-beast-1000-harbor-city",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "eval/navigation/maps/mr-beast-1000-harbor-city/route-plan-v1.json",
+    "sha256": "125f1893a6cf480d1c5af9db2fef3a550e5450c9844c9845c55c78b2465b71c9"
+  },
+  "quality_status": "review_plan_only_not_certified",
+  "upload_recommendation": "waypoints_ready_routes_need_manual_review",
+  "route_count": 11,
+  "routes": [
+    {
+      "id": "hbc-route-02",
+      "title": "锅炉、管道与铜工协作",
+      "title_en": "Boiler, Pipe and Copper Shop Coordination",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "HBC-WP-51",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HBC-WP-50",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-49",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-48",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-47",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "hbc-route-03",
+      "title": "铁板与船体施工",
+      "title_en": "Iron Plating and Hull Construction",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "HBC-WP-46",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HBC-WP-45",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-44",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-43",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "hbc-route-04",
+      "title": "舰船分段装配",
+      "title_en": "Ship Section Assembly",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "HBC-WP-42",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HBC-WP-41",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-40",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-39",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-38",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "hbc-route-05",
+      "title": "材料实验与质量检验",
+      "title_en": "Materials Testing and Quality Inspection",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "HBC-WP-37",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HBC-WP-36",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-35",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-34",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-33",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-32",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "hbc-route-06",
+      "title": "一号干船坞动力维护",
+      "title_en": "Dry Dock No. 1 Power Maintenance",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "HBC-WP-31",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HBC-WP-13",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-30",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-29",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-31",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "hbc-route-07",
+      "title": "压缩空气与生产公用设施巡检",
+      "title_en": "Compressed Air and Production Utilities Inspection",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "HBC-WP-28",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HBC-WP-27",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-26",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-25",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "hbc-route-08",
+      "title": "乙炔、煤炭与消防安全检查",
+      "title_en": "Acetylene, Coal and Fire Safety Inspection",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "HBC-WP-24",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HBC-WP-23",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-22",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-21",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-20",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "hbc-route-09",
+      "title": "仓库—铁路—码头物资运输",
+      "title_en": "Warehouse, Railway and Pier Logistics",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "HBC-WP-19",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HBC-WP-18",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-17",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-16",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-20",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "hbc-route-10",
+      "title": "小艇与舰船维修监工",
+      "title_en": "Small Craft and Ship Repair Supervision",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "HBC-WP-15",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HBC-WP-14",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-12",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-44",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-43",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "hbc-route-12",
+      "title": "海军陆战队营区与滨水巡逻",
+      "title_en": "Marine Barracks and Waterfront Patrol",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "HBC-WP-09",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HBC-WP-08",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-07",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-06",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-18",
+          "role": "end"
+        }
+      ]
+    },
+    {
+      "id": "hbc-route-13",
+      "title": "建筑维修、军械与辅助动力检查",
+      "title_en": "Building Maintenance, Ordnance and Auxiliary Power Inspection",
+      "status": "review_plan_only_not_certified",
+      "points": [
+        {
+          "waypoint_id": "HBC-WP-05",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "HBC-WP-04",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-32",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-03",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-02",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "HBC-WP-01",
+          "role": "end"
+        }
+      ]
+    }
+  ]
+}

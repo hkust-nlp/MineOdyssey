@@ -1,0 +1,442 @@
+{
+  "schema_version": 1,
+  "map_id": "torrey-mall",
+  "annotation_source": {
+    "repository": "https://example.invalid/anonymous-source",
+    "git_commit": "0000000000000000000000000000000000000000",
+    "path": "route-viewer-baritone/assets/torrey-mall-8-diverse-routes.json",
+    "sha256": "4cae8656ca256ad4919ef534b00e505133a3033166af93eb02d2f6dcfae2d246"
+  },
+  "quality_status": "reviewed_routes",
+  "route_count": 7,
+  "routes": [
+    {
+      "id": "torrey-sparse-01",
+      "title": "采购后休息并办理手机卡",
+      "prompt_zh": "你是刚到城市、需要补齐旅行用品的游客，今天要完成「采购后休息并办理手机卡」。请从「Falabella Centro Cívico」买好用品，去 Lucio Cafe 稍作整理，最后到「Entrada de Claro」办理手机卡。",
+      "persona_zh": "刚到城市、需要补齐旅行用品的游客",
+      "topic_zh": "采购后休息并办理手机卡",
+      "purpose_zh": "先在百货店买旅行用品，到咖啡店休息整理，再去通信门店办理本地手机卡",
+      "actor": "刚到城市、需要补齐旅行用品的游客",
+      "intent": "先在百货店买旅行用品，到咖啡店休息整理，再去通信门店办理本地手机卡",
+      "theme": "采购后休息并办理手机卡",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "先在百货店买旅行用品，到咖啡店休息整理，再去通信门店办理本地手机卡",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "TOR-STORE-FALABELLA",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "TOR-STORE-LUCIO",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TOR-STORE-07",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "torrey-sparse-01-segment-01",
+          "from": "TOR-STORE-FALABELLA",
+          "to": "TOR-STORE-LUCIO"
+        },
+        {
+          "id": "torrey-sparse-01-segment-02",
+          "from": "TOR-STORE-LUCIO",
+          "to": "TOR-STORE-07"
+        }
+      ]
+    },
+    {
+      "id": "torrey-sparse-02",
+      "title": "亲子冰淇淋与选书",
+      "prompt_zh": "你是带孩子逛商场的家长，今天安排「亲子冰淇淋与选书」。请从「Quiosco de helados sur」出发，陪孩子吃完冰淇淋后去 Crisol 选书，最后走到「Vestíbulo de ascensores de la torre este (pisos 1–33 / 1–17)」离开。",
+      "persona_zh": "带孩子逛商场的家长",
+      "topic_zh": "亲子冰淇淋与选书",
+      "purpose_zh": "先陪孩子吃冰淇淋，再一起到书店选书，最后从东侧电梯厅离开商场",
+      "actor": "带孩子逛商场的家长",
+      "intent": "先陪孩子吃冰淇淋，再一起到书店选书，最后从东侧电梯厅离开商场",
+      "theme": "亲子冰淇淋与选书",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "先陪孩子吃冰淇淋，再一起到书店选书，最后从东侧电梯厅离开商场",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "TOR-SEM-04",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "TOR-STORE-CRISOL",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TOR-SEM-08",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "torrey-sparse-02-segment-01",
+          "from": "TOR-SEM-04",
+          "to": "TOR-STORE-CRISOL"
+        },
+        {
+          "id": "torrey-sparse-02-segment-02",
+          "from": "TOR-STORE-CRISOL",
+          "to": "TOR-SEM-08"
+        }
+      ]
+    },
+    {
+      "id": "torrey-sparse-04",
+      "title": "从地下通道跨药房取药",
+      "prompt_zh": "你是需要领取转出处方的患者，今天要完成「从地下通道跨药房取药」。请从「Entrada este del pasaje subterráneo de vidrio」进入，先到 Inkafarma 确认处方，最后去「Mifarma」领取缺货药品。",
+      "persona_zh": "需要领取转出处方的患者",
+      "topic_zh": "从地下通道跨药房取药",
+      "purpose_zh": "从地下通道进入商场，先到一家药房确认处方，再到另一家药房领取缺货药品",
+      "actor": "需要领取转出处方的患者",
+      "intent": "从地下通道进入商场，先到一家药房确认处方，再到另一家药房领取缺货药品",
+      "theme": "从地下通道跨药房取药",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "verified_edges_recombined_needs_full_route_retest",
+      "validation_status": "verified_edges_recombined_needs_full_route_retest",
+      "validation_note_zh": "相邻点均来自现有有向边；新组合仍需整线实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从地下通道进入商场，先到一家药房确认处方，再到另一家药房领取缺货药品",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "verified_edges_recombined_needs_full_route_retest",
+      "points": [
+        {
+          "waypoint_id": "TOR-SEM-06",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "TOR-STORE-INKAFARMA",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TOR-STORE-MIFARMA",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "torrey-sparse-04-segment-01",
+          "from": "TOR-SEM-06",
+          "to": "TOR-STORE-INKAFARMA"
+        },
+        {
+          "id": "torrey-sparse-04-segment-02",
+          "from": "TOR-STORE-INKAFARMA",
+          "to": "TOR-STORE-MIFARMA"
+        }
+      ]
+    },
+    {
+      "id": "torrey-sparse-06",
+      "title": "恢复通信后领取订单并补日用品",
+      "prompt_zh": "你是手机服务刚恢复的本地顾客，今天要完成「恢复通信后领取订单并补日用品」。请从「Movistar」确认网络正常，再去 Plaza Vea 领取订单，最后到「Aruma Centro Cívico」补买护理用品。",
+      "persona_zh": "手机服务刚恢复的本地顾客",
+      "topic_zh": "恢复通信后领取订单并补日用品",
+      "purpose_zh": "先处理手机通信问题，再领取超市订单，最后补买个人护理用品",
+      "actor": "手机服务刚恢复的本地顾客",
+      "intent": "先处理手机通信问题，再领取超市订单，最后补买个人护理用品",
+      "theme": "恢复通信后领取订单并补日用品",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "先处理手机通信问题，再领取超市订单，最后补买个人护理用品",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "TOR-STORE-MOVISTAR",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "TOR-STORE-PLAZA-VEA",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TOR-STORE-ARUMA",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "torrey-sparse-06-segment-01",
+          "from": "TOR-STORE-MOVISTAR",
+          "to": "TOR-STORE-PLAZA-VEA"
+        },
+        {
+          "id": "torrey-sparse-06-segment-02",
+          "from": "TOR-STORE-PLAZA-VEA",
+          "to": "TOR-STORE-ARUMA"
+        }
+      ]
+    },
+    {
+      "id": "torrey-sparse-05",
+      "title": "为新衣挑选配饰",
+      "prompt_zh": "在「H&M」购买家人托你准备的生日礼物，到「Entrada de Pizza Hut」领取已经预订的披萨，再到「Miniso」与其他家人会合，一起进去挑选派对装饰。",
+      "persona_zh": "正在准备活动穿搭的顾客",
+      "topic_zh": "为新衣挑选配饰",
+      "purpose_zh": "买好衣服后前往生活杂货店挑选搭配用的小配饰",
+      "actor": "正在准备活动穿搭的顾客",
+      "intent": "买好衣服后前往生活杂货店挑选搭配用的小配饰",
+      "theme": "为新衣挑选配饰",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "planned_pending_runtime_validation",
+      "validation_status": "planned_pending_runtime_validation",
+      "validation_note_zh": "已按人物与主题精简可见停靠点；新的点间组合需要实走复测。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "买好衣服后前往生活杂货店挑选搭配用的小配饰",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "planned_pending_runtime_validation",
+      "points": [
+        {
+          "waypoint_id": "TOR-STORE-HM",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "TOR-STORE-02",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TOR-ALL-29",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "torrey-sparse-05-segment-01",
+          "from": "TOR-STORE-HM",
+          "to": "TOR-STORE-02"
+        },
+        {
+          "id": "torrey-sparse-05-segment-02",
+          "from": "TOR-STORE-02",
+          "to": "TOR-ALL-29"
+        }
+      ]
+    },
+    {
+      "id": "torrey-sparse-03",
+      "title": "一层珠宝选购与用餐",
+      "prompt_zh": "你是来商场挑选纪念礼物的游客，今天安排「一层珠宝选购与用餐」。请从「Letrero NIVEL 1」出发，先去 Ilaria 挑选礼物，最后到「Entrada de Pizza Hut」和同行者会合用餐。",
+      "persona_zh": "来商场挑选纪念礼物的游客",
+      "topic_zh": "一层珠宝选购与用餐",
+      "purpose_zh": "从一层标识进入商场，先到 Ilaria 挑选纪念礼物，再到 Pizza Hut 与同行者用餐",
+      "actor": "来商场挑选纪念礼物的游客",
+      "intent": "从一层标识进入商场，先到 Ilaria 挑选纪念礼物，再到 Pizza Hut 与同行者用餐",
+      "theme": "一层珠宝选购与用餐",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "previously_reached_exact_geometry_pending_video",
+      "validation_status": "previously_reached_exact_geometry_pending_video",
+      "validation_note_zh": "沿用 torrey-benchmark-15 已整线通过的同坐标点序；等待录制当前路线视频。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "从一层标识进入商场，先到 Ilaria 挑选纪念礼物，再到 Pizza Hut 与同行者用餐",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "previously_reached_exact_geometry_pending_video",
+      "points": [
+        {
+          "waypoint_id": "TOR-SEM-12",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "TOR-STORE-03",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TOR-STORE-02",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "torrey-sparse-03-segment-01",
+          "from": "TOR-SEM-12",
+          "to": "TOR-STORE-03"
+        },
+        {
+          "id": "torrey-sparse-03-segment-02",
+          "from": "TOR-STORE-03",
+          "to": "TOR-STORE-02"
+        }
+      ]
+    },
+    {
+      "id": "torrey-sparse-07",
+      "title": "服装采购、咖啡休息与礼物选购",
+      "prompt_zh": "你是为聚会准备穿搭的本地顾客，今天安排「服装采购、咖啡休息与礼物选购」。请从「Entrada de Gzuck」选购服装，到 Lucio Cafe 休息，最后在「Entrada de Ilaria」挑选礼物。",
+      "persona_zh": "为聚会准备穿搭的本地顾客",
+      "topic_zh": "服装采购、咖啡休息与礼物选购",
+      "purpose_zh": "先在 Gzuck 选购聚会服装，到 Lucio Cafe 休息整理，最后去 Ilaria 挑选礼物",
+      "actor": "为聚会准备穿搭的本地顾客",
+      "intent": "先在 Gzuck 选购聚会服装，到 Lucio Cafe 休息整理，最后去 Ilaria 挑选礼物",
+      "theme": "服装采购、咖啡休息与礼物选购",
+      "prompt_style": "persona_single_topic",
+      "route_kind": "normal_persona_route",
+      "task_type": "single_meaningful_purpose",
+      "route_features": [
+        "persona_first",
+        "single_topic",
+        "semantic_stops",
+        "semantic_dependency_reviewed",
+        "transport_nodes_at_endpoints_only",
+        "portfolio_interleaving",
+        "directional_without_backtracking",
+        "two_to_six_meaningful_stops"
+      ],
+      "reachability_status": "previously_reached_exact_geometry_pending_video",
+      "validation_status": "previously_reached_exact_geometry_pending_video",
+      "validation_note_zh": "沿用 torrey-benchmark-19 已整线通过的同坐标点序；等待录制当前路线视频。",
+      "semantic_dependency_status": "reviewed_persona_topic_stop_order",
+      "semantic_dependency_zh": "先在 Gzuck 选购聚会服装，到 Lucio Cafe 休息整理，最后去 Ilaria 挑选礼物",
+      "metrics": {
+        "point_count": 3,
+        "unique_point_count": 3,
+        "segment_count": 2
+      },
+      "status": "previously_reached_exact_geometry_pending_video",
+      "points": [
+        {
+          "waypoint_id": "TOR-STORE-06",
+          "role": "start"
+        },
+        {
+          "waypoint_id": "TOR-STORE-09",
+          "role": "via"
+        },
+        {
+          "waypoint_id": "TOR-STORE-03",
+          "role": "end"
+        }
+      ],
+      "segments": [
+        {
+          "id": "torrey-sparse-07-segment-01",
+          "from": "TOR-STORE-06",
+          "to": "TOR-STORE-09"
+        },
+        {
+          "id": "torrey-sparse-07-segment-02",
+          "from": "TOR-STORE-09",
+          "to": "TOR-STORE-03"
+        }
+      ]
+    }
+  ],
+  "upload_recommendation": "waypoints_and_routes_ready"
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "map_id": "santa-lucia-hill",
+  "display_name": "Santa Lucia Hill",
+  "environment": "outdoor",
+  "source": {
+    "repository": "anonymous/source",
+    "release_id": 1,
+    "release_url": "https://example.invalid/anonymous-source",
+    "asset_name": "CH-Santa.Lucia.Hill.zip",
+    "archive_bytes": 47728903,
+    "archive_sha256": "73c8d52a62a7d40a7634a0acd4d03adf582489f2b2c2a6ecb0ac509acb05d1f1",
+    "world_root": "Santa Lucia Hill"
+  },
+  "world": {
+    "source_version": {
+      "version_name": "1.21.11",
+      "data_version": 4671
+    },
+    "minecraft_version": "1.21.11",
+    "version_name": "1.21.11",
+    "data_version": 4671,
+    "expected_source_fingerprint": "0709d040aec861258e42bcaf30885a702369f5d870d60ee0e41d2c07a04bc73a",
+    "expected_prepared_fingerprint": "0709d040aec861258e42bcaf30885a702369f5d870d60ee0e41d2c07a04bc73a",
+    "preparation": {
+      "id": "identity-minecraft-1.21.11-v1",
+      "reason": "The source already loads as Minecraft 1.21.11 and requires no compatibility mutation."
+    }
+  },
+  "license": {
+    "scope": "evaluation-only source archive",
+    "redistribution": "not granted by this manifest",
+    "note": "Keep the source ZIP and extracted world outside Git; preserve any upstream terms distributed with the archive."
+  }
+}

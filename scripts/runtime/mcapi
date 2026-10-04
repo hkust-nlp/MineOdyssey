@@ -1,0 +1,389 @@
+#!/usr/bin/env python3
+"""Lightweight CLI for AgentBridge HTTP API."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import math
+import signal
+import socket
+import time
+import sys
+import os
+import shutil
+import subprocess
+from typing import Any, Dict
+
+import requests
+
+from mc_runtime import get_display, get_endpoint, load_runtime_config
+
+
+def _print_json(data: Dict[str, Any]) -> None:
+    print(json.dumps(data, ensure_ascii=False, indent=2))
+
+
+# Action subcommands: by default they are silent on success (rationale: the
+# visible effect shows up in the next screenshot, so dumping the JSON to stdout
+# is noise for the model). On failure they still print the JSON to stderr and
+# exit non-zero, so failures don't get swallowed. Pass --verbose to opt back
+# into the old behavior (full JSON on stdout regardless of success).
+_ACTION_COMMANDS = {
+    "press",
+    "look",
+    "look-at",
+    "right-click-block",
+    "window-click",
+    "close-gui",
+    "chat",
+}
+
+
+def _parse_duration(text: str) -> float:
+    duration = float(text)
+    if duration < 0:
+        raise ValueError(f"duration must be >= 0, got {text}")
+    return duration
+
+
+def _request(base_url: str, timeout: float, endpoint: str, params: Dict[str, Any] | None = None) -> Dict[str, Any]:
+    relay_socket = os.environ.get("MCBOTS_AGENTBRIDGE_RELAY_SOCKET", "").strip()
+    if relay_socket:
+        request_payload = json.dumps(
+            {"endpoint": endpoint, "params": params, "timeout": timeout,
+             "action_lease": os.environ.get("MCBOTS_ACTION_LEASE")},
+            ensure_ascii=False,
+            separators=(",", ":"),
+        ).encode("utf-8") + b"\n"
+        chunks: list[bytes] = []
+        total = 0
+        with socket.socket(socket.AF_UNIX, socket.SOCK_STREAM) as connection:
+            connection.settimeout(timeout)
+            connection.connect(relay_socket)
+            connection.sendall(request_payload)
+            connection.shutdown(socket.SHUT_WR)
+            while True:
+                chunk = connection.recv(65536)
+                if not chunk:
+                    break
+                chunks.append(chunk)
+                total += len(chunk)
+                if total > 4 * 1024 * 1024:
+                    raise RuntimeError("AgentBridge relay response exceeds size limit")
+        response = json.loads(b"".join(chunks).decode("utf-8"))
+        if not isinstance(response, dict) or response.get("ok") is not True:
+            detail = response.get("error") if isinstance(response, dict) else response
+            raise RuntimeError(f"AgentBridge relay request failed: {detail}")
+        body = response.get("body")
+        if not isinstance(body, dict):
+            raise RuntimeError("AgentBridge relay returned a non-object response")
+        return body
+    url = f"{base_url}{endpoint}"
+    resp = requests.get(url, params=params, timeout=timeout)
+    resp.raise_for_status()
+    return resp.json()
+
+
+def _tap_input(base_url: str, timeout: float, input_type: str, duration: float) -> Dict[str, Any]:
+    normalized = input_type.upper()
+    press_resp = _request(base_url, timeout, f"/api/input/{normalized}/true")
+    previous_sigterm = signal.getsignal(signal.SIGTERM)
+
+    def _interrupt_press(_signum, _frame):
+        raise InterruptedError("input press interrupted")
+
+    signal.signal(signal.SIGTERM, _interrupt_press)
+    try:
+        time.sleep(duration)
+    finally:
+        # Remote Bash stops the whole action process group with SIGTERM. Always
+        # release the Minecraft key before this CLI exits so a summary barrier
+        # cannot leave movement latched in the client.
+        release_resp = _request(base_url, timeout, f"/api/input/{normalized}/false")
+        signal.signal(signal.SIGTERM, previous_sigterm)
+    success = bool(press_resp.get("success", False)) and bool(release_resp.get("success", False))
+    return {
+        "success": success,
+        "message": "Input tapped",
+        "input": normalized,
+        "duration": duration,
+        "press": press_resp,
+        "release": release_resp,
+    }
+
+
+def _run_xdotool(display: str, args: list[str]) -> Dict[str, Any]:
+    if not shutil.which("xdotool"):
+        return {
+            "success": False,
+            "error": "xdotool not found in PATH",
+            "args": args,
+        }
+    env = os.environ.copy()
+    env["DISPLAY"] = display
+    proc = subprocess.run(["xdotool", *args], env=env, capture_output=True, text=True)
+    return {
+        "success": proc.returncode == 0,
+        "returncode": proc.returncode,
+        "stdout": proc.stdout,
+        "stderr": proc.stderr,
+        "args": args,
+    }
+
+
+def _chat_via_xdotool(display: str, message: str) -> Dict[str, Any]:
+    steps: list[tuple[str, list[str], float]] = [
+        ("open_chat", ["key", "t"], 0.08),
+        ("type_message", ["type", "--delay", "10", message], 0.05),
+        ("send_message", ["key", "Return"], 0.0),
+    ]
+    results: list[Dict[str, Any]] = []
+    all_ok = True
+    for name, args, pause_sec in steps:
+        out = _run_xdotool(display, args)
+        out["step"] = name
+        results.append(out)
+        if not out.get("success", False):
+            all_ok = False
+            break
+        if pause_sec > 0:
+            time.sleep(pause_sec)
+
+    if all_ok:
+        return {
+            "success": True,
+            "message": "Chat message sent via xdotool",
+            "content": message,
+            "backend": "xdotool",
+            "display": display,
+            "steps": results,
+        }
+    return {
+        "success": False,
+        "error": "Failed to send chat via xdotool",
+        "content": message,
+        "backend": "xdotool",
+        "display": display,
+        "steps": results,
+    }
+
+
+def _resolve_look_target(
+    base_url: str,
+    timeout: float,
+    yaw: float,
+    pitch: float,
+    mode: str,
+) -> tuple[Dict[str, float], Dict[str, Any]]:
+    normalized_mode = mode.lower()
+    if normalized_mode not in {"relative", "absolute"}:
+        raise ValueError(f"unsupported look mode: {mode}")
+
+    if normalized_mode == "absolute":
+        return {"yaw": yaw, "pitch": pitch}, {"mode": "absolute"}
+
+    state = _request(base_url, timeout, "/api/state")
+    if not state.get("success", False):
+        raise RuntimeError(f"state query failed for relative look: {state}")
+
+    data = state.get("data") or {}
+    rotation = data.get("rotation") or {}
+    if "yaw" not in rotation or "pitch" not in rotation:
+        raise RuntimeError(f"missing rotation in state response: {state}")
+
+    base_yaw = float(rotation["yaw"])
+    base_pitch = float(rotation["pitch"])
+    target_yaw = base_yaw + yaw
+    unclamped_target_pitch = base_pitch + pitch
+    target_pitch = max(-90.0, min(90.0, unclamped_target_pitch))
+
+    return (
+        {"yaw": target_yaw, "pitch": target_pitch},
+        {
+            "mode": "relative",
+            "base_rotation": {"yaw": base_yaw, "pitch": base_pitch},
+            "delta": {"yaw": yaw, "pitch": pitch},
+            "target": {"yaw": target_yaw, "pitch": target_pitch},
+            "pitch_clamped": target_pitch != unclamped_target_pitch,
+        },
+    )
+
+
+def _resolve_current_window_id(base_url: str, timeout: float) -> int:
+    state = _request(base_url, timeout, "/api/state")
+    if not state.get("success", False):
+        raise RuntimeError(f"state query failed while resolving current window id: {state}")
+    data = state.get("data") or {}
+    raw = data.get("container_id", 0)
+    try:
+        return int(raw)
+    except Exception as e:
+        raise RuntimeError(f"invalid container_id from /api/state: {raw!r}") from e
+
+
+def _resolve_look_at_target(base_url: str, timeout: float, x: int, y: int, z: int) -> tuple[Dict[str, float], Dict[str, Any]]:
+    state = _request(base_url, timeout, "/api/state")
+    if not state.get("success", False):
+        raise RuntimeError(f"state query failed while resolving look-at target: {state}")
+    data = state.get("data") or {}
+    pos = data.get("position") or {}
+    if "x" not in pos or "y" not in pos or "z" not in pos:
+        raise RuntimeError(f"missing position in state response: {state}")
+
+    px = float(pos["x"])
+    py = float(pos["y"])
+    pz = float(pos["z"])
+
+    dx = float(x) - px
+    dy = float(y) - (py + 1.62)
+    dz = float(z) - pz
+    horizontal_distance = math.sqrt(dx * dx + dz * dz)
+    yaw = (math.degrees(math.atan2(dz, dx)) - 90.0) % 360.0
+    pitch = -math.degrees(math.atan2(dy, horizontal_distance))
+    pitch = max(-90.0, min(90.0, pitch))
+    return (
+        {"yaw": yaw, "pitch": pitch},
+        {
+            "mode": "absolute",
+            "from_position": {"x": px, "y": py, "z": pz},
+            "target_block": {"x": int(x), "y": int(y), "z": int(z)},
+            "eye_height": 1.62,
+            "computed": {"yaw": yaw, "pitch": pitch},
+        },
+    )
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="AgentBridge API CLI (reads workspace runtime config)")
+    parser.add_argument("--timeout", type=float, default=8.0, help="HTTP timeout in seconds")
+    parser.add_argument(
+        "--verbose",
+        action="store_true",
+        help="Print full JSON response on stdout even for action subcommands (default: silent on success, stderr on failure)",
+    )
+    sub = parser.add_subparsers(dest="cmd", required=True)
+
+    sub.add_parser("health", help="GET /api/health")
+    sub.add_parser("state", help="GET /api/state")
+
+    p_press = sub.add_parser("press", help="Tap an input for duration: press -> sleep -> release")
+    p_press.add_argument("input_type", help="e.g. MOVE_FORWARD, JUMP, CLICK_LEFT")
+    p_press.add_argument("duration", nargs="?", type=_parse_duration, default=0.05, help="seconds, default 0.05")
+
+    p_look = sub.add_parser("look", help="GET /api/look (supports relative/absolute mode)")
+    p_look.add_argument("--yaw", type=float, default=0.0)
+    p_look.add_argument("--pitch", type=float, default=0.0)
+    p_look.add_argument(
+        "--mode",
+        choices=["relative", "absolute"],
+        default="relative",
+        help="rotation mode, default relative",
+    )
+    p_look_at = sub.add_parser("look-at", help="Aim camera at a target block position (absolute)")
+    p_look_at.add_argument("x", type=int)
+    p_look_at.add_argument("y", type=int)
+    p_look_at.add_argument("z", type=int)
+
+    p_rcb = sub.add_parser("right-click-block", help="GET /api/right_click_block")
+    p_rcb.add_argument("x", type=int)
+    p_rcb.add_argument("y", type=int)
+    p_rcb.add_argument("z", type=int)
+
+    p_wc = sub.add_parser("window-click", help="GET /api/window_click (defaults to current window)")
+    p_wc.add_argument("--window", type=int, help="optional; defaults to current container id from /api/state")
+    p_wc.add_argument("--slot", type=int, required=True)
+    p_wc.add_argument("--button", type=int, required=True)
+    p_wc.add_argument("--type", default="PICKUP")
+
+    sub.add_parser("close-gui", help="GET /api/close_gui")
+    p_chat = sub.add_parser("chat", help="Send chat text via xdotool (open chat -> type -> enter)")
+    p_chat.add_argument("message", nargs="+")
+
+    sub.add_parser("endpoint", help="Print resolved AgentBridge endpoint")
+
+    args = parser.parse_args()
+
+    try:
+        cfg = load_runtime_config()
+        host, port = get_endpoint(cfg, "agentbridge")
+        base_url = f"http://{host}:{port}"
+    except Exception as e:
+        print(f"mcapi config error: {e}", file=sys.stderr)
+        return 2
+
+    try:
+        if args.cmd == "endpoint":
+            _print_json({"success": True, "endpoint": base_url})
+            return 0
+        if args.cmd == "health":
+            result = _request(base_url, args.timeout, "/api/health")
+        elif args.cmd == "state":
+            result = _request(base_url, args.timeout, "/api/state")
+        elif args.cmd == "press":
+            result = _tap_input(base_url, args.timeout, args.input_type, args.duration)
+        elif args.cmd == "look":
+            # Always use interaction-mode look for reliable visible aiming and follow-up interactions.
+            target, metadata = _resolve_look_target(base_url, args.timeout, args.yaw, args.pitch, args.mode)
+            params = {"yaw": target["yaw"], "pitch": target["pitch"], "interact": "true"}
+            result = _request(base_url, args.timeout, "/api/look", params=params)
+            result["look_mode"] = args.mode
+            result["requested"] = {"yaw": args.yaw, "pitch": args.pitch}
+            result["resolved"] = metadata
+        elif args.cmd == "right-click-block":
+            result = _request(
+                base_url,
+                args.timeout,
+                "/api/right_click_block",
+                params={"x": args.x, "y": args.y, "z": args.z},
+            )
+        elif args.cmd == "look-at":
+            target, metadata = _resolve_look_at_target(base_url, args.timeout, args.x, args.y, args.z)
+            result = _request(
+                base_url,
+                args.timeout,
+                "/api/look",
+                params={"yaw": target["yaw"], "pitch": target["pitch"], "interact": "true"},
+            )
+            result["look_mode"] = "absolute"
+            result["requested"] = {"x": args.x, "y": args.y, "z": args.z}
+            result["resolved"] = metadata
+        elif args.cmd == "window-click":
+            window_id = args.window if args.window is not None else _resolve_current_window_id(base_url, args.timeout)
+            result = _request(
+                base_url,
+                args.timeout,
+                "/api/window_click",
+                params={"window": window_id, "slot": args.slot, "button": args.button, "type": args.type},
+            )
+            if "window" not in result:
+                result["window"] = window_id
+        elif args.cmd == "close-gui":
+            result = _request(base_url, args.timeout, "/api/close_gui")
+        elif args.cmd == "chat":
+            display = get_display(cfg)
+            result = _chat_via_xdotool(display, " ".join(args.message))
+        else:
+            raise RuntimeError(f"unsupported subcommand: {args.cmd}")
+
+        is_action = args.cmd in _ACTION_COMMANDS
+        succeeded = bool(result.get("success", False))
+        if args.verbose or not is_action:
+            _print_json(result)
+            return 0 if (not is_action or succeeded) else 1
+        # action + default (non-verbose): silent on success, stderr on failure
+        if succeeded:
+            return 0
+        print(json.dumps(result, ensure_ascii=False, indent=2), file=sys.stderr)
+        return 1
+    except requests.HTTPError as e:
+        msg = e.response.text if e.response is not None else str(e)
+        print(f"mcapi request failed: {msg}", file=sys.stderr)
+        return 1
+    except Exception as e:
+        print(f"mcapi error: {e}", file=sys.stderr)
+        return 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "map_id": "mr-beast-1000-harbor-city",
+  "source_kind": "user_confirmed_route_plan",
+  "optional_points_included": false,
+  "notes": [
+    "Dry Dock 5 uses its Boat Tail waypoint. Route 4 uses Dry Dock 6 Boat Head; route 7 uses Dry Dock 6 Boat Side.",
+    "Where route 3 allowed Dry Dock 2 or 3, Dry Dock 3 is selected because route 2 already visits Dry Dock 2."
+  ],
+  "routes": [
+    {
+      "id": "hbc-route-02",
+      "title_zh": "锅炉、管道与铜工协作",
+      "title_en": "Boiler, Pipe and Copper Shop Coordination",
+      "waypoint_ids": ["HBC-WP-51", "HBC-WP-50", "HBC-WP-49", "HBC-WP-48", "HBC-WP-47"]
+    },
+    {
+      "id": "hbc-route-03",
+      "title_zh": "铁板与船体施工",
+      "title_en": "Iron Plating and Hull Construction",
+      "waypoint_ids": ["HBC-WP-46", "HBC-WP-45", "HBC-WP-44", "HBC-WP-43"]
+    },
+    {
+      "id": "hbc-route-04",
+      "title_zh": "舰船分段装配",
+      "title_en": "Ship Section Assembly",
+      "waypoint_ids": ["HBC-WP-42", "HBC-WP-41", "HBC-WP-40", "HBC-WP-39", "HBC-WP-38"]
+    },
+    {
+      "id": "hbc-route-05",
+      "title_zh": "材料实验与质量检验",
+      "title_en": "Materials Testing and Quality Inspection",
+      "waypoint_ids": ["HBC-WP-37", "HBC-WP-36", "HBC-WP-35", "HBC-WP-34", "HBC-WP-33", "HBC-WP-32"]
+    },
+    {
+      "id": "hbc-route-06",
+      "title_zh": "一号干船坞动力维护",
+      "title_en": "Dry Dock No. 1 Power Maintenance",
+      "waypoint_ids": ["HBC-WP-31", "HBC-WP-13", "HBC-WP-30", "HBC-WP-29", "HBC-WP-31"]
+    },
+    {
+      "id": "hbc-route-07",
+      "title_zh": "压缩空气与生产公用设施巡检",
+      "title_en": "Compressed Air and Production Utilities Inspection",
+      "waypoint_ids": ["HBC-WP-28", "HBC-WP-27", "HBC-WP-26", "HBC-WP-25"]
+    },
+    {
+      "id": "hbc-route-08",
+      "title_zh": "乙炔、煤炭与消防安全检查",
+      "title_en": "Acetylene, Coal and Fire Safety Inspection",
+      "waypoint_ids": ["HBC-WP-24", "HBC-WP-23", "HBC-WP-22", "HBC-WP-21", "HBC-WP-20"]
+    },
+    {
+      "id": "hbc-route-09",
+      "title_zh": "仓库—铁路—码头物资运输",
+      "title_en": "Warehouse, Railway and Pier Logistics",
+      "waypoint_ids": ["HBC-WP-19", "HBC-WP-18", "HBC-WP-17", "HBC-WP-16", "HBC-WP-20"]
+    },
+    {
+      "id": "hbc-route-10",
+      "title_zh": "小艇与舰船维修监工",
+      "title_en": "Small Craft and Ship Repair Supervision",
+      "waypoint_ids": ["HBC-WP-15", "HBC-WP-14", "HBC-WP-12", "HBC-WP-44", "HBC-WP-43"]
+    },
+    {
+      "id": "hbc-route-12",
+      "title_zh": "海军陆战队营区与滨水巡逻",
+      "title_en": "Marine Barracks and Waterfront Patrol",
+      "waypoint_ids": ["HBC-WP-09", "HBC-WP-08", "HBC-WP-07", "HBC-WP-06", "HBC-WP-18"]
+    },
+    {
+      "id": "hbc-route-13",
+      "title_zh": "建筑维修、军械与辅助动力检查",
+      "title_en": "Building Maintenance, Ordnance and Auxiliary Power Inspection",
+      "waypoint_ids": ["HBC-WP-05", "HBC-WP-04", "HBC-WP-32", "HBC-WP-03", "HBC-WP-02", "HBC-WP-01"]
+    }
+  ]
+}
