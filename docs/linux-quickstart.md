@@ -9,7 +9,15 @@ platform; ARM64 has not been verified for this release.
 
 For GPU rendering, use the navigation fleet runner's `--gpu-devices` option and
 the NVIDIA container image described in [GPU setup](navigation-eval.md#gpu-rendering).
-The `navigation-linux.py` launcher used below selects CPU rendering.
+That path uses Podman with NVIDIA CDI and requires a host NVIDIA driver and
+Container Toolkit. The `navigation-linux.py` launcher used below explicitly selects
+CPU rendering, including on hosts with a GPU; it does not automatically switch to
+GPU rendering. The current Harbor task template also selects CPU rendering.
+
+Xvfb provides the CPU container's virtual display, so the host does not need an
+open desktop session or a connected monitor. Rendering generates Minecraft images;
+the agent separately calls the configured model API. Hardware requirements for
+self-hosting a model depend on that model's deployment.
 
 Minimum host RAM and free-disk requirements have not been measured for this release.
 Disk use includes container images, map archives, prepared snapshots, and per-trial
