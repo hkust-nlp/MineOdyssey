@@ -127,7 +127,24 @@ misdetect podman-compose 1.6 as Compose V2; prefix only the Harbor command with
 host configuration. Its missing `compose cp` can emit warnings; Harbor falls back
 to tar transport. Docker and an uncached Harbor runtime build remain untested here.
 
-An existing fingerprint-verified local cache can accelerate a private export:
+Map archives come from the same 30-map release as the Linux runner. Download a
+selected map and pass its release ZIP to the exporter:
+
+```bash
+python3 scripts/snapshot/download-navigation-map-release.py --map cape-town
+python3 scripts/eval/export-harbor-navigation.py --task cape-town-001 \
+  --output /tmp/harbor-cape-town-001 \
+  --map-archive downloads/navigation-maps-1.21.11-v1/navigation-1.21.11-cape-town.zip
+```
+
+The exporter checks the release archive before creating the task directory. The
+world image imports that exact release ZIP and verifies its world fingerprint.
+The older original-source archive names in per-map provenance are not the input
+for `--map-archive`.
+
+An existing fingerprint-verified local cache can accelerate an export. Both the
+current release-import cache and a legacy source/prepared cache are supported;
+pass the map directory containing `prepared/`:
 
 ```bash
 python3 scripts/eval/export-harbor-navigation.py \
@@ -136,8 +153,9 @@ python3 scripts/eval/export-harbor-navigation.py \
   --runtime /path/to/navigation-linux-cpu/1.21.11
 ```
 
-The exporter verifies world fingerprints and original archive identity. Rebinding
-the anonymized metadata digest does not change map contents or skip verification.
+The exporter verifies world fingerprints and the matching release or original
+archive identity. Legacy source caches may rebind anonymized metadata without
+changing map contents. Release caches must match the current release manifest.
 
 Use `--task TASK_ID` to select another task from the active 180-task catalog. Retired
 task IDs are rejected before export. The exporter
@@ -163,7 +181,7 @@ PYTHONPATH=. python3 scripts/eval/run-harbor-navigation.py --engine podman -- \
 Each trial retains the formal 500-step budget and 21600-second watchdog and its own game, action
 workspace, feedback journal and trusted verifier. `--max-retries 0` disables whole
 Harbor trial replay; it does not disable the original Agent's model-request retry
-loop. Credentials and runtime/map archives remain private.
+loop. Credentials and generated runtime archives remain local.
 
 ## Transport, isolation and results
 

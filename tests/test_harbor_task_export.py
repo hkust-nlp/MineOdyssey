@@ -7,9 +7,11 @@ import tempfile
 import tarfile
 import tomllib
 import unittest
+from unittest.mock import patch
 
 from eval.harbor_agents.instructions import ROOT, TASK, check_instruction, task_definition
 from eval.navigation.schema import load_map
+from eval.navigation.snapshots import SnapshotError
 
 
 def module(name, path):
@@ -23,6 +25,36 @@ exporter = module("harbor_catalog_exporter", ROOT / "scripts/eval/export-harbor-
 
 
 class HarborCatalogExportTests(unittest.TestCase):
+    def test_all_30_maps_use_release_archives_and_world_fingerprints(self):
+        tasks = json.loads((ROOT / 'eval/navigation/tasks.json').read_text())['tasks']
+        selected = {}
+        for task in tasks:
+            selected.setdefault(task['map_id'], task)
+        manifest = exporter.load_navigation_release_manifest()
+        self.assertEqual(len(selected), 30)
+        for map_id, task in selected.items():
+            with self.subTest(map_id=map_id), tempfile.TemporaryDirectory() as directory:
+                output = Path(directory) / task['task_id']
+                shutil.copytree(TASK, output, ignore=shutil.ignore_patterns('__pycache__'))
+                exporter.configure_task(output, task['task_id'], load_map(map_id), task)
+                asset = exporter.navigation_release_asset(manifest, map_id)
+                docker = (output / 'environment/world/Dockerfile').read_text()
+                self.assertIn('ARG NAVIGATION_MAP_ASSET=' + asset['asset_name'], docker)
+                self.assertIn('scripts/snapshot/import-navigation-map-release.py', docker)
+                self.assertEqual(json.loads((output / 'validation.json').read_text())['map_fingerprint'],
+                                 asset['world_fingerprint']['value'])
+
+    def test_incorrect_map_archive_fails_before_creating_export(self):
+        with tempfile.TemporaryDirectory() as directory:
+            archive = Path(directory) / 'wrong.zip'
+            archive.write_bytes(b'wrong map')
+            output = Path(directory) / 'export'
+            with patch('sys.argv', ['export', '--task', 'cape-town-001', '--output', str(output),
+                                    '--map-archive', str(archive)]):
+                with self.assertRaises(SnapshotError):
+                    exporter.main()
+            self.assertFalse(output.exists())
+
     def test_main_image_contains_original_agent_without_evaluator_or_credentials(self):
         with tempfile.TemporaryDirectory() as directory:
             archive_path = Path(directory) / "agent-source.tar.gz"

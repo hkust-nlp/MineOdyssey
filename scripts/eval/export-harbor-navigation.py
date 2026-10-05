@@ -14,7 +14,10 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 from eval.navigation import schema
 from eval.navigation.schema import load_map
-from eval.navigation.snapshots import _source_config_digest, sha256_file, verify_snapshot
+from eval.navigation.snapshots import (
+    _source_config_digest, load_navigation_release_manifest, navigation_release_asset,
+    sha256_file, validate_archive, verify_snapshot,
+)
 from eval.harbor_agents.instructions import check_instruction, render_instruction, task_definition
 
 
@@ -63,7 +66,8 @@ def configure_task(output, task_id, map_payload, task):
                         'Minecraft navigation task ' + task_id)
     config.write_text(text)
     dockerfile = output / "environment/world/Dockerfile"
-    asset = map_payload['source']['asset_name']
+    release_asset = navigation_release_asset(load_navigation_release_manifest(), map_id)
+    asset = release_asset['asset_name']
     if not re.fullmatch(r"[A-Za-z0-9_.-]+", asset):
         raise ValueError("Map archive name is not a safe Docker build argument")
     text = dockerfile.read_text().replace('ARG NAVIGATION_MAP_ID=innopolis',
@@ -77,7 +81,7 @@ def configure_task(output, task_id, map_payload, task):
             "schema_version": 1, "task_id": task_id, "map_id": map_id,
             "status": "exported_not_live_validated", "shared_template": "innopolis-006",
             "shared_template_validation_sha256": sha256_file(ROOT / "eval/harbor/innopolis-006/validation.json"),
-            "map_fingerprint": map_payload["world"]["expected_prepared_fingerprint"],
+            "map_fingerprint": release_asset["world_fingerprint"]["value"],
         }, indent=2) + "\n")
         (output / "README.md").write_text(
             f"# {task_id} — Harbor navigation task\n\n"
@@ -89,7 +93,8 @@ def configure_task(output, task_id, map_payload, task):
             "Direct Harbor commands need --verifier eval.harbor_agents.verifier:NavigationVerifier\n"
             "to report unscored infrastructure outcomes with their original terminal reason.\n"
             "See docs/harbor-pilot.md in the full source for setup and isolation details.\n"
-            "Map/runtime archives are private inputs. Generic agents use the CLI in instruction.md.\n"
+            "Map ZIPs come from the MineOdyssey map release; runtime archives are optional local inputs.\n"
+            "Generic agents use the CLI in instruction.md.\n"
             "World and the separate verifier each have a baked task-spec.json; another task's\n"
             "completion cannot receive a reward. validation.json does not claim a model result.\n")
     check_instruction(output)
@@ -99,7 +104,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--task", default="innopolis-006", help="Task ID from the original catalog")
-    parser.add_argument("--map-archive", type=Path)
+    parser.add_argument("--map-archive", type=Path, help="Selected map's ZIP from the MineOdyssey map release")
     parser.add_argument("--snapshot", type=Path, help="Existing selected-map snapshot cache; reverified before export")
     parser.add_argument("--runtime", type=Path, help="Optional prepared navigation-linux-cpu/1.21.11 directory")
     args = parser.parse_args()
@@ -109,6 +114,11 @@ def main():
         parser.error("Choose --map-archive or --snapshot")
     map_id, selected_task = task_definition(args.task)
     map_payload = load_map(map_id)
+    release_asset = navigation_release_asset(load_navigation_release_manifest(), map_id)
+    if args.map_archive:
+        validate_archive(args.map_archive, expected_sha256=release_asset["asset_sha256"],
+                         expected_bytes=release_asset["asset_bytes"],
+                         world_root=release_asset["world_root"])
     task = ROOT / "eval/harbor/innopolis-006"
     check_instruction(task)
     shutil.copytree(task, args.output, ignore=shutil.ignore_patterns("__pycache__", "*.pyc", "*.tar.gz", "*.zip"))
@@ -126,30 +136,33 @@ def main():
         files.append((ROOT / relative, relative))
     archive_tree(world / "source.tar.gz", sorted(files, key=lambda row: row[1]))
     if args.map_archive:
-        if sha256_file(args.map_archive) != map_payload["source"]["archive_sha256"]:
-            raise ValueError("Map archive does not match the selected map's pinned SHA-256")
-        shutil.copyfile(args.map_archive, assets / map_payload["source"]["asset_name"])
+        shutil.copyfile(args.map_archive, assets / release_asset["asset_name"])
     if args.snapshot:
-        # Rebind only the redacted repository metadata; world contents and original
-        # archive identity must still exactly match the published task manifest.
+        # Release caches keep their manifest binding. Legacy caches may rebind
+        # redacted repository metadata, but still verify the original archive.
         with tempfile.TemporaryDirectory() as temporary:
             cache = Path(temporary) / "1.21.11" / map_id
             shutil.copytree(args.snapshot, cache)
-            receipt_path = cache / "source-receipt.json"
-            receipt = json.loads(receipt_path.read_text())
-            expected = map_payload["source"]
-            if receipt["source_archive"] != {"name": expected["asset_name"],
-                    "bytes": expected["archive_bytes"], "sha256": expected["archive_sha256"],
-                    "world_root": expected["world_root"]}:
-                raise ValueError("Snapshot archive identity does not match")
-            receipt["map_source_config_digest"] = _source_config_digest(map_payload)
-            receipt_path.write_text(json.dumps(receipt, indent=2) + "\n")
+            if not (cache / "prepared/release-receipt.json").is_file():
+                receipt_path = cache / "source-receipt.json"
+                receipt = json.loads(receipt_path.read_text())
+                expected = map_payload["source"]
+                if receipt["source_archive"] != {"name": expected["asset_name"],
+                        "bytes": expected["archive_bytes"], "sha256": expected["archive_sha256"],
+                        "world_root": expected["world_root"]}:
+                    raise ValueError("Snapshot archive identity does not match")
+                receipt["map_source_config_digest"] = _source_config_digest(map_payload)
+                receipt_path.write_text(json.dumps(receipt, indent=2) + "\n")
             previous = schema.SNAPSHOT_CACHE_ROOT
             try:
                 schema.SNAPSHOT_CACHE_ROOT = Path(temporary)
                 verified = verify_snapshot(map_payload)
             finally:
                 schema.SNAPSHOT_CACHE_ROOT = previous
+            validation_path = args.output / "validation.json"
+            validation = json.loads(validation_path.read_text())
+            validation["map_fingerprint"] = verified["fingerprint"]["value"]
+            validation_path.write_text(json.dumps(validation, indent=2) + "\n")
             archive_tree(assets / "snapshot.tar.gz", [
                 (p, "eval/snapshots/_cache/navigation/" + str(p.relative_to(temporary)))
                 for p in sorted(Path(temporary).rglob("*"))])

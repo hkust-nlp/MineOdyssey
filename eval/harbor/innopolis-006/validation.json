@@ -275,5 +275,12 @@
     },
     "fresh_glm_navigation_run": false,
     "qualification": "The three historical GLM trials used the previous host-Agent layout. These three new trials use a scripted provider and validate container execution, not model navigation success."
+  },
+  "map_release_update": {
+    "updated_on": "2026-10-05",
+    "scope": "All 30 benchmark maps use the MineOdyssey release manifest and release importer.",
+    "status": "archive_import_and_export_regression_checks; no new live model trial",
+    "world_dockerfile_sha256": "0527d75c7304b328dcfa825187bd4d6c0a79c8d409d403ce71e754ab4e4d2d80",
+    "historical_evidence_note": "Earlier file_sha256 and live trial records describe their original validated revision; the map import instruction has changed."
   }
 }
