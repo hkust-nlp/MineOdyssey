@@ -310,8 +310,9 @@ substitute for task-level `review` receipts.
 ### Unified downloadable 1.21.11 maps
 
 The ready-to-run distribution is tracked by
-`eval/navigation/releases/navigation-maps-1.21.11-v1.json`. It contains 43
-assets: 28 outdoor maps, 14 indoor maps, and one mixed factory/railway map.
+`eval/navigation/releases/navigation-maps-1.21.11-v1.json`. The
+[MineOdyssey map release](https://github.com/mine-odyssey/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1)
+contains exactly the 30 benchmark assets: 20 outdoor and 10 indoor maps.
 Every asset uses the filename
 `navigation-1.21.11-<map-id>.zip`, contains a single `<map-id>/` world root,
 and is bound to its archive SHA-256 and uncompressed world fingerprint. Every
@@ -323,11 +324,12 @@ each release entry. Indoor maps are packaged from their immutable force-upgraded
 prepared snapshots. Outdoor maps either use their verified prepared snapshot or
 a clean source clone with the locked 1.21.11 heights data pack installed.
 
-Download all maps, or only selected map IDs, with:
+Install GitHub CLI (`gh`); private repository downloads require `gh auth login`
+with an account that has access. Download all 30 maps, or selected map IDs, with:
 
 ```bash
-uv run python scripts/snapshot/download-navigation-map-release.py
-uv run python scripts/snapshot/download-navigation-map-release.py \
+python3 scripts/snapshot/download-navigation-map-release.py
+python3 scripts/snapshot/download-navigation-map-release.py \
   --map shun-lee --map buckingham-palace
 ```
 

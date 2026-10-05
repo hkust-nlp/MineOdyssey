@@ -65,24 +65,40 @@ under `eval/templates/_local/navigation-linux-cpu/` in your extracted directory.
 Existing templates are not overwritten by preparation; subsequent task runs reuse
 the verified template. Do not share this directory across CPU architectures.
 
-## 3. Supply and prepare a map
+## 3. Download and prepare maps
+
+The [map release](https://github.com/mine-odyssey/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1)
+contains the 30 benchmark worlds as Minecraft 1.21.11 ZIPs. Install
+[GitHub CLI (`gh`)](https://cli.github.com/) for the downloader. If the repository
+is private, authenticate with `gh auth login` using an account with access.
 
 ```bash
 python3 scripts/launch/navigation-linux.py tasks
-python3 scripts/launch/navigation-linux.py prepare-map --map innopolis --downloads-dir /path/to/maps
+python3 scripts/snapshot/download-navigation-map-release.py --map innopolis
+python3 scripts/launch/navigation-linux.py prepare-map --map innopolis
 ```
 
-For this example `/path/to/maps` must contain `navigation-1.21.11-innopolis.zip` with
-the exact bytes/hash declared in `eval/navigation/maps/innopolis/map.json`. Each map
-manifest supplies its own archive name; some use nested archive paths. This command
-verifies and prepares only the selected map, not all 30 maps. Original archives are
-mounted read-only. Prepared snapshots live under `eval/snapshots/_cache/navigation/`.
+Downloads go to `downloads/navigation-maps-1.21.11-v1/`. You can instead download
+ZIPs manually from the release and pass `--downloads-dir /path/to/maps` to the
+preparation command. Archive names follow `navigation-1.21.11-<map-id>.zip`.
+The [release manifest](../eval/navigation/releases/navigation-maps-1.21.11-v1.json)
+is the download/import contract; per-map `source` records also retain older
+archive provenance and are not the download list for this workflow.
 
-**The anonymous code archive does not contain the maps, and the anonymous map mirror
-is not provisioned yet.** Obtain the approved original archives separately. Renaming
-an arbitrary Minecraft world does not satisfy the fingerprint checks. Missing archives
-produce a clear error before a container is launched. No original author-linked
-repository or GitHub login is required by this local-file workflow.
+To download and import all 30 maps (2.60 GB of archives):
+
+```bash
+python3 scripts/snapshot/download-navigation-map-release.py
+python3 scripts/launch/navigation-linux.py prepare-maps
+```
+
+Preparation mounts archives read-only, validates size, SHA-256, ZIP integrity and
+world layout, and verifies the extracted world's fingerprint and Minecraft version.
+It imports the ready-to-run worlds without rebuilding or upgrading them. Prepared
+snapshots live under `eval/snapshots/_cache/navigation/`; every task uses a separate
+world copy. Valid archives and snapshots are reverified and reused on subsequent
+runs. Download/import do not call a model. Missing archives fail before launching
+a container and report the required filename and download command.
 
 ## 4. Review without paying for model calls
 

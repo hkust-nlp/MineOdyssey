@@ -47,10 +47,12 @@ the game. It can observe or interrupt an action while Minecraft keeps running.
 An independent evaluator records actual visits and checks the final completion
 claim. The timing and progress shown in the figure are schematic examples.
 
-> **Asset availability:** this is a source release. Map archives are supplied
-> separately; a public map mirror is not available yet. The quickstart requires
-> the exact archive listed in the selected map's manifest. Runtime preparation
-> downloads pinned Minecraft and mod dependencies.
+> **Map downloads:** all 30 benchmark maps are available as separate ZIPs in the
+> [map release](https://github.com/mine-odyssey/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1).
+> The [release manifest](eval/navigation/releases/navigation-maps-1.21.11-v1.json)
+> pins archive hashes and world fingerprints. The quickstart downloads one map;
+> all 30 archives total 2.60 GB. Runtime preparation downloads pinned Minecraft
+> and mod dependencies separately.
 
 ## Choose a branch
 
@@ -73,7 +75,10 @@ and the Harbor scripts under `scripts/eval/`.
 - Linux x86_64 with Python 3 and a working Podman or Docker installation.
 - Java 21, the Python application environment, Xvfb, and Mesa are installed
   inside the CPU image used below.
-- A hash-matched map archive, plus an image-capable model API for agent runs.
+- [GitHub CLI (`gh`)](https://cli.github.com/) for map downloads, plus an
+  image-capable model API for agent runs. If the repository is private, run
+  `gh auth login` with an account that has access. ZIPs can also be downloaded
+  manually from the map release.
 
 **CPU and GPU rendering.** Rendering produces the Minecraft images that the
 agent observes. The repository includes both CPU and NVIDIA GPU rendering paths:
@@ -123,15 +128,26 @@ if you accept those terms.
 python3 scripts/launch/navigation-linux.py --engine podman prepare-runtime
 python3 scripts/launch/navigation-linux.py tasks
 
+python3 scripts/snapshot/download-navigation-map-release.py --map innopolis
 python3 scripts/launch/navigation-linux.py --engine podman prepare-map \
-  --map innopolis --downloads-dir /path/to/maps
+  --map innopolis
 ```
 
-For this example, `/path/to/maps` must contain
-`navigation-1.21.11-innopolis.zip`. Its SHA-256 must match
-[`eval/navigation/maps/innopolis/map.json`](eval/navigation/maps/innopolis/map.json).
-Preparation verifies the source and creates a reusable snapshot. Each trial gets
-its own world copy; it does not run against the original archive.
+Downloads go to `downloads/navigation-maps-1.21.11-v1/`. The downloader checks
+archive size, SHA-256, ZIP integrity, and world layout. Preparation imports the
+ready-to-run Minecraft 1.21.11 world and verifies its fingerprint. Each trial gets
+its own world copy. For existing downloads, pass `--downloads-dir /path/to/maps`
+to `prepare-map`; it expects `navigation-1.21.11-<map-id>.zip`.
+
+To download and prepare **all 30 maps** for the full 180-task benchmark:
+
+```bash
+python3 scripts/snapshot/download-navigation-map-release.py
+python3 scripts/launch/navigation-linux.py --engine podman prepare-maps
+```
+
+Reruns verify and reuse existing archives and prepared snapshots. The 2.60 GB
+download size excludes extracted worlds, runtime dependencies, and trial copies.
 
 ### 3. Open a task without model calls
 
@@ -289,7 +305,7 @@ python3 scripts/launch/navigation-linux.py --engine podman build
 
 python3 scripts/eval/export-harbor-navigation.py \
   --task innopolis-006 --output /tmp/mineodyssey-innopolis-006 \
-  --map-archive /path/to/maps/navigation-1.21.11-innopolis.zip
+  --map-archive downloads/navigation-maps-1.21.11-v1/navigation-1.21.11-innopolis.zip
 ```
 
 Create a private JSON file **outside the repository** using this structure, and

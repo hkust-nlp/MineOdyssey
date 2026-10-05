@@ -17,7 +17,6 @@ sys.path.insert(0, str(REPO_ROOT))
 
 from eval.navigation.snapshots import (  # noqa: E402
     SnapshotError,
-    sha256_file,
     validate_archive,
 )
 
@@ -69,6 +68,12 @@ def download_asset(
             "The source repository was redacted for anonymous review. "
             "Place the hash-matched archive in the output directory, or use a "
             "manifest pointing to an approved anonymous asset mirror."
+        )
+    if shutil.which("gh") is None:
+        raise SnapshotError(
+            "Install GitHub CLI (gh) to download maps, or place the release ZIPs "
+            "in the output directory. For a private repository, run gh auth login "
+            "with an account that has repository access."
         )
     output.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix="mcbots-map-download-", dir=output) as name:
