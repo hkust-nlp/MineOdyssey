@@ -4,9 +4,11 @@
 
 **Visual navigation and multi-stop instruction following in Minecraft**
 
-[Quickstart](#quickstart) · [Tasks](#tasks) · [Evaluation](#evaluation) · [Harbor](#run-with-harbor) · [Documentation](docs/README.md)
+[Overview](#overview) · [Quickstart](#quickstart) · [Tasks](#tasks) · [Evaluation](#evaluation) · [Harbor](#run-with-harbor) · [Documentation](docs/README.md)
 
 </div>
+
+## Overview
 
 MineOdyssey evaluates agents that navigate Minecraft worlds from natural-language
 instructions. An agent observes the game, uses movement and interaction tools,
@@ -18,12 +20,30 @@ in **20 locale variants**. Environments include city streets, parks, palaces,
 hotels, stadiums, and ships. Tasks exercise visual grounding, route planning,
 vertical navigation, and interaction with doors, stairs, and other world features.
 
+![Thirty Minecraft environments and multi-stop task examples in the White House and Ueno Park](docs/assets/paper/environment-overview.jpg)
+
+**Environments and tasks.** The benchmark covers 20 outdoor and 10 indoor maps.
+The paper's examples show how everyday instructions become ordered visits to named
+destinations, from navigating rooms in the White House to visiting shops in Ueno Park.
+Architectural and geographic references are illustrative: the architectural
+reference is AI-generated; geographic imagery is credited to Google Maps, Street
+View, and NASA. These reference views are not agent observations.
+
 | Included | What it provides |
 | --- | --- |
 | Task catalog | Local-language instructions, waypoint annotations, map fingerprints, and evaluation settings |
 | Reference agent | Image observations, native action tools, asynchronous execution and interruption, request retries, and context summaries |
 | Evaluation runtime | Minecraft client/server, position-based completion checks, isolated action execution, and per-run artifacts |
 | Linux and Harbor runners | CPU rendering on Linux, plus an optional Harbor deployment that runs the same agent inside a container |
+
+### How it works
+
+![The agent receives screenshots and execution feedback, runs asynchronous programs, and submits completion claims to an independent verifier](docs/assets/paper/agent-framework.png)
+
+The agent uses screenshots and feedback to write and execute programs that control
+the game. It can observe or interrupt an action while Minecraft keeps running.
+An independent evaluator records actual visits and checks the final completion
+claim. The timing and progress shown in the figure are schematic examples.
 
 > **Asset availability:** this is a source release. Map archives are supplied
 > separately; a public map mirror is not available yet. The quickstart requires
@@ -152,6 +172,15 @@ counts. Additional map manifests outside the selected roster are retained in the
 source tree; they do not increase the benchmark count. The published catalog is
 the final **180-task main benchmark**. The default Linux task list, full-benchmark
 runs, and Harbor exports all use this roster.
+
+### Terrain and interaction
+
+![Examples of uneven terrain, water boundaries, multilevel spaces, narrow corridors, stairs, ladders, gates, and button-controlled doors](docs/assets/paper/terrain-interactions.png)
+
+Routes can involve finding a staircase, climbing a ladder, opening a gate, or
+pressing a button to pass a door. The paper's examples illustrate how navigation
+combines route planning with local movement and interaction. Figure sources and
+presentation notes are recorded [here](docs/assets/paper/README.md).
 
 ## Evaluation
 
