@@ -44,7 +44,7 @@
 ## Documentation Map (Keep In Sync)
 - `docs/assets/paper/README.md`: README figures matched to the September 29 manuscript package, with source versions, PDF/PNG hashes, credits and presentation boundaries.
 - `docs/task-catalog.md`: Source-bound 180-task/30-map inventory, locale tags, task schema and the matching 30-map release with pinned hashes.
-- `README.md`: Public MineOdyssey overview and scope of agentic spatial intelligence, CPU quickstart, task and evaluation contract, original/Harbor branches, results, model-selection examples and validation scope.
+- `README.md`: Public MineOdyssey overview and scope of agentic spatial intelligence, CPU quickstart, 30-map downloads, task and evaluation contract, original/Harbor branches, results, model-selection examples and validation scope.
 - `docs/README.md`: Index for focused docs under `docs/`.
 - `docs/navigation-eval.md`: Finalpool Minecraft 1.21.11 navigation evaluation, manual validation, and formal aggregation workflow.
 - `docs/scripts-layout.md`: Script directory grouping and lookup guide.
