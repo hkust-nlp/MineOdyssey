@@ -42,6 +42,7 @@
 - Whenever docs are added/renamed/removed, update both `docs/README.md` and the map below in the same change.
 
 ## Documentation Map (Keep In Sync)
+- `eval/harbor/innopolis-006/README.md`: Harbor task template, pinned MineOdyssey release map download, runtime setup and historical validation scope.
 - `docs/assets/paper/README.md`: README figures matched to the September 29 manuscript package, with source versions, PDF/PNG hashes, credits and presentation boundaries.
 - `docs/task-catalog.md`: Source-bound 180-task/30-map inventory, locale tags, task schema and the matching 30-map release with pinned hashes.
 - `docs/harbor-parity-audit.md`: Original navigation-agent versus Harbor parity audit, effective retry policy, context/action/event differences and runtime evidence.

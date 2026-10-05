@@ -24,7 +24,9 @@ cp /path/to/navigation-1.21.11-innopolis.zip environment/world/assets/
 
 The map asset SHA-256 is
 `d27480af8b288979d6e695d733a01753784c50ee2a9c474f838d8e95a1c652b8`.
-Maps and runtime caches are private inputs. Runtime preparation writes eula=true;
+Download the map ZIP from the
+[MineOdyssey map release](https://github.com/mine-odyssey/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1).
+Generated runtime caches remain local. Runtime preparation writes eula=true;
 accept the Minecraft EULA before preparing/running the runtime. The build verifies
 the map and downloads pinned dependencies. Cached runtimes must match the current
 profile including the rebuilt AgentBridge JAR; stale runtime receipts are rejected.
