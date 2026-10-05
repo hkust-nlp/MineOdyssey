@@ -42,6 +42,7 @@
 - Whenever docs are added/renamed/removed, update both `docs/README.md` and the map below in the same change.
 
 ## Documentation Map (Keep In Sync)
+- `docs/assets/paper/README.md`: Existing manuscript figures used in the README, with source versions, file hashes, credits and presentation boundaries.
 - `docs/task-catalog.md`: Source-bound 180-task/30-map inventory, locale tags, task schema and separately supplied map assets.
 - `docs/harbor-parity-audit.md`: Original navigation-agent versus Harbor parity audit, effective retry policy, context/action/event differences and runtime evidence.
 - `docs/harbor-pilot.md`: Actual formal GLM policy and coordinate-lock validation, rootless Podman launch, trusted model metadata, transport failure classification, catalog task export and multi-task Harbor rollouts, shared Agent integration, formal native and historical XML prompt hashes, generated instructions, dependency parity, networkless game service, trusted verification, bounded synchronous CLI timeouts, explicit unscored terminal reasons, container-local original Agent execution and ephemeral credential delivery.
