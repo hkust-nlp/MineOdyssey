@@ -1,9 +1,10 @@
+import hashlib
 import json
 import unittest
 from collections import Counter
 from pathlib import Path
 
-from eval.navigation.schema import find_task, load_benchmark, resolved_task
+from eval.navigation.schema import SchemaError, find_task, load_benchmark, resolved_task
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -19,25 +20,25 @@ class NavigationTaskCatalogTest(unittest.TestCase):
 
     def test_catalog_has_complete_prompt_portfolio(self):
         self.assertEqual(self.document["schema_version"], 2)
-        self.assertEqual(len(self.tasks), 194)
+        self.assertEqual(len(self.tasks), 180)
         self.assertEqual(len({task["map_id"] for task in self.tasks}), 30)
-        self.assertEqual(len({task["task_id"] for task in self.tasks}), 194)
+        self.assertEqual(len({task["task_id"] for task in self.tasks}), 180)
 
         counts = Counter(task["map_id"] for task in self.tasks)
-        self.assertEqual(counts["shun-lee"], 5)
+        self.assertEqual(counts["shun-lee"], 4)
         self.assertEqual(counts["innopolis"], 9)
         self.assertEqual(counts["wurzburg"], 10)
         self.assertEqual(counts["mr-beast-1000-harbor-city"], 11)
-        self.assertEqual(counts["buckingham-palace"], 6)
+        self.assertEqual(counts["buckingham-palace"], 5)
         self.assertEqual(counts["hagia-sophia"], 3)
-        self.assertEqual(counts["notre-dame"], 6)
+        self.assertEqual(counts["notre-dame"], 4)
         self.assertEqual(counts["plaza-hotel"], 6)
         self.assertEqual(counts["reichstag"], 5)
         self.assertEqual(counts["rms-queen-mary"], 10)
-        self.assertEqual(counts["rms-titanic"], 7)
+        self.assertEqual(counts["rms-titanic"], 6)
         self.assertEqual(counts["sofi-stadium"], 6)
-        self.assertEqual(counts["versailles"], 4)
-        self.assertEqual(counts["white-house"], 9)
+        self.assertEqual(counts["versailles"], 3)
+        self.assertEqual(counts["white-house"], 7)
 
         buckingham_routes = {
             task["metadata"]["source_route_id"]
@@ -47,7 +48,6 @@ class NavigationTaskCatalogTest(unittest.TestCase):
         self.assertEqual(
             buckingham_routes,
             {
-                "bph-route-03",
                 "bph-route-04",
                 "bph-route-07",
                 "bph-route-09",
@@ -64,8 +64,6 @@ class NavigationTaskCatalogTest(unittest.TestCase):
         self.assertEqual(
             white_house_routes,
             {
-                "whi-route-05",
-                "whi-route-07",
                 "whi-route-08",
                 "whi-route-09",
                 "whi-route-10",
@@ -81,7 +79,7 @@ class NavigationTaskCatalogTest(unittest.TestCase):
                 "hag-route-05", "hag-route-07", "hag-route-10",
             },
             "notre-dame": {
-                "ntd-route-04", "ntd-route-08-09", "ntd-route-10",
+                "ntd-route-08-09",
                 "ntd-route-11", "ntd-route-12", "ntd-route-13",
             },
             "plaza-hotel": {
@@ -99,7 +97,7 @@ class NavigationTaskCatalogTest(unittest.TestCase):
                 "qmr-route-19",
             },
             "rms-titanic": {
-                "tit-route-01", "tit-route-02", "tit-route-08",
+                "tit-route-02", "tit-route-08",
                 "tit-route-10", "tit-route-11", "tit-route-12",
                 "tit-route-14",
             },
@@ -108,7 +106,7 @@ class NavigationTaskCatalogTest(unittest.TestCase):
                 "sofi-route-13", "sofi-route-14", "sofi-route-15",
             },
             "versailles": {
-                "ver-route-06-07", "ver-route-08-09", "ver-route-10",
+                "ver-route-06-07", "ver-route-08-09",
                 "ver-route-13",
             },
         }
@@ -162,6 +160,36 @@ class NavigationTaskCatalogTest(unittest.TestCase):
                 "validation_receipt_required": False,
             },
         )
+
+    def test_catalog_matches_frozen_main_benchmark_ids(self):
+        # Independent frozen main-benchmark inventory, not a count-only assertion.
+        ids = sorted(task["task_id"] for task in self.tasks)
+        digest = hashlib.sha256(("\n".join(ids) + "\n").encode()).hexdigest()
+        self.assertEqual(
+            digest,
+            "d29ee013ba6cd62278d06c79351d4c13eb59559079f3e14d7561f2ef035c93d9",
+        )
+
+    def test_retired_tasks_cannot_be_selected(self):
+        benchmark = load_benchmark("finalpool-navigation-v1")
+        for task_id in (
+            "buckingham-palace-001",
+            "copacabana-waterfront-003",
+            "copacabana-waterfront-005",
+            "miljacka-riverside-003",
+            "notre-dame-001",
+            "notre-dame-003",
+            "nyc-911-memorials-006",
+            "rms-titanic-001",
+            "shun-lee-003",
+            "torrey-mall-005",
+            "torrey-mall-007",
+            "versailles-003",
+            "white-house-001",
+            "white-house-002",
+        ):
+            with self.subTest(task_id=task_id), self.assertRaises(SchemaError):
+                find_task(task_id, benchmark["maps"])
 
     def test_every_task_has_local_prompt_and_chinese_translation(self):
         for task in self.tasks:

@@ -27,13 +27,13 @@
 
 ## Excluded changes
 
-No local credentials or unrelated experiment configurations were merged. The baseline
-task roster is retained. The subsequently requested formal-run alignment updates
+No local credentials or unrelated experiment configurations were merged. The active
+task roster is the final 180-task main benchmark, shared by both release branches. The subsequently requested formal-run alignment updates
 the limits to 500 steps and a 21600-second watchdog, the summary threshold to 100
 turns, and the runtime's pinned Java artifact to the rebuilt coordinate-filter-v2
 implementation. Fixed-camera/no-map experiments, reference-navigation
-extensions, model-specific image caps, task removals, extra waypoint edits in older
-workspaces and fleet autoscaling are excluded.
+extensions, model-specific image caps, additional task removals beyond the final
+roster, extra waypoint edits in older workspaces and fleet autoscaling are excluded.
 
 ## Anonymization
 
@@ -73,9 +73,10 @@ The historical September 29 privacy scan checked 387
 source-package files and 63 embedded JAR entries with no remaining matches for
 the known author identifiers, original credential values, or common secret formats.
 The scanner also confirmed the baseline task catalog/settings/profiles were retained
-and exactly nine waypoint positions changed. The current scan checks the authorized
-formal settings and rebuilt mod hash separately while retaining the nine-point and
-unchanged-catalog checks. This is a bounded automated check.
+and exactly nine waypoint positions changed. Current checks verify the authorized
+formal settings and rebuilt mod hash, the nine waypoint corrections, and the final
+180-task roster. Earlier unchanged-catalog
+checks describe the initial source export. This is a bounded automated check.
 
 ## Portable Linux entrypoint
 
@@ -102,3 +103,13 @@ Original source revision identifiers are redacted in prompt provenance metadata,
 the historical audit, and nested map provenance. Prompt bytes, archive hashes,
 world fingerprints, and independent SHA-256 assertions are unchanged. The publication history is rebuilt from the checked source snapshots
 so the superseded commits are not retained on either release branch.
+
+## Final task roster (2026-10-05)
+
+The initial code release incorrectly retained the older 194-task catalog. Both
+release branches now expose the final **180-task, 30-map main benchmark** used for
+the reported dataset inventory. The 14 excluded IDs and the frozen roster checksum
+are recorded in [Task catalog](task-catalog.md). Retained task entries are unchanged.
+The benchmark count, default task listing, full-run selection, Harbor export, and
+documentation use the same catalog. Regression checks pin the exact ID checksum
+and reject retired task IDs. This correction does not change historical results.
