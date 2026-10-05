@@ -4,8 +4,8 @@
 
 - [Project overview](../README.md): Benchmark scope and agentic spatial intelligence, installation, branch selection, model runs, evaluation, results, model-selection examples, and validation scope.
 - [Paper figures](assets/paper/README.md): Environment overview, agent framework, and terrain examples matched to the September 29 manuscript package, with source versions and presentation notes.
-- [Linux quickstart](linux-quickstart.md): CPU container setup, CPU/GPU rendering scope and virtual display, resource-measurement status, graphics and sandbox checks, map preparation, credentials, and one-task execution.
-- [Task catalog](task-catalog.md): All 30 selected maps, 180 tasks, locale tags, source manifests, and external asset requirements.
+- [Linux quickstart](linux-quickstart.md): CPU container setup, CPU/GPU rendering scope and virtual display, resource-measurement status, graphics and sandbox checks, verified downloads and imports for one or all 30 maps, credentials, and one-task execution.
+- [Task catalog](task-catalog.md): All 30 selected maps, 180 tasks, locale tags, source manifests, and the matching map release.
 - [Release notes](anonymous-release.md): Selected runtime fixes, nine waypoint corrections, formal settings, anonymization, and validation limits.
 
 Harbor documentation and adapters are on the
