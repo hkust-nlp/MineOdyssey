@@ -104,21 +104,21 @@ class NavigationSchemaTest(unittest.TestCase):
             for map_id in benchmark["maps"]
         }
         self.assertEqual(len(benchmark["maps"]), 30)
-        self.assertEqual(sum(map(len, tasks.values())), 194)
-        self.assertEqual(len(tasks["buckingham-palace"]), 6)
+        self.assertEqual(sum(map(len, tasks.values())), 180)
+        self.assertEqual(len(tasks["buckingham-palace"]), 5)
         self.assertEqual(len(tasks["hagia-sophia"]), 3)
-        self.assertEqual(len(tasks["notre-dame"]), 6)
+        self.assertEqual(len(tasks["notre-dame"]), 4)
         self.assertEqual(len(tasks["plaza-hotel"]), 6)
         self.assertEqual(len(tasks["reichstag"]), 5)
         self.assertEqual(len(tasks["rms-queen-mary"]), 10)
-        self.assertEqual(len(tasks["rms-titanic"]), 7)
+        self.assertEqual(len(tasks["rms-titanic"]), 6)
         self.assertEqual(len(tasks["sofi-stadium"]), 6)
-        self.assertEqual(len(tasks["versailles"]), 4)
-        self.assertEqual(len(tasks["white-house"]), 9)
-        self.assertEqual(len(tasks["shun-lee"]), 5)
+        self.assertEqual(len(tasks["versailles"]), 3)
+        self.assertEqual(len(tasks["white-house"]), 7)
+        self.assertEqual(len(tasks["shun-lee"]), 4)
         self.assertEqual(
             [task["id"] for task in tasks["shun-lee"]],
-            [f"shun-lee-{index:03d}" for index in range(1, 6)],
+            [f"shun-lee-{index:03d}" for index in (1, 2, 4, 5)],
         )
 
     def test_final_setting_pins_long_run_and_summary_policy(self):

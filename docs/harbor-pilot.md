@@ -4,7 +4,8 @@
 **Current baseline:** the actual historical formal GLM runs, checked against their
 run receipts and model-visible journals. The default is native `tool_calls`, 500
 assistant decision steps, a 21600-second infrastructure watchdog, 100-turn
-summarization and `xaero-coordinate-filter-v2`. The task catalog and nine requested
+summarization and `xaero-coordinate-filter-v2`. The active catalog is the final
+180-task main benchmark, shared with the original runner; the nine requested
 waypoint corrections are retained. The initial-submission XML prompt remains an
 explicit legacy option; earlier XML Harbor trials are diagnostic evidence and
 are not relabeled as formal-profile runs. Old waypoint revisions likewise remain
@@ -132,7 +133,8 @@ python3 scripts/eval/export-harbor-navigation.py \
 The exporter verifies world fingerprints and original archive identity. Rebinding
 the anonymized metadata digest does not change map contents or skip verification.
 
-Use `--task TASK_ID` to select another task from the original catalog. The exporter
+Use `--task TASK_ID` to select another task from the active 180-task catalog. Retired
+task IDs are rejected before export. The exporter
 generates that task's original-language instruction and bakes its identity into
 both the world gateway and the separate verifier. Docker build arguments select
 the matching map; a completion from another task is rejected. The shared Innopolis

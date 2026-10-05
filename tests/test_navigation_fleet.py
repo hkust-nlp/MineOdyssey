@@ -176,7 +176,7 @@ class NavigationFleetTest(unittest.TestCase):
 
     def test_missing_task_list_selects_full_benchmark(self) -> None:
         selected = fleet._selected_tasks(argparse.Namespace(task_list_file=None))
-        self.assertEqual(len(selected), 194)
+        self.assertEqual(len(selected), 180)
         self.assertEqual(len(selected), len(set(selected)))
 
     def test_task_list_file_preserves_requested_order(self) -> None:
