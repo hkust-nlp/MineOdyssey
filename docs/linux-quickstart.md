@@ -7,6 +7,10 @@ Python application dependencies, Xvfb, Mesa, screenshots and noVNC are installed
 the image. Rendering uses Mesa software rendering. Linux x86_64 is the validation
 platform; ARM64 has not been verified for this release.
 
+For GPU rendering, use the navigation fleet runner's `--gpu-devices` option and
+the NVIDIA container image described in [GPU setup](navigation-eval.md#gpu-rendering).
+The `navigation-linux.py` launcher used below selects CPU rendering.
+
 Minimum host RAM and free-disk requirements have not been measured for this release.
 Disk use includes container images, map archives, prepared snapshots, and per-trial
 world copies and logs. Container resource limits describe configuration, not measured

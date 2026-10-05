@@ -69,9 +69,15 @@ and the Harbor scripts under `scripts/eval/`.
 ### 1. Requirements and source
 
 - Linux x86_64 with Python 3 and a working Podman or Docker installation.
-- No GPU or host desktop session is needed. Java 21, the Python application
-  environment, Xvfb, and Mesa software rendering are installed inside the image.
+- The CPU quickstart below uses software rendering and requires no GPU or host
+  desktop session. Java 21, the Python application environment, Xvfb, and Mesa
+  are installed inside the image.
 - A hash-matched map archive, plus an image-capable model API for agent runs.
+
+GPU rendering is also available through the navigation fleet runner's
+`--gpu-devices` option and the NVIDIA container image; see the
+[GPU setup](docs/navigation-eval.md#gpu-rendering). The Harbor template in this
+release uses CPU rendering.
 
 Minimum host RAM and free-disk requirements have not been measured for this release.
 Disk use includes container images, map archives, prepared snapshots, and per-trial
