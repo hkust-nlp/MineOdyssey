@@ -10,7 +10,7 @@
 
 ## Harbor
 
-- [Harbor setup and runtime](harbor-pilot.md): Task export, Podman setup, container-local original Agent, credentials, isolated verification, and version-specific live checks.
+- [Harbor setup and runtime](harbor-pilot.md): Task export, Podman setup, configured resource limits, container-local original Agent, credentials, isolated verification, and version-specific live checks.
 - [Parity audit](harbor-parity-audit.md): Historical differences and the evidence used to align Harbor with the original runner.
 - [Task template](../eval/harbor/innopolis-006/README.md): Concrete task layout and required external inputs.
 
