@@ -572,6 +572,8 @@ preferred when both engines exist; select explicitly with
 `--container-engine podman|docker`. The default image is
 `mcbots-navigation:1.21.11`.
 
+<a name="gpu-rendering"></a>
+
 For NVIDIA rendering on Linux, install the NVIDIA driver and NVIDIA Container
 Toolkit on the host, confirm `nvidia-ctk cdi list` exposes the desired devices,
 and build the derived GPU image:

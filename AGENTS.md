@@ -63,4 +63,4 @@
 
 - `docs/anonymous-release.md`: Selected runtime fixes, nine waypoint corrections, formal-profile alignment, anonymous-export versus development-branch scope and validation limits.
 
-- `docs/linux-quickstart.md`: Generic Linux Docker/Podman CPU setup, resource-measurement status, actual graphics/sandbox checks, map preparation and single-task review/model execution.
+- `docs/linux-quickstart.md`: Generic Linux Docker/Podman CPU setup, GPU setup reference, resource-measurement status, actual graphics/sandbox checks, map preparation and single-task review/model execution.
