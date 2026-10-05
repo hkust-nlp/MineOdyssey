@@ -7,9 +7,12 @@ Generic Harbor agents use the CLI in instruction.md and own their control loops.
 
 ## Build and run
 
-Install Docker Engine + Compose (or Podman + podman-compose), Harbor 0.23.0,
-and budget at least 16 GB host RAM. Export adds environment/world/source.tar.gz and environment/agent-source.tar.gz.
-The world sidecar requires four CPUs and 12 GB RAM in addition to main.
+Install Docker Engine + Compose (or Podman + podman-compose) and Harbor 0.23.0.
+Export adds environment/world/source.tar.gz and environment/agent-source.tar.gz.
+The [Compose template](environment/docker-compose.yaml) sets `cpus: 4` and
+`mem_limit: 12g` for `world`; [task.toml](task.toml) configures `main` and the
+separate verifier. These are container resource settings. Minimum host RAM and
+free-disk requirements have not been measured for this release.
 
 ```bash
 mkdir -p /tmp/navigation-source

@@ -73,7 +73,13 @@ cleanup around the independent 21600-second watchdog.
 Build the CPU base image using [Linux setup](linux-quickstart.md). Maps and runtime
 caches are private build inputs, excluded from public source packages. Preparation
 writes `eula=true`; accept the Minecraft EULA before preparing/running the runtime.
-The world needs about 12 GB RAM/four CPU cores; budget at least 16 GB host RAM.
+
+The [Compose template](../eval/harbor/innopolis-006/environment/docker-compose.yaml)
+sets `mem_limit: 12g` and `cpus: 4` for `world`. These are configured container
+limits, not measured usage or minimum host requirements. `main` and the separate
+verifier have their own resource settings in
+[task.toml](../eval/harbor/innopolis-006/task.toml). Minimum host RAM and free-disk
+requirements have not been measured for this release.
 
 Install Harbor on the host. The CPU base image already contains the locked Agent
 dependencies; exporting also creates `environment/agent-source.tar.gz` containing
