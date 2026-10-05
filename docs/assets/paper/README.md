@@ -1,19 +1,20 @@
 # Paper figures
 
-These three figures are copied from the existing exports used by the manuscript.
-The README introduces the benchmark with the environment overview and interaction
-framework, then shows terrain examples alongside the task description. Image bytes
-are unchanged; the combined payload is about 3 MB. Click an image to inspect the
-full-resolution file.
+These three figures use the PNG exports corresponding to the figures in the
+September 29 manuscript source package (`paper-arxiv.tex`). Each corresponding PDF
+was checked byte-for-byte against the source package. The PNG exports are copied
+unchanged and total about 2.3 MB. Click an image to inspect the full-resolution file.
 
-| Figure | Source figure version | Original export | README asset |
+| Figure | Manuscript figure | Original PNG export | README asset |
 | --- | --- | --- | --- |
-| Environment coverage and task examples | `overview-integrated-v67` | `overview-preview.jpg` | [Overview](environment-overview.jpg) |
-| Agent interaction and independent verification | `framework-draft-v12` | `overview.png` | [Framework](agent-framework.png) |
-| Terrain, spatial constraints, and interactions | `terrain-interactions-20260925` | `terrain-interactions-en.png` | [Terrain](terrain-interactions.png) |
+| Environment coverage and task examples | `task-overview4.pdf` | `task-overview4-refined.png` | [Overview](environment-overview.png) |
+| Agent interaction and independent verification | `agent_loop_overview.pdf` | `agent_loop_overview-refined.png` | [Framework](agent-framework.png) |
+| Terrain, spatial constraints, and interactions | `terrain-interactions-en.pdf` | `terrain-interactions-en-compact.png` | [Terrain](terrain-interactions.png) |
 
-[manifest.json](manifest.json) records image dimensions, sizes, and SHA-256 hashes.
-The source manifests and full manuscript remain outside this code release.
+[manifest.json](manifest.json) records the manuscript version, PDF hashes, PNG
+export names, image dimensions, sizes, and SHA-256 hashes. The exports come from
+`overview-refinement-20260926`; they replace the earlier drafts selected from
+`current_main.tex`. The full manuscript remains outside this code release.
 
 ## Environment overview
 
