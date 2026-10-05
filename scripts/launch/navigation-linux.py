@@ -15,6 +15,9 @@ import sys
 ROOT = Path(__file__).resolve().parents[2]
 CONTAINER_ROOT = "/workspace/mcbots"
 DEFAULT_IMAGE = "localhost/anonymous-navigation:linux-cpu"
+RELEASE_MANIFEST = Path("eval/navigation/releases/navigation-maps-1.21.11-v1.json")
+DEFAULT_DOWNLOADS = ROOT / "downloads/navigation-maps-1.21.11-v1"
+MAP_COMMANDS = {"prepare-map", "prepare-maps"}
 
 
 def parser() -> argparse.ArgumentParser:
@@ -28,9 +31,11 @@ def parser() -> argparse.ArgumentParser:
     sub.add_parser("doctor", help="Check tools, headless OpenGL and the command sandbox.")
     sub.add_parser("tasks", help="List task IDs and map IDs (no container required).")
     sub.add_parser("prepare-runtime", help="Download pinned Minecraft/mods and run a live smoke test.")
-    m = sub.add_parser("prepare-map", help="Verify and prepare one locally supplied map archive.")
+    m = sub.add_parser("prepare-map", help="Import one verified release map archive.")
     m.add_argument("--map", required=True)
-    m.add_argument("--downloads-dir", type=Path, default=ROOT / "downloads")
+    m.add_argument("--downloads-dir", type=Path, default=DEFAULT_DOWNLOADS)
+    maps = sub.add_parser("prepare-maps", help="Import all 30 benchmark release map archives.")
+    maps.add_argument("--downloads-dir", type=Path, default=DEFAULT_DOWNLOADS)
     run = sub.add_parser("run", help="Run one task; defaults to review without model requests.")
     run.add_argument("--task", required=True)
     run.add_argument("--mode", choices=("review", "pilot", "formal"), default="review")
@@ -75,7 +80,7 @@ def container_command(args: argparse.Namespace, engine: str, root: Path = ROOT) 
                   "LIBGL_ALWAYS_SOFTWARE=1", "PYTHONDONTWRITEBYTECODE=1",
                   "MCBOTS_NAV_VNC_PORT=5900", "MCBOTS_NAV_NOVNC_PORT=6080"]:
         cmd += ["--env", value]
-    if args.command == "prepare-map":
+    if args.command in MAP_COMMANDS:
         cmd += ["--volume", f"{args.downloads_dir.resolve()}:/inputs:ro"]
     if args.command == "run":
         for name in ("MCBOTS_API_KEY", "MCBOTS_BASE_URL"):
@@ -88,9 +93,11 @@ def container_command(args: argparse.Namespace, engine: str, root: Path = ROOT) 
         return cmd + ["scripts/runtime/check-navigation-linux.py"]
     if args.command == "prepare-runtime":
         return cmd + ["scripts/eval/prepare-navigation-runtime.py"]
-    if args.command == "prepare-map":
-        return cmd + ["scripts/snapshot/prepare-navigation-snapshot.py", "--map", args.map,
-                      "--downloads-dir", "/inputs"]
+    if args.command in MAP_COMMANDS:
+        cmd += ["scripts/snapshot/import-navigation-map-release.py", "--downloads-dir", "/inputs"]
+        if args.command == "prepare-map":
+            cmd += ["--map", args.map]
+        return cmd
     cmd += ["scripts/eval/run-navigation-benchmark.py", "--mode", args.mode, "--task", args.task,
             "--api-protocol", args.api_protocol, "--model-parameters-json",
             json.dumps({"action_protocol": args.action_protocol}, separators=(",", ":"))]
@@ -117,15 +124,20 @@ def validate(args: argparse.Namespace, root: Path = ROOT) -> None:
             receipt = root / "eval/templates/_local/navigation-linux-cpu/1.21.11/runtime-receipt.json"
             if not receipt.is_file():
                 raise ValueError("Runtime is missing; run prepare-runtime first.")
-    if args.command == "prepare-map":
-        if args.map not in {t["map_id"] for t in task_catalog(root).values()}:
+    if args.command in MAP_COMMANDS:
+        benchmark_maps = {t["map_id"] for t in task_catalog(root).values()}
+        if args.command == "prepare-map" and args.map not in benchmark_maps:
             raise ValueError(f"Unknown map {args.map!r}; use the tasks command.")
-        payload = json.loads((root / "eval/navigation/maps" / args.map / "map.json").read_text())
-        relative = payload["source"].get("archive_path", payload["source"]["asset_name"])
-        expected = args.downloads_dir / relative
-        if not args.dry_run and not expected.is_file():
-            raise ValueError(f"Map archive missing: {expected}. Supply the original hash-matched archive; "
-                             "anonymous map hosting is not configured yet.")
+        manifest = json.loads((root / RELEASE_MANIFEST).read_text())
+        assets = {row["map_id"]: row for row in manifest["assets"]}
+        selected = [args.map] if args.command == "prepare-map" else sorted(benchmark_maps)
+        for map_id in selected:
+            if map_id not in assets:
+                raise ValueError(f"Release manifest has no map {map_id!r}.")
+            expected = args.downloads_dir / assets[map_id]["asset_name"]
+            if not args.dry_run and not expected.is_file():
+                raise ValueError(f"Map archive missing: {expected}. Download it with "
+                                 f"python3 scripts/snapshot/download-navigation-map-release.py --map {map_id}")
 
 
 def main() -> int:

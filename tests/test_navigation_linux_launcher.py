@@ -1,5 +1,6 @@
 """Host launcher boundaries: no credentials in argv; portable paths and safe defaults."""
 import importlib.util
+import json
 import os
 from pathlib import Path
 import tempfile
@@ -57,6 +58,35 @@ class LinuxLauncherTest(unittest.TestCase):
     def test_missing_archive_reports_exact_required_file(self):
         with tempfile.TemporaryDirectory() as directory:
             args = self.args('prepare-map', '--map', 'innopolis', '--downloads-dir', directory)
+            with self.assertRaisesRegex(ValueError, 'Map archive missing:'):
+                launcher.validate(args)
+
+    def test_all_benchmark_maps_accept_release_archive_names(self):
+        manifest = json.loads((ROOT / launcher.RELEASE_MANIFEST).read_text())
+        with tempfile.TemporaryDirectory() as directory:
+            for row in manifest['assets']:
+                (Path(directory) / row['asset_name']).touch()
+            for map_id in {row['map_id'] for row in launcher.task_catalog().values()}:
+                with self.subTest(map_id=map_id):
+                    args = self.args('prepare-map', '--map', map_id, '--downloads-dir', directory)
+                    launcher.validate(args)
+                    cmd = launcher.container_command(args, 'podman')
+                    self.assertIn('scripts/snapshot/import-navigation-map-release.py', cmd)
+                    self.assertNotIn('scripts/snapshot/prepare-navigation-snapshot.py', cmd)
+            all_args = self.args('prepare-maps', '--downloads-dir', directory)
+            launcher.validate(all_args)
+            self.assertNotIn('--map', launcher.container_command(all_args, 'podman'))
+
+    def test_old_original_archive_is_not_accepted_as_release_map(self):
+        with tempfile.TemporaryDirectory() as directory:
+            (Path(directory) / 'AFR-Cape.Town.zip').touch()
+            args = self.args('prepare-map', '--map', 'cape-town', '--downloads-dir', directory)
+            with self.assertRaisesRegex(ValueError, 'navigation-1.21.11-cape-town.zip'):
+                launcher.validate(args)
+
+    def test_all_maps_fail_early_if_one_release_archive_is_missing(self):
+        with tempfile.TemporaryDirectory() as directory:
+            args = self.args('prepare-maps', '--downloads-dir', directory)
             with self.assertRaisesRegex(ValueError, 'Map archive missing:'):
                 launcher.validate(args)
 
