@@ -20,7 +20,7 @@ in **20 locale variants**. Environments include city streets, parks, palaces,
 hotels, stadiums, and ships. Tasks exercise visual grounding, route planning,
 vertical navigation, and interaction with doors, stairs, and other world features.
 
-![Thirty Minecraft environments and multi-stop task examples in the White House and Ueno Park](docs/assets/paper/environment-overview.jpg)
+![Thirty Minecraft environments and multi-stop task examples in the White House and Ueno Park](docs/assets/paper/environment-overview.png)
 
 **Environments and tasks.** The benchmark covers 20 outdoor and 10 indoor maps.
 The paper's examples show how everyday instructions become ordered visits to named
@@ -245,22 +245,15 @@ excluded from this source release.
 
 ## Run with Harbor
 
-Harbor provides task lifecycle management, container creation, trial scheduling,
-log collection, and verifier execution. **The original agent runs inside the
-`main` container.** Minecraft and the same evaluator run in `world`; actions still
-execute in the original sandbox. A separate verifier reads trusted world results.
-The host runs Harbor and the lifecycle adapter.
+Harbor starts each trial, manages its containers, and collects logs and results.
+It runs the same agent and evaluator as the Linux runner.
 
-```mermaid
-flowchart LR
-    H[Host: Harbor] --> A[main container: original Agent]
-    A -->|actions and claims| W[world container: action sandbox and Minecraft]
-    W -->|screenshots and feedback| A
-    W --> E[world container: original evaluator]
-    H --> V[Separate verifier]
-    E -->|trusted completion evidence| V
-    V --> R[Trial result and logs]
-```
+| Where | What runs there |
+| --- | --- |
+| Host | Harbor schedules trials and manages their lifecycle |
+| `main` container | The original agent calls the model and chooses actions |
+| `world` container | Minecraft, sandboxed action execution, and the original position-based evaluator |
+| Separate verifier | Reads trusted world results and reports the trial outcome to Harbor |
 
 Install [uv](https://docs.astral.sh/uv/getting-started/installation/) on the host
 if needed. Switch branches, build the CPU base image with the same engine, and
