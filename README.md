@@ -344,13 +344,6 @@ uv run python -m unittest \
   tests.test_innopolis_harbor_waypoint_corrections
 ```
 
-The October 3, 2026 validation record reports 253 base Python checks, 59 Harbor
-container-agent checks, and three real Minecraft integration trials with a
-scripted provider, covering asynchronous interruption, retries, isolation, and
-unscored failure reporting. These are integration checks, not successful model
-navigation results. Historical GLM trials used the earlier host-agent deployment;
-a fresh GLM run of the container-agent deployment is not claimed here.
-
 The [release notes](docs/anonymous-release.md) describe the selected fixes,
 anonymization, and validation limits. The
 [Harbor validation record](https://github.com/mine-odyssey/MineOdyssey/blob/harbor/eval/harbor/innopolis-006/validation.json)
