@@ -42,7 +42,7 @@
 - Whenever docs are added/renamed/removed, update both `docs/README.md` and the map below in the same change.
 
 ## Documentation Map (Keep In Sync)
-- `docs/task-catalog.md`: Source-bound 194-task/30-map inventory, locale tags, task schema and separately supplied map assets.
+- `docs/task-catalog.md`: Source-bound 180-task/30-map inventory, locale tags, task schema and separately supplied map assets.
 - `README.md`: Public MineOdyssey overview, CPU quickstart, task and evaluation contract, original/Harbor branches, results, model-selection examples and validation scope.
 - `docs/README.md`: Index for focused docs under `docs/`.
 - `docs/navigation-eval.md`: Finalpool Minecraft 1.21.11 navigation evaluation, manual validation, and formal aggregation workflow.
