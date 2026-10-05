@@ -368,7 +368,3 @@ MineOdyssey uses Minecraft, NeoForge, and the mods pinned in the runtime profile
 Map archives and third-party dependencies retain their own terms; the map manifests
 do not grant redistribution rights. This source release does not assign a new
 license to those assets.
-
-The documentation layout takes inspiration from
-[Toolathlon](https://github.com/hkust-nlp/Toolathlon) and
-[OSWorld](https://github.com/xlang-ai/OSWorld).
