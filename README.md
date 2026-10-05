@@ -69,11 +69,13 @@ and the Harbor scripts under `scripts/eval/`.
 ### 1. Requirements and source
 
 - Linux x86_64 with Python 3 and a working Podman or Docker installation.
-- Start with about **16 GB RAM** and **tens of GB of free disk** for one game;
-  larger maps and parallel trials need more.
 - No GPU or host desktop session is needed. Java 21, the Python application
   environment, Xvfb, and Mesa software rendering are installed inside the image.
 - A hash-matched map archive, plus an image-capable model API for agent runs.
+
+Minimum host RAM and free-disk requirements have not been measured for this release.
+Disk use includes container images, map archives, prepared snapshots, and per-trial
+world copies and logs.
 
 The examples below use Podman. Substitute `--engine docker` consistently to use
 Docker. The validated Harbor backend is Podman; Docker Harbor trials and ARM64
@@ -342,9 +344,9 @@ uv run python -m unittest \
   tests.test_innopolis_harbor_waypoint_corrections
 ```
 
-The updated base passed 253 Python checks. The latest Harbor container-agent
-change passed 59 targeted checks and three real Minecraft integration trials with
-a scripted provider, covering asynchronous interruption, retries, isolation, and
+The October 3, 2026 validation record reports 253 base Python checks, 59 Harbor
+container-agent checks, and three real Minecraft integration trials with a
+scripted provider, covering asynchronous interruption, retries, isolation, and
 unscored failure reporting. These are integration checks, not successful model
 navigation results. Historical GLM trials used the earlier host-agent deployment;
 a fresh GLM run of the container-agent deployment is not claimed here.
