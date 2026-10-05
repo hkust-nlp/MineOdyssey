@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "purpose": "Existing manuscript figures reused in the repository README",
+  "copied_without_modification": true,
+  "figures": [
+    {
+      "file": "environment-overview.jpg",
+      "title": "Environment coverage and indoor/outdoor task examples",
+      "paper_figure_version": "overview-integrated-v67",
+      "source_export": "overview-preview.jpg",
+      "sha256": "8766afd401ef70b9b6b3c7cf8ba6bfc1749b3f24e7d230f084f157ea809c9ee3",
+      "bytes": 957614,
+      "width": 2400,
+      "height": 1658
+    },
+    {
+      "file": "agent-framework.png",
+      "title": "Agent interaction and independent verification",
+      "paper_figure_version": "framework-draft-v12",
+      "source_export": "overview.png",
+      "sha256": "c486a5edd518df3715ac4c2353045e717a7e6e1142a65b6480b9ce2b207fa5c7",
+      "bytes": 675032,
+      "width": 2400,
+      "height": 1417
+    },
+    {
+      "file": "terrain-interactions.png",
+      "title": "Terrain, spatial constraints, and interactions",
+      "paper_figure_version": "terrain-interactions-20260925",
+      "source_export": "terrain-interactions-en.png",
+      "sha256": "2f57b4cef725ad0ed0000f1abbca015eee25ddfff4e2897b20cb7bf4a12921c4",
+      "bytes": 1312379,
+      "width": 1650,
+      "height": 870
+    }
+  ]
+}

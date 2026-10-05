@@ -42,6 +42,7 @@
 - Whenever docs are added/renamed/removed, update both `docs/README.md` and the map below in the same change.
 
 ## Documentation Map (Keep In Sync)
+- `docs/assets/paper/README.md`: Existing manuscript figures used in the README, with source versions, file hashes, credits and presentation boundaries.
 - `docs/task-catalog.md`: Source-bound 180-task/30-map inventory, locale tags, task schema and separately supplied map assets.
 - `README.md`: Public MineOdyssey overview, CPU quickstart, task and evaluation contract, original/Harbor branches, results, model-selection examples and validation scope.
 - `docs/README.md`: Index for focused docs under `docs/`.
