@@ -4,7 +4,7 @@
 
 - [Project overview](../README.md): Installation, branch selection, model runs, evaluation, results, model-selection examples, and validation scope.
 - [Paper figures](assets/paper/README.md): Environment overview, agent framework, and terrain examples matched to the September 29 manuscript package, with source versions and presentation notes.
-- [Linux quickstart](linux-quickstart.md): CPU container setup, GPU setup reference, resource-measurement status, graphics and sandbox checks, map preparation, credentials, and one-task execution.
+- [Linux quickstart](linux-quickstart.md): CPU container setup, CPU/GPU rendering scope and virtual display, resource-measurement status, graphics and sandbox checks, map preparation, credentials, and one-task execution.
 - [Task catalog](task-catalog.md): All 30 selected maps, 180 tasks, locale tags, source manifests, and external asset requirements.
 - [Release notes](anonymous-release.md): Selected runtime fixes, nine waypoint corrections, formal settings, anonymization, and validation limits.
 
