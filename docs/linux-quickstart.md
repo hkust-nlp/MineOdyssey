@@ -4,10 +4,13 @@ Use the CPU container path below. No NVIDIA GPU, desktop session, cluster accoun
 pre-existing Minecraft installation, or server-specific filesystem layout is required.
 The host needs Python 3 and a working Docker Engine or Podman installation; Java 21,
 Python application dependencies, Xvfb, Mesa, screenshots and noVNC are installed in
-the image. Start with one task at a time. Allow roughly 16 GB RAM and tens of GB of
-free disk as a starting budget; large maps and copies may need substantially more.
-CPU rendering is slower than hardware rendering. Linux x86_64 is the validation
+the image. Rendering uses Mesa software rendering. Linux x86_64 is the validation
 platform; ARM64 has not been verified for this release.
+
+Minimum host RAM and free-disk requirements have not been measured for this release.
+Disk use includes container images, map archives, prepared snapshots, and per-trial
+world copies and logs. Container resource limits describe configuration, not measured
+usage or minimum host requirements.
 
 The container engine must work for your current account. The launcher prints the
 exact command it executes. If both engines exist it chooses Docker; select one
