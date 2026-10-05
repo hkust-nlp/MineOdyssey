@@ -302,6 +302,7 @@ export a task:
 git switch harbor
 uv tool install 'harbor==0.23.0'
 python3 scripts/launch/navigation-linux.py --engine podman build
+python3 scripts/snapshot/download-navigation-map-release.py --map innopolis
 
 python3 scripts/eval/export-harbor-navigation.py \
   --task innopolis-006 --output /tmp/mineodyssey-innopolis-006 \
