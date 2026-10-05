@@ -51,8 +51,11 @@ working download endpoints. Raw annotation content and archive/world SHA-256 che
 are preserved; the original attribution mapping remains in the private source.
 Third-party dependency URLs, licenses, build pins and map/place names are retained.
 
-An anonymous map-asset mirror is still needed before this can be offered as an
-end-to-end downloadable benchmark. Do not substitute owner-linked release URLs.
+The 30 benchmark map ZIPs are mirrored under the
+[MineOdyssey map release](https://github.com/mine-odyssey/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1).
+The release manifest uses this repository as its download endpoint; older per-map
+provenance keeps its redaction sentinels. Access follows the repository's visibility.
+Original development-repository URLs are not substituted into the release.
 
 ## Validation limits
 
@@ -81,12 +84,12 @@ checks describe the initial source export. This is a bounded automated check.
 ## Portable Linux entrypoint
 
 `python3 scripts/launch/navigation-linux.py` provides build, doctor, tasks,
-prepare-runtime, prepare-map and run commands. The CPU image now uses generic Linux
+prepare-runtime, prepare-map, prepare-maps and run commands. The CPU image now uses generic Linux
 labels/paths and explicitly installs xauth. The launcher keeps host paths in argv
 boundaries, publishes only optional loopback noVNC, rejects missing map files and
 credentials early, and disables inherited Podman host proxy settings. Build-context
 ignore files exclude credentials and generated data. See the Linux guide for the
-separate map-archive prerequisite and runtime validation status.
+map download/import workflow and runtime validation status.
 
 ## Branch scope
 

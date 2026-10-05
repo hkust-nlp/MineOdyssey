@@ -90,11 +90,17 @@ rules for the retained tasks are preserved. Previous run artifacts are unchanged
 
 ## Assets and preparation
 
-Each map manifest records the expected archive name, archive SHA-256, and source
-and prepared-world fingerprints. Map archives are external inputs; public hosting
-is not configured in this release. The redacted `example.invalid` source URLs are
-not download links. Use a matching local archive with the
-[Linux preparation command](linux-quickstart.md).
+The [map release](https://github.com/mine-odyssey/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1)
+contains exactly these 30 maps (2.60 GB of ZIPs). The
+[release manifest](../eval/navigation/releases/navigation-maps-1.21.11-v1.json)
+records the download names, sizes, SHA-256 values, and extracted-world fingerprints.
+Follow the [Linux download and import commands](linux-quickstart.md#3-download-and-prepare-maps)
+for one map or all 30. GitHub repository access is required while the repository
+is private.
+
+Per-map source manifests retain original archive provenance, which can differ
+from the prepared release ZIP. Redacted `example.invalid` provenance URLs are not
+download links; the release manifest is the contract for the current importer.
 
 The runtime copies worlds for individual tasks. Neither the original map archives
 nor generated runtime caches are committed to this repository. Asset terms remain
