@@ -1,37 +1,45 @@
 {
-  "schema_version": 1,
-  "purpose": "Existing manuscript figures reused in the repository README",
+  "schema_version": 2,
+  "purpose": "Manuscript figures reused in the repository README",
+  "manuscript_version": "arxiv-submission-20260929",
+  "manuscript_file": "paper-arxiv.tex",
   "copied_without_modification": true,
   "figures": [
     {
-      "file": "environment-overview.jpg",
+      "file": "environment-overview.png",
       "title": "Environment coverage and indoor/outdoor task examples",
-      "paper_figure_version": "overview-integrated-v67",
-      "source_export": "overview-preview.jpg",
-      "sha256": "8766afd401ef70b9b6b3c7cf8ba6bfc1749b3f24e7d230f084f157ea809c9ee3",
-      "bytes": 957614,
-      "width": 2400,
-      "height": 1658
+      "paper_figure_version": "overview-refinement-20260926",
+      "manuscript_figure": "figures/task-overview4.pdf",
+      "manuscript_figure_sha256": "b954b43d04591b8ced75b8410b1653d19aa489ed5e2b78d8f30c0e2315aa1e63",
+      "source_export": "task-overview4-refined.png",
+      "sha256": "b1456164b97471f12ca814be19449ae2bb180a4f4ba9fc8098c70394ec481308",
+      "bytes": 1106841,
+      "width": 1311,
+      "height": 918
     },
     {
       "file": "agent-framework.png",
       "title": "Agent interaction and independent verification",
-      "paper_figure_version": "framework-draft-v12",
-      "source_export": "overview.png",
-      "sha256": "c486a5edd518df3715ac4c2353045e717a7e6e1142a65b6480b9ce2b207fa5c7",
-      "bytes": 675032,
-      "width": 2400,
-      "height": 1417
+      "paper_figure_version": "overview-refinement-20260926",
+      "manuscript_figure": "figures/agent_loop_overview.pdf",
+      "manuscript_figure_sha256": "ef2b7172dec683abf7c982e54f998fcac344c7721089855d7827519d9240f1c1",
+      "source_export": "agent_loop_overview-refined.png",
+      "sha256": "b53af23fe904aa88999fb7de362bfd75175e96721b34a2e9448c614249d57949",
+      "bytes": 170194,
+      "width": 1253,
+      "height": 597
     },
     {
       "file": "terrain-interactions.png",
       "title": "Terrain, spatial constraints, and interactions",
-      "paper_figure_version": "terrain-interactions-20260925",
-      "source_export": "terrain-interactions-en.png",
-      "sha256": "2f57b4cef725ad0ed0000f1abbca015eee25ddfff4e2897b20cb7bf4a12921c4",
-      "bytes": 1312379,
+      "paper_figure_version": "overview-refinement-20260926",
+      "manuscript_figure": "figures/terrain-interactions-en.pdf",
+      "manuscript_figure_sha256": "9f0da55e753532a5b308e4a5c23e033eecb4790b7364dca3849d8199891cc611",
+      "source_export": "terrain-interactions-en-compact.png",
+      "sha256": "a5dede23e5319ae395d6b6e62b4af1cec11e5fb9d264b2b1045c27dff494e02a",
+      "bytes": 998847,
       "width": 1650,
-      "height": 870
+      "height": 684
     }
   ]
 }
