@@ -479,42 +479,6 @@
       }
     },
     {
-      "task_id": "copacabana-waterfront-003",
-      "prompt": "Em uma viagem de trabalho, saia do «Hotel Astoria Palace» e tome café no «Maxim's Rio - (Copacabana)» enquanto revisa a proposta. Apresente-a ao cliente durante o almoço no «Restaurante Windsor Excelsior» e depois deposite o pagamento no «Banco Safra - Ag. 0199 - Copacabana».",
-      "map_id": "copacabana-waterfront",
-      "waypoints": [
-        {
-          "id": "COPW-12",
-          "name": "Hotel Astoria Palace",
-          "caption": "H"
-        },
-        {
-          "id": "COPW-13",
-          "name": "Maxim's Rio - (Copacabana)",
-          "caption": "M"
-        },
-        {
-          "id": "COPW-16",
-          "name": "Restaurante Windsor Excelsior",
-          "caption": "R"
-        },
-        {
-          "id": "COPW-17",
-          "name": "Banco Safra - Ag. 0199 - Copacabana",
-          "caption": "B"
-        }
-      ],
-      "eval_setting": {},
-      "metadata": {
-        "source_route_id": "copa-route-03",
-        "title_local": "Reuniões no Astoria e atendimento bancário",
-        "topic_local": "Compromissos rápidos entre hotel, restaurantes e banco",
-        "prompt_language": "pt-BR",
-        "prompt_zh": "出差期间从「Hotel Astoria Palace」出发，在「Maxim's Rio - (Copacabana)」喝咖啡并检查提案，再到「Restaurante Windsor Excelsior」与客户午餐并讲解方案，最后去「Banco Safra - Ag. 0199 - Copacabana」存入款项。",
-        "prompt_style": "natural_situational_local_language"
-      }
-    },
-    {
       "task_id": "copacabana-waterfront-004",
       "prompt": "Organize o presente coletivo de aniversário da sua irmã. Confirme no «Sicoob» a saída da transferência e no «Banco Safra - Ag. 0199 - Copacabana» a chegada do valor à conta usada pelo grupo. Compare as opções na «LUCCI Atelier» e na «Sauer - (Copacabana)», escolha o presente e leve-o até a «VitaFit» para entregá-lo quando ela terminar a aula.",
       "map_id": "copacabana-waterfront",
@@ -552,47 +516,6 @@
         "topic_local": "Pagamento, presentes e lojas de design em Copacabana",
         "prompt_language": "pt-BR",
         "prompt_zh": "为妹妹准备大家合送的生日礼物：先在「Sicoob」确认转账已经汇出，再到「Banco Safra - Ag. 0199 - Copacabana」确认款项进入共用账户。随后在「LUCCI Atelier」与「Sauer - (Copacabana)」比较并选定礼物，最后带到「VitaFit」，等妹妹下课后交给她。",
-        "prompt_style": "natural_situational_local_language"
-      }
-    },
-    {
-      "task_id": "copacabana-waterfront-005",
-      "prompt": "Depois de descer no «Ponto de ônibus», encerre sua antiga matrícula na «VitaFit» e faça a aula experimental já marcada na «Palace Academia - (Copacabana)». Em seguida, retire a bicicleta revisada na «RioSouth Bicicletas» e pedale até a aula de música na «School of Rock Copacabana».",
-      "map_id": "copacabana-waterfront",
-      "waypoints": [
-        {
-          "id": "COPW-21",
-          "name": "Ponto de ônibus",
-          "caption": "P"
-        },
-        {
-          "id": "COPW-22",
-          "name": "VitaFit",
-          "caption": "V"
-        },
-        {
-          "id": "COPW-23",
-          "name": "Palace Academia - (Copacabana)",
-          "caption": "P"
-        },
-        {
-          "id": "COPW-24",
-          "name": "RioSouth Bicicletas",
-          "caption": "R"
-        },
-        {
-          "id": "COPW-25",
-          "name": "School of Rock Copacabana",
-          "caption": "S"
-        }
-      ],
-      "eval_setting": {},
-      "metadata": {
-        "source_route_id": "copa-route-12",
-        "title_local": "Esporte, bicicleta e aula de música",
-        "topic_local": "Uma sequência de atividades antes da School of Rock",
-        "prompt_language": "pt-BR",
-        "prompt_zh": "从「Ponto de ônibus」下车后，先到「VitaFit」结束旧会员资格，再去「Palace Academia - (Copacabana)」参加已经预约的体验课。随后到「RioSouth Bicicletas」取回检修好的自行车，骑车前往「School of Rock Copacabana」上音乐课。",
         "prompt_style": "natural_situational_local_language"
       }
     },
@@ -1919,37 +1842,6 @@
       }
     },
     {
-      "task_id": "miljacka-riverside-003",
-      "prompt": "Nakon probe u „Studio Muzikowska“, kupite kulturni dodatak u kiosku „iNovine T-58“ i pročitajte najavu narednog koncerta na klupi uz „Šetnica 3 At Mejdan“.",
-      "map_id": "miljacka-riverside",
-      "waypoints": [
-        {
-          "id": "MIL-WP-STUDIO-MUZIKOWSKA",
-          "name": "Studio Muzikowska",
-          "caption": "S"
-        },
-        {
-          "id": "MIL-WP-INOVINE-T58",
-          "name": "iNovine T-58",
-          "caption": "i"
-        },
-        {
-          "id": "MIL-WP-SETNICA-3",
-          "name": "Šetnica 3 At Mejdan",
-          "caption": "Š"
-        }
-      ],
-      "eval_setting": {},
-      "metadata": {
-        "source_route_id": "miljacka-route-07",
-        "title_local": "Po novine preko rijeke pa do At Mejdana",
-        "topic_local": "Kratka svakodnevna šetnja između dvije obale",
-        "prompt_language": "bs-BA",
-        "prompt_zh": "在「Studio Muzikowska」排练结束后，到「iNovine T-58」购买文化副刊，再去「Šetnica 3 At Mejdan」河边的长椅阅读下一场音乐会预告。",
-        "prompt_style": "natural_situational_local_language"
-      }
-    },
-    {
       "task_id": "miljacka-riverside-004",
       "prompt": "Nakon večernjeg koncerta u „Muzički paviljon – At Mejdan“, prošetajte uz rijeku preko „Šetnica 3 At Mejdan“, a zatim se vratite na noćenje u „Hotel President“.",
       "map_id": "miljacka-riverside",
@@ -2644,47 +2536,6 @@
         "topic_local": "Remembrance and resilience across the memorial plaza",
         "prompt_language": "en-US",
         "prompt_zh": "带一束花到「North Tower Pool」，放在一位遇难者姓名旁；再到「Survivor Tree」树下安静停留，最后阅读「The Sphere」如何从原世贸中心遗址中被找回的说明。",
-        "prompt_style": "natural_situational_local_language"
-      }
-    },
-    {
-      "task_id": "nyc-911-memorials-006",
-      "prompt": "Create a photo essay about public art in the new World Trade Center. Photograph the entrance of the “Perelman Performing Arts Center,” choose contrasting details from the “Fulton Street Art Wall (North)” and “Fulton Street Art Wall (East),” and capture one full panel at the “Mural Project.” End with a wide shot showing the artwork against “3 World Trade Center.”",
-      "map_id": "nyc-911-memorials",
-      "waypoints": [
-        {
-          "id": "NYC-WP-13",
-          "name": "Perelman Performing Arts Center",
-          "caption": "P"
-        },
-        {
-          "id": "NYC-WP-09",
-          "name": "Fulton Street Art Wall (North)",
-          "caption": "F"
-        },
-        {
-          "id": "NYC-WP-10",
-          "name": "Fulton Street Art Wall (East)",
-          "caption": "F"
-        },
-        {
-          "id": "NYC-WP-05",
-          "name": "Mural Project",
-          "caption": "M"
-        },
-        {
-          "id": "NYC-WP-06",
-          "name": "3 World Trade Center",
-          "caption": "3"
-        }
-      ],
-      "eval_setting": {},
-      "metadata": {
-        "source_route_id": "nyc-911-route-05",
-        "title_local": "Public Art and the Rebuilt World Trade Center",
-        "topic_local": "Performing arts, murals, and new architecture",
-        "prompt_language": "en-US",
-        "prompt_zh": "拍摄一组关于新世贸中心公共艺术的照片：先拍下「Perelman Performing Arts Center」入口，再从「Fulton Street Art Wall (North)」与「Fulton Street Art Wall (East)」各选一个有对比的细节，并在「Mural Project」拍摄一幅完整墙画。最后把墙画和「3 World Trade Center」一起收入广角画面。",
         "prompt_style": "natural_situational_local_language"
       }
     },
@@ -3590,47 +3441,6 @@
       }
     },
     {
-      "task_id": "shun-lee-003",
-      "prompt": "由「香港扶幼會盛德中心學校」放學後，去「滙基書院（東九龍）」接埋做消防安全報告嘅同學，再到「順利消防局」攞宣傳單張。喺「順利邨五人足球場入口」同其餘組員會合，之後一齊去「順利消防局巴士站」搭車返屋企。",
-      "map_id": "shun-lee",
-      "waypoints": [
-        {
-          "id": "SLH-08",
-          "name": "香港扶幼會盛德中心學校",
-          "caption": "SL08"
-        },
-        {
-          "id": "SLH-09",
-          "name": "滙基書院（東九龍）",
-          "caption": "SL09"
-        },
-        {
-          "id": "SLH-13",
-          "name": "順利消防局",
-          "caption": "SL13"
-        },
-        {
-          "id": "SLH-19",
-          "name": "順利邨五人足球場入口",
-          "caption": "SL19"
-        },
-        {
-          "id": "SLH-18",
-          "name": "順利消防局巴士站",
-          "caption": "SL18"
-        }
-      ],
-      "eval_setting": {},
-      "metadata": {
-        "source_route_id": "slr-n03",
-        "title_local": "盛德放學後到巴士站",
-        "topic_local": "放學後搵朋友再搭車返屋企",
-        "prompt_language": "zh-Hant-HK",
-        "prompt_zh": "从「香港扶幼會盛德中心學校」放学后，到「滙基書院（東九龍）」接上一起做消防安全报告的同学，再去「順利消防局」领取宣传资料。在「順利邨五人足球場入口」与其他组员会合，之后一起到「順利消防局巴士站」乘车回家。",
-        "prompt_style": "natural_situational_local_language"
-      }
-    },
-    {
       "task_id": "shun-lee-004",
       "prompt": "由「基督教中國佈道會聖道迦南書院」放學後，先去「順利邨遊樂場」同同學會合，再到「順利邨五人足球場」踢波，完場後去「順利消防局巴士站」搭車離開。",
       "map_id": "shun-lee",
@@ -4093,37 +3903,6 @@
       }
     },
     {
-      "task_id": "torrey-mall-005",
-      "prompt": "Compra en «H&M» el regalo de cumpleaños que te encargó la familia. Recoge las pizzas reservadas en la «Entrada de Pizza Hut» y reúnete con los demás en «Miniso» para entrar juntos a buscar la decoración de la fiesta.",
-      "map_id": "torrey-mall",
-      "waypoints": [
-        {
-          "id": "TOR-STORE-HM",
-          "name": "H&M",
-          "caption": "H"
-        },
-        {
-          "id": "TOR-STORE-02",
-          "name": "Entrada de Pizza Hut",
-          "caption": "P"
-        },
-        {
-          "id": "TOR-ALL-29",
-          "name": "Miniso",
-          "caption": "M"
-        }
-      ],
-      "eval_setting": {},
-      "metadata": {
-        "source_route_id": "torrey-sparse-05",
-        "title_local": "Ropa nueva y accesorios",
-        "topic_local": "Preparar un conjunto para un evento",
-        "prompt_language": "es-PE",
-        "prompt_zh": "在「H&M」购买家人托你准备的生日礼物，到「Entrada de Pizza Hut」领取已经预订的披萨，再到「Miniso」与其他家人会合，一起进去挑选派对装饰。",
-        "prompt_style": "natural_situational_local_language"
-      }
-    },
-    {
       "task_id": "torrey-mall-006",
       "prompt": "Elige un regalo de cumpleaños en «Falabella Centro Cívico» y después recoge la joya que habías reservado en la «Entrada de Ilaria». Con el regalo completo, reúnete con tu familia en la «Entrada de Pizza Hut» para entrar juntos a almorzar.",
       "map_id": "torrey-mall",
@@ -4151,37 +3930,6 @@
         "topic_local": "Elegir un regalo antes de reunirse para comer",
         "prompt_language": "es-PE",
         "prompt_zh": "先在「Falabella Centro Cívico」挑选生日礼物，再到「Entrada de Ilaria」领取之前预订的首饰。礼物准备好后，前往「Entrada de Pizza Hut」与家人会合，一起进去吃午餐。",
-        "prompt_style": "natural_situational_local_language"
-      }
-    },
-    {
-      "task_id": "torrey-mall-007",
-      "prompt": "Recoge en la «Entrada de Gzuck» la ropa reservada para la celebración, retira un café para llevar en la «Entrada de Lucio Cafe» y termina en la «Entrada de Ilaria», donde te espera la joya que vas a usar esa noche.",
-      "map_id": "torrey-mall",
-      "waypoints": [
-        {
-          "id": "TOR-STORE-06",
-          "name": "Entrada de Gzuck",
-          "caption": "E"
-        },
-        {
-          "id": "TOR-STORE-09",
-          "name": "Entrada de Lucio Cafe",
-          "caption": "E"
-        },
-        {
-          "id": "TOR-STORE-03",
-          "name": "Entrada de Ilaria",
-          "caption": "E"
-        }
-      ],
-      "eval_setting": {},
-      "metadata": {
-        "source_route_id": "torrey-sparse-07",
-        "title_local": "Ropa, café y un regalo",
-        "topic_local": "Preparar una reunión recorriendo tres tiendas",
-        "prompt_language": "es-PE",
-        "prompt_zh": "在「Entrada de Gzuck」领取为庆祝活动预留的衣服，到「Entrada de Lucio Cafe」拿一杯外带咖啡，最后前往「Entrada de Ilaria」取走今晚要佩戴的预订首饰。",
         "prompt_style": "natural_situational_local_language"
       }
     },
@@ -5319,43 +5067,6 @@
       }
     },
     {
-      "task_id": "buckingham-palace-001",
-      "prompt": "In order to understand royal banquet etiquette, start from Ballroom, visit State Dining Room and Blue Drawing Room in sequence, and finally reach Music Room.",
-      "map_id": "buckingham-palace",
-      "waypoints": [
-        {
-          "id": "BPH-WP-01",
-          "name": "Ballroom",
-          "caption": "B"
-        },
-        {
-          "id": "BPH-WP-14",
-          "name": "State Dining Room",
-          "caption": "S"
-        },
-        {
-          "id": "BPH-WP-15",
-          "name": "Blue Drawing Room",
-          "caption": "B"
-        },
-        {
-          "id": "BPH-WP-18",
-          "name": "Music Room",
-          "caption": "M"
-        }
-      ],
-      "eval_setting": {},
-      "metadata": {
-        "source_route_id": "bph-route-03",
-        "title_local": "State Banquet Rooms Tour",
-        "topic_local": "Royal banquet etiquette and the principal entertaining rooms",
-        "prompt_language": "en-GB",
-        "prompt_zh": "为了了解王室宴会礼仪，从 Ballroom 出发，依次参观 State Dining Room、Blue Drawing Room，最后到 Music Room。",
-        "prompt_style": "natural_situational_local_language",
-        "difficulty": "medium"
-      }
-    },
-    {
       "task_id": "buckingham-palace-002",
       "prompt": "When delivering documents for members of the Royal Family, travel from Principal Corridor via The Grand Staircase to Queen's Study, then continue to Royal Closet.",
       "map_id": "buckingham-palace",
@@ -5538,75 +5249,6 @@
         "prompt_zh": "参观宫殿东翼会客空间时，从 Chinese Luncheon Room 经 Principal Corridor 和 The Grand Staircase，抵达 Yellow Drawing Room。",
         "prompt_style": "natural_situational_local_language",
         "difficulty": "hard"
-      }
-    },
-    {
-      "task_id": "white-house-001",
-      "prompt": "While waiting for a scheduled diplomatic meeting, join a short collection tour. Start in Diplomatic Reception Room, then examine the historical displays in Map Room, China Room, and Vermeil Room.",
-      "map_id": "white-house",
-      "waypoints": [
-        {
-          "id": "WHI-WP-40",
-          "name": "Diplomatic Reception Room",
-          "caption": "D"
-        },
-        {
-          "id": "WHI-WP-37",
-          "name": "Map Room",
-          "caption": "M"
-        },
-        {
-          "id": "WHI-WP-39",
-          "name": "China Room",
-          "caption": "C"
-        },
-        {
-          "id": "WHI-WP-38",
-          "name": "Vermeil Room",
-          "caption": "V"
-        }
-      ],
-      "eval_setting": {},
-      "metadata": {
-        "source_route_id": "whi-route-05",
-        "title_local": "Diplomatic Reception Collection Tour",
-        "topic_local": "Historical collections near the diplomatic reception rooms",
-        "prompt_language": "en-US",
-        "prompt_zh": "等待一场预约好的外交会见时，参加一次简短的白宫藏品参观：从 Diplomatic Reception Room 出发，依次查看 Map Room、China Room 和 Vermeil Room 的历史陈设。",
-        "prompt_style": "natural_situational_local_language",
-        "difficulty": "medium"
-      }
-    },
-    {
-      "task_id": "white-house-002",
-      "prompt": "Complete a conservation check of the private residence. Start in Yellow Oval Room, inspect the furnishings in Treaty Room, and finish by checking Lincoln Bedroom.",
-      "map_id": "white-house",
-      "waypoints": [
-        {
-          "id": "WHI-WP-30",
-          "name": "Yellow Oval Room",
-          "caption": "Y"
-        },
-        {
-          "id": "WHI-WP-29",
-          "name": "Treaty Room",
-          "caption": "T"
-        },
-        {
-          "id": "WHI-WP-28",
-          "name": "Lincoln Bedroom",
-          "caption": "L"
-        }
-      ],
-      "eval_setting": {},
-      "metadata": {
-        "source_route_id": "whi-route-07",
-        "title_local": "Private Residence Conservation Check",
-        "topic_local": "Conservation work in the private residence",
-        "prompt_language": "en-US",
-        "prompt_zh": "完成一次白宫私人居住区的藏品巡检：从 Yellow Oval Room 出发，检查 Treaty Room 的陈设，最后到 Lincoln Bedroom 完成记录。",
-        "prompt_style": "natural_situational_local_language",
-        "difficulty": "medium"
       }
     },
     {
@@ -5990,38 +5632,6 @@
       }
     },
     {
-      "task_id": "notre-dame-001",
-      "prompt": "En entrant dans Notre Dame de Paris pour la première fois, passez de Nef via Ambon à Chœur pour comprendre la relation avant et après les principaux espaces liturgiques de l'église.",
-      "map_id": "notre-dame",
-      "waypoints": [
-        {
-          "id": "NTD-WP-27",
-          "name": "Nef",
-          "caption": "N"
-        },
-        {
-          "id": "NTD-WP-20",
-          "name": "Ambon",
-          "caption": "A"
-        },
-        {
-          "id": "NTD-WP-25",
-          "name": "Chœur",
-          "caption": "C"
-        }
-      ],
-      "eval_setting": {},
-      "metadata": {
-        "source_route_id": "ntd-route-04",
-        "title_local": "De la nef au chœur",
-        "topic_local": "De la nef au chœur",
-        "prompt_language": "fr-FR",
-        "prompt_zh": "首次进入巴黎圣母院，从 Nef 经 Ambon 前往 Chœur，了解教堂主要礼仪空间的前后关系。",
-        "prompt_style": "natural_situational_local_language",
-        "difficulty": "medium"
-      }
-    },
-    {
       "task_id": "notre-dame-002",
       "prompt": "Parcourez méthodiquement les chapelles consacrées aux figures bibliques et aux saints. Partez de la Chapelle de Noé, puis passez par les chapelles d'Abraham, de Moïse, d'Isaïe, de David et de Salomon. Rejoignez ensuite la Chapelle Saint-Joseph, continuez par les chapelles Sainte-Clotilde, Saint-Vincent-de-Paul, Sainte-Geneviève et Saint-Denis, et terminez à la Chapelle Saint-Paul-Chen.",
       "map_id": "notre-dame",
@@ -6094,48 +5704,6 @@
         "topic_local": "Parcours des chapelles bibliques et des saints",
         "prompt_language": "fr-FR",
         "prompt_zh": "系统参观两侧人物礼拜堂：从 Chapelle de Noé 出发，依次经过 Chapelle d'Abraham、Chapelle de Moïse、Chapelle d'Isaïe、Chapelle de David 和 Chapelle de Salomon；随后转至 Chapelle Saint-Joseph，再经过 Chapelle Sainte-Clotilde、Chapelle Saint-Vincent-de-Paul、Chapelle Sainte-Geneviève 和 Chapelle Saint-Denis，最后到达 Chapelle Saint-Paul-Chen。",
-        "prompt_style": "natural_situational_local_language",
-        "difficulty": "hard"
-      }
-    },
-    {
-      "task_id": "notre-dame-003",
-      "prompt": "Pour bien comprendre l'axe liturgique de l'église, partez de Grand Orgue, passez par Nef et Chœur, et arrivez à Pietà via Maître-Autel.",
-      "map_id": "notre-dame",
-      "waypoints": [
-        {
-          "id": "NTD-WP-26",
-          "name": "Grand Orgue",
-          "caption": "G"
-        },
-        {
-          "id": "NTD-WP-27",
-          "name": "Nef",
-          "caption": "N"
-        },
-        {
-          "id": "NTD-WP-25",
-          "name": "Chœur",
-          "caption": "C"
-        },
-        {
-          "id": "NTD-WP-23",
-          "name": "Maître-Autel",
-          "caption": "M"
-        },
-        {
-          "id": "NTD-WP-24",
-          "name": "Pietà",
-          "caption": "P"
-        }
-      ],
-      "eval_setting": {},
-      "metadata": {
-        "source_route_id": "ntd-route-10",
-        "title_local": "Du grand orgue à la Pietà",
-        "topic_local": "Du grand orgue à la Pietà",
-        "prompt_language": "fr-FR",
-        "prompt_zh": "为了完整了解教堂礼仪轴线，从 Grand Orgue 出发，穿过 Nef 和 Chœur，经 Maître-Autel 抵达 Pietà。",
         "prompt_style": "natural_situational_local_language",
         "difficulty": "hard"
       }
@@ -7039,43 +6607,6 @@
       }
     },
     {
-      "task_id": "rms-titanic-001",
-      "prompt": "When taking over the bridge duty, depart from Officers' Quarters, first report to Captain's Sitting Room, and then pass through Chart Room to arrive at Wheel House.",
-      "map_id": "rms-titanic",
-      "waypoints": [
-        {
-          "id": "TIT-WP-01",
-          "name": "Officers' Quarters",
-          "caption": "O"
-        },
-        {
-          "id": "TIT-WP-11",
-          "name": "Captain's Sitting Room",
-          "caption": "C"
-        },
-        {
-          "id": "TIT-WP-13",
-          "name": "Chart Room",
-          "caption": "C"
-        },
-        {
-          "id": "TIT-WP-70",
-          "name": "Wheel House",
-          "caption": "W"
-        }
-      ],
-      "eval_setting": {},
-      "metadata": {
-        "source_route_id": "tit-route-01",
-        "title_local": "Bridge Watch Handover",
-        "topic_local": "Bridge Watch Handover",
-        "prompt_language": "en-GB",
-        "prompt_zh": "接替驾驶台值班时，从 Officers' Quarters 出发，先向 Captain's Sitting Room 报到，再经过 Chart Room 抵达 Wheel House。",
-        "prompt_style": "natural_situational_local_language",
-        "difficulty": "easy"
-      }
-    },
-    {
       "task_id": "rms-titanic-002",
       "prompt": "When completing the morning patrol, start from Officer's Mess, pass through Officers' Quarters, and finally arrive at Boat Deck.",
       "map_id": "rms-titanic",
@@ -7599,53 +7130,6 @@
         "topic_local": "De l'Opéra royal aux salles d'art",
         "prompt_language": "fr-FR",
         "prompt_zh": "从 Opéra Royal de Versailles 出发，经 Galerie de l’Histoire du Château 前往 Chapelle Royale；随后依次参观 Salon d'Hercule、Salon de l'Abondance，最后到达 Cabinet des Tableaux。",
-        "prompt_style": "natural_situational_local_language",
-        "difficulty": "hard"
-      }
-    },
-    {
-      "task_id": "versailles-003",
-      "prompt": "Afin de visiter systématiquement la Suite du Roi, partez de Salon d'Hercule, passez par Vénus, Diane, Mars et Mercure, et arrivez enfin à Salon d'Apollon.",
-      "map_id": "versailles",
-      "waypoints": [
-        {
-          "id": "VER-WP-05",
-          "name": "Salon d'Hercule",
-          "caption": "S"
-        },
-        {
-          "id": "VER-WP-06",
-          "name": "Salon de Vénus",
-          "caption": "S"
-        },
-        {
-          "id": "VER-WP-12",
-          "name": "Salon de Diane",
-          "caption": "S"
-        },
-        {
-          "id": "VER-WP-13",
-          "name": "Salon de Mars",
-          "caption": "S"
-        },
-        {
-          "id": "VER-WP-14",
-          "name": "Salon de Mercure",
-          "caption": "S"
-        },
-        {
-          "id": "VER-WP-15",
-          "name": "Salon d'Apollon",
-          "caption": "S"
-        }
-      ],
-      "eval_setting": {},
-      "metadata": {
-        "source_route_id": "ver-route-10",
-        "title_local": "Parcours complet du Grand Appartement du Roi",
-        "topic_local": "Parcours complet du Grand Appartement du Roi",
-        "prompt_language": "fr-FR",
-        "prompt_zh": "为了系统参观国王大套间，从 Salon d'Hercule 出发，依次经过 Vénus、Diane、Mars 和 Mercure，最终到 Salon d'Apollon。",
         "prompt_style": "natural_situational_local_language",
         "difficulty": "hard"
       }

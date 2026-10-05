@@ -4,7 +4,7 @@
 
 - [Project overview](../README.md): Installation, branch selection, model runs, evaluation, results, model-selection examples, and validation scope.
 - [Linux quickstart](linux-quickstart.md): CPU container setup, graphics and sandbox checks, map preparation, credentials, and one-task execution.
-- [Task catalog](task-catalog.md): All 30 selected maps, 194 tasks, locale tags, source manifests, and external asset requirements.
+- [Task catalog](task-catalog.md): All 30 selected maps, 180 tasks, locale tags, source manifests, and external asset requirements.
 - [Release notes](anonymous-release.md): Selected runtime fixes, nine waypoint corrections, formal settings, anonymization, and validation limits.
 
 ## Harbor

@@ -5,7 +5,7 @@
 # Finalpool Navigation Evaluation
 
 This document describes the fingerprint-bound Minecraft 1.21.11 navigation
-benchmark on branch `finalpool-v2`. The benchmark contains 194 owner-approved
+benchmark in this release. The benchmark contains 180 owner-approved
 tasks across 30 maps. Membership in the tracked benchmark catalog is the task
 admission decision; static references and manual validation receipts are not
 required for formal runs.
@@ -122,14 +122,14 @@ but never supplies movement input; the model sees only the rendered ground
 guide. `resource_pack_and_shader` remains a reserved boolean field with no
 runtime behavior yet.
 
-The current catalog contains 30 maps and 194 tasks. Every public intermediate
+The current catalog contains 30 maps and 180 tasks. Every public intermediate
 annotation is an ordered required waypoint. The evaluator only checks the next
 required waypoint, then arms final arrival after all intermediates are recorded.
 This also supports loop routes whose start and target waypoint IDs are equal.
 
 ### Navigation-v1 candidate annotations
 
-The reviewed route portfolio is exposed through the shared 194-task benchmark.
+The reviewed route portfolio is exposed through the shared 180-task benchmark.
 Each included map has a tracked `map.json`, normalized `waypoints.json`, and
 `routes.json`. The route loader
 validates annotation provenance, route-point roles, segment order, and every
@@ -145,18 +145,18 @@ conditional route whose final door still requires manual interaction.
 Copacabana and Chain Bridge retain the stated strict-retest notes; Miljacka
 Riverside has two of three routes verified; and Sviyazhsk validation remains in
 progress. Full Pathfinder reachability dumps stay outside Git. Regardless of
-those provenance labels, all 194 tasks in the benchmark catalog are explicitly
+those provenance labels, all 180 tasks in the benchmark catalog are explicitly
 owner-approved formal tasks.
 
 Würzburg is a separate manual in-game labeling package. Its tracked raw Xaero
 export is the annotation source for 75 enabled normalized waypoints; one
 disabled duplicate Oberbank marker is retained only in the exclusion metadata.
-It currently has no candidate routes or formal tasks.
+The active catalog contains ten Würzburg tasks.
 
 Mr Beast 1000$ Harbor City Shipyard is another manual in-game labeling
 package. Its tracked raw Xaero export is the annotation source for 53 enabled
 normalized waypoints covering dry docks, piers, workshops, warehouses, utility
-buildings, and offices. It currently has no candidate routes or formal tasks.
+buildings, and offices. The active catalog contains eleven Harbor City tasks.
 
 ## Prepare Source and Prepared Snapshots
 
@@ -474,7 +474,7 @@ uv run python scripts/eval/run-navigation-benchmark.py \
   --model-id example/model
 ```
 
-A formal task must belong to the owner-approved 194-task benchmark and requires
+A formal task must belong to the owner-approved 180-task benchmark and requires
 a smoke-verified runtime:
 
 ```bash
@@ -485,7 +485,7 @@ uv run python scripts/eval/run-navigation-benchmark.py \
   --model-parameters-json '{"temperature":0}'
 ```
 
-Run the complete 194-task benchmark with:
+Run the complete 180-task benchmark with:
 
 ```bash
 uv run python scripts/eval/run-navigation-benchmark.py \
@@ -536,7 +536,7 @@ remain explicit fleet arguments). The repository includes this example:
 ```
 
 The task list and eval-setting files are optional. With neither argument, the
-fleet runs all 194 benchmark tasks using the standard task-eval defaults. To
+fleet runs all 180 benchmark tasks using the standard task-eval defaults. To
 run an exact subset or override task settings, pass either or both files:
 
 ```bash
@@ -689,7 +689,7 @@ and static SPL when an optional reference length was available at run time.
 - The runtime receipt is `smoke_verified` with Minecraft 1.21.11 and NeoForge
   21.11.44.
 - The client has exactly the six pinned mods and no Baritone.
-- The benchmark catalog loads exactly 194 owner-approved tasks across 30 maps.
+- The benchmark catalog loads exactly 180 owner-approved tasks across 30 maps.
 - A no-model smoke has been completed on representative maps.
 - `formal --all` completes and `aggregate-navigation-results.py --require-all`
   succeeds without identity mixing.

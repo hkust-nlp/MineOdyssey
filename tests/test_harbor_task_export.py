@@ -81,6 +81,26 @@ class HarborCatalogExportTests(unittest.TestCase):
             with self.subTest(task_id=task_id), self.assertRaises(ValueError):
                 task_definition(task_id)
 
+    def test_retired_tasks_cannot_be_exported(self):
+        for task_id in (
+            "buckingham-palace-001",
+            "copacabana-waterfront-003",
+            "copacabana-waterfront-005",
+            "miljacka-riverside-003",
+            "notre-dame-001",
+            "notre-dame-003",
+            "nyc-911-memorials-006",
+            "rms-titanic-001",
+            "shun-lee-003",
+            "torrey-mall-005",
+            "torrey-mall-007",
+            "versailles-003",
+            "white-house-001",
+            "white-house-002",
+        ):
+            with self.subTest(task_id=task_id), self.assertRaises(ValueError):
+                task_definition(task_id)
+
 
 if __name__ == "__main__":
     unittest.main()

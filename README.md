@@ -13,7 +13,7 @@ instructions. An agent observes the game, uses movement and interaction tools,
 visits the required destinations, and submits a completion claim. An independent
 evaluator checks actual player positions and task progress.
 
-This source release contains **194 tasks across 30 maps**, with task instructions
+This source release contains **180 tasks across 30 maps**, with task instructions
 in **20 locale variants**. Environments include city streets, parks, palaces,
 hotels, stadiums, and ships. Tasks exercise visual grounding, route planning,
 vertical navigation, and interaction with doors, stairs, and other world features.
@@ -149,8 +149,9 @@ task, with the shared English system guidance.
 
 See the [catalog overview](docs/task-catalog.md) for all 30 maps and exact task
 counts. Additional map manifests outside the selected roster are retained in the
-source tree; they do not increase the benchmark count. The 194-task source roster
-must not be confused with a separately selected experimental subset.
+source tree; they do not increase the benchmark count. The published catalog is
+the final **180-task main benchmark**. The default Linux task list, full-benchmark
+runs, and Harbor exports all use this roster.
 
 ## Evaluation
 
