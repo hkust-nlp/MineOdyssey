@@ -69,15 +69,28 @@ and the Harbor scripts under `scripts/eval/`.
 ### 1. Requirements and source
 
 - Linux x86_64 with Python 3 and a working Podman or Docker installation.
-- The CPU quickstart below uses software rendering and requires no GPU or host
-  desktop session. Java 21, the Python application environment, Xvfb, and Mesa
-  are installed inside the image.
+- Java 21, the Python application environment, Xvfb, and Mesa are installed
+  inside the CPU image used below.
 - A hash-matched map archive, plus an image-capable model API for agent runs.
 
-GPU rendering is also available through the navigation fleet runner's
-`--gpu-devices` option and the NVIDIA container image; see the
-[GPU setup](docs/navigation-eval.md#gpu-rendering). The Harbor template in this
-release uses CPU rendering.
+**CPU and GPU rendering.** Rendering produces the Minecraft images that the
+agent observes. The repository includes both CPU and NVIDIA GPU rendering paths:
+
+| Run path | Minecraft rendering | GPU setup |
+| --- | --- | --- |
+| Linux quickstart below (`navigation-linux.py`) | CPU software rendering | No GPU required |
+| Navigation fleet with `--gpu-devices` | NVIDIA GPU rendering | NVIDIA driver, Container Toolkit/CDI, Podman, and the GPU image |
+| Current Harbor task template | CPU software rendering in `world` | No GPU required by this template |
+
+The CPU quickstart explicitly selects software rendering, even on a machine
+that has a GPU. To use GPU rendering, follow the [GPU setup](docs/navigation-eval.md#gpu-rendering)
+and select devices through the fleet runner. That option belongs to the fleet
+runner; the current Harbor template remains configured for CPU rendering.
+
+The CPU container uses Xvfb to provide a virtual display, so the host does not
+need a desktop session or a connected monitor. These rendering choices concern
+Minecraft. The agent calls the configured model API; hosting that model yourself
+has separate hardware requirements.
 
 Minimum host RAM and free-disk requirements have not been measured for this release.
 Disk use includes container images, map archives, prepared snapshots, and per-trial
