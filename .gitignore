@@ -6,6 +6,8 @@ screenshots/
 minecraft-install/
 *_screenshot.png
 *.png
+# Reviewed figures embedded in the public README.
+!/docs/assets/paper/*.png
 
 # 临时文件和测试目录
 tmp/
