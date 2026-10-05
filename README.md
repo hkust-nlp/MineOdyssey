@@ -2,7 +2,7 @@
 
 # MineOdyssey
 
-**Visual navigation and multi-stop instruction following in Minecraft**
+**Benchmarking Spatial Agentic Intelligence in the Wild**
 
 [Overview](#overview) · [Quickstart](#quickstart) · [Tasks](#tasks) · [Evaluation](#evaluation) · [Harbor](#run-with-harbor) · [Documentation](docs/README.md)
 
@@ -10,15 +10,17 @@
 
 ## Overview
 
-MineOdyssey evaluates agents that navigate Minecraft worlds from natural-language
-instructions. An agent observes the game, uses movement and interaction tools,
-visits the required destinations, and submits a completion claim. An independent
-evaluator checks actual player positions and task progress.
+MineOdyssey evaluates **agentic spatial intelligence** through long-horizon,
+multi-stop navigation tasks in Minecraft reconstructions of real-world locations.
+Given a natural-language instruction, an agent must interpret its surroundings,
+plan routes, interact with the environment, track progress, and recover from errors
+while visiting destinations in the specified order. An independent evaluator
+checks actual player positions and verifies completion claims.
 
 This source release contains **180 tasks across 30 maps**, with task instructions
 in **20 locale variants**. Environments include city streets, parks, palaces,
 hotels, stadiums, and ships. Tasks exercise visual grounding, route planning,
-vertical navigation, and interaction with doors, stairs, and other world features.
+movement between levels, and interaction with doors, stairs, and other world features.
 
 ![Thirty Minecraft environments and multi-stop task examples in the White House and Ueno Park](docs/assets/paper/environment-overview.png)
 
@@ -79,12 +81,12 @@ agent observes. The repository includes both CPU and NVIDIA GPU rendering paths:
 | Run path | Minecraft rendering | GPU setup |
 | --- | --- | --- |
 | Linux quickstart below (`navigation-linux.py`) | CPU software rendering | No GPU required |
-| Navigation fleet with `--gpu-devices` | NVIDIA GPU rendering | NVIDIA driver, Container Toolkit/CDI, Podman, and the GPU image |
+| Batch runner with `--gpu-devices` | NVIDIA GPU rendering | NVIDIA driver, Container Toolkit/CDI, Podman, and the GPU image |
 | Current Harbor task template | CPU software rendering in `world` | No GPU required by this template |
 
 The CPU quickstart explicitly selects software rendering, even on a machine
 that has a GPU. To use GPU rendering, follow the [GPU setup](docs/navigation-eval.md#gpu-rendering)
-and select devices through the fleet runner. That option belongs to the fleet
+and select devices through the batch runner. That option belongs to the batch
 runner; the current Harbor template remains configured for CPU rendering.
 
 The CPU container uses Xvfb to provide a virtual display, so the host does not
@@ -199,8 +201,8 @@ runs, and Harbor exports all use this roster.
 ![Examples of uneven terrain, water boundaries, multilevel spaces, narrow corridors, stairs, ladders, gates, and button-controlled doors](docs/assets/paper/terrain-interactions.png)
 
 Routes can involve finding a staircase, climbing a ladder, opening a gate, or
-pressing a button to pass a door. The paper's examples illustrate how navigation
-combines route planning with local movement and interaction. Figure sources and
+pressing a button to pass a door. The paper's examples illustrate how agents
+combine route planning with local movement and interaction. Figure sources and
 presentation notes are recorded [here](docs/assets/paper/README.md).
 
 ## Evaluation
@@ -214,7 +216,7 @@ saying that a task is finished does not submit a claim.
 | Minecraft | 1.21.11, pinned runtime and mod artifacts |
 | Arrival | Within 3.5 blocks in 3D and 1.5 blocks vertically; sampled every second |
 | Completion claims | At most 3 attempts |
-| Agent budget | 500 successful navigation decisions |
+| Agent budget | 500 successful agent decisions |
 | Infrastructure watchdog | 21,600 seconds (6 hours); watchdog expiry is unscored |
 | Asynchronous action timeout | 300 seconds |
 | Model requests | 600-second timeout; terminate after 3 consecutive failures; SDK retries disabled |
@@ -226,7 +228,7 @@ The system prompt's conservative arrival advice is preserved separately from the
 evaluator's thresholds. Xaero coordinate displays and waypoint-editing controls
 are locked in the runtime; the original player-state API remains available.
 
-Task results distinguish navigation outcomes from infrastructure failures. The
+Task results distinguish task outcomes from infrastructure failures. The
 original aggregator reports success rate, checkpoint coverage, duration, traveled
 distance, and optional static SPL when a valid reference is present. Missing
 references are not treated as zero-length routes. Infrastructure errors are
@@ -322,7 +324,7 @@ python3 scripts/eval/run-harbor-navigation.py --engine podman -- \
 
 Harbor collects per-trial agent logs and verifier outputs in its job directory.
 `--max-retries 0` disables replaying an entire trial; the original agent's bounded
-model-request retries remain active. The launcher selects the navigation verifier
+model-request retries remain active. The launcher selects the benchmark's verifier
 so infrastructure failures remain unscored.
 
 The shared agent retains its asynchronous observation and interruption behavior
