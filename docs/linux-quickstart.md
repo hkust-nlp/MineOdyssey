@@ -62,6 +62,12 @@ then launches a temporary server and CPU-rendered client to verify AgentBridge.
 It does not mark an untested runtime as ready. The server preparation writes
 `eula=true`; use it only if you accept Minecraft's EULA. Generated runtime data stays
 under `eval/templates/_local/navigation-linux-cpu/` in your extracted directory.
+Single-task runs and the CPU batch runner use this same path and the image
+`localhost/anonymous-navigation:linux-cpu`; no second preparation or image build
+is needed when moving from the quickstart to a batch. To reuse an older custom
+template, set `MCBOTS_NAV_RUNTIME_TEMPLATE_ROOT` to its absolute host path inside
+the repository before preparation or execution. The fleet also accepts
+`--runtime-template-root`. Keep using the same container engine.
 Existing templates are not overwritten by preparation; subsequent task runs reuse
 the verified template. Do not share this directory across CPU architectures.
 
@@ -117,7 +123,8 @@ No Minecraft, RCON, AgentBridge or Remote Bash port is published to the host.
 export MCBOTS_BASE_URL='https://YOUR-PROVIDER/v1'
 read -rs -p 'API key: ' MCBOTS_API_KEY
 export MCBOTS_API_KEY
-python3 scripts/launch/navigation-linux.py run --mode pilot --task innopolis-006 \
+python3 scripts/launch/navigation-linux.py run --mode formal --run-id quickstart-001 \
+  --task innopolis-006 \
   --model-id YOUR-MODEL --action-protocol tool_calls --vnc
 unset MCBOTS_API_KEY
 ```
@@ -128,10 +135,35 @@ The launcher takes credentials from the environment, not the historical model co
 files. Credentials are not printed or placed in command-line arguments. Pilot/formal
 mode requires an explicit model ID and key. Review mode requires neither.
 
-Results and journals are under `eval/results/navigation/`; task runtime copies are
-under `eval/runtime/navigation/`. Docker may create root-owned output files; rootless
+Use `--mode pilot --run-id pilot-001` for an API integration check without formal
+scoring. Formal runs require the smoke-verified runtime from step 2; pilot and
+review runs are excluded from formal aggregation. Choose a new run ID when
+repeating a single task because existing task results are not overwritten.
+
+## 6. Find and aggregate results
+
+The command above writes results and journals under
+`eval/results/navigation/quickstart-001/innopolis-006/`. Read `completion.json` for
+`success`, `terminal_reason`, and `infrastructure_error`; infrastructure errors
+are not scored task failures. Task runtime copies are under
+`eval/runtime/navigation/`. Docker may create root-owned output files; rootless
 Podman maps container-root output to the invoking user. The baseline task catalog,
 completion rule and evaluation limits are unchanged by this launcher.
+
+Install Python 3.12+ and [uv](https://docs.astral.sh/uv/getting-started/installation/)
+on the host for analysis and batch scheduling:
+
+```bash
+uv sync --frozen
+uv run --frozen python scripts/eval/aggregate-navigation-results.py --run-id quickstart-001
+```
+
+The summary is written to `eval/results/navigation/quickstart-001/aggregate.json`.
+Only add `--require-all` for a full 180-task run. For batch execution, first import
+all 30 maps in step 3, then follow [the full-benchmark example](../README.md#6-run-all-180-tasks).
+The batch runner reuses the quickstart image and runtime; the host needs neither
+Java nor a separate Minecraft installation. Its defaults limit each task to
+4 CPUs and 8 GiB RAM, with one task active at a time.
 
 For command inspection without containers, credentials or downloads:
 

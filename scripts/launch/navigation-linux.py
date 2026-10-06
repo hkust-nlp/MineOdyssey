@@ -13,8 +13,13 @@ import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parents[2]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from eval.navigation.runtime_defaults import LINUX_CPU_IMAGE, runtime_template_root  # noqa: E402
+
 CONTAINER_ROOT = "/workspace/mcbots"
-DEFAULT_IMAGE = "localhost/anonymous-navigation:linux-cpu"
+DEFAULT_IMAGE = LINUX_CPU_IMAGE
 RELEASE_MANIFEST = Path("eval/navigation/releases/navigation-maps-1.21.11-v1.json")
 DEFAULT_DOWNLOADS = ROOT / "downloads/navigation-maps-1.21.11-v1"
 MAP_COMMANDS = {"prepare-map", "prepare-maps"}
@@ -38,6 +43,7 @@ def parser() -> argparse.ArgumentParser:
     maps.add_argument("--downloads-dir", type=Path, default=DEFAULT_DOWNLOADS)
     run = sub.add_parser("run", help="Run one task; defaults to review without model requests.")
     run.add_argument("--task", required=True)
+    run.add_argument("--run-id", help="Result folder name; defaults to a UTC timestamp.")
     run.add_argument("--mode", choices=("review", "pilot", "formal"), default="review")
     run.add_argument("--model-id", default="")
     run.add_argument("--api-protocol", choices=("chat_completions", "responses"), default="chat_completions")
@@ -67,6 +73,13 @@ def container_command(args: argparse.Namespace, engine: str, root: Path = ROOT) 
     if args.command == "build":
         return [engine, "build", *(["--http-proxy=false"] if engine == "podman" and not args.forward_proxy else []), "--file", str(root / "containers/Containerfile.navigation-cpu"),
                 "--tag", args.image, str(root)]
+    template_root = runtime_template_root(root)
+    try:
+        template_relative = template_root.relative_to(root.resolve())
+    except ValueError as error:
+        raise ValueError("MCBOTS_NAV_RUNTIME_TEMPLATE_ROOT must be inside the repository "
+                         "so the container can access it.") from error
+    template_in_container = Path(CONTAINER_ROOT) / template_relative
     # Bubblewrap needs mount/namespace operations inside the outer container.
     # No host networking, Docker socket, device passthrough or --privileged.
     cmd = [engine, "run", "--rm", "--shm-size=1g", "--cap-add=SYS_ADMIN",
@@ -75,7 +88,7 @@ def container_command(args: argparse.Namespace, engine: str, root: Path = ROOT) 
             else ["--security-opt=apparmor=unconfined"])
     cmd += ["--volume", f"{root}:{CONTAINER_ROOT}:rw", "--workdir", CONTAINER_ROOT]
     for value in ["MCBOTS_PROJECT_ROOT=" + CONTAINER_ROOT,
-                  "MCBOTS_NAV_RUNTIME_TEMPLATE_ROOT=" + CONTAINER_ROOT + "/eval/templates/_local/navigation-linux-cpu",
+                  f"MCBOTS_NAV_RUNTIME_TEMPLATE_ROOT={template_in_container}",
                   "MCBOTS_NAV_RUNTIME_BACKEND=linux-container-cpu", "RENDER_MODE=cpu",
                   "LIBGL_ALWAYS_SOFTWARE=1", "PYTHONDONTWRITEBYTECODE=1",
                   "MCBOTS_NAV_VNC_PORT=5900", "MCBOTS_NAV_NOVNC_PORT=6080"]:
@@ -103,6 +116,8 @@ def container_command(args: argparse.Namespace, engine: str, root: Path = ROOT) 
             json.dumps({"action_protocol": args.action_protocol}, separators=(",", ":"))]
     if args.model_id:
         cmd += ["--model-id", args.model_id]
+    if args.run_id:
+        cmd += ["--run-id", args.run_id]
     if args.vnc:
         cmd += ["--vnc"]
     return cmd
@@ -112,6 +127,11 @@ def validate(args: argparse.Namespace, root: Path = ROOT) -> None:
     if args.command == "run":
         if args.task not in task_catalog(root):
             raise ValueError(f"Unknown task {args.task!r}; use the tasks command.")
+        if args.run_id is not None and (
+            not args.run_id or args.run_id != Path(args.run_id).name
+            or args.run_id in {".", ".."} or "\x00" in args.run_id
+        ):
+            raise ValueError("--run-id must be a single directory name")
         if not 1 <= args.vnc_port <= 65535:
             raise ValueError("VNC port must be between 1 and 65535")
         if args.mode != "review":
@@ -121,7 +141,7 @@ def validate(args: argparse.Namespace, root: Path = ROOT) -> None:
             if not args.dry_run and (not key or key.startswith("<")):
                 raise ValueError("Set MCBOTS_API_KEY before starting a model run.")
         if not args.dry_run:
-            receipt = root / "eval/templates/_local/navigation-linux-cpu/1.21.11/runtime-receipt.json"
+            receipt = runtime_template_root(root) / "1.21.11/runtime-receipt.json"
             if not receipt.is_file():
                 raise ValueError("Runtime is missing; run prepare-runtime first.")
     if args.command in MAP_COMMANDS:

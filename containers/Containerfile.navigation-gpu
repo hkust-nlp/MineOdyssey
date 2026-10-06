@@ -3,11 +3,11 @@
 # Build the CPU dependency image first, then add the Xorg server required for
 # CDI-injected NVIDIA OpenGL rendering:
 #   podman build -f containers/Containerfile.navigation-cpu \
-#     -t mcbots-navigation:1.21.11 .
+#     -t localhost/anonymous-navigation:linux-cpu .
 #   podman build -f containers/Containerfile.navigation-gpu \
 #     -t mcbots-navigation-gpu:1.21.11 .
 
-ARG BASE_IMAGE=mcbots-navigation:1.21.11
+ARG BASE_IMAGE=localhost/anonymous-navigation:linux-cpu
 FROM ${BASE_IMAGE}
 
 ARG DEBIAN_FRONTEND=noninteractive
@@ -23,6 +23,6 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 ENV MCBOTS_NAV_RUNTIME_BACKEND=linux-container-gpu \
-    MCBOTS_NAV_RUNTIME_TEMPLATE_ROOT=/workspace/mcbots/eval/templates/_local/navigation \
+    MCBOTS_NAV_RUNTIME_TEMPLATE_ROOT=/workspace/mcbots/eval/templates/_local/navigation-linux-cpu \
     NVIDIA_DRIVER_CAPABILITIES=graphics,display,utility \
     LIBGL_ALWAYS_SOFTWARE=""
