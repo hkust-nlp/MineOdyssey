@@ -23,7 +23,6 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 CONTAINER_REPO_ROOT = Path("/workspace/mcbots")
 CONTAINER_RESULTS_ROOT = Path("/workspace/mcbots-output/results")
 CONTAINER_RUNTIME_ROOT = Path("/workspace/mcbots-output/runtime")
-DEFAULT_IMAGE = "mcbots-navigation:1.21.11"
 DEFAULT_GPU_IMAGE = "mcbots-navigation-gpu:1.21.11"
 GPU_XORG_MODULE_MOUNTS = (
     (
@@ -41,6 +40,7 @@ if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
 from eval.navigation.runner import validate_runtime_template  # noqa: E402
+from eval.navigation.runtime_defaults import LINUX_CPU_IMAGE, runtime_template_root  # noqa: E402
 from eval.navigation.schema import (  # noqa: E402
     load_benchmark,
     load_profile,
@@ -50,6 +50,8 @@ from eval.navigation.schema import (  # noqa: E402
 from eval.navigation.snapshots import verify_snapshot  # noqa: E402
 from eval.navigation.schema import load_map  # noqa: E402
 import eval.navigation.schema as navigation_schema  # noqa: E402
+
+DEFAULT_IMAGE = LINUX_CPU_IMAGE
 
 
 def _append_gpu_xorg_module_mounts(command: list[str]) -> None:
@@ -136,12 +138,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--runtime-template-root",
         type=Path,
-        default=Path(
-            os.environ.get(
-                "MCBOTS_NAV_RUNTIME_TEMPLATE_ROOT",
-                REPO_ROOT / "eval" / "templates" / "_local" / "navigation",
-            )
-        ),
+        default=runtime_template_root(REPO_ROOT),
     )
     parser.add_argument("--skip-preflight", action="store_true")
     return parser.parse_args()

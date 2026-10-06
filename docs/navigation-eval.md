@@ -1,6 +1,7 @@
-> Historical upstream guide: some inventory and arrival descriptions are stale.
-> Use `eval/navigation/tasks.json` and `settings/final-navigation-v1.json` as authoritative.
-> See [anonymous release notes](anonymous-release.md) for this package and asset limitations.
+> Start with the [Linux quickstart](linux-quickstart.md). This guide covers batch
+> execution and lower-level tools, and retains explicitly labeled legacy map
+> preparation notes. The current task catalog and evaluation settings remain
+> authoritative.
 
 # Finalpool Navigation Evaluation
 
@@ -12,24 +13,25 @@ required for formal runs.
 
 ## Invariants
 
-- `downloads/HK-Shun.Lee.zip` and `downloads/ALPS-Zurich.zip` are the only map
-  sources. ZIPs, extracted worlds, runtime templates, logs, recordings, and
-  results stay outside Git.
-- Both source worlds must report `Version.Name=1.21.11` and
+- The current distribution contains 30 ready-to-run ZIPs pinned by the
+  [release manifest](../eval/navigation/releases/navigation-maps-1.21.11-v1.json).
+  ZIPs, extracted worlds, runtime templates, logs, recordings, and results stay
+  outside Git. Original archive names in map metadata are provenance records.
+- Every released world must report `Version.Name=1.21.11` and
   `DataVersion=4671`.
 - The reviewed task and waypoint annotation source is pinned to
   `codex/nav-completion-gate` commit
   `0000000000000000000000000000000000000000`. Annotation provenance is
   independent of the map source: only the annotations are migrated from that
   branch, never its converted 1.21.1 worlds or generated full reference paths.
-- Each map has two immutable, read-only layers. The source snapshot is an exact
-  archive extraction. The prepared snapshot is a clone in which the locked
-  legacy `datapacks/heights` directory is replaced once by the complete,
-  hash-manifested 1.21.11 pack; no other world file may differ.
+- Release imports are immutable prepared worlds bound to the release manifest.
+  The legacy preparation path keeps separate source and prepared layers; its
+  receipts record any data-pack replacement or indoor version upgrade.
 - Every task receives a reflink or ordinary copy of the prepared snapshot;
   hardlinks are rejected. Runtime copies remove only `session.lock`,
   `playerdata/`, `stats/`, and `advancements/`. They never rebuild or patch the
-  data pack. Both immutable layers are fingerprinted before and after a run.
+  data pack. The immutable snapshot is fingerprinted before and after a run;
+  legacy caches also verify their separate source layer.
 - Before a task starts, its start chunk is temporarily force-loaded and checked
   server-side. After teleport, AgentBridge must report the live player on the
   ground, healthy, stable for three consecutive samples, and still near the
@@ -158,7 +160,12 @@ package. Its tracked raw Xaero export is the annotation source for 53 enabled
 normalized waypoints covering dry docks, piers, workshops, warehouses, utility
 buildings, and offices. The active catalog contains eleven Harbor City tasks.
 
-## Prepare Source and Prepared Snapshots
+## Legacy: Prepare from Original Source Archives
+
+For this release, use the [ready-to-run map import](#unified-downloadable-12111-maps)
+or the Linux quickstart instead. This section describes the original preparation
+pipeline for maintainers who already possess the original archives; its private
+upstream download references are not the public release download route.
 
 Place the original ZIPs in `downloads/`, then run the single preparation and
 preflight entrypoint:
@@ -201,7 +208,10 @@ layer. `--verify-only` hashes and verifies both layers without repairing them.
 Use `--replace` only when intentionally rebuilding the two layers from the
 original ZIP.
 
-### Indoor candidate maps
+### Historical indoor candidate preparation
+
+The inventory below describes the earlier candidate stage. The current benchmark
+already includes ten indoor maps with tasks, available in the 30-map release.
 
 The fourteen indoor candidates use the same map-package and snapshot interface.
 All indoor and outdoor source archives are flat peers in `downloads/`; map type
@@ -398,7 +408,7 @@ prepared directly on macOS. PortableMC is forced to resolve the pinned LWJGL
 After `prepare-runtime` passes its full smoke, start a manual review with:
 
 ```bash
-./scripts/containers/navigation-cpu-macos.sh review slr-n01
+./scripts/containers/navigation-cpu-macos.sh review shun-lee-001
 ```
 
 Open
@@ -440,12 +450,15 @@ catalog when static path-length analysis or SPL is desired.
 
 ## Optional Manual Review
 
-Launch one task with no model:
+After the Linux quickstart's image and runtime preparation, import the map used
+in these examples and launch one task with no model:
 
 ```bash
-uv run python scripts/eval/run-navigation-benchmark.py \
+python3 scripts/snapshot/download-navigation-map-release.py --map shun-lee
+python3 scripts/launch/navigation-linux.py --engine podman prepare-map --map shun-lee
+python3 scripts/launch/navigation-linux.py --engine podman run \
   --mode review \
-  --task slr-n01 \
+  --task shun-lee-001 \
   --vnc
 ```
 
@@ -456,8 +469,8 @@ formal eligibility:
 
 ```bash
 uv run python scripts/eval/record-navigation-validation.py \
-  --task slr-n01 \
-  --reviewer lockon \
+  --task shun-lee-001 \
+  --reviewer YOUR-NAME \
   --status verified \
   --evidence "manual adventure walkthrough"
 ```
@@ -467,12 +480,13 @@ receipt.
 
 ## Pilot and Formal Runs
 
-A pilot is always marked non-formal:
+A pilot is always marked non-formal. Set `MCBOTS_BASE_URL` and `MCBOTS_API_KEY`
+as in the Linux quickstart before either model command below:
 
 ```bash
-uv run python scripts/eval/run-navigation-benchmark.py \
-  --mode pilot \
-  --task slr-n01 \
+python3 scripts/launch/navigation-linux.py --engine podman run \
+  --mode pilot --run-id pilot-model-a \
+  --task shun-lee-001 \
   --model-id example/model
 ```
 
@@ -480,73 +494,77 @@ A formal task must belong to the owner-approved 180-task benchmark and requires
 a smoke-verified runtime:
 
 ```bash
-uv run python scripts/eval/run-navigation-benchmark.py \
-  --mode formal \
-  --task slr-n01 \
-  --model-id example/model \
-  --model-parameters-json '{"temperature":0}'
+python3 scripts/launch/navigation-linux.py --engine podman run \
+  --mode formal --run-id single-model-a \
+  --task shun-lee-001 --model-id example/model
 ```
 
-Run the complete 180-task benchmark with:
+Inspect `eval/results/navigation/single-model-a/shun-lee-001/completion.json`,
+then aggregate that formal result using the host Python dependencies:
 
 ```bash
-uv run python scripts/eval/run-navigation-benchmark.py \
-  --mode formal \
-  --all \
-  --run-id final-model-a \
-  --model-id example/model \
-  --model-parameters-json '{"temperature":0}'
+uv run --frozen python scripts/eval/aggregate-navigation-results.py --run-id single-model-a
 ```
 
-`formal --all` selects every task in the benchmark catalog. It does not require
-static references or manual validation receipts and never silently skips tasks.
+Use the fleet below for all 180 tasks. The lower-level `run-navigation-benchmark.py`
+executes in its current environment: running it directly on a host requires all
+game/runtime dependencies there. The Linux launcher and fleet supply the container
+environment for you.
 
 ### Parallel container fleet
 
 On a Linux evaluation host, run one isolated OCI container per active task with
-the fleet entrypoint. The defaults allocate 4 CPUs, 8 GiB of memory, and 2 GiB
-of shared memory to each task container:
+the fleet entrypoint. Install Python 3.12+ and uv on the host, then run
+`uv sync --frozen`. Complete the Linux quickstart's image build, doctor, and
+smoke-verified runtime preparation first. Both launchers use the CPU image
+`localhost/anonymous-navigation:linux-cpu` and the template root
+`eval/templates/_local/navigation-linux-cpu/`; you do not need to build or
+prepare them again. Before a full benchmark, download and import every map:
 
 ```bash
-podman build \
-  --file containers/Containerfile.navigation-cpu \
-  --tag mcbots-navigation:1.21.11 \
-  .
+python3 scripts/snapshot/download-navigation-map-release.py
+python3 scripts/launch/navigation-linux.py --engine podman prepare-maps
 ```
 
 ```bash
-export MCBOTS_API_KEY='...'
+export MCBOTS_BASE_URL='https://YOUR-PROVIDER/v1'
+read -rs -p 'API key: ' MCBOTS_API_KEY
+export MCBOTS_API_KEY
 
 uv run python scripts/eval/run-navigation-fleet.py \
   --mode formal \
   --run-id final-model-a \
-  --parallelism 8 \
-  --model-id provider/model \
-  --base-url https://provider.example/v1 \
-  --api-protocol responses \
-  --model-parameters-file configs/model_parameters/gemini-3_7-flash_high.json
+  --container-engine podman --parallelism 1 \
+  --model-id YOUR-MODEL \
+  --api-protocol chat_completions \
+  --model-parameters-file configs/model_parameters/default.json
+
+unset MCBOTS_API_KEY
 ```
 
-The model-parameters file is required and contains the exact sampling/model
-request fields passed to the API (but not `model_id` or `api_protocol`, which
-remain explicit fleet arguments). The repository includes this example:
+The model-parameters file is required. It contains agent action configuration
+and any provider-specific sampling options; `model_id` and `api_protocol` remain
+explicit fleet arguments. The generic file above selects native tool calls:
 
 ```json
 {
-  "reasoning_effort": "high"
+  "action_protocol": "tool_calls"
 }
 ```
 
-The task list and eval-setting files are optional. With neither argument, the
+For different model parameters, create a separate JSON file and pass its path.
+Only include options supported by your provider. The task list and eval-setting
+files are optional. With neither argument, the
 fleet runs all 180 benchmark tasks using the standard task-eval defaults. To
-run an exact subset or override task settings, pass either or both files:
+run an exact subset or override task settings, set the API key again and pass
+either or both files:
 
 ```bash
 uv run python scripts/eval/run-navigation-fleet.py \
   --run-id smoke-subset \
   --model-id provider/model \
   --base-url https://provider.example/v1 \
-  --model-parameters-file configs/model_parameters/gemini-3_7-flash_high.json \
+  --model-parameters-file configs/model_parameters/default.json \
   --task-list-file configs/task_lists/example_subset.json \
   --eval-setting-file configs/eval_settings/default.json
 ```
@@ -572,7 +590,12 @@ the host therefore needs roughly `parallelism * cpus-per-task` CPU capacity and
 `--cpus-per-task`, `--memory-per-task`, and `--shm-size-per-task`. Podman is
 preferred when both engines exist; select explicitly with
 `--container-engine podman|docker`. The default image is
-`mcbots-navigation:1.21.11`.
+`localhost/anonymous-navigation:linux-cpu`. The defaults allocate 4 CPUs, 8 GiB
+of memory and 2 GiB of shared memory per task, with one active task. Select the
+same engine used for image and runtime preparation. To reuse a legacy template,
+pass `--runtime-template-root /absolute/repo/path/eval/templates/_local/navigation`
+or set `MCBOTS_NAV_RUNTIME_TEMPLATE_ROOT`; the directory must be inside the
+repository mount. Use `--image` if retaining an older image tag.
 
 <a name="gpu-rendering"></a>
 
@@ -581,10 +604,7 @@ Toolkit on the host, confirm `nvidia-ctk cdi list` exposes the desired devices,
 and build the derived GPU image:
 
 ```bash
-podman build \
-  --file containers/Containerfile.navigation-cpu \
-  --tag mcbots-navigation:1.21.11 \
-  .
+python3 scripts/launch/navigation-linux.py --engine podman build
 
 podman build \
   --file containers/Containerfile.navigation-gpu \
@@ -609,7 +629,7 @@ uv run python scripts/eval/run-navigation-fleet.py \
   --model-id provider/model \
   --base-url https://provider.example/v1 \
   --api-protocol responses \
-  --model-parameters-file configs/model_parameters/gemini-3_7-flash_high.json
+  --model-parameters-file configs/model_parameters/default.json
 ```
 
 When the division is not exact, earlier devices in the supplied list receive
@@ -642,7 +662,7 @@ uv run python scripts/eval/run-navigation-fleet.py \
   --model-id provider/model \
   --base-url https://provider.example/v1 \
   --api-protocol chat_completions \
-  --model-parameters-file configs/model_parameters/gemini-3_7-flash_high.json \
+  --model-parameters-file configs/model_parameters/default.json \
   --record-video
 ```
 
@@ -678,22 +698,24 @@ uv run python scripts/eval/aggregate-navigation-results.py \
   --require-all
 ```
 
-The aggregator reads formal results only. It rejects mixed profile or setting
+The aggregator writes `<results-root>/<run-id>/aggregate.json` and reads formal
+results only. Omit `--require-all` for a subset. It rejects mixed profile or setting
 digests, model parameters, stale map fingerprints, and mismatched runtime
 version readbacks. It reports success rate, infrastructure errors, duration,
 decision count, path length, progress, ordered checkpoint coverage, claims,
 and static SPL when an optional reference length was available at run time.
+It recognizes both pinned release-world fingerprints and legacy prepared-world
+fingerprints, while rejecting mixed versions of the same map within a run.
 
 ## Final Admission Checklist
 
-- The Shun Lee source snapshot readback is Minecraft 1.21.11 / DataVersion 4671.
-- The prepared snapshot differs from its source only by the complete locked
-  `datapacks/heights` replacement, and Minecraft enables that pack without a
-  compatibility error.
+- All 30 imported worlds match the release manifest and report Minecraft
+  1.21.11 / DataVersion 4671. Legacy caches instead satisfy their source and
+  preparation receipts.
 - The runtime receipt is `smoke_verified` with Minecraft 1.21.11 and NeoForge
   21.11.44.
 - The client has exactly the six pinned mods and no Baritone.
 - The benchmark catalog loads exactly 180 owner-approved tasks across 30 maps.
 - A no-model smoke has been completed on representative maps.
-- `formal --all` completes and `aggregate-navigation-results.py --require-all`
-  succeeds without identity mixing.
+- A formal fleet covering all 180 tasks completes, and
+  `aggregate-navigation-results.py --require-all` succeeds without identity mixing.
