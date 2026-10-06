@@ -172,20 +172,68 @@ read -rs -p 'API key: ' MCBOTS_API_KEY
 export MCBOTS_API_KEY
 
 python3 scripts/launch/navigation-linux.py --engine podman run \
-  --mode pilot --task innopolis-006 --model-id YOUR-MODEL \
+  --mode formal --run-id quickstart-001 \
+  --task innopolis-006 --model-id YOUR-MODEL \
   --api-protocol chat_completions --action-protocol tool_calls --vnc
 
 unset MCBOTS_API_KEY
 ```
 
-`review` starts no agent; `pilot` is for checking a model integration; `formal`
-records a formal run and requires a verified runtime. After a successful setup
-check, replace `--mode pilot` with `--mode formal` to use that mode. Record the
-model parameters as well as the task and runtime version when comparing results.
+This command calls the model and records a scored `formal` run using the verified
+runtime from step 2. To check an API integration without producing formal scores,
+use `--mode pilot --run-id pilot-001` instead. `review` starts no agent; pilot and
+review results are excluded from formal aggregation. Use a new run ID when repeating
+a single task; existing task results are not overwritten.
 
 The reference agent also supports the explicitly selected legacy XML action
 protocol and the Responses API. Compatibility depends on the model provider;
 see the [Linux guide](docs/linux-quickstart.md) for these options.
+
+### 5. Read the result
+
+The run above writes to `eval/results/navigation/quickstart-001/innopolis-006/`.
+Open `completion.json` for `success`, `terminal_reason`, and `infrastructure_error`.
+An infrastructure error is reported separately from a scored task failure.
+
+For host-side aggregation, install Python 3.12+ and
+[uv](https://docs.astral.sh/uv/getting-started/installation/), then run:
+
+```bash
+uv sync --frozen
+uv run --frozen python scripts/eval/aggregate-navigation-results.py \
+  --run-id quickstart-001
+```
+
+This writes `eval/results/navigation/quickstart-001/aggregate.json`. A single task
+checks your setup; it is not a full benchmark score. Do not add `--require-all`
+until all 180 tasks have results. See [Results and trajectories](#results-and-trajectories)
+for journals and the viewer.
+
+### 6. Run all 180 tasks
+
+After downloading and preparing all 30 maps in step 2, the batch runner reuses
+the same CPU image and verified runtime. Keep the host dependencies from step 5,
+set `MCBOTS_BASE_URL` to your provider, and enter the key again:
+
+```bash
+read -rs -p 'API key: ' MCBOTS_API_KEY
+export MCBOTS_API_KEY
+uv run --frozen python scripts/eval/run-navigation-fleet.py \
+  --container-engine podman --mode formal --run-id benchmark-001 \
+  --parallelism 1 --model-id YOUR-MODEL --api-protocol chat_completions \
+  --model-parameters-file configs/model_parameters/default.json
+unset MCBOTS_API_KEY
+
+uv run --frozen python scripts/eval/aggregate-navigation-results.py \
+  --run-id benchmark-001 --require-all
+```
+
+Omitting a task list selects all 180 tasks and makes model API calls for each one.
+The default parameter file selects native tool calls without provider-specific
+sampling options. Each active container has limits of 4 CPUs and 8 GiB RAM;
+increase `--parallelism` only as host capacity allows. Use `--container-engine docker`
+if you built and prepared with Docker. See the [batch guide](docs/navigation-eval.md#parallel-container-fleet)
+for subsets, resuming, custom parameters, and GPU rendering.
 
 ## Tasks
 
@@ -266,14 +314,11 @@ The Linux runner writes results under
 | `messages.jsonl` / `messages.json` | Agent interaction journal and finalized transcript, inside the run's agent record directory |
 | `runtime-readback.json`, `snapshot-after-run.json` | Runtime checks and post-run snapshot verification |
 
-For host-side analysis, install Python 3.12+ and
-[uv](https://docs.astral.sh/uv/getting-started/installation/), then install the
-locked dependencies:
+After installing the host dependencies in quickstart step 5, use your run ID:
 
 ```bash
-uv sync --frozen
-uv run python scripts/eval/aggregate-navigation-results.py --run-id YOUR-RUN-ID
-uv run python scripts/analysis/trajectory_viewer.py --root . --port 8765
+uv run --frozen python scripts/eval/aggregate-navigation-results.py --run-id YOUR-RUN-ID
+uv run --frozen python scripts/analysis/trajectory_viewer.py --root . --port 8765
 ```
 
 Aggregation accepts formal results and checks their task, settings, and map

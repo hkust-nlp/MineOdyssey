@@ -3,9 +3,14 @@ from __future__ import annotations
 import argparse
 import importlib.util
 import json
+import os
+import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
+
+from tests.test_navigation_linux_launcher import launcher
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -17,6 +22,29 @@ SPEC.loader.exec_module(fleet)
 
 
 class NavigationFleetTest(unittest.TestCase):
+    def test_quickstart_runtime_and_image_are_reused_by_fleet(self):
+        for override in [None, REPO_ROOT / 'eval/templates/_local/custom-runtime']:
+            with self.subTest(override=override), patch.dict(os.environ, {}, clear=True):
+                if override:
+                    os.environ['MCBOTS_NAV_RUNTIME_TEMPLATE_ROOT'] = str(override)
+                with patch('eval.navigation.runtime_defaults.platform.system', return_value='Linux'):
+                    argv = ['fleet', '--model-id', 'example/model', '--model-parameters-file',
+                            str(REPO_ROOT / 'configs/model_parameters/default.json')]
+                    with patch.object(sys, 'argv', argv):
+                        args = fleet.parse_args()
+                    with patch.dict(os.environ, {'MCBOTS_API_KEY': 'test-only'}):
+                        args.base_url = 'https://example.invalid/v1'
+                        fleet._validate_args(args)
+                    single = launcher.container_command(launcher.parser().parse_args(['prepare-runtime']), 'podman')
+                    _, batch = fleet._container_command(args, engine='podman', run_id='run',
+                                                         task_id='innopolis-006', attempt=1)
+                    template_env = next(v for v in single if v.startswith('MCBOTS_NAV_RUNTIME_TEMPLATE_ROOT='))
+                    self.assertIn(template_env, batch)
+                    self.assertEqual(args.image, launcher.DEFAULT_IMAGE)
+                    self.assertIn(args.image, single)
+                    expected = override or REPO_ROOT / 'eval/templates/_local/navigation-linux-cpu'
+                    self.assertEqual(args.runtime_template_root, expected)
+
     def _write_result(
         self,
         task_dir: Path,
