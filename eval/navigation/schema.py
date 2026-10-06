@@ -11,6 +11,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Iterable, Mapping
 
+from .runtime_defaults import runtime_template_root
+
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 NAVIGATION_ROOT = REPO_ROOT / "eval" / "navigation"
@@ -20,12 +22,7 @@ SETTINGS_ROOT = NAVIGATION_ROOT / "settings"
 BENCHMARKS_ROOT = NAVIGATION_ROOT / "benchmarks"
 TASK_CATALOG_PATH = NAVIGATION_ROOT / "tasks.json"
 SNAPSHOT_CACHE_ROOT = REPO_ROOT / "eval" / "snapshots" / "_cache" / "navigation"
-RUNTIME_TEMPLATE_ROOT = Path(
-    os.environ.get(
-        "MCBOTS_NAV_RUNTIME_TEMPLATE_ROOT",
-        REPO_ROOT / "eval" / "templates" / "_local" / "navigation",
-    )
-).expanduser().resolve()
+RUNTIME_TEMPLATE_ROOT = runtime_template_root(REPO_ROOT)
 
 TASK_EVAL_DEFAULTS: dict[str, Any] = {
     "time": "noon",

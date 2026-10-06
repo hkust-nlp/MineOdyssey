@@ -7,6 +7,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
+from eval.navigation import runtime_defaults
 ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location("navigation_linux", ROOT / "scripts/launch/navigation-linux.py")
 launcher = importlib.util.module_from_spec(spec)
@@ -108,6 +109,36 @@ class LinuxLauncherTest(unittest.TestCase):
         cmd = launcher.container_command(args,'docker')
         self.assertNotIn('--skip-smoke',cmd)
         self.assertNotIn('--allow-unverified-runtime',cmd)
+
+    def test_named_run_is_forwarded_and_unsafe_names_fail_early(self):
+        args = self.args('--dry-run', 'run', '--task', 'innopolis-006', '--run-id', 'quickstart-001')
+        launcher.validate(args)
+        cmd = launcher.container_command(args, 'podman')
+        self.assertEqual(cmd[cmd.index('--run-id') + 1], 'quickstart-001')
+        for name in ['', '.', '..', '/tmp/run', '../run', 'a/b', 'a/']:
+            with self.subTest(name=name), self.assertRaisesRegex(ValueError, 'single directory name'):
+                launcher.validate(self.args('--dry-run', 'run', '--task', 'innopolis-006', '--run-id', name))
+
+    def test_runtime_override_is_used_for_preparation_and_receipt_lookup(self):
+        custom = ROOT / 'eval/templates/_local/custom-runtime'
+        with patch.dict(os.environ, {'MCBOTS_NAV_RUNTIME_TEMPLATE_ROOT': str(custom)}):
+            cmd = launcher.container_command(self.args('prepare-runtime'), 'podman')
+            self.assertIn('MCBOTS_NAV_RUNTIME_TEMPLATE_ROOT=/workspace/mcbots/eval/templates/_local/custom-runtime', cmd)
+            with patch.object(Path, 'is_file', autospec=True, return_value=True) as exists:
+                launcher.validate(self.args('run', '--task', 'innopolis-006'))
+            exists.assert_called_once_with(custom / '1.21.11/runtime-receipt.json')
+
+    def test_runtime_outside_repository_is_rejected_before_container_start(self):
+        with patch.dict(os.environ, {'MCBOTS_NAV_RUNTIME_TEMPLATE_ROOT': '/tmp/other-runtime'}):
+            with self.assertRaisesRegex(ValueError, 'inside the repository'):
+                launcher.container_command(self.args('prepare-runtime'), 'podman')
+
+    def test_non_linux_native_default_is_preserved(self):
+        with patch.dict(os.environ, {}, clear=True):
+            with patch.object(runtime_defaults.platform, 'system', return_value='Darwin'):
+                self.assertEqual(runtime_defaults.runtime_template_root(ROOT), ROOT / 'eval/templates/_local/navigation')
+            with patch.object(runtime_defaults.platform, 'system', return_value='Linux'):
+                self.assertEqual(runtime_defaults.runtime_template_root(ROOT), ROOT / 'eval/templates/_local/navigation-linux-cpu')
 
 
 if __name__ == '__main__':

@@ -18,6 +18,7 @@ if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
 from eval.navigation.runner import RESULTS_ROOT  # noqa: E402
+from eval.navigation.snapshots import load_navigation_release_manifest  # noqa: E402
 from eval.navigation.schema import (  # noqa: E402
     SchemaError,
     atomic_write_json,
@@ -330,6 +331,10 @@ def aggregate(
         raise SchemaError(f"{run_id}: benchmark/setting mismatch")
 
     map_fingerprints: dict[str, str] = {}
+    release_fingerprints = {
+        asset["map_id"]: asset["world_fingerprint"]["value"]
+        for asset in load_navigation_release_manifest()["assets"]
+    }
     source_map_fingerprints: dict[str, str] = {}
     snapshot_preparation_digests: dict[str, str] = {}
     map_payloads = {
@@ -358,8 +363,12 @@ def aggregate(
         if previous != fingerprint:
             raise SchemaError(f"{run_id}: mixed fingerprints for map {map_id}")
         map_payload = map_payloads[map_id]
-        expected = map_payload["world"]["expected_prepared_fingerprint"]
-        if fingerprint != expected:
+        # Both legacy preparation and the published ready-to-run worlds remain
+        # pinned inputs. Never accept arbitrary hashes or mix versions of a map.
+        expected = {map_payload["world"]["expected_prepared_fingerprint"]}
+        if map_id in release_fingerprints:
+            expected.add(release_fingerprints[map_id])
+        if fingerprint not in expected:
             raise SchemaError(f"{run_id}: stale prepared fingerprint for map {map_id}")
         source_fingerprint = str(run.get("source_map_fingerprint", ""))
         previous_source = source_map_fingerprints.setdefault(
