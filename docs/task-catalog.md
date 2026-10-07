@@ -90,7 +90,7 @@ rules for the retained tasks are preserved. Previous run artifacts are unchanged
 
 ## Assets and preparation
 
-The [map release](https://github.com/mine-odyssey/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1)
+The [map release](https://github.com/hkust-nlp/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1)
 contains exactly these 30 maps (2.60 GB of ZIPs). The
 [release manifest](../eval/navigation/releases/navigation-maps-1.21.11-v1.json)
 records the download names, sizes, SHA-256 values, and extracted-world fingerprints.
