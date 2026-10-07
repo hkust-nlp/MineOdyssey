@@ -73,7 +73,7 @@ the verified template. Do not share this directory across CPU architectures.
 
 ## 3. Download and prepare maps
 
-The [map release](https://github.com/mine-odyssey/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1)
+The [map release](https://github.com/hkust-nlp/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1)
 contains the 30 benchmark worlds as Minecraft 1.21.11 ZIPs. Install
 [GitHub CLI (`gh`)](https://cli.github.com/) for the downloader. If the repository
 is private, authenticate with `gh auth login` using an account with access.

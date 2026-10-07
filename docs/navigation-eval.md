@@ -321,7 +321,7 @@ substitute for task-level `review` receipts.
 
 The ready-to-run distribution is tracked by
 `eval/navigation/releases/navigation-maps-1.21.11-v1.json`. The
-[MineOdyssey map release](https://github.com/mine-odyssey/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1)
+[MineOdyssey map release](https://github.com/hkust-nlp/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1)
 contains exactly the 30 benchmark assets: 20 outdoor and 10 indoor maps.
 Every asset uses the filename
 `navigation-1.21.11-<map-id>.zip`, contains a single `<map-id>/` world root,

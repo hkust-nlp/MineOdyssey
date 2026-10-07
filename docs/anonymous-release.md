@@ -52,7 +52,7 @@ are preserved; the original attribution mapping remains in the private source.
 Third-party dependency URLs, licenses, build pins and map/place names are retained.
 
 The 30 benchmark map ZIPs are mirrored under the
-[MineOdyssey map release](https://github.com/mine-odyssey/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1).
+[MineOdyssey map release](https://github.com/hkust-nlp/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1).
 The release manifest uses this repository as its download endpoint; older per-map
 provenance keeps its redaction sentinels. Access follows the repository's visibility.
 Original development-repository URLs are not substituted into the release.
