@@ -48,7 +48,7 @@ An independent evaluator records actual visits and checks the final completion
 claim. The timing and progress shown in the figure are schematic examples.
 
 > **Map downloads:** all 30 benchmark maps are available as separate ZIPs in the
-> [map release](https://github.com/mine-odyssey/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1).
+> [map release](https://github.com/hkust-nlp/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1).
 > The [release manifest](eval/navigation/releases/navigation-maps-1.21.11-v1.json)
 > pins archive hashes and world fingerprints. The quickstart downloads one map;
 > all 30 archives total 2.60 GB. Runtime preparation downloads pinned Minecraft
@@ -60,8 +60,8 @@ claim. The timing and progress shown in the figure are schematic examples.
 
 | Branch | Contents | Start here |
 | --- | --- | --- |
-| [`main`](https://github.com/mine-odyssey/MineOdyssey/tree/main) | Updated reference agent, evaluator, nine waypoint corrections, and Linux runner | [Linux quickstart](#quickstart) |
-| [`harbor`](https://github.com/mine-odyssey/MineOdyssey/tree/harbor) | Everything in `main`, plus Harbor task export, lifecycle adapters, and separate verification | [Harbor quickstart](#run-with-harbor) |
+| [`main`](https://github.com/hkust-nlp/MineOdyssey/tree/main) | Updated reference agent, evaluator, nine waypoint corrections, and Linux runner | [Linux quickstart](#quickstart) |
+| [`harbor`](https://github.com/hkust-nlp/MineOdyssey/tree/harbor) | Everything in `main`, plus Harbor task export, lifecycle adapters, and separate verification | [Harbor quickstart](#run-with-harbor) |
 
 The agent, evaluator, task catalog, waypoint data, and runtime controls are identical
 between the two branches. Shared fixes belong on `main` first and are then merged
@@ -108,7 +108,7 @@ Docker. The validated Harbor backend is Podman; Docker Harbor trials and ARM64
 have not been verified for this release.
 
 ```bash
-git clone https://github.com/mine-odyssey/MineOdyssey.git
+git clone https://github.com/hkust-nlp/MineOdyssey.git
 cd MineOdyssey
 
 python3 scripts/launch/navigation-linux.py --engine podman build
@@ -393,7 +393,7 @@ The shared agent retains its asynchronous observation and interruption behavior
 when changing the model configuration. An arbitrary Harbor agent using the generic
 `nav exec` CLI uses a different, synchronous interface and does not automatically
 inherit that behavior. See the
-[Harbor guide](https://github.com/mine-odyssey/MineOdyssey/blob/harbor/docs/harbor-pilot.md)
+[Harbor guide](https://github.com/hkust-nlp/MineOdyssey/blob/harbor/docs/harbor-pilot.md)
 for multi-task runs, credential delivery, Podman Compose compatibility, isolation,
 and exact validation records.
 
@@ -429,7 +429,7 @@ uv run python -m unittest \
 
 The [release notes](docs/anonymous-release.md) describe the selected fixes,
 anonymization, and validation limits. The
-[Harbor validation record](https://github.com/mine-odyssey/MineOdyssey/blob/harbor/eval/harbor/innopolis-006/validation.json)
+[Harbor validation record](https://github.com/hkust-nlp/MineOdyssey/blob/harbor/eval/harbor/innopolis-006/validation.json)
 records its version-specific evidence. To report a reproducible issue, include the
 branch, task ID, backend, terminal reason, and sanitized logs.
 

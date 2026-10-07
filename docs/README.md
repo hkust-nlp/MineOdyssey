@@ -1,5 +1,7 @@
 # Documentation
 
+Canonical repository: [hkust-nlp/MineOdyssey](https://github.com/hkust-nlp/MineOdyssey).
+
 ## Getting started
 
 - [Project overview](../README.md): Benchmark scope and agentic spatial intelligence, installation, 30-map downloads, branch selection, named formal model runs, full-benchmark execution, result aggregation, model-selection examples, and validation scope.
@@ -9,7 +11,7 @@
 - [Release notes](anonymous-release.md): Selected runtime fixes, nine waypoint corrections, formal settings, anonymization, and validation limits.
 
 Harbor documentation and adapters are on the
-[`harbor` branch](https://github.com/mine-odyssey/MineOdyssey/tree/harbor).
+[`harbor` branch](https://github.com/hkust-nlp/MineOdyssey/tree/harbor).
 
 ## Development and retained operational notes
 

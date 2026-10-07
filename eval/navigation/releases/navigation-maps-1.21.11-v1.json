@@ -683,7 +683,7 @@
   "data_version": 4671,
   "minecraft_version": "1.21.11",
   "release_tag": "navigation-maps-1.21.11-v1",
-  "release_url": "https://github.com/mine-odyssey/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1",
-  "repository": "mine-odyssey/MineOdyssey",
+  "release_url": "https://github.com/hkust-nlp/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1",
+  "repository": "hkust-nlp/MineOdyssey",
   "schema_version": 1
 }

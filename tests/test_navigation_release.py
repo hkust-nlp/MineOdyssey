@@ -23,9 +23,9 @@ class NavigationReleaseManifestTest(unittest.TestCase):
         self.assertEqual(payload["data_version"], 4671)
         self.assertEqual(payload["asset_count"], 30)
         self.assertEqual(len(payload["assets"]), 30)
-        self.assertEqual(payload["repository"], "mine-odyssey/MineOdyssey")
+        self.assertEqual(payload["repository"], "hkust-nlp/MineOdyssey")
         self.assertEqual(payload["release_url"],
-                         "https://github.com/mine-odyssey/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1")
+                         "https://github.com/hkust-nlp/MineOdyssey/releases/tag/navigation-maps-1.21.11-v1")
 
         map_ids = [row["map_id"] for row in payload["assets"]]
         asset_names = [row["asset_name"] for row in payload["assets"]]
