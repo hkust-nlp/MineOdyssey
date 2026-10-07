@@ -1,5 +1,7 @@
 # Documentation
 
+Canonical repository: [hkust-nlp/MineOdyssey](https://github.com/hkust-nlp/MineOdyssey).
+
 ## Getting started
 
 - [Project overview](../README.md): Benchmark scope and agentic spatial intelligence, installation, 30-map downloads, branch selection, named formal model runs, full-benchmark execution, result aggregation, model-selection examples, and validation scope.
