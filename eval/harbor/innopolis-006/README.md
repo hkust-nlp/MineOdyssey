@@ -11,8 +11,7 @@ Install Docker Engine + Compose (or Podman + podman-compose) and Harbor 0.23.0.
 Export adds environment/world/source.tar.gz and environment/agent-source.tar.gz.
 The [Compose template](environment/docker-compose.yaml) sets `cpus: 4` and
 `mem_limit: 12g` for `world`; [task.toml](task.toml) configures `main` and the
-separate verifier. These are container resource settings. Minimum host RAM and
-free-disk requirements have not been measured for this release.
+separate verifier. These are container resource settings.
 
 ```bash
 mkdir -p /tmp/navigation-source
@@ -85,8 +84,7 @@ Raw runs, screenshots, credentials, maps and runtime archives remain private.
 See validation.json for current tests and live results. Earlier XML/default runs
 are retained as diagnostic evidence and are not reclassified as formal-profile
 runs. The source includes scripted retry/failure, coordinate-lock and isolation
-smokes; these do not establish model navigation success. Docker and uncached
-Harbor builds have not yet been tested on this host.
+smokes; these do not establish model navigation success.
 
 Historical host-Agent validation: 176 Python and 6 Java tests passed. The native real-world smoke
 completed 12 requests (one injected 500, eleven successful replies), blocked two

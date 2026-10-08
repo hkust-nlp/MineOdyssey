@@ -42,12 +42,12 @@
 - Whenever docs are added/renamed/removed, update both `docs/README.md` and the map below in the same change.
 
 ## Documentation Map (Keep In Sync)
-- `eval/harbor/innopolis-006/README.md`: Harbor task template, pinned hkust-nlp/MineOdyssey release map download, runtime setup and historical validation scope.
+- `eval/harbor/innopolis-006/README.md`: Harbor task template, pinned hkust-nlp/MineOdyssey release map download, runtime setup, container resource settings and historical validation scope.
 - `docs/assets/paper/README.md`: README figures matched to the September 29 manuscript package, with source versions, PDF/PNG hashes, credits and presentation boundaries.
 - `docs/task-catalog.md`: Source-bound 180-task/30-map inventory, locale tags, task schema and the matching 30-map release with pinned hashes.
 - `docs/harbor-parity-audit.md`: Original navigation-agent versus Harbor parity audit, effective retry policy, context/action/event differences and runtime evidence.
-- `docs/harbor-pilot.md`: Actual formal GLM policy and coordinate-lock validation, rootless Podman launch, trusted model metadata, transport failure classification, catalog task export from all 30 verified release map archives or snapshot caches, multi-task Harbor rollouts, shared Agent integration, formal native and historical XML prompt hashes, generated instructions, dependency parity, networkless game service, trusted verification, bounded synchronous CLI timeouts, explicit unscored terminal reasons, container-local original Agent execution and ephemeral credential delivery.
-- `README.md`: Public MineOdyssey overview at hkust-nlp/MineOdyssey and scope of agentic spatial intelligence, CPU quickstart, 30-map downloads, named formal runs and aggregation, shared batch setup, task and evaluation contract, original/Harbor branches, and validation scope.
+- `docs/harbor-pilot.md`: Actual formal GLM policy and coordinate-lock validation, rootless Podman launch, backend capabilities and container resource settings, trusted model metadata, transport failure classification, catalog task export from all 30 verified release map archives or snapshot caches, multi-task Harbor rollouts, shared Agent integration, formal native and historical XML prompt hashes, generated instructions, dependency parity, networkless game service, trusted verification, bounded synchronous CLI timeouts, explicit unscored terminal reasons, container-local original Agent execution and ephemeral credential delivery.
+- `README.md`: Public MineOdyssey overview at hkust-nlp/MineOdyssey and scope of agentic spatial intelligence, CPU quickstart, container-engine selection, 30-map downloads, named formal runs and aggregation, shared batch setup, task and evaluation contract, original/Harbor branches, and development checks.
 - `docs/README.md`: Index for focused docs under `docs/`, with the canonical hkust-nlp/MineOdyssey repository and setup links.
 - `docs/navigation-eval.md`: Minecraft 1.21.11 single-task and batch evaluation, shared runtime defaults, GPU setup, release-aware aggregation, and labeled legacy preparation notes.
 - `docs/scripts-layout.md`: Script directory grouping and lookup guide.
@@ -64,6 +64,6 @@
 - Never commit secrets or local credentials; keep `config/api_models.json` local and derive it from `config/api_models.example.json`.
 - Avoid committing runtime artifacts (`game/`, `workspaces/`, `eval/results/`, logs/screenshots), which are intentionally ignored.
 
-- `docs/anonymous-release.md`: Selected runtime fixes, nine waypoint corrections, formal-profile alignment, anonymous-export versus development-branch scope and validation limits.
+- `docs/anonymous-release.md`: Selected runtime fixes, nine waypoint corrections, formal-profile alignment, anonymous-export versus development-branch scope and release checks.
 
-- `docs/linux-quickstart.md`: Generic Linux Docker/Podman CPU setup, CPU/GPU rendering scope and virtual display, resource-measurement status, actual graphics/sandbox checks, verified downloads and imports for one or all 30 release maps, named formal runs, result aggregation, and shared single-task/batch runtime defaults.
+- `docs/linux-quickstart.md`: Linux x86_64 Docker/Podman CPU setup, CPU/GPU rendering scope and virtual display, storage needs, graphics/sandbox checks, verified downloads and imports for one or all 30 release maps, named formal runs, result aggregation, and shared single-task/batch runtime defaults.
