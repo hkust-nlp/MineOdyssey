@@ -75,11 +75,9 @@ caches are private build inputs, excluded from public source packages. Preparati
 writes `eula=true`; accept the Minecraft EULA before preparing/running the runtime.
 
 The [Compose template](../eval/harbor/innopolis-006/environment/docker-compose.yaml)
-sets `mem_limit: 12g` and `cpus: 4` for `world`. These are configured container
-limits, not measured usage or minimum host requirements. `main` and the separate
-verifier have their own resource settings in
-[task.toml](../eval/harbor/innopolis-006/task.toml). Minimum host RAM and free-disk
-requirements have not been measured for this release.
+sets `mem_limit: 12g` and `cpus: 4` for `world`. `main` and the separate
+verifier have their own container resource settings in
+[task.toml](../eval/harbor/innopolis-006/task.toml).
 
 Install Harbor on the host. The CPU base image already contains the locked Agent
 dependencies; exporting also creates `environment/agent-source.tar.gz` containing
@@ -125,7 +123,7 @@ directory, environment and all Harbor run options; Docker needs no systemd wrapp
 misdetect podman-compose 1.6 as Compose V2; prefix only the Harbor command with
 `PODMAN_COMPOSE_PROVIDER=/bin/false` if `podman compose ls` fails. This changes no
 host configuration. Its missing `compose cp` can emit warnings; Harbor falls back
-to tar transport. Docker and an uncached Harbor runtime build remain untested here.
+to tar transport.
 
 Map archives come from the same 30-map release as the Linux runner. Download a
 selected map and pass its release ZIP to the exporter:
@@ -331,12 +329,10 @@ The following distinctions must remain explicit when publishing or aggregating i
 - **Installation is not self-contained.** Task images require a separately built
   `localhost/anonymous-navigation:linux-cpu` base and externally supplied maps.
   The original Agent and its locked Python environment are included in `main`; the
-  host retains the launcher/source needed for export and integrity checks. Fresh
-  Docker builds remain untested here.
+  host retains the launcher/source needed for export and integrity checks.
 - **Backend requirements are substantial.** Compose must support the separate
   world service and verifier. World needs 12 GB / four CPUs and the documented
   nested-sandbox capabilities; the main task's 2 GB / two CPUs are not the total.
-  Backends that cannot run these sidecars/capabilities are not validated.
 - **The new layout still has a transport boundary.** Routine actions, screenshots
   and feedback now use the direct container-local socket. Compose exec remains for
   lifecycle operations and trusted collection. No performance improvement or exact

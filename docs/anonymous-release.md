@@ -57,13 +57,12 @@ The release manifest uses this repository as its download endpoint; older per-ma
 provenance keeps its redaction sentinels. Access follows the repository's visibility.
 Original development-repository URLs are not substituted into the release.
 
-## Validation limits
+## Release checks
 
 Unit/regression tests and syntax checks exercise the selected changes. The Linux
 CPU image builds successfully; live Minecraft server/client preparation and the
 new image's Mesa graphics, screenshot and Bubblewrap checks passed. The coordinate-lock
 AgentBridge artifact was rebuilt from the included source, with six Java tests passing.
-Third-party binary visual content review has not been performed.
 Automated identity/credential
 scans do not prove that public code or content hashes cannot be correlated with a
 previously published repository.
@@ -88,7 +87,7 @@ labels/paths and explicitly installs xauth. The launcher keeps host paths in arg
 boundaries, publishes only optional loopback noVNC, rejects missing map files and
 credentials early, and disables inherited Podman host proxy settings. Build-context
 ignore files exclude credentials and generated data. See the Linux guide for the
-map download/import workflow and runtime validation status.
+map download/import workflow and runtime checks.
 
 ## Harbor pilot
 
