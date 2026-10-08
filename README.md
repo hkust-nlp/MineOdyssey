@@ -99,13 +99,12 @@ need a desktop session or a connected monitor. These rendering choices concern
 Minecraft. The agent calls the configured model API; hosting that model yourself
 has separate hardware requirements.
 
-Minimum host RAM and free-disk requirements have not been measured for this release.
 Disk use includes container images, map archives, prepared snapshots, and per-trial
 world copies and logs.
 
-The examples below use Podman. Substitute `--engine docker` consistently to use
-Docker. The validated Harbor backend is Podman; Docker Harbor trials and ARM64
-have not been verified for this release.
+The examples below use Podman on Linux x86_64. To use Docker with
+`navigation-linux.py`, replace `--engine podman` with `--engine docker`
+throughout the setup and execution steps.
 
 ```bash
 git clone https://github.com/hkust-nlp/MineOdyssey.git
@@ -428,7 +427,7 @@ uv run python -m unittest \
 ```
 
 The [release notes](docs/anonymous-release.md) describe the selected fixes,
-anonymization, and validation limits. The
+anonymization, and release checks. The
 [Harbor validation record](https://github.com/hkust-nlp/MineOdyssey/blob/harbor/eval/harbor/innopolis-006/validation.json)
 records its version-specific evidence. To report a reproducible issue, include the
 branch, task ID, backend, terminal reason, and sanitized logs.

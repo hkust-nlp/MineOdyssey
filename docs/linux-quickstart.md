@@ -4,8 +4,7 @@ Use the CPU container path below. No NVIDIA GPU, desktop session, cluster accoun
 pre-existing Minecraft installation, or server-specific filesystem layout is required.
 The host needs Python 3 and a working Docker Engine or Podman installation; Java 21,
 Python application dependencies, Xvfb, Mesa, screenshots and noVNC are installed in
-the image. Rendering uses Mesa software rendering. Linux x86_64 is the validation
-platform; ARM64 has not been verified for this release.
+the image. This guide targets Linux x86_64 and uses Mesa software rendering.
 
 For GPU rendering, use the navigation fleet runner's `--gpu-devices` option and
 the NVIDIA container image described in [GPU setup](navigation-eval.md#gpu-rendering).
@@ -19,10 +18,8 @@ open desktop session or a connected monitor. Rendering generates Minecraft image
 the agent separately calls the configured model API. Hardware requirements for
 self-hosting a model depend on that model's deployment.
 
-Minimum host RAM and free-disk requirements have not been measured for this release.
 Disk use includes container images, map archives, prepared snapshots, and per-trial
-world copies and logs. Container resource limits describe configuration, not measured
-usage or minimum host requirements.
+world copies and logs.
 
 The container engine must work for your current account. The launcher prints the
 exact command it executes. If both engines exist it chooses Docker; select one
@@ -59,7 +56,7 @@ python3 scripts/launch/navigation-linux.py prepare-runtime
 
 This downloads the pinned Minecraft/NeoForge/mod artifacts, checks their hashes,
 then launches a temporary server and CPU-rendered client to verify AgentBridge.
-It does not mark an untested runtime as ready. The server preparation writes
+The runtime is marked ready after these checks pass. The server preparation writes
 `eula=true`; use it only if you accept Minecraft's EULA. Generated runtime data stays
 under `eval/templates/_local/navigation-linux-cpu/` in your extracted directory.
 Single-task runs and the CPU batch runner use this same path and the image

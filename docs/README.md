@@ -4,11 +4,11 @@ Canonical repository: [hkust-nlp/MineOdyssey](https://github.com/hkust-nlp/MineO
 
 ## Getting started
 
-- [Project overview](../README.md): Benchmark scope and agentic spatial intelligence, installation, 30-map downloads, branch selection, named formal model runs, full-benchmark execution, result aggregation, model-selection examples, and validation scope.
+- [Project overview](../README.md): Benchmark scope and agentic spatial intelligence, installation, container-engine selection, 30-map downloads, branch selection, named formal model runs, full-benchmark execution, result aggregation, model-selection examples, and development checks.
 - [Paper figures](assets/paper/README.md): Environment overview, agent framework, and terrain examples matched to the September 29 manuscript package, with source versions and presentation notes.
-- [Linux quickstart](linux-quickstart.md): CPU container setup, CPU/GPU rendering scope and virtual display, resource-measurement status, graphics and sandbox checks, verified downloads and imports for one or all 30 maps, credentials, named formal runs, result aggregation, and reuse of the same runtime for batches.
+- [Linux quickstart](linux-quickstart.md): Linux x86_64 CPU container setup, CPU/GPU rendering scope and virtual display, storage needs, graphics and sandbox checks, verified downloads and imports for one or all 30 maps, credentials, named formal runs, result aggregation, and reuse of the same runtime for batches.
 - [Task catalog](task-catalog.md): All 30 selected maps, 180 tasks, locale tags, source manifests, and the matching map release.
-- [Release notes](anonymous-release.md): Selected runtime fixes, nine waypoint corrections, formal settings, anonymization, and validation limits.
+- [Release notes](anonymous-release.md): Selected runtime fixes, nine waypoint corrections, formal settings, anonymization, and release checks.
 
 Harbor documentation and adapters are on the
 [`harbor` branch](https://github.com/hkust-nlp/MineOdyssey/tree/harbor).
