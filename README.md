@@ -4,7 +4,13 @@
 
 **Benchmarking Spatial Agentic Intelligence in the Wild**
 
-[Overview](#overview) · [Quickstart](#quickstart) · [Tasks](#tasks) · [Evaluation](#evaluation) · [Harbor](#run-with-harbor) · [Documentation](docs/README.md)
+Yuxuan Cao · Junlong Li · Hao Li · Junxian He
+
+The Hong Kong University of Science and Technology
+
+[Paper](https://arxiv.org/abs/2610.11328) · [PDF](https://arxiv.org/pdf/2610.11328) · [Project website](https://mine-odyssey.github.io/)
+
+[Overview](#overview) · [Quickstart](#quickstart) · [Tasks](#tasks) · [Evaluation](#evaluation) · [Harbor](#run-with-harbor) · [Citation](#citation) · [Documentation](docs/README.md)
 
 </div>
 
@@ -431,6 +437,22 @@ anonymization, and release checks. The
 [Harbor validation record](https://github.com/hkust-nlp/MineOdyssey/blob/harbor/eval/harbor/innopolis-006/validation.json)
 records its version-specific evidence. To report a reproducible issue, include the
 branch, task ID, backend, terminal reason, and sanitized logs.
+
+## Citation
+
+If you use Mine Odyssey in your research, please cite our [paper](https://arxiv.org/abs/2610.11328):
+
+```bibtex
+@misc{cao2026mineodyssey,
+  title = {Mine Odyssey: Benchmarking Spatial Agentic Intelligence in the Wild},
+  author = {Cao, Yuxuan and Li, Junlong and Li, Hao and He, Junxian},
+  year = {2026},
+  eprint = {2610.11328},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.AI},
+  url = {https://arxiv.org/abs/2610.11328}
+}
+```
 
 ## Acknowledgements and third-party assets
 
