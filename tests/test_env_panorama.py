@@ -1,5 +1,7 @@
 import json
+import math
 import os
+import subprocess
 import tempfile
 import unittest
 from pathlib import Path
@@ -10,6 +12,32 @@ from agent.env import Environment
 
 
 class EnvironmentPanoramaTest(unittest.TestCase):
+    def test_capture_tiles_face_the_named_side_at_different_headings(self):
+        script = (Path(__file__).resolve().parents[1] / "scripts/analysis/capture-practical-panorama-inside.sh").read_text()
+        helpers = "calc_yaw() {" + script.split("calc_yaw() {", 1)[1].split("look_abs() {", 1)[0]
+        capture = script.split("# Main is the exact current view.", 1)[1].split("# Restore camera before composing.", 1)[0]
+        for yaw in (0, 90, 179, -179):
+            with self.subTest(yaw=yaw):
+                command = f"YAW0={yaw}; PITCH0=0; LR_YAW=60; UD_DELTA=55\n" + helpers + r'''
+look_abs() { CAPTURE_YAW="$1"; }
+capture_raw() { printf '%s %s\n' "$1" "$CAPTURE_YAW"; }
+''' + capture + r'''
+printf 'left_label %s\nright_label %s\n' "$LEFT_LABEL" "$RIGHT_LABEL"
+'''
+                output = subprocess.check_output(["bash", "-eu", "-c", command], text=True)
+                values = dict(line.split(" ", 1) for line in output.splitlines())
+                self.assertEqual(float(values["main"]), yaw)
+                # Minecraft forward = (-sin(yaw), cos(yaw)); its right vector is
+                # (-cos(yaw), -sin(yaw)). Compare the actual captured directions.
+                angle = math.radians(yaw)
+                right = (-math.cos(angle), -math.sin(angle))
+                for side, sign in (("left", -1), ("right", 1)):
+                    target = math.radians(float(values[side]))
+                    projection = -math.sin(target) * right[0] + math.cos(target) * right[1]
+                    self.assertGreater(sign * projection, 0)
+                self.assertEqual(values["left_label"], "left y-60")
+                self.assertEqual(values["right_label"], "right y+60")
+
     def _make_runtime(self, root: Path) -> tuple[Path, Path, Path]:
         workspace = root / "game"
         workspace.mkdir()

@@ -25,12 +25,13 @@ alias for `eval.harbor_agents.original:OriginalNavigationAgent`.
 
 ## Prompt and actual-run contract
 
-The native system prompt matches the actual historical GLM journal byte for byte:
-`e46a9f5101652881fc270a29dc706fc5ae0fde1ea94d502dde0288fea00930ed`.
+The current native system prompt corrects the historical yaw descriptions:
+positive yaw turns right and negative yaw turns left. Its SHA-256 is
+`92f5b919e049357f7ce100c6a44fdf0cedb5d9d4a42b8bdbd0c113b19f749ad1`.
 `tests/fixtures/navigation_formal_glm.json` pins the independent historical policy,
-model parameters and native function schema; the source run is identified by hash.
-The shared `agent/navigation_prompt.py` still tests the legacy XML prompt against
-its initial-submission hashes, separately from the current native baseline.
+model parameters, original prompt hash and native function schema; the source run
+is identified by hash. Native and legacy XML parity checks allow only the two
+corrected yaw sentences; all other prompt bytes match their historical fixtures.
 
 Harbor instruction.md is generated from the same Objective, Route Completion and
 game-control text, preserving the original-language task. Navigation system guidance

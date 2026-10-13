@@ -8,11 +8,11 @@ Canonical repository: [hkust-nlp/MineOdyssey](https://github.com/hkust-nlp/MineO
 - [Paper figures](assets/paper/README.md): Environment overview, agent framework, and terrain examples matched to the September 29 manuscript package, with source versions and presentation notes.
 - [Linux quickstart](linux-quickstart.md): Linux x86_64 CPU container setup, CPU/GPU rendering scope and virtual display, storage needs, graphics and sandbox checks, verified downloads and imports for one or all 30 maps, credentials, named formal runs, result aggregation, and reuse of the same runtime for batches.
 - [Task catalog](task-catalog.md): All 30 selected maps, 180 tasks, locale tags, source manifests, and the matching map release shared by Linux and Harbor exports.
-- [Release notes](anonymous-release.md): Selected runtime fixes, nine waypoint corrections, formal settings, source-export boundaries, contributor attribution, and release checks.
+- [Release notes](anonymous-release.md): Selected runtime fixes, nine waypoint corrections, formal settings, source-export boundaries, contributor attribution, yaw direction correction, and release checks.
 
 ## Harbor
 
-- [Harbor setup and runtime](harbor-pilot.md): Task export, Podman setup, backend capabilities and container resource settings, container-local original Agent, credentials, isolated verification, and version-specific live checks.
+- [Harbor setup and runtime](harbor-pilot.md): Task export, Podman setup, backend capabilities and container resource settings, corrected yaw guidance, container-local original Agent, credentials, isolated verification, and version-specific live checks.
 - [Parity audit](harbor-parity-audit.md): Historical differences and the evidence used to align Harbor with the original runner.
 - [Task template](../eval/harbor/innopolis-006/README.md): Concrete task layout, container resource settings, the pinned release map download, and runtime inputs.
 

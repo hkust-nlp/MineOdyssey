@@ -17,7 +17,11 @@ class Provider(BaseHTTPRequestHandler):
         assert request['messages'][0]['content']==build_navigation_system_prompt(action_protocol='tool_calls')
         baseline=self.server.baseline
         prompt_digest=hashlib.sha256(request['messages'][0]['content'].encode()).hexdigest()
-        assert prompt_digest==baseline['system_prompt_sha256']
+        # Keep the historical fixture intact; only yaw wording changed in release.
+        historical_prompt=request['messages'][0]['content'].replace(
+            '- Positive yaw turns right.\n- Negative yaw turns left.',
+            '- Positive yaw turns left.\n- Negative yaw turns right.')
+        assert hashlib.sha256(historical_prompt.encode()).hexdigest()==baseline['system_prompt_sha256']
         assert request.get('tools') == baseline['tools']
         assert request['max_tokens'] == 32000
         assert request['reasoning_effort'] == 'max'

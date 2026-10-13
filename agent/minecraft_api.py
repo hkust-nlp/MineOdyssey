@@ -375,7 +375,7 @@ class MinecraftAPI:
 
         Args:
             yaw:
-                - mode="relative": delta yaw (positive = turn left, negative = turn right)
+                - mode="relative": delta yaw (positive = turn right, negative = turn left)
                 - mode="absolute": absolute yaw angle
             pitch:
                 - mode="relative": delta pitch (positive = look down, negative = look up)
@@ -386,7 +386,7 @@ class MinecraftAPI:
             Response dict with success status
 
         Example:
-            >>> api.set_look(30, -10)  # Relative: turn left 30°, look up 10°
+            >>> api.set_look(30, -10)  # Relative: turn right 30°, look up 10°
             >>> api.set_look(180, 0, mode="absolute")  # Absolute facing north
         """
         resolved = self._resolve_look_target(yaw, pitch, mode)

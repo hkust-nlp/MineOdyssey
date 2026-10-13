@@ -97,8 +97,8 @@ mcapi look --yaw <degrees> --pitch <degrees> --mode <relative|absolute>
 
 In relative mode:
 
-- Positive yaw turns left.
-- Negative yaw turns right.
+- Positive yaw turns right.
+- Negative yaw turns left.
 - Positive pitch looks down.
 - Negative pitch looks up.
 
