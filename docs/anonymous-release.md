@@ -35,15 +35,21 @@ implementation. Fixed-camera/no-map experiments, reference-navigation
 extensions, model-specific image caps, additional task removals beyond the final
 roster, extra waypoint edits in older workspaces and fleet autoscaling are excluded.
 
-## Anonymization
+## Source export and attribution
 
-This repository starts from a clean source snapshot with fresh anonymous
-commit metadata. Original development history and remotes are not imported.
+This repository was initially published from a clean source snapshot with anonymous
+commit metadata. The public `main` and `harbor` histories now credit Yuxuan Cao
+for release maintenance. The initial source import also credits Junlong Li and
+Hao Li through Git co-author metadata, reflecting their contributions to the
+imported code. The attribution correction preserves each existing commit's
+file contents and timestamps. The published map release tag remains unchanged.
+Original development history and remotes are not imported.
 The source-only ZIPs contain no Git metadata. The actual API configuration,
 old agent recordings, route-review media, generated snapshots/templates/runtime state,
-local game data and cluster bootstrap helpers are outside this package. Known author
-names, user home/cluster paths, repository URLs and repeated credential values were
-removed or replaced. Do not publish the separate private exclusion directory.
+local game data and cluster bootstrap helpers are outside this package. During the
+initial export, known author names, user home/cluster paths, repository URLs and
+repeated credential values were removed or replaced. Do not publish the separate
+private exclusion directory.
 
 `anonymous/source`, `https://example.invalid/anonymous-source`, a 40-zero Git revision,
 and release ID `1` are explicit redaction sentinels, not real provenance claims or

@@ -64,6 +64,6 @@
 - Never commit secrets or local credentials; keep `config/api_models.json` local and derive it from `config/api_models.example.json`.
 - Avoid committing runtime artifacts (`game/`, `workspaces/`, `eval/results/`, logs/screenshots), which are intentionally ignored.
 
-- `docs/anonymous-release.md`: Selected runtime fixes, nine waypoint corrections, formal-profile alignment, anonymous-export versus development-branch scope and release checks.
+- `docs/anonymous-release.md`: Selected runtime fixes, nine waypoint corrections, formal-profile alignment, source-export boundaries, contributor attribution and release checks.
 
 - `docs/linux-quickstart.md`: Linux x86_64 Docker/Podman CPU setup, CPU/GPU rendering scope and virtual display, storage needs, graphics/sandbox checks, verified downloads and imports for one or all 30 release maps, named formal runs, result aggregation, and shared single-task/batch runtime defaults.
