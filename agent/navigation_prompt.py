@@ -1,7 +1,7 @@
 """Navigation prompt shared by the original runner and Harbor export.
 
-The XML text is retained for legacy initial-submission checks. Harbor and the
-formal launcher select native tools, whose text matches historical GLM journals.
+The XML and native-tool prompts retain the historical navigation policy with
+corrected yaw direction descriptions: positive turns right, negative turns left.
 """
 
 # Source revision redacted in the anonymous release; prompt hashes are retained.
@@ -138,8 +138,8 @@ mcapi look --yaw <degrees> --pitch <degrees> --mode <relative|absolute>
 
 In relative mode:
 
-- Positive yaw turns left.
-- Negative yaw turns right.
+- Positive yaw turns right.
+- Negative yaw turns left.
 - Positive pitch looks down.
 - Negative pitch looks up.
 

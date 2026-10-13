@@ -23,9 +23,13 @@ class FormalNavigationParityTests(unittest.TestCase):
             self.assertEqual(setting[key], FORMAL[key], key)
         self.assertEqual(resolve_task_eval_setting({}), FORMAL["eval_setting"])
 
-    def test_actual_native_prompt_and_tool_schema_match(self):
+    def test_native_prompt_only_changes_yaw_directions_and_preserves_tools(self):
         prompt = build_navigation_system_prompt(action_protocol="tool_calls")
-        self.assertEqual(hashlib.sha256(prompt.encode()).hexdigest(), FORMAL["system_prompt_sha256"])
+        corrected = "- Positive yaw turns right.\n- Negative yaw turns left."
+        self.assertEqual(prompt.count(corrected), 1)
+        historical = prompt.replace(corrected,
+            "- Positive yaw turns left.\n- Negative yaw turns right.")
+        self.assertEqual(hashlib.sha256(historical.encode()).hexdigest(), FORMAL["system_prompt_sha256"])
         agent = object.__new__(Agent)
         agent.allow_model_observe_toggle = False
         agent.navigation_claim_client = object()

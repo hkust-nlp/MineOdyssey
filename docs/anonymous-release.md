@@ -2,6 +2,12 @@
 
 ## Included changes
 
+- Relative camera yaw descriptions now match Minecraft rotation: positive turns
+  right and negative turns left. Optional panorama views use negative yaw for the
+  left tile and positive yaw for the right tile. Camera command values are unchanged.
+  Historical prompt fixtures and evaluation receipts retain their original bytes;
+  prompt parity checks permit only the two corrected yaw sentences.
+
 - Nine waypoint corrections with their original coordinate records and regression tests.
 - Command/action IDs remain attached to late results; a timeout or stop targets the
   originating command. Rejected/failed commands emit terminal feedback rather than

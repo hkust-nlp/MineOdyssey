@@ -10,13 +10,13 @@
 # Auxiliary look angles:
 #   up: same yaw, pitch clamped to [-90, 0] after subtracting --ud-delta
 #   feet: same yaw, pitch clamped to [0, 90] after adding --ud-delta
-#   left: yaw + --lr-yaw, same pitch
-#   right: yaw - --lr-yaw, same pitch
+#   left: yaw - --lr-yaw, same pitch
+#   right: yaw + --lr-yaw, same pitch
 #   back: yaw + 180, same pitch
 # Captions:
 #   main: lower-left, "main"
 #   auxiliary tiles: upper-left, effective relative angle labels
-#     up p-N, feet p+N, left y+N, right y-N, back y+180
+#     up p-N, feet p+N, left y-N, right y+N, back y+180
 #
 # Intended to run inside the unified runtime container, e.g.:
 #   /workspace/mcbots/scripts/analysis/capture-practical-panorama-inside.sh Bot1 \
@@ -270,8 +270,8 @@ capture_raw main
 
 FEET_PITCH=$(calc_feet_pitch)
 UP_PITCH=$(calc_up_pitch)
-LEFT_YAW=$(calc_yaw "$LR_YAW")
-RIGHT_YAW=$(calc_yaw "-$LR_YAW")
+LEFT_YAW=$(calc_yaw "-$LR_YAW")
+RIGHT_YAW=$(calc_yaw "$LR_YAW")
 BACK_YAW=$(calc_yaw "180")
 FEET_DPITCH=$(sub_float "$FEET_PITCH" "$PITCH0")
 UP_DPITCH=$(sub_float "$UP_PITCH" "$PITCH0")

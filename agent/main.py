@@ -136,7 +136,7 @@ Quick action-space reference for `exec` commands (verbatim concise reference):
 #### `mcapi look [--yaw <float>] [--pitch <float>] [--mode <relative|absolute>]`
 - Description: Look at a specific yaw and pitch, either relative to the current direction or absolute.
 - Parameters:
-  - `--yaw: float` (optional, default: `0`), the yaw angle. > 0: turn left, < 0: turn right.
+  - `--yaw: float` (optional, default: `0`), the yaw angle. > 0: turn right, < 0: turn left.
   - `--pitch: float` (optional, default: `0`), the pitch angle. > 0: look down, < 0: look up.
   - `--mode: str` (optional, default: `relative`, choices: `relative`, `absolute`), the mode of the look.
 
@@ -246,8 +246,8 @@ Basically the same as the `mcapi` CLI, but in Python to make it easier to handle
 - `mode: str` (optional, default: `relative`, choices: `relative`, `absolute`), the mode of the look.
 - Mode semantics:
   - `relative`:
-    - `yaw > 0`: turn left
-    - `yaw < 0`: turn right
+    - `yaw > 0`: turn right
+    - `yaw < 0`: turn left
     - `pitch > 0`: look down
     - `pitch < 0`: look up
   - `absolute`: direct target yaw/pitch
@@ -771,7 +771,7 @@ _OBSERVE_MODE_DESCRIPTION_WITH_TOGGLE = """\
 - The mode at trajectory start is `__OBSERVATION_DEFAULT__`. You will also be told the current mode inside every trim/reset marker and whenever you flip it via `start_observe`/`stop_observe`."""
 
 _PANORAMA_NOTE_BLOCK = """\
-- **Panorama observation**: When the bot is stationary and no GUI (inventory/crafting/chest/etc.) is open, the screenshot you receive will be a 6-view composite mosaic instead of a single frame — top row `up | feet`, middle `main` (current view, with HUD), bottom row `left | back | right` — to give you broader spatial awareness in one image. Each non-main tile carries an upper-left label with its exact relative angle (e.g. `up p-55`, `left y+60`, `back y+180`). When the bot is moving or any GUI is open, you'll get the normal single-frame view instead."""
+- **Panorama observation**: When the bot is stationary and no GUI (inventory/crafting/chest/etc.) is open, the screenshot you receive will be a 6-view composite mosaic instead of a single frame — top row `up | feet`, middle `main` (current view, with HUD), bottom row `left | back | right` — to give you broader spatial awareness in one image. Each non-main tile carries an upper-left label with its exact relative angle (e.g. `up p-55`, `left y-60`, `back y+180`). When the bot is moving or any GUI is open, you'll get the normal single-frame view instead."""
 
 
 _OBSERVE_MODE_DESCRIPTION_LOCKED_PAUSED = """\
